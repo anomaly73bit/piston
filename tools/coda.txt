@@ -2,32 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-BMW B48 | quattro cilindri modulare
-BMW B47 / B57 diesel | quattro e sei cilindri diesel modulari
-Mercedes M117 / M119 V8 | 500 SL, 500 E, 560 SEL
-Mercedes M104 sei cilindri | E320, SL320, C36 AMG
-Mercedes M112 / M113 V6 e V8 | E/S/SL anni 2000, E55 AMG Kompressor
-Mercedes M275 / M279 V12 biturbo | S600, S65 AMG, Pagani Zonda/Huayra (M158/M279 AMG)
-Mercedes M120 V12 | S600 W140, Pagani Zonda (M120 AMG)
-Mercedes OM642 3.0 V6 diesel | 320 CDI, 350 CDI
-Mercedes OM651 2.1 diesel | C 220 CDI, Sprinter
-Mercedes M274 / M264 2.0 turbo | C 200/250 W205
-Mercedes M256 sei cilindri | ibrido leggero 48 V
-Audi 2.2 cinque cilindri turbo (Quattro, S2, RS2) | 10v e 20v, RS2 con Porsche
-Audi 4.2 V8 40v | S4 B6, RS6 C5 biturbo
-Audi 4.0 TFSI V8 (EA824) | RS6, RS7, S8, Bentley, Lamborghini Urus
-Audi 2.9 / 3.0 TFSI V6 biturbo (EA839) | RS4 B9, RS5, S4 B9
-Audi 3.0 TDI V6 | A6, A8, Q7, Touareg
-VW EA111 1.4 TSI twincharger | Golf GTI, Polo GTI; compressore + turbo
-VW 1.6 TDI / 2.0 TDI EA288 | successore EA189
-VW W12 | Phaeton, Bentley Continental, Audi A8 W12
-VW EA390 VR6 / 3.6 | solo se distinto dalla scheda VR6, altrimenti saltare
-VW EA888 evo4 / EA211 1.5 TSI evo | 1.5 TSI con disattivazione cilindri
-Porsche 3.2 Carrera boxer raffreddato ad aria (930/20) | 911 Carrera 3.2
-Porsche M64 (964/993) | 3.6 raffreddato ad aria, 993 Turbo biturbo
-Porsche 9A1 boxer DFI | 997.2, 991.1, Cayman/Boxster 981
-Porsche 9A2 boxer biturbo | 991.2, 992
-Porsche 4.0 GT3 (MA1.75 / 9A2 Evo GT) | 991 GT3, 992 GT3, 718 GT4
 Porsche 2.5 / 2.0 quattro cilindri boxer 718 | 718 Boxster/Cayman
 Porsche 4.8 V8 (M48) | Cayenne, Panamera
 Porsche 944 / 968 quattro cilindri | 2.5–3.0, 944 Turbo
@@ -102,7 +76,6 @@ TVR Speed Six | Tuscan, Cerbera, Sagaris
 Aston Martin AM V12 | DB9, Vanquish, DBS
 Aston Martin V8 4.3 / 4.7 (AJ37) | V8 Vantage 2005
 McLaren M840T | 720S, 765LT, Artura escluso
-Pagani / AMG M158 / M279 V12 | Huayra
 Koenigsegg V8 biturbo 5.0 | Agera, Regera, Jesko
 Rolls-Royce / BMW N74 V12 | Ghost, Wraith, Cullinan (N74, N74B66)
 Bentley 6¾ L-series V8 | Mulsanne, Arnage
@@ -112,3 +85,224 @@ Suzuki G13B / M13A / K14C | Swift GTi, Swift Sport
 Daihatsu / Toyota KF tre cilindri | kei car
 Lada VAZ-2106 / 21126 | Niva, Priora
 Škoda / VW 1.2 HTP | Fabia, Polo
+Hyundai Alpha 1.3 / 1.5 / 1.6 | Accent, Lantra, Kia Rio; primo motore progettato da Hyundai
+Hyundai Beta 1.8 / 2.0 (G4GC) | Elantra XD, Coupé, Tucson, Kia Cerato
+Hyundai Gamma 1.4 / 1.6 (G4FC, G4FD GDi, G4FJ T-GDi) | i30, Kia Ceed, Veloster Turbo
+Hyundai Kappa 1.0 / 1.2 / 1.4 (anche T-GDi) | i10, i20, Kia Picanto, Rio
+Hyundai Epsilon 0.8 / 1.0 / 1.1 | Atos, i10 prima serie, Kia Picanto
+Hyundai Nu 1.8 / 2.0 | Elantra MD, i40, Kia Optima, Tucson
+Hyundai Delta / Mu V6 2.0–2.7 | Sonata, Coupé V6, Tucson, Kia Magentis
+Hyundai Tau 4.6 / 5.0 V8 | Genesis, Equus, Kia K900
+Hyundai U 1.1–1.7 CRDi | i20, i30, Kia Ceed, Venga
+Hyundai R 2.0 / 2.2 CRDi | Santa Fe, Tucson, Kia Sorento, Sportage
+Hyundai D 2.0 / 2.2 CRDi (D4EA, D4EB) | Santa Fe SM, Trajet, Tucson; derivato VM Motori
+Hyundai S 3.0 V6 CRDi (D6EA) | Veracruz, Kia Sorento, Mohave
+Kia J 2.9 CRDi (J3) | Kia Sorento, Carnival, Hyundai Terracan
+SsangYong e-XDi 2.0 / 2.2 (D20DT, D22DTR) | Rexton, Korando, Tivoli
+Daewoo S-TEC tre cilindri 0.8 | Matiz, Tico; base Suzuki F8C
+Toyota 1ZZ-FE | Corolla E12, Celica, MR2 Roadster
+Toyota 1NZ-FE / 2NZ-FE / 1NZ-FXE | Yaris, Corolla, Prius prima serie (ciclo Atkinson)
+Toyota 1SZ-FE / 2SZ-FE | Yaris P1, Daihatsu Sirion; progettazione Daihatsu
+Toyota 1KR-FE tre cilindri | Aygo, Citroën C1, Peugeot 107; progetto Daihatsu
+Toyota 1NR-FE / 8NR-FTS | Yaris, Auris, C-HR 1.2 turbo
+Toyota 1ZR / 2ZR / 2ZR-FXE | Corolla, Auris, Prius terza serie
+Toyota 2AZ-FE | Camry, RAV4, Previa, Scion tC
+Toyota 3S-GE | Celica, MR2 SW20, Caldina; cinque generazioni (escluso 3S-GTE)
+Toyota 1G-FE / 1G-GTE | Mark II, Supra 2.0 Twin Turbo, Crown
+Toyota 5M-GE / 6M-GE | Supra MkII, Celica XX, Cressida, Soarer
+Toyota 1MZ-FE / 3MZ-FE V6 | Camry, Lexus ES 300, RX 300/330
+Toyota 5VZ-FE 3.4 V6 | Tacoma, 4Runner, Land Cruiser Prado
+Toyota 1FZ-FE sei cilindri 4.5 | Land Cruiser 80/100
+Toyota 2RZ / 3RZ-FE | Hilux, Tacoma, 4Runner, HiAce
+Toyota 1TR-FE / 2TR-FE | Hilux, HiAce, Land Cruiser Prado
+Toyota 4E-FTE | Starlet GT Turbo, Corolla II
+Toyota V35A-FTS V6 biturbo | Lexus LS 500, Tundra, Land Cruiser 300
+Toyota T24A-FTS 2.4 turbo | Crown, Lexus NX 350, Highlander
+Toyota 1HZ / 1HD-T / 1HD-FTE diesel | Land Cruiser 70/80/100
+Toyota 1KZ-TE 3.0 turbodiesel | Land Cruiser Prado, Hilux Surf
+Toyota 2L / 3L / 2L-T diesel | Hilux, HiAce, 4Runner
+Toyota 1CD-FTV / 1AD / 2AD-FTV D-4D | Avensis, Corolla, RAV4, Auris
+Toyota 1VD-FTV V8 diesel | Land Cruiser 200 e 70
+Nissan L28E / L28ET | 280ZX Turbo, Cedric; sei cilindri SOHC
+Nissan FJ20E / FJ20ET | Skyline DR30 RS, Silvia S12
+Nissan CG10 / CG13 | Micra K11, March
+Nissan GA14 / GA15 / GA16DE | Sunny, Almera, Primera
+Nissan KA24E / KA24DE | 240SX S13/S14, Navara, Altima
+Nissan QR20DE / QR25DE | X-Trail, Altima, Primera P12, Sentra SE-R
+Nissan MR16DDT / MR20DE (Renault M4R) | Qashqai, Juke Nismo, Pulsar
+Nissan HR12 / HR15 / HR16DE (Renault H4M, H4Bt) | Micra, Note, Juke, Clio, Captur
+Nissan VH41DE / VH45DE V8 | Infiniti Q45, President
+Nissan VK45DE / VK56DE / VK56VD V8 | Infiniti M45, Patrol Y62, Titan, Armada
+Nissan KR20DDET VC-Turbo | Infiniti QX50, Altima; rapporto di compressione variabile
+Nissan YD22 / YD25 DDTi | Navara D40, Pathfinder, Almera, Primera
+Nissan TD27 / ZD30 / TD42 diesel | Patrol Y60/Y61, Terrano, Cabstar
+Honda E07A | Today, Beat (MTREC); tre cilindri kei
+Honda S07A / S07B | N-Box, N-One, S660; tre cilindri kei turbo
+Honda L13 / L15 (L15B turbo) | Jazz/Fit, City, Civic 1.5 turbo, CR-V
+Honda R18 / R20 | Civic FN/FD, Accord, CR-V
+Honda K24A / K24Z / K24W | Accord, CR-V, Civic Si, Acura TSX
+Honda G20A / G25A cinque cilindri | Vigor, Inspire, Ascot
+Honda N22A / N22B / N16A i-DTEC diesel | Accord, Civic, CR-V; monoblocco in alluminio
+Mazda FE / FS / FE-DOHC | 626, MX-6, Premacy, Kia Sportage prima serie
+Mazda K8 / KF / KL V6 | MX-3, MX-6, Xedos 6/9, 626, Eunos 800 (KJ-ZEM Miller)
+Mazda L3-VDT MZR 2.3 DISI turbo | Mazdaspeed3, Mazda6 MPS, CX-7
+Mazda 12A rotativo | RX-7 SA/FB, Cosmo, Luce (anche 12A turbo)
+Mazda RF / MZR-CD 2.0 diesel | 323, 626, Mazda6, Premacy
+Mazda Skyactiv-D 2.2 / 1.5 / 1.8 | CX-5, Mazda6, CX-3; compressione 14:1
+Mazda sei cilindri in linea 3.3 (e-Skyactiv D / e-Skyactiv G) | CX-60, CX-80, CX-90
+Mitsubishi Orion 4G13 / 4G15 | Colt, Lancer, Space Star, Proton Saga
+Mitsubishi Astron 4G54 / 4G64 | Starion, Pajero, Galant, Hyundai Sonata
+Mitsubishi 6A1 V6 (6A10, 6A12, 6A13) | FTO, Galant, Eclipse, Lancer, Mirage
+Mitsubishi 4A9 (4A90, 4A91, 4A92) | Colt Z30, Smart ForFour W454, Lancer; con DaimlerChrysler
+Mitsubishi 4J1 (4J10, 4J11, 4J12) | Outlander, ASX, Lancer; MIVEC a fasatura continua
+Mitsubishi 4D56 / 4M40 / 4M41 diesel | Pajero, L200, Shogun
+Mitsubishi 4N1 (4N13, 4N14, 4N15) | ASX, Outlander, L200, Pajero Sport; diesel in alluminio
+Subaru EA81 / EA82 | Leone, XT/Alcyone, Brat; boxer con turbo opzionale
+Subaru EG33 sei cilindri boxer | SVX, Alcyone SVX
+Subaru EE20 diesel boxer | Legacy, Outback, Forester, Impreza; primo boxer diesel di serie
+Subaru FB20 / FB25 | Impreza, XV, Forester, Outback
+Subaru CB18 1.8 turbo | Levorg seconda serie, Forester, Outback; corsa lunga lean burn
+Subaru EN07 quattro cilindri kei | Vivio, Pleo, Sambar, R2 (anche compressore)
+Suzuki F6A / F6B | Alto Works, Cappuccino, Jimny, Wagon R
+Suzuki R06A | Alto, Wagon R, Hustler, Jimny kei
+Suzuki J20A / J24B | Grand Vitara, Vitara, SX4 USA, Kizashi
+Suzuki H20A / H25A / H27A V6 | Grand Vitara, XL-7, Escudo
+Daihatsu CB tre cilindri 1.0 | Charade G10/G11, Charade GTti CB70 turbo
+Daihatsu JB-DET / JB-JL | Copen, Move, Mira; quattro cilindri kei 0.66 turbo
+Daihatsu K3-VE / K3-VET | Sirion, YRV, Terios, Boon X4, Toyota bB
+Daihatsu HC-E / HD-E | Applause, Charade G200, Rocky/Feroza
+Isuzu 4JJ1 3.0 diesel | D-Max, MU-X, Holden Colorado
+Isuzu 4JX1 / 4JB1 diesel | Trooper, Opel Monterey, Campo, Holden Jackaroo
+Isuzu 6VD1 / 6VE1 V6 | Trooper, Rodeo, Honda Passport, Opel Frontera
+Isuzu 4EE1 / 4EE2 diesel 1.5–1.7 | Opel Astra F/G, Corsa B/C, Isuzu Gemini
+Proton CamPro (S4PH, IAFM, CFE turbo) | Gen-2, Persona, Exora, Preve
+Geely JLY-4G15 / JLY-4G18 | Emgrand EC7, Vision, Coolray; aspirati
+Geely JLE-4G18TD / JLH-4G20TD | Boyue, Atlas, Xingyue, Lynk & Co 01
+Geely JLH-3G15TD tre cilindri | Coolray, Binyue, Lynk & Co 02; derivato Volvo Drive-E
+Geely BHE15 1.5 ibrido (BHE15-AFZ) | Galaxy L7, Emgrand L; motore per ibridi
+Chery ACTECO 1.5 / 1.6 TGDI (SQRE4T15, SQRF4J16) | Tiggo 7, Tiggo 8, Arrizo; famiglia ACTECO
+Great Wall GW4C20 2.0 GDIT | Haval H6 Coupé, H8, H9, Wey VV7
+Great Wall GW4B15 1.5 turbo | Haval H6, Jolion, Wey VV5
+Great Wall GW4D20 2.0 diesel | Wingle, Haval H5, Steed
+BYD Xiaoyun 1.5 (BYD472QA) | Qin Plus DM-i, Song DM-i, Seal U DM-i; ciclo Atkinson per ibridi
+BYD 476ZQA 1.5 turbo | Song, Tang, Qin
+SAIC NetBlue 1.5 / 2.0 turbo (15E4E, 20L4E) | MG ZS, MG HS, Roewe RX5, MG6
+SAIC-GM 1.0 / 1.3 turbo tre cilindri | MG ZS, Roewe RX3, Chevrolet Onix
+Changan Blue Whale 1.5 turbo (JL473ZQ) | CS55 Plus, CS75 Plus, UNI-T
+Tata Revotron 1.2 | Tiago, Nexon, Altroz, Punch (anche turbo)
+Tata Revotorq 1.05 / 1.5 diesel | Tiago, Nexon, Bolt
+Tata 2.2 DICOR / VARICOR | Safari, Aria, Hexa, Sumo Grande
+Mahindra mHawk 2.2 diesel | Scorpio, XUV500, Thar
+Mahindra mStallion 1.2 / 1.5 / 2.0 TGDi | XUV300 TurboSport, Thar, XUV700, Scorpio-N
+Mahindra mFalcon 1.2 G80 / D75 | KUV100, XUV300
+Ford Kent / Valencia OHV (Endura-E) | Fiesta, Escort, Ka 1.3
+Ford CVH 1.3–1.9 | Escort XR3i, RS Turbo, Fiesta XR2, Orion
+Ford Pinto OHC 1.6–2.0 | Sierra, Granada, Escort RS2000, Transit
+Ford Cologne V6 2.0–4.0 | Sierra XR4x4, Scorpio, Capri 2.8i, Explorer
+Ford Sigma (Zetec-SE / Duratec Ti-VCT) 1.25–1.7 | Puma, Fiesta ST150, Focus; con Yamaha
+Ford 1.5 / 1.6 EcoBoost (base Sigma) | Focus, Fiesta ST Mk7, Kuga, Volvo T4
+Ford 1.5 EcoBoost Dragon tre cilindri | Fiesta ST Mk8, Puma ST, Focus
+Ford 2.7 / 3.0 EcoBoost Nano V6 | F-150, Bronco, Edge ST, Lincoln Aviator
+Ford Duratec V6 2.5 / 3.0 (Duratec 25/30) | Mondeo ST24/ST220, Taurus, Jaguar AJ-V6, Mazda MPV
+Ford Duratec 35 / 37 Cyclone V6 | Edge, Mustang 3.7, Explorer, Lincoln MKZ
+Ford Endura-D / Lynx 1.8 diesel | Fiesta, Escort, Focus, Transit Connect
+Ford Duratorq Puma 2.0 / 2.2 / 2.4 diesel | Transit, Mondeo, Ranger, Land Rover Defender
+Ford EcoBlue 2.0 diesel (Panther) | Transit, Mondeo, Galaxy, S-Max
+Ford Windsor 5.0 / 5.8 V8 | Mustang Fox body 5.0 HO, F-150, Explorer
+Ford Lima 2.3 | Mustang SVO, Thunderbird Turbo Coupé, Ranger
+Ford Essex V6 3.8 / 4.2 | Mustang, Thunderbird Super Coupe, Windstar
+Ford Vulcan 3.0 V6 | Taurus, Ranger, Aerostar
+Ford 4.9 sei cilindri (300) | F-Series, Bronco, E-Series
+Ford 385 V8 7.5 (460) | F-Series, Bronco, E-Series fino al 1997
+Ford 6.2 Boss V8 | F-150 SVT Raptor, Super Duty
+Ford 7.3 Godzilla V8 benzina | Super Duty, E-Series; aste e bilancieri
+Ford Barra 4.0 sei cilindri | Falcon XR6 Turbo, FPV F6, Territory
+GM small-block Gen I / Gen II 5.0–5.7 (L98, L83, L69) | Corvette C3/C4, Camaro, Caprice; Gen II 1992–97 distinto dal Gen V
+GM/Lotus 5.7 V8 DOHC 32v della ZR-1 (1990) | Corvette ZR-1 C4; costruito da Mercury Marine, distinto dal Gen V
+GM big-block Vortec 7400 / 8100 | Silverado HD, Suburban 2500
+Buick/GM 3800 V6 (LC2 turbo, L67 compressore) | Buick Grand National, GNX, Pontiac Grand Prix GTP
+GM 60° V6 2.8 / 3.1 / 3.4 | Fiero, Camaro, Lumina, Citation
+GM Iron Duke 2.5 (Tech IV) | Fiero, Camaro 1982, S-10
+GM Quad 4 | Oldsmobile Calais, Pontiac Grand Am, Achieva
+GM High Feature V6 (LY7, LLT, LFX, LF3, LGX) | Cadillac CTS, Camaro, Holden Commodore, Alfa 159 3.2
+GM Atlas sei e cinque cilindri in linea (LL8, LLR) | TrailBlazer, Envoy, Hummer H3, Colorado
+GM Duramax 6.6 V8 diesel | Silverado HD, Sierra HD
+GM Duramax 3.0 sei cilindri diesel (LM2) | Silverado 1500, Tahoe, Escalade
+GM 2.7 TurboMax (L3B) | Silverado, Colorado, Canyon
+Cadillac Blackwing 4.2 V8 biturbo (LTA) | CT6-V, CT6 Platinum
+Cadillac HT4100 / 4.5 / 4.9 V8 | DeVille, Eldorado, Allanté anni '80–'90
+Holden V8 253 / 308 | Commodore VH–VS, HSV
+Opel CIH 2.0–3.0 | Omega, Senator, Monterey, Lotus Carlton (C36GET)
+Opel Family 0 (X10XE, Z12XE, Z14XEP) | Corsa, Agila, Astra
+Opel Family 1 (C16NZ, X14XE, Z16XE) | Astra, Corsa, Kadett, Daewoo Lanos
+Opel / GM V6 54° (X25XE, X30XE, Y32SE) | Calibra V6, Omega B, Vectra GTS, Saab 9-5
+Opel Ecotec diesel 2.0 / 2.2 DTI (X20DTL, Y22DTR) | Astra G, Vectra B/C, Zafira
+Opel 1.6 CDTI B16DTH "Whisper" | Astra K, Zafira C, Insignia, Meriva
+GM Small Gasoline Engine 1.0 / 1.4 / 1.5 turbo (B10XFT, B14XFT, LFV) | Astra K, Chevrolet Malibu, Cruze
+Chrysler 2.2 / 2.5 K (anche Turbo II, Shelby) | Dodge Omni GLH, Daytona Shelby Z, LeBaron
+Chrysler LA / Magnum 5.2 / 5.9 V8 | Ram, Dakota, Grand Cherokee 5.9 Limited
+AMC / Jeep 4.0 sei cilindri | Cherokee XJ, Wrangler YJ/TJ, Grand Cherokee ZJ
+Chrysler 3.3 / 3.8 V6 EGA | Voyager, Town & Country, Wrangler JK
+Chrysler LH 2.7 / 3.2 / 3.5 V6 | 300M, Concorde, Intrepid, Charger
+Chrysler Neon 2.0 / 2.4 (SRT-4 turbo) | Neon, PT Cruiser GT, Stratus
+Chrysler 4.7 PowerTech V8 | Grand Cherokee, Dakota, Durango, Commander
+Stellantis Hurricane 3.0 sei cilindri biturbo | Grand Wagoneer, Ram 1500, Charger Sixpack
+Stellantis GME-T4 2.0 turbo (Hurricane4) | Alfa Romeo Giulia/Stelvio 2.0, Jeep Wrangler/Cherokee, Maserati Grecale
+VM Motori 3.0 V6 diesel (A630, EcoDiesel) | Grand Cherokee, Ram 1500, Maserati Ghibli Diesel
+VM Motori 2.5 / 2.8 CRD (R425, R428) | Jeep Cherokee KJ, Chrysler Voyager, Rover 825 SD
+Tritec / FPT E.torQ 1.6 | MINI Cooper S R53, Chrysler Neon brasiliano, Fiat Palio
+Fiat 100 OHV (903, 999, 1049) | Panda prima serie, Uno 45, 127
+Fiat 128 SOHC 1.1–1.6 | Ritmo, Uno Turbo i.e., Tipo, Regata
+Fiat/Lancia bialbero Lampredi 1.6–2.0 | Delta HF Turbo, Thema turbo, Croma, Lancia Prisma
+Fiat Pratola Serra 1.6–2.4 (16v, 20v, JTD 2.4) | Bravo, Marea, Coupé 20v Turbo, Lancia Kappa, Alfa 156 2.4 JTD
+Fiat 0.9 TwinAir bicilindrico | 500, Panda, Ypsilon
+Fiat FireFly 1.0 / 1.3 (GSE) | 500X, Jeep Renegade, Pulse
+Alfa Romeo boxer 1.2–1.7 | Alfasud, 33, Arna, 145/146 boxer
+Alfa Romeo JTS 2.0 / 2.2 (base GM 939) | 156 JTS, 159, Brera, Spider 939
+Maserati V8 biturbo 3.2 (AM578) | Shamal, Quattroporte IV, 3200 GT
+Lamborghini V8 3.5 Jalpa | Jalpa, Urraco P300 (fine produzione 1988)
+Lamborghini L545 6.5 V12 ibrido | Revuelto; plug-in
+Lamborghini L411 4.0 V8 biturbo | Temerario; plug-in
+Bugatti EB110 3.5 V12 quadriturbo | EB110 GT, EB110 SS
+Cizeta V16T 6.0 V16 | Cizeta-Moroder V16T
+Seat System Porsche 1.2 / 1.5 / 1.7 | Ibiza prima serie, Málaga
+Škoda 1.0–1.3 OHV in alluminio (781.135) | Favorit, Felicia 1.3, Fabia 1.4 MPI 8v
+Tatra 613 V8 raffreddato ad aria | Tatra 613, Tatra 700
+Trabant P601 bicilindrico due tempi | Trabant 601 (fino al 1990)
+Wartburg tre cilindri due tempi | Wartburg 353
+ZMZ-402 / 406 / 409 | GAZ Volga, UAZ Patriot, GAZelle
+Volvo B21 / B23 / B230 'red block' | 240, 740, 940 (B230FT turbo)
+Volvo D24 / D24T sei cilindri diesel | 240, 740, 760; costruito da VW
+Volvo D5 cinque cilindri diesel (D5244T) | V70, XC90, S60, XC60
+Volvo B8444S V8 4.4 | XC90, S80; prodotto da Yamaha
+PSA/Renault X 'suitcase' (XV, XW, XY) | Peugeot 104, 205, Citroën Visa, AX prima serie
+PSA TU 1.0–1.6 (TU5J4 16v) | 106 GTI, Saxo VTS, 206, AX GT
+PSA XUD 1.7–1.9 diesel | 205, 405, ZX, Xantia, Fiat Scudo
+PSA TUD 1.4–1.5 diesel | 106, AX, Saxo, Ford Fiesta Mk3
+Peugeot Indenor XD 2.3 / 2.5 diesel | 505, 604, J5
+PSA-Renault ES9 / L7X V6 3.0 | 406 Coupé, 607, C5, Laguna, Clio V6
+Ford/PSA AJD-V6 2.7 / 3.0 (DT17, TDV6) | Jaguar XF/XJ, Land Rover Discovery, Peugeot 607, Citroën C6
+Ford/JLR AJD-V8 4.4 TDV8 | Range Rover L322/L405, Range Rover Sport
+Renault Cléon-Fonte (C1E, C3G, C3J) | Renault 5, Twingo, Clio, Dacia 1310
+Renault Energy E (E7J, E7F) | Clio, 19, Mégane, Dacia Logan
+Renault D 1.2 (D4F, D7F) | Twingo, Clio, Kangoo
+Renault J (J6R, J7R, J7T) | 25, 21 Turbo, Espace, Trafic; costruito a Douvrin
+Renault F8Q / F9Q 1.9 diesel | Clio, Mégane, Laguna, Volvo S40
+Renault G9T / G9U 2.2 / 2.5 dCi | Laguna, Espace, Vel Satis, Trafic
+Renault M9R 2.0 dCi | Laguna, Qashqai, X-Trail, Koleos
+Renault R9M 1.6 dCi | Mégane, Qashqai, Trafic, Mercedes Vito
+Renault/Mercedes H5Ht 1.3 TCe (M282) | Clio, Captur, Mercedes A 180, Nissan Qashqai
+Rover A-Series (A+) | Mini, Metro, Austin Maestro
+Austin/Rover O-Series | Montego, Maestro, Rover 800, Sherpa
+Austin Rover S-Series 1.6 | Maestro, Montego, Rover 200
+Rover M16 / T16 | Rover 800, 220 Turbo, 620ti, Land Rover Freelander
+Rover KV6 2.5 V6 | Rover 75, MG ZS 180, Freelander, Rover 825
+Rover L-Series 2.0 diesel | Rover 200/400/600, 25, 45, MG ZR
+Land Rover 200Tdi / 300Tdi | Defender, Discovery I, Range Rover Classic
+Land Rover Td5 | Defender, Discovery II; cinque cilindri iniettori pompa
+JLR Ingenium (AJ200, AJ300) | Jaguar XE/XF/F-Pace, Range Rover Evoque, Defender; quattro e sei cilindri
+Jaguar JV6 3.5 V6 biturbo | XJ220; derivato Austin Rover V64V
+Lotus Type 918 V8 3.5 biturbo | Esprit V8, Esprit GT
+TVR AJP8 V8 | Cerbera, Griffith Speed Eight
+Aston Martin V8 Tadek Marek 5.3 | V8 Vantage, Virage, Lagonda, Vantage V600
+Cosworth/Aston Martin 6.5 V12 aspirato | Valkyrie coupé e Spider

@@ -60,3 +60,8 @@
   testo: >-
     Due bancate di sei cilindri a 180° su un basamento molto basso, che abbassa il baricentro nelle vetture a motore centrale.
     Nelle realizzazioni Ferrari le bielle contrapposte condividono lo stesso perno di manovella, per cui tecnicamente è un V a 180° più che un boxer puro.
+- id: W12
+  nome: W12
+  testo: >-
+    Due bancate a VR6, ciascuna con i cilindri sfalsati a stretto angolo, montate a V su un unico albero motore: quattro file di tre cilindri in un ingombro vicino a quello di un V8.
+    Realizzato in serie dal gruppo Volkswagen per Volkswagen, Audi e Bentley.

@@ -4549,3 +4549,1483 @@
   curiosita:
     - "Il motore S70/2 della McLaren F1 condivide la sigla ma è un progetto distinto da 6064 cc, a quattro valvole per cilindro con VANOS."
     - "La 850CSi è stata prodotta in 1510 esemplari e non è stata omologata per il mercato statunitense."
+
+- slug: bmw-b48
+  codice: B48
+  nome: BMW B48
+  costruttore: BMW
+  paese: Germania
+  inizio: 2014
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina / Ibrido
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 82.0
+  corsa: 94.6
+  compressione: "9.5–11.0:1"
+  distribuzione: DOHC a catena, doppio VANOS e Valvetronic
+  valvole: 4
+  blocco: Alluminio, closed-deck
+  testa: Alluminio
+  iniezione: Diretta, 200 bar (350 bar dalla serie TU)
+  cv_min: 156
+  cv_max: 306
+  nm_max: 450
+  limitatore: 6500
+  in_breve:
+    - { valore: "500 cc", testo: "per cilindro, come il tre cilindri B38 e il sei cilindri B58 della stessa famiglia modulare" }
+    - { valore: "Twin-scroll", testo: "un solo turbo con intercooler aria-acqua" }
+    - { valore: "306 CV", testo: "nella versione B48A20T1 da 450 Nm (dal 2019)" }
+  versioni:
+    - { nome: "B48B16 1.6", anni: "2017–oggi", cv: 170, nm: 250, nota: "1597 cc, corsa 75,6 mm" }
+    - { nome: "B48 2.0 (Mini Cooper S, X1 sDrive20i)", anni: "2014–oggi", cv: 192, nm: 280, nota: "Primo impiego sulla Mini F56" }
+    - { nome: "B48 2.0 (330i F30, 530i G30, X3 xDrive30i)", anni: "2015–oggi", cv: 252, nm: 350, nota: "" }
+    - { nome: "Toyota GR Supra 2.0 / Morgan Plus Four", anni: "2019–oggi", cv: 258, nm: 400, nota: "Morgan con cambio manuale 350 Nm" }
+    - { nome: "B48A20T1 (M135i F40)", anni: "2019–2024", cv: 306, nm: 450, nota: "Albero motore e cuscinetti di banco rinforzati, compressione 9,5:1" }
+  modelli:
+    - { nome: "BMW Serie 1, 2, 3, 4, 5, 6 GT, 7 (benzina 20i–30i, ibride 30e)", anni: "2015–oggi" }
+    - { nome: "BMW X1, X2, X3, X4, Z4 (G29)", anni: "2015–oggi" }
+    - { nome: "Mini Cooper S, John Cooper Works, Clubman, Countryman", anni: "2014–oggi" }
+    - { nome: "Toyota GR Supra 2.0 (J29)", anni: "2020–2026" }
+    - { nome: "Morgan Plus Four", anni: "2020–oggi" }
+  storia: >-
+    Quattro cilindri turbo della famiglia modulare BMW, con 500 cc per cilindro come il B38 e il B58 e molte parti in comune.
+    Basamento closed-deck in alluminio, un turbo twin-scroll con intercooler aria-acqua, doppio VANOS e Valvetronic; la versione
+    con cilindrata 1597 cc usa una corsa ridotta a 75,6 mm. Montato prima sulla Mini F56 nel 2014 e dal 2015 sulle BMW a trazione
+    anteriore e posteriore, oltre che su Toyota GR Supra 2.0 e Morgan Plus Four. La serie TU del 2018 introduce catena di distribuzione
+    in un solo pezzo, circuiti di raffreddamento separati per testa e basamento, bielle e albero motore forgiati e iniezione a 350 bar.
+  punti_deboli:
+    - "Supporto del filtro olio (sotto il collettore di aspirazione) soggetto a crepe, con perdite di olio o liquido di raffreddamento"
+    - "Pompa dell'acqua elettrica e tubo di ritorno del liquido di raffreddamento"
+    - "Depositi carboniosi sulle valvole di aspirazione, tipici dell'iniezione diretta"
+  limiti: >-
+    Indicativamente le versioni 2.0 guadagnano 50–150 CV a seconda delle modifiche; i primi componenti critici sono il tubo di
+    sovralimentazione in plastica e il turbo di serie, poi la gestione del calore.
+  curiosita:
+    - "Negli Stati Uniti la versione a emissioni ridotte SULEV prende la sigla B46."
+    - "Sulla Mini Cooper S la funzione overboost aumenta temporaneamente la coppia di 20 Nm, fino a 300 Nm."
+
+- slug: bmw-b47-b57
+  codice: B47 / B57
+  nome: BMW B47 / B57 diesel
+  costruttore: BMW
+  paese: Germania
+  inizio: 2014
+  fine:
+  architettura: L6
+  cilindri: 6
+  alimentazione: Diesel / Mild hybrid
+  aspirazione: Turbo / Biturbo / Quadriturbo
+  cilindrata: 2993
+  alesaggio: 84.0
+  corsa: 90.0
+  compressione: "16.0–16.5:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta common rail, fino a 2500–2700 bar
+  cv_min: 116
+  cv_max: 400
+  nm_max: 760
+  limitatore: 4500
+  in_breve:
+    - { valore: "4 turbo", testo: "sul B57D30S0 di M550d, X5 M50d e 750d: due stadi con due turbo di bassa e due di alta pressione" }
+    - { valore: "84 × 90", testo: "alesaggio e corsa comuni al quattro cilindri B47 e al sei cilindri B57" }
+    - { valore: "2700 bar", testo: "pressione di iniezione massima con iniettori piezo sul B57 della M340d" }
+  versioni:
+    - { nome: "B47D20 (320d, 520d, X3 xDrive20d)", anni: "2014–oggi", cv: 190, nm: 400, nota: "Quattro cilindri 1995 cc; versione base 116 CV" }
+    - { nome: "B47D20 biturbo (125d, 225d)", anni: "2015–2019", cv: 224, nm: 450, nota: "Quattro cilindri" }
+    - { nome: "B57D30 (530d, 730d, X5 xDrive30d)", anni: "2015–oggi", cv: 265, nm: 620, nota: "Sei cilindri, un turbo" }
+    - { nome: "B57D30 biturbo (740d)", anni: "2015–oggi", cv: 320, nm: 680, nota: "" }
+    - { nome: "B57D30S0 quadriturbo (M550d, X5 M50d, 750d)", anni: "2016–2020", cv: 400, nm: 760, nota: "Compressione 16:1, iniezione 2500 bar" }
+    - { nome: "B57 mild hybrid (M340d xDrive)", anni: "2020–oggi", cv: 340, nm: 700, nota: "Due stadi a geometria variabile, starter-generatore 48 V" }
+    - { nome: "Ineos Grenadier", anni: "2022–oggi", cv: 249, nm: 550, nota: "B57 con taratura ridotta" }
+  modelli:
+    - { nome: "BMW Serie 1, 2, 3, 4, 5, 6 GT, 7, 8 diesel", anni: "2014–oggi" }
+    - { nome: "BMW X1, X2, X3, X4, X5, X6, X7 diesel", anni: "2014–oggi" }
+    - { nome: "Mini Clubman e Countryman Cooper D / Cooper SD", anni: "2014–oggi" }
+    - { nome: "Ineos Grenadier diesel", anni: "2022–oggi" }
+  storia: >-
+    Diesel della famiglia modulare BMW con 500 cc per cilindro: il B47 è un quattro cilindri in linea da 1995 cc, il B57 un sei
+    cilindri in linea da 2993 cc, entrambi con alesaggio 84 mm e corsa 90 mm, basamento e testa in alluminio e iniezione common rail.
+    La scheda riporta i dati del B57, il B47 è indicato nelle versioni. Il B57D30S0 (2016–2020) usa quattro turbo in due stadi e
+    2500 bar di pressione di iniezione per 400 CV; dal 2020 il B57 adotta canne con riporto d'acciaio a spruzzo, turbo a due stadi
+    a geometria variabile, iniettori piezo a 2700 bar e sistema mild hybrid a 48 V.
+  punti_deboli:
+    - "Valvola e radiatore EGR; nel 2018 BMW ha richiamato circa 1,6 milioni di diesel prodotti tra 2010 e 2017 per perdite interne di liquido nel radiatore EGR"
+    - "Filtro antiparticolato che si intasa con uso prevalentemente urbano"
+    - "Turbocompressore soggetto a usura se gli intervalli di cambio olio non sono rispettati"
+  limiti: >-
+    Indicativamente il B47 guadagna 30–50 CV con sola centralina; oltre servono intercooler e turbo maggiorati, e il quattro
+    cilindri ha margini inferiori al sei cilindri.
+  curiosita:
+    - "BMW ha tolto dal listino europeo il quadriturbo nel 2020 citando calo della domanda di diesel e costi per le norme sulle emissioni."
+    - "Il B57 equipaggia anche il fuoristrada Ineos Grenadier, con taratura ridotta a 249 CV."
+
+- slug: mercedes-m117-m119
+  codice: M117 / M119
+  nome: Mercedes-Benz M117 / M119 V8
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 1971
+  fine: 1999
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4973
+  alesaggio: 96.5
+  corsa: 85.0
+  compressione: "8.8–11.0:1"
+  distribuzione: SOHC per bancata (M117), DOHC con variatore di fase aspirazione (M119), catena doppia
+  valvole: 4
+  blocco: Lega leggera Alusil (ghisa sulle M117 fino al 1978)
+  testa: Alluminio
+  iniezione: Indiretta Bosch K/KE-Jetronic (M117), LH-Jetronic (M119)
+  cv_min: 185
+  cv_max: 381
+  nm_max: 580
+  limitatore: 6000
+  in_breve:
+    - { valore: "2 → 4", testo: "valvole per cilindro: l'M117 è monoalbero per bancata, l'M119 bialbero con variatore in aspirazione" }
+    - { valore: "Le Mans 1989", testo: "vinta dalla Sauber C9 con versione biturbo da competizione dell'M119" }
+    - { valore: "Porsche", testo: "assemblaggio finale della 500 E a Zuffenhausen" }
+  versioni:
+    - { nome: "M117 E50 (500 SE, SEL, SEC W126)", anni: "1981–1985", cv: 231, nm: 405, nota: "4973 cc, K-Jetronic, compressione 9,2:1" }
+    - { nome: "M117 E56 (560 SEL W126)", anni: "1985–1987", cv: 300, nm: 455, nota: "5547 cc, 96,5 × 94,8 mm, KE-Jetronic, versione ECE" }
+    - { nome: "M119 E50 (500 SL R129)", anni: "1989–1995", cv: 326, nm: 450, nota: "Dal 1992 320 CV e 470 Nm" }
+    - { nome: "M119 E50 (500 E W124)", anni: "1990–1995", cv: 326, nm: 480, nota: "Dal 1992 320 CV e 470 Nm" }
+    - { nome: "M119 E60 (E 60 AMG W124)", anni: "1991–1995", cv: 381, nm: 580, nota: "5956 cc" }
+  modelli:
+    - { nome: "Mercedes-Benz Classe S W108, W109, W116, W126, W140 V8", anni: "1971–1998" }
+    - { nome: "Mercedes-Benz SL R107 e R129 V8", anni: "1971–1998" }
+    - { nome: "Mercedes-Benz 400 E, 500 E, E 420, E 500 (W124), E 50 AMG (W210)", anni: "1990–1997" }
+    - { nome: "Mercedes-Benz 500 GE (W463)", anni: "anni '90" }
+    - { nome: "Isdera (M117)", anni: "anni '80" }
+    - { nome: "Monteverdi Tiara (M117)", anni: "anni '80" }
+    - { nome: "Zender Vision 3 (M117)", anni: "anni '80" }
+    - { nome: "Lotec C1000 (M117 biturbo)", anni: "anni '90" }
+  storia: >-
+    L'M117 è un V8 a 90° con un albero a camme per bancata e due valvole per cilindro, prodotto dal 1971 nelle cilindrate da 4,5 a 5,5
+    litri, con blocco in ghisa e poi, dal 1978, in lega Alusil; alimentazione Bosch K-Jetronic e poi KE-Jetronic. L'M119 del 1989 ne
+    mantiene alesaggio e corsa nella versione 5,0 litri ma passa a quattro valvole per cilindro con due alberi a camme per bancata, variatore
+    di fase in aspirazione fino a 20°, bielle forgiate e getti d'olio sotto i pistoni. La scheda riporta i dati della 5.0 comune alle
+    due famiglie; l'M119 è stato prodotto anche in 4,2 e 6,0 litri fino al 1999, quando l'M113 lo ha sostituito.
+  punti_deboli:
+    - "Cablaggio motore con isolamento che si sbriciola sulle M119 di inizio anni '90, con mancati avviamenti e accensioni irregolari"
+    - "Tubi in plastica di lubrificazione degli alberi a camme dell'M119, causa del ticchettio della distribuzione"
+    - "Due spinterogeni con calotte e spazzole soggette a usura (M119)"
+    - "Pattini e tenditore della catena di distribuzione su esemplari ad alto chilometraggio"
+  limiti: >-
+    Motori aspirati con poco margine sulla sola centralina; gli aumenti consistenti passano da cilindrata maggiorata, come le versioni
+    AMG 6,0 litri, con i componenti di raffreddamento e il cambio automatico come elementi critici.
+  curiosita:
+    - "La 500 E è stata costruita in 10.479 esemplari fino al 1995, compresi gli E 60 AMG, con assemblaggio finale presso Porsche a Stoccarda-Zuffenhausen."
+    - "Una versione 5,0 litri aspirata dell'M119 ha equipaggiato la CLK LM nel campionato FIA GT 1998, al posto del V12 M120 della CLK GTR."
+
+- slug: mercedes-m104
+  codice: M104
+  nome: Mercedes-Benz M104 sei cilindri
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 1989
+  fine: 1998
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3199
+  alesaggio: 89.9
+  corsa: 84.0
+  compressione: "9.2–10.5:1"
+  distribuzione: DOHC a catena, variatore di fase aspirazione
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta Bosch KE-Jetronic, LH-Jetronic, HFM
+  cv_min: 193
+  cv_max: 280
+  nm_max: 385
+  limitatore: 6400
+  in_breve:
+    - { valore: "2,8–3,2 l", testo: "cilindrate di serie, più le versioni AMG 3,4 e 3,6 litri" }
+    - { valore: "3606 cc", testo: "cilindrata della versione AMG di C 36 ed E 36" }
+    - { valore: "97 mm", testo: "interasse dei cilindri mantenuto dall'M103" }
+  versioni:
+    - { nome: "M104 E30 (300 SL-24, 300 E-24)", anni: "1989–1993", cv: 231, nm: 272, nota: "2962 cc, KE-Jetronic" }
+    - { nome: "M104 AMG 3.4 (300 E 3.4 AMG)", anni: "1990–1992", cv: 272, nm: 330, nota: "Alesaggio 91,5 mm" }
+    - { nome: "M104 E32 (E 320 W124)", anni: "1992–1995", cv: 220, nm: 310, nota: "" }
+    - { nome: "M104 E32 (S 320 W140, SL 320 R129)", anni: "1991–1998", cv: 231, nm: 315, nota: "" }
+    - { nome: "M104 E28 (C 280, E 280, SL 280)", anni: "1992–1998", cv: 193, nota: "2799 cc, corsa 73,5 mm" }
+    - { nome: "M104 AMG 3.6 (C 36 AMG W202)", anni: "1993–1997", cv: 280, nm: 385, nota: "3606 cc, 91 × 92,4 mm, compressione 10,5:1" }
+  modelli:
+    - { nome: "Mercedes-Benz W124 (300-24, E 280, E 320, E 36 AMG)", anni: "1989–1997" }
+    - { nome: "Mercedes-Benz SL R129, S W140, C W202, E W210, G W463", anni: "1989–1998" }
+    - { nome: "SsangYong Chairman, Rexton", anni: "anni '90–2000" }
+    - { nome: "Isdera Spyder 036i", anni: "1989–1993" }
+  storia: >-
+    Sei cilindri in linea con basamento in ghisa, testa in alluminio a due alberi a camme e quattro valvole per cilindro, con variatore
+    di fase sull'aspirazione; succede all'M103 di cui mantiene l'interasse di 97 mm. Prodotto in 2,8, 3,0 e 3,2 litri con iniezione
+    KE-Jetronic, poi LH-Jetronic e HFM, su W124, R129, W140, W202 e W210 fino all'arrivo del V6 M112 nel 1997. La C 36 AMG del 1993,
+    primo progetto comune Mercedes-Benz e AMG, porta la cilindrata a 3606 cc con corsa 92,4 mm e albero motore di derivazione diesel.
+  punti_deboli:
+    - "Cablaggio motore con isolamento biodegradabile sulle vetture 1993–1995, causa di guasti a sensori e centralina"
+    - "Guarnizione della testata con trafilaggi d'olio sulle prime unità"
+    - "Pattini e tenditore della catena di distribuzione in plastica su esemplari ad alto chilometraggio"
+    - "Attuatore elettronico della farfalla e componenti in plastica del raffreddamento"
+  limiti: >-
+    Indicativamente le versioni aspirate guadagnano 20–35 CV con centralina e scarico; preparazioni aspirate spinte arrivano a
+    320–370 CV con iniettori e raffreddamento come limiti. Kit turbo di preparatori come Turbo Technics hanno superato i 300 CV;
+    il cambio automatico di serie è il componente critico sopra i 300 CV.
+  curiosita:
+    - "Della C 36 AMG sono stati costruiti circa 5.221 esemplari fino al 1997, quando è stata sostituita dalla C 43 AMG V8."
+    - "Versioni 2,8, 3,2 e 3,6 litri del M104 sono state usate da SsangYong su Chairman e Rexton."
+
+- slug: mercedes-m112-m113
+  codice: M112 / M113
+  nome: Mercedes-Benz M112 / M113 V6 e V8
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 1997
+  fine: 2011
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore
+  cilindrata: 4966
+  alesaggio: 97.0
+  corsa: 84.0
+  compressione: "9.0–11.0:1"
+  distribuzione: SOHC per bancata a catena doppia
+  valvole: 3
+  blocco: Alluminio-silicio, canne Silitec
+  testa: Alluminio
+  iniezione: Indiretta sequenziale, doppia accensione
+  cv_min: 170
+  cv_max: 476
+  nm_max: 700
+  limitatore: 6000
+  in_breve:
+    - { valore: "3 valvole", testo: "per cilindro (due di aspirazione, una di scarico) con due candele" }
+    - { valore: "ACC", testo: "disattivazione di quattro cilindri ai bassi carichi su alcune M113 5.0" }
+    - { valore: "476 CV", testo: "nell'M113 5,4 litri con compressore IHI della E 55 AMG Kompressor" }
+  versioni:
+    - { nome: "M112 E32 V6 (E 320, C 320, ML 320)", anni: "1998–2005", cv: 224, nm: 315, nota: "V6 3199 cc, 89,9 × 84 mm, contralbero di equilibratura" }
+    - { nome: "M112 E32 Kompressor (C 32 AMG)", anni: "2000–2004", cv: 354, nm: 450, nota: "V6 con compressore IHI, compressione 9,0:1" }
+    - { nome: "M113 E43 (E 430 W210)", anni: "1997–2002", cv: 279, nm: 400, nota: "4266 cc" }
+    - { nome: "M113 E50 (S 500 W220, SL 500)", anni: "1999–2006", cv: 306, nm: 460, nota: "" }
+    - { nome: "M113 E55 (E 55 AMG W210, SL 55, CL 55, G 55)", anni: "1997–2003", cv: 347, nm: 510, nota: "5439 cc; 347–367 CV e 510–530 Nm a seconda del modello" }
+    - { nome: "M113 E55 ML (E 55 AMG Kompressor W211)", anni: "2002–2006", cv: 476, nm: 700, nota: "Compressione 9,0:1, compressore a vite con intercooler aria-acqua" }
+  modelli:
+    - { nome: "Mercedes-Benz C, E, S, CL, CLK, SL, ML, G (V6 e V8)", anni: "1997–2011" }
+    - { nome: "Mercedes-Benz E 55 AMG, SL 55 AMG, CL 55 AMG, G 55 AMG Kompressor", anni: "2002–2011" }
+    - { nome: "Chrysler Crossfire e Crossfire SRT-6 (M112)", anni: "2004–2008" }
+  storia: >-
+    Famiglia modulare con blocco in alluminio-silicio a 90°: l'M112 è il primo V6 a benzina Mercedes e l'M113 il V8 derivato, con
+    tre valvole per cilindro, un albero a camme per bancata, due candele per cilindro e collettore di aspirazione in magnesio a
+    lunghezza variabile. Il V6 usa un contralbero di equilibratura tra le bancate. La scheda riporta i dati dell'M113 5.0; la versione
+    AMG 5,4 litri con compressore IHI a vite, bielle forgiate e basamento rinforzato è stata usata dal 2002 su E, CL, SL e G 55 AMG,
+    prodotta fino al 2011 sulla G 55 AMG.
+  punti_deboli:
+    - "Giunto in plastica del compressore (versioni Kompressor) che può rompersi con perdita improvvisa di sovralimentazione"
+    - "Separatore olio-aria del basamento: con l'usura aumentano consumo d'olio e fumosità"
+    - "Componenti in plastica del raffreddamento (scatola termostato, tubi, vaschetta) che si induriscono con l'età"
+    - "Guarnizioni dei coperchi punterie con olio nei pozzetti delle candele e bobine danneggiate"
+  limiti: >-
+    Indicativamente le M113 Kompressor arrivano a 530–560 CV con puleggia ridotta e centralina e a circa 600–640 CV con intercooler
+    e iniettori maggiorati; oltre i 650 CV sono critici il cambio automatico a cinque marce e la gestione del calore del compressore.
+  curiosita:
+    - "L'M113 E55 è stato il primo motore a portare la denominazione '55 AMG'."
+    - "Dall'M113 Kompressor deriva l'M155 della Mercedes-Benz SLR McLaren."
+
+- slug: mercedes-m275-m279
+  codice: M275 / M279
+  nome: Mercedes-Benz M275 / M279 V12 biturbo
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2002
+  fine:
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 5980
+  alesaggio: 82.6
+  corsa: 93.0
+  compressione: "9.0:1"
+  distribuzione: SOHC per bancata a catena doppia a rulli
+  valvole: 3
+  blocco: Alluminio pressofuso, canne Silitec
+  testa: Alluminio
+  iniezione: Indiretta nel collettore, doppia accensione
+  cv_min: 500
+  cv_max: 764
+  nm_max: 1100
+  limitatore: 6100
+  in_breve:
+    - { valore: "3 valvole", testo: "per cilindro (due di aspirazione, una di scarico) e due candele per cilindro, 24 in totale" }
+    - { valore: "1000 Nm", testo: "coppia limitata elettronicamente sulle AMG 6,0 litri per proteggere la trasmissione" }
+    - { valore: "M158", testo: "versione Pagani con turbo twin-scroll più piccoli e lubrificazione a carter secco" }
+  versioni:
+    - { nome: "M275 5.5 (S 600, CL 600, SL 600)", anni: "2002–2013", cv: 500, nm: 800, nota: "5513 cc, 82 × 87 mm; dal 2006 517 CV e 830 Nm" }
+    - { nome: "M275 AMG 6.0 (S 65, CL 65, SL 65 AMG)", anni: "2003–2013", cv: 612, nm: 1000, nota: "In seguito 630 CV" }
+    - { nome: "M275 AMG (SL 65 AMG Black Series)", anni: "2008–2009", cv: 670, nm: 1000, nota: "1200 Nm teorici, limitati a 1000" }
+    - { nome: "M277 (S 600 W222)", anni: "2014–2020", cv: 530, nm: 830, nota: "Versione non AMG del 6,0 litri" }
+    - { nome: "M279 AMG (S 65, SL 65, G 65 AMG)", anni: "2012–2019", cv: 630, nm: 1000, nota: "" }
+    - { nome: "M279 (Maybach S 680, Z223)", anni: "2021–oggi", cv: 612, nm: 900, nota: "" }
+    - { nome: "M158 (Pagani Huayra)", anni: "2012–oggi", cv: 730, nm: 1000, nota: "Carter secco, centralina Bosch dedicata" }
+    - { nome: "M158 (Pagani Huayra BC)", anni: "", cv: 764, nm: 1100, nota: "" }
+  modelli:
+    - { nome: "Mercedes-Benz S 600, S 65 AMG (W220, W221, W222)", anni: "2002–2020" }
+    - { nome: "Mercedes-Benz CL 600, CL 65 AMG (C215, C216)", anni: "2003–2014" }
+    - { nome: "Mercedes-Benz SL 600, SL 65 AMG (R230, R231)", anni: "2003–2019" }
+    - { nome: "Mercedes-Benz S 65 AMG Coupé e Cabriolet (C217, A217)", anni: "2014–2019" }
+    - { nome: "Mercedes-Benz G 65 AMG (W463)", anni: "2012–2018" }
+    - { nome: "Maybach S 650, S 680 (Z222, Z223)", anni: "2017–oggi" }
+    - { nome: "Pagani Huayra, Utopia (M158)", anni: "2012–oggi" }
+  storia: >-
+    V12 a 60° biturbo che dal 2002 sostituisce l'aspirato M137 su S 600, CL 600 e SL 600. Mantiene un albero a camme
+    in testa per bancata, tre valvole e due candele per cilindro, con intercooler aria-acqua e iniezione nel collettore;
+    nel M275 manca la variazione di fase. La versione AMG da 6,0 litri ha alesaggio e corsa maggiorati (82,6 × 93 mm)
+    e dal 2012 evolve nel M279, ancora usato dalla Maybach S 680, mentre la Pagani riceve da AMG la variante M158.
+  punti_deboli:
+    - "Bobine di accensione: 24 candele e relative bobine, con guasti segnalati e ricambi costosi"
+    - "Catena di distribuzione doppia: allungamento con percorrenze elevate, indicativamente oltre i 200.000 km"
+  limiti: >-
+    Sulle AMG la coppia è già limitata in fabbrica a 1000 Nm per proteggere la trasmissione: indicativamente il cambio
+    è il componente critico prima del motore in caso di aumento della pressione di sovralimentazione.
+  curiosita:
+    - "Il M285 per Maybach 57 e 62 deriva dal M275, con 551 CV nel 5,5 litri e fino a 640 CV nella 6,0 litri Zeppelin."
+    - "Il M158 della Pagani Huayra adotta un cambio robotizzato a sette rapporti Xtrac e lubrificazione a carter secco."
+
+- slug: mercedes-m120
+  codice: M120
+  nome: Mercedes-Benz M120 V12
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 1991
+  fine: 2001
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5987
+  alesaggio: 89.0
+  corsa: 80.2
+  compressione: "10.0:1"
+  distribuzione: DOHC per bancata a catena doppia, variatore sull'aspirazione
+  valvole: 4
+  blocco: Alluminio, canne Alusil
+  testa: Alluminio
+  iniezione: Indiretta, Bosch LH-Jetronic (ME 1.0 dal 1995)
+  cv_min: 394
+  cv_max: 800
+  nm_max: 580
+  limitatore: 5200
+  in_breve:
+    - { valore: "Alusil", testo: "basamento in alluminio con canne in lega alluminio-silicio e bielle in acciaio forgiato" }
+    - { valore: "2 spinterogeni", testo: "e due debimetri a filo caldo fino al 1995, poi accensione statica Bosch ME 1.0" }
+    - { valore: "800 CV", testo: "nella Pagani Zonda Revolución con il 6,0 litri preparato da AMG" }
+  versioni:
+    - { nome: "M120 E60 (600 SE/SEL, W140)", anni: "1991–1992", cv: 408, nm: 580, nota: "Prima taratura europea" }
+    - { nome: "M120 E60 (S 600, CL 600, SL 600)", anni: "1992–2001", cv: 394, nm: 570, nota: "Taratura rivista per le emissioni" }
+    - { nome: "AMG 7.1 (S 70, SL 70, CL 70 AMG)", anni: "", cv: 496, nota: "7055 cc" }
+    - { nome: "AMG 7.3 (SL 73 AMG)", anni: "", cv: 525, nota: "7291 cc, 91,5 × 92,4 mm" }
+    - { nome: "Pagani Zonda C12", anni: "1999", cv: 408, nota: "6,0 litri" }
+    - { nome: "Pagani Zonda S 7.3 / Roadster", anni: "2002", cv: 555, nota: "7,3 litri" }
+    - { nome: "Pagani Zonda Revolución", anni: "2012", cv: 800, nota: "6,0 litri, solo pista" }
+  modelli:
+    - { nome: "Mercedes-Benz 600 SE/SEL, S 600 (W140)", anni: "1991–1998" }
+    - { nome: "Mercedes-Benz 600 SEC, CL 600 (C140)", anni: "1992–1999" }
+    - { nome: "Mercedes-Benz 600 SL, SL 600 (R129)", anni: "1992–2001" }
+    - { nome: "Pagani Zonda (C12, S, F, R, Revolución), M120 AMG", anni: "1999–2012" }
+  storia: >-
+    V12 aspirato a 60° presentato nel 1991 sulla 600 SE/SEL W140, con basamento in alluminio, quattro valvole per cilindro
+    e variatore di fase sugli alberi di aspirazione. Fino al 1995 la gestione è sdoppiata per bancata (due debimetri, due
+    spinterogeni, farfalle elettroniche), poi passa all'accensione statica Bosch ME 1.0. Dalle auto Mercedes esce con la
+    SL 600 R129 nel 2001, sostituito dal M137 a tre valvole; AMG ne ha derivato versioni da 7,0 a 7,3 litri fornite
+    anche alla Pagani per la Zonda.
+  punti_deboli:
+    - "Cablaggio motore e cavi delle farfalle elettroniche (ETA): isolamento degradato, con guasti alla centralina EGAS"
+  limiti: >-
+    Motore aspirato: senza modifiche interne gli aumenti di potenza sono contenuti. Le versioni AMG da 7,1 e 7,3 litri
+    richiedono alesaggio e corsa specifici, quindi albero motore e canne diversi dal 6,0 litri di serie.
+  curiosita:
+    - "Dal M120 deriva il M297 della CLK GTR (1997); per le 25 vetture stradali dell'omologazione FIA la cilindrata fu portata a 6,9 litri."
+    - "La SL 73 AMG da 7,3 litri e 525 CV fu prodotta in poche decine di esemplari."
+
+- slug: mercedes-om642
+  codice: OM642
+  nome: Mercedes-Benz OM642 3.0 V6 diesel
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2005
+  fine: 2022
+  architettura: V6
+  angolo: 72
+  cilindri: 6
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 2987
+  alesaggio: 83.0
+  corsa: 92.0
+  compressione: "16.5–18.0:1"
+  distribuzione: DOHC per bancata a catena
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta common rail, 1600 bar
+  cv_min: 184
+  cv_max: 265
+  nm_max: 620
+  limitatore: 4500
+  in_breve:
+    - { valore: "72°", testo: "angolo tra le bancate, con un solo turbo Garrett a geometria variabile" }
+    - { valore: "620 Nm", testo: "nelle versioni europee più potenti da 265 CV" }
+    - { valore: "Swirl", testo: "farfalle nei collettori di aspirazione soggette a bloccarsi per i depositi dell'EGR" }
+  versioni:
+    - { nome: "320 CDI (W211, W203, C209)", anni: "2005–2009", cv: 224, nm: 510, nota: "540 Nm dal 2007" }
+    - { nome: "350 CDI / BlueTEC (mercato USA)", anni: "", cv: 213, nm: 540, nota: "Compressione 16,5:1" }
+    - { nome: "350 CDI / 350 d (versione europea più potente)", anni: "", cv: 265, nm: 620, nota: "" }
+    - { nome: "Sprinter 3.0 CDI e versioni x280 CDI", anni: "", cv: 190, nm: 440, nota: "" }
+    - { nome: "G 280 / G 300 CDI (W461)", anni: "2007–2013", cv: 184, nm: 400, nota: "" }
+  modelli:
+    - { nome: "Mercedes-Benz Classe C, E, S, CLS, CLK 320/350 CDI", anni: "2005–2018" }
+    - { nome: "Mercedes-Benz ML, GL, R, GLK, GLE, GLS, GLC, Classe G", anni: "2006–2019" }
+    - { nome: "Mercedes-Benz Sprinter, Vito, Viano 3.0 CDI", anni: "2006–2022" }
+    - { nome: "Mercedes-Benz Classe X 350 d", anni: "2017–2020" }
+    - { nome: "Jeep Grand Cherokee 3.0 CRD (WK)", anni: "2005–2010" }
+    - { nome: "Jeep Commander 3.0 CRD (XK)", anni: "2006–2010" }
+    - { nome: "Chrysler 300C 3.0 CRD", anni: "2006–2011" }
+  storia: >-
+    V6 diesel a 72° con basamento e teste in alluminio, iniezione common rail a 1600 bar e turbo a geometria variabile
+    posto nella V tra le bancate. Introdotto nel 2005 sulla C 320 CDI, è stato il diesel a sei cilindri di quasi tutta la
+    gamma Mercedes, dei veicoli commerciali e, nel periodo DaimlerChrysler, di Jeep e Chrysler. Le versioni BlueTEC
+    con iniezione di urea hanno compressione ridotta a 16,5:1. È stato sostituito dal sei cilindri in linea OM656.
+  punti_deboli:
+    - "Guarnizioni dello scambiatore olio nella V: perdite d'olio, intervento lungo per l'accesso tra collettori e turbo"
+    - "Farfalle swirl e collettori di aspirazione: bloccaggio per depositi dell'EGR, spesso con sostituzione del collettore"
+    - "Attuatore della geometria variabile del turbo: palette bloccate in posizione di bassa pressione"
+    - "Sensori NOx sulle versioni BlueTEC: guasti frequenti"
+    - "Bronzine del primo supporto di banco sulle prime serie: ticchettio al minimo (bollettino tecnico del 2013)"
+  limiti: >-
+    Indicativamente le versioni da 265 CV superano i 300 CV con la sola centralina; il componente critico è il turbo a
+    geometria variabile di serie, seguito dal cambio automatico.
+  curiosita:
+    - "Nel 2017 l'OM642 e l'OM651 sono stati oggetto di indagini del KBA tedesco sulla gestione delle emissioni."
+    - "Su Jeep Grand Cherokee, Jeep Commander e Chrysler 300C era venduto con la sigla CRD."
+
+- slug: mercedes-om651
+  codice: OM651
+  nome: Mercedes-Benz OM651 2.1 diesel
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2008
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo
+  cilindrata: 2143
+  alesaggio: 83.0
+  corsa: 99.0
+  compressione: "16.2:1"
+  distribuzione: DOHC a catena e ingranaggi, catena lato cambio
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail fino a 2000 bar, iniettori a solenoide o piezo
+  cv_min: 95
+  cv_max: 204
+  nm_max: 500
+  limitatore: 4900
+  in_breve:
+    - { valore: "Biturbo", testo: "due turbo BorgWarner in serie, alta e bassa pressione, sulle versioni 220 e 250 CDI" }
+    - { valore: "Lanchester", testo: "due contralberi di equilibratura in una cassetta sotto il basamento" }
+    - { valore: "Catena", testo: "di distribuzione monofilare sul lato cambio: sostituzione onerosa" }
+  versioni:
+    - { nome: "A 180 / B 180 CDI", anni: "", cv: 109, nm: 250, nota: "1796 cc, corsa 83 mm" }
+    - { nome: "Sprinter 210 CDI / Vito 110 CDI", anni: "2009–2016", cv: 95, nm: 250, nota: "Turbo singolo" }
+    - { nome: "Sprinter 213 CDI", anni: "", cv: 129, nm: 305, nota: "" }
+    - { nome: "C 220 CDI (W204)", anni: "2009–2015", cv: 170, nm: 400, nota: "Biturbo" }
+    - { nome: "Infiniti Q50 2.2d", anni: "2014–2016", cv: 170, nm: 400, nota: "Centralina e intercooler Infiniti" }
+    - { nome: "C 250 CDI, ML 250 BlueTEC", anni: "2008–2013", cv: 204, nm: 500, nota: "Biturbo" }
+  modelli:
+    - { nome: "Mercedes-Benz Classe C 200, 220, 250 CDI (W204)", anni: "2008–2015" }
+    - { nome: "Mercedes-Benz Classe A, B, CLA, GLA 180–220 CDI", anni: "" }
+    - { nome: "Mercedes-Benz Classe E, S, SLK, ML, GLK 2.1 CDI e BlueTEC", anni: "" }
+    - { nome: "Mercedes-Benz Vito, Viano, Classe V 2.1 CDI", anni: "" }
+    - { nome: "Mercedes-Benz Sprinter 2.1 CDI", anni: "dal 2009" }
+    - { nome: "Infiniti Q50 2.2d", anni: "2014–2016" }
+  storia: >-
+    Quattro cilindri diesel di progetto nuovo presentato nell'ottobre 2008 sulla C 250 CDI, con basamento in ghisa,
+    testa in alluminio e contralberi di equilibratura Lanchester. Le versioni fino a 120 kW hanno un turbo IHI a geometria
+    variabile, quelle da 125 kW in su due turbo BorgWarner in serie. Equipaggia quasi tutta la gamma Mercedes a trazione
+    posteriore e trasversale, i furgoni Vito e Sprinter e, con componenti Infiniti, la Q50 2.2d; nelle auto è sostituito
+    dall'OM654.
+  punti_deboli:
+    - "Iniettori piezo Delphi delle versioni da 125 e 150 kW: guasti oltre i 50.000 km, sostituiti in campagna con iniettori a solenoide"
+    - "Catena di distribuzione e tenditore: allungamento con chilometraggio elevato; richiamo per il tenditore su motori prodotti tra febbraio e novembre 2014"
+    - "Scambiatore olio: perdite segnalate su alcuni esemplari"
+    - "Valvola EGR e circuito di ricircolo: intasamento da depositi"
+  limiti: >-
+    Indicativamente le versioni biturbo da 204 CV arrivano a 230–240 CV con la sola centralina; i componenti critici
+    sono la catena di distribuzione e il turbo di bassa pressione.
+  curiosita:
+    - "Nella Infiniti Q50 2.2d basamento, turbo e iniezione sono Mercedes, mentre intercooler, coppa olio, supporti e centralina sono sviluppati da Infiniti."
+
+- slug: mercedes-m274-m264
+  codice: M274 / M264
+  nome: Mercedes-Benz M274 / M264 2.0 turbo
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2012
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina / Ibrido
+  aspirazione: Turbo
+  cilindrata: 1991
+  alesaggio: 83.0
+  corsa: 92.0
+  compressione: "9.8–10.5:1"
+  distribuzione: DOHC a catena, variatori di fase su aspirazione e scarico; CAMTRONIC sul M264
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta con iniettori piezo, fino a 200 bar (M274)
+  cv_min: 129
+  cv_max: 299
+  nm_max: 400
+  limitatore: 6500
+  in_breve:
+    - { valore: "Longitudinale", testo: "versione per trazione posteriore della famiglia M270, montata trasversalmente" }
+    - { valore: "Piezo", testo: "iniezione diretta con fino a cinque iniezioni per ciclo" }
+    - { valore: "CAMTRONIC", testo: "sul M264 alzata delle valvole variabile a due stadi" }
+  versioni:
+    - { nome: "M274 DE16 (C 160, C 180 W205)", anni: "2014–2019", cv: 129, nm: 210, nota: "1595 cc; C 180 156 CV" }
+    - { nome: "M274 DE20 (C 200 W205, E 200 W212/W213)", anni: "2013–2020", cv: 184, nm: 300, nota: "" }
+    - { nome: "M274 DE20 (C 250 W205, E 250, GLC 250)", anni: "2013–2019", cv: 211, nm: 350, nota: "Base anche delle ibride C 350 e e GLC 350 e" }
+    - { nome: "M274 DE20 (C 300, E 300, GLC 300)", anni: "2015–2019", cv: 245, nm: 370, nota: "" }
+    - { nome: "M264 E15 (C 200 W205 restyling)", anni: "2018–2021", cv: 184, nm: 280, nota: "1497 cc, alesaggio 80,4 mm" }
+    - { nome: "M264 E20 (C 300 W205 restyling, E 300)", anni: "2018–2021", cv: 258, nm: 370, nota: "Compressione 10,5:1" }
+    - { nome: "M264 E20 (E 350 coupé e cabriolet)", anni: "", cv: 299, nm: 400, nota: "" }
+  modelli:
+    - { nome: "Mercedes-Benz Classe C (W204, W205)", anni: "2012–2021" }
+    - { nome: "Mercedes-Benz Classe E (W212, W213), CLS (C257)", anni: "2013–2023" }
+    - { nome: "Mercedes-Benz GLK, GLC, SLC", anni: "2013–2022" }
+    - { nome: "Mercedes-Benz Sprinter (VS30) benzina", anni: "2019–2023" }
+    - { nome: "Infiniti Q50 2.0t", anni: "2014–2019" }
+    - { nome: "Infiniti Q60 2.0t", anni: "dal 2016" }
+    - { nome: "Nissan Skyline 200GT-t", anni: "2014–2019" }
+  storia: >-
+    Quattro cilindri turbo in alluminio a iniezione diretta piezo, variante longitudinale per trazione posteriore della
+    famiglia M270: 1,6 e soprattutto 2,0 litri, con variatori di fase su entrambi gli alberi. Dal 2017 il M264 lo
+    sostituisce con turbo twin-scroll, filtro antiparticolato, CAMTRONIC e compressione 10,5:1, in alcune versioni con
+    impianto a 48 V; esiste anche in versione 1,5 litri con alesaggio ridotto. Il 2,0 litri M274 è stato fornito a
+    Infiniti per Q50 e Q60.
+  punti_deboli:
+    - "Elettromagneti dei variatori di fase (M274): trafilamento d'olio nel cablaggio fino alla centralina"
+    - "Alberi a camme con saldatura difettosa su motori del 2015 (C W205, E W212, GLC, SLK): rischio di rottura"
+    - "Sensore NOx: guasti frequenti con codice P2200"
+    - "Tenditore della catena di distribuzione: usura precoce della catena, rumorosità all'avviamento"
+    - "Depositi carboniosi nel condotto di aspirazione e sulle valvole, tipici dell'iniezione diretta"
+  limiti: >-
+    Indicativamente le versioni da 245–258 CV raggiungono 280–300 CV con la sola centralina; il componente critico è il
+    turbo di serie, insieme alla temperatura dell'aria aspirata.
+  curiosita:
+    - "Il M274 per Infiniti è stato prodotto dal giugno 2014 anche nello stabilimento Nissan di Decherd, nel Tennessee."
+
+- slug: mercedes-m256
+  codice: M256 E30 DEH LA
+  nome: Mercedes-Benz M256 3.0 sei cilindri EQ Boost
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2017
+  fine:
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina / Mild hybrid
+  aspirazione: Turbo twin-scroll + compressore elettrico
+  cilindrata: 2999
+  alesaggio: 83.0
+  corsa: 92.4
+  compressione: "10.5:1"
+  distribuzione: DOHC a catena sul lato volano
+  valvole: 4
+  blocco: Alluminio, canne con riporto Nanoslide
+  testa: Alluminio-silicio
+  iniezione: Diretta
+  cv_min: 367
+  cv_max: 449
+  nm_max: 560
+  limitatore: 6500
+  in_breve:
+    - { valore: "48 V", testo: "starter-generatore integrato tra motore e cambio, pompa acqua e compressore del clima elettrici" }
+    - { valore: "70.000", testo: "giri/min raggiunti in 300 millisecondi dal compressore elettrico ausiliario" }
+    - { valore: "500 cc", testo: "per cilindro, come nei quattro cilindri M264 e nei V8 della stessa famiglia modulare" }
+  versioni:
+    - { nome: "S 450 (W222)", anni: "2017–2020", cv: 367, nm: 500, nota: "" }
+    - { nome: "S 500 (W222)", anni: "2017–2020", cv: 435, nm: 520, nota: "Compressore elettrico ausiliario; EQ Boost fino a 22 CV e 250 Nm" }
+    - { nome: "Mercedes-AMG E 53, CLS 53", anni: "2018–2023", cv: 435, nm: 520, nota: "EQ Boost fino a 22 CV e 250 Nm" }
+    - { nome: "Mercedes-AMG CLE 53", anni: "2023–oggi", cv: 449, nm: 560, nota: "Turbo maggiorato; 600 Nm in overboost; starter-generatore 23 CV" }
+    - { nome: "Aston Martin DBX Straight-Six (Cina)", anni: "2021–oggi", cv: 435, nm: 520, nota: "Motore fornito da Mercedes-AMG" }
+  modelli:
+    - { nome: "Mercedes-Benz Classe S (W222, W223)", anni: "2017–oggi" }
+    - { nome: "Mercedes-Benz Classe E (W213, W214), CLS (C257), CLE", anni: "2018–oggi" }
+    - { nome: "Mercedes-Benz GLE (V167), GLS (X167)", anni: "2019–oggi" }
+    - { nome: "Mercedes-AMG E 53, CLS 53, CLE 53, GT 53 4 porte", anni: "2018–oggi" }
+    - { nome: "Aston Martin DBX Straight-Six", anni: "2021–oggi" }
+  storia: >-
+    Sei cilindri in linea che sostituisce il V6 M276 ed è il primo sei in linea a benzina Mercedes dopo l'M104. Turbocompressore
+    twin-scroll in serie con un compressore elettrico ausiliario alimentato a 48 V, che fornisce pressione prima che il turbo entri
+    in funzione. Lo starter-generatore integrato (ISG) tra motore e cambio aggiunge 10–16 kW in accelerazione, recupera energia in
+    frenata e permette il veleggio a motore spento; pompa dell'acqua e compressore del clima sono elettrici, per cui il motore non ha
+    cinghia degli accessori.
+  punti_deboli:
+    - "Impianto a 48 V (starter-generatore e batteria): spie di avaria e surriscaldamenti segnalati, spesso risolti con aggiornamento software in officina"
+    - "Compressore elettrico ausiliario: guasti con perdita di spinta ai bassi regimi"
+    - "Alloggiamento del termostato e raccordi del refrigerante in plastica: perdite"
+  limiti: >-
+    Indicativamente la sola centralina porta le versioni AMG 53 oltre i 450 CV; con intercooler e aspirazione si arriva a circa 500 CV.
+    Oltre questa soglia il componente critico indicato è il cambio automatico 9G-Tronic.
+  curiosita:
+    - "Il compressore elettrico ausiliario raggiunge 70.000 giri/min in circa 300 millisecondi."
+    - "Dal 2021 il motore equipaggia anche l'Aston Martin DBX Straight-Six, venduta inizialmente solo in Cina."
+
+- slug: audi-22-cinque-cilindri-turbo
+  codice: WR, MC, MB, 3B, RR, AAN, ABY, ADU
+  nome: Audi 2.1/2.2 cinque cilindri turbo
+  costruttore: Audi
+  paese: Germania
+  inizio: 1979
+  fine: 1997
+  architettura: L5
+  cilindri: 5
+  alimentazione: Benzina
+  aspirazione: Turbo con intercooler
+  cilindrata: 2226
+  alesaggio: 81.0
+  corsa: 86.4
+  compressione: "7.0–9.3:1"
+  distribuzione: SOHC a cinghia (10v); DOHC a cinghia e catena (20v)
+  valvole: "2 / 4"
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta (K-Jetronic, poi Motronic)
+  cv_min: 165
+  cv_max: 315
+  nm_max: 410
+  limitatore: 6500
+  in_breve:
+    - { valore: "1979", testo: "Audi 200 5T: primo cinque cilindri a benzina sovralimentato, 170 CV" }
+    - { valore: "20v", testo: "testata bialbero a quattro valvole per cilindro dal 1989" }
+    - { valore: "315 CV", testo: "nella RS2 Avant del 1994, con motore modificato insieme a Porsche" }
+  versioni:
+    - { nome: "Quattro 2.1 10v (WR)", anni: "1980–1987", cv: 200, nm: 285, nota: "2144 cc, alesaggio 79,5 mm" }
+    - { nome: "Quattro 2.2 10v (MB)", anni: "1987–1989", cv: 200, nota: "2226 cc, coppia massima a regime più basso" }
+    - { nome: "200 20V, Quattro 20V (3B, RR)", anni: "1989–1991", cv: 220, nm: 309, nota: "Testata DOHC 20 valvole" }
+    - { nome: "S2 (3B, poi ABY)", anni: "1990–1995", cv: 230, nm: 350, nota: "220 CV e 309 Nm fino al 1992; overboost fino a 380 Nm" }
+    - { nome: "S4 / S6 (C4, AAN)", anni: "1991–1997", cv: 230, nm: 350, nota: "Turbo KKK K24" }
+    - { nome: "RS2 Avant (ADU)", anni: "1994–1995", cv: 315, nm: 410, nota: "Turbo maggiorato, intercooler, iniettori, albero a camme e scarico specifici" }
+  modelli:
+    - { nome: "Audi 100 e 200 turbo, Quattro, S2, S4 e S6 (C4), RS2 Avant", anni: "1979–1997" }
+  storia: >-
+    Cinque cilindri in linea sovralimentato con intercooler, nato come 2.1 (2144 cc) sull'Audi 200 5T e sull'Audi Quattro del 1980 e
+    portato a 2226 cc con alesaggio di 81 mm dal 1987. Nel 1989 arriva la testata bialbero a 20 valvole, poi adottata da S2, S4 e S6
+    con gestione Motronic, accensione statica e overboost. Sulla RS2 Avant del 1994 Porsche ha collaborato alla revisione del motore
+    (turbo più grande, intercooler, iniettori, albero a camme, scarico e centralina Bosch modificata) portandolo a 315 CV a 6500 giri/min.
+  punti_deboli:
+    - "Bobine d'accensione e relativi terminali sulle versioni 20v"
+    - "Punterie idrauliche e turbocompressore oltre i 200.000 km"
+    - "Cinghia di distribuzione: in caso di rottura le valvole urtano i pistoni"
+    - "Tendenza alla detonazione e al surriscaldamento: radiatori da tenere sotto controllo"
+  limiti: >-
+    Indicativamente le versioni 20v superano i 350 CV con turbo maggiorato e centralina dedicata; per potenze superiori le bielle di
+    serie sono il componente critico e si montano bielle forgiate.
+  curiosita:
+    - "La RS2 Avant è stata assemblata da Porsche nello stabilimento Rössle-Bau di Zuffenhausen, dove era stata prodotta anche la Mercedes-Benz 500 E; ne sono stati costruiti 2891 esemplari."
+    - "Una versione 2.1 a due valvole per cilindro dello stesso motore, con 510 CV, ha vinto nel 1988 la serie americana Trans-Am sull'Audi 200 quattro."
+
+- slug: audi-42-v8-40v
+  codice: 4.2 V8 40V (AQF, ARS, AQJ, AQH, BBK, BCY, BFM, AXQ)
+  nome: Audi 4.2 V8 40v
+  costruttore: Audi
+  paese: Germania
+  inizio: 1998
+  fine: 2016
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Biturbo
+  cilindrata: 4172
+  alesaggio: 84.5
+  corsa: 93.0
+  compressione: "9.8–11.0:1"
+  distribuzione: DOHC a cinghia dentata e catena; a catene posteriori dalla S4 B6
+  valvole: 5
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 300
+  cv_max: 480
+  nm_max: 560
+  limitatore: 7200
+  in_breve:
+    - { valore: "5 valvole", testo: "per cilindro, tre di aspirazione e due di scarico, con bilancieri a rullo" }
+    - { valore: "Cosworth", testo: "ha sviluppato e costruito in Inghilterra la versione biturbo della RS6 C5" }
+    - { valore: "7200", testo: "giri/min di regime massimo nelle versioni S6 e S8" }
+  versioni:
+    - { nome: "A8 4.2 quattro (D2, AQF)", anni: "1998–2002", cv: 310, nm: 410, nota: "" }
+    - { nome: "A6 4.2 quattro (C5, ARS)", anni: "1999–2004", cv: 300, nm: 400, nota: "" }
+    - { nome: "S6 (C5) / S8 (D2)", anni: "1999–2004", cv: 340, nm: 420, nota: "S8: 360 CV e 430 Nm" }
+    - { nome: "RS6 (C5, BCY)", anni: "2002–2004", cv: 450, nm: 560, nota: "Biturbo BorgWarner K04, 0,8 bar; compressione 9,8:1" }
+    - { nome: "RS6 plus (C5, BRV)", anni: "2004", cv: 480, nm: 560, nota: "999 esemplari Avant" }
+    - { nome: "S4 (B6, B7)", anni: "2003–2008", cv: 344, nm: 410, nota: "Catene di distribuzione sul lato cambio" }
+    - { nome: "A8 4.2 quattro (D3, BFM)", anni: "2002–2006", cv: 335, nm: 430, nota: "" }
+  modelli:
+    - { nome: "Audi A8 (D2, D3), S8 (D2)", anni: "1998–2006" }
+    - { nome: "Audi A6 4.2, S6, RS6 (C5)", anni: "1999–2004" }
+    - { nome: "Audi S4 (B6, B7)", anni: "2003–2008" }
+    - { nome: "Volkswagen Touareg 4.2 V8", anni: "2002–2006" }
+    - { nome: "Volkswagen Phaeton 4.2 V8", anni: "2002–2016" }
+  storia: >-
+    V8 a 90° a iniezione indiretta, evoluzione del V8 Audi a 32 valvole con testate a cinque valvole per cilindro, collettore di
+    aspirazione a due stadi e variatore di fase sull'aspirazione. Nelle prime versioni gli alberi a camme sono comandati da cinghia
+    dentata con catena semplice; con la S4 B6 la distribuzione passa a catene sul lato cambio. La versione biturbo della RS6 C5 è stata
+    sviluppata con Cosworth Technology. In Audi è sostituito dal 4.2 FSI a iniezione diretta dal 2005; nella Volkswagen Phaeton resta
+    in listino fino al 2016.
+  punti_deboli:
+    - "Catene di distribuzione posteriori (S4 B6/B7): usura di tenditori, guide e variatori di fase anche da 60.000 km; tenditori e guide si sostituiscono solo con motore smontato"
+    - "Turbocompressori della RS6 C5: guasti ricorrenti; sono montati tra motore e paratia e la sostituzione richiede la rimozione del motore"
+  limiti: >-
+    Le versioni aspirate guadagnano poco con la sola centralina. Il biturbo della RS6 C5 regge indicativamente oltre 550 CV; il
+    componente critico è il cambio automatico a cinque rapporti ZF 5HP24A, per proteggere il quale Audi ha limitato la potenza di serie.
+  curiosita:
+    - "Cosworth Technology ha costruito anche il motore della versione da competizione della RS6 per la SPEED World Challenge."
+
+- slug: audi-40-tfsi
+  codice: EA824 / EA825
+  nome: Audi 4.0 TFSI V8 biturbo
+  costruttore: Audi
+  paese: Germania
+  inizio: 2012
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina / Mild hybrid
+  aspirazione: Biturbo twin-scroll (hot-V)
+  cilindrata: 3993
+  alesaggio: 84.5
+  corsa: 89.0
+  compressione: "9.3–10.1:1"
+  distribuzione: DOHC a catene sul lato cambio, fasatura variabile
+  valvole: 4
+  blocco: Alluminio-silicio ipereutettico, colato in bassa pressione
+  testa: Alluminio, scarichi all'interno della V
+  iniezione: Diretta
+  cv_min: 420
+  cv_max: 666
+  nm_max: 850
+  limitatore: 6800
+  in_breve:
+    - { valore: "Hot-V", testo: "due turbo twin-scroll all'interno della V con un intercooler comune" }
+    - { valore: "V4", testo: "disattivazione dei cilindri 2, 3, 5 e 8 tra 960 e 3500 giri/min (cylinder on demand)" }
+    - { valore: "666 CV", testo: "nella Lamborghini Urus Performante e Urus S" }
+  versioni:
+    - { nome: "A8 4.0 TFSI (D4)", anni: "2012–2017", cv: 420, nm: 600, nota: "435 CV dopo il restyling" }
+    - { nome: "S6 / S7 (C7)", anni: "2012–2018", cv: 420, nm: 550, nota: "450 CV dal 2014" }
+    - { nome: "S8 (D4)", anni: "2012–2017", cv: 520, nm: 650, nota: "S8 plus 605 CV e 750 Nm" }
+    - { nome: "RS6 / RS7 (C7)", anni: "2013–2018", cv: 560, nm: 700, nota: "performance 605 CV e 750 Nm" }
+    - { nome: "Bentley Continental GT V8", anni: "2012–2018", cv: 507, nm: 660, nota: "V8 S 528 CV e 680 Nm" }
+    - { nome: "Porsche Panamera Turbo (971), EA825", anni: "2016–2018", cv: 550, nm: 770, nota: "3996 cc, 86,0 x 86,0 mm, compressione 10,1:1" }
+    - { nome: "Lamborghini Urus", anni: "2018–oggi", cv: 650, nm: 850, nota: "Urus Performante e Urus S 666 CV" }
+    - { nome: "RS6 / RS7 (C8)", anni: "2019–2025", cv: 600, nm: 800, nota: "Mild hybrid 48 V; performance 630 CV e 850 Nm" }
+  modelli:
+    - { nome: "Audi A8, S8 (D4, D5), S6, S7 (C7)", anni: "2012–oggi" }
+    - { nome: "Audi RS6, RS7 (C7, C8)", anni: "2013–2025" }
+    - { nome: "Bentley Continental GT V8, Bentayga V8", anni: "2012–oggi" }
+    - { nome: "Lamborghini Urus", anni: "2018–oggi" }
+    - { nome: "Porsche Panamera, Cayenne 4.0 V8 biturbo", anni: "2016–oggi" }
+  storia: >-
+    V8 a 90° con testate rovesciate: scarichi all'interno della V, dove sono alloggiati due turbo twin-scroll con intercooler comune.
+    Distribuzione a catene sul lato cambio, blocco in lega alluminio-silicio ipereutettica con bedplate e sistema cylinder on demand
+    che a carico parziale funziona a quattro cilindri, con supporti motore attivi che compensano le vibrazioni. Dal 2016 l'evoluzione
+    EA825, con alesaggio e corsa di 86 mm, è prodotta da Porsche a Stoccarda per tutto il gruppo e montata su Panamera, Cayenne, Urus,
+    Bentayga e RS6 C8, quest'ultima con impianto mild hybrid a 48 V.
+  punti_deboli:
+    - "Tenditori della parte superiore della catena di distribuzione e supporti motore attivi"
+    - "Pompa carburante ad alta pressione: perdite con diluizione della benzina nell'olio"
+    - "Gestione termica: con i turbo nella V le temperature sono elevate e con potenze maggiorate il raffreddamento di serie arriva al limite, con riduzione dell'anticipo"
+  limiti: >-
+    Indicativamente la sola centralina porta le RS6 e RS7 C8 da 600 a circa 750 CV. Intorno ai 900 CV i preparatori indicano come
+    critici pompa ad alta pressione e bielle (bielle ad H); per potenze superiori servono pistoni forgiati e bielle in acciaio.
+  curiosita:
+    - "In modalità a quattro cilindri l'ordine di accensione è 1-4-6-7."
+    - "Nella ripartizione dei motori del gruppo Volkswagen il V8 4.0 EA825 è costruito da Porsche, i V6 benzina sono sviluppati da Audi."
+
+- slug: audi-ea839
+  codice: EA839 (CWGD, DECA)
+  nome: Audi 2.9 / 3.0 TFSI V6
+  costruttore: Audi
+  paese: Germania
+  inizio: 2016
+  fine:
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina / Mild hybrid
+  aspirazione: Turbo (3.0) / Biturbo (2.9), nella V
+  cilindrata: 2995
+  alesaggio: 84.5
+  corsa: 89.0
+  compressione: "10.0–12.0:1"
+  distribuzione: DOHC a catena, fasatura variabile, alzata variabile AVS in aspirazione
+  valvole: 4
+  blocco: Alluminio, canne in ghisa a parete sottile
+  testa: Alluminio, scarichi all'interno della V
+  iniezione: Diretta
+  cv_min: 354
+  cv_max: 450
+  nm_max: 600
+  limitatore: 6700
+  in_breve:
+    - { valore: "Ciclo B", testo: "combustione a chiusura anticipata dell'aspirazione a carico parziale, con alzata variabile AVS" }
+    - { valore: "182 kg", testo: "peso del 2.9 biturbo, 31 kg in meno del V8 che sostituisce su RS4 e RS5" }
+    - { valore: "1,5 bar", testo: "pressione massima di sovralimentazione del 2.9 biturbo" }
+  versioni:
+    - { nome: "S4 (B9) 3.0 TFSI (CWGD)", anni: "2016–2019", cv: 354, nm: 500, nota: "Compressione 11,2:1; in Europa sostituito dal TDI" }
+    - { nome: "RS4 / RS5 (B9) 2.9 TFSI (DECA)", anni: "2017–2024", cv: 450, nm: 600, nota: "2894 cc, corsa 86 mm, compressione 10,0:1" }
+    - { nome: "Porsche Panamera 4S (971) 2.9 biturbo", anni: "2016–2020", cv: 440, nm: 550, nota: "" }
+    - { nome: "S5 (B10) 3.0 TFSI", anni: "2024–oggi", cv: 367, nm: 550, nota: "Mild hybrid MHEV plus, fino a 24 CV e 230 Nm elettrici; compressione 12,0:1" }
+  modelli:
+    - { nome: "Audi S4, S5 (B9, B10), SQ5", anni: "2016–oggi" }
+    - { nome: "Audi RS4, RS5 (B9)", anni: "2017–2024" }
+    - { nome: "Porsche Panamera 4S, Cayenne S 2.9 V6 biturbo", anni: "2016–oggi" }
+  storia: >-
+    V6 a 90° con scarichi all'interno della V, dove si trovano il turbo twin-scroll del 3.0 o i due turbo del 2.9. Adotta il ciclo B
+    di Audi: a carico parziale le valvole di aspirazione chiudono in anticipo, mentre a carico elevato il sistema AVS porta l'alzata da
+    6 a 10 mm e la durata a 200° di manovella. Il 2.9 biturbo ha corsa ridotta di 3 mm (86 mm) e sostituisce il 4.2 V8 FSI su RS4 e
+    RS5; nella ripartizione del gruppo lo sviluppo dei V6 benzina spetta ad Audi e il motore è usato anche da Porsche.
+  punti_deboli:
+    - "Pompa dell'acqua con valvola interna a depressione: perdite interne di refrigerante, che può entrare nella valvola solenoide del vuoto"
+    - "Membrana del sistema di ventilazione del basamento integrata nel coperchio punterie: si indurisce o si crepa e manda olio in aspirazione"
+    - "Tenditore della catena di distribuzione sui primi esemplari (2018–2019): rumore all'avviamento a freddo"
+    - "Flangia del refrigerante in plastica al centro della V: crepe e trafilamenti"
+    - "Depositi carboniosi sulle valvole di aspirazione (iniezione solo diretta)"
+  limiti: >-
+    Indicativamente la sola centralina aggiunge circa 60 CV e 180 Nm al 2.9 biturbo e circa 40 CV e 100 Nm al 3.0 monoturbo. Per
+    potenze superiori diventano critici pompa carburante ad alta pressione e intercooler.
+  curiosita:
+    - "Il 2.9 biturbo ha debuttato nel 2016 sulla Porsche Panamera 4S con 440 CV, prima di arrivare sulle Audi RS5 e RS4."
+
+- slug: audi-30-tdi
+  codice: EA896 / EA897
+  nome: Audi 3.0 TDI V6
+  costruttore: Audi
+  paese: Germania
+  inizio: 2004
+  fine:
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo
+  cilindrata: 2967
+  alesaggio: 83.0
+  corsa: 91.4
+  compressione: "16.0–17.0:1"
+  distribuzione: DOHC per bancata a catena
+  valvole: 4
+  blocco: Ghisa (ghisa a grafite vermicolare GJV-450 sull'EA897)
+  testa: Alluminio
+  iniezione: Diretta common rail, iniettori piezoelettrici, fino a 2000 bar
+  cv_min: 163
+  cv_max: 326
+  nm_max: 700
+  limitatore: 4500
+  in_breve:
+    - { valore: "90°", testo: "angolo tra le bancate, quote 83,0 × 91,4 mm invariate in tutte le generazioni" }
+    - { valore: "326 CV", testo: "nella versione biturbo in serie di A6, A7 e SQ5 TDI (dal 2016)" }
+    - { valore: "299 CV", testo: "e 630 Nm sulla Audi Q9: il motore è ancora in produzione nel 2026" }
+  versioni:
+    - { nome: "3.0 TDI EA896 (A8 D3, A6 C6, A4 B7)", anni: "2004–2008", cv: 233, nm: 450, nota: "Compressione 17,0:1; 500 Nm dal 2006" }
+    - { nome: "3.0 TDI EA896 240 CV (Q7, Touareg, Cayenne Diesel)", anni: "2007–2010", cv: 240, nm: 550, nota: "500–550 Nm secondo versione" }
+    - { nome: "3.0 TDI EA897 monoturbo (A6 C7, A7, Touareg II)", anni: "2010–2014", cv: 245, nm: 550, nota: "Anche 204 CV / 400 Nm; compressione 16,8:1" }
+    - { nome: "3.0 BiTDI EA897 (A6, A7, SQ5 TDI)", anni: "2011–2014", cv: 313, nm: 650, nota: "Due turbo in serie; 700 Nm su CVUC" }
+    - { nome: "3.0 TDI EA897 evo (A6 C7, A7)", anni: "2014–2017", cv: 272, nm: 580, nota: "Compressione 16,0:1; versione ultra 218 CV / 400 Nm" }
+    - { nome: "3.0 BiTDI 326 CV (A6, A7, SQ5) CVUB", anni: "2016–2018", cv: 326, nm: 650, nota: "" }
+    - { nome: "3.0 TDI EA897 evo2 (A4–A8, Q7, Q8)", anni: "2017–oggi", cv: 286, nm: 620, nota: "Turbo a geometria variabile" }
+    - { nome: "3.0 TDI (Audi Q9)", anni: "2026–oggi", cv: 299, nm: 630, nota: "Mild hybrid MHEV plus fino a +24 CV" }
+  modelli:
+    - { nome: "Audi A4, A5, A6, A7, A8", anni: "dal 2004" }
+    - { nome: "Audi Q5, Q7, Q8, Q9", anni: "dal 2006" }
+    - { nome: "Volkswagen Touareg, Phaeton", anni: "2004–2026" }
+    - { nome: "Volkswagen Amarok V6 TDI", anni: "2016–2020" }
+    - { nome: "Porsche Cayenne Diesel", anni: "2009–2017" }
+    - { nome: "Porsche Panamera Diesel", anni: "2011–2016" }
+    - { nome: "Porsche Macan S Diesel", anni: "2015–2018" }
+  storia: >-
+    V6 diesel a 90° con iniezione common rail, debuttato nel 2004 sull'Audi A8 D3 (generazione EA896) e prodotto da Audi
+    Hungaria a Győr. La seconda generazione EA897 (2010) mantiene alesaggio e corsa ma adotta un basamento in ghisa a grafite
+    vermicolare più leggero di circa 8 kg; la versione biturbo usa due turbocompressori in serie, quello di alta pressione a
+    geometria variabile, fino a 3,2 bar assoluti. Con l'evo del 2014 (272 CV, 192 kg) arrivano pompa olio a portata variabile
+    e 2000 bar di iniezione, con l'evo2 del 2017 turbo a geometria variabile e 286 CV / 620 Nm su A4–A8, Q7 e Q8.
+  punti_deboli:
+    - "Tendicatena superiori della distribuzione: rumorosità all'avviamento a freddo, intervento costoso per l'accesso alle catene"
+    - "Farfalle di vorticosità nel collettore di aspirazione soggette a usura e incrostazioni"
+    - "Ingranaggi a ripresa del gioco della distribuzione su alcune EA897 (codice CRTD): usura precoce, talvolta prima dei 100.000 km"
+    - "Valvola EGR e filtro antiparticolato con uso prevalentemente cittadino"
+    - "Valvola di intercettazione del liquido di raffreddamento con perdite nella V tra le bancate"
+  limiti: >-
+    Indicativamente le versioni monoturbo da 245–286 CV superano i 300 CV con sola mappatura; i componenti critici sono il
+    turbocompressore e il cambio automatico. Le biturbo hanno già in serie 650–700 Nm, vicino al limite della trasmissione.
+  curiosita:
+    - "Nell'ottobre 2018 la procura di Monaco ha inflitto ad Audi una sanzione di 800 milioni di euro legata ai software di gestione delle emissioni dei V6 e V8 TDI."
+    - "La Porsche Cayenne Diesel del 2009 è stata la prima Porsche di serie con motore diesel, fornito da Audi."
+
+- slug: vw-ea111-14-tsi-twincharger
+  codice: EA111 1.4 TSI twincharger
+  nome: Volkswagen EA111 1.4 TSI twincharger
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2005
+  fine: 2015
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Compressore volumetrico + turbo
+  cilindrata: 1390
+  alesaggio: 76.5
+  corsa: 75.6
+  compressione: "10.0:1"
+  distribuzione: DOHC a catena, fasatura variabile in aspirazione
+  valvole: 4
+  blocco: Ghisa grigia
+  testa: Alluminio
+  iniezione: Diretta FSI a 150 bar
+  cv_min: 140
+  cv_max: 185
+  nm_max: 250
+  limitatore: 6500
+  in_breve:
+    - { valore: "Roots + turbo", testo: "compressore Eaton con frizione magnetica in serie a un turbo KKK" }
+    - { valore: "2400 giri", testo: "regime fino al quale lavora il compressore, disinnestato verso i 3500 giri/min" }
+    - { valore: "185 CV", testo: "nella versione dell'Audi A1 (CAVG/CTHG), 250 Nm" }
+  versioni:
+    - { nome: "BMY 140 CV (Golf V, Touran, Jetta)", anni: "dal 2006", cv: 140, nm: 220, nota: "" }
+    - { nome: "CAVA 150 CV (Tiguan)", anni: "2007–2011", cv: 150, nm: 240, nota: "" }
+    - { nome: "CAVD 160 CV (Golf VI, Scirocco, Tiguan)", anni: "2008–2014", cv: 160, nm: 240, nota: "CTHD dal 2013" }
+    - { nome: "BLG 170 CV (Golf V GT, Touran, Golf Plus)", anni: "2006–2008", cv: 170, nm: 240, nota: "" }
+    - { nome: "CAVE/CTHE 180 CV (Polo GTI, Fabia RS, Ibiza Cupra)", anni: "2009–2015", cv: 180, nm: 250, nota: "132 kW" }
+    - { nome: "CAVG/CTHG 185 CV (Audi A1)", anni: "", cv: 185, nm: 250, nota: "" }
+  modelli:
+    - { nome: "Volkswagen Golf V GT, Golf VI, Jetta, Touran, Tiguan, Scirocco", anni: "2006–2014" }
+    - { nome: "Volkswagen Polo GTI (6R)", anni: "dal 2010" }
+    - { nome: "Seat Ibiza Cupra (6J)", anni: "2009–2015" }
+    - { nome: "Škoda Fabia RS", anni: "2010–2014" }
+    - { nome: "Audi A1 1.4 TFSI 185 CV", anni: "" }
+  storia: >-
+    Quattro cilindri della famiglia EA111 con basamento in ghisa grigia, iniezione diretta e doppia sovralimentazione,
+    presentato al Salone di Francoforte del 2005 e montato dalla Golf GT TSI. Un compressore volumetrico Roots Eaton
+    azionato a cinghia tramite frizione magnetica lavora ai bassi regimi in serie al turbocompressore KKK, che prende il
+    sopravvento oltre i 2400 giri/min; una valvola a farfalla gestisce il passaggio tra i due. Le versioni da 122 e 131 CV
+    della stessa famiglia hanno solo il turbo e non rientrano in questa scheda; il successore è l'EA211 1.4 TSI, solo turbo.
+  punti_deboli:
+    - "Pistoni: rottura delle fasce tra le scanalature dei segmenti, attribuita a preaccensione a bassi regimi (cilindro 3), spesso con sostituzione del monoblocco"
+    - "Catena di distribuzione: allungamento e cedimento del tendicatena idraulico"
+    - "Pompa acqua e frizione magnetica del compressore, montate sullo stesso gruppo: perdita di coppia in basso o surriscaldamento"
+    - "Mancate accensioni da bobine e iniettori (lotti difettosi, iniettori modificati nel 2010) con dilavamento delle canne e danni a pistoni e segmenti"
+    - "Consumo d'olio elevato su alcune unità, risolto in officina con segmenti nuovi"
+  limiti: >-
+    Indicativamente le versioni da 160–180 CV accettano una mappatura moderata; il componente critico sono i pistoni di
+    serie, sensibili alla detonazione, seguiti dalla catena di distribuzione. Chi elabora il motore deve prima escludere
+    mancate accensioni e consumo d'olio.
+  curiosita:
+    - "Ha vinto l'International Engine of the Year come miglior motore nuovo nel 2006 e la categoria 1,0–1,4 litri dal 2006 al 2011."
+    - "Nel 2011 la stampa riportava che Volkswagen avrebbe abbandonato la doppia sovralimentazione perché troppo costosa da produrre su un motore di questa cilindrata."
+
+- slug: vw-ea288
+  codice: EA288
+  nome: Volkswagen EA288 1.6 / 2.0 TDI
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2012
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo
+  cilindrata: 1968
+  alesaggio: 81.0
+  corsa: 95.5
+  compressione: "15.5–16.2:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail, fino a 2200 bar sull'evo
+  cv_min: 80
+  cv_max: 239
+  nm_max: 500
+  limitatore: 4000
+  in_breve:
+    - { valore: "2012", testo: "debutto della famiglia che sostituisce l'EA189 per le norme Euro 6" }
+    - { valore: "Twin dosing", testo: "due catalizzatori SCR con iniezione di AdBlue sull'evo (2019–2020)" }
+    - { valore: "239 CV", testo: "nel 2.0 BiTDI biturbo di Passat B8 e Arteon, 500 Nm" }
+  versioni:
+    - { nome: "1.6 TDI 90–120 CV", anni: "2012–2019", cv: 120, nm: 250, nota: "1598 cc, 79,5 × 80,5 mm, compressione 16,2:1" }
+    - { nome: "2.0 TDI 150 CV", anni: "2012–oggi", cv: 150, nm: 340, nota: "320 Nm su alcune versioni" }
+    - { nome: "2.0 TDI 184 CV (Golf GTD VII, Audi A3, Seat Leon)", anni: "2013–2020", cv: 184, nm: 380, nota: "" }
+    - { nome: "2.0 BiTDI (Passat B8, Arteon)", anni: "2014–2020", cv: 239, nm: 500, nota: "Biturbo, compressione 15,5:1" }
+    - { nome: "2.0 TDI evo 200 CV (Golf GTD VIII, Octavia RS)", anni: "2020–oggi", cv: 200, nm: 400, nota: "Twin dosing" }
+    - { nome: "2.0 TDI evo 193 CV (Passat B9 4Motion)", anni: "2024–oggi", cv: 193, nm: 400, nota: "" }
+  modelli:
+    - { nome: "Volkswagen Golf VII, Golf VIII, Passat B8, Passat B9, Tiguan, T-Roc, Arteon", anni: "2012–oggi" }
+    - { nome: "Audi A3, A4", anni: "dal 2012" }
+    - { nome: "Seat Leon, Ateca", anni: "dal 2013" }
+    - { nome: "Škoda Octavia, Superb", anni: "dal 2013" }
+  storia: >-
+    Famiglia di diesel a tre e quattro cilindri (1,4, 1,6 e 2,0 litri) che dal 2012 sostituisce l'EA189, di cui conserva
+    alesaggio e corsa del 2.0 (81,0 × 95,5 mm). È stata sviluppata per le norme Euro 6, con ricircolo dei gas di scarico
+    a bassa pressione raffreddato e montaggio sia trasversale sia longitudinale. L'aggiornamento evo, presentato nel 2019
+    con la Golf VIII, porta iniettori fino a nove iniezioni per ciclo, 2200 bar, due alberi di equilibratura dalle versioni
+    da 150 CV e il sistema twin dosing; nella Golf VIII il 1.6 TDI viene sostituito da un 2.0 di potenza ridotta.
+  punti_deboli:
+    - "Scambiatore EGR: perdite di liquido di raffreddamento con spia di avaria, tipicamente oltre i 120.000 km"
+    - "Filtro antiparticolato con percorsi brevi e uso prevalentemente cittadino"
+  limiti: >-
+    Indicativamente le versioni da 150 CV arrivano a 180–190 CV con sola mappatura; i componenti critici sono turbo e frizione
+    (o cambio DSG). Le versioni evo hanno un post-trattamento più complesso che limita le modifiche.
+  curiosita:
+    - "Il primo dei due catalizzatori SCR dell'evo, da 3,4 litri, è montato subito dopo il motore e funziona anche da filtro antiparticolato; l'obiettivo dichiarato era 80 mg/km di NOx in prova RDE."
+    - "Il 2.0 BiTDI della Passat B8 abbina due turbocompressori su un quattro cilindri di serie, con 500 Nm."
+
+- slug: vw-w12
+  codice: W12
+  nome: Volkswagen W12
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2001
+  fine: 2024
+  architettura: W12
+  angolo: 72
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato / Biturbo
+  cilindrata: 5998
+  alesaggio: 84.0
+  corsa: 90.2
+  compressione: "10.7:1 (6.0) – 11.8:1 (6.3 FSI)"
+  distribuzione: DOHC per bancata, catene sul lato volano, fasatura variabile in aspirazione e scarico
+  valvole: 4
+  blocco: Alluminio-silicio (Alusil)
+  testa: Alluminio
+  iniezione: Indiretta; diretta sul 6.3 FSI; diretta e indiretta sulle Bentley dal 2015
+  cv_min: 420
+  cv_max: 750
+  nm_max: 1017
+  limitatore: 6000
+  in_breve:
+    - { valore: "72°", testo: "angolo tra le due bancate VR6, ognuna con cilindri sfalsati di 15°" }
+    - { valore: "−24%", testo: "di lunghezza rispetto a un V12 equivalente secondo Bentley" }
+    - { valore: "750 CV", testo: "e 1000 Nm nella Bentley Batur, ultima versione (2024)" }
+  versioni:
+    - { nome: "6.0 aspirato (Audi A8 D2, Phaeton)", anni: "2001–2004", cv: 420, nm: 550, nota: "" }
+    - { nome: "6.0 aspirato (Audi A8 D3, Phaeton, Touareg)", anni: "2004–2011", cv: 450, nm: 560, nota: "Fino a 600 Nm secondo versione" }
+    - { nome: "6.3 FSI (Audi A8 L D4)", anni: "2010–2017", cv: 500, nm: 625, nota: "6299 cc, 86,0 × 90,4 mm, compressione 11,8:1" }
+    - { nome: "6.0 biturbo (Bentley Continental GT, prima serie)", anni: "2003–2010", cv: 560, nm: 650, nota: "Speed 608 CV / 750 Nm" }
+    - { nome: "6.0 biturbo (Bentley Continental Supersports)", anni: "2017–2018", cv: 710, nm: 1017, nota: "" }
+    - { nome: "6.0 biturbo terza generazione (Bentayga, Continental GT)", anni: "2016–2024", cv: 635, nm: 900, nota: "5950 cc; Bentayga 608 CV, GT Speed 659 CV" }
+    - { nome: "6.0 biturbo (Bentley Batur)", anni: "2023–2024", cv: 750, nm: 1000, nota: "18 esemplari" }
+  modelli:
+    - { nome: "Audi A8 W12 (D2, D3, D4)", anni: "2001–2017" }
+    - { nome: "Volkswagen Phaeton W12", anni: "2002–2016" }
+    - { nome: "Volkswagen Touareg W12", anni: "2005–2010" }
+    - { nome: "Bentley Continental GT, GTC, Flying Spur", anni: "2003–2024" }
+    - { nome: "Bentley Bentayga", anni: "2016–2024" }
+    - { nome: "Bentley Batur, Bacalar", anni: "2021–2024" }
+  storia: >-
+    Dodici cilindri ottenuto unendo su un unico albero motore due bancate VR6 disposte a 72° tra loro. In ciascuna bancata i
+    sei cilindri sono a loro volta sfalsati di 15° su due file, così il motore ha quattro file di tre cilindri e supera di
+    poco i 50 cm di lunghezza; l'albero ha perni di biella sfalsati di 12° per scoppi ogni 60°. Debutta aspirato su Audi A8 e
+    Volkswagen Phaeton, poi in versione biturbo dal 2003 sulla Bentley Continental GT, prodotto a mano a Crewe fino ad
+    aprile 2024. La terza generazione (2015, Bentayga) ha basamento più rigido del 30%, iniezione diretta e indiretta e
+    disattivazione di sei cilindri.
+  punti_deboli:
+    - "Radiatore di raffreddamento sulle Bentley Continental GT: corrosione del pacco e delle giunzioni con perdita di liquido e rischio di surriscaldamento, guarnizioni e testate"
+    - "Distribuzione a catene sul lato volano: ogni intervento richiede lo stacco del cambio o la rimozione del motore"
+  limiti: >-
+    Le biturbo Bentley arrivano in serie a 710–750 CV e oltre 1000 Nm con lo stesso basamento; oltre questi valori,
+    indicativamente, i limiti sono turbocompressori, raffreddamento dell'aria di sovralimentazione e cambio.
+  curiosita:
+    - "Nel 2002 un prototipo Volkswagen W12 ha stabilito record di velocità sulle 24 ore sulla pista di Nardò."
+    - "Bentley ha costruito a Crewe oltre 100.000 W12; ogni motore richiedeva circa 6,5 ore di montaggio a mano."
+
+- slug: vw-ea211-15-tsi-evo
+  codice: EA211 evo / evo2
+  nome: Volkswagen EA211 1.5 TSI evo
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2016
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina / Ibrido
+  aspirazione: Turbo
+  cilindrata: 1498
+  alesaggio: 74.5
+  corsa: 85.9
+  compressione: "fino a 12.5:1"
+  distribuzione: DOHC a cinghia, fasatura variabile
+  valvole: 4
+  blocco: Alluminio, canne con riporto al plasma
+  testa: Alluminio
+  iniezione: Diretta a 350 bar
+  cv_min: 130
+  cv_max: 177
+  nm_max: 250
+  limitatore: 6000
+  in_breve:
+    - { valore: "VTG", testo: "turbina a geometria variabile, presentata come la prima su un benzina di grande serie" }
+    - { valore: "Miller", testo: "chiusura anticipata delle valvole di aspirazione, compressione fino a 12,5:1" }
+    - { valore: "ACT", testo: "disattivazione dei cilindri 2 e 3 a carico basso e medio" }
+  versioni:
+    - { nome: "1.5 TSI evo 130 CV", anni: "2017–oggi", cv: 130, nm: 200, nota: "Ciclo Miller, compressione 12,5:1" }
+    - { nome: "1.5 TSI evo ACT 150 CV", anni: "2016–oggi", cv: 150, nm: 250, nota: "" }
+    - { nome: "1.5 eTSI 150 CV (Golf VIII)", anni: "2020–oggi", cv: 150, nm: 250, nota: "Mild hybrid 48 V" }
+    - { nome: "1.5 TSI evo2 150 CV (T-Roc, poi Tiguan, Passat, Kodiaq, Superb)", anni: "2022–oggi", cv: 150, nm: 250, nota: "VTG, Miller, ACTplus" }
+    - { nome: "1.5 TSI eHybrid evo2 (Passat B9, Tiguan III)", anni: "2024–oggi", cv: 177, nm: 250, nota: "Plug-in, 272 CV di sistema" }
+  modelli:
+    - { nome: "Volkswagen Golf VII, Golf VIII, T-Roc, Tiguan, Passat", anni: "dal 2016" }
+    - { nome: "Audi A3 35 TFSI (8Y)", anni: "dal 2020" }
+    - { nome: "Škoda Octavia IV, Superb, Kodiaq", anni: "dal 2020" }
+    - { nome: "Seat Leon", anni: "" }
+    - { nome: "Cupra Leon, Formentor", anni: "dal 2020" }
+  storia: >-
+    Evoluzione del quattro cilindri EA211 presentata ad aprile 2016 al Simposio motoristico di Vienna, con corsa allungata a
+    85,9 mm rispetto al 1.4 TSI. Abbina ciclo Miller con compressione fino a 12,5:1, turbocompressore a geometria variabile,
+    iniezione diretta a 350 bar, canne riportate al plasma e disattivazione dei cilindri centrali (ACT). L'evo2 del 2022,
+    partita dalla T-Roc, integra catalizzatore e filtro antiparticolato in un unico modulo vicino al motore, pistoni con
+    canali di raffreddamento e gestione ACTplus, ed è la base delle versioni mild hybrid e plug-in del gruppo.
+  punti_deboli:
+    - "Prime unità evo (codici DACA, DADA, DPCA): coppia ridotta e strappi a motore freddo, dovuti alla strategia di riscaldamento del catalizzatore"
+    - "Per l'evo2 non risultano ancora difetti ricorrenti documentati"
+  limiti: >-
+    Indicativamente le versioni da 150 CV arrivano a 170–180 CV con sola mappatura; il componente critico è il turbocompressore
+    di serie, insieme alla frizione del cambio DSG a secco.
+  curiosita:
+    - "Secondo Volkswagen la famiglia EA211 è prodotta in oltre quattro milioni di unità l'anno in undici stabilimenti su tre continenti."
+    - "Nelle Škoda Kodiaq e Superb di nuova generazione l'evo2 da 150 CV usa sia la turbina a geometria variabile sia il ciclo Miller."
+
+- slug: porsche-930-carrera-32
+  codice: 930/20, 930/21, 930/25, 930/26
+  nome: Porsche 3.2 Carrera boxer raffreddato ad aria
+  costruttore: Porsche
+  paese: Germania
+  inizio: 1984
+  fine: 1989
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3164
+  alesaggio: 95.0
+  corsa: 74.4
+  compressione: "9.5–10.3:1"
+  distribuzione: SOHC per bancata a catena, tenditori idraulici
+  valvole: 2
+  blocco: Lega di alluminio, cilindri separati
+  testa: Alluminio, una per cilindro
+  iniezione: Indiretta, Bosch Motronic (DME) con L-Jetronic
+  cv_min: 207
+  cv_max: 231
+  nm_max: 284
+  limitatore: 6560
+  in_breve:
+    - { valore: "3164 cc", testo: "alesaggio portato a 95 mm, albero motore ripreso dalla 911 Turbo 3.3" }
+    - { valore: "Motronic", testo: "centralina Bosch DME che gestisce insieme iniezione e accensione" }
+    - { valore: "231 CV", testo: "nella versione europea 930/20 con compressione 10,3:1" }
+  versioni:
+    - { nome: "930/20 (Europa)", anni: "1984–1989", cv: 231, nm: 284, nota: "Compressione 10,3:1; 231 CV a 5900 giri/min" }
+    - { nome: "930/26 (Svizzera)", anni: "1985–1989", cv: 231, nm: 284, nota: "Con pompa dell'aria secondaria" }
+    - { nome: "930/21 (USA, Canada, Giappone)", anni: "1984–1986", cv: 207, nm: 265, nota: "Catalizzatore, compressione 9,5:1, dato in hp SAE" }
+    - { nome: "930/25 (USA, Canada, Giappone)", anni: "1987–1989", cv: 217, nm: 265, nota: "Compressione 9,5:1, dato in hp SAE" }
+  modelli:
+    - { nome: "Porsche 911 Carrera 3.2 Coupé, Targa, Cabriolet", anni: "1984–1989" }
+    - { nome: "Porsche 911 Speedster (3.2)", anni: "1989" }
+  storia: >-
+    Evoluzione del sei cilindri boxer raffreddato ad aria e olio della 911 SC, con alesaggio aumentato di 4 mm a 95 mm
+    e albero motore della 911 Turbo 3.3, per 3164 cc; secondo Porsche circa l'80% dei componenti fu riprogettato.
+    L'iniezione meccanica K-Jetronic lascia il posto alla gestione elettronica Bosch Motronic (DME), con taglio
+    dell'alimentazione in rilascio, e la distribuzione adotta tenditori di catena idraulici. Equipaggia la 911 Carrera
+    dal 1984 al 1989, in versione europea senza catalizzatore e in versioni catalizzate a compressione ridotta per USA,
+    Canada e Giappone.
+  punti_deboli:
+    - "Relè della centralina DME: causa frequente di mancato avviamento"
+    - "Guide valvole e valvole: usura che richiede la revisione delle teste, anticipata da una manutenzione irregolare"
+    - "Fasce elastiche usurate: fumo blu all'avviamento, favorito dai cilindri orizzontali"
+    - "Scambiatori di calore dell'impianto di scarico soggetti a corrosione"
+  limiti: >-
+    Motore aspirato con margini contenuti: le elaborazioni passano in genere da aumento di cilindrata, alberi a camme e
+    gestione, con costi elevati. Il componente da verificare per primo è lo stato di teste e guide valvole.
+  curiosita:
+    - "Dal 1987 il motore è abbinato al cambio Getrag G50 a cinque marce, al posto del precedente Porsche 915."
+    - "Tra il 1984 e il 1989 a Zuffenhausen furono costruite oltre 76.000 911 Carrera 3.2."
+
+- slug: porsche-m64
+  codice: M64/01–M64/06, M64/20–M64/24, M64/50, M64/60
+  nome: Porsche M64 boxer raffreddato ad aria (964, 993)
+  costruttore: Porsche
+  paese: Germania
+  inizio: 1989
+  fine: 1998
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo / Biturbo
+  cilindrata: 3600
+  alesaggio: 100.0
+  corsa: 76.4
+  compressione: "7.5–11.3:1"
+  distribuzione: SOHC per bancata a doppia catena
+  valvole: 2
+  blocco: Alluminio, cilindri separati, carter secco
+  testa: Alluminio
+  iniezione: Indiretta multipoint, Bosch Motronic (DME), doppia accensione
+  cv_min: 250
+  cv_max: 450
+  nm_max: 586
+  limitatore: 6700
+  in_breve:
+    - { valore: "Doppia accensione", testo: "due candele per cilindro con controllo della detonazione sulle versioni aspirate" }
+    - { valore: "Varioram", testo: "aspirazione a geometria variabile dalla Carrera RS 3.8 del 1995" }
+    - { valore: "1998", testo: "ultimo motore raffreddato ad aria di una 911 stradale" }
+  versioni:
+    - { nome: "964 Carrera 2 / Carrera 4 (M64/01, M64/02)", anni: "1989–1993", cv: 250, nm: 310, nota: "Compressione 11,3:1" }
+    - { nome: "964 Carrera RS (M64/03)", anni: "1991–1992", cv: 260, nm: 312, nota: "Volano alleggerito" }
+    - { nome: "964 Carrera RS 3.8 (M64/04)", anni: "1993", cv: 300, nota: "Alesaggio portato a 102 mm" }
+    - { nome: "964 Turbo 3.6 (M64/50)", anni: "1993–1994", cv: 360, nm: 520, nota: "Turbo singolo K27, compressione 7,5:1" }
+    - { nome: "993 Carrera (M64/05, M64/06)", anni: "1993–1995", cv: 272, nm: 330, nota: "Punterie idrauliche" }
+    - { nome: "993 Carrera Varioram (M64/21–24)", anni: "1995–1998", cv: 285, nm: 340, nota: "Anche Carrera 4S e Carrera S" }
+    - { nome: "993 Carrera RS (M64/20)", anni: "1995–1996", cv: 300, nm: 355, nota: "3746 cc, 102 × 76,4 mm, compressione 11,3:1" }
+    - { nome: "993 Turbo (M64/60)", anni: "1995–1998", cv: 408, nm: 540, nota: "Biturbo con intercooler, compressione 8,0:1" }
+    - { nome: "993 Turbo S / GT2", anni: "1995–1998", cv: 450, nm: 586, nota: "GT2 430 CV, 450 CV dal 1998" }
+  modelli:
+    - { nome: "Porsche 911 (964) Carrera 2, Carrera 4, RS, Speedster", anni: "1989–1994" }
+    - { nome: "Porsche 911 (964) Turbo 3.6", anni: "1993–1994" }
+    - { nome: "Porsche 911 (993) Carrera, Targa, Cabriolet, Carrera RS", anni: "1993–1998" }
+    - { nome: "Porsche 911 (993) Turbo, Turbo S, GT2", anni: "1995–1998" }
+  storia: >-
+    Sei cilindri boxer raffreddato ad aria e olio da 3,6 litri introdotto con la 964 nel 1989, con carter secco, albero
+    motore forgiato, testate e basamento in alluminio e doppia accensione con controllo della detonazione. Sulla 993
+    adotta punterie idrauliche che eliminano la registrazione periodica del gioco valvole e, dal 1995, l'aspirazione
+    a geometria variabile Varioram. Le versioni sovralimentate arrivano con la 964 Turbo 3.6 a turbo singolo e con la
+    993 Turbo M64/60, primo 911 Turbo biturbo con intercooler aria-aria.
+  punti_deboli:
+    - "Trafilamenti d'olio alla base delle teste sulle 964 fino al model year 1991, montate senza guarnizione di testa (modifica dal motore 62M06836)"
+    - "Cinghia dello spinterogeno secondario della doppia accensione: se si rompe il secondo rotore si ferma e continua ad accendere lo stesso cilindro, con detonazione e rischio di danni gravi"
+    - "Volano a doppia massa delle prime 964: vibrazioni e innesti difficili"
+    - "Guarnizioni e paraolio invecchiati su motori a carter secco ormai datati"
+  limiti: >-
+    Sulle versioni aspirate la via documentata è l'aumento di cilindrata a 3,8 litri con alesaggio da 102 mm, come
+    sulla Carrera RS. Sulla 993 Turbo Porsche stessa offriva i kit WLS da 430 e 450 CV; oltre, indicativamente, i
+    componenti critici sono turbocompressori, intercooler e frizione.
+  curiosita:
+    - "L'ultima 911 raffreddata ad aria per uso stradale è una 993 Carrera 4S completata il 31 marzo 1998."
+    - "La 993 Turbo S usa turbocompressori KKK K24 maggiorati e un radiatore dell'olio supplementare."
+
+- slug: porsche-9a1
+  codice: 9A1 (codici MA1)
+  nome: Porsche 9A1 boxer a iniezione diretta
+  costruttore: Porsche
+  paese: Germania
+  inizio: 2008
+  fine: 2019
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Biturbo
+  cilindrata: 3800
+  alesaggio: 102.0
+  corsa: 77.5
+  compressione: "9.8–12.5:1"
+  distribuzione: DOHC a catena, VarioCam Plus
+  valvole: 4
+  blocco: Alluminio-silicio (Alusil), closed-deck
+  testa: Alluminio
+  iniezione: Diretta (DFI)
+  cv_min: 265
+  cv_max: 700
+  nm_max: 750
+  limitatore: 7800
+  in_breve:
+    - { valore: "No IMS", testo: "eliminato l'albero intermedio delle M96/M97, catene di distribuzione sul lato anteriore" }
+    - { valore: "DFI", testo: "iniezione diretta di benzina introdotta sulla 997.2 nel 2008" }
+    - { valore: "12,5:1", testo: "compressione delle versioni aspirate Carrera 3.6 e 3.8" }
+  versioni:
+    - { nome: "997.2 Carrera 3.6 (MA1.02)", anni: "2008–2012", cv: 345, nm: 390, nota: "3614 cc, 97 × 81,5 mm" }
+    - { nome: "997.2 Carrera S 3.8 (MA1.01)", anni: "2008–2012", cv: 385, nm: 420, nota: "GTS 408 CV" }
+    - { nome: "997.2 Turbo / Turbo S (MA1.70)", anni: "2009–2013", cv: 530, nm: 700, nota: "Turbo 500 CV e 650 Nm, compressione 9,8:1" }
+    - { nome: "987.2 Boxster S / Cayman S 3.4", anni: "2009–2012", cv: 320, nm: 370, nota: "Boxster S 310 CV" }
+    - { nome: "991.1 Carrera 3.4", anni: "2011–2015", cv: 350, nm: 390, nota: "3436 cc, 97 × 77,5 mm, limitatore 7800" }
+    - { nome: "991.1 Carrera S / GTS 3.8", anni: "2011–2016", cv: 430, nm: 440, nota: "Carrera S 400 CV" }
+    - { nome: "981 Boxster / Cayman 2.7 (MA1.22)", anni: "2012–2016", cv: 275, nm: 290, nota: "Boxster 265 CV e 280 Nm" }
+    - { nome: "981 Boxster S / Cayman S / GTS 3.4 (MA1.23)", anni: "2012–2016", cv: 340, nm: 380, nota: "S 315–325 CV, GTS 330–340 CV" }
+    - { nome: "981 Cayman GT4 / Boxster Spyder 3.8 (MA1.24)", anni: "2015–2016", cv: 385, nm: 420, nota: "Spyder 375 CV" }
+    - { nome: "991 Turbo / Turbo S 3.8", anni: "2013–2019", cv: 580, nm: 750, nota: "Da 520 CV (991.1 Turbo) a 580 CV (991.2 Turbo S); coppia con overboost" }
+    - { nome: "991.2 GT2 RS 3.8", anni: "2017–2019", cv: 700, nm: 750, nota: "" }
+  modelli:
+    - { nome: "Porsche 911 (997.2) Carrera, Carrera S, GTS, Turbo", anni: "2008–2013" }
+    - { nome: "Porsche Boxster S, Cayman S (987.2)", anni: "2009–2012" }
+    - { nome: "Porsche 911 (991.1) Carrera, Carrera S, GTS", anni: "2011–2016" }
+    - { nome: "Porsche Boxster, Cayman (981)", anni: "2012–2016" }
+    - { nome: "Porsche 911 (991) Turbo, Turbo S, GT2 RS", anni: "2013–2019" }
+  storia: >-
+    Famiglia di boxer a sei cilindri raffreddati ad acqua introdotta nel 2008 con la 997.2, che sostituisce le M96/M97.
+    Il basamento closed-deck in Alusil e le teste fuse separatamente permettono di portare le catene di distribuzione sul
+    lato anteriore ed eliminare l'albero intermedio (IMS); la lubrificazione è a carter secco integrato e l'iniezione è
+    diretta. Equipaggia 997.2, 991.1, Boxster e Cayman 987.2 e 981, e in versione biturbo a geometria variabile le 911
+    Turbo fino alla 991.
+  punti_deboli:
+    - "Rigature delle canne (bore scoring) segnalate sulle 997.2 a iniezione diretta usate in climi freddi: si consiglia di non superare circa 3000 giri/min a motore freddo"
+    - "Turbocompressori a geometria variabile e relativi attuatori costosi da sostituire sulle versioni Turbo"
+  limiti: >-
+    Sulle aspirate i guadagni da centralina e scarico sono modesti. Sulle 3.8 biturbo, indicativamente, con centralina
+    e scarico si superano i 600 CV; i componenti critici sono turbocompressori e trasmissione PDK.
+  curiosita:
+    - "Con il passaggio al 9A1 sparisce anche il cedimento delle viti di biella osservato su alcune M96/M97."
+    - "Le teste del 9A1 sono fuse separatamente dal basamento, scelta che consente di eliminare l'albero intermedio IMS."
+
+- slug: porsche-9a2
+  codice: 9A2, 9A2 Evo
+  nome: Porsche 9A2 boxer biturbo
+  costruttore: Porsche
+  paese: Germania
+  inizio: 2015
+  fine:
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2981
+  alesaggio: 91.0
+  corsa: 76.4
+  compressione: "8.7–10.2:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio, carter secco integrato
+  testa: Alluminio
+  iniezione: Diretta, iniettori piezoelettrici centrali nel 9A2 Evo
+  cv_min: 370
+  cv_max: 650
+  nm_max: 800
+  limitatore: 7500
+  in_breve:
+    - { valore: "2015", testo: "primo motore sovralimentato di serie sulla 911 Carrera (991.2)" }
+    - { valore: "118 mm", testo: "interasse dei cilindri comune a tutti i boxer 9A2 a quattro e sei cilindri" }
+    - { valore: "800 Nm", testo: "nella 992 Turbo S 3.7 da 650 CV" }
+  versioni:
+    - { nome: "991.2 Carrera / Carrera T", anni: "2015–2019", cv: 370, nm: 450, nota: "Compressione 10,0:1" }
+    - { nome: "991.2 Carrera S", anni: "2015–2019", cv: 420, nm: 500, nota: "" }
+    - { nome: "991.2 Carrera GTS", anni: "2017–2019", cv: 450, nm: 550, nota: "" }
+    - { nome: "992 Carrera", anni: "2019–2024", cv: 385, nm: 450, nota: "9A2 Evo" }
+    - { nome: "992 Carrera S / 4S", anni: "2019–2024", cv: 450, nm: 530, nota: "" }
+    - { nome: "992 Carrera GTS / Dakar", anni: "2021–2024", cv: 480, nm: 570, nota: "" }
+    - { nome: "992 Turbo 3.7", anni: "2020–2024", cv: 580, nm: 750, nota: "3745 cc, 102 × 76,4 mm" }
+    - { nome: "992 Turbo S 3.7", anni: "2020–2024", cv: 650, nm: 800, nota: "Compressione 8,7:1, turbo a geometria variabile" }
+    - { nome: "992 Sport Classic 3.7", anni: "2022", cv: 550, nm: 600, nota: "Cambio manuale" }
+    - { nome: "992.2 Carrera", anni: "2024–oggi", cv: 394, nm: 450, nota: "Compressione 10,2:1" }
+    - { nome: "992.2 Carrera S", anni: "2025–oggi", cv: 480, nm: 530, nota: "" }
+  modelli:
+    - { nome: "Porsche 911 (991.2) Carrera, Carrera T, Carrera S, GTS, Targa", anni: "2015–2019" }
+    - { nome: "Porsche 911 (992) Carrera, S, GTS, Dakar, Targa", anni: "2019–oggi" }
+    - { nome: "Porsche 911 (992) Turbo, Turbo S, Sport Classic", anni: "2020–2024" }
+  storia: >-
+    Famiglia di boxer biturbo raffreddati ad acqua debuttata nel 2015 sulla 991.2, con cui la 911 Carrera passa
+    dall'aspirazione naturale alla sovralimentazione con un 3,0 litri da 91 × 76,4 mm. L'evoluzione 9A2 Evo della 992
+    introduce un nuovo processo di combustione con iniettori piezoelettrici in posizione centrale e turbocompressori
+    rivisti; Porsche indica 9A2 e 9A2 Evo come base di tutti i boxer a quattro e sei cilindri in produzione dal 2020.
+    Nella 992 Turbo e Turbo S la cilindrata sale a 3745 cc con alesaggio di 102 mm e turbocompressori a geometria variabile.
+  punti_deboli:
+    - "Turbocompressori della 991.2 3.0: guasti segnalati dai proprietari, attribuiti all'alimentazione dell'olio, senza una comunicazione ufficiale del costruttore"
+    - "Motore relativamente recente: non risultano altri difetti ricorrenti documentati su larga scala"
+  limiti: >-
+    Indicativamente, sui 3,0 litri la sola rimappatura porta guadagni nell'ordine di 50–80 CV mantenendo i turbo di
+    serie; oltre, i componenti critici sono turbocompressori, intercooler e frizioni del PDK.
+  curiosita:
+    - "I boxer 9A2 usano solo due alesaggi (91 e 102 mm) e due corse (76,4 e 81,5 mm), da cui Porsche ricava cinque cilindrate per 718 e 911."
+    - "La 992.2 GTS T-Hybrid e la 992.2 Turbo S adottano un diverso 3,6 litri da 97 × 81 mm con assistenza elettrica, non compreso in questa scheda."
+
+- slug: porsche-40-gt3
+  codice: 9A1-M (MA1.75), 4.0 GT, 9A2 Evo 4.0
+  nome: Porsche 4.0 boxer aspirato GT3 / GT4
+  costruttore: Porsche
+  paese: Germania
+  inizio: 2013
+  fine:
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3996
+  alesaggio: 102.0
+  corsa: 81.5
+  compressione: "13.0–13.3:1"
+  distribuzione: DOHC a catena, VarioCam, bilancieri a dito rigidi (GT3)
+  valvole: 4
+  blocco: Alluminio, carter secco con serbatoio separato (GT3)
+  testa: Alluminio
+  iniezione: Diretta (piezoelettrica sul 9A2 Evo 4.0)
+  cv_min: 400
+  cv_max: 525
+  nm_max: 470
+  limitatore: 9000
+  in_breve:
+    - { valore: "9000", testo: "giri/min di limitatore sulle versioni GT3, GT3 RS e 718 GT4 RS" }
+    - { valore: "GT3 R", testo: "il motore della 992 GT3 deriva da quello della vettura da corsa ed è usato quasi invariato nella GT3 Cup" }
+    - { valore: "6 farfalle", testo: "corpi farfallati singoli per cilindro dalla 992 GT3" }
+  versioni:
+    - { nome: "991.1 GT3 3.8 (9A1-M)", anni: "2013–2016", cv: 475, nm: 440, nota: "3799 cc; teste, pistoni, bielle in titanio e carter secco specifici" }
+    - { nome: "991.1 GT3 RS / 911 R", anni: "2015–2016", cv: 500, nm: 460, nota: "Primo 4.0 della famiglia, limitatore 8800" }
+    - { nome: "991.2 GT3 / Touring", anni: "2017–2019", cv: 500, nm: 460, nota: "Compressione 13,3:1" }
+    - { nome: "991.2 GT3 RS", anni: "2018–2019", cv: 520, nm: 470, nota: "" }
+    - { nome: "991.2 Speedster", anni: "2019", cv: 510, nm: 470, nota: "" }
+    - { nome: "992 GT3 / Touring", anni: "2021–2024", cv: 510, nm: 470, nota: "510 CV a 8400 giri/min" }
+    - { nome: "992 GT3 RS / S/T", anni: "dal 2022", cv: 525, nm: 465, nota: "" }
+    - { nome: "992.2 GT3 / Touring", anni: "2024–oggi", cv: 510, nm: 450, nota: "Alberi a camme della GT3 RS, quattro catalizzatori e due filtri antiparticolato" }
+    - { nome: "718 Cayman GT4 / 718 Spyder (9A2 Evo 4.0)", anni: "dal 2019", cv: 420, nm: 420, nota: "3995 cc, compressione 13,0:1, limitatore 8000" }
+    - { nome: "718 Cayman / Boxster GTS 4.0 (9A2 Evo 4.0)", anni: "dal 2020", cv: 400, nm: 430, nota: "Limitatore 7800" }
+    - { nome: "718 Cayman GT4 RS / Spyder RS", anni: "dal 2021", cv: 500, nm: 450, nota: "Motore della 911 GT3" }
+  modelli:
+    - { nome: "Porsche 911 GT3, GT3 Touring, GT3 RS (991, 992)", anni: "2013–oggi" }
+    - { nome: "Porsche 911 R (991)", anni: "2016" }
+    - { nome: "Porsche 911 Speedster (991)", anni: "2019" }
+    - { nome: "Porsche 911 S/T (992)", anni: "2023–oggi" }
+    - { nome: "Porsche 718 Cayman GT4, 718 Spyder, GTS 4.0", anni: "dal 2019" }
+    - { nome: "Porsche 718 Cayman GT4 RS, 718 Spyder RS", anni: "dal 2021" }
+  storia: >-
+    Boxer aspirati ad alto regime che sostituiscono il Mezger sulle 911 GT3: il primo è il 3,8 litri della 991.1 GT3
+    (2013), derivato dal 9A1 della Carrera S con teste, pistoni, bielle in titanio, distribuzione e carter secco
+    specifici, seguito dal 4,0 litri da 102 × 81,5 mm della 991 GT3 RS. Sulla 992 GT3 il motore, derivato da quello della
+    911 GT3 R, adotta bilancieri rigidi senza recupero idraulico del gioco e una farfalla per cilindro, con limitatore a
+    9000 giri/min. Sulle 718 GT4 e Spyder del 2019 Porsche usa invece un 4,0 litri derivato dalla famiglia 9A2 Evo dei
+    biturbo Carrera, con iniettori piezoelettrici e disattivazione di una bancata ai carichi parziali.
+  punti_deboli:
+    - "Viti di biella della 991.1 GT3: nel 2014 cedimenti e incendi del motore portarono al richiamo di 785 vetture e alla sostituzione dei motori"
+    - "Bilancieri a dito (finger follower) della 991.1 GT3: usura con mancate accensioni ad alto regime, coperta da Porsche con garanzia motore di 10 anni o 120.000 miglia"
+  limiti: >-
+    Motore aspirato già vicino al limite di regime: centralina e scarico danno guadagni indicativamente contenuti
+    (10–25 CV). Il componente critico è la distribuzione, progettata per 9000 giri/min.
+  curiosita:
+    - "Il 4,0 litri delle 718 GT4 e Spyder del 2019 è il primo motore ad alto regime Porsche con iniettori piezoelettrici, con fino a cinque iniezioni per ciclo."
+    - "Il motore della 992 GT3 è impiegato in forma quasi invariata sulla 911 GT3 Cup dalla stagione 2021."
