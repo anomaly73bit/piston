@@ -167,6 +167,7 @@ h3 { font-size: 1rem; font-weight: 600; }
 .motore-corpo { max-width: var(--misura); margin: 0 auto; padding: 2.5rem 16px 4rem; display: grid; gap: 2.5rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 720px) { .motore-corpo { padding-left: 32px; padding-right: 32px; } }
 @media (min-width: 960px) { .motore-corpo { grid-template-columns: 17rem minmax(0, 1fr); gap: 3.5rem; } .tavola { position: sticky; top: 1.5rem; align-self: start; } }
+.tavola figure + figure { margin-top: 1rem; }
 .tavola figure { max-width: 22rem; margin: 0; background: var(--carta); border: 1px solid var(--linea); border-radius: var(--raggio); padding: 1.25rem 1rem 1rem; }
 .tavola .cilindro { width: 100%; height: auto; display: block; }
 .tavola figcaption { font-size: .875rem; color: var(--grafite); margin-top: .75rem; }
@@ -274,3 +275,28 @@ h3 { font-size: 1rem; font-weight: 600; }
 .piede p { max-width: 70ch; margin: 0 0 .5rem; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- Dati in rilievo ---------- */
+.rilievo { background: var(--carta); border-bottom: 1px solid var(--linea); }
+.rilievo ul { list-style: none; margin: 0 auto; max-width: var(--misura); padding: 1.5rem 16px; display: grid; gap: 1.25rem 2.5rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+@media (min-width: 720px) { .rilievo ul { padding: 1.75rem 32px; } }
+.rilievo li { display: flex; flex-direction: column; gap: .3rem; padding-left: 1rem; border-left: 4px solid var(--giallo); }
+.rilievo strong { font-stretch: 125%; font-weight: 800; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.05; color: var(--blu); }
+.rilievo span { color: var(--ghisa); font-size: .975rem; line-height: 1.4; max-width: 34ch; }
+
+/* ---------- Schema disposizione cilindri ---------- */
+.schema { width: 100%; height: auto; display: block; }
+.schema .canna { fill: var(--alluminio); stroke: var(--blu); stroke-width: 2.5; }
+.schema .pistone { fill: var(--blu); }
+.schema .biella { stroke: var(--grafite); stroke-width: 3; stroke-linecap: round; }
+.schema .albero { fill: var(--giallo-tenue); stroke: var(--blu); stroke-width: 2.5; }
+.schema .perno { fill: var(--blu); }
+.schema .angolo { font-family: var(--testo); font-size: 13px; font-weight: 700; fill: var(--rosso); }
+.schema .pianta circle { fill: var(--giallo-tenue); stroke: var(--blu); stroke-width: 1.5; }
+@media (max-width: 959px) {
+  .tavola { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+  .tavola figure { max-width: none; padding: .75rem; }
+  .tavola figure + figure { margin-top: 0; }
+  .tavola figcaption { font-size: .8rem; }
+  .contagiri { grid-column: 1 / -1; margin-top: 0; }
+}

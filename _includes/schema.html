@@ -1,0 +1,54 @@
+{%- comment -%}
+  Schema della disposizione dei cilindri.
+  In alto: sezione trasversale con l'angolo reale tra le bancate.
+  In basso: vista dall'alto con il numero di cilindri per bancata.
+  Parametri: arch (architettura), n (cilindri), angolo (gradi tra le bancate, per V e W)
+{%- endcomment -%}
+{%- assign arch = include.arch | append: "" -%}
+{%- assign n = include.n | plus: 0 -%}
+{%- assign prima = arch | slice: 0 -%}
+{%- if prima == "V" -%}
+  {%- assign mezzo = include.angolo | divided_by: 2.0 -%}
+  {%- assign angoli = "" | append: mezzo | prepend: "-" | append: "," | append: mezzo -%}
+  {%- assign righe = 2 -%}
+{%- elsif prima == "W" -%}
+  {%- assign angoli = "-52.5,-37.5,37.5,52.5" -%}
+  {%- assign righe = 4 -%}
+{%- elsif arch contains "Boxer" -%}
+  {%- assign angoli = "-90,90" -%}
+  {%- assign righe = 2 -%}
+{%- else -%}
+  {%- assign angoli = "0" -%}
+  {%- assign righe = 1 -%}
+{%- endif -%}
+{%- assign lista = angoli | split: "," -%}
+{%- assign per_riga = n | divided_by: righe -%}
+<svg class="schema" viewBox="0 0 200 210" role="img" aria-label="Disposizione: {{ arch }}, {{ n }} cilindri{% if include.angolo %}, {{ include.angolo }} gradi tra le bancate{% endif %}">
+  <g class="sezione">
+    {%- for g in lista %}
+    <g transform="rotate({{ g }} 100 120)">
+      <rect class="canna" x="83" y="22" width="34" height="66"/>
+      <rect class="pistone" x="85" y="44" width="30" height="16"/>
+      <line class="biella" x1="100" y1="56" x2="100" y2="108"/>
+    </g>
+    {%- endfor %}
+    <circle class="albero" cx="100" cy="120" r="15"/>
+    <circle class="perno" cx="100" cy="112" r="4"/>
+    {%- if include.angolo %}
+    <text class="angolo" x="100" y="16" text-anchor="middle">{{ include.angolo }}°</text>
+    {%- endif %}
+  </g>
+  <g class="pianta">
+    {%- assign w = per_riga | times: 15 -%}
+    {%- assign x0 = 200 | minus: w | divided_by: 2.0 | plus: 7.5 -%}
+    {%- assign y0 = 4 | minus: righe | times: 6 | plus: 158 -%}
+    {%- for r in (1..righe) %}
+      {%- assign sfalsa = r | modulo: 2 | times: 4 -%}
+      {%- for i in (1..per_riga) %}
+        {%- assign cx = i | minus: 1 | times: 15 | plus: x0 | plus: sfalsa -%}
+        {%- assign cy = r | minus: 1 | times: 13 | plus: y0 -%}
+    <circle cx="{{ cx }}" cy="{{ cy }}" r="5.5"/>
+      {%- endfor %}
+    {%- endfor %}
+  </g>
+</svg>

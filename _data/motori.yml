@@ -35,6 +35,10 @@
   cv_max: 330
   nm_max: 451
   limitatore: 6800
+  in_breve:
+    - { valore: "7", testo: "supporti di banco nel basamento in ghisa" }
+    - { valore: "1000+ CV", testo: "ottenuti sul basamento di serie con interni forgiati" }
+    - { valore: "1997", testo: "arrivo della fasatura variabile VVT-i" }
   versioni:
     - { nome: "Aristo JZS147", anni: "1991–1997", cv: 280, nm: 431, nota: "Debutto del motore, turbo sequenziali" }
     - { nome: "Supra JZA80 JDM", anni: "1993–2002", cv: 280, nm: 451, nota: "Limitato dal 'gentlemen's agreement' giapponese; VVT-i dal 1997" }
@@ -83,6 +87,10 @@
   cv_max: 280
   nm_max: 392
   limitatore: 8000
+  in_breve:
+    - { valore: "29 su 29", testo: "gare vinte dalla R32 GT-R nel campionato giapponese Gruppo A" }
+    - { valore: "6", testo: "corpi farfallati singoli" }
+    - { valore: "2568 cc", testo: "scelti per la classe fino a 4,5 litri con coefficiente turbo 1,7" }
   versioni:
     - { nome: "Skyline GT-R R32", anni: "1989–1994", cv: 280, nm: 353, nota: "Nato per l'omologazione Gruppo A" }
     - { nome: "Skyline GT-R R33", anni: "1995–1998", cv: 280, nm: 368, nota: "" }
@@ -131,6 +139,10 @@
   cv_max: 185
   nm_max: 160
   limitatore: 8400
+  in_breve:
+    - { valore: "VTEC", testo: "primo motore di serie con doppio profilo di camma (1989)" }
+    - { valore: "116 CV/l", testo: "nella B16B della Civic Type R EK9" }
+    - { valore: "8400", testo: "giri/min al limitatore" }
   versioni:
     - { nome: "B16A1 (Integra XSi / Civic SiR)", anni: "1989–1991", cv: 160, nm: 150, nota: "Primo motore VTEC di serie" }
     - { nome: "B16A2 (Civic VTi, CRX)", anni: "1991–2000", cv: 160, nm: 150, nota: "Versione europea" }
@@ -179,6 +191,10 @@
   cv_max: 225
   nm_max: 215
   limitatore: 8600
+  in_breve:
+    - { valore: "i-VTEC", testo: "VTEC più fasatura variabile continua in aspirazione" }
+    - { valore: "225 CV", testo: "nella Civic Type R FD2" }
+    - { valore: "8600", testo: "giri/min al limitatore sulle versioni Type R" }
   versioni:
     - { nome: "K20A2 (Civic Type R EP3 Europa)", anni: "2001–2005", cv: 200, nm: 196, nota: "" }
     - { nome: "K20A (Integra Type R DC5 JDM)", anni: "2001–2006", cv: 220, nm: 206, nota: "" }
@@ -226,6 +242,10 @@
   cv_max: 250
   nm_max: 220
   limitatore: 9000
+  in_breve:
+    - { valore: "125 CV/l", testo: "per anni il valore più alto tra gli aspirati di serie" }
+    - { valore: "9000", testo: "giri/min al limitatore sulle versioni 2.0" }
+    - { valore: "FRM", testo: "canne in fibre metalliche in matrice di alluminio" }
   versioni:
     - { nome: "F20C (S2000 AP1 JDM)", anni: "1999–2005", cv: 250, nm: 218, nota: "Limitatore a 9000 giri" }
     - { nome: "F20C (S2000 Europa)", anni: "1999–2009", cv: 240, nm: 208, nota: "" }
@@ -270,6 +290,10 @@
   cv_max: 165
   nm_max: 162
   limitatore: 7600
+  in_breve:
+    - { valore: "5 valvole", testo: "per cilindro sulle versioni 20v dal 1991" }
+    - { valore: "Yamaha", testo: "sviluppo della testata" }
+    - { valore: "AE86", testo: "applicazione più nota" }
   versioni:
     - { nome: "16v 'big port' (AE86)", anni: "1983–1987", cv: 130, nm: 149, nota: "Valori lordi JDM" }
     - { nome: "4A-GZE sovralimentato", anni: "1986–1995", cv: 165, nm: 206, nota: "Compressore volumetrico, MR2 e Corolla" }
@@ -299,6 +323,7 @@
   inizio: 1989
   fine: 2002
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -315,6 +340,10 @@
   cv_max: 300
   nm_max: 407
   limitatore: 6500
+  in_breve:
+    - { valore: "V8 a 90°", testo: "tutto in alluminio, quattro alberi a camme" }
+    - { valore: "LS400", testo: "sviluppato per la prima Lexus (1989)" }
+    - { valore: "1997", testo: "arrivo della fasatura variabile VVT-i" }
   versioni:
     - { nome: "Prima serie", anni: "1989–1997", cv: 260, nm: 363, nota: "" }
     - { nome: "VVT-i", anni: "1997–2002", cv: 300, nm: 407, nota: "Valori JDM; mercati export leggermente inferiori" }
@@ -359,6 +388,10 @@
   cv_max: 209
   nm_max: 250
   limitatore: 6600
+  in_breve:
+    - { valore: "40%", testo: "rendimento termico dichiarato, 41% nella versione ibrida" }
+    - { valore: "14:1", testo: "compressione nella versione ibrida" }
+    - { valore: "1,18", testo: "rapporto corsa/alesaggio: corsa lunga" }
   versioni:
     - { nome: "A25A-FKS benzina", anni: "2017–oggi", cv: 205, nm: 250, nota: "Ciclo Otto/Atkinson variabile" }
     - { nome: "A25A-FXS ibrido", anni: "2018–oggi", cv: 178, nm: 221, nota: "Solo motore termico, ciclo Atkinson" }
@@ -401,6 +434,10 @@
   cv_max: 280
   nm_max: 400
   limitatore: 7500
+  in_breve:
+    - { valore: "4", testo: "titoli piloti consecutivi nel Mondiale Rally (1996–1999)" }
+    - { valore: "2", testo: "alberi di equilibratura" }
+    - { valore: "180°", testo: "rotazione del motore nel vano dalla Evo IV" }
   versioni:
     - { nome: "Galant VR-4", anni: "1987–1992", cv: 205, nm: 294, nota: "Base per il Gruppo A rally" }
     - { nome: "Lancer Evolution I–III", anni: "1992–1996", cv: 270, nm: 309, nota: "Valori Evo III" }
@@ -433,6 +470,7 @@
   inizio: 2007
   fine: 2025
   architettura: V6
+  angolo: 60
   cilindri: 6
   alimentazione: Benzina
   aspirazione: Biturbo
@@ -449,6 +487,10 @@
   cv_max: 600
   nm_max: 652
   limitatore: 7000
+  in_breve:
+    - { valore: "1", testo: "tecnico assembla ogni motore a mano" }
+    - { valore: "Plasma", testo: "riporto delle canne al posto delle camicie" }
+    - { valore: "18 anni", testo: "di produzione sulla stessa vettura" }
   versioni:
     - { nome: "GT-R 2007", anni: "2007–2010", cv: 480, nm: 588, nota: "" }
     - { nome: "GT-R 2011–2016", anni: "2011–2016", cv: 550, nm: 632, nota: "Aggiornamenti progressivi" }
@@ -493,6 +535,10 @@
   cv_max: 280
   nm_max: 314
   limitatore: 8000
+  in_breve:
+    - { valore: "2 × 654 cc", testo: "volume delle camere dei due rotori" }
+    - { valore: "0", testo: "valvole: distribuzione a luci" }
+    - { valore: "Sequenziale", testo: "due turbo che entrano in funzione uno dopo l'altro" }
   versioni:
     - { nome: "RX-7 FD serie 6", anni: "1991–1995", cv: 255, nm: 294, nota: "" }
     - { nome: "RX-7 FD serie 7", anni: "1996–1998", cv: 265, nm: 294, nota: "Versione con cambio manuale" }
@@ -540,6 +586,10 @@
   cv_max: 231
   nm_max: 211
   limitatore: 9000
+  in_breve:
+    - { valore: "Luci laterali", testo: "scarico spostato sui fianchi della camera" }
+    - { valore: "9000", testo: "giri/min al limitatore sulla versione da 231 CV" }
+    - { valore: "2003", testo: "Motore Internazionale dell'Anno" }
   versioni:
     - { nome: "Standard power (4 luci)", anni: "2003–2012", cv: 192, nm: 220, nota: "" }
     - { nome: "High power (6 luci)", anni: "2003–2012", cv: 231, nm: 211, nota: "Limitatore 9000 giri" }
@@ -585,6 +635,10 @@
   cv_max: 341
   nm_max: 431
   limitatore: 8000
+  in_breve:
+    - { valore: "Boxer", testo: "cilindri contrapposti, baricentro basso" }
+    - { valore: "3", testo: "titoli costruttori consecutivi nel Mondiale Rally (1995–1997)" }
+    - { valore: "Open-deck", testo: "basamento a canne aperte sulle versioni turbo più recenti" }
   versioni:
     - { nome: "EJ20G (Legacy RS / Impreza WRX GC8)", anni: "1989–1996", cv: 220, nm: 280, nota: "" }
     - { nome: "EJ207 (Impreza WRX STI JDM)", anni: "1996–2019", cv: 280, nm: 431, nota: "Il turbo 2.0 più spinto della famiglia" }
@@ -633,6 +687,10 @@
   cv_max: 360
   nm_max: 370
   limitatore: 8000
+  in_breve:
+    - { valore: "105 CV/l", testo: "da aspirato con basamento in ghisa" }
+    - { valore: "8000", testo: "giri/min al limitatore" }
+    - { valore: "24 m/s", testo: "velocità media del pistone al limitatore" }
   versioni:
     - { nome: "M3 E46", anni: "2000–2006", cv: 343, nm: 365, nota: "USA 333 CV" }
     - { nome: "M3 CSL E46", anni: "2003–2004", cv: 360, nm: 370, nota: "Airbox in carbonio" }
@@ -680,6 +738,10 @@
   cv_max: 340
   nm_max: 450
   limitatore: 7000
+  in_breve:
+    - { valore: "2 turbo", testo: "uno ogni tre cilindri" }
+    - { valore: "Piezo", testo: "iniettori al centro della camera di combustione" }
+    - { valore: "2006", testo: "primo sei cilindri BMW turbo a iniezione diretta" }
   versioni:
     - { nome: "335i / 535i / 135i", anni: "2006–2010", cv: 306, nm: 400, nota: "" }
     - { nome: "335is / Z4 sDrive35is", anni: "2010–2016", cv: 340, nm: 450, nota: "Overboost fino a 500 Nm" }
@@ -727,6 +789,10 @@
   cv_max: 387
   nm_max: 500
   limitatore: 7000
+  in_breve:
+    - { valore: "500 cc", testo: "per cilindro, come i B38 e B48 della stessa famiglia" }
+    - { valore: "Closed-deck", testo: "basamento in alluminio" }
+    - { valore: "Supra", testo: "fornito a Toyota per la GR Supra A90" }
   versioni:
     - { nome: "B58 prima serie (340i, 740i)", anni: "2015–2019", cv: 326, nm: 450, nota: "" }
     - { nome: "B58 TU (M340i, X3 M40i)", anni: "2019–oggi", cv: 374, nm: 500, nota: "Mild hybrid dal 2020" }
@@ -772,6 +838,10 @@
   cv_max: 333
   nm_max: 420
   limitatore: 6800
+  in_breve:
+    - { valore: "160–333 CV", testo: "con lo stesso basamento in ghisa" }
+    - { valore: "4", testo: "generazioni dal 2007" }
+    - { valore: "Integrato", testo: "collettore di scarico nella testata dalla Gen3" }
   versioni:
     - { nome: "Gen1 (1.8/2.0 TFSI)", anni: "2007–2011", cv: 200, nm: 280, nota: "" }
     - { nome: "Gen2 (Golf GTI Mk6, A4 B8)", anni: "2009–2013", cv: 211, nm: 350, nota: "" }
@@ -820,6 +890,10 @@
   cv_max: 160
   nm_max: 330
   limitatore: 4800
+  in_breve:
+    - { valore: "2050 bar", testo: "pressione di iniezione delle versioni iniettore-pompa" }
+    - { valore: "1991", testo: "debutto sull'Audi 80" }
+    - { valore: "1.000.000 km", testo: "raggiunti da unità documentate su taxi e furgoni" }
   versioni:
     - { nome: "1Z / AHU (pompa rotativa)", anni: "1991–1997", cv: 90, nm: 202, nota: "Debutto su Audi 80 B4" }
     - { nome: "AFN / AVG (VNT)", anni: "1996–2000", cv: 110, nm: 235, nota: "Turbo a geometria variabile" }
@@ -867,6 +941,10 @@
   cv_max: 170
   nm_max: 350
   limitatore: 5000
+  in_breve:
+    - { valore: "2015", testo: "scoperta del software di riconoscimento del ciclo di prova" }
+    - { valore: "11 milioni", testo: "veicoli coinvolti nel Dieselgate" }
+    - { valore: "Common rail", testo: "primo 2.0 TDI del gruppo con questo sistema" }
   versioni:
     - { nome: "2.0 TDI CR 110–140", anni: "2007–2015", cv: 140, nm: 320, nota: "" }
     - { nome: "2.0 TDI CR 170 (Golf GTD Mk6)", anni: "2009–2013", cv: 170, nm: 350, nota: "" }
@@ -912,6 +990,10 @@
   cv_max: 400
   nm_max: 500
   limitatore: 7000
+  in_breve:
+    - { valore: "1-2-4-5-3", testo: "ordine di accensione" }
+    - { valore: "9", testo: "anni consecutivi di vittorie di categoria all'International Engine of the Year" }
+    - { valore: "−26 kg", testo: "con il basamento in alluminio della versione evo" }
   versioni:
     - { nome: "TT RS 8J / RS3 8P", anni: "2009–2013", cv: 340, nm: 450, nota: "" }
     - { nome: "TT RS plus / RS3 8V", anni: "2012–2016", cv: 367, nm: 465, nota: "" }
@@ -941,6 +1023,7 @@
   inizio: 2008
   fine: 2024
   architettura: V10
+  angolo: 90
   cilindri: 10
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -957,6 +1040,10 @@
   cv_max: 640
   nm_max: 600
   limitatore: 8700
+  in_breve:
+    - { valore: "90°", testo: "con perni di biella sfalsati per l'accensione regolare" }
+    - { valore: "8700", testo: "giri/min al limitatore" }
+    - { valore: "2024", testo: "fine produzione, ultimo V10 aspirato di grande serie" }
   versioni:
     - { nome: "Lamborghini Gallardo LP560-4", anni: "2008–2013", cv: 560, nm: 540, nota: "" }
     - { nome: "Audi R8 V10 (Typ 42)", anni: "2009–2015", cv: 525, nm: 530, nota: "" }
@@ -987,6 +1074,7 @@
   inizio: 2006
   fine: 2015
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -1003,6 +1091,10 @@
   cv_max: 631
   nm_max: 650
   limitatore: 7200
+  in_breve:
+    - { valore: "6208 cc", testo: "cilindrata reale, venduto come 6.3" }
+    - { valore: "1 uomo", testo: "ogni unità assemblata da un solo tecnico" }
+    - { valore: "4", testo: "alberi a camme tutti a fasatura variabile" }
   versioni:
     - { nome: "M156 (C63, E63, CLK63, ML63)", anni: "2006–2015", cv: 457, nm: 600, nota: "Potenze fino a 525 CV secondo modello" }
     - { nome: "M156 C63 AMG Black Series", anni: "2011–2013", cv: 517, nm: 620, nota: "" }
@@ -1033,6 +1125,7 @@
   inizio: 2014
   fine:
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina / Ibrido
   aspirazione: Biturbo
@@ -1049,6 +1142,10 @@
   cv_max: 730
   nm_max: 900
   limitatore: 7200
+  in_breve:
+    - { valore: "V caldo", testo: "turbo all'interno della V" }
+    - { valore: "730 CV", testo: "nella AMG GT Black Series con albero piatto" }
+    - { valore: "4", testo: "cilindri disattivabili a carico parziale" }
   versioni:
     - { nome: "M178 (AMG GT, GT S, GT R)", anni: "2014–2021", cv: 585, nm: 700, nota: "Carter secco" }
     - { nome: "M177 (C63, E63 S, G63)", anni: "2015–oggi", cv: 612, nm: 850, nota: "Carter umido" }
@@ -1095,6 +1192,10 @@
   cv_max: 177
   nm_max: 330
   limitatore: 5000
+  in_breve:
+    - { valore: "Precamera", testo: "ultimo diesel Mercedes di questo tipo" }
+    - { valore: "Pompa in linea", testo: "iniezione meccanica" }
+    - { valore: "1.000.000 km", testo: "raggiunti da molte unità su taxi" }
   versioni:
     - { nome: "OM606.912 aspirato", anni: "1993–1998", cv: 136, nm: 210, nota: "E300 Diesel W124/W210" }
     - { nome: "OM606.962 turbo", anni: "1996–1999", cv: 177, nm: 330, nota: "E300 Turbodiesel W210" }
@@ -1138,6 +1239,10 @@
   cv_max: 155
   nm_max: 240
   limitatore: 6500
+  in_breve:
+    - { valore: "999 cc", testo: "tre cilindri turbo" }
+    - { valore: "A bagno d'olio", testo: "cinghia di distribuzione immersa nell'olio motore" }
+    - { valore: "A4", testo: "superficie del basamento, paragonabile al foglio" }
   versioni:
     - { nome: "1.0 EcoBoost 100/125", anni: "2012–oggi", cv: 125, nm: 200, nota: "" }
     - { nome: "Fiesta Red/Black Edition", anni: "2013–2017", cv: 140, nm: 180, nota: "" }
@@ -1167,6 +1272,7 @@
   inizio: 2011
   fine:
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -1183,6 +1289,10 @@
   cv_max: 507
   nm_max: 567
   limitatore: 7500
+  in_breve:
+    - { valore: "4", testo: "alberi a camme a fasatura indipendente (Ti-VCT)" }
+    - { valore: "7500", testo: "giri/min al limitatore dalla Gen3" }
+    - { valore: "507 CV", testo: "nella Mustang Dark Horse" }
   versioni:
     - { nome: "Gen1", anni: "2011–2014", cv: 418, nm: 529, nota: "" }
     - { nome: "Gen2", anni: "2015–2017", cv: 441, nm: 542, nota: "" }
@@ -1212,6 +1322,7 @@
   inizio: 1997
   fine: 2017
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Aspirato / Compressore
@@ -1228,6 +1339,10 @@
   cv_max: 647
   nm_max: 819
   limitatore: 7000
+  in_breve:
+    - { valore: "OHV", testo: "aste e bilancieri, due valvole per cilindro" }
+    - { valore: "6 bulloni", testo: "per ogni supporto di banco" }
+    - { valore: "647 CV", testo: "nell'LS9 con compressore della Corvette ZR1" }
   versioni:
     - { nome: "LS1 5.7", anni: "1997–2004", cv: 350, nm: 495, nota: "Corvette C5, Camaro, Firebird" }
     - { nome: "LS6 5.7", anni: "2001–2004", cv: 411, nm: 542, nota: "Corvette Z06 C5" }
@@ -1277,6 +1392,10 @@
   cv_max: 329
   nm_max: 420
   limitatore: 7000
+  in_breve:
+    - { valore: "VTEC", testo: "applicato all'albero di scarico per la risposta del turbo" }
+    - { valore: "329 CV", testo: "nella Civic Type R FL5" }
+    - { valore: "Nürburgring", testo: "record di giro tra le trazioni anteriori" }
   versioni:
     - { nome: "Civic Type R FK2", anni: "2015–2017", cv: 310, nm: 400, nota: "Primo Type R turbo" }
     - { nome: "Civic Type R FK8", anni: "2017–2021", cv: 320, nm: 400, nota: "" }
@@ -1321,6 +1440,10 @@
   cv_max: 355
   nm_max: 400
   limitatore: 7300
+  in_breve:
+    - { valore: "1996", testo: "primo boxer Porsche raffreddato ad acqua" }
+    - { valore: "IMS", testo: "cuscinetto dell'albero intermedio: il guasto più noto" }
+    - { valore: "Condiviso", testo: "tra Boxster e 911 per ridurre i costi" }
   versioni:
     - { nome: "Boxster 2.5 (986)", anni: "1996–1999", cv: 204, nm: 245, nota: "" }
     - { nome: "911 Carrera 3.4 (996)", anni: "1997–2001", cv: 300, nm: 350, nota: "Primo 911 raffreddato ad acqua" }
@@ -1369,6 +1492,10 @@
   cv_max: 620
   nm_max: 700
   limitatore: 8500
+  in_breve:
+    - { valore: "GT1", testo: "basamento derivato dalla vincitrice di Le Mans 1998" }
+    - { valore: "Carter secco", testo: "lubrificazione" }
+    - { valore: "620 CV", testo: "nella 997 GT2 RS" }
   versioni:
     - { nome: "996 GT3", anni: "1999–2005", cv: 381, nm: 385, nota: "Prima serie 360 CV" }
     - { nome: "996 Turbo / GT2", anni: "2000–2005", cv: 483, nm: 640, nota: "Turbo 420 CV, GT2 fino a 483" }
@@ -1398,6 +1525,7 @@
   inizio: 2002
   fine: 2019
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -1414,6 +1542,10 @@
   cv_max: 605
   nm_max: 540
   limitatore: 9000
+  in_breve:
+    - { valore: "9000", testo: "giri/min al limitatore sulla 458" }
+    - { valore: "134 CV/l", testo: "nella 458 Speciale" }
+    - { valore: "2 anime", testo: "albero piatto per Ferrari, a croce per Maserati" }
   versioni:
     - { nome: "Maserati 4200 GT / Quattroporte (F136R)", anni: "2002–2008", cv: 390, nm: 451, nota: "Albero a croce, 4244 cc" }
     - { nome: "Ferrari F430 (F136E)", anni: "2004–2009", cv: 490, nm: 465, nota: "4308 cc, albero piatto" }
@@ -1446,6 +1578,7 @@
   inizio: 2002
   fine:
   architettura: V12
+  angolo: 65
   cilindri: 12
   alimentazione: Benzina / Ibrido
   aspirazione: Aspirato
@@ -1462,6 +1595,10 @@
   cv_max: 830
   nm_max: 718
   limitatore: 9500
+  in_breve:
+    - { valore: "65°", testo: "tra le bancate" }
+    - { valore: "830 CV", testo: "nella 812 Competizione e nella 12Cilindri" }
+    - { valore: "9500", testo: "giri/min al limitatore" }
   versioni:
     - { nome: "Enzo Ferrari (F140B)", anni: "2002–2004", cv: 660, nm: 657, nota: "5998 cc" }
     - { nome: "599 GTB Fiorano", anni: "2006–2012", cv: 620, nm: 608, nota: "" }
@@ -1493,6 +1630,7 @@
   inizio: 2011
   fine: 2022
   architettura: V12
+  angolo: 60
   cilindri: 12
   alimentazione: Benzina
   aspirazione: Aspirato
@@ -1509,6 +1647,10 @@
   cv_max: 780
   nm_max: 720
   limitatore: 8500
+  in_breve:
+    - { valore: "60°", testo: "tra le bancate, aspirato" }
+    - { valore: "780 CV", testo: "nell'Aventador Ultimae" }
+    - { valore: "Da zero", testo: "primo V12 Lamborghini nuovo dopo il progetto Bizzarrini del 1963" }
   versioni:
     - { nome: "Aventador LP700-4", anni: "2011–2016", cv: 700, nm: 690, nota: "" }
     - { nome: "Aventador SV", anni: "2015–2017", cv: 750, nm: 690, nota: "" }
@@ -1537,6 +1679,7 @@
   inizio: 2011
   fine: 2021
   architettura: V8
+  angolo: 90
   cilindri: 8
   alimentazione: Benzina
   aspirazione: Biturbo
@@ -1553,6 +1696,10 @@
   cv_max: 675
   nm_max: 700
   limitatore: 8500
+  in_breve:
+    - { valore: "69,9 mm", testo: "di corsa: molto superquadro" }
+    - { valore: "Piatto", testo: "albero motore, carter secco" }
+    - { valore: "Ricardo", testo: "partner di sviluppo e produzione" }
   versioni:
     - { nome: "MP4-12C / 12C", anni: "2011–2014", cv: 625, nm: 600, nota: "Lancio a 600 CV" }
     - { nome: "650S", anni: "2014–2017", cv: 650, nm: 678, nota: "" }
@@ -1581,6 +1728,7 @@
   inizio: 2005
   fine: 2024
   architettura: W16
+  angolo: 90
   cilindri: 16
   alimentazione: Benzina
   aspirazione: Quadriturbo
@@ -1597,6 +1745,10 @@
   cv_max: 1600
   nm_max: 1600
   limitatore: 6700
+  in_breve:
+    - { valore: "16", testo: "cilindri in due gruppi VR8" }
+    - { valore: "4", testo: "turbo" }
+    - { valore: "1600 CV", testo: "nella Chiron Super Sport" }
   versioni:
     - { nome: "Veyron 16.4", anni: "2005–2011", cv: 1001, nm: 1250, nota: "" }
     - { nome: "Veyron Super Sport / Grand Sport Vitesse", anni: "2010–2015", cv: 1200, nm: 1500, nota: "" }
@@ -1642,6 +1794,10 @@
   cv_max: 155
   nm_max: 187
   limitatore: 7000
+  in_breve:
+    - { valore: "2", testo: "candele per cilindro" }
+    - { valore: "1987", testo: "debutto in serie sulla Alfa 75" }
+    - { valore: "Variatore", testo: "di fase sull'aspirazione nelle versioni 16v" }
   versioni:
     - { nome: "2.0 TS 8v (75, 164, 155)", anni: "1987–1995", cv: 148, nm: 186, nota: "Testa bialbero storica, due candele per cilindro" }
     - { nome: "1.4/1.6/1.8 TS 16v", anni: "1995–2010", cv: 140, nm: 165, nota: "1.8 da 140–144 CV" }
@@ -1672,6 +1828,7 @@
   inizio: 1979
   fine: 2005
   architettura: V6
+  angolo: 60
   cilindri: 6
   alimentazione: Benzina
   aspirazione: Aspirato / Turbo
@@ -1688,6 +1845,10 @@
   cv_max: 250
   nm_max: 300
   limitatore: 7000
+  in_breve:
+    - { valore: "60°", testo: "tra le bancate" }
+    - { valore: "1979–2005", testo: "26 anni di produzione" }
+    - { valore: "2.0 Turbo", testo: "versione per l'IVA italiana sopra i 2000 cc" }
   versioni:
     - { nome: "2.5 V6 (Alfa 6, GTV6, 75)", anni: "1979–1992", cv: 158, nm: 213, nota: "Prime versioni a carburatori" }
     - { nome: "2.0 V6 Turbo (164, GTV)", anni: "1991–2000", cv: 210, nm: 271, nota: "Per il mercato italiano (IVA)" }
@@ -1734,6 +1895,10 @@
   cv_max: 190
   nm_max: 400
   limitatore: 5000
+  in_breve:
+    - { valore: "1997", testo: "prima auto di serie common rail: Alfa Romeo 156 JTD" }
+    - { valore: "Unijet", testo: "brevetto Fiat ceduto a Bosch" }
+    - { valore: "5", testo: "iniezioni per ciclo con il Multijet" }
   versioni:
     - { nome: "1.9 JTD 8v (Alfa 156)", anni: "1997–2002", cv: 105, nm: 255, nota: "Prima auto common rail al mondo" }
     - { nome: "1.9 JTD Multijet 8v", anni: "2002–2011", cv: 120, nm: 280, nota: "" }
@@ -1779,6 +1944,10 @@
   cv_max: 270
   nm_max: 330
   limitatore: 6800
+  in_breve:
+    - { valore: "PSA + BMW", testo: "sviluppo congiunto" }
+    - { valore: "Twin-scroll", testo: "turbo delle versioni THP" }
+    - { valore: "270 CV", testo: "nella Peugeot 308 GTi e RCZ R" }
   versioni:
     - { nome: "EP6 aspirato (Mini Cooper R56)", anni: "2006–2014", cv: 120, nm: 160, nota: "" }
     - { nome: "EP6DT 150/175 (Peugeot 207/308, Mini Cooper S)", anni: "2006–2015", cv: 175, nm: 240, nota: "" }
@@ -1799,3 +1968,1144 @@
     Le versioni da 270 CV sono già al limite degli interni di serie; mappature più spinte richiedono interventi.
   curiosita:
     - "Premiato più volte nella classe 1.4–1.8 litri all'International Engine of the Year."
+
+- slug: ferrari-f154
+  codice: F154
+  nome: Ferrari F154 V8 biturbo
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 2014
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina / Ibrido
+  aspirazione: Biturbo
+  cilindrata: 3902
+  alesaggio: 86.5
+  corsa: 83.0
+  compressione: "9.4–9.6:1"
+  distribuzione: DOHC a catena, fasatura variabile continua
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 530
+  cv_max: 780
+  nm_max: 800
+  limitatore: 8000
+  in_breve:
+    - { valore: "4 anni", testo: "consecutivi come miglior motore assoluto all'International Engine of the Year (2016–2019)" }
+    - { valore: "Piatto", testo: "albero motore nelle Ferrari; a croce nelle versioni Maserati" }
+    - { valore: "780 CV", testo: "nella versione 4.0 della SF90 Stradale, solo motore termico" }
+  versioni:
+    - { nome: "California T (F154BA)", anni: "2014–2017", cv: 560, nm: 755, nota: "3855 cc" }
+    - { nome: "488 GTB / Spider (F154CB)", anni: "2015–2019", cv: 670, nm: 760, nota: "3902 cc" }
+    - { nome: "F8 Tributo / 488 Pista", anni: "2018–2023", cv: 720, nm: 770, nota: "Bielle in titanio" }
+    - { nome: "SF90 Stradale (F154FA)", anni: "2019–oggi", cv: 780, nm: 800, nota: "3990 cc; ibrido plug-in, 1000 CV totali" }
+    - { nome: "Maserati Quattroporte GTS / Levante Trofeo", anni: "2013–2023", cv: 580, nm: 730, nota: "Albero a croce, prodotto da Ferrari" }
+  modelli:
+    - { nome: "Ferrari California T, Portofino, Roma", anni: "2014–oggi" }
+    - { nome: "Ferrari 488, F8 Tributo, SF90", anni: "2015–oggi" }
+    - { nome: "Maserati Quattroporte, Levante, Ghibli Trofeo", anni: "2013–2023" }
+  storia: >-
+    V8 biturbo a 90° che sostituisce l'F136 aspirato. Turbo twin-scroll IHI su cuscinetti a sfere, iniezione diretta a 350 bar dalla 488. La gestione della coppia varia con la
+    marcia inserita (Variable Torque Management) per ridurre lo slittamento nelle marce basse. La cilindrata indicata è quella
+    della 488.
+  punti_deboli:
+    - Pochi difetti strutturali noti; manutenzione costosa per l'accesso al motore
+    - Sensori e attuatori delle wastegate su esemplari ad alto chilometraggio
+  limiti: >-
+    Con sola centralina e scarico le versioni 488 superano gli 800 CV. Oltre servono turbo maggiorati e gestione del calore.
+  curiosita:
+    - "La Ferrari Roma usa la stessa unità della Portofino con 620 CV."
+
+- slug: ferrari-f163
+  codice: F163
+  nome: Ferrari F163 V6 biturbo
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 2021
+  fine:
+  architettura: V6
+  angolo: 120
+  cilindri: 6
+  alimentazione: Ibrido
+  aspirazione: Biturbo
+  cilindrata: 2992
+  alesaggio: 88.0
+  corsa: 82.0
+  compressione: "9.4:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta a 350 bar
+  cv_min: 663
+  cv_max: 663
+  nm_max: 740
+  limitatore: 8500
+  in_breve:
+    - { valore: "120°", testo: "tra le bancate, con i turbo all'interno della V" }
+    - { valore: "221 CV/l", testo: "potenza specifica del solo motore termico, record per un'auto di serie al lancio" }
+    - { valore: "830 CV", testo: "potenza combinata con il motore elettrico nella 296 GTB" }
+  versioni:
+    - { nome: "296 GTB / GTS", anni: "2021–oggi", cv: 663, nm: 740, nota: "Più motore elettrico da 167 CV" }
+  modelli:
+    - { nome: "Ferrari 296 GTB / GTS", anni: "2021–oggi" }
+    - { nome: "Ferrari 296 GT3 / Challenge (da competizione)", anni: "2022–oggi" }
+  storia: >-
+    Primo V6 di una Ferrari stradale con il marchio Ferrari. L'angolo di 120° permette di collocare i due turbo IHI tra le
+    bancate (configurazione a V caldo), abbassare il baricentro e ottenere un'accensione regolare senza perni sfalsati.
+    Abbinato a un motore elettrico tra motore e cambio e a una batteria da 7,45 kWh.
+  punti_deboli:
+    - "Motore recente: nessun difetto ricorrente documentato"
+  limiti: >-
+    Elaborazioni ancora poco diffuse; la gestione ibrida integrata limita gli interventi di sola centralina.
+  curiosita:
+    - "In fase di sviluppo è stato soprannominato 'piccolo V12' per la regolarità di erogazione."
+
+- slug: maserati-nettuno
+  codice: Nettuno
+  nome: Maserati Nettuno V6
+  costruttore: Maserati
+  paese: Italia
+  inizio: 2020
+  fine:
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2992
+  alesaggio: 88.0
+  corsa: 82.0
+  compressione: "11.0:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta + indiretta
+  cv_min: 530
+  cv_max: 640
+  nm_max: 730
+  limitatore: 8000
+  in_breve:
+    - { valore: "MTC", testo: "Maserati Twin Combustion: precamera con candela dedicata derivata dalla Formula 1" }
+    - { valore: "11:1", testo: "compressione molto alta per un motore sovralimentato" }
+    - { valore: "210 CV/l", testo: "potenza specifica sulla MC20" }
+  versioni:
+    - { nome: "MC20", anni: "2020–oggi", cv: 630, nm: 730, nota: "Carter secco" }
+    - { nome: "Grecale Trofeo", anni: "2022–oggi", cv: 530, nm: 620, nota: "Carter umido" }
+    - { nome: "GranTurismo Trofeo", anni: "2023–oggi", cv: 550, nm: 650, nota: "" }
+    - { nome: "GT2 Stradale", anni: "2024–oggi", cv: 640, nm: 720, nota: "" }
+  modelli:
+    - { nome: "Maserati MC20 / MC20 Cielo", anni: "2020–oggi" }
+    - { nome: "Maserati Grecale Trofeo, GranTurismo Trofeo", anni: "2022–oggi" }
+  storia: >-
+    Progettato e prodotto da Maserati a Modena. Ogni cilindro ha una precamera con candela propria oltre alla candela
+    tradizionale: a carichi elevati la combustione parte nella precamera e si propaga nella camera principale con getti
+    di fiamma, consentendo compressione alta e anticipo spinto senza detonazione. Due turbo, uno per bancata.
+  punti_deboli:
+    - "Motore recente: dati di lungo periodo ancora limitati"
+  limiti: >-
+    Le prime elaborazioni di centralina portano la MC20 oltre i 700 CV.
+  curiosita:
+    - "Il nome riprende il tridente del marchio, simbolo del dio Nettuno."
+
+- slug: alfa-romeo-690t
+  codice: 690T
+  nome: Alfa Romeo 690T 2.9 V6
+  costruttore: Alfa Romeo
+  paese: Italia
+  inizio: 2015
+  fine:
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2891
+  alesaggio: 86.5
+  corsa: 82.0
+  compressione: "9.3:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 510
+  cv_max: 540
+  nm_max: 600
+  limitatore: 7400
+  in_breve:
+    - { valore: "86,5 mm", testo: "alesaggio comune al V8 Ferrari F154, da cui deriva l'architettura" }
+    - { valore: "3 cilindri", testo: "disattivabili a carico parziale (una bancata)" }
+    - { valore: "7:32", testo: "tempo al Nürburgring della Giulia Quadrifoglio nel 2016, record per berline di serie" }
+  versioni:
+    - { nome: "Giulia / Stelvio Quadrifoglio", anni: "2015–2023", cv: 510, nm: 600, nota: "" }
+    - { nome: "Giulia GTA / GTAm", anni: "2020–2022", cv: 540, nm: 600, nota: "Serie limitata, 500 esemplari" }
+    - { nome: "Giulia / Stelvio Quadrifoglio restyling", anni: "2023–oggi", cv: 520, nm: 600, nota: "" }
+  modelli:
+    - { nome: "Alfa Romeo Giulia Quadrifoglio", anni: "2015–oggi" }
+    - { nome: "Alfa Romeo Stelvio Quadrifoglio", anni: "2017–oggi" }
+  storia: >-
+    V6 biturbo sviluppato con il contributo di tecnici Ferrari, con alesaggio, corsa unitaria e interasse dei cilindri
+    del V8 F154. Basamento in alluminio, due turbo a bassa inerzia, iniezione diretta. Il sistema di disattivazione spegne
+    una bancata a carico parziale per ridurre i consumi.
+  punti_deboli:
+    - Segnalazioni isolate su sensori e pompa acqua; pochi dati su chilometraggi alti
+  limiti: >-
+    Con centralina e scarico si superano i 600 CV; il limite successivo sono turbo e frizioni del cambio.
+  curiosita:
+    - "La sigla 690T indica sei cilindri, novanta gradi e turbo."
+
+- slug: bmw-s14
+  codice: S14
+  nome: BMW S14
+  costruttore: BMW
+  paese: Germania
+  inizio: 1986
+  fine: 1991
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2302
+  alesaggio: 93.4
+  corsa: 84.0
+  compressione: "10.5–11.0:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta, quattro corpi farfallati singoli
+  cv_min: 192
+  cv_max: 238
+  nm_max: 240
+  limitatore: 7250
+  in_breve:
+    - { valore: "M10 + M88", testo: "basamento del quattro cilindri M10 con testata derivata dal sei cilindri della BMW M1" }
+    - { valore: "2.0", testo: "versione da 192 CV per Italia e Portogallo, sotto la soglia fiscale dei 2000 cc" }
+    - { valore: "DTM", testo: "titoli 1987 e 1989 con la M3 E30 Gruppo A" }
+  versioni:
+    - { nome: "M3 E30 2.3", anni: "1986–1989", cv: 200, nm: 240, nota: "Versioni catalizzate 195 CV" }
+    - { nome: "320is (S14B20)", anni: "1987–1991", cv: 192, nm: 210, nota: "1990 cc, mercati italiano e portoghese" }
+    - { nome: "M3 Evolution 2.3", anni: "1988–1989", cv: 220, nm: 245, nota: "" }
+    - { nome: "M3 Sport Evolution", anni: "1989–1990", cv: 238, nm: 240, nota: "2467 cc, 95 × 87 mm" }
+  modelli:
+    - { nome: "BMW M3 (E30)", anni: "1986–1991" }
+    - { nome: "BMW 320is (E30)", anni: "1987–1991" }
+  storia: >-
+    Quattro cilindri sviluppato da BMW Motorsport per l'omologazione Gruppo A della M3 E30. Il basamento in ghisa deriva dal
+    quattro cilindri M10 con alesaggio aumentato; la testata a quattro valvole per cilindro deriva dall'M88 della M1, ridotta
+    da sei a quattro cilindri. La M3 vinse il campionato mondiale turismo nel 1987 e il DTM nel 1987 e 1989.
+  punti_deboli:
+    - Catena di distribuzione e tenditore a chilometraggi alti
+    - Componenti di ricambio specifici costosi e di difficile reperibilità
+  limiti: >-
+    Le versioni da competizione Gruppo A con 2,5 litri superavano i 300 CV da aspirato.
+  curiosita:
+    - "La 320is è una delle poche BMW di serie degli anni '80 con testata a quattro valvole su un 2.0 litri."
+
+- slug: bmw-s65
+  codice: S65B40
+  nome: BMW S65 V8
+  costruttore: BMW
+  paese: Germania
+  inizio: 2007
+  fine: 2013
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3999
+  alesaggio: 92.0
+  corsa: 75.2
+  compressione: "12.0:1"
+  distribuzione: DOHC a catena, doppio VANOS
+  valvole: 4
+  blocco: Alluminio-silicio
+  testa: Alluminio
+  iniezione: Indiretta, otto corpi farfallati singoli
+  cv_min: 420
+  cv_max: 450
+  nm_max: 440
+  limitatore: 8400
+  in_breve:
+    - { valore: "V10 − 2", testo: "derivato dal V10 S85 della M5, con stesso alesaggio e corsa" }
+    - { valore: "202 kg", testo: "peso dichiarato del motore, 15 kg meno del sei cilindri S54 che sostituisce" }
+    - { valore: "8400", testo: "giri/min al limitatore" }
+  versioni:
+    - { nome: "M3 E90/E92/E93", anni: "2007–2013", cv: 420, nm: 400, nota: "" }
+    - { nome: "M3 GTS", anni: "2010–2011", cv: 450, nm: 440, nota: "4361 cc, corsa 82 mm" }
+  modelli:
+    - { nome: "BMW M3 (E90, E92, E93)", anni: "2007–2013" }
+  storia: >-
+    Unico V8 montato su una M3 di serie. Basamento in lega alluminio-silicio a bassa pressione, albero motore forgiato,
+    pistoni forgiati, otto corpi farfallati singoli e lubrificazione con pompa a portata variabile e circuito di recupero
+    per le accelerazioni laterali. Ha vinto la categoria 3–4 litri all'International Engine of the Year dal 2008 al 2012.
+  punti_deboli:
+    - "Bronzine di biella: sostituzione preventiva diffusa tra i possessori"
+    - Attuatori dei corpi farfallati
+  limiti: >-
+    Con compressore volumetrico si raggiungono 550–600 CV su interni di serie, con bronzine sostituite.
+  curiosita:
+    - "La M3 GTS adotta corsa allungata a 82 mm e cilindrata di 4361 cc."
+
+- slug: bmw-s85
+  codice: S85B50
+  nome: BMW S85 V10
+  costruttore: BMW
+  paese: Germania
+  inizio: 2004
+  fine: 2010
+  architettura: V10
+  angolo: 90
+  cilindri: 10
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4999
+  alesaggio: 92.0
+  corsa: 75.2
+  compressione: "12.0:1"
+  distribuzione: DOHC a catena, doppio VANOS
+  valvole: 4
+  blocco: Alluminio-silicio
+  testa: Alluminio
+  iniezione: Indiretta, dieci corpi farfallati singoli
+  cv_min: 507
+  cv_max: 507
+  nm_max: 520
+  limitatore: 8250
+  in_breve:
+    - { valore: "10", testo: "corpi farfallati singoli a comando elettronico" }
+    - { valore: "101 CV/l", testo: "su un V10 di 5 litri aspirato per una berlina di serie" }
+    - { valore: "F1", testo: "concetto ispirato al V10 BMW di Formula 1 del periodo Williams" }
+  versioni:
+    - { nome: "M5 E60 / E61 Touring", anni: "2004–2010", cv: 507, nm: 520, nota: "" }
+    - { nome: "M6 E63 / E64", anni: "2005–2010", cv: 507, nm: 520, nota: "" }
+  modelli:
+    - { nome: "BMW M5 (E60, E61)", anni: "2004–2010" }
+    - { nome: "BMW M6 (E63, E64)", anni: "2005–2010" }
+  storia: >-
+    V10 aspirato sviluppato da BMW M per la M5 E60. Rilevamento della detonazione tramite corrente ionica sulle candele,
+    lubrificazione con due pompe di recupero per le accelerazioni laterali, centralina con capacità di calcolo dedicata.
+    Ha vinto la categoria oltre 4 litri all'International Engine of the Year dal 2005 al 2008.
+  punti_deboli:
+    - "Bronzine di biella: usura precoce, sostituzione preventiva consigliata"
+    - Attuatori dei corpi farfallati e pompa VANOS ad alta pressione
+  limiti: >-
+    Margini limitati da aspirato. Esistono kit compressore oltre i 650 CV.
+  curiosita:
+    - "Di serie la M5 partiva con mappa da 400 CV; i 507 CV si attivavano con il tasto Power."
+
+- slug: bmw-s58
+  codice: S58B30
+  nome: BMW S58
+  costruttore: BMW
+  paese: Germania
+  inizio: 2019
+  fine:
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2993
+  alesaggio: 84.0
+  corsa: 90.0
+  compressione: "9.3:1"
+  distribuzione: DOHC a catena, doppio VANOS
+  valvole: 4
+  blocco: Alluminio, closed-deck
+  testa: Alluminio, anima stampata in 3D
+  iniezione: Diretta a 350 bar
+  cv_min: 480
+  cv_max: 550
+  nm_max: 650
+  limitatore: 7200
+  in_breve:
+    - { valore: "3D", testo: "anima della testata realizzata con stampa 3D per condotti di raffreddamento non ottenibili per fusione tradizionale" }
+    - { valore: "Closed-deck", testo: "basamento rigido con canne riportate a spruzzo" }
+    - { valore: "550 CV", testo: "su M4 CSL e M3 CS" }
+  versioni:
+    - { nome: "X3 M / X4 M (F97, F98)", anni: "2019–2024", cv: 480, nm: 600, nota: "Competition 510 CV" }
+    - { nome: "M3 / M4 (G80, G82)", anni: "2020–oggi", cv: 480, nm: 550, nota: "Competition 510–530 CV" }
+    - { nome: "M4 CSL / M3 CS", anni: "2022–oggi", cv: 550, nm: 650, nota: "" }
+  modelli:
+    - { nome: "BMW M3 (G80), M4 (G82, G83)", anni: "2020–oggi" }
+    - { nome: "BMW X3 M, X4 M", anni: "2019–2024" }
+    - { nome: "BMW M2 (G87)", anni: "2023–oggi" }
+  storia: >-
+    Sei cilindri biturbo di BMW M con architettura modulare simile al B58 ma componenti in gran parte specifici. Albero motore forgiato
+    alleggerito, basamento closed-deck, due turbo mono-scroll con wastegate elettroniche, lubrificazione con pompa a mappa
+    e coppa a due camere. Base anche del motore BMW per le competizioni GT4.
+  punti_deboli:
+    - Motore recente; segnalazioni isolate di perdite dal radiatore olio
+  limiti: >-
+    Con turbo di serie e centralina si superano i 600 CV; con turbo maggiorati e interni di serie 700–750 CV.
+  curiosita:
+    - "Lo stesso motore equipaggia la BMW M2 G87 con 460–480 CV."
+
+- slug: bmw-m57
+  codice: M57D30
+  nome: BMW M57 3.0 diesel
+  costruttore: BMW
+  paese: Germania
+  inizio: 1998
+  fine: 2010
+  architettura: L6
+  cilindri: 6
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo
+  cilindrata: 2993
+  alesaggio: 84.0
+  corsa: 90.0
+  compressione: "16.5–18.0:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Ghisa, poi alluminio (M57TU2)
+  testa: Alluminio
+  iniezione: Diretta common rail
+  cv_min: 184
+  cv_max: 286
+  nm_max: 580
+  limitatore: 4800
+  in_breve:
+    - { valore: "Common rail", testo: "fin dalla prima versione del 1998, con iniettori piezoelettrici dalla serie TU2" }
+    - { valore: "286 CV", testo: "nella versione biturbo sequenziale della 535d" }
+    - { valore: "Swirl", testo: "farfalle nei condotti di aspirazione: il guasto più noto" }
+  versioni:
+    - { nome: "M57D30 (330d, 530d)", anni: "1998–2003", cv: 184, nm: 410, nota: "2926 cc, corsa 88 mm" }
+    - { nome: "M57TU (330d, 530d, X5 3.0d)", anni: "2002–2007", cv: 218, nm: 500, nota: "2993 cc" }
+    - { nome: "M57TU2 biturbo (535d, 335d)", anni: "2004–2010", cv: 286, nm: 580, nota: "Turbo sequenziali" }
+  modelli:
+    - { nome: "BMW Serie 3, 5, 6, 7 diesel", anni: "1998–2010" }
+    - { nome: "BMW X3, X5, X6 diesel", anni: "2001–2010" }
+    - { nome: "Range Rover TD6 (L322)", anni: "2002–2006" }
+  storia: >-
+    Sei cilindri diesel a iniezione diretta common rail con turbo a geometria variabile. La versione TU2 biturbo del 2004 usa
+    due turbo di dimensioni diverse in serie, con valvole che gestiscono il passaggio dal piccolo al grande. Il basamento
+    passa dalla ghisa all'alluminio con la serie TU2 per ridurre il peso.
+  punti_deboli:
+    - "Farfalle di vorticosità (swirl) nel collettore di aspirazione: possono staccarsi e danneggiare il motore"
+    - Turbo a geometria variabile e attuatori
+    - Collettore di aspirazione con depositi da EGR
+  limiti: >-
+    Le versioni biturbo superano i 340–360 CV con mappatura; il limite è il cambio automatico.
+  curiosita:
+    - "Molti proprietari rimuovono o sostituiscono le farfalle swirl con tappi metallici come intervento preventivo."
+
+- slug: audi-42-fsi
+  codice: 4.2 FSI (BNS / CFSA)
+  nome: Audi 4.2 V8 FSI
+  costruttore: Audi
+  paese: Germania
+  inizio: 2005
+  fine: 2015
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4163
+  alesaggio: 84.5
+  corsa: 92.8
+  compressione: "12.5:1"
+  distribuzione: DOHC a catena posteriore, fasatura variabile
+  valvole: 4
+  blocco: Alluminio-silicio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 420
+  cv_max: 450
+  nm_max: 430
+  limitatore: 8250
+  in_breve:
+    - { valore: "100 CV/l", testo: "potenza specifica della RS4 B7, aspirata a iniezione diretta" }
+    - { valore: "8250", testo: "giri/min al limitatore" }
+    - { valore: "Catena", testo: "distribuzione sul lato cambio: la sostituzione richiede lo smontaggio del motore" }
+  versioni:
+    - { nome: "RS4 B7", anni: "2005–2008", cv: 420, nm: 430, nota: "" }
+    - { nome: "R8 V8 (Typ 42)", anni: "2007–2015", cv: 430, nm: 430, nota: "Carter secco" }
+    - { nome: "RS5 / RS4 B8", anni: "2010–2015", cv: 450, nm: 430, nota: "" }
+  modelli:
+    - { nome: "Audi RS4 (B7, B8)", anni: "2005–2015" }
+    - { nome: "Audi R8 V8", anni: "2007–2015" }
+    - { nome: "Audi RS5 (8T)", anni: "2010–2015" }
+  storia: >-
+    V8 aspirato a iniezione diretta derivato dal 4.2 V8 a cinque valvole. Riprogettato per regimi alti: albero motore
+    forgiato, pistoni forgiati, lubrificazione rinforzata. Iniezione diretta FSI e compressione 12,5:1. Sull'Audi R8
+    adotta lubrificazione a carter secco.
+  punti_deboli:
+    - "Depositi carboniosi sulle valvole di aspirazione (iniezione solo diretta): pulizia periodica"
+    - Catena di distribuzione e tenditori a chilometraggi alti, intervento molto costoso
+  limiti: >-
+    Con compressore volumetrico si superano i 550 CV su interni di serie.
+  curiosita:
+    - "La distribuzione sul lato cambio permette di avanzare il motore nel vano senza aumentarne la lunghezza frontale."
+
+- slug: vw-ea113-18t
+  codice: EA113 1.8T 20v
+  nome: Volkswagen 1.8T 20v
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 1995
+  fine: 2010
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1781
+  alesaggio: 81.0
+  corsa: 86.4
+  compressione: "9.0–9.5:1"
+  distribuzione: DOHC a cinghia, variatore di fase in aspirazione
+  valvole: 5
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 150
+  cv_max: 240
+  nm_max: 320
+  limitatore: 6800
+  in_breve:
+    - { valore: "5", testo: "valvole per cilindro: tre in aspirazione, due allo scarico" }
+    - { valore: "240 CV", testo: "nella versione dell'Audi TT quattro sport" }
+    - { valore: "Bobine", testo: "il guasto più frequente delle versioni 2000–2003" }
+  versioni:
+    - { nome: "1.8T 150 CV (A4 B5, Golf IV GTI, Passat B5)", anni: "1995–2006", cv: 150, nm: 210, nota: "Turbo K03" }
+    - { nome: "1.8T 180 CV (Golf IV GTI, A3, TT)", anni: "1998–2006", cv: 180, nm: 235, nota: "" }
+    - { nome: "1.8T 210–225 CV (S3 8L, TT, Leon Cupra R)", anni: "1999–2006", cv: 225, nm: 280, nota: "Turbo K04" }
+    - { nome: "TT quattro sport", anni: "2005–2006", cv: 240, nm: 320, nota: "" }
+  modelli:
+    - { nome: "Volkswagen Golf IV, Passat B5, Bora, New Beetle", anni: "1996–2006" }
+    - { nome: "Audi A3, A4, A6, TT, S3", anni: "1995–2006" }
+    - { nome: "Seat Ibiza, León, Toledo; Škoda Octavia RS", anni: "1999–2010" }
+  storia: >-
+    Quattro cilindri turbo con testata a cinque valvole per cilindro, basamento in ghisa e intercooler. È stato il motore
+    sportivo di riferimento del gruppo Volkswagen tra la fine degli anni '90 e i primi anni 2000, prima dell'arrivo dei
+    TFSI a iniezione diretta.
+  punti_deboli:
+    - Bobine di accensione (richiamo diffuso nei primi anni 2000)
+    - Morchie nel circuito olio con oli non conformi e intervalli lunghi; tubo olio del turbo ostruito
+    - Valvola di ricircolo e tubazioni del vuoto
+  limiti: >-
+    Con le bielle di serie il limite indicativo è intorno ai 300 CV; con turbo maggiorati e bielle forgiate si superano i 400 CV.
+  curiosita:
+    - "Su Audi TT e S3 è montato trasversale con trazione integrale a giunto Haldex."
+
+- slug: vw-vr6
+  codice: VR6 (AAA, ABV, BDE, BWS)
+  nome: Volkswagen VR6
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 1991
+  fine: 2024
+  architettura: V6
+  angolo: 15
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2792
+  alesaggio: 81.0
+  corsa: 90.3
+  compressione: "10.0–11.4:1"
+  distribuzione: SOHC (12v) poi DOHC (24v), a catena
+  valvole: "2 / 4"
+  blocco: Ghisa
+  testa: Alluminio, unica per entrambe le bancate
+  iniezione: Indiretta, poi diretta (3.6 FSI)
+  cv_min: 174
+  cv_max: 300
+  nm_max: 350
+  limitatore: 6800
+  in_breve:
+    - { valore: "15°", testo: "tra le bancate: una sola testata copre tutti e sei i cilindri" }
+    - { valore: "Corto", testo: "abbastanza compatto da essere montato trasversale al posto di un quattro cilindri" }
+    - { valore: "300 CV", testo: "nel 3.6 FSI della Passat R36" }
+  versioni:
+    - { nome: "2.8 VR6 12v (Golf III, Passat B3/B4)", anni: "1991–1999", cv: 174, nm: 235, nota: "" }
+    - { nome: "2.9 VR6 (Corrado, Golf Syncro)", anni: "1993–1998", cv: 190, nm: 245, nota: "2861 cc" }
+    - { nome: "3.2 VR6 24v (Golf R32, Audi TT, A3)", anni: "2002–2010", cv: 250, nm: 320, nota: "Angolo 10,6°" }
+    - { nome: "3.6 FSI (Passat R36, Touareg, Atlas)", anni: "2005–2024", cv: 300, nm: 350, nota: "Iniezione diretta" }
+  modelli:
+    - { nome: "Volkswagen Golf III–V, Corrado, Passat, Sharan", anni: "1991–2010" }
+    - { nome: "Volkswagen Golf R32, Audi TT 3.2, A3 3.2", anni: "2002–2010" }
+    - { nome: "Volkswagen Touareg, Atlas, Porsche Cayenne (V6)", anni: "2002–2024" }
+  storia: >-
+    V6 a bancate strettissime, nato per offrire un sei cilindri nel vano di auto a trazione anteriore progettate per motori
+    a quattro cilindri. Con 15° di angolo i cilindri sono sfalsati in un unico basamento e coperti da una sola testata. Le
+    versioni 24v adottano due catene di distribuzione; i 3.2 e 3.6 litri riducono l'angolo a 10,6°.
+  punti_deboli:
+    - Catene di distribuzione e guide (24v), collocate sul lato cambio
+    - Perdite di liquido di raffreddamento da raccordi in plastica
+    - Bobine e consumo d'olio sulle unità ad alto chilometraggio
+  limiti: >-
+    Con turbo, pistoni a compressione ridotta e bielle forgiate le preparazioni superano i 500 CV.
+  curiosita:
+    - "Il principio del VR, con bancate a stretto angolo, è alla base del W16 Bugatti."
+
+- slug: vw-ea211-14-tsi
+  codice: EA211 1.4 TSI
+  nome: Volkswagen EA211 1.4 TSI
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2012
+  fine: 2020
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1395
+  alesaggio: 74.5
+  corsa: 80.0
+  compressione: "10.0–10.5:1"
+  distribuzione: DOHC a cinghia, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 122
+  cv_max: 150
+  nm_max: 250
+  limitatore: 6500
+  in_breve:
+    - { valore: "ACT", testo: "disattivazione di due cilindri a carico parziale sulle versioni 140 e 150 CV" }
+    - { valore: "Cinghia", testo: "distribuzione a cinghia al posto della catena dei precedenti EA111" }
+    - { valore: "−22 kg", testo: "rispetto al 1.4 TSI EA111 grazie al basamento in alluminio" }
+  versioni:
+    - { nome: "1.4 TSI 122/125 CV", anni: "2012–2020", cv: 125, nm: 200, nota: "" }
+    - { nome: "1.4 TSI ACT 140/150 CV", anni: "2012–2020", cv: 150, nm: 250, nota: "Disattivazione cilindri" }
+  modelli:
+    - { nome: "Volkswagen Golf VII, Polo, Passat B8, Tiguan", anni: "2012–2020" }
+    - { nome: "Audi A1, A3; Seat Leon, Ibiza; Škoda Octavia, Superb", anni: "2012–2020" }
+  storia: >-
+    Quattro cilindri della famiglia modulare EA211 che sostituisce l'EA111 a catena. Basamento in alluminio, collettore di
+    scarico integrato nella testata, intercooler aria-acqua nel collettore di aspirazione e testata ruotata con lo scarico
+    verso la parete parafiamma. Sostituito dall'1.5 TSI evo.
+  punti_deboli:
+    - Pochi difetti strutturali; segnalazioni di pompa acqua e termostato in plastica
+    - Attuatore wastegate rumoroso su alcune unità
+  limiti: >-
+    Mappatura fino a 170–180 CV con interni di serie.
+  curiosita:
+    - "La versione ACT spegne i cilindri 2 e 3 in pochi millisecondi tra 1400 e 4000 giri/min."
+
+- slug: ford-cosworth-yb
+  codice: Cosworth YB
+  nome: Ford Cosworth YB
+  costruttore: Ford
+  paese: Regno Unito
+  inizio: 1986
+  fine: 1996
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1993
+  alesaggio: 90.8
+  corsa: 77.0
+  compressione: "8.0:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa (derivato dal Ford Pinto)
+  testa: Alluminio, progetto Cosworth
+  iniezione: Indiretta, gestione Weber-Marelli
+  cv_min: 204
+  cv_max: 227
+  nm_max: 304
+  limitatore: 6500
+  in_breve:
+    - { valore: "Pinto", testo: "basamento in ghisa del quattro cilindri Ford di serie, rinforzato" }
+    - { valore: "500", testo: "esemplari della Sierra RS500 per l'omologazione Gruppo A" }
+    - { valore: "500+ CV", testo: "nelle versioni da competizione Gruppo A" }
+  versioni:
+    - { nome: "Sierra RS Cosworth", anni: "1986–1987", cv: 204, nm: 276, nota: "Garrett T3" }
+    - { nome: "Sierra RS500 Cosworth", anni: "1987", cv: 224, nm: 277, nota: "Seconda rampa di iniettori, turbo T31/T04" }
+    - { nome: "Sierra Sapphire RS Cosworth 4x4", anni: "1990–1992", cv: 220, nm: 290, nota: "" }
+    - { nome: "Escort RS Cosworth", anni: "1992–1996", cv: 227, nm: 304, nota: "Garrett T35, poi T25" }
+  modelli:
+    - { nome: "Ford Sierra RS Cosworth / RS500", anni: "1986–1987" }
+    - { nome: "Ford Sierra Sapphire RS Cosworth", anni: "1988–1992" }
+    - { nome: "Ford Escort RS Cosworth", anni: "1992–1996" }
+  storia: >-
+    Ford affidò a Cosworth una testata bialbero a 16 valvole da montare sul basamento in ghisa del Pinto, per l'omologazione
+    Gruppo A della Sierra. La RS500 del 1987 aggiunge una seconda serie di iniettori, inattiva su strada e usata in gara.
+    Le versioni da competizione hanno dominato i campionati turismo europei della fine degli anni '80.
+  punti_deboli:
+    - Guarnizione della testata e passaggi dell'acqua nella testata
+    - Perdite d'olio e invecchiamento delle tubazioni del turbo
+  limiti: >-
+    Con turbo maggiorato e gestione moderna il blocco di serie sopporta 400–500 CV; oltre servono interni forgiati.
+  curiosita:
+    - "Sull'Escort RS Cosworth il turbo T25 delle ultime serie ridusse il ritardo di risposta a scapito della potenza massima."
+
+- slug: opel-c20xe
+  codice: C20XE
+  nome: Opel C20XE 2.0 16v
+  costruttore: Opel
+  paese: Germania
+  inizio: 1988
+  fine: 1996
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "10.5:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio, progetto Cosworth
+  iniezione: Indiretta multipoint
+  cv_min: 150
+  cv_max: 156
+  nm_max: 203
+  limitatore: 7000
+  in_breve:
+    - { valore: "Red top", testo: "soprannome dovuto al coperchio delle punterie rosso" }
+    - { valore: "Cosworth", testo: "progetto della testata bialbero a 16 valvole" }
+    - { valore: "F3", testo: "base dei motori Spiess usati in Formula 3 e nel turismo" }
+  versioni:
+    - { nome: "20XE (non catalizzato)", anni: "1988–1991", cv: 156, nm: 203, nota: "" }
+    - { nome: "C20XE (catalizzato)", anni: "1989–1996", cv: 150, nm: 196, nota: "" }
+  modelli:
+    - { nome: "Opel Kadett GSi 16v, Astra F GSi 16v", anni: "1988–1996" }
+    - { nome: "Opel Calibra 16v, Vectra A 16v", anni: "1989–1996" }
+  storia: >-
+    Quattro cilindri quadro con testata a 16 valvole progettata da Cosworth sul basamento in ghisa Opel della famiglia
+    Family II. In versione da competizione, preparata da Spiess, ha vinto in Formula 3 e nei campionati turismo.
+  punti_deboli:
+    - Guarnizione della testata e crepe tra le sedi valvole su esemplari surriscaldati
+    - "Cinghia di distribuzione e tenditore: motore interferente"
+  limiti: >-
+    Con alberi a camme, corpi farfallati singoli e gestione dedicata si superano i 200 CV da aspirato.
+  curiosita:
+    - "Il successore X20XEV Ecotec ha prestazioni simili ma una testata progettata da Opel."
+
+- slug: nissan-sr20det
+  codice: SR20DET
+  nome: Nissan SR20DET
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 1989
+  fine: 2002
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "8.5:1"
+  distribuzione: DOHC a catena (VTC in aspirazione dal 1994)
+  valvole: 4
+  blocco: Alluminio con canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 205
+  cv_max: 250
+  nm_max: 275
+  limitatore: 7500
+  in_breve:
+    - { valore: "86 × 86", testo: "alesaggio e corsa quadri, come il Toyota 3S-GTE" }
+    - { valore: "250 CV", testo: "nella Silvia S15 Spec-R, ultima versione" }
+    - { valore: "Bilancieri", testo: "comando valvole con bilancieri a rullo: fuorigiri e molle stanche li fanno uscire di sede" }
+  versioni:
+    - { nome: "Silvia / 180SX S13 'red top'", anni: "1989–1993", cv: 205, nm: 275, nota: "" }
+    - { nome: "Pulsar GTI-R (RNN14)", anni: "1990–1994", cv: 230, nm: 290, nota: "Quattro corpi farfallati, trazione integrale" }
+    - { nome: "Silvia S14", anni: "1993–1998", cv: 220, nm: 275, nota: "VTC in aspirazione" }
+    - { nome: "Silvia S15 Spec-R", anni: "1999–2002", cv: 250, nm: 275, nota: "Turbo a cuscinetti a sfere" }
+  modelli:
+    - { nome: "Nissan Silvia (S13, S14, S15), 180SX / 200SX", anni: "1989–2002" }
+    - { nome: "Nissan Pulsar GTI-R", anni: "1990–1994" }
+  storia: >-
+    Quattro cilindri turbo con basamento in alluminio e canne in ghisa, testata bialbero a 16 valvole con bilancieri a rullo
+    e punterie idrauliche. Montato longitudinale sulle Silvia a trazione posteriore e trasversale sulla Pulsar GTI-R a
+    trazione integrale, omologata per il Mondiale Rally Gruppo A.
+  punti_deboli:
+    - Bilancieri che escono di sede in caso di fuorigiri o molle valvole affaticate
+    - Tenditore della catena rumoroso e lubrificazione del turbo
+  limiti: >-
+    Con interni di serie il limite indicativo è 350–400 CV; oltre servono bielle e pistoni forgiati.
+  curiosita:
+    - "Il basamento SR20 era montato anche in versione aspirata su berline e monovolume Nissan."
+
+- slug: toyota-3s-gte
+  codice: 3S-GTE
+  nome: Toyota 3S-GTE
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 1986
+  fine: 2007
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "8.5–9.0:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 185
+  cv_max: 260
+  nm_max: 324
+  limitatore: 7200
+  in_breve:
+    - { valore: "4", testo: "generazioni tra il 1986 e il 2007" }
+    - { valore: "WRC", testo: "titoli piloti 1990, 1992, 1993 e 1994 con le Celica GT-Four" }
+    - { valore: "260 CV", testo: "nella quarta generazione, Caldina GT-T e MR2 SW20 ultima serie" }
+  versioni:
+    - { nome: "Gen1 (Celica GT-Four ST165)", anni: "1986–1989", cv: 185, nm: 250, nota: "" }
+    - { nome: "Gen2 (ST185, MR2 SW20)", anni: "1989–1993", cv: 225, nm: 304, nota: "Turbo CT26" }
+    - { nome: "Gen3 (ST205, MR2 SW20 rev3)", anni: "1993–1999", cv: 255, nm: 304, nota: "" }
+    - { nome: "Gen4 (Caldina GT-T)", anni: "1997–2007", cv: 260, nm: 324, nota: "VVT-i" }
+  modelli:
+    - { nome: "Toyota Celica GT-Four (ST165, ST185, ST205)", anni: "1986–1999" }
+    - { nome: "Toyota MR2 Turbo (SW20)", anni: "1989–1999" }
+    - { nome: "Toyota Caldina GT-T", anni: "1997–2007" }
+  storia: >-
+    Versione turbo del bialbero 3S-GE, con basamento in ghisa, pistoni con getti d'olio e intercooler. Con le Celica
+    GT-Four Toyota vinse il Mondiale Rally piloti con Carlos Sainz (1990, 1992), Juha Kankkunen (1993) e Didier Auriol
+    (1994), oltre ai titoli costruttori 1993 e 1994.
+  punti_deboli:
+    - "Cinghia di distribuzione: motore interferente"
+    - Tenute dell'olio del turbo e tubazioni dell'intercooler
+  limiti: >-
+    Il basamento di serie sopporta 350–400 CV; con interni forgiati si superano i 500 CV.
+  curiosita:
+    - "La Celica ST205 fu esclusa dal Mondiale 1995 per un limitatore di flusso del turbo irregolare."
+
+- slug: lexus-1lr-gue
+  codice: 1LR-GUE
+  nome: Lexus 1LR-GUE V10
+  costruttore: Lexus
+  paese: Giappone
+  inizio: 2010
+  fine: 2012
+  architettura: V10
+  angolo: 72
+  cilindri: 10
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4805
+  alesaggio: 88.0
+  corsa: 79.0
+  compressione: "12.0:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta, dieci corpi farfallati singoli
+  cv_min: 560
+  cv_max: 570
+  nm_max: 480
+  limitatore: 9000
+  in_breve:
+    - { valore: "0,6 s", testo: "per salire dal minimo al limitatore: per questo il contagiri è digitale" }
+    - { valore: "Titanio", testo: "bielle e valvole di aspirazione e scarico" }
+    - { valore: "500", testo: "esemplari della Lexus LFA, unica applicazione" }
+  versioni:
+    - { nome: "LFA", anni: "2010–2012", cv: 560, nm: 480, nota: "" }
+    - { nome: "LFA Nürburgring Package", anni: "2011–2012", cv: 570, nm: 480, nota: "" }
+  modelli:
+    - { nome: "Lexus LFA", anni: "2010–2012" }
+  storia: >-
+    V10 a 72° sviluppato con Yamaha per la Lexus LFA. Lubrificazione a carter secco, bielle e valvole in titanio, pistoni
+    forgiati, dieci corpi farfallati singoli. L'angolo di 72° garantisce intervalli di accensione regolari con albero
+    a cinque manovelle. Il motore è montato in posizione anteriore centrale, dietro l'asse anteriore.
+  punti_deboli:
+    - Nessun difetto ricorrente noto; ricambi rari e costosi
+  limiti: >-
+    Non rilevante: unità quasi esclusivamente da collezione.
+  curiosita:
+    - "Yamaha ha curato anche l'acustica dell'aspirazione verso l'abitacolo."
+
+- slug: toyota-g16e-gts
+  codice: G16E-GTS
+  nome: Toyota G16E-GTS
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 2020
+  fine:
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1618
+  alesaggio: 87.5
+  corsa: 89.7
+  compressione: "10.5:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: D-4ST (diretta + indiretta)
+  cv_min: 261
+  cv_max: 304
+  nm_max: 400
+  limitatore: 7000
+  in_breve:
+    - { valore: "188 CV/l", testo: "potenza specifica della GR Corolla, record per un tre cilindri di serie" }
+    - { valore: "3", testo: "cilindri per oltre 1,6 litri: 539 cc ciascuno" }
+    - { valore: "Rally", testo: "sviluppato per l'omologazione della GR Yaris" }
+  versioni:
+    - { nome: "GR Yaris (GXPA16)", anni: "2020–2024", cv: 261, nm: 360, nota: "Europa" }
+    - { nome: "GR Corolla", anni: "2022–oggi", cv: 304, nm: 400, nota: "Valore USA 300 hp" }
+    - { nome: "GR Yaris restyling", anni: "2024–oggi", cv: 280, nm: 390, nota: "Europa" }
+  modelli:
+    - { nome: "Toyota GR Yaris", anni: "2020–oggi" }
+    - { nome: "Toyota GR Corolla", anni: "2022–oggi" }
+  storia: >-
+    Tre cilindri turbo sviluppato da Toyota Gazoo Racing per la GR Yaris. Turbo a singolo stadio su cuscinetti a sfere,
+    iniezione doppia diretta e indiretta, albero di equilibratura. Prodotto su una
+    linea dedicata con assemblaggio parzialmente manuale.
+  punti_deboli:
+    - Segnalazioni su alcune unità dei primi anni di cedimenti interni in uso pista intensivo
+  limiti: >-
+    Con centralina e scarico si superano i 320–350 CV; oltre servono turbo maggiorato e interni rinforzati.
+  curiosita:
+    - "Il motore è usato anche nella GR Yaris Rally2 da competizione, con restrittore."
+
+- slug: honda-c30a
+  codice: C30A / C32B
+  nome: Honda C30A NSX
+  costruttore: Honda
+  paese: Giappone
+  inizio: 1990
+  fine: 2005
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2977
+  alesaggio: 90.0
+  corsa: 78.0
+  compressione: "10.2:1"
+  distribuzione: DOHC a cinghia, VTEC
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 265
+  cv_max: 294
+  nm_max: 304
+  limitatore: 8000
+  in_breve:
+    - { valore: "Titanio", testo: "bielle in titanio, prima applicazione su un'auto di serie" }
+    - { valore: "VTEC", testo: "primo V6 Honda con fasatura a doppio profilo" }
+    - { valore: "C32B", testo: "3.2 litri dal 1997 con cambio a sei marce" }
+  versioni:
+    - { nome: "C30A (NSX con cambio manuale)", anni: "1990–2005", cv: 280, nm: 294, nota: "Automatico 265 CV" }
+    - { nome: "C32B (NSX 3.2)", anni: "1997–2005", cv: 294, nm: 304, nota: "3179 cc, alesaggio 93 mm" }
+  modelli:
+    - { nome: "Honda / Acura NSX (NA1, NA2)", anni: "1990–2005" }
+  storia: >-
+    V6 a 90° montato trasversale in posizione centrale sulla NSX. Basamento in alluminio, bielle in titanio forgiato,
+    VTEC su aspirazione e scarico e collettore di aspirazione a geometria variabile. Il 3.2 litri del 1997 aumenta
+    l'alesaggio con canne in FRM.
+  punti_deboli:
+    - Cinghia di distribuzione e pompa acqua da sostituire insieme
+    - Regolazione periodica del gioco valvole
+  limiti: >-
+    Con compressore volumetrico si superano i 400 CV su interni di serie.
+  curiosita:
+    - "Le versioni Type R hanno equilibratura e assemblaggio del motore selezionati a mano."
+
+- slug: subaru-fa20
+  codice: FA20D
+  nome: Subaru/Toyota FA20 boxer
+  costruttore: Subaru
+  paese: Giappone
+  inizio: 2012
+  fine: 2021
+  architettura: Boxer 4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "12.5:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: D-4S Toyota (diretta + indiretta)
+  cv_min: 200
+  cv_max: 207
+  nm_max: 212
+  limitatore: 7450
+  in_breve:
+    - { valore: "86", testo: "alesaggio e corsa in mm, da cui il nome della Toyota GT86" }
+    - { valore: "D-4S", testo: "iniezione doppia sviluppata da Toyota su motore Subaru" }
+    - { valore: "Coppia", testo: "avvallamento tra 3500 e 4500 giri/min, oggetto di molte modifiche" }
+  versioni:
+    - { nome: "BRZ / GT86 / FR-S", anni: "2012–2016", cv: 200, nm: 205, nota: "" }
+    - { nome: "BRZ / GT86 restyling", anni: "2016–2021", cv: 207, nm: 212, nota: "Cambio manuale" }
+  modelli:
+    - { nome: "Subaru BRZ (ZC6)", anni: "2012–2021" }
+    - { nome: "Toyota GT86 / Scion FR-S", anni: "2012–2021" }
+  storia: >-
+    Boxer aspirato sviluppato da Subaru con il sistema di iniezione D-4S Toyota per la coupé condivisa BRZ/GT86. Rispetto agli
+    EJ adotta corsa più lunga, distribuzione a catena e compressione molto più alta; montato basso per ridurre il baricentro. Esiste in versione
+    turbo FA20DIT per WRX e Levorg, non trattata qui.
+  punti_deboli:
+    - "Molle delle valvole: campagna di richiamo nel 2019 per possibile rottura"
+    - Rumorosità degli iniettori a freddo, considerata normale
+  limiti: >-
+    Con compressore volumetrico si raggiungono 280–300 CV su interni di serie.
+  curiosita:
+    - "Il successore FA24 della BRZ/GR86 aumenta la cilindrata a 2,4 litri."
+
+- slug: dodge-hellcat
+  codice: 6.2 HEMI Hellcat
+  nome: Dodge Hellcat 6.2 V8 compressore
+  costruttore: Dodge
+  paese: Stati Uniti
+  inizio: 2015
+  fine: 2024
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Compressore
+  cilindrata: 6166
+  alesaggio: 103.9
+  corsa: 90.9
+  compressione: "9.5:1"
+  distribuzione: OHV ad aste e bilancieri
+  valvole: 2
+  blocco: Ghisa
+  testa: Alluminio, camere di tipo HEMI
+  iniezione: Indiretta multipoint
+  cv_min: 717
+  cv_max: 1039
+  nm_max: 1281
+  limitatore: 6200
+  in_breve:
+    - { valore: "2,4 l", testo: "compressore volumetrico a doppia vite IHI" }
+    - { valore: "1039 CV", testo: "nella Challenger SRT Demon 170 alimentata a E85" }
+    - { valore: "OHV", testo: "aste e bilancieri, due valvole per cilindro" }
+  versioni:
+    - { nome: "Challenger / Charger SRT Hellcat", anni: "2015–2023", cv: 717, nm: 881, nota: "Fino a 727 CV nelle ultime versioni" }
+    - { nome: "Hellcat Redeye", anni: "2019–2023", cv: 808, nm: 959, nota: "" }
+    - { nome: "Ram 1500 TRX, Durango SRT Hellcat", anni: "2021–2024", cv: 712, nm: 881, nota: "" }
+    - { nome: "Challenger SRT Demon 170", anni: "2023", cv: 1039, nm: 1281, nota: "Con E85; 912 CV a benzina" }
+  modelli:
+    - { nome: "Dodge Challenger / Charger SRT Hellcat", anni: "2015–2023" }
+    - { nome: "Jeep Grand Cherokee Trackhawk, Durango SRT Hellcat", anni: "2018–2024" }
+    - { nome: "Ram 1500 TRX", anni: "2021–2024" }
+  storia: >-
+    V8 HEMI di terza generazione con compressore volumetrico, basamento in ghisa rinforzato, albero motore forgiato,
+    bielle in acciaio forgiato e pistoni forgiati. Camere di combustione di tipo HEMI e due valvole per cilindro. La
+    produzione per le auto termina con l'uscita di scena di Challenger e Charger a fine 2023.
+  punti_deboli:
+    - Consumo d'olio e usura del compressore in uso intensivo
+    - Rumorosità del treno valvole a freddo
+  limiti: >-
+    Con puleggia ridotta, gestione e carburante E85 si superano comunemente i 900 CV su interni di serie.
+  curiosita:
+    - "La Demon 170 riconosce automaticamente la percentuale di etanolo e adatta la potenza."
+
+- slug: fiat-14-tjet
+  codice: 1.4 T-Jet (FIRE)
+  nome: Fiat 1.4 T-Jet
+  costruttore: Fiat
+  paese: Italia
+  inizio: 2007
+  fine: 2024
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1368
+  alesaggio: 72.0
+  corsa: 84.0
+  compressione: "9.8:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa (famiglia FIRE)
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 120
+  cv_max: 190
+  nm_max: 250
+  limitatore: 6500
+  in_breve:
+    - { valore: "FIRE", testo: "basamento del quattro cilindri Fiat di grande serie, con turbo e intercooler" }
+    - { valore: "190 CV", testo: "nell'Abarth 695 Biposto" }
+    - { valore: "Abarth", testo: "base di tutte le Abarth 500 e 595 dal 2008 al 2024" }
+  versioni:
+    - { nome: "1.4 T-Jet 120 (Grande Punto, Bravo)", anni: "2007–2014", cv: 120, nm: 206, nota: "" }
+    - { nome: "Abarth 500 / 595", anni: "2008–2024", cv: 165, nm: 230, nota: "Da 135 a 165 CV" }
+    - { nome: "Abarth 595 Competizione", anni: "2012–2024", cv: 180, nm: 250, nota: "Garrett GT1446" }
+    - { nome: "Abarth 695 Biposto", anni: "2014–2016", cv: 190, nm: 250, nota: "" }
+  modelli:
+    - { nome: "Fiat Grande Punto, Bravo, Tipo", anni: "2007–2020" }
+    - { nome: "Abarth 500, 595, 695, Grande Punto", anni: "2008–2024" }
+    - { nome: "Lancia Delta, Alfa Romeo MiTo (benzina turbo)", anni: "2008–2014" }
+  storia: >-
+    Quattro cilindri turbo della famiglia FIRE con basamento in ghisa, testata bialbero a 16 valvole e iniezione indiretta.
+    Turbo IHI o Garrett secondo versione, overboost sulle Abarth tramite tasto Sport. Con l'uscita di produzione delle
+    Abarth 595 e 695 termina la serie dei motori FIRE turbo.
+  punti_deboli:
+    - Perdite d'olio dal turbo e dalla tubazione di ritorno
+    - Bobine e manicotti dell'intercooler
+  limiti: >-
+    Con turbo maggiorato e interni di serie il limite indicativo è 220–250 CV; il primo limite è la frizione.
+  curiosita:
+    - "L'Abarth 595 Esseesse usa scarico Akrapovič e turbo Garrett per 180 CV."
+
+- slug: mercedes-amg-m139
+  codice: M139
+  nome: Mercedes-AMG M139 2.0
+  costruttore: Mercedes-Benz
+  paese: Germania
+  inizio: 2019
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1991
+  alesaggio: 83.0
+  corsa: 92.0
+  compressione: "9.0:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio, canne con riporto Nanoslide
+  testa: Alluminio
+  iniezione: Diretta + indiretta
+  cv_min: 387
+  cv_max: 421
+  nm_max: 500
+  limitatore: 7200
+  in_breve:
+    - { valore: "421 CV", testo: "il quattro cilindri di serie più potente al lancio" }
+    - { valore: "180°", testo: "motore ruotato: turbo e scarico verso la parete parafiamma, aspirazione davanti" }
+    - { valore: "1 uomo", testo: "ogni unità assemblata da un solo tecnico ad Affalterbach" }
+  versioni:
+    - { nome: "A 45 / CLA 45 / GLA 45", anni: "2019–oggi", cv: 387, nm: 480, nota: "" }
+    - { nome: "A 45 S / CLA 45 S", anni: "2019–oggi", cv: 421, nm: 500, nota: "" }
+  modelli:
+    - { nome: "Mercedes-AMG A 45, CLA 45, GLA 45", anni: "2019–oggi" }
+  storia: >-
+    Quattro cilindri turbo sviluppato da AMG. Ruotato di 180° rispetto ai motori Mercedes trasversali, con turbo e scarico
+    sul lato abitacolo per condotti più corti. Turbo twin-scroll con cuscinetti a rulli sia sull'albero del compressore
+    sia su quello della turbina, intercooler aria-acqua. Il successivo M139l, ibrido, equipaggia C 63 e GLC 63.
+  punti_deboli:
+    - "Motore recente: nessun difetto ricorrente documentato"
+  limiti: >-
+    Con centralina si superano i 470 CV; oltre servono turbo maggiorato e gestione del calore.
+  curiosita:
+    - "Il turbo ha cuscinetti a rulli sia sul lato compressore sia sul lato turbina, soluzione derivata dalle corse."

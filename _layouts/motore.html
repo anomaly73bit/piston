@@ -17,12 +17,26 @@ layout: default
     </dl>
   </header>
 
+  {% if m.in_breve %}
+  <section class="rilievo" aria-label="Dati chiave">
+    <ul>
+      {% for r in m.in_breve %}<li><strong>{{ r.valore }}</strong><span>{{ r.testo }}</span></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   <div class="motore-corpo">
     <aside class="tavola">
       <figure>
         {% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}
         <figcaption>{% if m.alesaggio %}Alesaggio × corsa in scala reale, in mm. {% if m.alesaggio > m.corsa %}Motore superquadro.{% elsif m.alesaggio < m.corsa %}Motore sottoquadro.{% else %}Motore quadro.{% endif %}{% else %}Motore rotativo: la cilindrata è riferita alle camere dei rotori.{% endif %}</figcaption>
       </figure>
+      {% unless m.architettura == "Rotativo" %}
+      <figure>
+        {% include schema.html arch=m.architettura n=m.cilindri angolo=m.angolo %}
+        <figcaption>{{ m.cilindri }} cilindri{% if m.angolo %}, bancate a {{ m.angolo }}°{% endif %}. Sezione trasversale e vista dall'alto.</figcaption>
+      </figure>
+      {% endunless %}
       {% if m.limitatore %}
       {%- assign pct = m.limitatore | times: 100 | divided_by: 10000 -%}
       <div class="contagiri" role="img" aria-label="Limitatore a {{ m.limitatore }} giri al minuto">
@@ -38,7 +52,7 @@ layout: default
         <table class="specifiche">
           <tbody>
             <tr><th scope="row">Costruttore</th><td>{{ m.costruttore }} ({{ m.paese }})</td></tr>
-            <tr><th scope="row">Architettura</th><td>{{ m.architettura }}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}rotori{% else %}cilindri{% endif %}</td></tr>
+            <tr><th scope="row">Architettura</th><td>{{ m.architettura }}{% if m.angolo %} a {{ m.angolo }}°{% endif %}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}rotori{% else %}cilindri{% endif %}</td></tr>
             <tr><th scope="row">Alimentazione</th><td>{{ m.alimentazione }}</td></tr>
             <tr><th scope="row">Aspirazione</th><td>{{ m.aspirazione }}</td></tr>
             <tr><th scope="row">Cilindrata</th><td>{{ m.cilindrata }} cc</td></tr>
