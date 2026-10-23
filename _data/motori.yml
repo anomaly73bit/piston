@@ -3110,3 +3110,1442 @@
     Con centralina si superano i 470 CV; oltre servono turbo maggiorato e gestione del calore.
   curiosita:
     - "Il turbo ha cuscinetti a rulli sia sul lato compressore sia sul lato turbina, soluzione derivata dalle corse."
+
+- slug: fiat-fire
+  codice: FIRE (8v / 16v aspirati)
+  nome: Fiat FIRE 1.2 8v e famiglia aspirata
+  costruttore: Fiat
+  paese: Italia
+  inizio: 1985
+  fine: 2024
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1242
+  alesaggio: 70.8
+  corsa: 78.9
+  compressione: "9.5–11.1:1"
+  distribuzione: SOHC a cinghia (8v) o DOHC a cinghia (16v)
+  valvole: "2 / 4"
+  blocco: Ghisa, cinque supporti di banco
+  testa: Alluminio
+  iniezione: Carburatore, poi monopoint, multipoint e multipoint sequenziale
+  cv_min: 34
+  cv_max: 95
+  nm_max: 127
+  limitatore: 6000
+  in_breve:
+    - { valore: "Robogate", testo: "assemblaggio robotizzato a Termoli, da cui la sigla Fully Integrated Robotised Engine" }
+    - { valore: "273", testo: "componenti del primo 999 cc, 69 kg e 9 kg in meno del motore serie 100 che sostituiva" }
+    - { valore: "23 mln", testo: "unità prodotte dal 1985 al 2021 secondo i dati Fiat" }
+  versioni:
+    - { nome: "1.0 8v (Autobianchi Y10 Fire)", anni: "1985–1992", cv: 45, nm: 80, nota: "999 cc, carburatore" }
+    - { nome: "1.2 8v SPI (Punto 60)", anni: "1993–1999", cv: 60, nota: "Iniezione monopoint" }
+    - { nome: "1.2 8v MPI (Punto 75)", anni: "1993–1999", cv: 75, nota: "Iniezione multipoint" }
+    - { nome: "1.2 8v SMPI (188A4000)", anni: "1997–2012", cv: 60, nm: 102, nota: "Punto, Panda, Ypsilon" }
+    - { nome: "1.2 16v SMPI (188A5000)", anni: "1999–2012", cv: 80, nm: 114, nota: "Compressione 10,6:1" }
+    - { nome: "1.2 8v (169A4000)", anni: "2007–2020", cv: 69, nm: 102, nota: "Compressione 11,1:1" }
+    - { nome: "1.4 16v (843A1000)", anni: "2003–2020", cv: 95, nm: 127, nota: "1368 cc, 72 x 84 mm" }
+  modelli:
+    - { nome: "Autobianchi Y10 Fire", anni: "1985–1992" }
+    - { nome: "Fiat Uno, Panda, Tipo, Cinquecento, Seicento", anni: "1985–2010" }
+    - { nome: "Fiat Punto, Grande Punto, Panda, 500, Stilo, Idea, Tipo", anni: "1993–2020" }
+    - { nome: "Fiat Palio, Siena, Strada, Mille, Mobi (Brasile)", anni: "1996–2024" }
+    - { nome: "Lancia Y, Ypsilon, Musa", anni: "1996–2020" }
+    - { nome: "Ford Ka (seconda serie)", anni: "2008–2016" }
+    - { nome: "Tata Indica Vista, Indigo Manza", anni: "2008–2015" }
+  storia: >-
+    Quattro cilindri progettato per la produzione automatizzata, con basamento in ghisa a cinque supporti di banco, testata in
+    alluminio e distribuzione a cinghia, monoalbero a 8 valvole o bialbero a 16 valvole. Debutta nel 1985 con 999 cc
+    sull'Autobianchi Y10 e cresce fino a 769, 1108, 1242 e 1368 cc, passando dal carburatore all'iniezione multipoint
+    sequenziale. In Europa è sostituito dal 2016 dai motori GSE FireFly; in Brasile il 1.0 Fire esce di produzione con la
+    normativa Proconve L8 del 2025.
+  punti_deboli:
+    - "Consumo d'olio per usura delle fasce elastiche sui motori ad alto chilometraggio"
+    - "Chiavetta della puleggia dell'albero motore che si trancia, soprattutto sui primi 1.2 8v"
+    - "Minimo instabile per corpo farfallato sporco o filtro della pompa carburante intasato"
+    - "Punterie meccaniche sulle 8v: gioco valvole da registrare circa ogni 50.000 km"
+    - "Sulle 16v la rottura della cinghia di distribuzione danneggia le valvole"
+  limiti: >-
+    Motore aspirato di piccola cilindrata con margini limitati: con aspirazione e scarico i guadagni restano di pochi CV.
+    Il basamento in ghisa regge la sovralimentazione fino a 190 CV nella versione 1.4 T-Jet (scheda separata), che ha però
+    pistoni, testata e gestione specifici.
+  curiosita:
+    - "Il disegno esterno del motore è attribuito al designer Rodolfo Bonetto."
+    - "Dal 2009 la Chrysler produce il 1.4 FIRE nello stabilimento di Dundee (Michigan) per la Fiat 500 nordamericana."
+
+- slug: fiat-14-multiair
+  codice: 1.4 MultiAir (FIRE)
+  nome: Fiat 1.4 MultiAir
+  costruttore: Fiat
+  paese: Italia
+  inizio: 2009
+  fine: 2023
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1368
+  alesaggio: 72.0
+  corsa: 84.0
+  compressione: "9.8–10.8:1"
+  distribuzione: SOHC a cinghia, valvole di aspirazione ad attuazione elettroidraulica MultiAir
+  valvole: 4
+  blocco: Ghisa (famiglia FIRE)
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 105
+  cv_max: 170
+  nm_max: 250
+  limitatore: 6500
+  in_breve:
+    - { valore: "MultiAir", testo: "alzata e fasatura delle valvole di aspirazione variabili cilindro per cilindro, senza valvola a farfalla" }
+    - { valore: "2010", testo: "premio International Engine of the Year vinto dal 1.4 MultiAir" }
+    - { valore: "170 CV", testo: "nella MiTo Quadrifoglio Verde e nella Giulietta" }
+  versioni:
+    - { nome: "1.4 MultiAir aspirato (MiTo, Punto Evo)", anni: "2009–2018", cv: 105, nm: 130, nota: "Compressione 10,8:1" }
+    - { nome: "1.4 MultiAir Turbo 135 (MiTo)", anni: "2009–2018", cv: 135, nota: "" }
+    - { nome: "1.4 MultiAir Turbo 140 (Fiat 124 Spider)", anni: "2016–2020", cv: 140, nm: 240, nota: "Compressione 9,8:1" }
+    - { nome: "1.4 MultiAir Turbo 150 (Giulietta)", anni: "2014–2020", cv: 150, nm: 250, nota: "230 Nm in modalità Normal, 250 Nm in Dynamic" }
+    - { nome: "1.4 MultiAir Turbo 170 (MiTo QV, Giulietta)", anni: "2009–2020", cv: 170, nm: 250, nota: "Coppia in modalità Dynamic" }
+  modelli:
+    - { nome: "Alfa Romeo MiTo", anni: "2009–2018" }
+    - { nome: "Alfa Romeo Giulietta", anni: "2010–2020" }
+    - { nome: "Fiat Punto Evo, 500, 500L, 500X", anni: "2009–2018" }
+    - { nome: "Fiat 124 Spider", anni: "2016–2020" }
+    - { nome: "Abarth 124 Spider", anni: "2016–2020" }
+    - { nome: "Jeep Renegade, Compass", anni: "2014–2023" }
+    - { nome: "Dodge Dart", anni: "2013–2016" }
+  storia: >-
+    Evoluzione del 1.4 16v FIRE con un solo albero a camme: comanda direttamente le valvole di scarico e, attraverso una camera
+    d'olio in pressione regolata da un'elettrovalvola per cilindro, quelle di aspirazione. Aprendo l'elettrovalvola la camma
+    viene scollegata e la valvola si chiude in anticipo, così il carico si regola senza farfalla e con minori perdite di
+    pompaggio. Debutta al Salone di Ginevra 2009 sull'Alfa Romeo MiTo, in versione aspirata e turbo, ed è prodotto a Termoli
+    e a Dundee (Michigan).
+  punti_deboli:
+    - "Attuatore idraulico MultiAir sensibile a livello, qualità e viscosità dell'olio; in caso di guasto si sostituisce il gruppo completo"
+    - "Filtro a rete dell'olio del circuito MultiAir, sotto il coperchio della distribuzione, soggetto a intasamento"
+  limiti: >-
+    Sulle versioni turbo da 170 CV la sola centralina porta indicativamente a 190–200 CV. Il limite è dato dal turbo di serie
+    e dall'attuatore MultiAir, che richiede olio della specifica prevista e in quantità corretta.
+  curiosita:
+    - "Il sistema è stato brevettato da Fiat nel 2002 e sviluppato al Centro Ricerche Fiat di Orbassano."
+    - "Schaeffler lo produce su licenza dal 2011 con il nome UniAir, adottato anche dai motori Ingenium di Jaguar Land Rover."
+
+- slug: lancia-20-16v-turbo
+  codice: 831 E5.000
+  nome: Lancia 2.0 16v Turbo (Delta HF Integrale)
+  costruttore: Lancia
+  paese: Italia
+  inizio: 1989
+  fine: 1999
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1995
+  alesaggio: 84.0
+  corsa: 90.0
+  compressione: "8.0:1"
+  distribuzione: DOHC a cinghia, due contralberi di equilibratura
+  valvole: 4
+  blocco: Ghisa (bialbero Fiat di progetto Lampredi)
+  testa: Alluminio, 16 valvole
+  iniezione: Indiretta multipoint (Weber, poi Magneti Marelli IAW)
+  cv_min: 180
+  cv_max: 215
+  nm_max: 300
+  limitatore: 6000
+  in_breve:
+    - { valore: "16v", testo: "testata a quattro valvole per cilindro sulla Delta HF Integrale dalla fine del 1989" }
+    - { valore: "Garrett T3", testo: "turbocompressore con intercooler sulla Delta Integrale" }
+    - { valore: "215 CV", testo: "sulla Delta HF Integrale Evoluzione II catalizzata" }
+  versioni:
+    - { nome: "Delta HF Integrale 16v", anni: "1989–1991", cv: 200, nota: "Garrett T3, iniezione Weber" }
+    - { nome: "Delta HF Integrale Evoluzione", anni: "1991–1993", cv: 210, nm: 300, nota: "" }
+    - { nome: "Delta HF Integrale Evoluzione II", anni: "1993–1994", cv: 215, nota: "Catalizzatore, gestione Magneti Marelli IAW" }
+    - { nome: "Thema 2.0 i.e. Turbo 16v", anni: "1989–1994", cv: 180, nm: 270, nota: "Versione catalizzata" }
+    - { nome: "Delta (seconda serie) HF Turbo", anni: "1993–1999", cv: 186, nm: 290, nota: "Trazione anteriore" }
+    - { nome: "Fiat Coupé 2.0 16v Turbo", anni: "1993–1996", cv: 190, nm: 290, nota: "Sostituito dal cinque cilindri 20v turbo" }
+  modelli:
+    - { nome: "Lancia Delta HF Integrale 16v, Evoluzione, Evoluzione II", anni: "1989–1994" }
+    - { nome: "Lancia Thema 2.0 i.e. Turbo 16v", anni: "1989–1994" }
+    - { nome: "Lancia Delta (seconda serie) HF Turbo", anni: "1993–1999" }
+    - { nome: "Fiat Coupé 2.0 16v Turbo", anni: "1993–1996" }
+  storia: >-
+    Versione a 16 valvole e turbocompressore del quattro cilindri bialbero Fiat di origine Lampredi, con basamento in ghisa,
+    alesaggio e corsa di 84 x 90 mm e due contralberi di equilibratura comandati da cinghia. Sulla Delta HF Integrale sostituisce
+    l'8 valvole da 185 CV alla fine del 1989, con nuovi iniettori, raffreddamento rivisto e un rigonfiamento sul cofano per la
+    testata più alta. Con le Evoluzione la potenza sale a 210 e poi 215 CV; lo stesso motore equipaggia la Thema, la seconda
+    serie della Delta e la Fiat Coupé.
+  punti_deboli:
+    - "Cinghia di distribuzione da sostituire circa ogni 24.000 miglia (circa 38.000 km), insieme a pompa dell'acqua e cinghia dei contralberi"
+    - "Perdite d'olio dalla guarnizione della coppa"
+    - "Fumo allo scarico per guide valvola usurate o turbo a fine vita; rumorosità della testata per usura degli alberi a camme"
+  limiti: >-
+    Le elaborazioni stradali più diffuse restano indicativamente entro i 250–300 CV con turbo maggiorato, iniettori e gestione
+    aggiornata; oltre si interviene su pistoni, bielle e guarnizione della testata.
+  curiosita:
+    - "La Delta 16 valvole debutta nel mondiale rally al Rallye di Sanremo 1989, vinto da Miki Biasion."
+    - "Alcuni proprietari rimuovono i contralberi di equilibratura per migliorare la risposta e la pressione dell'olio."
+
+- slug: fiat-13-multijet
+  codice: 1.3 Multijet (SDE)
+  nome: Fiat 1.3 Multijet
+  costruttore: Fiat
+  paese: Italia
+  inizio: 2003
+  fine: 2024
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo (geometria fissa o variabile)
+  cilindrata: 1248
+  alesaggio: 69.6
+  corsa: 82.0
+  compressione: "16.8:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Ghisa con sottobasamento in alluminio
+  testa: Alluminio
+  iniezione: Diretta common rail Multijet (1400 bar, 1600 bar con Multijet II)
+  cv_min: 70
+  cv_max: 105
+  nm_max: 200
+  limitatore: 5000
+  in_breve:
+    - { valore: "130 kg", testo: "peso del motore completo, lunghezza inferiore a 50 cm" }
+    - { valore: "2005", testo: "International Engine of the Year nella classe 1,0–1,4 litri con la versione da 75 CV" }
+    - { valore: "5 mln", testo: "unità prodotte nello stabilimento di Bielsko-Biała entro il 2013" }
+  versioni:
+    - { nome: "1.3 Multijet 70 (Punto)", anni: "2003–2010", cv: 70, nm: 180, nota: "Turbo a geometria fissa, Euro 4 senza filtro antiparticolato" }
+    - { nome: "1.3 Multijet 70 (Panda)", anni: "2004–2012", cv: 70, nm: 145, nota: "" }
+    - { nome: "1.3 Multijet 75", anni: "dal 2005", cv: 75, nm: 190, nota: "Turbo a geometria fissa" }
+    - { nome: "1.3 Multijet 90", anni: "dal 2005", cv: 90, nm: 200, nota: "Turbo a geometria variabile" }
+    - { nome: "1.3 Multijet II 95", anni: "2009–2024", cv: 95, nm: 200, nota: "Euro 5 ed Euro 6; compressione 16,8:1" }
+    - { nome: "Lancia Ypsilon 1.3 Multijet 105", anni: "dal 2005", cv: 105, nota: "" }
+  modelli:
+    - { nome: "Fiat Panda, Punto, Grande Punto, 500, 500L, Idea, Doblò, Linea, Tipo", anni: "2003–2024" }
+    - { nome: "Fiat Palio, Albea (mercati extraeuropei)", anni: "2004–2012" }
+    - { nome: "Lancia Ypsilon, Musa", anni: "2003–2018" }
+    - { nome: "Alfa Romeo MiTo 1.3 JTDm", anni: "2008–2018" }
+    - { nome: "Opel Corsa, Combo, Meriva, Astra (1.3 CDTI)", anni: "2003–2019" }
+    - { nome: "Suzuki Swift, Ritz, SX4, Ertiga (1.3 DDiS)", anni: "2005–2020" }
+    - { nome: "Tata Indica Vista, Indigo Manza (Quadrajet)", anni: "2008–2020" }
+    - { nome: "Ford Ka (seconda serie) 1.3 TDCi", anni: "2008–2016" }
+  storia: >-
+    Quattro cilindri diesel common rail di piccola cilindrata, presentato nel 2003 come il più piccolo quattro cilindri diesel in
+    commercio. Bialbero a 16 valvole con distribuzione a catena, basamento in ghisa con sottobasamento in alluminio e turbo a
+    geometria fissa o variabile secondo la versione. Con il Multijet II del 2009 la pressione di iniezione sale a 1600 bar e gli
+    iniettori consentono fino a otto iniezioni per ciclo. Prodotto a Bielsko-Biała, in India da Fiat-Tata a Ranjangaon e da
+    Maruti Suzuki a Gurgaon; la produzione indiana termina nel 2020 e lo stabilimento polacco chiude all'inizio del 2024.
+  punti_deboli:
+    - "Allungamento o rottura della catena di distribuzione, soprattutto su veicoli usati in ciclo urbano"
+    - "Coppa dell'olio bassa e poco protetta; perdite dopo urti e quantità d'olio ridotta"
+    - "Turbo danneggiato in seguito a perdita d'olio"
+    - "Valvola EGR e filtro antiparticolato sulle versioni 75 e 90 CV usate solo in città"
+    - "Frizione di durata limitata, in particolare dopo aumenti di potenza"
+  limiti: >-
+    Con la sola centralina le versioni da 90–95 CV arrivano indicativamente a 110–120 CV. Il primo limite è la frizione; oltre
+    pesano turbo e catena di distribuzione.
+  curiosita:
+    - "Uno studio dell'Università di Bologna ha valutato l'adattamento del 1.3 Multijet all'uso aeronautico sul Cessna 172, con circa 150 CV e turbo maggiorato."
+    - "Lo stabilimento Fiat-Tata di Ranjangaon ha prodotto 800.048 motori 1.3 Multijet in 12 anni."
+
+- slug: alfa-romeo-1750-tbi
+  codice: 1750 TBi
+  nome: Alfa Romeo 1750 TBi
+  costruttore: Alfa Romeo
+  paese: Italia
+  inizio: 2009
+  fine: 2020
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1742
+  alesaggio: 83.0
+  corsa: 80.5
+  compressione: "9.25–9.5:1"
+  distribuzione: DOHC a cinghia, fasatura variabile continua su aspirazione e scarico
+  valvole: 4
+  blocco: Ghisa o alluminio secondo applicazione (alluminio con canne in ghisa sulla 4C)
+  testa: Alluminio
+  iniezione: Diretta a 200 bar
+  cv_min: 200
+  cv_max: 240
+  nm_max: 350
+  limitatore: 6000
+  in_breve:
+    - { valore: "Scavenging", testo: "sovrapposizione delle fasi per spazzare i gas combusti e anticipare la risposta del turbo ai bassi regimi" }
+    - { valore: "1,45 bar", testo: "pressione massima di sovralimentazione indicata per la 4C" }
+    - { valore: "350 Nm", testo: "sulla 4C tra 2200 e 4250 giri/min" }
+  versioni:
+    - { nome: "Alfa Romeo 159, Brera, Spider 1750 TBi", anni: "2009–2011", cv: 200, nm: 320, nota: "Compressione 9,5:1" }
+    - { nome: "Giulietta Quadrifoglio Verde", anni: "2010–2014", cv: 235, nm: 340, nota: "Coppia in modalità Dynamic" }
+    - { nome: "Giulietta Quadrifoglio Verde / Veloce TCT", anni: "2014–2020", cv: 240, nm: 340, nota: "Compressione 9,25:1" }
+    - { nome: "4C, 4C Spider", anni: "2013–2020", cv: 240, nm: 350, nota: "Basamento in alluminio, motore centrale posteriore" }
+  modelli:
+    - { nome: "Alfa Romeo 159, Brera, Spider", anni: "2009–2011" }
+    - { nome: "Alfa Romeo Giulietta", anni: "2010–2020" }
+    - { nome: "Alfa Romeo 4C", anni: "2013–2020" }
+  storia: >-
+    Quattro cilindri turbo a iniezione diretta con doppio variatore di fase continuo, distribuzione a cinghia e punterie idrauliche.
+    Debutta alla fine del 2009 sulla 159 con 200 CV, poi passa alla Brera e alla Spider. La strategia di scavenging sfrutta la
+    sovrapposizione delle valvole per ridurre il ritardo del turbo, con la coppia massima disponibile da 1400 giri/min. Sulla 4C
+    adotta un basamento in alluminio con canne in ghisa ed è montato in posizione centrale posteriore.
+  punti_deboli:
+    - "Cricche nella chiocciola lato scarico del turbo, legate alle alte temperature e all'uso intenso in modalità sportiva"
+  limiti: >-
+    Con turbo ibrido maggiorato e componenti interni di serie si ottiene indicativamente un 30–40% di potenza in più, intorno ai
+    300 CV; oltre servono pistoni e bielle rinforzati.
+  curiosita:
+    - "La sigla 1750 riprende la denominazione della Alfa Romeo 1750 Berlina del 1968, pur con una cilindrata effettiva di 1742 cc."
+
+- slug: alfa-romeo-22-multijet
+  codice: 2.2 JTDm / Multijet II
+  nome: Alfa Romeo 2.2 Multijet
+  costruttore: Alfa Romeo (FCA)
+  paese: Italia
+  inizio: 2016
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 2143
+  alesaggio: 83.0
+  corsa: 99.0
+  compressione: "15.5:1"
+  distribuzione: DOHC a cinghia dentata
+  valvole: 4
+  blocco: Alluminio pressofuso
+  testa: Alluminio
+  iniezione: Diretta common rail a 2000 bar, iniettori a solenoide
+  cv_min: 150
+  cv_max: 210
+  nm_max: 470
+  limitatore: 3500
+  in_breve:
+    - { valore: "Alluminio", testo: "per basamento e testata, invece della ghisa del 2.2 Multijet II da 2184 cc" }
+    - { valore: "2000 bar", testo: "pressione massima dell'iniezione common rail" }
+    - { valore: "2", testo: "contralberi di equilibratura comandati da ingranaggi ai lati del basamento" }
+  versioni:
+    - { nome: "2.0 JTDm (Alfa Romeo 159)", anni: "2009–2011", cv: 170, nota: "Predecessore: 1956 cc, 83 x 90,4 mm, derivato dal 1.9 JTD" }
+    - { nome: "2.2 150 CV (Giulia)", anni: "2016–2018", cv: 150, nm: 380, nota: "" }
+    - { nome: "2.2 180 CV (Giulia, Stelvio)", anni: "2016–2018", cv: 180, nm: 450, nota: "380 Nm con cambio manuale" }
+    - { nome: "2.2 160 / 190 CV (Euro 6d)", anni: "2018–oggi", cv: 190, nm: 450, nota: "Aggiornamento delle versioni 150 e 180 CV" }
+    - { nome: "2.2 210 CV Q4 (Giulia, Stelvio)", anni: "2016–oggi", cv: 210, nm: 470, nota: "Potenza a 3500 giri/min" }
+    - { nome: "2.2 Multijet II (Jeep Wrangler JL)", anni: "dal 2018", cv: 200, nm: 450, nota: "200 CV a 3000 giri/min" }
+  modelli:
+    - { nome: "Alfa Romeo Giulia (952)", anni: "2016–oggi" }
+    - { nome: "Alfa Romeo Stelvio (949)", anni: "2017–oggi" }
+    - { nome: "Alfa Romeo 159 2.0 JTDm (motore 1956 cc derivato dal 1.9)", anni: "2009–2011" }
+    - { nome: "Jeep Wrangler (JL) 2.2", anni: "dal 2018" }
+  storia: >-
+    Quattro cilindri turbodiesel a corsa lunga (83 x 99 mm) sviluppato per la piattaforma Giorgio a trazione posteriore, con
+    basamento in alluminio pressofuso al posto della ghisa del 2.2 Multijet II da 2184 cc di Jeep Cherokee e Fiat. Turbo Honeywell
+    a geometria variabile raffreddato a liquido, doppia valvola EGR e catalizzatore accumulatore di NOx, poi SCR con AdBlue dalle
+    versioni Euro 6d. Nella gamma Alfa Romeo sostituisce il 2.0 JTDm della 159 (1956 cc, 83 x 90,4 mm), evoluzione del 1.9 JTD
+    introdotta nel 2008 sulla Lancia Delta.
+  punti_deboli:
+    - "Valvola EGR e farfalle di vorticosità: incrostazioni con uso prevalentemente urbano"
+    - "Filtro antiparticolato e relativo sensore: intasamento e false letture di saturazione"
+    - "Guarnizione del tubo di pescaggio olio: infiltrazioni d'aria e calo di pressione sotto carico"
+    - "Sistema SCR (pompa, riscaldatore, sensori NOx) sulle versioni Euro 6d"
+    - "Guarnizione del filtro gasolio: perdite, oggetto di richiamo nel 2018"
+  limiti: >-
+    Con sola centralina le versioni da 210 CV arrivano indicativamente a 240–250 CV e circa 530 Nm; il limite è il cambio
+    automatico ZF a 8 rapporti per la coppia e il turbo a geometria variabile per la potenza. La cinghia di distribuzione con
+    pompa acqua va sostituita a 120.000 km o 5 anni.
+  curiosita:
+    - "Un richiamo (campagna 8228) ha riguardato i 2.2 prodotti tra gennaio 2017 e settembre 2018 per il cavo dell'alternatore a contatto con il tubo EGR."
+    - "Sulla Giulia 2.2 il tagliando è previsto ogni 20.000 km."
+
+- slug: ferrari-f105
+  codice: F105
+  nome: Ferrari F105 V8 quattrovalvole
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 1982
+  fine: 1991
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3185
+  alesaggio: 83.0
+  corsa: 73.6
+  compressione: "9.2–10.5:1"
+  distribuzione: DOHC a cinghia dentata
+  valvole: 4
+  blocco: Lega leggera, canne Nikasil
+  testa: Lega leggera
+  iniezione: Meccanica Bosch K-Jetronic
+  cv_min: 205
+  cv_max: 270
+  nm_max: 304
+  limitatore: 7000
+  in_breve:
+    - { valore: "4 valvole", testo: "per cilindro, introdotte nel 1982 sulle 308 e Mondial Quattrovalvole" }
+    - { valore: "3185 cc", testo: "cilindrata della 328, ottenuta aumentando alesaggio e corsa del 3.0" }
+    - { valore: "90°", testo: "manovelle dell'albero sul F105L della Lancia Thema, invece dell'albero piatto Ferrari" }
+  versioni:
+    - { nome: "308 GTB/GTS Quattrovalvole (F105AB)", anni: "1982–1985", cv: 240, nm: 260, nota: "2927 cc, 81 x 71 mm, compressione 9,2:1" }
+    - { nome: "Mondial Quattrovalvole (F105A)", anni: "1982–1985", cv: 240, nm: 260, nota: "2927 cc" }
+    - { nome: "328 GTB/GTS, 3.2 Mondial (F105CB)", anni: "1985–1989", cv: 270, nm: 304, nota: "3185 cc, compressione 9,8:1" }
+    - { nome: "Lancia Thema 8.32 (F105L)", anni: "1986–1991", cv: 215, nm: 285, nota: "2927 cc, albero a 90°; 205 CV e 263 Nm con catalizzatore dal 1988" }
+  modelli:
+    - { nome: "Ferrari 308 GTB/GTS Quattrovalvole", anni: "1982–1985" }
+    - { nome: "Ferrari Mondial Quattrovalvole, 3.2 Mondial", anni: "1982–1989" }
+    - { nome: "Ferrari 328 GTB/GTS", anni: "1985–1989" }
+    - { nome: "Lancia Thema 8.32", anni: "1986–1991" }
+  storia: >-
+    V8 a 90° montato trasversalmente dietro l'abitacolo, evoluzione del F106 a due valvole delle 308 GTB/GTSi e Mondial 8 a
+    iniezione (1980–1982), da cui riprende basamento e albero motore piatto. Nel 1982 riceve teste a quattro valvole per cilindro
+    con due alberi a camme per bancata comandati da cinghia; nel 1985 la cilindrata passa a 3185 cc con alesaggio 83 mm e corsa
+    73,6 mm. Il F105L della Lancia Thema 8.32 è una versione per montaggio anteriore e trazione anteriore, con albero a croce,
+    ordine di scoppio diverso e valvole più piccole.
+  punti_deboli:
+    - "Cinghie di distribuzione: sostituzione periodica obbligatoria, da rispettare anche con bassa percorrenza"
+  limiti: >-
+    Motore aspirato con iniezione meccanica: con aspirazione, scarico e alberi a camme si ottengono indicativamente 20–30 CV in
+    più; oltre servono iniezione elettronica e preparazione interna. Il limite è la gestione del carburante K-Jetronic.
+  curiosita:
+    - "Tra il 1990 e il 1992 il F105L della Thema 8.32 fu assemblato da Ducati a Borgo Panigale sotto controllo qualità Ferrari."
+    - "La sigla 8.32 indica otto cilindri e 32 valvole."
+
+- slug: ferrari-f113
+  codice: F113
+  nome: Ferrari F113 12 cilindri boxer
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 1984
+  fine: 1996
+  architettura: Boxer 12
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4943
+  alesaggio: 82.0
+  corsa: 78.0
+  compressione: "9.3–10.4:1"
+  distribuzione: DOHC a cinghia dentata
+  valvole: 4
+  blocco: Lega di alluminio
+  testa: Lega di alluminio
+  iniezione: Bosch K-/KE-Jetronic, poi Bosch Motronic M2.7
+  cv_min: 385
+  cv_max: 440
+  nm_max: 500
+  limitatore: 7500
+  in_breve:
+    - { valore: "48", testo: "valvole: primo dodici cilindri piatto Ferrari stradale a quattro valvole per cilindro" }
+    - { valore: "Carter secco", testo: "lubrificazione su tutte le versioni" }
+    - { valore: "440 CV", testo: "nella F512 M, con bielle in titanio e albero alleggerito" }
+  versioni:
+    - { nome: "Testarossa (F113A/F113B)", anni: "1984–1991", cv: 390, nm: 490, nota: "Compressione 9,3:1; 385 CV versione USA" }
+    - { nome: "512 TR (F113D)", anni: "1991–1994", cv: 428, nm: 491, nota: "Compressione 10:1, Bosch Motronic M2.7" }
+    - { nome: "F512 M (F113G)", anni: "1994–1996", cv: 440, nm: 500, nota: "Compressione 10,4:1, bielle in titanio" }
+  modelli:
+    - { nome: "Ferrari Testarossa", anni: "1984–1991" }
+    - { nome: "Ferrari 512 TR", anni: "1991–1994" }
+    - { nome: "Ferrari F512 M", anni: "1994–1996" }
+  storia: >-
+    Dodici cilindri contrapposti montato longitudinalmente dietro l'abitacolo, sopra il cambio, con le stesse misure di
+    alesaggio e corsa (82 x 78 mm) del F110A della 512 BBi. Ferrari lo chiama boxer, ma le bielle di cilindri opposti lavorano
+    sullo stesso perno di manovella: tecnicamente è un V a 180°. Rispetto al predecessore introduce quattro valvole per
+    cilindro; la 512 TR adotta gestione Bosch Motronic, alberi a camme, collettori e valvole rivisti, la F512 M albero motore
+    alleggerito e bielle in titanio.
+  punti_deboli:
+    - "Cinghie di distribuzione: sostituzione ogni 5 anni o 24.000 km circa, con stacco del gruppo motore-cambio"
+    - "Catena delle pompe acqua e olio: aggiornata nel 1987, da montare sulle Testarossa precedenti"
+    - "Depositi carboniosi se il motore non viene portato regolarmente agli alti regimi"
+  limiti: >-
+    Motore aspirato: con scarico e gestione elettronica le versioni 512 TR e F512 M guadagnano indicativamente 20–30 CV. Sulle
+    Testarossa a iniezione meccanica il limite è il sistema K-Jetronic; aumenti maggiori richiedono interventi su alberi a camme e teste.
+  curiosita:
+    - "La F512 M fu prodotta in 501 esemplari, 75 dei quali per il Nord America."
+    - "Della Testarossa (tutte le varianti) furono costruite 9939 unità."
+
+- slug: ferrari-f120
+  codice: F120A (F114B per la 288 GTO)
+  nome: Ferrari F120 V8 biturbo
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 1984
+  fine: 1992
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2936
+  alesaggio: 82.0
+  corsa: 69.5
+  compressione: "7.6–7.7:1"
+  distribuzione: DOHC a cinghia dentata
+  valvole: 4
+  blocco: Lega di alluminio, canne Nikasil
+  testa: Lega di alluminio
+  iniezione: Elettronica Weber-Marelli IAW
+  cv_min: 400
+  cv_max: 478
+  nm_max: 577
+  limitatore: 7750
+  in_breve:
+    - { valore: "1,1 bar", testo: "pressione di sovralimentazione dei due turbo IHI raffreddati ad acqua" }
+    - { valore: "163 CV/l", testo: "potenza specifica della F40" }
+    - { valore: "2855 cc", testo: "cilindrata della 288 GTO, fissata dal coefficiente FIA per i motori turbo in Gruppo B" }
+  versioni:
+    - { nome: "288 GTO (F114B)", anni: "1984–1987", cv: 400, nm: 496, nota: "2855 cc, alesaggio ridotto di 1 mm rispetto alla 308; compressione 7,6:1" }
+    - { nome: "F40 (F120A)", anni: "1987–1992", cv: 478, nm: 577, nota: "2936 cc, compressione 7,7:1" }
+  modelli:
+    - { nome: "Ferrari 288 GTO", anni: "1984–1987" }
+    - { nome: "Ferrari F40", anni: "1987–1992" }
+  storia: >-
+    V8 a 90° biturbo montato longitudinalmente, derivato dall'otto cilindri quattrovalvole delle 308. Sulla 288 GTO (F114B) la
+    cilindrata scende a 2855 cc riducendo l'alesaggio, per restare entro il limite di cilindrata equivalente del Gruppo B; sulla
+    F40 (F120A) sale a 2936 cc con alesaggio 82 mm (81,9 nei dati Ferrari) e corsa 69,5 mm, con regime massimo più alto. Due
+    turbocompressori IHI raffreddati ad acqua con intercooler aria/aria Behr, iniezione e accensione integrate Weber-Marelli,
+    lubrificazione a carter secco.
+  punti_deboli:
+    - "Cinghie di distribuzione: sostituzione periodica a intervalli brevi e costosa"
+  limiti: >-
+    Con pressione di sovralimentazione maggiorata e scarico la F40 supera indicativamente i 550–600 CV; la F40 Competizione
+    arrivava a 700 CV con turbo e interni specifici. Sui motori stradali il limite sono i turbo di serie e la gestione Weber-Marelli.
+  curiosita:
+    - "La 288 GTO Evoluzione, costruita in sei esemplari dal 1986, usa una versione dello stesso motore da circa 650 CV."
+    - "La F40 fu costruita in 1311 esemplari, senza catalizzatore fino al 1990."
+
+- slug: ferrari-f133
+  codice: F133 (F116 per la 456)
+  nome: Ferrari F133 V12 65°
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 1992
+  fine: 2011
+  architettura: V12
+  angolo: 65
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5474
+  alesaggio: 88.0
+  corsa: 75.0
+  compressione: "10.8–11.0:1"
+  distribuzione: DOHC a cinghia dentata
+  valvole: 4
+  blocco: Lega leggera, canne con riporto Nikasil
+  testa: Lega leggera
+  iniezione: Bosch Motronic (2.7, poi 5.2 e ME7)
+  cv_min: 442
+  cv_max: 540
+  nm_max: 588
+  limitatore: 7700
+  in_breve:
+    - { valore: "65°", testo: "angolo tra le bancate, al posto dei 60° dei V12 di derivazione Colombo" }
+    - { valore: "Carter secco", testo: "lubrificazione per il montaggio basso nel vano anteriore" }
+    - { valore: "2000–2001", testo: "premio International Engine of the Year oltre 4 litri per il 5.5" }
+  versioni:
+    - { nome: "456 GT (F116B)", anni: "1992–1996", cv: 442, nm: 550, nota: "5474 cc, punterie idrauliche" }
+    - { nome: "550 Maranello / Barchetta (F133A/F133C)", anni: "1996–2001", cv: 485, nm: 568, nota: "Compressione 10,8:1, aspirazione a geometria variabile" }
+    - { nome: "575M Maranello (F133E)", anni: "2002–2006", cv: 515, nm: 588, nota: "5748 cc, 89 x 77 mm, compressione 11:1" }
+    - { nome: "Superamerica (F133G) / 612 Scaglietti (F133F)", anni: "2004–2011", cv: 540, nm: 588, nota: "5748 cc" }
+  modelli:
+    - { nome: "Ferrari 456 GT, 456M", anni: "1992–2003" }
+    - { nome: "Ferrari 550 Maranello, 550 Barchetta", anni: "1996–2001" }
+    - { nome: "Ferrari 575M Maranello, Superamerica", anni: "2002–2006" }
+    - { nome: "Ferrari 612 Scaglietti", anni: "2004–2011" }
+  storia: >-
+    V12 a 65° progettato ex novo per la 456 GT (sigla F116) in sostituzione del 60° derivato dal Colombo della 412, con
+    basamento e teste in lega leggera, canne con riporto Nikasil, quattro alberi a camme e lubrificazione a carter secco. Con la
+    550 Maranello del 1996 diventa F133, perde le punterie idrauliche e adotta un collettore di aspirazione a lunghezza variabile
+    con dodici farfalle. Dal 2002 la cilindrata sale a 5748 cc (89 x 77 mm) per 575M, Superamerica e 612 Scaglietti; il
+    successore è la famiglia F140.
+  punti_deboli:
+    - "Cinghie di distribuzione: sostituzione raccomandata ogni 3 anni, spesso insieme ai paraolio degli alberi a camme"
+    - "Paraolio degli alberi a camme: trafilamenti d'olio frequenti"
+    - "Guide valvole sulle 456 e 550: usura con aumento del consumo d'olio, segnalata dagli specialisti"
+    - "Surriscaldamento in caso di elettroventole difettose"
+  limiti: >-
+    Motore aspirato: con scarico e mappatura il 5.5 e il 5.7 guadagnano indicativamente il 5% di potenza. La versione da
+    competizione 575 GTC (6,0 litri) arrivava a 605 CV; oltre i valori di serie il limite sono alberi a camme e sistema di
+    aspirazione.
+  curiosita:
+    - "Della 550 Barchetta Pininfarina furono costruiti 448 esemplari, con la stessa potenza della coupé."
+    - "Il F133 della 550 Maranello sostituì il dodici cilindri piatto F113 della F512 M nella gamma Ferrari."
+
+- slug: ferrari-f131
+  codice: F129B / F131B
+  nome: Ferrari F129/F131 V8 5 valvole
+  costruttore: Ferrari
+  paese: Italia
+  inizio: 1994
+  fine: 2004
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3586
+  alesaggio: 85.0
+  corsa: 79.0
+  compressione: "11.0–11.2:1"
+  distribuzione: DOHC a cinghia (fasatura variabile allo scarico sul 360)
+  valvole: 5
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint (Bosch Motronic)
+  cv_min: 380
+  cv_max: 425
+  nm_max: 373
+  limitatore: 8500
+  in_breve:
+    - { valore: "5", testo: "valvole per cilindro su F355 e 360" }
+    - { valore: "8500", testo: "giri/min di potenza massima su 360 Modena e Challenge Stradale" }
+    - { valore: "425 CV", testo: "nella 360 Challenge Stradale, compressione 11,2:1" }
+  versioni:
+    - { nome: "F355 Berlinetta / GTS / Spider (F129B/C)", anni: "1994–1999", cv: 380, nm: 363, nota: "3496 cc, 85 × 77 mm; bielle in titanio" }
+    - { nome: "360 Modena / Spider (F131B)", anni: "1999–2004", cv: 400, nm: 373, nota: "3586 cc, 85 × 79 mm" }
+    - { nome: "360 Challenge Stradale", anni: "2003–2004", cv: 425, nm: 373, nota: "Compressione 11,2:1, condotti lucidati" }
+  modelli:
+    - { nome: "Ferrari F355 Berlinetta, GTS, Spider", anni: "1994–1999" }
+    - { nome: "Ferrari 360 Modena, Spider", anni: "1999–2004" }
+    - { nome: "Ferrari 360 Challenge Stradale", anni: "2003–2004" }
+  storia: >-
+    V8 a 90° con albero motore piatto e lubrificazione a carter secco, evoluzione del motore della 348 con
+    nuove testate a cinque valvole per cilindro e corsa portata da 75 a 77 mm sulla F355 (F129B, 3496 cc).
+    Nel 1999 il 360 Modena adotta la versione F131B da 3586 cc (85 × 79 mm), con fasatura variabile sugli alberi
+    di scarico e gestione Bosch Motronic ME 7.3 con acceleratore elettronico. Nel 2004 viene sostituito
+    dall'F136 della F430. La cilindrata indicata è quella del 360.
+  punti_deboli:
+    - "Collettori di scarico della F355 soggetti a crepe; se trascurati possono danneggiare il motore"
+    - "Guide valvole in bronzo della F355 soggette a usura precoce, spesso sostituite preventivamente"
+    - "Cinghie di distribuzione della F355 da sostituire ogni 3 anni o circa 48.000 km, con stacco del motore"
+    - "Valvole di bypass dello scarico che si usurano e vibrano al minimo"
+    - "Tubazioni carburante della F355 con raccordi che possono criccarsi (richiamo del 2009 negli Stati Uniti)"
+  limiti: >-
+    Motore aspirato ad alto regime con margini ridotti senza interventi interni. La Challenge Stradale indica
+    il risultato ottenuto dalla fabbrica senza sovralimentazione: 425 CV con compressione 11,2:1, condotti
+    lucidati, aspirazione maggiorata e scarico a doppio flusso. Sulla F355 il componente critico per l'uso
+    prolungato ad alto regime sono le guide valvole.
+  curiosita:
+    - "La sigla F355 indica la cilindrata di 3,5 litri e le 5 valvole per cilindro."
+    - "Le bielle della F355 sono forgiate in lega di titanio Ti6Al4V."
+
+- slug: lamborghini-v12-bizzarrini
+  codice: V12 Bizzarrini
+  nome: Lamborghini V12 Bizzarrini
+  costruttore: Lamborghini
+  paese: Italia
+  inizio: 1963
+  fine: 2010
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 6496
+  alesaggio: 88.0
+  corsa: 89.0
+  compressione: "9.2–11.0:1"
+  distribuzione: DOHC a catena, fasatura variabile sulle ultime versioni
+  valvole: "2 / 4"
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Carburatori Weber, poi indiretta multipoint (dal Diablo)
+  cv_min: 375
+  cv_max: 670
+  nm_max: 660
+  limitatore: 8500
+  in_breve:
+    - { valore: "60°", testo: "tra le bancate, basamento in lega di alluminio" }
+    - { valore: "1963–2010", testo: "dalla 350 GTV all'ultima Murciélago" }
+    - { valore: "4 valvole", testo: "per cilindro dal Countach Quattrovalvole (1985)" }
+  versioni:
+    - { nome: "Countach LP500 S", anni: "1982–1985", cv: 375, nm: 410, nota: "4754 cc, 2 valvole, 6 carburatori Weber" }
+    - { nome: "Countach 5000 Quattrovalvole / 25th Anniversary", anni: "1985–1990", cv: 455, nm: 500, nota: "5167 cc, 4 valvole; iniezione sulle versioni USA" }
+    - { nome: "Diablo 5.7", anni: "1990–1998", cv: 492, nm: 580, nota: "5707 cc, 87 × 80 mm, iniezione multipoint" }
+    - { nome: "Diablo GT 6.0", anni: "1999–2000", cv: 575, nm: 630, nota: "5992 cc, corsa 84 mm" }
+    - { nome: "Murciélago 6.2", anni: "2001–2006", cv: 580, nm: 650, nota: "6192 cc, carter secco" }
+    - { nome: "Murciélago LP640", anni: "2006–2010", cv: 640, nm: 660, nota: "6496 cc, 88 × 89 mm" }
+    - { nome: "Murciélago LP670-4 SuperVeloce", anni: "2009–2010", cv: 670, nm: 660, nota: "" }
+  modelli:
+    - { nome: "Lamborghini Countach LP500 S, 5000 QV, 25th Anniversary", anni: "1982–1990" }
+    - { nome: "Lamborghini LM002", anni: "1986–1993" }
+    - { nome: "Lamborghini Diablo", anni: "1990–2001" }
+    - { nome: "Lamborghini Murciélago", anni: "2001–2010" }
+    - { nome: "Lamborghini Reventón (coupé e roadster)", anni: "2008–2010" }
+  storia: >-
+    V12 a 60° progettato da Giotto Bizzarrini per la 350 GTV del 1963, con basamento in alluminio e due alberi a
+    camme per bancata comandati a catena. Dagli anni '80 la cilindrata cresce da 4754 cc (Countach LP500 S, 1982)
+    a 5167 cc con testate a quattro valvole (Quattrovalvole, 1985), 5707 cc con iniezione elettronica (Diablo, 1990),
+    poi 6,0, 6,2 litri a carter secco e 6496 cc (Murciélago LP640, 2006). L'ultima Murciélago esce da Sant'Agata il
+    5 novembre 2010; il successore è il V12 L539 dell'Aventador. La cilindrata indicata è quella del 6,5 litri.
+  punti_deboli:
+    - "Countach: registrazione del gioco valvole ogni 15.000 miglia con rimozione dei carburatori"
+    - "Countach: accensione elettronica Magneti Marelli soggetta a guasti; tubo olio tra radiatore e motore che si fessura"
+    - "Diablo prima serie: tenditori idraulici delle catene di distribuzione che potevano tendere fino alla rottura (tenditori meccanici dal 1994 circa)"
+    - "Diablo: perdite d'olio dal sigillante tra basamento e coppa; variatori di fase delle ultime versioni sensibili all'olio degradato"
+    - "Murciélago: problemi alla fasatura con mancate accensioni e consumo d'olio fino a circa 1 litro ogni 1600 km"
+  limiti: >-
+    Motore aspirato: le versioni di serie arrivano a 670 CV con 6,5 litri e gli aumenti sono stati ottenuti con
+    cilindrata e regime. Il componente critico è la distribuzione a catena, con tenditori e variatori di fase
+    sensibili alla qualità e allo stato dell'olio.
+  curiosita:
+    - "La cilindrata passa dai 3,5 litri della 350 GTV ai 6496 cc della Murciélago LP640, quasi raddoppiando."
+    - "Il V12 a quattro valvole del Countach Quattrovalvole equipaggia anche il fuoristrada LM002."
+
+- slug: lamborghini-v10-50
+  codice: V10 5.0 40v
+  nome: Lamborghini V10 5.0
+  costruttore: Lamborghini
+  paese: Italia
+  inizio: 2003
+  fine: 2008
+  architettura: V10
+  angolo: 90
+  cilindri: 10
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4961
+  alesaggio: 82.5
+  corsa: 92.8
+  compressione: "11.0:1"
+  distribuzione: DOHC a catena, fasatura variabile continua su aspirazione e scarico
+  valvole: 4
+  blocco: Alluminio (canne integrate in lega eutettica)
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 500
+  cv_max: 530
+  nm_max: 510
+  limitatore: 8000
+  in_breve:
+    - { valore: "72°", testo: "intervalli di accensione regolari con perni di biella sfalsati di 18°" }
+    - { valore: "Carter secco", testo: "lubrificazione derivata dall'impiego sportivo" }
+    - { valore: "530 CV", testo: "nella Gallardo Superleggera a 8000 giri/min" }
+  versioni:
+    - { nome: "Gallardo", anni: "2003–2005", cv: 500, nm: 510, nota: "500 CV a 7800 giri/min" }
+    - { nome: "Gallardo SE / Spyder / Gallardo dal 2006", anni: "2005–2008", cv: 520, nm: 510, nota: "520 CV a 8000 giri/min" }
+    - { nome: "Gallardo Superleggera", anni: "2007–2008", cv: 530, nm: 510, nota: "" }
+  modelli:
+    - { nome: "Lamborghini Gallardo coupé", anni: "2003–2008" }
+    - { nome: "Lamborghini Gallardo Spyder", anni: "2006–2008" }
+    - { nome: "Lamborghini Gallardo Superleggera", anni: "2007–2008" }
+  storia: >-
+    Primo V10 Lamborghini, a 90°, sviluppato nell'ambito del gruppo Audi per la Gallardo del 2003. Albero motore in
+    acciaio forgiato con perni di biella sfalsati di 18° per intervalli di accensione regolari di 72°, lubrificazione
+    a carter secco, fasatura variabile continua su tutti e quattro gli alberi a camme e collettori di scarico 5 in 1
+    per bancata. Le prime unità sono costruite da Audi in Germania, dal 2005 in Italia. Nel 2008 lo sostituisce il
+    5,2 FSI della Gallardo LP560-4.
+  punti_deboli:
+    - "Bronzine di biella più deboli sui primi motori costruiti in Germania (fino al 2005 circa)"
+    - "Perdite d'olio dal paraolio posteriore dell'albero motore, da sostituire insieme alla frizione"
+    - "Consumo d'olio elevato in uso pista; il carter secco non tollera il sovrariempimento"
+    - "Corpi farfallati che si incollano su auto usate soprattutto in città"
+  limiti: >-
+    Le versioni di serie arrivano a 530 CV con 510 Nm. Il componente critico sono le bronzine di biella:
+    sovralimentazione e uso prolungato al limitatore ne hanno causato il cedimento, soprattutto sui motori
+    costruiti prima del 2005.
+  curiosita:
+    - "Il successivo 5,2 FSI adotta perni di biella comuni e accensione irregolare a 90°/54°, mentre il 5,0 ha accensione regolare."
+    - "La corsa di 92,8 mm resta invariata nel 5,2 litri, che aumenta l'alesaggio da 82,5 a 84,5 mm."
+
+- slug: maserati-biturbo-v6
+  codice: AM452 / AM453 / AM473
+  nome: Maserati V6 Biturbo
+  costruttore: Maserati
+  paese: Italia
+  inizio: 1982
+  fine: 2001
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 1996
+  alesaggio: 82.0
+  corsa: 63.0
+  compressione: "7.6–7.8:1"
+  distribuzione: SOHC a cinghia per bancata (18v), poi DOHC a cinghia (24v)
+  valvole: "3 / 4"
+  blocco: Alluminio (canne umide con riporto Nikasil sul 2.0)
+  testa: Alluminio
+  iniezione: Carburatore Weber, poi indiretta Weber-Marelli (dal 1986)
+  cv_min: 180
+  cv_max: 330
+  nm_max: 413
+  limitatore: 6500
+  in_breve:
+    - { valore: "2 turbo", testo: "IHI, prima applicazione biturbo su un'auto di serie (1981)" }
+    - { valore: "90°", testo: "tra le bancate, derivato dal V6 della Merak" }
+    - { valore: "330 CV", testo: "nel 2.0 della Ghibli Cup, 165 CV/litro" }
+  versioni:
+    - { nome: "Biturbo 2.0 (AM452)", anni: "1982–1985", cv: 180, nm: 254, nota: "3 valvole per cilindro, carburatore Weber" }
+    - { nome: "Biturbo 2.5 export (AM453)", anni: "anni '80", cv: 192, nm: 298, nota: "2491 cc; 185 CV in Nord America" }
+    - { nome: "2.8 (AM473) per 228, 430, Karif", anni: "dal 1988", cv: 250, nota: "2790 cc, 94 × 67 mm; 225 CV in Nord America" }
+    - { nome: "Racing 2.0 24v (AM490)", anni: "1990–1992", cv: 285, nm: 374, nota: "Intercooler aria-aria" }
+    - { nome: "Ghibli 2.0 24v", anni: "1992–1998", cv: 306, nm: 373, nota: "Mercato italiano" }
+    - { nome: "Ghibli 2.8 24v", anni: "1992–1998", cv: 284, nm: 413, nota: "Export" }
+    - { nome: "Ghibli Cup 2.0 24v", anni: "1995–1997", cv: 330, nm: 373, nota: "Turbo IHI su cuscinetti a rulli" }
+    - { nome: "Quattroporte IV 2.0 24v", anni: "1994–2001", cv: 287, nota: "" }
+  modelli:
+    - { nome: "Maserati Biturbo, 222, 228, 420, 425, 430, Spyder, Karif", anni: "dal 1982" }
+    - { nome: "Maserati Racing", anni: "1990–1992" }
+    - { nome: "Maserati Ghibli (AM336)", anni: "1992–1998" }
+    - { nome: "Maserati Quattroporte IV", anni: "1994–2001" }
+  storia: >-
+    V6 a 90° derivato da quello della Merak, presentato nel dicembre 1981 sulla Biturbo con due piccoli turbocompressori
+    IHI, prima soluzione biturbo su un'auto di serie. Nasce con tre valvole per cilindro, un albero a camme per bancata
+    e distribuzione a cinghia; seguono turbine raffreddate ad acqua e intercooler (1985), iniezione elettronica (1986)
+    e testate a quattro valvole con doppio albero (1989). Il 2.0 è destinato al mercato italiano, il 2.5 e il 2.8
+    all'export; l'ultima applicazione è la Quattroporte IV Evoluzione, prodotta fino al 2001. Lo Shamal del 1990
+    adotta invece un V8 biturbo da 3217 cc con la stessa impostazione a 90°, quattro valvole e due turbo.
+  punti_deboli:
+    - "Surriscaldamento sui primi motori a carburatore"
+    - "Cinghia di distribuzione con intervallo di circa 38.000 km (24.000 miglia)"
+    - "Alberi a camme rumorosi per scarsa lubrificazione; possibile miscelazione di olio e liquido di raffreddamento"
+    - "Trafilamenti d'olio nella parte posteriore del motore e pompa dell'acqua con gioco"
+  limiti: >-
+    Il 2.0 24v arriva di serie a 330 CV nella Ghibli Cup con turbine su cuscinetti a rulli e gestione elettronica
+    rivista. Oltre questo livello i componenti critici sono turbocompressori e pistoni, forgiati solo dal 1991.
+  curiosita:
+    - "Con 330 CV da 1996 cc la Ghibli Cup aveva la potenza specifica più alta tra le auto stradali dell'epoca."
+    - "La cilindrata di 2 litri delle versioni italiane rispondeva all'IVA maggiorata sulle auto oltre i 2000 cc."
+
+- slug: maserati-f160
+  codice: F160
+  nome: Maserati F160 V6 biturbo
+  costruttore: Maserati
+  paese: Italia
+  inizio: 2013
+  fine: 2024
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2979
+  alesaggio: 86.5
+  corsa: 84.5
+  compressione: "9.7:1"
+  distribuzione: DOHC a catena, bilancieri a rullo con punterie idrauliche
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta a 200 bar
+  cv_min: 330
+  cv_max: 430
+  nm_max: 580
+  limitatore: 6500
+  in_breve:
+    - { valore: "Maranello", testo: "progettato e costruito da Ferrari per Maserati" }
+    - { valore: "60°", testo: "tra le bancate, a differenza del V8 F154 a 90°" }
+    - { valore: "6500", testo: "giri/min di regime massimo" }
+  versioni:
+    - { nome: "Ghibli", anni: "2013–2015", cv: 330, nm: 500, nota: "" }
+    - { nome: "Ghibli / Levante 350", anni: "2016–2024", cv: 350, nm: 500, nota: "" }
+    - { nome: "Quattroporte S / Ghibli S", anni: "2013–2016", cv: 410, nm: 550, nota: "" }
+    - { nome: "Ghibli S / Quattroporte S / Levante S", anni: "2016–2024", cv: 430, nm: 580, nota: "" }
+  modelli:
+    - { nome: "Maserati Quattroporte (VI)", anni: "2013–2024" }
+    - { nome: "Maserati Ghibli (M157)", anni: "2013–2023" }
+    - { nome: "Maserati Levante", anni: "2016–2024" }
+  storia: >-
+    V6 a 60° biturbo progettato e assemblato da Ferrari a Maranello per Maserati, introdotto nel 2013 sulla
+    Quattroporte VI. Iniezione diretta a 200 bar, due alberi a camme per bancata comandati a catena con bilancieri
+    a rullo e punterie idrauliche, regime massimo di 6500 giri/min. La fornitura termina con la fine della produzione
+    della Ghibli (dicembre 2023), della Levante (marzo 2024) e della Quattroporte (agosto 2024). Il V6 Nettuno che
+    Maserati produce in proprio è un progetto distinto.
+  punti_deboli:
+    - "Alloggiamento del termostato in plastica che si deforma e si fessura, con perdite di liquido di raffreddamento"
+    - "Usura dei tenditori idraulici delle catene di distribuzione, aggravata da intervalli lunghi di cambio olio (rumore a freddo)"
+  limiti: >-
+    La versione di serie più potente eroga 430 CV e 580 Nm. Aumenti ulteriori gravano su turbocompressori e
+    catene di distribuzione, il cui stato dipende dagli intervalli di cambio olio.
+  curiosita:
+    - "Ha lo stesso alesaggio di 86,5 mm del V8 F154 montato sulle Maserati, ma corsa più lunga (84,5 mm) e bancate a 60°."
+
+- slug: bmw-m20
+  codice: M20B20, M20B23, M20B25, M20B27
+  nome: BMW M20
+  costruttore: BMW
+  paese: Germania
+  inizio: 1977
+  fine: 1993
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2494
+  alesaggio: 84.0
+  corsa: 75.0
+  compressione: "8.5–11.0:1"
+  distribuzione: SOHC a cinghia dentata, bilancieri con registri eccentrici
+  valvole: 2
+  blocco: Ghisa, closed-deck
+  testa: Alluminio, flussi incrociati
+  iniezione: Carburatore (prime 2.0), poi indiretta K-, L-, LE-Jetronic e Motronic
+  cv_min: 122
+  cv_max: 171
+  nm_max: 240
+  limitatore: 6500
+  in_breve:
+    - { valore: "91 mm", testo: "interasse dei cilindri, contro i 100 mm del sei cilindri M30" }
+    - { valore: "Cinghia", testo: "distribuzione a cinghia dentata invece della catena, per rumorosità e costi minori" }
+    - { valore: "4800", testo: "giri/min di limitatore sulle versioni eta da 2,7 litri, orientate alla coppia in basso" }
+  versioni:
+    - { nome: "320i (M20B20, L-Jetronic)", anni: "1982–1985", cv: 125, nm: 170, nota: "1991 cc, 80 × 66 mm" }
+    - { nome: "320i / 520i (M20B20, Motronic)", anni: "1986–1992", cv: 129, nm: 164, nota: "Versione catalizzata" }
+    - { nome: "323i (M20B23)", anni: "1983–1985", cv: 150, nota: "2316 cc, LE-Jetronic" }
+    - { nome: "325i / 525i (M20B25)", anni: "1985–1993", cv: 171, nm: 226, nota: "2494 cc; catalizzata 170 CV" }
+    - { nome: "525e / 528e / 325e (M20B27 eta)", anni: "1982–1987", cv: 125, nm: 240, nota: "2693 cc, 84 × 81 mm; catalizzata 122 CV" }
+    - { nome: "325e / 528e Super Eta (M20B27)", anni: "1988", cv: 129, nota: "Motronic, testata 885, mercato USA" }
+  modelli:
+    - { nome: "BMW 320/6, 323i (E21)", anni: "1977–1982" }
+    - { nome: "BMW 320i, 323i (E30)", anni: "1982–1992" }
+    - { nome: "BMW 325i, 325iX (E30)", anni: "1985–1993" }
+    - { nome: "BMW 325e (E30)", anni: "1985–1988" }
+    - { nome: "BMW 520i (E28)", anni: "1981–1987" }
+    - { nome: "BMW 525e / 528e (E28)", anni: "1982–1988" }
+    - { nome: "BMW 520i, 525i (E34)", anni: "1988–1991" }
+    - { nome: "BMW Z1", anni: "1988–1991" }
+  storia: >-
+    Sei cilindri in linea monoalbero a due valvole introdotto nel 1977 su E12 520/6 ed E21 320/6, più compatto dell'M30:
+    interasse dei cilindri ridotto da 100 a 91 mm e inclinazione nel vano da 30° a 20°. Basamento in ghisa closed-deck con
+    canne siamesi, testata in alluminio a flussi incrociati e distribuzione a cinghia dentata. La versione eta da 2,7 litri,
+    con corsa di 81 mm e limitatore a 4800 giri/min, fu sviluppata per coppia ai bassi regimi e consumi ridotti, anche in
+    funzione dei limiti CAFE statunitensi. Dal 1990 è stato sostituito dall'M50 a quattro valvole.
+  punti_deboli:
+    - "Cinghia di distribuzione: motore interferente, la rottura danneggia valvole e testata; va sostituita per chilometraggio ed età"
+    - "Testata: crepe nei passaggi dell'acqua sotto l'albero a camme dopo surriscaldamenti, più frequenti sulla 2.5"
+    - "Albero a camme anteriore usurato con livello olio basso; gioco valvole da registrare periodicamente"
+    - "Misuratore di portata aria, valvola del minimo e tubi del vuoto su esemplari datati"
+  limiti: >-
+    In aspirato il limite è la testata a due valvole: l'abbinamento di testata della 325i e basamento eta da 2,7 litri porta a
+    circa 200 CV, con pompa dell'olio della 325i perché quella eta ha portata inferiore. Soglie per la sovralimentazione non
+    documentate dal costruttore.
+  curiosita:
+    - "Le prime versioni erano indicate internamente come M60, sigla poi riutilizzata per il V8 BMW degli anni '90."
+    - "Dall'M20 deriva il sei cilindri diesel M21 della 524td."
+
+- slug: bmw-m30
+  codice: M30B25, M30B28, M30B30, M30B32, M30B34, M30B35, M102, M106
+  nome: BMW M30
+  costruttore: BMW
+  paese: Germania
+  inizio: 1968
+  fine: 1994
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 3430
+  alesaggio: 92.0
+  corsa: 86.0
+  compressione: "7.0–10.0:1"
+  distribuzione: SOHC a catena, bilancieri
+  valvole: 2
+  blocco: Ghisa
+  testa: Alluminio, flussi incrociati
+  iniezione: Indiretta L-Jetronic, poi Motronic
+  cv_min: 150
+  cv_max: 252
+  nm_max: 380
+  limitatore: 6000
+  in_breve:
+    - { valore: "1968", testo: "anno di debutto; oltre 25 anni di produzione, il motore BMW costruito più a lungo" }
+    - { valore: "M102", testo: "versione turbo con KKK K27 e intercooler della 745i (E23), primo sei cilindri turbo BMW" }
+    - { valore: "Albero forgiato", testo: "su sette supporti di banco nel basamento in ghisa" }
+  versioni:
+    - { nome: "525i (E28)", anni: "1981–1987", cv: 150, nm: 215, nota: "2494 cc" }
+    - { nome: "528i (E28) / 728i (E23)", anni: "1979–1987", cv: 184, nm: 240, nota: "2788 cc" }
+    - { nome: "533i / 633CSi / 732i (M30B32)", anni: "1979–1986", cv: 197, nm: 285, nota: "3210 cc, 89 × 86 mm" }
+    - { nome: "745i (M102)", anni: "1980–1982", cv: 252, nm: 380, nota: "3210 cc turbo, compressione 7,0:1" }
+    - { nome: "745i (M106)", anni: "1983–1986", cv: 252, nm: 380, nota: "3430 cc turbo, Motronic, compressione 8,0:1" }
+    - { nome: "535i / M535i / 635CSi / 735i (M30B34)", anni: "1982–1987", cv: 218, nm: 310, nota: "3430 cc; catalizzata 185 CV" }
+    - { nome: "730i / 530i (M30B30, E32 / E34)", anni: "1986–1994", cv: 188, nm: 260, nota: "2986 cc; senza catalizzatore 197 CV" }
+    - { nome: "535i / 735i / 635CSi (M30B35)", anni: "1986–1992", cv: 211, nm: 305, nota: "Catalizzata; senza catalizzatore 220 CV" }
+  modelli:
+    - { nome: "BMW 525i, 528i, 533i, 535i, M535i (E28)", anni: "1981–1988" }
+    - { nome: "BMW 530i, 535i (E34)", anni: "1988–1992" }
+    - { nome: "BMW 728i, 732i, 735i, 745i (E23)", anni: "1977–1986" }
+    - { nome: "BMW 730i, 735i (E32)", anni: "1986–1994" }
+    - { nome: "BMW 628CSi, 633CSi, 635CSi (E24)", anni: "1976–1989" }
+    - { nome: "BMW 2500, 2800, 3.0, 3.3 (E3) e coupé E9", anni: "1968–1977" }
+  storia: >-
+    Sei cilindri monoalbero a due valvole derivato concettualmente dal quattro cilindri M10, con basamento in ghisa, albero
+    motore forgiato e testata in alluminio a flussi incrociati. Dagli anni '80 è stato usato nelle versioni superiori di E28,
+    E24, E23, E32 ed E34, con cilindrate da 2,5 a 3,4 litri e passaggio dall'iniezione L-Jetronic al Motronic. Le varianti turbo
+    M102 e M106 della 745i e i motori a quattro valvole M88 e S38 derivano da questo basamento. È stato sostituito dall'M50
+    e dai V8 M60 nei primi anni '90.
+  punti_deboli:
+    - "Testata in alluminio: deformazione per surriscaldamento; crepe documentate soprattutto sulle unità pre-1980"
+    - "Raffreddamento: giunto viscoso della ventola, radiatore e pompa dell'acqua su esemplari datati"
+    - "Lubrificazione alberi a camme: viti forate della barra spruzzatrice dell'olio che si allentano"
+    - "Perdite d'olio da coperchio punterie e coppa; gioco valvole da registrare periodicamente"
+  limiti: >-
+    Il basamento in ghisa con albero forgiato ha retto di serie la sovralimentazione della 745i (252 CV) e, nell'Alpina B10
+    Biturbo con pistoni forgiati, 360 CV. Il componente critico è la testata in alluminio, sensibile al surriscaldamento.
+    Limitatore non documentato: il valore indicato è il regime di potenza massima arrotondato.
+  curiosita:
+    - "Gli ultimi 50 basamenti M30 sono stati destinati ad Alpina per le ultime 50 B10 Biturbo."
+    - "Fino alla M70 V12 del 1987 è stato il motore BMW di serie più grande e potente."
+
+- slug: bmw-m50-m52
+  codice: M50B20, M50B24, M50B25, M52B20, M52B24, M52B25, M52B28
+  nome: BMW M50 / M52
+  costruttore: BMW
+  paese: Germania
+  inizio: 1990
+  fine: 2001
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2494
+  alesaggio: 84.0
+  corsa: 75.0
+  compressione: "10.0–11.0:1"
+  distribuzione: DOHC a catena; VANOS all'aspirazione dal 1992, doppio VANOS sull'M52TÜ
+  valvole: 4
+  blocco: Ghisa (M50, M52 nordamericano); alluminio Nikasil (M52), canne in ghisa (M52TÜ)
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 150
+  cv_max: 193
+  nm_max: 280
+  limitatore: 6500
+  in_breve:
+    - { valore: "VANOS", testo: "dal settembre 1992 sull'M50TÜ, prima fasatura variabile BMW, sul solo albero di aspirazione" }
+    - { valore: "Nikasil", testo: "riporto delle canne del basamento in alluminio M52, sostituito da canne in ghisa dal 1998" }
+    - { valore: "2793 cc", testo: "M52B28 da 193 CV, la cilindrata più alta della famiglia" }
+  versioni:
+    - { nome: "M50B20 (520i E34, 320i E36)", anni: "1990–1992", cv: 150, nm: 190, nota: "1991 cc, senza VANOS" }
+    - { nome: "M50B25 (525i E34, 325i E36)", anni: "1990–1992", cv: 192, nm: 245, nota: "Senza VANOS" }
+    - { nome: "M50B25TÜ", anni: "1992–1996", cv: 192, nm: 250, nota: "VANOS all'aspirazione" }
+    - { nome: "M52B25 (323i, 523i)", anni: "1995–2000", cv: 170, nm: 245, nota: "Basamento in alluminio" }
+    - { nome: "M52B28 (328i, 528i, 728i, Z3 2.8)", anni: "1995–2000", cv: 193, nm: 280, nota: "2793 cc, 84 × 84 mm" }
+    - { nome: "M52TÜB28", anni: "1998–2001", cv: 193, nm: 280, nota: "Doppio VANOS, aspirazione DISA, canne in ghisa" }
+  modelli:
+    - { nome: "BMW 520i, 525i, 525ix (E34)", anni: "1990–1996" }
+    - { nome: "BMW 320i, 325i, 325is (E36)", anni: "1991–1995" }
+    - { nome: "BMW 320i, 323i, 328i (E36)", anni: "1994–1999" }
+    - { nome: "BMW 520i, 523i, 528i (E39)", anni: "1995–2000" }
+    - { nome: "BMW 728i (E38)", anni: "1995–2001" }
+    - { nome: "BMW 320i, 323i, 328i (E46)", anni: "1998–2000" }
+    - { nome: "BMW Z3 2.0, 2.8", anni: "1997–2000" }
+    - { nome: "Land Rover Defender (Sudafrica)", anni: "1997–2000" }
+  storia: >-
+    L'M50 del 1990 sostituisce l'M20 con distribuzione bialbero a catena, quattro valvole per cilindro e accensione con bobine
+    singole, mantenendo il basamento in ghisa. Nel settembre 1992 l'M50TÜ introduce il VANOS a due posizioni sull'albero di
+    aspirazione. L'M52 del 1994–1995 adotta un basamento in alluminio con canne al Nikasil, tranne in Nord America dove resta
+    la ghisa; l'M52TÜ del 1998 passa a canne in ghisa, doppio VANOS e collettore DISA a lunghezza variabile. È stato sostituito
+    dall'M54 a fine 2000.
+  punti_deboli:
+    - "Canne al Nikasil (M52 fino al 1998): usura precoce con benzina ad alto tenore di zolfo"
+    - "Raffreddamento: pompa dell'acqua, radiatore, termostato e vaso di espansione in plastica"
+    - "Unità VANOS: guarnizioni interne usurate ad alto chilometraggio, con perdita di coppia ai medi regimi"
+    - "Valvola del minimo e sensore farfalla: minimo irregolare"
+  limiti: >-
+    In sovralimentazione il basamento in ghisa dell'M50, con prigionieri della testa rinforzati e guarnizione specifica, è
+    indicato per circa 400 CV con interni di serie. Per il basamento in alluminio M52 non risultano soglie documentate.
+  curiosita:
+    - "L'M52 è stato nella classifica Ward's 10 Best Engines dal 1997 al 2000."
+    - "L'M50B24 da 2394 cc (84 × 72 mm) è stato venduto solo in Thailandia e in alcuni mercati asiatici e dell'Oceania."
+
+- slug: bmw-s50-s52
+  codice: S50B30, S50B30US, S50B32, S52B32
+  nome: BMW S50 / S52
+  costruttore: BMW
+  paese: Germania
+  inizio: 1992
+  fine: 2000
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3201
+  alesaggio: 86.4
+  corsa: 91.0
+  compressione: "10.5–11.3:1"
+  distribuzione: DOHC a catena; VANOS singolo (S50B30, S52), doppio VANOS (S50B32)
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta; sei farfalle singole sugli S50 europei
+  cv_min: 243
+  cv_max: 321
+  nm_max: 350
+  limitatore: 7600
+  in_breve:
+    - { valore: "Doppio VANOS", testo: "sull'S50B32, primo motore BMW con fasatura variabile su entrambi gli alberi a camme" }
+    - { valore: "Sei farfalle", testo: "corpi farfallati singoli per cilindro sulle versioni europee" }
+    - { valore: "Due motori", testo: "M3 europea con S50, M3 nordamericana con unità derivate da M50 e M52 a 243 CV" }
+  versioni:
+    - { nome: "S50B30 (M3 E36)", anni: "1992–1995", cv: 286, nota: "2990 cc, 86 × 85,8 mm, VANOS all'aspirazione" }
+    - { nome: "S50B30 (M3 GT)", anni: "1994–1995", cv: 295, nm: 323, nota: "Serie limitata" }
+    - { nome: "S50B30US (M3 USA)", anni: "1994–1995", cv: 243, nm: 305, nota: "Compressione 10,5:1" }
+    - { nome: "S50B32 (M3 Evo, Z3 M)", anni: "1995–2000", cv: 321, nm: 350, nota: "3201 cc, doppio VANOS, 11,3:1" }
+    - { nome: "S52B32 (M3 e Z3 M USA)", anni: "1996–2000", cv: 243, nm: 320, nota: "3152 cc, 86,4 × 89,6 mm, basamento M52 in ghisa" }
+  modelli:
+    - { nome: "BMW M3 (E36)", anni: "1992–1999" }
+    - { nome: "BMW M3 (E36) Nord America", anni: "1994–1999" }
+    - { nome: "BMW Z3 M Roadster, M Coupé", anni: "1996–2000" }
+  storia: >-
+    L'S50B30 di BMW Motorsport deriva dall'M50 e aggiunge sei corpi farfallati singoli, VANOS all'aspirazione e compressione
+    10,8:1 per 286 CV a 7000 giri/min. Nel 1995 l'S50B32 porta la cilindrata a 3201 cc con alesaggio di 86,4 e corsa di 91 mm
+    e introduce il doppio VANOS, con 321 CV a 7400 giri/min. Per il mercato nordamericano BMW usò versioni semplificate con
+    243 CV: l'S50B30US e, dal 1996, l'S52 su basamento in ghisa dell'M52 con VANOS singolo. È stato sostituito dall'S54 nel 2000.
+  punti_deboli:
+    - "Unità VANOS: guarnizioni che cedono sotto la pressione di esercizio (circa 100 bar), con perdita di potenza e rumore"
+    - "Viti delle elettrovalvole VANOS che si tranciano per vibrazione, con rapida perdita d'olio"
+    - "Valvola del minimo soggetta a intasamento; filtrino olio del VANOS da sostituire a ogni tagliando"
+    - "S52: radiatore, vaso di espansione e corpo termostato in plastica soggetti a cricche"
+  limiti: >-
+    Non risultano soglie di elaborazione documentate da fonti affidabili. Il basamento in ghisa è comune a tutte le versioni;
+    il componente critico sugli S50B32 è l'unità doppio VANOS ad alta pressione, sensibile a qualità e livello dell'olio.
+  curiosita:
+    - "La M3-R prodotta nel 1994 per il mercato australiano aveva un S50B30 da 326 CV."
+    - "L'S50B30US fu sviluppato per rendere commerciabile la M3 E36 negli Stati Uniti."
+
+- slug: bmw-s38
+  codice: S38B35, S38B36, S38B38
+  nome: BMW S38
+  costruttore: BMW
+  paese: Germania
+  inizio: 1986
+  fine: 1995
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3535
+  alesaggio: 93.4
+  corsa: 86.0
+  compressione: "9.8–10.5:1"
+  distribuzione: DOHC a catena duplex, punterie a bicchierino con spessori
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta, sei farfalle singole, Bosch Motronic
+  cv_min: 260
+  cv_max: 340
+  nm_max: 400
+  limitatore: 7000
+  in_breve:
+    - { valore: "M88/3", testo: "derivato dal sei cilindri a quattro valvole della M1, con catalizzatore e catena duplex" }
+    - { valore: "Sei farfalle", testo: "corpi farfallati singoli alimentati da un plenum in alluminio fuso" }
+    - { valore: "340 CV", testo: "nella M5 E34 3.8 con S38B38 da 3795 cc" }
+  versioni:
+    - { nome: "S38B35 (M5 E28, M635CSi / M6 E24)", anni: "1986–1989", cv: 260, nm: 330, nota: "3453 cc, 93,4 × 84 mm, catalizzato" }
+    - { nome: "S38B36 (M5 E34 3.6)", anni: "1988–1992", cv: 315, nm: 360, nota: "3535 cc, albero forgiato, aspirazione a lunghezza variabile" }
+    - { nome: "S38B38 (M5 E34 3.8)", anni: "1992–1995", cv: 340, nm: 400, nota: "3795 cc, 94,6 × 90 mm, Motronic 3.3, bobine singole" }
+  modelli:
+    - { nome: "BMW M5 (E28) Nord America", anni: "1986–1988" }
+    - { nome: "BMW M635CSi / M6 (E24) catalizzata", anni: "1986–1989" }
+    - { nome: "BMW M5 3.6 (E34)", anni: "1988–1992" }
+    - { nome: "BMW M5 3.8 berlina e Touring (E34)", anni: "1992–1995" }
+  storia: >-
+    Sei cilindri bialbero a quattro valvole derivato dall'M88/3, a sua volta evoluzione del motore della M1, montato in
+    Europa su M5 E28 e M635CSi con 286 CV. Rispetto all'M88/3 l'S38B35 ha compressione più bassa, collettore di scarico
+    semplificato, catalizzatore, catena di distribuzione duplex e alberi a camme con durata ridotta. Dal 1988 l'S38B36 della M5 E34
+    adotta albero forgiato, collettore di aspirazione a lunghezza variabile, collettori di scarico in acciaio inox e Motronic;
+    dal 1992 l'S38B38 sale a 3795 cc. Non ha avuto un successore diretto: la M5 E39 del 1998 è passata al V8 S62.
+  punti_deboli:
+    - "Pattini e tenditore della catena di distribuzione usurati ad alto chilometraggio"
+    - "Gioco valvole a spessori da controllare periodicamente; trascurarlo causa funzionamento irregolare"
+    - "Sei farfalle da sincronizzare: senza registrazione il minimo diventa irregolare"
+    - "Perdite d'olio da coperchio punterie, coppa e paraoli di banco; tubi del vuoto deteriorati"
+  limiti: >-
+    Non risultano soglie di elaborazione documentate da fonti affidabili; la massima potenza di serie è di 340 CV a 6900
+    giri/min sull'S38B38. Il componente critico è la distribuzione a catena duplex con punterie a spessori. Il limitatore
+    indicato è un valore prudente vicino al regime di potenza massima.
+  curiosita:
+    - "Della M5 E34 sono stati costruiti 8344 esemplari con il 3,6 litri e 3910 con il 3,8 litri."
+
+- slug: bmw-n47
+  codice: N47D20 / N47D16
+  nome: BMW N47 2.0 diesel
+  costruttore: BMW
+  paese: Germania
+  inizio: 2007
+  fine: 2014
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo sequenziale
+  cilindrata: 1995
+  alesaggio: 84.0
+  corsa: 90.0
+  compressione: "16.1–16.5:1"
+  distribuzione: DOHC a catena posteriore (lato volano)
+  valvole: 4
+  blocco: Lega di alluminio con canne in ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail, 1600–2000 bar
+  cv_min: 95
+  cv_max: 218
+  nm_max: 450
+  limitatore: 4400
+  in_breve:
+    - { valore: "Posteriore", testo: "catena di distribuzione sul lato volano, accessibile solo smontando il motore" }
+    - { valore: "100 CV/l", testo: "la 123d del 2007 è stato il primo diesel di serie oltre i 100 CV per litro" }
+    - { valore: "1.6 e 2.0", testo: "cilindrate 1598 cc (N47D16) e 1995 cc (N47D20)" }
+  versioni:
+    - { nome: "N47D16 (114d, 116d F20)", anni: "2012–2015", cv: 95, nm: 235, nota: "1598 cc, 78 x 83,6 mm; anche 116 CV / 260 Nm" }
+    - { nome: "N47D20 (118d, 318d)", anni: "2007–2014", cv: 143, nm: 300, nota: "Anche MINI Cooper SD" }
+    - { nome: "N47D20 (120d, 320d, 520d)", anni: "2007–2010", cv: 177, nm: 350, nota: "Turbina a geometria variabile" }
+    - { nome: "N47D20 aggiornato (120d, 320d)", anni: "2010–2014", cv: 184, nm: 380, nota: "" }
+    - { nome: "N47D20 biturbo (123d)", anni: "2007–2011", cv: 204, nm: 400, nota: "Due turbine in serie" }
+    - { nome: "N47D20 biturbo (525d, X1 xDrive25d)", anni: "2011–2014", cv: 218, nm: 450, nota: "" }
+  modelli:
+    - { nome: "BMW Serie 1 (E81, E82, E87, E88, F20)", anni: "2007–2015" }
+    - { nome: "BMW Serie 3 (E90–E93, F30, F31, F34)", anni: "2007–2015" }
+    - { nome: "BMW Serie 5 (E60, F10, F11), X1 (E84), X3 (E83, F25)", anni: "2007–2014" }
+    - { nome: "MINI One D, Cooper D, Cooper SD (R56–R61)", anni: "2010–2016" }
+    - { nome: "Toyota Verso, Auris, Avensis 1.6 D-4D (1WW)", anni: "2014–2018" }
+    - { nome: "Toyota Avensis, RAV4 2.0 D-4D (2WW)", anni: "2015–2018" }
+  storia: >-
+    Quattro cilindri diesel common rail che sostituisce l'M47, con catena di distribuzione spostata sul lato volano e
+    turbina a geometria variabile; la versione biturbo usa due turbocompressori in serie. È stato montato su gran parte della
+    gamma BMW a quattro cilindri, sulle MINI di seconda generazione e, come famiglia WW, su modelli Toyota europei.
+    Nel 2014 è stato sostituito dal B47.
+  punti_deboli:
+    - "Usura e rottura della catena di distribuzione posteriore e del tenditore, più frequente sui motori prodotti tra marzo 2007 e gennaio 2009; il primo sintomo è un rumore metallico dal lato cambio"
+    - "Sostituzione della catena che richiede lo smontaggio del motore; il pignone è ricavato sull'albero motore"
+    - "Molla della wastegate inizialmente non lubrificata né protetta, con valvola bloccata aperta, calo di sovralimentazione e aumento dei consumi"
+    - "Depositi carboniosi nel collettore di aspirazione legati all'EGR e intasamento del filtro antiparticolato nei percorsi brevi"
+  limiti: >-
+    Con sola centralina le versioni monoturbo da 177–184 CV guadagnano indicativamente 30–40 CV. Il componente critico è la
+    catena di distribuzione, insieme alla turbina a geometria variabile e alla frizione con volano bimassa.
+  curiosita:
+    - "I motori Toyota 1WW (1,6 litri, 112 CV) e 2WW (2,0 litri, 143 CV) derivano direttamente dall'N47."
+    - "Nel 2015 BMW ha avviato un richiamo per sostituire il tenditore della catena e, se usurata, la catena stessa."
+
+- slug: bmw-n55
+  codice: N55B30
+  nome: BMW N55
+  costruttore: BMW
+  paese: Germania
+  inizio: 2009
+  fine: 2021
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Turbo twin-scroll
+  cilindrata: 2979
+  alesaggio: 84.0
+  corsa: 89.6
+  compressione: "10.2:1"
+  distribuzione: DOHC a catena, doppio VANOS, Valvetronic
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta, iniettori a solenoide
+  cv_min: 306
+  cv_max: 440
+  nm_max: 660
+  limitatore: 7000
+  in_breve:
+    - { valore: "1 turbo", testo: "BorgWarner twin-scroll al posto dei due turbo dell'N54" }
+    - { valore: "Valvetronic", testo: "primo sei cilindri turbo BMW con alzata valvole variabile" }
+    - { valore: "370 CV", testo: "nella M2 (F87), con albero e pistoni derivati dallo S55" }
+  versioni:
+    - { nome: "N55B30M0 (535i F10, 335i E90)", anni: "2009–2019", cv: 306, nm: 400, nota: "" }
+    - { nome: "M135i (F20)", anni: "2012–2015", cv: 320, nm: 450, nota: "" }
+    - { nome: "M235i (F22), M135i LCI", anni: "2014–2016", cv: 326, nm: 450, nota: "" }
+    - { nome: "X4 M40i (F26)", anni: "2016–2018", cv: 360, nm: 465, nota: "" }
+    - { nome: "M2 (F87)", anni: "2016–2018", cv: 370, nm: 465, nota: "500 Nm con overboost" }
+    - { nome: "Alpina B3 / B4 Bi-Turbo (N55R20A)", anni: "2013–2017", cv: 410, nm: 600, nota: "Due turbo" }
+    - { nome: "Alpina B3 S / B4 S Bi-Turbo", anni: "2017–2019", cv: 440, nm: 660, nota: "Due turbo" }
+  modelli:
+    - { nome: "BMW 135i, M135i, M235i (E82, E88, F20, F22)", anni: "2010–2016" }
+    - { nome: "BMW 335i, 435i (E90–E93, F30–F36)", anni: "2010–2016" }
+    - { nome: "BMW 535i (F07, F10, F11)", anni: "2009–2017" }
+    - { nome: "BMW X1, X3, X4, X5, X6 xDrive35i, X4 M40i", anni: "2010–2019" }
+    - { nome: "BMW M2 (F87)", anni: "2016–2018" }
+    - { nome: "Alpina B3, B4 Bi-Turbo", anni: "2013–2019" }
+  storia: >-
+    Sei cilindri sovralimentato che sostituisce l'N54 con un solo turbocompressore twin-scroll alimentato da coppie di
+    cilindri separate. Combina iniezione diretta con iniettori a solenoide, Valvetronic e doppio VANOS. È stato montato
+    su tutta la gamma BMW con sigla 35i fino all'arrivo del B58; Alpina ne ha sviluppato una versione a due turbo.
+  punti_deboli:
+    - "Pompa dell'acqua elettrica, guasto frequente sui primi esemplari (2010–2012)"
+    - "Perdite d'olio dalla guarnizione del supporto filtro olio e dal coperchio punterie"
+    - "Separatore dei vapori olio (PCV) integrato nel coperchio punterie, con sostituzione costosa"
+    - "Depositi carboniosi sulle valvole di aspirazione dovuti all'iniezione diretta"
+  limiti: >-
+    Con turbo di serie e centralina si arriva indicativamente a 380–400 CV; oltre servono turbo maggiorato, intercooler e
+    pompa carburante di bassa pressione potenziata. Le versioni M2 adottano albero motore forgiato e pistoni dallo S55.
+  curiosita:
+    - "Alpina ha realizzato sulla base N55 versioni biturbo fino a 440 CV e 660 Nm."
+
+- slug: bmw-s63
+  codice: S63B44
+  nome: BMW S63 V8 biturbo
+  costruttore: BMW
+  paese: Germania
+  inizio: 2009
+  fine: 2025
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Biturbo twin-scroll (hot-V)
+  cilindrata: 4395
+  alesaggio: 89.0
+  corsa: 88.3
+  compressione: "9.3–10.0:1"
+  distribuzione: DOHC a catena, doppio VANOS; Valvetronic dallo S63TU
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta, fino a 350 bar
+  cv_min: 555
+  cv_max: 635
+  nm_max: 750
+  limitatore: 7200
+  in_breve:
+    - { valore: "Hot-V", testo: "turbocompressori tra le bancate, con collettore che unisce i cilindri delle due bancate" }
+    - { valore: "Primo", testo: "motore BMW M sovralimentato e con iniezione diretta (X5 M, X6 M del 2009)" }
+    - { valore: "635 CV", testo: "nella M5 CS (F90) del 2021" }
+  versioni:
+    - { nome: "S63B44O0 (X5 M E70, X6 M E71)", anni: "2009–2013", cv: 555, nm: 680, nota: "Compressione 9,3:1; 1,2 bar" }
+    - { nome: "S63B44T0 (M5 F10, M6 F12/F13/F06)", anni: "2011–2017", cv: 560, nm: 680, nota: "Compressione 10,0:1; Valvetronic" }
+    - { nome: "S63B44T0 Competition (M5, M6)", anni: "2013–2017", cv: 575, nm: 680, nota: "" }
+    - { nome: "S63B44T2 (X5 M F85, X6 M F86)", anni: "2014–2019", cv: 575, nm: 750, nota: "" }
+    - { nome: "M5 (F90), M8 (F91–F93)", anni: "2017–2025", cv: 600, nm: 750, nota: "Competition 625 CV" }
+    - { nome: "M5 CS (F90)", anni: "2021", cv: 635, nm: 750, nota: "" }
+  modelli:
+    - { nome: "BMW X5 M, X6 M (E70, E71, F85, F86, F95, F96)", anni: "2009–2023" }
+    - { nome: "BMW M5 (F10, F90)", anni: "2011–2023" }
+    - { nome: "BMW M6 (F06, F12, F13)", anni: "2012–2018" }
+    - { nome: "BMW M8 (F91, F92, F93)", anni: "2019–2025" }
+  storia: >-
+    V8 a 90° derivato dall'N63, con i due turbocompressori twin-scroll collocati nella V delle bancate e un collettore di
+    scarico che raggruppa i cilindri delle due bancate per regolarizzare gli impulsi. Lo S63TU del 2011 ha introdotto
+    Valvetronic, compressione 10,0:1 e pressione di sovralimentazione di 1,5 bar. Le versioni F90 e M8 adottano iniezione a
+    350 bar, raffreddamento indiretto dell'aria di sovralimentazione e coppa olio con pozzetto anteriore aggiuntivo.
+  punti_deboli:
+    - "Consumo d'olio da circa 50.000 km per incrostazioni nelle cave delle fasce elastiche"
+    - "Indurimento dei paraolio delle valvole"
+    - "Mancate accensioni per usura delle candele, sollecitate dall'alta sovralimentazione"
+    - "Calore nel vano motore che riduce la durata della batteria, specie nei climi caldi"
+  limiti: >-
+    Il limite pratico è termico: i turbo nella V richiedono una gestione del raffreddamento molto spinta. Con sola centralina
+    le versioni F90 superano indicativamente i 700 CV; oltre diventano critici turbocompressori di serie e cambio.
+  curiosita:
+    - "Lo S63 delle X5 M e X6 M del 2009 è stato il primo motore BMW M con turbocompressori e con iniezione diretta."
+    - "Il programma di assistenza N63 del 2014 non includeva le X5 M e X6 M con S63."
+
+- slug: bmw-s62
+  codice: S62B50
+  nome: BMW S62 V8
+  costruttore: BMW
+  paese: Germania
+  inizio: 1998
+  fine: 2003
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4941
+  alesaggio: 94.0
+  corsa: 89.0
+  compressione: "11.0:1"
+  distribuzione: DOHC a doppia catena, doppio VANOS
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint, Siemens MSS 52, otto farfalle singole
+  cv_min: 400
+  cv_max: 400
+  nm_max: 500
+  limitatore: 7000
+  in_breve:
+    - { valore: "Doppio VANOS", testo: "primo V8 BMW con fasatura variabile su aspirazione e scarico" }
+    - { valore: "8 farfalle", testo: "corpi farfallati singoli a comando elettronico con mappa normale e sport" }
+    - { valore: "400 CV", testo: "a 6600 giri/min con 500 Nm a 3800 giri/min" }
+  versioni:
+    - { nome: "M5 (E39)", anni: "1998–2003", cv: 400, nm: 500, nota: "" }
+    - { nome: "Z8 (E52)", anni: "2000–2003", cv: 400, nm: 500, nota: "" }
+  modelli:
+    - { nome: "BMW M5 (E39)", anni: "1998–2003" }
+    - { nome: "BMW Z8 (E52)", anni: "2000–2003" }
+    - { nome: "Ascari KZ1, A10", anni: "2005–2010" }
+  storia: >-
+    V8 aspirato di BMW M derivato dall'M62, con cilindrata portata a 4941 cc e compressione da 10,0 a 11,0:1. Adotta doppio
+    VANOS, alberi a camme cavi, catena di distribuzione a doppia fila, albero motore e bielle forgiati e lubrificazione a
+    carter semisecco con due pompe di recupero. È stato montato sulla M5 E39 e sulla Z8 e fornito ad Ascari per KZ1 e A10.
+  punti_deboli:
+    - "Unità VANOS: elettrovalvole, guarnizioni e gioco dei cuscinetti degli ingranaggi, con minimo irregolare e calo di potenza"
+    - "Usura delle bronzine di biella ad alto chilometraggio"
+    - "Pattini guidacatena in plastica, da sostituire in via preventiva intorno ai 160.000 km"
+    - "Perdite d'olio dalla guarnizione del coperchio punterie, della coppa e dal supporto filtro"
+  limiti: >-
+    Motore aspirato già ad alto rendimento specifico: con scarico e centralina i guadagni sono contenuti. Aumenti consistenti
+    richiedono sovralimentazione; i componenti critici sono bronzine di biella e unità VANOS.
+  curiosita:
+    - "La M5 E39 è stata la prima M5 con motore V8."
+    - "Le otto farfalle sono azionate elettronicamente e il guidatore può scegliere tra due mappe di risposta dell'acceleratore."
+
+- slug: bmw-m70-s70
+  codice: M70B50 / S70B56
+  nome: BMW M70 / S70 V12
+  costruttore: BMW
+  paese: Germania
+  inizio: 1987
+  fine: 1996
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4988
+  alesaggio: 84.0
+  corsa: 75.0
+  compressione: "8.8–9.8:1"
+  distribuzione: SOHC a catena per bancata, punterie idrauliche
+  valvole: 2
+  blocco: Alusil, senza canne riportate
+  testa: Alluminio
+  iniezione: Indiretta multipoint, due centraline Bosch Motronic
+  cv_min: 300
+  cv_max: 380
+  nm_max: 550
+  limitatore: 6400
+  in_breve:
+    - { valore: "Primo", testo: "V12 BMW di serie, presentato sulla 750i E32 nel 1987" }
+    - { valore: "2 x 6", testo: "due sistemi Motronic indipendenti, uno per bancata, con acceleratore elettronico EML" }
+    - { valore: "1510", testo: "esemplari della 850CSi con lo S70B56 da 5576 cc" }
+  versioni:
+    - { nome: "M70B50 (750i, 750iL E32)", anni: "1987–1994", cv: 300, nm: 450, nota: "84 x 75 mm, compressione 8,8:1" }
+    - { nome: "M70B50 (850i, 850Ci E31)", anni: "1989–1994", cv: 300, nm: 450, nota: "" }
+    - { nome: "S70B56 (850CSi E31)", anni: "1992–1996", cv: 380, nm: 550, nota: "5576 cc, 86 x 80 mm, compressione 9,8:1" }
+  modelli:
+    - { nome: "BMW 750i, 750iL (E32)", anni: "1987–1994" }
+    - { nome: "BMW 850i, 850Ci (E31)", anni: "1989–1994" }
+    - { nome: "BMW 850CSi (E31)", anni: "1992–1996" }
+    - { nome: "McLaren F1 (motore BMW S70/2 da 6064 cc, progetto distinto a 4 valvole)", anni: "1993–1998" }
+  storia: >-
+    V12 a 60° con basamento in Alusil, un albero a camme per bancata e due valvole per cilindro. La gestione è affidata a due
+    sistemi Motronic indipendenti, uno per bancata, con pompe, collettori del carburante e corpi farfallati separati e
+    acceleratore elettronico: se una bancata si guasta il motore continua a funzionare con l'altra. BMW Motorsport ha
+    portato la cilindrata a 5576 cc nello S70B56 della 850CSi, con alesaggio e corsa maggiorati e camme riprofilate.
+  punti_deboli:
+    - "Spinterogeni e spazzole rotanti soggetti a usura, con perdita di potenza e aumento dei consumi"
+    - "Manicotti in gomma tra collettori di aspirazione e teste che si induriscono e causano infiltrazioni d'aria"
+    - "Motorini passo-passo delle farfalle che generano errori del sistema EML"
+    - "Perdite d'olio dal coperchio superiore della distribuzione sui primi motori"
+  limiti: >-
+    Motore aspirato a compressione moderata: aumenti consistenti di potenza richiedono più cilindrata, come nello S70B56, o
+    la sovralimentazione. Componenti critici l'accensione a spinterogeno e il sistema di gestione delle farfalle EML.
+  curiosita:
+    - "Il motore S70/2 della McLaren F1 condivide la sigla ma è un progetto distinto da 6064 cc, a quattro valvole per cilindro con VANOS."
+    - "La 850CSi è stata prodotta in 1510 esemplari e non è stata omologata per il mercato statunitense."

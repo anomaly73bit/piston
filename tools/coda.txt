@@ -2,33 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Fiat FIRE 1.2 8v | Panda, Punto, Uno; famiglia FIRE aspirata
-Fiat/Alfa Romeo 1.4 MultiAir | Giulietta, MiTo, 500X; distribuzione elettroidraulica
-Fiat/Lancia 2.0 16v turbo Delta Integrale | testata 16v dal 1989; Lancia Delta HF Integrale 16v ed Evoluzione
-Alfa Romeo 2.0 Twin Spark 8v e Nord bialbero | solo se distinto dalla scheda Twin Spark esistente, altrimenti saltare
-Fiat 1.3 Multijet | Panda, Punto, Ypsilon, Opel Corsa; piccolo diesel common rail
-Alfa Romeo 1750 TBi | Giulietta QV, 4C; turbo a iniezione diretta
-Fiat 2.0 Multijet / 2.2 JTDm | Alfa 159, Giulia, Stelvio diesel
-Lancia/Ferrari 3.0 V8 Thema 8.32 | motore Ferrari F105L sulla Lancia Thema
-Ferrari F105 V8 (308/328/Mondial) | dal 1980: 308 QV, 328, Mondial
-Ferrari F113 flat-12 Testarossa | Testarossa, 512 TR, F512 M
-Ferrari F120 V8 biturbo F40 | F40, 288 GTO evoluzione
-Ferrari F133 V12 | 456, 550 Maranello, 575M
-Ferrari F131 V8 | F355, 360 Modena
-Lamborghini V12 Bizzarrini (Countach/Diablo/Murciélago) | dal 1980: Countach QV, Diablo, Murciélago
-Lamborghini V10 5.0 (Gallardo prima serie) | 2003–2008
-Maserati biturbo V6 (Biturbo anni '80) | Biturbo, Ghibli II, Shamal V8
-Maserati F160 3.0 V6 biturbo | Ghibli, Quattroporte, Levante V6
-BMW M20 | sei cilindri piccolo, E30 320i/325i
-BMW M30 | sei cilindri grande, E28, E34, E32
-BMW M50 / M52 | E36, E39
-BMW S50 / S52 | M3 E36
-BMW S38 | M5 E28/E34
-BMW N47 2.0 diesel | catena di distribuzione posteriore difettosa
-BMW N55 | sei cilindri turbo singolo twin-scroll
-BMW S63 V8 biturbo | M5 F10/F90, X5 M
-BMW S62 V8 | M5 E39
-BMW M70 / S70 V12 | 750i E32, McLaren F1 S70/2
 BMW B48 | quattro cilindri modulare
 BMW B47 / B57 diesel | quattro e sei cilindri diesel modulari
 Mercedes M117 / M119 V8 | 500 SL, 500 E, 560 SEL

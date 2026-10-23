@@ -55,3 +55,8 @@
   testo: >-
     Niente pistoni né valvole: un rotore triangolare gira in una camera epitrocoidale. Leggerissimo e molto
     compatto, ma con consumi e tenute difficili. In questo sito il numero di "cilindri" indica i rotori.
+- id: Boxer 12
+  nome: Dodici cilindri contrapposti
+  testo: >-
+    Due bancate di sei cilindri a 180° su un basamento molto basso, che abbassa il baricentro nelle vetture a motore centrale.
+    Nelle realizzazioni Ferrari le bielle contrapposte condividono lo stesso perno di manovella, per cui tecnicamente è un V a 180° più che un boxer puro.
