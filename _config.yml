@@ -5,9 +5,9 @@ description: >-
   dei motori d'automobile costruiti dal 1980 a oggi.
 lang: it
 
-# Per GitHub Pages su https://anomaly73bit.github.io/piston
-url: "https://anomaly73bit.github.io"
-baseurl: "/piston"
+# Dominio personalizzato (file CNAME)
+url: "https://piston.pacificit.solutions"
+baseurl: ""
 
 collections:
   motori:

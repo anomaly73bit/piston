@@ -32,8 +32,7 @@ tools/anteprima.py      anteprima senza Ruby (solo per controllo)
 
 1. Crea il repository `piston` su GitHub e carica questi file.
 2. In *Settings > Pages* scegli *Deploy from a branch*, ramo `main`, cartella `/ (root)`.
-3. Il sito sarà su `https://anomaly73bit.github.io/piston/`.
-   Per un dominio tuo: imposta `baseurl: ""` e `url` in `_config.yml` e aggiungi il file `CNAME`.
+3. Il sito è su `https://piston.pacificit.solutions/` (file `CNAME`, `baseurl: ""` in `_config.yml`).
 
 ## In locale
 
