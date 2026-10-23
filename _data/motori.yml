@@ -43,20 +43,21 @@
     - { nome: "Toyota Supra (A80)", anni: "1993–2002" }
     - { nome: "Toyota Aristo / Lexus GS (S140, S160)", anni: "1991–2004" }
   storia: >-
-    Nato come evoluzione del 1JZ, il 2JZ-GTE debutta nel 1991 sull'Aristo e diventa leggenda con la Supra A80.
-    Il blocco in ghisa a sei cilindri in linea, con alesaggio e corsa quadri e una robustezza sovradimensionata,
-    è stato progettato per affidabilità e coppia, non per stare al limite. Proprio questo margine lo ha reso
-    il riferimento assoluto del tuning giapponese a fine anni '90.
+    Sviluppato dal 1JZ con corsa allungata da 71,5 a 86 mm, debutta nel 1991 sulla Toyota Aristo e dal 1993
+    equipaggia la Supra A80. Basamento in ghisa a sette supporti di banco, albero motore in acciaio forgiato,
+    bielle forgiate e pistoni con getti d'olio sotto il cielo. Sovralimentazione a due turbo in configurazione
+    sequenziale con intercooler aria-aria. Dal 1997 adotta la fasatura variabile VVT-i sull'albero di aspirazione.
   punti_deboli:
     - Turbine sequenziali originali con tenute delicate dopo molti anni
     - Valvole di controllo del sistema sequenziale (tubazioni vuoto) soggette a guasti
     - Cinghia di distribuzione da sostituire regolarmente (motore non interferente sulle prime versioni)
   limiti: >-
-    Basamento e albero di serie reggono oltre 700 CV; le bielle originali sono di solito considerate il limite
-    intorno a 700–800 CV. Con interni forgiati si superano i 1000 CV sul blocco di serie.
+    Basamento e albero motore di serie sopportano oltre 700 CV. Le bielle originali sono il primo componente
+    critico, indicativamente tra 700 e 800 CV. Con bielle e pistoni forgiati il basamento di serie supera i 1000
+    CV.
   curiosita:
-    - La versione VVT-i del 1997 aumenta la coppia ai medi regimi senza cambiare la potenza dichiarata.
-    - Il film "Fast and Furious" (2001) ha contribuito a renderlo un'icona fuori dal Giappone.
+    - "La versione VVT-i del 1997 aumenta la coppia ai regimi medi a parità di potenza dichiarata."
+    - "Il sistema sequenziale fa lavorare il primo turbo da solo fino a circa 4000 giri/min, poi apre il secondo."
 
 - slug: nissan-rb26dett
   codice: RB26DETT
@@ -91,19 +92,20 @@
     - { nome: "Nissan Skyline GT-R (R32, R33, R34)", anni: "1989–2002" }
     - { nome: "Nissan Stagea 260RS", anni: "1997–2001" }
   storia: >-
-    Progettato per vincere nel Gruppo A, l'RB26 ha una cilindrata di 2,6 litri scelta per rientrare nella classe di peso
-    più favorevole con il coefficiente turbo. Con la R32 GT-R dominò il campionato giapponese turismo vincendo tutte le gare
-    a cui partecipò, guadagnandosi il soprannome di "Godzilla".
+    Progettato per l'omologazione Gruppo A: la cilindrata di 2568 cc, moltiplicata per il coefficiente turbo 1,7,
+    colloca la vettura nella classe fino a 4,5 litri. Basamento in ghisa, testata in alluminio bialbero a 24
+    valvole, sei corpi farfallati singoli e due turbo in parallelo con giranti in ceramica. La R32 GT-R vinse
+    tutte le 29 gare del campionato giapponese Gruppo A a cui partecipò tra il 1990 e il 1993.
   punti_deboli:
     - Collare di trascinamento della pompa olio, che si rompe soprattutto con limitatori alzati
     - Lubrificazione del treno valvole posteriore a regimi molto alti
     - Turbine con giranti in ceramica fragili oltre la pressione di serie
   limiti: >-
-    Su blocco e interni di serie si considerano sicuri circa 450–500 CV; oltre servono pompa olio rinforzata e bielle forgiate.
-    Le preparazioni da corsa superano ampiamente i 1000 CV.
+    Con interni di serie il limite indicativo è 450–500 CV. Oltre servono pompa olio con trascinamento rinforzato,
+    bielle forgiate e turbine con giranti in acciaio. Le unità da competizione superano i 1000 CV.
   curiosita:
-    - Tutte le GT-R di serie dichiaravano 280 CV, ma la potenza reale era spesso superiore.
-    - Molti esemplari esportati sono arrivati negli USA solo dopo i 25 anni di età per le regole d'importazione.
+    - "La potenza dichiarata di 280 CV rispettava l'accordo volontario tra i costruttori giapponesi; le misure al banco risultano spesso superiori."
+    - "La pompa olio è trascinata direttamente dall'albero motore tramite un collare: sopra gli 8000 giri/min è il punto di rottura più frequente."
 
 - slug: honda-b16
   codice: B16A / B16B
@@ -139,17 +141,19 @@
     - { nome: "Honda Integra (DA, DC2)", anni: "1989–2001" }
     - { nome: "Honda Civic Type R (EK9)", anni: "1997–2000" }
   storia: >-
-    Il B16A del 1989 porta al grande pubblico il VTEC, la fasatura a doppio profilo di camme che cambia carattere sopra i
-    5000–6000 giri. Superare i 100 CV/litro da aspirato su un motore di serie economico fu una piccola rivoluzione.
-    La versione B16B della Civic Type R portò il limite a 185 CV da 1,6 litri.
+    Primo motore di serie con VTEC (1989): ogni coppia di valvole ha due profili di camma, a basso e alto regime,
+    selezionati da un perno idraulico che solidarizza i bilancieri tra 5000 e 6000 giri/min. Rapporto
+    corsa/alesaggio di 0,96 e limitatore oltre gli 8000 giri/min. La versione B16B della Civic Type R EK9
+    raggiunge 185 CV, 116 CV/litro.
   punti_deboli:
     - Regolazione periodica del gioco valvole (punterie meccaniche)
     - Consumo d'olio negli esemplari spremuti a lungo agli alti regimi
     - Guarnizioni del solenoide VTEC e sensore pressione olio
   limiti: >-
-    Molto amato per swap e preparazioni aspirate; con turbo il blocco di serie regge in genere 250–300 CV con mappatura curata.
+    Con preparazioni aspirate (alberi a camme, aspirazione, scarico, gestione) si superano i 200 CV. Con turbo il
+    blocco di serie sopporta in genere 250–300 CV con mappatura adeguata; oltre servono canne e bielle rinforzate.
   curiosita:
-    - Il "click" del VTEC è diventato un meme ben prima dei social network.
+    - "Il passaggio al profilo di alta avviene in base a giri, carico, velocità e temperatura dell'olio."
 
 - slug: honda-k20a
   codice: K20A
@@ -184,17 +188,19 @@
     - { nome: "Honda Integra Type R (DC5)", anni: "2001–2006" }
     - { nome: "Honda Accord Euro R (CL7)", anni: "2002–2008" }
   storia: >-
-    La famiglia K sostituisce la serie B con distribuzione a catena e i-VTEC, che unisce il cambio di profilo
-    alla variazione continua della fasatura di aspirazione. Le versioni Type R combinano coppia più piena e
-    limitatori oltre gli 8000 giri: è oggi il motore di riferimento per gli swap Honda.
+    La famiglia K sostituisce la serie B con distribuzione a catena e i-VTEC: VTEC sulle valvole più fasatura
+    variabile continua (VTC) sull'albero di aspirazione, fino a 50° di variazione. Basamento in alluminio con
+    canne in ghisa e alberi di equilibratura assenti sul 2.0. Le versioni Type R hanno compressione 11,5:1 e
+    limitatore oltre gli 8000 giri/min.
   punti_deboli:
     - Usura dei lobi dell'albero a camme di scarico su alcune versioni
     - Tenditore catena da controllare a chilometraggi alti
     - Guarnizione coperchio valvole e porta VTC
   limiti: >-
-    Il blocco con canne in ghisa sostiene preparazioni turbo intorno ai 400 CV con interni di serie e mappatura prudente.
+    Con interni di serie e mappatura prudente sopporta preparazioni turbo intorno ai 400 CV. Per valori superiori
+    servono bielle e pistoni forgiati.
   curiosita:
-    - Si trova trapiantato in tutto, dalle Lotus Elise alle Mazda MX-5 da competizione.
+    - "L'albero a camme di scarico usa profili VTEC solo sulle versioni Type R; le versioni economiche hanno VTEC solo in aspirazione."
 
 - slug: honda-f20c
   codice: F20C / F22C1
@@ -227,16 +233,18 @@
   modelli:
     - { nome: "Honda S2000 (AP1, AP2)", anni: "1999–2009" }
   storia: >-
-    Sviluppato apposta per la roadster S2000, l'F20C detenne a lungo il record di potenza specifica per un aspirato di serie:
-    125 CV/litro. Canne cilindri in FRM e componenti leggeri gli permettono di vivere a 9000 giri.
+    Sviluppato per la Honda S2000 (1999). Canne cilindri in FRM (fibre metalliche in matrice di alluminio)
+    integrate nel basamento, bielle in acciaio al cromo-molibdeno, pistoni forgiati. Con 125 CV/litro è stato per
+    diversi anni l'aspirato di serie con la potenza specifica più alta. Nel 2004 la versione F22C1 allunga la
+    corsa a 90,7 mm e abbassa il limitatore a 8000 giri/min.
   punti_deboli:
     - "Consumo d'olio se usato spesso al limitatore: controllare il livello frequentemente"
     - Tenditore catena e gioco valvole
-    - Fuorigiri da scalata errata (il 'money shift') su esemplari usati
+    - Fuorigiri da scalata errata su esemplari usati: verificare il registro dei fuorigiri in centralina
   limiti: >-
-    Con compressore volumetrico si arriva a 350–400 CV; il limite pratico sono le bielle di serie.
+    Con compressore volumetrico si raggiungono 350–400 CV; il limite pratico sono le bielle di serie.
   curiosita:
-    - La S2000 aveva un contagiri digitale che si estendeva fino a 10.000 giri.
+    - "Il limitatore delle versioni 2.0 litri è a 9000 giri/min; la 2.2 litri F22C1 lo abbassa a 8000."
 
 - slug: toyota-4a-ge
   codice: 4A-GE
@@ -272,15 +280,16 @@
     - { nome: "Toyota MR2 (AW11)", anni: "1984–1989" }
     - { nome: "Toyota Corolla (AE92, AE101, AE111)", anni: "1987–2000" }
   storia: >-
-    Sviluppato con il contributo di Yamaha, il 4A-GE ha dato a Toyota un bialbero leggero e libero di girare per le sue
-    sportive compatte. È il cuore della AE86, auto culto del drifting, e ha avuto una lunga carriera in Formula 3.
+    Bialbero a 16 valvole sviluppato con Yamaha per la testata, montato dal 1983 su Corolla AE86 e MR2. Nel 1991
+    passa a 5 valvole per cilindro (tre in aspirazione, due allo scarico) e nel 1995 ai corpi farfallati singoli.
+    Il basamento in ghisa è comune al 4A-F di serie.
   punti_deboli:
     - Cinghia di distribuzione (le 20v sono a interferenza)
     - Albero motore a 'collo sottile' sulle prime versioni a regimi molto alti
   limiti: >-
-    Ottimo per preparazioni aspirate; il limite sono le bielle sopra gli 8500 giri.
+    Adatto alle preparazioni aspirate. Sopra gli 8500 giri/min le bielle di serie diventano il limite.
   curiosita:
-    - Una versione da corsa è stata a lungo il motore standard della Formula Atlantic e della F3.
+    - "Versioni da competizione sono state impiegate in Formula 3 e Formula Atlantic."
 
 - slug: toyota-1uz-fe
   codice: 1UZ-FE
@@ -314,15 +323,17 @@
     - { nome: "Lexus SC400 / Toyota Soarer", anni: "1991–2000" }
     - { nome: "Lexus GS400", anni: "1997–2000" }
   storia: >-
-    Creato per l'ammiraglia Lexus LS400, con cui Toyota sfidò Mercedes e BMW nel 1989, il 1UZ-FE punta tutto su
-    silenziosità e finitura. La pubblicità con la piramide di bicchieri sul cofano a motore acceso è rimasta storica.
+    V8 a 90° tutto in alluminio, sviluppato per la Lexus LS400 (1989). Quattro alberi a camme comandati da
+    cinghia, 32 valvole, canne in ghisa riportate nel basamento. Progettato con priorità su silenziosità e assenza
+    di vibrazioni. Dal 1997 adotta la fasatura variabile VVT-i.
   punti_deboli:
     - Cinghia di distribuzione e pompa acqua da cambiare insieme
     - Bobine di accensione e sensori su esemplari molto anziani
   limiti: >-
-    Molto popolare negli swap per la robustezza; con compressore supera i 400 CV su interni di serie.
+    Con compressore volumetrico supera i 400 CV su interni di serie. Usato frequentemente come motore di trapianto
+    per la robustezza del basamento.
   curiosita:
-    - È uno dei V8 più usati negli swap su auto giapponesi da drift.
+    - "Toyota presentò la LS400 con una dimostrazione di bassa vibrazione: una piramide di bicchieri sul cofano a motore acceso."
 
 - slug: toyota-a25a
   codice: A25A-FKS / FXS
@@ -356,15 +367,15 @@
     - { nome: "Toyota RAV4 (XA50)", anni: "2018–oggi" }
     - { nome: "Lexus ES / NX / UX", anni: "2018–oggi" }
   storia: >-
-    Primo motore della famiglia Dynamic Force, l'A25A dichiara un rendimento termico del 40% (41% in versione ibrida),
-    valore a lungo riservato ai motori da corsa o ai diesel. La corsa lunga e la compressione altissima sono state
-    scelte per efficienza, non per prestazioni.
+    Primo motore della famiglia Dynamic Force (2017). Corsa lunga (rapporto corsa/alesaggio 1,18), compressione
+    13:1 o 14:1 sulla versione ibrida, condotti di aspirazione ad alta turbolenza e fasatura di aspirazione a
+    comando elettrico. Toyota dichiara un rendimento termico massimo del 40%, 41% nella versione ibrida.
   punti_deboli:
     - Ancora pochi difetti noti; segnalazioni isolate di consumi d'olio e rumorosità della catena a freddo
   limiti: >-
-    Non pensato per elaborazioni: la compressione molto alta rende rischiosa la sovralimentazione.
+    Non adatto alla sovralimentazione: la compressione molto alta aumenta il rischio di detonazione.
   curiosita:
-    - Usa sia iniezione diretta sia indiretta, scegliendo in base al carico.
+    - "L'iniezione D-4S combina iniettori diretti e indiretti, ripartendo il carburante in base al carico."
 
 - slug: mitsubishi-4g63t
   codice: 4G63T
@@ -400,15 +411,19 @@
     - { nome: "Mitsubishi Galant VR-4", anni: "1987–1992" }
     - { nome: "Eagle Talon / Mitsubishi Eclipse (1G, 2G)", anni: "1989–1999" }
   storia: >-
-    Blocco in ghisa con alberi di equilibratura, il 4G63 turbo ha corso e vinto nel Mondiale Rally con Tommi Mäkinen
-    (quattro titoli piloti dal 1996 al 1999). Per vent'anni è stato il rivale diretto del boxer Subaru.
+    Quattro cilindri in ghisa con due alberi di equilibratura, testata bialbero a 16 valvole e turbo singolo con
+    intercooler. Base della Galant VR-4 (1987) e delle Lancer Evolution fino alla IX (2007). Con questo motore
+    Mitsubishi vinse quattro titoli piloti consecutivi nel Mondiale Rally con Tommi Mäkinen (1996–1999) e il
+    titolo costruttori nel 1998.
   punti_deboli:
     - Crankwalk (gioco assiale dell'albero) sui blocchi a 7 bulloni del 1995–1999 nelle Eclipse
     - "Cinghia di distribuzione e cinghia alberi di equilibratura: la rottura è distruttiva"
   limiti: >-
-    Il blocco regge oltre 500 CV con interni di serie ben gestiti; con forgiati si superano i 1000 CV.
+    Il basamento sopporta oltre 500 CV con interni di serie e gestione corretta; con bielle e pistoni forgiati
+    supera i 1000 CV.
   curiosita:
-    - Il suo successore, il 4B11 della Evo X, ha blocco in alluminio.
+    - "Dalla Evo IV il motore è ruotato di 180° nel vano per ridurre l'effetto coppia sullo sterzo."
+    - "Il successore 4B11 della Evo X ha basamento in alluminio."
 
 - slug: nissan-vr38dett
   codice: VR38DETT
@@ -442,15 +457,17 @@
   modelli:
     - { nome: "Nissan GT-R (R35)", anni: "2007–2025" }
   storia: >-
-    Ogni VR38DETT è assemblato a mano da un singolo tecnico (takumi) in una camera bianca a Yokohama, che firma una targhetta
-    sul motore. Diciotto anni di produzione sulla stessa auto ne fanno uno dei motori sportivi più longevi dell'era moderna.
+    V6 a 60° biturbo per la Nissan GT-R R35 (2007). Basamento in alluminio con canne rivestite al plasma invece
+    delle camicie riportate, un turbo IHI per bancata. Ogni unità è assemblata a mano da un singolo tecnico nello
+    stabilimento di Yokohama. In produzione per 18 anni sulla stessa vettura.
   punti_deboli:
     - Bobine e sensori di detonazione con l'età
     - Consumo d'olio e usura delle canne in caso di detonazione su mappe aggressive
   limiti: >-
-    Interni di serie considerati affidabili fino a circa 700–750 CV; con blocco preparato si superano i 1500 CV nelle gare di accelerazione.
+    Gli interni di serie sono considerati affidabili fino a 700–750 CV. Con basamento preparato le unità da
+    accelerazione superano i 1500 CV.
   curiosita:
-    - La targhetta del takumi è diventata un elemento da collezionisti.
+    - "Il rivestimento al plasma delle canne riduce peso e attrito rispetto alle camicie in ghisa."
 
 - slug: mazda-13b-rew
   codice: 13B-REW
@@ -484,16 +501,20 @@
     - { nome: "Mazda RX-7 (FD3S)", anni: "1991–2002" }
     - { nome: "Eunos Cosmo (JC)", anni: "1990–1995" }
   storia: >-
-    Birotore con i primi turbo sequenziali di grande serie, il 13B-REW unisce leggerezza, ingombri minimi e una
-    progressione impressionante. Il "cilindri: 2" indica qui i due rotori: la cilindrata è quella di una camera per rotore (2 x 654 cc).
+    Birotore Wankel con due turbo in configurazione sequenziale, montato sulla RX-7 FD (1991). Ogni rotore ha
+    camere da 654 cc: la cilindrata di 1308 cc è riferita a una camera per rotore. In questo sito il campo
+    'cilindri' indica il numero di rotori. Massa e ingombri sono nettamente inferiori a quelli di un motore
+    alternativo di pari potenza.
   punti_deboli:
     - "Tenute d'apice e laterali: la compressione va misurata prima dell'acquisto"
-    - Il groviglio di tubi del vuoto del sistema sequenziale ('rat's nest')
+    - Tubazioni del vuoto del sistema sequenziale: invecchiano e causano malfunzionamenti del secondo turbo
     - "Surriscaldamento: radiatore e sensori vanno tenuti in perfetto stato"
   limiti: >-
-    Con turbo singolo e gestione corretta si arriva a 400 CV mantenendo affidabilità ragionevole; oltre servono tenute e luci modificate.
+    Con turbo singolo e gestione adeguata raggiunge circa 400 CV con affidabilità accettabile. Oltre servono
+    tenute d'apice rinforzate e luci di aspirazione modificate.
   curiosita:
-    - Un motore rotativo (il 26B a quattro rotori) ha vinto Le Mans nel 1991 con la Mazda 787B.
+    - "Un motore rotativo a quattro rotori, il 26B, ha vinto la 24 Ore di Le Mans nel 1991 con la Mazda 787B."
+    - "Il controllo del sistema sequenziale usa una rete di valvole e tubazioni del vuoto."
 
 - slug: mazda-renesis
   codice: 13B-MSP Renesis
@@ -525,16 +546,20 @@
   modelli:
     - { nome: "Mazda RX-8", anni: "2003–2012" }
   storia: >-
-    Il Renesis sposta le luci di scarico sui lati per ridurre consumi ed emissioni rispetto al 13B precedente.
-    È stato nominato Motore Internazionale dell'Anno nel 2003. È l'ultimo rotativo di serie a muovere da solo un'auto.
+    Evoluzione aspirata del 13B per la RX-8 (2003). Le luci di scarico sono spostate dalla periferia ai lati della
+    camera: eliminano la sovrapposizione tra aspirazione e scarico e riducono consumi ed emissioni di idrocarburi
+    incombusti. Motore Internazionale dell'Anno nel 2003. Ultimo rotativo di serie usato come unica propulsione di
+    un'auto.
   punti_deboli:
     - Bassa compressione per usura delle tenute, specie se usato poco ai regimi alti
     - "Bobine e candele: si allagano facilmente se spento a freddo"
     - Consumo d'olio per progetto (l'olio lubrifica le tenute)
   limiti: >-
-    Poco adatto alla sovralimentazione senza rinforzi; la maggior parte delle preparazioni punta su affidabilità.
+    Poco adatto alla sovralimentazione senza rinforzi delle tenute; la maggior parte degli interventi riguarda
+    l'affidabilità.
   curiosita:
-    - Mazda è tornata al rotativo nel 2023 come generatore nella MX-30 R-EV.
+    - "Mazda è tornata al rotativo nel 2023 come generatore di autonomia sulla MX-30 R-EV."
+    - "L'olio è iniettato nella camera per lubrificare le tenute: un consumo d'olio regolare è previsto dal progetto."
 
 - slug: subaru-ej
   codice: EJ20 / EJ25
@@ -569,17 +594,20 @@
     - { nome: "Subaru Impreza WRX / WRX STI", anni: "1992–2021" }
     - { nome: "Subaru Legacy / Forester (turbo)", anni: "1989–2012" }
   storia: >-
-    Il boxer EJ è stato il cuore della Subaru nel Mondiale Rally degli anni '90 (titoli costruttori 1995–1997, piloti con
-    McRae, Burns e Solberg). Il suono irregolare deriva dai collettori di scarico di lunghezza diversa.
-    Esiste anche in versione aspirata (EJ16, EJ18, EJ22, EJ25), qui non trattata a parte.
+    Boxer a quattro cilindri introdotto nel 1989 sulla Legacy, con basamento in alluminio e testate bialbero. I
+    primi EJ20 turbo hanno basamento semi-chiuso, le versioni successive a canne aperte (open-deck). Le versioni
+    turbo hanno equipaggiato Impreza WRX e WRX STI fino al 2021. Subaru ha vinto con questo motore i titoli
+    costruttori del Mondiale Rally dal 1995 al 1997. Esistono versioni aspirate (EJ16, EJ18, EJ22, EJ25) qui non
+    trattate separatamente.
   punti_deboli:
     - Rottura dei 'ring land' dei pistoni (EJ255/EJ257) per detonazione
     - Guarnizioni della testata, soprattutto sugli EJ25 aspirati
     - Bronzine di biella e pescante olio in caso di uso in pista prolungato
   limiti: >-
-    Il blocco a canne aperte è il punto debole: oltre 350–400 CV conviene un blocco chiuso o con canne rinforzate.
+    Il basamento open-deck è il punto debole: oltre 350–400 CV conviene un basamento closed-deck o canne
+    rinforzate.
   curiosita:
-    - Il "rumble" del boxer Subaru scompare con collettori a lunghezza uguale, adottati dal 2008 su alcuni modelli.
+    - "Il suono irregolare tipico deriva dai collettori di scarico di lunghezza diversa; dal 2008 alcuni modelli adottano collettori a lunghezza uguale."
 
 - slug: bmw-s54
   codice: S54B32
@@ -615,16 +643,18 @@
     - { nome: "BMW Z3 M Coupé / M Roadster", anni: "2001–2002" }
     - { nome: "BMW Z4 M (E85/E86)", anni: "2006–2008" }
   storia: >-
-    Ultimo sei cilindri in linea aspirato della divisione M, l'S54 raggiunge 105 CV/litro senza turbo con un blocco in ghisa.
-    Il suono dell'airbox della CSL ne ha fatto un pezzo da collezione.
+    Ultimo sei cilindri in linea aspirato della divisione BMW M (2000). Basamento in ghisa, doppio VANOS ad alta
+    pressione, sei corpi farfallati singoli a comando elettronico. Raggiunge 105 CV/litro. La M3 CSL adotta un
+    airbox in carbonio che porta la potenza a 360 CV.
   punti_deboli:
     - "Bronzine di biella: sostituzione preventiva consigliata"
     - "VANOS: bulloni della pompa e guarnizioni"
     - Supporti del differenziale posteriore (carrozzeria E46, non motore)
   limiti: >-
-    Poco elaborato in potenza; con compressore volumetrico si raggiungono 450–500 CV mantenendo gli interni di serie.
+    Margini limitati da aspirato. Con compressore volumetrico si raggiungono 450–500 CV mantenendo gli interni di
+    serie.
   curiosita:
-    - Il limitatore a 8000 giri era altissimo per un sei cilindri da 3,2 litri a corsa lunga.
+    - "Il limitatore a 8000 giri/min corrisponde a una velocità media del pistone di circa 24 m/s, valore molto alto per un motore di serie."
 
 - slug: bmw-n54
   codice: N54B30
@@ -659,16 +689,19 @@
     - { nome: "BMW Serie 5 (E60), Serie 7 (F01), X6, Z4 (E89)", anni: "2007–2016" }
     - { nome: "BMW 1M Coupé", anni: "2011–2012" }
   storia: >-
-    Primo BMW benzina turbo a iniezione diretta di grande serie, l'N54 ha due piccoli turbo, uno ogni tre cilindri.
-    Ha vinto più volte il premio Engine of the Year ed è diventato un favorito degli elaboratori per la facilità con cui sale di potenza.
+    Primo sei cilindri BMW benzina con turbo e iniezione diretta di grande serie (2006). Due piccoli turbo,
+    ciascuno alimentato da tre cilindri, e iniettori piezoelettrici posizionati al centro della camera. Basamento
+    in alluminio, testata con doppio VANOS. Premiato più volte nella sua categoria all'International Engine of the
+    Year.
   punti_deboli:
     - Pompa carburante ad alta pressione (HPFP), soggetta a richiamo
     - Valvole wastegate rumorose e iniettori piezo
     - Depositi carboniosi sulle valvole di aspirazione (tipico dell'iniezione diretta)
   limiti: >-
-    Con turbo di serie si arriva a circa 400–450 CV; con turbo maggiorati il limite sono bielle e pompa carburante, intorno ai 600 CV.
+    Con turbo di serie si arriva a circa 400–450 CV. Con turbo maggiorati il limite sono bielle e pompa
+    carburante, intorno ai 600 CV.
   curiosita:
-    - "Si diffuse la battuta che BMW dichiarasse meno della potenza reale: molti esemplari di serie misuravano di più al banco."
+    - "Le misure al banco di esemplari di serie risultano spesso superiori alla potenza dichiarata."
 
 - slug: bmw-b58
   codice: B58B30
@@ -703,15 +736,17 @@
     - { nome: "BMW X3, X4, X5, X6, X7, Z4 (G29)", anni: "2017–oggi" }
     - { nome: "Toyota GR Supra (A90)", anni: "2019–oggi" }
   storia: >-
-    Parte della famiglia modulare BMW (500 cc per cilindro, condivisa con il 3 cilindri B38 e il 4 cilindri B48), il B58 usa
-    un unico turbo twin-scroll e un blocco closed-deck. È considerato uno dei sei in linea più riusciti di sempre.
+    Sei cilindri della famiglia modulare BMW (2015), con 500 cc per cilindro come il tre cilindri B38 e il quattro
+    cilindri B48. Basamento closed-deck in alluminio, turbo twin-scroll unico con collettore integrato,
+    intercooler aria-acqua nel collettore di aspirazione. Dal 2019 la versione TU aggiorna iniezione, turbo e
+    raffreddamento.
   punti_deboli:
     - Perdite dalla vaschetta di espansione e dal radiatore olio
     - Prime unità con guarnizione del coperchio filtro olio
   limiti: >-
-    Molto robusto: sulle versioni TU il blocco di serie gestisce 550–650 CV con turbo maggiorato.
+    Sulle versioni TU il basamento di serie sopporta 550–650 CV con turbo maggiorato.
   curiosita:
-    - È il motore che ha riportato in vita la Supra.
+    - "Fornito a Toyota per la GR Supra A90 dal 2019."
 
 - slug: vw-ea888
   codice: EA888
@@ -747,16 +782,19 @@
     - { nome: "Audi A3/S3, A4, A5, Q3, Q5, TT", anni: "2007–oggi" }
     - { nome: "Seat Leon Cupra, Škoda Octavia RS", anni: "2008–oggi" }
   storia: >-
-    Il motore benzina più diffuso del gruppo Volkswagen: generazioni successive hanno spinto la potenza da 160 a oltre 330 CV
-    con lo stesso blocco in ghisa. La Gen3 ha ridotto peso e consumi integrando il collettore di scarico nella testata.
+    Quattro cilindri turbo a iniezione diretta del gruppo Volkswagen (2007), basamento in ghisa con alberi di
+    equilibratura. Nelle generazioni successive la potenza passa da 160 a 333 CV. La Gen3 (2012) integra il
+    collettore di scarico nella testata, adotta iniezione doppia diretta e indiretta e modulo termico per la
+    gestione del liquido di raffreddamento.
   punti_deboli:
     - "Gen1/Gen2: consumo d'olio dovuto ai segmenti pistone (sostituiti in garanzia in molti mercati)"
     - "Tenditore della catena di distribuzione sulle prime versioni: rischio di salto di catena"
     - Pompa acqua in plastica e termostato (Gen3) con perdite
   limiti: >-
-    Su interni di serie la Gen3 regge circa 400–450 CV con turbo maggiorato; oltre servono bielle e pistoni forgiati.
+    Con interni di serie la Gen3 sopporta circa 400–450 CV con turbo maggiorato; oltre servono bielle e pistoni
+    forgiati.
   curiosita:
-    - Lo stesso motore è prodotto in Europa, Cina, Messico e Sudamerica.
+    - "Prodotto in Europa, Cina, Messico e Sudamerica."
 
 - slug: vw-19-tdi
   codice: 1Z / AHU / AFN / ASZ / ARL
@@ -792,16 +830,18 @@
     - { nome: "Audi 80, A3, A4, A6", anni: "1991–2008" }
     - { nome: "Seat Ibiza/León, Škoda Octavia/Fabia", anni: "1996–2010" }
   storia: >-
-    Il 1.9 TDI ha cambiato l'Europa: iniezione diretta, turbo e intercooler resero il diesel brillante e parco nei consumi,
-    aprendo il boom delle auto diesel degli anni 2000. Con milioni di esemplari, è tra i motori più prodotti del gruppo.
+    Diesel a iniezione diretta con turbo e intercooler, introdotto sull'Audi 80 nel 1991. Prima versione con pompa
+    rotativa a controllo elettronico; dal 1996 turbo a geometria variabile; dal 2000 iniettore-pompa (Pumpe-Düse)
+    con pressioni fino a 2050 bar. È stato tra i motori più prodotti del gruppo e ha contribuito alla diffusione
+    del diesel sulle auto europee negli anni '90 e 2000.
   punti_deboli:
     - Usura dell'albero a camme sui PD (lobi che comandano gli iniettori-pompa)
     - Volano bimassa e turbo a geometria variabile bloccato da fuliggine
     - Valvola EGR e sensore flusso aria
   limiti: >-
-    Molto apprezzato per l'elaborazione: le versioni PD arrivano a 200 CV circa con iniettori maggiorati e frizione rinforzata.
+    Le versioni Pumpe-Düse arrivano a circa 200 CV con iniettori maggiorati e frizione rinforzata.
   curiosita:
-    - Esemplari con oltre un milione di chilometri sono documentati, soprattutto su taxi e furgoni.
+    - "Sono documentate unità oltre il milione di chilometri, soprattutto su taxi e veicoli commerciali."
 
 - slug: vw-ea189
   codice: EA189
@@ -835,17 +875,18 @@
     - { nome: "Audi A3, A4, A6, Q5", anni: "2008–2015" }
     - { nome: "Seat, Škoda (gruppo VW)", anni: "2008–2015" }
   storia: >-
-    Primo 2.0 TDI common rail del gruppo, l'EA189 è passato alla storia per il Dieselgate: nel 2015 l'EPA statunitense
-    scoprì un software che riconosceva i test di omologazione e riduceva le emissioni di NOx solo durante la prova.
-    Circa 11 milioni di veicoli in tutto il mondo furono coinvolti.
+    Primo 2.0 TDI common rail del gruppo Volkswagen (2007), iniettori piezoelettrici o elettromagnetici secondo
+    versione, filtro antiparticolato e ricircolo dei gas di scarico. Nel 2015 l'EPA statunitense accertò che la
+    centralina riconosceva il ciclo di omologazione e riduceva le emissioni di NOx solo durante la prova. Il caso,
+    noto come Dieselgate, ha coinvolto circa 11 milioni di veicoli nel mondo.
   punti_deboli:
     - Valvola EGR e filtro antiparticolato con uso cittadino
     - Pompa olio a esagono (azionamento) su alcune versioni
     - Aggiornamento software post-Dieselgate con effetti su EGR e DPF segnalati da molti utenti
   limiti: >-
-    Le mappature portano le versioni 140 CV oltre i 170–180 CV; il limite sono frizione e turbo.
+    Le versioni da 140 CV superano i 170–180 CV con mappatura; il limite sono frizione e turbo.
   curiosita:
-    - È sostituito dall'EA288, sviluppato in parallelo e già conforme alle normative più recenti.
+    - "Sostituito dall'EA288, sviluppato per le normative Euro 6."
 
 - slug: audi-25-tfsi
   codice: EA855
@@ -881,15 +922,16 @@
     - { nome: "Audi RS Q3", anni: "2013–oggi" }
     - { nome: "Cupra Formentor VZ5", anni: "2021–2024" }
   storia: >-
-    Erede spirituale del cinque cilindri della Quattro da rally degli anni '80, il 2.5 TFSI ha vinto per nove anni consecutivi
-    la sua categoria all'International Engine of the Year. L'ordine di accensione 1-2-4-5-3 gli dà il suono inconfondibile.
+    Cinque cilindri in linea turbo a iniezione diretta (2009), con ordine di accensione 1-2-4-5-3. Dal 2016 la
+    versione evo adotta basamento in alluminio (26 kg in meno) e iniezione doppia diretta e indiretta. Ha vinto la
+    propria categoria all'International Engine of the Year per nove anni consecutivi.
   punti_deboli:
     - Valvola di ricircolo PCV e bobine
     - Depositi carboniosi sulle versioni a sola iniezione diretta (pre-2016)
   limiti: >-
-    Molto elaborabile: l'evo regge 500–600 CV su interni di serie con turbo maggiorato; oltre servono bielle forgiate.
+    La versione evo sopporta 500–600 CV con interni di serie e turbo maggiorato; oltre servono bielle forgiate.
   curiosita:
-    - È uno degli ultimi cinque cilindri benzina ancora prodotti al mondo.
+    - "È uno degli ultimi cinque cilindri benzina in produzione."
 
 - slug: audi-v10-52-fsi
   codice: 5.2 FSI (CMP/DMN)
@@ -926,15 +968,16 @@
     - { nome: "Lamborghini Gallardo", anni: "2008–2013" }
     - { nome: "Lamborghini Huracán", anni: "2014–2024" }
   storia: >-
-    Derivato dal V10 5.0 della prima Gallardo, il 5.2 FSI con angolo di 90° tra le bancate equipaggia R8 e Huracán:
-    stessa base, accordature diverse. Con la fine della produzione nel 2024 si chiude l'era dei V10 aspirati di grande serie.
+    V10 a 90° derivato dal 5.0 della prima Lamborghini Gallardo, con perni di biella sfalsati per l'accensione
+    regolare. Lubrificazione a carter secco, iniezione diretta e, dal 2014, doppia iniezione diretta e indiretta.
+    Equipaggia Audi R8 e Lamborghini Huracán con tarature diverse. La produzione termina nel 2024.
   punti_deboli:
     - Sensori e bobine; perdite dalle tubazioni olio sulle prime versioni
     - Frizione e cambio E-gear/R tronic (trasmissione, non motore) sulle prime auto
   limiti: >-
-    Spesso biturbo-trasformato da preparatori statunitensi oltre i 1500 CV con interni forgiati.
+    Versioni biturbo realizzate da preparatori superano i 1500 CV con interni forgiati.
   curiosita:
-    - La stessa architettura V10 di base è stata impiegata anche su Audi S6/S8 con il 5.2 FSI 'Lamborghini' in versione ammorbidita.
+    - "Una variante a carter umido e taratura ridotta è stata montata su Audi S6 (C6) e S8 (D3)."
 
 - slug: mercedes-m156
   codice: M156 / M159
@@ -970,17 +1013,17 @@
     - { nome: "Mercedes E63, CLS63, S63, CL63, ML63, SL63 AMG", anni: "2006–2012" }
     - { nome: "Mercedes SLS AMG (M159)", anni: "2010–2015" }
   storia: >-
-    Primo motore progettato interamente da AMG, l'M156 nasce secondo la filosofia "un uomo, un motore": ogni unità è
-    assemblata da un solo tecnico ad Affalterbach. La sigla 6.3 sui modelli richiama la storica 300 SEL 6.3, anche se
-    la cilindrata reale è 6208 cc.
+    Primo motore progettato interamente da AMG (2006). V8 aspirato con basamento in lega alluminio-silicio,
+    fasatura variabile su tutti e quattro gli alberi a camme. Ogni unità è assemblata da un solo tecnico ad
+    Affalterbach. La sigla 6.3 riprende quella della 300 SEL 6.3, ma la cilindrata reale è 6208 cc.
   punti_deboli:
     - Bulloni della testata sui primi esemplari (2007–2008), con rischio di perdite di liquido
     - "Alberi a camme e punterie idrauliche: usura dei lobi su alcune unità"
     - Regolatori di fase delle camme
   limiti: >-
-    Da aspirato offre margini limitati; le preparazioni con compressore superano i 650 CV con interni di serie.
+    Margini limitati da aspirato. Con compressore si superano i 650 CV con interni di serie.
   curiosita:
-    - È stato l'ultimo V8 AMG aspirato prima del passaggio al biturbo.
+    - "L'M159 della SLS AMG adotta carter secco, alberi a camme e aspirazione modificati."
 
 - slug: mercedes-m177-m178
   codice: M177 / M178
@@ -1016,15 +1059,17 @@
     - { nome: "Mercedes-AMG C63 (W205), E63 (W213), S63, G63", anni: "2015–oggi" }
     - { nome: "Aston Martin Vantage, DB11 V8, DBX", anni: "2016–oggi" }
   storia: >-
-    V8 a "V caldo" con i turbo collocati tra le bancate, compatto e reattivo. Oltre ai modelli AMG è stato fornito ad
-    Aston Martin. Con la C63 W206 Mercedes è passata al quattro cilindri ibrido, ma l'M177 resta su G63, GT e modelli 63.
+    V8 biturbo a 90° (2014) con turbo twin-scroll collocati all'interno della V ('V caldo'), che riduce la
+    lunghezza dei condotti di scarico e i tempi di risposta. M178 con carter secco per AMG GT, M177 con carter
+    umido per berline e SUV. Fornito anche ad Aston Martin.
   punti_deboli:
     - Supporti motore e perdite dalle tubazioni dell'intercooler
     - "Calore elevato nel vano motore: componenti in plastica e cablaggi da controllare"
   limiti: >-
-    Elaborazioni di sola centralina oltre gli 800 CV; con turbo maggiorati e interni di serie si superano spesso i 900 CV.
+    Con sola centralina si superano gli 800 CV; con turbo maggiorati e interni di serie spesso oltre i 900 CV.
   curiosita:
-    - La disattivazione dei cilindri riduce i consumi spegnendo quattro cilindri a carico parziale.
+    - "Il sistema di disattivazione dei cilindri spegne quattro cilindri a carico parziale."
+    - "La versione M178 LS2 della AMG GT Black Series adotta albero motore piatto."
 
 - slug: mercedes-om606
   codice: OM606
@@ -1058,16 +1103,16 @@
     - { nome: "Mercedes S 300 Turbodiesel (W140)", anni: "1996–1998" }
     - { nome: "Mercedes G 300 Turbodiesel", anni: "1996–2001" }
   storia: >-
-    Ultimo diesel Mercedes a precamera con pompa meccanica, l'OM606 è leggendario per la longevità. Taxi e auto da
-    lavoro con oltre un milione di chilometri sono comuni. Per la pompa in linea robusta è amatissimo dai preparatori
-    statunitensi e australiani.
+    Sei cilindri diesel a precamera con quattro valvole per cilindro (1993), pompa d'iniezione meccanica in linea,
+    basamento in ghisa. È l'ultimo diesel Mercedes con questo sistema prima del passaggio al common rail. Sono
+    documentate unità oltre il milione di chilometri su taxi e veicoli da lavoro.
   punti_deboli:
     - Precamere e iniettori dopo molti chilometri
     - "Raffreddamento: guarnizione della testata se surriscaldato"
   limiti: >-
-    Con turbo maggiorato e pompa regolata si superano i 400 CV su interni di serie.
+    Con turbo maggiorato e pompa in linea regolata si superano i 400 CV su interni di serie.
   curiosita:
-    - Molti sono stati trapiantati in pick-up Toyota e Jeep per la loro robustezza.
+    - "Frequentemente usato come motore di trapianto su fuoristrada e pick-up per la robustezza della pompa in linea."
 
 - slug: ford-10-ecoboost
   codice: 1.0 EcoBoost (Fox)
@@ -1101,8 +1146,10 @@
     - { nome: "Ford Fiesta, Focus, B-Max, C-Max", anni: "2012–2025" }
     - { nome: "Ford Puma, EcoSport", anni: "2014–oggi" }
   storia: >-
-    Il tre cilindri da un litro che ha dimostrato che il downsizing poteva funzionare: International Engine of the Year
-    per tre anni di seguito (2012–2014). Il blocco in ghisa scalda prima, riducendo i consumi a freddo.
+    Tre cilindri turbo a iniezione diretta (2012). Basamento in ghisa per riscaldamento più rapido a freddo,
+    collettore di scarico integrato nella testata, cinghia di distribuzione in bagno d'olio. Senza alberi di
+    equilibratura: le vibrazioni sono compensate con volano e puleggia sbilanciati. Premiato più volte
+    all'International Engine of the Year.
   punti_deboli:
     - "Cinghia di distribuzione in bagno d'olio: degrado con oli non conformi e intervalli lunghi"
     - "Primi anni: tubi del liquido di raffreddamento che causavano surriscaldamento e rottura della testa"
@@ -1110,7 +1157,7 @@
   limiti: >-
     Mappatura fino a 140–170 CV; oltre conviene intervenire su turbo e raffreddamento.
   curiosita:
-    - Il blocco motore occupa una superficie paragonabile a un foglio A4.
+    - "Il basamento occupa una superficie paragonabile a quella di un foglio A4."
 
 - slug: ford-coyote
   codice: Coyote 5.0 Ti-VCT
@@ -1145,15 +1192,17 @@
     - { nome: "Ford Mustang GT (S197, S550, S650)", anni: "2011–oggi" }
     - { nome: "Ford F-150 5.0", anni: "2011–oggi" }
   storia: >-
-    Il Coyote riporta Ford ai quattro alberi a camme sul V8 di grande serie dopo i Modular. Nonostante il clima di
-    downsizing è sopravvissuto e cresciuto di potenza a ogni generazione, diventando il cuore della Mustang moderna.
+    V8 a quattro alberi a camme (2011) che sostituisce i Modular sulla Mustang GT. Fasatura variabile indipendente
+    su aspirazione e scarico (Ti-VCT). Dalla Gen3 (2018) adotta iniezione doppia, alesaggio maggiorato con canne
+    riportate al plasma e limitatore a 7500 giri/min.
   punti_deboli:
     - Ticchettio e consumo d'olio segnalati su alcune Gen3
     - Albero 'pianolato' e rumori della distribuzione su esemplari molto usati
   limiti: >-
-    Con compressore volumetrico regge 700–750 CV su interni di serie; le versioni da competizione superano i 1000 CV.
+    Con compressore volumetrico sopporta 700–750 CV su interni di serie; le versioni da competizione superano i
+    1000 CV.
   curiosita:
-    - Il nome "Coyote" viene da un progetto da corsa Ford degli anni '60.
+    - "Il nome deriva da un progetto da competizione Ford degli anni '60."
 
 - slug: gm-ls
   codice: LS1 / LS2 / LS3 / LS7 / LS9
@@ -1191,16 +1240,18 @@
     - { nome: "Chevrolet Camaro / Pontiac Firebird / GTO", anni: "1998–2015" }
     - { nome: "Holden Commodore / HSV, Chevrolet SS", anni: "1999–2017" }
   storia: >-
-    Pur mantenendo l'architettura ad aste e bilancieri, la famiglia LS è stata riprogettata da zero nel 1997.
-    Compatta, leggera ed economica, è diventata il V8 di riferimento per gli swap in tutto il mondo. Le cilindrate qui
-    riportate (5665 cc) si riferiscono all'LS1.
+    Small-block V8 riprogettato da zero nel 1997, con distribuzione ad aste e bilancieri e due valvole per
+    cilindro. Basamento a gonna profonda con sei bulloni per supporto di banco, ordine di accensione rivisto e
+    iniezione multipoint. La configurazione OHV lo rende basso e compatto rispetto ai V8 a quattro alberi. La
+    cilindrata indicata (5665 cc) è quella dell'LS1.
   punti_deboli:
     - "LS7: guide valvole e valvole in titanio soggette a usura precoce"
     - Pompa olio e fasatura su esemplari molto spinti
   limiti: >-
-    Estremamente elaborabile: blocchi di serie in alluminio sopportano 700–800 CV, quelli in ghisa (truck) molto di più con turbo.
+    I basamenti di serie in alluminio sopportano 700–800 CV; quelli in ghisa delle versioni truck molto di più con
+    turbo.
   curiosita:
-    - '"LS swap" è diventato un genere: dalle Mazda RX-7 alle BMW E30, quasi tutto ha ricevuto un LS.'
+    - "L'LS7 della Corvette Z06 adotta bielle e valvole di aspirazione in titanio e lubrificazione a carter secco."
 
 - slug: honda-k20c1
   codice: K20C1
@@ -1234,15 +1285,17 @@
     - { nome: "Honda Civic Type R (FK2, FK8, FL5)", anni: "2015–oggi" }
     - { nome: "Acura Integra Type S", anni: "2023–oggi" }
   storia: >-
-    Con il K20C1 Honda abbandona i limitatori a 8000+ giri per la sovralimentazione. Il risultato è la Civic Type R più veloce
-    di sempre, che ha fatto più volte segnare il record al Nürburgring tra le trazioni anteriori.
+    Quattro cilindri turbo a iniezione diretta per la Civic Type R (2015). VTEC applicato all'albero di scarico
+    per migliorare la risposta del turbo, fasatura variabile continua VTC, turbo a singola girante con wastegate
+    elettronica. La Civic Type R ha detenuto più volte il record sul giro al Nürburgring tra le trazioni anteriori
+    di serie.
   punti_deboli:
     - Temperature dell'acqua in uso pista prolungato (FK8)
     - Depositi carboniosi sulle valvole, tipico dell'iniezione diretta
   limiti: >-
-    Su interni di serie si ritengono sicuri circa 400–450 CV; il limite sono le bielle.
+    Con interni di serie si considerano sicuri circa 400–450 CV; il limite sono le bielle.
   curiosita:
-    - Il VTEC qui agisce sullo scarico, per migliorare la risposta del turbo.
+    - "Compressione 9,8:1, alta per un turbo di questa potenza specifica."
 
 - slug: porsche-m96-m97
   codice: M96 / M97
@@ -1279,16 +1332,18 @@
     - { nome: "Porsche 911 Carrera (996, 997.1)", anni: "1997–2008" }
     - { nome: "Porsche Cayman (987.1)", anni: "2005–2008" }
   storia: >-
-    Il passaggio dal raffreddamento ad aria a quello ad acqua fu un trauma per i puristi, ma salvò Porsche: un'unica
-    architettura condivisa con la Boxster abbatté i costi. La cilindrata indicata (3387 cc) è quella del 3.4 della 996.
+    Primo boxer a sei cilindri Porsche raffreddato ad acqua (1996), condiviso tra Boxster e 911 per ridurre i
+    costi. Testate a quattro valvole con VarioCam, basamento in lega alluminio-silicio Lokasil, poi Alusil. La
+    cilindrata indicata (3387 cc) è quella del 3.4 della 996.
   punti_deboli:
     - "Cuscinetto dell'albero intermedio (IMS): il guasto più noto, può distruggere il motore"
     - Rigature delle canne (bore scoring), soprattutto sui 3.8 M97
     - Paraolio posteriore dell'albero (RMS) con perdite
   limiti: >-
-    Preparazioni poco convenienti; la priorità è la sostituzione preventiva del cuscinetto IMS con versioni migliorate.
+    Preparazioni poco convenienti. La priorità è la sostituzione preventiva del cuscinetto IMS con versioni
+    migliorate.
   curiosita:
-    - Le 911 Turbo e GT3 dello stesso periodo usano un motore diverso, il 'Mezger', esente dal problema IMS.
+    - "Le 911 Turbo e GT3 dello stesso periodo usano un motore diverso, il Mezger, privo del cuscinetto IMS a rischio."
 
 - slug: porsche-mezger
   codice: M96/76, M96/70, M97/77
@@ -1324,16 +1379,16 @@
     - { nome: "Porsche 911 Turbo / GT2 (996, 997.1)", anni: "2000–2009" }
     - { nome: "Porsche 911 GT2 RS (997)", anni: "2010–2011" }
   storia: >-
-    Prende il nome da Hans Mezger, il progettista dei motori Porsche da corsa (917, TAG Turbo di F1). Il basamento
-    deriva da quello della 911 GT1 vincitrice a Le Mans e ha lubrificazione a carter secco. È uno dei motori più rispettati
-    della storia Porsche.
+    Boxer a sei cilindri raffreddato ad acqua derivato dal basamento della 911 GT1 vincitrice a Le Mans nel 1998.
+    Lubrificazione a carter secco, cilindri riportati, albero intermedio su cuscinetti lubrificati a pressione.
+    Prende il nome da Hans Mezger, progettista dei motori Porsche 917 e TAG Turbo di Formula 1.
   punti_deboli:
     - "Tubi del liquido di raffreddamento incollati (e non fissati) sui Turbo: possono sfilarsi"
     - Interventi costosi per la complessità costruttiva
   limiti: >-
-    I Turbo reggono 650–700 CV su interni di serie con turbo maggiorati e gestione adeguata.
+    Le versioni Turbo sopportano 650–700 CV con interni di serie, turbo maggiorati e gestione adeguata.
   curiosita:
-    - La 997 GT3 RS 4.0 è considerata il canto del cigno del motore Mezger.
+    - "L'ultima applicazione stradale è la 997 GT3 RS 4.0 (2011), con corsa allungata a 80,4 mm."
 
 - slug: ferrari-f136
   codice: F136
@@ -1372,15 +1427,16 @@
     - { nome: "Maserati Coupé, Spyder, Quattroporte, GranTurismo", anni: "2002–2019" }
     - { nome: "Alfa Romeo 8C Competizione", anni: "2007–2010" }
   storia: >-
-    Sviluppato con Maserati, l'F136 ha avuto due anime: albero piatto e regimi da corsa nelle Ferrari, albero a croce e
-    carattere più morbido nelle Maserati e nella Alfa 8C. Il 4.5 della 458 è considerato uno dei migliori V8 aspirati mai fatti.
+    V8 a 90° sviluppato da Ferrari e Maserati (2002). Albero motore piatto e regimi fino a 9000 giri/min nelle
+    Ferrari; albero a croce nelle Maserati e nell'Alfa Romeo 8C. Dalla 458 Italia (2009) adotta iniezione diretta
+    e cilindrata di 4497 cc; la 458 Speciale raggiunge 134 CV/litro con compressione 14:1.
   punti_deboli:
     - "F430: collettori di scarico soggetti a crepe"
     - Variatori di fase e sensori su esemplari poco usati
   limiti: >-
-    Raramente elaborato; esistono kit compressore e biturbo artigianali, ma il valore collezionistico ne scoraggia l'uso.
+    Raramente elaborato. Esistono kit compressore e biturbo realizzati da preparatori.
   curiosita:
-    - Il successore, l'F154 biturbo della 488, ha chiuso l'era dei V8 Ferrari aspirati.
+    - "Il successore F154 della 488 è biturbo: con l'F136 termina la serie dei V8 Ferrari aspirati."
 
 - slug: ferrari-f140
   codice: F140
@@ -1418,15 +1474,16 @@
     - { nome: "Ferrari 599, F12, 812", anni: "2006–2024" }
     - { nome: "Ferrari LaFerrari, Purosangue, 12Cilindri", anni: "2013–oggi" }
   storia: >-
-    Il V12 a 65° della Enzo è diventato la base di tutti i dodici cilindri Ferrari successivi, cresciuto fino a 6,5 litri.
-    In un'epoca di turbo ed elettrificazione, Ferrari lo mantiene aspirato come simbolo del marchio.
-    La cilindrata indicata è quella attuale (6496 cc).
+    V12 a 65° introdotto sulla Enzo (2002) con 5998 cc, poi portato a 6262 cc sulla F12 e a 6496 cc sulla 812.
+    Basamento e testate in alluminio, lubrificazione a carter secco, iniezione diretta dalla F12 (2012). Ferrari
+    lo mantiene aspirato; sulla LaFerrari è abbinato a un sistema ibrido HY-KERS. La cilindrata indicata è quella
+    attuale.
   punti_deboli:
     - Pochissimi difetti strutturali noti; manutenzione molto costosa
   limiti: >-
-    Non rilevante: già al limite dell'aspirato di serie (oltre 127 CV/litro sulla 812 Competizione).
+    Già oltre 127 CV/litro sulla 812 Competizione, valore al limite per un aspirato di serie.
   curiosita:
-    - La Purosangue è il primo SUV con un V12 aspirato montato in posizione anteriore centrale.
+    - "Sulla Purosangue è montato in posizione anteriore centrale, dietro l'asse anteriore."
 
 - slug: lamborghini-l539
   codice: L539
@@ -1461,15 +1518,16 @@
     - { nome: "Lamborghini Aventador", anni: "2011–2022" }
     - { nome: "Lamborghini Veneno, Centenario, Sián, Countach LPI 800-4", anni: "2013–2022" }
   storia: >-
-    Primo V12 Lamborghini progettato interamente da zero dopo il Bizzarrini del 1963, l'L539 ha accompagnato l'Aventador
-    per oltre dieci anni. Con l'ibrida Revuelto il V12 (L545) continua, ma affiancato da tre motori elettrici.
+    V12 a 60° progettato da zero per l'Aventador (2011), primo V12 Lamborghini nuovo dopo il progetto Bizzarrini
+    del 1963. Basamento in alluminio-silicio, lubrificazione a carter secco, limitatore a 8500 giri/min. Con la
+    Revuelto il V12 prosegue come L545, abbinato a tre motori elettrici.
   punti_deboli:
     - Cambio ISR a frizione singola (trasmissione) più che il motore
     - Manutenzione costosa, accesso difficile
   limiti: >-
-    Già molto spinto da aspirato; preparatori statunitensi hanno realizzato versioni biturbo oltre i 1200 CV.
+    Già molto spinto da aspirato. Preparatori hanno realizzato versioni biturbo oltre i 1200 CV.
   curiosita:
-    - La Sián aggiunge un supercondensatore al V12 per 819 CV complessivi.
+    - "La Sián abbina al V12 un supercondensatore e un motore elettrico da 48 V, per 819 CV complessivi."
 
 - slug: mclaren-m838t
   codice: M838T
@@ -1504,15 +1562,16 @@
     - { nome: "McLaren 12C, 650S, 675LT", anni: "2011–2017" }
     - { nome: "McLaren 540C, 570S, 570GT, 600LT", anni: "2015–2021" }
   storia: >-
-    Sviluppato con Ricardo partendo da un progetto iniziato per Nissan, l'M838T ha corsa cortissima, albero piatto e
-    carter secco per stare basso nel telaio. Ha riportato McLaren alla produzione stradale di serie dopo la F1.
+    V8 biturbo a 90° sviluppato con Ricardo (2011). Corsa molto corta (69,9 mm), albero motore piatto e
+    lubrificazione a carter secco per abbassare il baricentro. Primo motore di una McLaren stradale di serie dopo
+    la F1 degli anni '90.
   punti_deboli:
     - Collettori e tubazioni di scarico con crepe; attuatori wastegate
     - Rumorosità d'avvio a freddo per il carter secco
   limiti: >-
-    Elaborazioni di centralina oltre i 750 CV; il successore M840T della 720S nasce da questa base con corsa allungata.
+    Con centralina si superano i 750 CV. Il successore M840T della 720S deriva da questa base con corsa allungata.
   curiosita:
-    - Il suono dell'M838T è stato criticato al lancio e migliorato con scarichi rivisti.
+    - "Il rapporto corsa/alesaggio di 0,75 è tra i più superquadri delle supercar contemporanee."
 
 - slug: bugatti-w16
   codice: W16 8.0 quad-turbo
@@ -1548,14 +1607,16 @@
     - { nome: "Bugatti Chiron, Divo, Centodieci, La Voiture Noire", anni: "2016–2024" }
     - { nome: "Bugatti Bolide, W16 Mistral", anni: "2023–2024" }
   storia: >-
-    Due VR8 a stretto angolo uniti su un unico albero, sedici cilindri e quattro turbo: il W16 è stato il primo motore di
-    serie a superare i 1000 CV. Con la Mistral del 2024 si chiude la sua produzione, sostituito dal V16 ibrido della Tourbillon.
+    Sedici cilindri ottenuti affiancando due VR8 a 15° su un unico albero, con angolo di 90° tra i due gruppi.
+    Quattro turbo, sequenziali a due stadi sulla Chiron. Primo motore di serie a superare i 1000 CV con la Veyron
+    (2005). La produzione termina nel 2024 con la W16 Mistral; il successore della Tourbillon è un V16 ibrido
+    aspirato.
   punti_deboli:
     - Nessun difetto ricorrente; manutenzione con costi da centinaia di migliaia di euro
   limiti: >-
-    Già sviluppato al limite dal costruttore: una Chiron Super Sport 300+ ha superato i 490 km/h nel 2019.
+    Già sviluppato al limite dal costruttore. Una Chiron Super Sport 300+ ha superato i 490 km/h nel 2019.
   curiosita:
-    - Il raffreddamento richiede dieci radiatori sulla Veyron.
+    - "La Veyron usa dieci radiatori per motore, cambio, olio e intercooler."
 
 - slug: alfa-romeo-twin-spark
   codice: Twin Spark 8v / 16v
@@ -1590,17 +1651,18 @@
     - { nome: "Alfa Romeo 145, 146, 156, 147, GT", anni: "1995–2010" }
     - { nome: "Alfa Romeo GTV / Spider (916)", anni: "1995–2005" }
   storia: >-
-    Due candele per cilindro per bruciare meglio la miscela: idea ripresa dalle Alfa da corsa e portata in serie con
-    la 75 nel 1987. Dal 1995 le versioni 16v su base FIAT hanno dato a 145, 156 e 147 il carattere brillante tipico del marchio.
-    La cilindrata indicata è quella del 2.0 16v.
+    Due candele per cilindro per accelerare la combustione e ridurre la detonazione, soluzione derivata dalle Alfa
+    Romeo da competizione e introdotta in serie sulla 75 nel 1987. Dal 1995 le versioni a 16 valvole su base Fiat
+    adottano variatore di fase sull'aspirazione e, sui 1.8 e 2.0, alberi di equilibratura. La cilindrata indicata
+    è quella del 2.0 16v.
   punti_deboli:
     - "Cinghia di distribuzione e cinghia contralberi (16v): intervalli da rispettare rigorosamente"
     - Variatore di fase rumoroso
-    - Consumo d'olio, considerato quasi normale su questi motori
+    - Consumo d'olio elevato anche su unità in buono stato
   limiti: >-
-    Preparazioni aspirate modeste (aspirazione, scarico, mappa); il ritorno in potenza è limitato.
+    Margini limitati con interventi su aspirazione, scarico e mappatura.
   curiosita:
-    - Il nome Twin Spark era già comparso sulle Alfa da corsa degli anni '60.
+    - "Il nome Twin Spark era già usato sulle Alfa Romeo da competizione degli anni '60."
 
 - slug: alfa-romeo-busso-v6
   codice: V6 Busso
@@ -1636,16 +1698,17 @@
     - { nome: "Alfa Romeo 155, 156, 166, GTV / Spider", anni: "1992–2005" }
     - { nome: "Alfa Romeo 147 GTA, 156 GTA, GT 3.2", anni: "2002–2005" }
   storia: >-
-    Progettato sotto Giuseppe Busso e nato nel 1979 sulla Alfa 6, è considerato uno dei V6 più belli di sempre, anche
-    per i collettori di aspirazione cromati in vista. La sua fine nel 2005 per le norme Euro 4 segnò la chiusura
-    simbolica del 'cuore sportivo' storico di Arese. La cilindrata indicata è quella del 3.0.
+    V6 a 60° progettato sotto la direzione di Giuseppe Busso, introdotto nel 1979 sulla Alfa 6. Basamento e
+    testate in alluminio, un albero a camme per bancata a cinghia nelle versioni 12v, due nelle 24v (dal 1992).
+    Versioni da 2.0 turbo a 3.2 litri. Esce di produzione nel 2005 per il mancato adeguamento alle norme Euro 4.
+    La cilindrata indicata è quella del 3.0.
   punti_deboli:
     - Cinghia di distribuzione con intervallo stretto (rottura distruttiva)
     - Punterie idrauliche rumorose e guide valvole su 12v
   limiti: >-
-    Classico per le preparazioni aspirate; esistono conversioni a 3,7 litri e kit compressore.
+    Adatto alle preparazioni aspirate; esistono conversioni a 3,7 litri e kit compressore.
   curiosita:
-    - Il suono del Busso è citato spesso come motivo d'acquisto più importante delle stesse prestazioni.
+    - "Il 2.0 V6 Turbo fu sviluppato per il mercato italiano, dove le auto oltre i 2000 cc pagavano un'IVA maggiorata."
 
 - slug: fiat-19-jtd
   codice: 1.9 JTD / Multijet
@@ -1681,15 +1744,16 @@
     - { nome: "Fiat Punto, Stilo, Bravo, Croma, Doblò", anni: "1999–2011" }
     - { nome: "Lancia Lybra, Saab 9-3, Opel Astra/Vectra (CDTI)", anni: "1999–2011" }
   storia: >-
-    Il common rail fu sviluppato dal gruppo Fiat (Magneti Marelli, Centro Ricerche Fiat) e poi ceduto a Bosch per
-    l'industrializzazione. L'Alfa 156 JTD del 1997 fu la prima auto di serie con questo sistema, oggi universale sui diesel.
+    Il sistema common rail fu sviluppato da Magneti Marelli e Centro Ricerche Fiat (brevetto Unijet) e ceduto a
+    Bosch nel 1994 per l'industrializzazione. L'Alfa Romeo 156 JTD del 1997 è la prima auto di serie con iniezione
+    common rail. Dal 2002 la versione Multijet introduce fino a cinque iniezioni per ciclo.
   punti_deboli:
     - "Farfalle di vorticosità (swirl) sulle 16v: possono staccarsi ed entrare nel motore"
     - EGR, debimetro e, sulle versioni Euro 4, filtro antiparticolato
   limiti: >-
-    Con mappatura le 16v arrivano a 180 CV; frizione e volano sono il primo limite.
+    Con mappatura le versioni 16v arrivano a 180 CV; frizione e volano sono il primo limite.
   curiosita:
-    - La cessione del brevetto common rail a Bosch è uno dei più noti 'rimpianti industriali' italiani.
+    - "La versione biturbo TTiD da 190 CV usa due turbo in serie, uno piccolo e uno grande."
 
 - slug: psa-bmw-ep6
   codice: EP6 'Prince'
@@ -1724,13 +1788,14 @@
     - { nome: "Mini (R56, R55, R57, R60)", anni: "2006–2016" }
     - { nome: "Peugeot 207, 308, 3008, 508, RCZ; Citroën DS3, DS4, C4", anni: "2006–oggi" }
   storia: >-
-    Nato da una collaborazione PSA–BMW, il 'Prince' ha unito turbo twin-scroll e iniezione diretta in un 1.6 leggero.
-    BMW lo ha abbandonato con l'arrivo dei suoi motori modulari, mentre Stellantis lo ha portato fino alle ibride plug-in.
+    Quattro cilindri da 1.6 litri sviluppato da PSA e BMW (2006). La versione aspirata usa Valvetronic; le turbo
+    THP hanno turbo twin-scroll e iniezione diretta. BMW lo sostituisce con i propri motori modulari; Stellantis
+    lo mantiene fino alle versioni ibride plug-in.
   punti_deboli:
     - Catena di distribuzione e tenditore sulle prime serie (rumore a freddo, salto di catena)
     - Depositi carboniosi sulle valvole dei turbo a iniezione diretta
     - Pompa acqua e consumo d'olio
   limiti: >-
-    Le versioni 270 CV sono già al limite per gli interni di serie; mappature più spinte richiedono interventi.
+    Le versioni da 270 CV sono già al limite degli interni di serie; mappature più spinte richiedono interventi.
   curiosita:
-    - Lo stesso motore è stato premiato più volte come miglior motore nella classe 1.4–1.8 litri.
+    - "Premiato più volte nella classe 1.4–1.8 litri all'International Engine of the Year."

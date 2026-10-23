@@ -11,8 +11,8 @@
 - id: L5
   nome: Cinque cilindri in linea
   testo: >-
-    Compromesso raro tra quattro e sei cilindri, reso celebre da Audi. L'accensione ogni 144° dà un suono
-    irregolare e riconoscibile.
+    Soluzione intermedia tra quattro e sei cilindri, usata soprattutto da Audi e Volvo. Accensione ogni 144°
+    e coppia oscillante del primo ordine.
 - id: L6
   nome: Sei cilindri in linea
   testo: >-
@@ -26,21 +26,21 @@
 - id: V8
   nome: V8
   testo: >-
-    Con albero a croce (cross-plane) è regolare e dal tipico borbottio americano; con albero piatto (flat-plane)
-    è più leggero e acuto, come nelle Ferrari e McLaren.
+    Con albero a croce (cross-plane) è equilibrato ma con accensione irregolare per bancata; con albero piatto
+    (flat-plane) è più leggero e favorisce i regimi alti, a scapito di vibrazioni del secondo ordine.
 - id: V10
   nome: V10
   testo: >-
-    Architettura nata in Formula 1 e portata su poche supercar. Suono acuto e regimi altissimi; quasi scomparso
-    con l'arrivo di turbo ed elettrificazione.
+    Diffuso in Formula 1 negli anni '90 e 2000 e su poche supercar di serie. Richiede perni di biella sfalsati
+    per un'accensione regolare a 90°.
 - id: V12
   nome: V12
   testo: >-
-    Il motore simbolo delle granturismo italiane: equilibrio perfetto, erogazione continua e grande cilindrata.
+    Equilibrato in modo naturale su tutti gli ordini di vibrazione, con fasi di scoppio ogni 60°. Usato su granturismo e supercar di grande cilindrata.
 - id: W16
   nome: W16
   testo: >-
-    Due V8 a stretto angolo affiancati su un unico albero. Usato in serie solo da Bugatti per raggiungere oltre 1000 CV.
+    Due gruppi VR8 a stretto angolo affiancati su un unico albero motore. Usato in serie solo da Bugatti.
 - id: Boxer 4
   nome: Boxer a quattro cilindri
   testo: >-
@@ -49,7 +49,7 @@
 - id: Boxer 6
   nome: Boxer a sei cilindri
   testo: >-
-    Il motore della Porsche 911: piatto, basso, perfettamente equilibrato e montato a sbalzo dietro l'asse posteriore.
+    Cilindri contrapposti, equilibrato in modo naturale, baricentro basso. Usato da Porsche sulla 911, montato a sbalzo dietro l'asse posteriore.
 - id: Rotativo
   nome: Rotativo Wankel
   testo: >-
