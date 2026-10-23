@@ -1,0 +1,116 @@
+---
+layout: default
+---
+{%- assign m = site.data.motori | where: "slug", page.slug | first -%}
+{%- if m.fine -%}{%- assign periodo = m.inizio | append: "–" | append: m.fine -%}{%- else -%}{%- assign periodo = m.inizio | append: "–oggi" -%}{%- endif -%}
+<article class="motore">
+  <header class="targhetta">
+    <div class="targhetta-testo">
+      <p class="percorso"><a href="{{ '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{{ m.architettura }}</a></p>
+      <h1>{{ m.nome }}</h1>
+      <p class="codice">Codice <strong>{{ m.codice }}</strong>, prodotto {{ periodo }}{% unless m.fine %} <span class="stato">in produzione</span>{% endunless %}</p>
+    </div>
+    <dl class="cifre">
+      <div><dt>Cilindrata</dt><dd>{{ m.cilindrata }}<small> cc</small></dd></div>
+      <div><dt>Potenza</dt><dd>{% if m.cv_min == m.cv_max %}{{ m.cv_max }}{% else %}{{ m.cv_min }}–{{ m.cv_max }}{% endif %}<small> CV</small></dd></div>
+      <div><dt>Coppia max</dt><dd>{{ m.nm_max }}<small> Nm</small></dd></div>
+    </dl>
+  </header>
+
+  <div class="motore-corpo">
+    <aside class="tavola">
+      <figure>
+        {% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}
+        <figcaption>{% if m.alesaggio %}Alesaggio × corsa in scala reale, in mm. {% if m.alesaggio > m.corsa %}Motore superquadro.{% elsif m.alesaggio < m.corsa %}Motore sottoquadro.{% else %}Motore quadro.{% endif %}{% else %}Motore rotativo: la cilindrata è riferita alle camere dei rotori.{% endif %}</figcaption>
+      </figure>
+      {% if m.limitatore %}
+      {%- assign pct = m.limitatore | times: 100 | divided_by: 10000 -%}
+      <div class="contagiri" role="img" aria-label="Limitatore a {{ m.limitatore }} giri al minuto">
+        <div class="contagiri-scala"><span class="contagiri-ago" style="width: {{ pct }}%"></span></div>
+        <p><strong>{{ m.limitatore }}</strong> giri/min al limitatore <span>scala 0–10.000</span></p>
+      </div>
+      {% endif %}
+    </aside>
+
+    <div class="schede">
+      <section aria-labelledby="t-tecnica">
+        <h2 id="t-tecnica">Scheda tecnica</h2>
+        <table class="specifiche">
+          <tbody>
+            <tr><th scope="row">Costruttore</th><td>{{ m.costruttore }} ({{ m.paese }})</td></tr>
+            <tr><th scope="row">Architettura</th><td>{{ m.architettura }}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}rotori{% else %}cilindri{% endif %}</td></tr>
+            <tr><th scope="row">Alimentazione</th><td>{{ m.alimentazione }}</td></tr>
+            <tr><th scope="row">Aspirazione</th><td>{{ m.aspirazione }}</td></tr>
+            <tr><th scope="row">Cilindrata</th><td>{{ m.cilindrata }} cc</td></tr>
+            {% if m.alesaggio %}<tr><th scope="row">Alesaggio × corsa</th><td>{{ m.alesaggio | replace: ".", "," }} × {{ m.corsa | replace: ".", "," }} mm</td></tr>{% endif %}
+            <tr><th scope="row">Rapporto di compressione</th><td>{{ m.compressione }}</td></tr>
+            <tr><th scope="row">Distribuzione</th><td>{{ m.distribuzione }}</td></tr>
+            {% if m.valvole != 0 %}<tr><th scope="row">Valvole per cilindro</th><td>{{ m.valvole }}</td></tr>{% endif %}
+            <tr><th scope="row">Basamento</th><td>{{ m.blocco }}</td></tr>
+            <tr><th scope="row">Testata</th><td>{{ m.testa }}</td></tr>
+            <tr><th scope="row">Iniezione</th><td>{{ m.iniezione }}</td></tr>
+            <tr><th scope="row">Limitatore</th><td>{{ m.limitatore }} giri/min</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="t-versioni">
+        <h2 id="t-versioni">Versioni</h2>
+        <div class="tabella-scorre">
+          <table class="versioni">
+            <thead><tr><th scope="col">Versione</th><th scope="col">Anni</th><th scope="col" class="num">CV</th><th scope="col" class="num">Nm</th><th scope="col">Note</th></tr></thead>
+            <tbody>
+              {% for v in m.versioni %}
+              <tr><td>{{ v.nome }}</td><td class="anni">{{ v.anni }}</td><td class="num">{{ v.cv }}</td><td class="num">{{ v.nm }}</td><td class="nota">{{ v.nota }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section aria-labelledby="t-modelli">
+        <h2 id="t-modelli">Auto che lo montano</h2>
+        <ul class="modelli">
+          {% for a in m.modelli %}<li><span>{{ a.nome }}</span> <span class="anni">{{ a.anni }}</span></li>{% endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="t-storia" class="storia">
+        <h2 id="t-storia">Storia</h2>
+        <p>{{ m.storia }}</p>
+      </section>
+
+      <div class="doppia">
+        <section aria-labelledby="t-deboli" class="avviso">
+          <h2 id="t-deboli">Punti deboli</h2>
+          <ul>{% for p in m.punti_deboli %}<li>{{ p }}</li>{% endfor %}</ul>
+        </section>
+        <section aria-labelledby="t-limiti">
+          <h2 id="t-limiti">Limiti ed elaborazioni</h2>
+          <p>{{ m.limiti }}</p>
+        </section>
+      </div>
+
+      {% if m.curiosita.size > 0 %}
+      <section aria-labelledby="t-curiosita">
+        <h2 id="t-curiosita">Curiosità</h2>
+        <ul class="curiosita">{% for c in m.curiosita %}<li>{{ c }}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
+
+      {%- assign stessi = site.data.motori | where: "costruttore", m.costruttore -%}
+      {% if stessi.size > 1 %}
+      <section aria-labelledby="t-altri">
+        <h2 id="t-altri">Altri motori {{ m.costruttore }}</h2>
+        <ul class="altri">
+          {% for o in stessi %}{% if o.slug != m.slug %}
+          <li><a href="{{ '/motori/' | append: o.slug | append: '/' | relative_url }}">{{ o.nome }}</a> <span class="anni">{{ o.inizio }}–{% if o.fine %}{{ o.fine }}{% else %}oggi{% endif %}</span></li>
+          {% endif %}{% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      <p class="confronta-link"><a class="bottone" href="{{ '/confronta/' | relative_url }}?m={{ m.slug }}">Confronta con un altro motore</a></p>
+    </div>
+  </div>
+</article>

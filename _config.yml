@@ -1,0 +1,30 @@
+title: Piston
+tagline: Enciclopedia dei motori d'automobile dal 1980 a oggi
+description: >-
+  Schede tecniche, versioni, auto, storia, punti deboli e limiti di tuning
+  dei motori d'automobile costruiti dal 1980 a oggi.
+lang: it
+
+# Per GitHub Pages su https://anomaly73bit.github.io/piston
+url: "https://anomaly73bit.github.io"
+baseurl: "/piston"
+
+collections:
+  motori:
+    output: true
+    permalink: /motori/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: motori
+    values:
+      layout: motore
+
+markdown: kramdown
+exclude:
+  - tools/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _anteprima/

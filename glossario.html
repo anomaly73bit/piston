@@ -1,0 +1,14 @@
+---
+layout: default
+title: Glossario
+permalink: /glossario/
+---
+<section class="pagina riga stretta">
+  <h1>Glossario</h1>
+  <p class="sottotitolo">I termini usati nelle schede, spiegati in breve.</p>
+  <dl class="glossario">
+    {% for g in site.data.glossario %}
+    <div id="{{ g.termine | slugify }}"><dt>{{ g.termine }}</dt><dd>{{ g.testo }}</dd></div>
+    {% endfor %}
+  </dl>
+</section>

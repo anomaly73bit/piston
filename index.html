@@ -1,0 +1,77 @@
+---
+layout: default
+title: Catalogo dei motori
+script: catalogo.js
+---
+{%- assign motori = site.data.motori | sort: "inizio" -%}
+{%- assign costruttori = site.data.motori | map: "costruttore" | uniq | sort -%}
+{%- assign architetture = site.data.motori | map: "architettura" | uniq | sort -%}
+<section class="apertura">
+  <div class="riga">
+    <h1>Ogni motore, dal 1980 a oggi.</h1>
+    <p class="sottotitolo">Schede tecniche, versioni, auto che li montano, storia, difetti noti e limiti di elaborazione. Ogni cilindro è disegnato in scala: confronta a colpo d'occhio un quadro giapponese con un sottoquadro tedesco.</p>
+  </div>
+</section>
+
+<section class="catalogo riga" aria-label="Catalogo">
+  <form class="filtri" id="filtri" role="search" onsubmit="return false">
+    <label class="cerca">
+      <span>Cerca</span>
+      <input type="search" id="f-testo" placeholder="Codice, nome o auto: 2JZ, Golf GTI, V12…" autocomplete="off">
+    </label>
+    <label><span>Costruttore</span>
+      <select id="f-costruttore"><option value="">Tutti</option>{% for c in costruttori %}<option>{{ c }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Architettura</span>
+      <select id="f-architettura"><option value="">Tutte</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Alimentazione</span>
+      <select id="f-alimentazione"><option value="">Tutte</option><option>Benzina</option><option>Diesel</option><option>Ibrido</option></select>
+    </label>
+    <label><span>Aspirazione</span>
+      <select id="f-aspirazione"><option value="">Tutte</option><option>Aspirato</option><option>Turbo</option><option>Biturbo</option><option>Compressore</option></select>
+    </label>
+    <label><span>Decennio di debutto</span>
+      <select id="f-decennio"><option value="">Tutti</option><option value="1970">Anni '70</option><option value="1980">Anni '80</option><option value="1990">Anni '90</option><option value="2000">Anni 2000</option><option value="2010">Anni 2010</option><option value="2020">Anni 2020</option></select>
+    </label>
+    <label class="spunta"><input type="checkbox" id="f-produzione"> Solo in produzione</label>
+  </form>
+
+  <p class="conteggio" id="conteggio" aria-live="polite">{{ motori | size }} motori</p>
+
+  <div class="elenco" id="elenco">
+    <div class="elenco-testa" role="presentation">
+      <span></span>
+      <button type="button" data-ordina="nome">Motore</button>
+      <button type="button" data-ordina="inizio" aria-pressed="true">Anni</button>
+      <span class="nasconde-piccolo">Architettura</span>
+      <button type="button" data-ordina="cc" class="num">Cilindrata</button>
+      <button type="button" data-ordina="cv" class="num">CV max</button>
+    </div>
+    <ol class="elenco-righe" id="righe">
+      {% for m in motori %}
+      <li class="voce"
+          data-nome="{{ m.nome | downcase | escape }}"
+          data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}{% for a in m.modelli %} {{ a.nome | downcase | escape }}{% endfor %}"
+          data-costruttore="{{ m.costruttore | escape }}"
+          data-architettura="{{ m.architettura | escape }}"
+          data-alimentazione="{{ m.alimentazione | escape }}"
+          data-aspirazione="{{ m.aspirazione | escape }}"
+          data-inizio="{{ m.inizio }}"
+          data-produzione="{% if m.fine %}0{% else %}1{% endif %}"
+          data-cc="{{ m.cilindrata }}"
+          data-cv="{{ m.cv_max }}">
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          <span class="voce-disegno">{% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}</span>
+          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span></span>
+          <span class="voce-anni">{{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}<em>oggi</em>{% endif %}</span>
+          <span class="voce-arch nasconde-piccolo">{{ m.architettura }}, {{ m.aspirazione | downcase }}</span>
+          <span class="num">{{ m.cilindrata }} cc</span>
+          <span class="num voce-cv">{{ m.cv_max }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="vuoto" id="vuoto" hidden>Nessun motore corrisponde ai filtri. Prova a togliere un filtro o a cercare per codice.</p>
+  </div>
+</section>

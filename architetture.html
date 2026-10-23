@@ -1,0 +1,29 @@
+---
+layout: default
+title: Architetture
+permalink: /architetture/
+---
+<section class="pagina riga">
+  <h1>Architetture</h1>
+  <p class="sottotitolo">Come sono disposti i cilindri cambia suono, ingombro, equilibrio e carattere. Qui trovi ogni configurazione con i motori del catalogo che la usano.</p>
+  {% for a in site.data.architetture %}
+  {%- assign voci = site.data.motori | where: "architettura", a.id | sort: "inizio" -%}
+  {% if voci.size > 0 %}
+  <section class="gruppo" id="{{ a.id | slugify }}">
+    <h2>{{ a.nome }} <span class="quanti">{{ voci | size }}</span></h2>
+    <p class="spiegazione">{{ a.testo }}</p>
+    <ul class="schedine">
+      {% for m in voci %}
+      <li>
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          {% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}
+          <strong>{{ m.nome }}</strong>
+          <span>{{ m.costruttore }}, {{ m.cilindrata }} cc, {{ m.cv_min }}–{{ m.cv_max }} CV</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% endfor %}
+</section>

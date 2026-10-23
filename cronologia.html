@@ -1,0 +1,31 @@
+---
+layout: default
+title: Cronologia
+permalink: /cronologia/
+---
+{%- assign anni = site.data.motori | group_by: "inizio" | sort: "name" -%}
+<section class="pagina riga">
+  <h1>Cronologia</h1>
+  <p class="sottotitolo">I motori in ordine di debutto. Ogni barra copre gli anni di produzione sulla stessa scala, dal 1979 a oggi.</p>
+  <div class="scala-anni" aria-hidden="true"><span></span><span class="traccia"><i style="left:0%">1979</i><i style="left:22.9%">1990</i><i style="left:43.75%">2000</i><i style="left:64.6%">2010</i><i style="left:85.4%">2020</i></span><span></span></div>
+  <ol class="cronologia">
+    {% for g in anni %}
+    <li class="anno">
+      <h2>{{ g.name }}</h2>
+      <ul>
+        {% for m in g.items %}
+        {%- if m.fine -%}{%- assign fine = m.fine -%}{%- else -%}{%- assign fine = site.time | date: "%Y" | plus: 0 -%}{%- endif -%}
+        {%- assign durata = fine | minus: m.inizio -%}
+        {%- assign larghezza = durata | times: 100 | divided_by: 48.0 -%}
+        {%- assign scarto = m.inizio | minus: 1979 | times: 100 | divided_by: 48.0 -%}
+        <li>
+          <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}"><strong>{{ m.nome }}</strong></a>
+          <span class="durata" aria-hidden="true"><span style="margin-left: {{ scarto }}%; width: {{ larghezza }}%"{% unless m.fine %} class="aperta"{% endunless %}></span></span>
+          <span class="periodo">{{ durata }} anni{% unless m.fine %}, ancora in produzione{% endunless %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

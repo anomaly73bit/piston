@@ -1,0 +1,33 @@
+{%- comment -%}
+  Disegno in scala del cilindro: larghezza = alesaggio, altezza = corsa (1 unità = 1 mm).
+  Tutti i motori usano la stessa scala, così le proporzioni sono confrontabili.
+  Parametri: a (alesaggio), c (corsa), arch (architettura)
+{%- endcomment -%}
+{%- if include.arch == "Rotativo" or include.a == nil -%}
+<svg class="cilindro" viewBox="0 0 170 150" role="img" aria-label="Schema di un rotore Wankel">
+  <path class="camicia" d="M75 22c34 0 52 18 52 53s-18 53-52 53-52-18-52-53 18-53 52-53z"/>
+  <path class="volume" d="M75 34 Q101 68 111 98 Q75 110 39 98 Q49 68 75 34z"/>
+  <circle class="asse" cx="75" cy="78" r="5"/>
+  <text x="75" y="146" text-anchor="middle">rotore</text>
+</svg>
+{%- else -%}
+{%- assign a = include.a | times: 1.0 -%}
+{%- assign c = include.c | times: 1.0 -%}
+{%- assign mezzo = a | divided_by: 2.0 -%}
+{%- assign x1 = 75 | minus: mezzo -%}
+{%- assign x2 = 75 | plus: mezzo -%}
+{%- assign y2 = 24 | plus: c -%}
+{%- assign ymid = c | divided_by: 2.0 | plus: 28 -%}
+{%- assign xr = x2 | plus: 9 -%}
+{%- assign xt = x2 | plus: 12 -%}
+<svg class="cilindro" viewBox="0 0 170 150" role="img" aria-label="Cilindro in scala: alesaggio {{ include.a }} mm, corsa {{ include.c }} mm">
+  <rect class="volume" x="{{ x1 }}" y="24" width="{{ a }}" height="{{ c }}"/>
+  <line class="camicia" x1="{{ x1 }}" y1="20" x2="{{ x1 }}" y2="{{ y2 | plus: 8 }}"/>
+  <line class="camicia" x1="{{ x2 }}" y1="20" x2="{{ x2 }}" y2="{{ y2 | plus: 8 }}"/>
+  <rect class="pistone" x="{{ x1 | plus: 1.5 }}" y="{{ y2 | minus: 10 }}" width="{{ a | minus: 3 }}" height="10"/>
+  <line class="quota" x1="{{ x1 }}" y1="12" x2="{{ x2 }}" y2="12"/>
+  <text x="75" y="9" text-anchor="middle">{{ include.a | replace: ".", "," }}</text>
+  <line class="quota" x1="{{ xr }}" y1="24" x2="{{ xr }}" y2="{{ y2 }}"/>
+  <text x="{{ xt }}" y="{{ ymid }}">{{ include.c | replace: ".", "," }}</text>
+</svg>
+{%- endif -%}

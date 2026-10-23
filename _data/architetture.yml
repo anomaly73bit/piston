@@ -1,0 +1,57 @@
+- id: L3
+  nome: Tre cilindri in linea
+  testo: >-
+    Compatto ed economico, tornato di moda con il downsizing turbo. Ha una vibrazione di primo ordine
+    che richiede contralberi o supporti dedicati, ma pochi attriti interni.
+- id: L4
+  nome: Quattro cilindri in linea
+  testo: >-
+    L'architettura più diffusa al mondo: semplice, corta, economica da produrre. Le vibrazioni del secondo
+    ordine crescono con la cilindrata, per questo oltre i 2,0–2,5 litri si usano spesso alberi di equilibratura.
+- id: L5
+  nome: Cinque cilindri in linea
+  testo: >-
+    Compromesso raro tra quattro e sei cilindri, reso celebre da Audi. L'accensione ogni 144° dà un suono
+    irregolare e riconoscibile.
+- id: L6
+  nome: Sei cilindri in linea
+  testo: >-
+    Perfettamente equilibrato per natura, silenzioso e regolare. È lungo e difficile da montare trasversale,
+    ma è tornato centrale con le piattaforme modulari BMW e Mercedes.
+- id: V6
+  nome: V6
+  testo: >-
+    Corto e adatto al montaggio trasversale. Gli angoli più comuni sono 60° e 90°; a seconda della configurazione
+    richiede perni di biella sfalsati o contralberi.
+- id: V8
+  nome: V8
+  testo: >-
+    Con albero a croce (cross-plane) è regolare e dal tipico borbottio americano; con albero piatto (flat-plane)
+    è più leggero e acuto, come nelle Ferrari e McLaren.
+- id: V10
+  nome: V10
+  testo: >-
+    Architettura nata in Formula 1 e portata su poche supercar. Suono acuto e regimi altissimi; quasi scomparso
+    con l'arrivo di turbo ed elettrificazione.
+- id: V12
+  nome: V12
+  testo: >-
+    Il motore simbolo delle granturismo italiane: equilibrio perfetto, erogazione continua e grande cilindrata.
+- id: W16
+  nome: W16
+  testo: >-
+    Due V8 a stretto angolo affiancati su un unico albero. Usato in serie solo da Bugatti per raggiungere oltre 1000 CV.
+- id: Boxer 4
+  nome: Boxer a quattro cilindri
+  testo: >-
+    Cilindri contrapposti, baricentro basso. Subaru lo usa da decenni; il suono caratteristico deriva dai
+    collettori di scarico di lunghezza diversa.
+- id: Boxer 6
+  nome: Boxer a sei cilindri
+  testo: >-
+    Il motore della Porsche 911: piatto, basso, perfettamente equilibrato e montato a sbalzo dietro l'asse posteriore.
+- id: Rotativo
+  nome: Rotativo Wankel
+  testo: >-
+    Niente pistoni né valvole: un rotore triangolare gira in una camera epitrocoidale. Leggerissimo e molto
+    compatto, ma con consumi e tenute difficili. In questo sito il numero di "cilindri" indica i rotori.

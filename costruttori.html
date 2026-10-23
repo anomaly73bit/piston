@@ -1,0 +1,31 @@
+---
+layout: default
+title: Costruttori
+permalink: /costruttori/
+---
+{%- assign gruppi = site.data.motori | group_by: "costruttore" | sort: "name" -%}
+<section class="pagina riga">
+  <h1>Costruttori</h1>
+  <p class="sottotitolo">{{ gruppi | size }} costruttori, ognuno con i suoi motori in ordine di debutto.</p>
+  <nav class="indice-lettere" aria-label="Vai al costruttore">
+    {% for g in gruppi %}<a href="#{{ g.name | slugify }}">{{ g.name }}</a>{% endfor %}
+  </nav>
+  {% for g in gruppi %}
+  {%- assign voci = g.items | sort: "inizio" -%}
+  <section class="gruppo" id="{{ g.name | slugify }}">
+    <h2>{{ g.name }} <span class="quanti">{{ voci | size }}</span></h2>
+    <p class="nota-paese">{{ voci[0].paese }}</p>
+    <ul class="schedine">
+      {% for m in voci %}
+      <li>
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          {% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}
+          <strong>{{ m.nome }}</strong>
+          <span>{{ m.architettura }}, {{ m.cilindrata }} cc, {{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}oggi{% endif %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>

@@ -1,0 +1,30 @@
+- termine: Alesaggio
+  testo: Diametro interno del cilindro, in millimetri. Più è grande, più spazio c'è per valvole grandi.
+- termine: Corsa
+  testo: Distanza percorsa dal pistone tra punto morto superiore e inferiore. Una corsa lunga favorisce la coppia, una corta i regimi alti.
+- termine: Motore quadro, superquadro, sottoquadro
+  testo: Quadro quando alesaggio e corsa sono uguali (es. Toyota 2JZ, 86 × 86 mm). Superquadro quando l'alesaggio supera la corsa, sottoquadro quando la corsa è più lunga.
+- termine: Cilindrata
+  testo: Volume spazzato da tutti i pistoni, in centimetri cubi. Si calcola come area del pistone × corsa × numero di cilindri.
+- termine: Rapporto di compressione
+  testo: Rapporto tra il volume del cilindro con il pistone in basso e quello con il pistone in alto. Più è alto, migliore il rendimento, ma maggiore il rischio di detonazione.
+- termine: DOHC / SOHC / OHV
+  testo: Due alberi a camme in testa per bancata (DOHC), uno solo (SOHC) oppure un albero nel basamento con aste e bilancieri (OHV), come nei V8 GM.
+- termine: Fasatura variabile
+  testo: Sistemi come VTEC, VANOS, VarioCam o VVT-i modificano il momento di apertura delle valvole per avere coppia in basso e potenza in alto.
+- termine: Iniezione diretta
+  testo: Il carburante viene spruzzato direttamente nella camera di combustione. Aumenta il rendimento ma lascia depositi carboniosi sulle valvole di aspirazione.
+- termine: Common rail
+  testo: Sistema diesel con un condotto comune ad altissima pressione che alimenta tutti gli iniettori, comandati elettronicamente. Sviluppato dal gruppo Fiat e industrializzato da Bosch.
+- termine: Turbo twin-scroll
+  testo: Turbina con due ingressi separati per gruppi di cilindri, per sfruttare meglio gli impulsi di scarico e ridurre il ritardo di risposta.
+- termine: Turbo sequenziali
+  testo: Due turbine che entrano in funzione una dopo l'altra, la prima ai bassi regimi e la seconda agli alti.
+- termine: Closed-deck / open-deck
+  testo: In un blocco closed-deck la parte superiore delle canne è collegata al basamento, più rigido e adatto a pressioni elevate. L'open-deck è più semplice da fondere ma meno robusto.
+- termine: Carter secco
+  testo: L'olio è raccolto in un serbatoio separato da una pompa di recupero. Permette di montare il motore più in basso ed evita cali di pressione in curva.
+- termine: Limitatore
+  testo: Regime massimo ammesso dalla centralina. In questo sito indica il valore tipico di serie; può variare tra versioni.
+- termine: CV
+  testo: Cavalli vapore metrici (PS). 1 CV = 0,7355 kW; 1 hp anglosassone = 1,014 CV.
