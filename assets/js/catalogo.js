@@ -40,13 +40,38 @@
     return true;
   }
 
+  // Spiega perché un motore compare quando la ricerca trova solo un'auto che lo monta.
+  function motivo(r, q) {
+    var nota = r.querySelector('.voce-montato');
+    if (!nota) return;
+    var parole = q ? q.split(/\s+/) : [];
+    var proprio = parole.length && parole.every(function (p) { return r.dataset.proprio.indexOf(p) !== -1; });
+    if (!parole.length || proprio) { nota.hidden = true; return; }
+    var auto = r.dataset.modelli.split('|').filter(function (m) {
+      var t = m.toLowerCase();
+      return parole.some(function (p) { return t.indexOf(p) !== -1; });
+    });
+    nota.textContent = auto.length ? 'Montato su: ' + auto.join(', ') : '';
+    nota.hidden = !auto.length;
+  }
+
   function aggiorna() {
     var visibili = 0;
+    var q = campi.testo.value.trim().toLowerCase();
     righe.forEach(function (r) {
       var ok = corrisponde(r);
       r.hidden = !ok;
-      if (ok) visibili++;
+      if (ok) { visibili++; motivo(r, q); }
     });
+    // In ricerca, i motori che corrispondono per nome o costruttore vanno prima di quelli trovati tramite un'auto.
+    if (q) {
+      var parole = q.split(/\s+/);
+      var primi = righe.filter(function (r) { return parole.every(function (p) { return r.dataset.proprio.indexOf(p) !== -1; }); });
+      var altri = righe.filter(function (r) { return primi.indexOf(r) === -1; });
+      primi.concat(altri).forEach(function (r) { lista.appendChild(r); });
+    } else {
+      righe.forEach(function (r) { lista.appendChild(r); });
+    }
     conteggio.textContent = visibili === 1 ? '1 motore' : visibili + ' motori';
     vuoto.hidden = visibili !== 0;
     salvaURL();

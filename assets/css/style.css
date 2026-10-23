@@ -306,3 +306,5 @@ h3 { font-size: 1rem; font-weight: 600; }
 .tavola .foto img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: var(--alluminio); }
 .tavola .foto figcaption { padding: .6rem .8rem .75rem; margin-top: 0; font-size: .78rem; }
 @media (max-width: 959px) { .tavola .foto { grid-column: 1 / -1; } }
+
+.voce-nome .voce-montato { color: var(--blu); font-size: .825rem; white-space: normal; }

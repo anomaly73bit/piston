@@ -53,6 +53,8 @@ script: catalogo.js
       <li class="voce"
           data-nome="{{ m.nome | downcase | escape }}"
           data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}{% for a in m.modelli %} {{ a.nome | downcase | escape }}{% endfor %}"
+          data-proprio="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}"
+          data-modelli="{% for a in m.modelli %}{{ a.nome | escape }}{% unless forloop.last %}|{% endunless %}{% endfor %}"
           data-costruttore="{{ m.costruttore | escape }}"
           data-architettura="{{ m.architettura | escape }}"
           data-alimentazione="{{ m.alimentazione | escape }}"
@@ -63,7 +65,7 @@ script: catalogo.js
           data-cv="{{ m.cv_max }}">
         <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
           <span class="voce-disegno">{% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}</span>
-          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span></span>
+          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span><span class="voce-montato" hidden></span></span>
           <span class="voce-anni">{{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}<em>oggi</em>{% endif %}</span>
           <span class="voce-arch nasconde-piccolo">{{ m.architettura }}, {{ m.aspirazione | downcase }}</span>
           <span class="num">{{ m.cilindrata }} cc</span>
