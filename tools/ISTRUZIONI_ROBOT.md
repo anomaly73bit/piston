@@ -21,6 +21,22 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
      (es. "Boxer 12", "W12", "V16"), aggiungila a quel file con nome e testo tecnico di due frasi.
    - Lo `slug` è minuscolo con trattini: costruttore-codice (es. `bmw-n55`).
    - Ogni testo in un elenco che contiene "due punti seguiti da spazio" va tra virgolette doppie.
+3b. **Foto.** Per ogni motore aggiunto, e in più per **10 motori già presenti senza campo `foto`** (dal primo del file),
+   cerca su Wikimedia Commons una foto che mostri **il motore stesso** (non l'auto intera), di quella famiglia.
+   - Accetta solo licenze libere: CC0, pubblico dominio, CC BY, CC BY-SA. Leggi la licenza e l'autore sulla pagina del file.
+   - Se non trovi una foto adatta e verificata, non aggiungere il campo: le schede funzionano anche senza.
+   - Usa la miniatura a 800 px di larghezza (URL `https://upload.wikimedia.org/wikipedia/commons/thumb/.../800px-...`)
+     e controlla che l'indirizzo risponda.
+   - Formato:
+     ```
+       foto:
+         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/x/xy/Nome.jpg/800px-Nome.jpg"
+         pagina: "https://commons.wikimedia.org/wiki/File:Nome.jpg"
+         autore: "Nome dell'autore come indicato su Commons"
+         licenza: "CC BY-SA 4.0"
+         descrizione: "Toyota 2JZ-GTE nel vano della Supra A80"
+     ```
+     Il campo va subito dopo `limitatore:`.
 4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa.
 5. Controlla i template: `pip install python-liquid pyyaml markdown --break-system-packages -q` e
    `python3 tools/anteprima.py` deve terminare senza errori. Poi cancella la cartella `_anteprima/`.

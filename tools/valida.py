@@ -47,6 +47,14 @@ def main() -> int:
             for x in m.get(k) or []:
                 if not isinstance(x, str):
                     errori.append(f"{nome}: voce di '{k}' letta come dizionario (mettere il testo tra virgolette): {x}")
+        f = m.get("foto")
+        if f is not None:
+            if not isinstance(f, dict) or not all(f.get(k) for k in ("url", "pagina", "autore", "licenza")):
+                errori.append(f"{nome}: 'foto' deve avere url, pagina, autore e licenza")
+            elif not str(f["url"]).startswith("https://upload.wikimedia.org/"):
+                errori.append(f"{nome}: la foto deve venire da upload.wikimedia.org")
+            elif not str(f["pagina"]).startswith("https://commons.wikimedia.org/wiki/File:"):
+                errori.append(f"{nome}: 'pagina' deve essere la pagina del file su Wikimedia Commons")
         for k in ("storia", "limiti"):
             if not isinstance(m.get(k), str):
                 errori.append(f"{nome}: '{k}' deve essere testo")
