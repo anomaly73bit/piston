@@ -1,13 +1,14 @@
 # Istruzioni per il robot che aggiunge motori
 
-Ogni esecuzione aggiunge **4 motori** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+Ogni esecuzione aggiunge **25 motori** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte dal 1980 a oggi, di ogni costruttore.
 
 ## Procedura
 
 1. Leggi `tools/coda.txt`. Prendi le prime righe non commentate.
    - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
      o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
-   - Continua finché hai 4 motori validi o la coda è vuota.
+   - Continua finché hai 25 motori validi o la coda è vuota.
 2. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
    riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
    delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
@@ -24,6 +25,12 @@ Ogni esecuzione aggiunge **4 motori** a `_data/motori.yml`, presi dall'inizio di
 5. Controlla i template: `pip install python-liquid pyyaml markdown --break-system-packages -q` e
    `python3 tools/anteprima.py` deve terminare senza errori. Poi cancella la cartella `_anteprima/`.
 6. Cancella da `tools/coda.txt` le righe elaborate (aggiunte o saltate).
+   **Se la coda scende sotto le 100 righe, allungala**: scegli i costruttori meno rappresentati in `_data/motori.yml`
+   (contali), cerca sul web l'elenco delle loro famiglie di motori prodotte dal 1980 a oggi (pagine "List of ... engines"
+   di Wikipedia e simili) e aggiungi in fondo alla coda almeno 150 righe nuove, nel formato `nome | indicazioni`.
+   Una riga = una famiglia di motore con scheda propria; raggruppa le varianti minime nella stessa riga.
+   Niente doppioni con `_data/motori.yml` o con righe già in coda; niente motori solo da competizione o elettrici.
+   Includi anche costruttori europei minori, asiatici (Hyundai, Kia, case cinesi e indiane con motori propri) e americani.
 7. Commit con messaggio "Aggiunti motori: <nomi>" e push sul ramo `main`.
 
 ## Stile dei testi
