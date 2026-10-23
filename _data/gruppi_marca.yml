@@ -1,0 +1,11 @@
+# Marche considerate "della stessa casa" del costruttore del motore:
+# le auto di queste marche non vengono segnalate come "altra marca" nella scheda.
+Toyota: [Lexus, Scion]
+Lexus: [Toyota]
+Nissan: [Infiniti, Datsun]
+Honda: [Acura]
+Mercedes-Benz: [Mercedes, Mercedes-AMG, AMG, Maybach]
+General Motors: [Chevrolet, Pontiac, Cadillac, Buick, GMC, Holden, HSV]
+PSA / BMW: [PSA, BMW, Peugeot, Citroën, DS, Mini]
+Ford: [Lincoln, Mercury]
+Dodge: [SRT]

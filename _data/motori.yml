@@ -2533,7 +2533,8 @@
   modelli:
     - { nome: "Volkswagen Golf III–V, Corrado, Passat, Sharan", anni: "1991–2010" }
     - { nome: "Volkswagen Golf R32, Audi TT 3.2, A3 3.2", anni: "2002–2010" }
-    - { nome: "Volkswagen Touareg, Atlas, Porsche Cayenne (V6)", anni: "2002–2024" }
+    - { nome: "Volkswagen Touareg, Atlas", anni: "2002–2024" }
+    - { nome: "Porsche Cayenne V6 (955, 957, 958)", anni: "2002–2014" }
   storia: >-
     V6 a bancate strettissime, nato per offrire un sei cilindri nel vano di auto a trazione anteriore progettate per motori
     a quattro cilindri. Con 15° di angolo i cilindri sono sfalsati in un unico basamento e coperti da una sola testata. Le

@@ -21,6 +21,9 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
      (es. "Boxer 12", "W12", "V16"), aggiungila a quel file con nome e testo tecnico di due frasi.
    - Lo `slug` è minuscolo con trattini: costruttore-codice (es. `bmw-n55`).
    - Ogni testo in un elenco che contiene "due punti seguiti da spazio" va tra virgolette doppie.
+   - In `modelli` ogni riga contiene **una sola marca** e inizia con il nome della marca (es. "Porsche Cayenne V6"):
+     così la scheda segnala automaticamente le auto di altre marche. Se il motore equipaggia auto di marche diverse
+     dal costruttore, elencale sempre in righe separate.
 3b. **Foto.** Per ogni motore aggiunto, e in più per **10 motori già presenti senza campo `foto`** (dal primo del file),
    cerca su Wikimedia Commons una foto che mostri **il motore stesso** (non l'auto intera), di quella famiglia.
    - Accetta solo licenze libere: CC0, pubblico dominio, CC BY, CC BY-SA. Leggi la licenza e l'autore sulla pagina del file.

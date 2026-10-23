@@ -2,6 +2,17 @@
 layout: default
 ---
 {%- assign m = site.data.motori | where: "slug", page.slug | first -%}
+{%- assign marca = m.costruttore | split: " " | first | split: "-" | first | strip -%}
+{%- assign proprie = "|" | append: marca | append: "|" | append: m.costruttore | append: "|" -%}
+{%- assign gruppo = site.data.gruppi_marca[m.costruttore] -%}
+{%- for g in gruppo -%}{%- assign proprie = proprie | append: g | append: "|" -%}{%- endfor -%}
+{%- assign altre = "" -%}
+{%- for a in m.modelli -%}
+  {%- assign prima = a.nome | split: " " | first | strip -%}
+  {%- assign cerca = "|" | append: prima | append: "|" -%}
+  {%- unless proprie contains cerca -%}{%- assign altre = altre | append: "; " | append: a.nome -%}{%- endunless -%}
+{%- endfor -%}
+{%- assign altre = altre | remove_first: "; " -%}
 {%- if m.fine -%}{%- assign periodo = m.inizio | append: "–" | append: m.fine -%}{%- else -%}{%- assign periodo = m.inizio | append: "–oggi" -%}{%- endif -%}
 <article class="motore">
   <header class="targhetta">
@@ -70,6 +81,7 @@ layout: default
             <tr><th scope="row">Testata</th><td>{{ m.testa }}</td></tr>
             <tr><th scope="row">Iniezione</th><td>{{ m.iniezione }}</td></tr>
             <tr><th scope="row">Limitatore</th><td>{{ m.limitatore }} giri/min</td></tr>
+            {% if altre != "" %}<tr><th scope="row">Montato anche da altre marche</th><td>{{ altre }}</td></tr>{% endif %}
           </tbody>
         </table>
       </section>
@@ -91,7 +103,7 @@ layout: default
       <section aria-labelledby="t-modelli">
         <h2 id="t-modelli">Auto che lo montano</h2>
         <ul class="modelli">
-          {% for a in m.modelli %}<li><span>{{ a.nome }}</span> <span class="anni">{{ a.anni }}</span></li>{% endfor %}
+          {% for a in m.modelli %}{%- assign prima = a.nome | split: " " | first | strip -%}{%- assign cerca = "|" | append: prima | append: "|" -%}<li><span>{{ a.nome }}{% unless proprie contains cerca %} <span class="altra-marca">altra marca</span>{% endunless %}</span> <span class="anni">{{ a.anni }}</span></li>{% endfor %}
         </ul>
       </section>
 

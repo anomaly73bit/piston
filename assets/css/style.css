@@ -307,4 +307,5 @@ h3 { font-size: 1rem; font-weight: 600; }
 .tavola .foto figcaption { padding: .6rem .8rem .75rem; margin-top: 0; font-size: .78rem; }
 @media (max-width: 959px) { .tavola .foto { grid-column: 1 / -1; } }
 
-.voce-nome .voce-montato { color: var(--blu); font-size: .825rem; white-space: normal; }
+
+.altra-marca { display: inline-block; margin-left: .4rem; padding: 0 .4rem; border-radius: var(--raggio); background: var(--giallo-tenue); color: var(--ghisa); font-size: .78rem; font-weight: 600; white-space: nowrap; }
