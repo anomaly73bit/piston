@@ -1,0 +1,141 @@
+# Coda dei motori da aggiungere, in ordine di priorità.
+# Il robot prende le prime righe non ancora presenti in _data/motori.yml,
+# le aggiunge e poi le cancella da questo file.
+# Formato: nome del motore | indicazioni (versioni, modelli o note)
+Fiat FIRE 1.2 8v | Panda, Punto, Uno; famiglia FIRE aspirata
+Fiat/Alfa Romeo 1.4 MultiAir | Giulietta, MiTo, 500X; distribuzione elettroidraulica
+Fiat/Lancia 2.0 16v turbo Delta Integrale | testata 16v dal 1989; Lancia Delta HF Integrale 16v ed Evoluzione
+Alfa Romeo 2.0 Twin Spark 8v e Nord bialbero | solo se distinto dalla scheda Twin Spark esistente, altrimenti saltare
+Fiat 1.3 Multijet | Panda, Punto, Ypsilon, Opel Corsa; piccolo diesel common rail
+Alfa Romeo 1750 TBi | Giulietta QV, 4C; turbo a iniezione diretta
+Fiat 2.0 Multijet / 2.2 JTDm | Alfa 159, Giulia, Stelvio diesel
+Lancia/Ferrari 3.0 V8 Thema 8.32 | motore Ferrari F105L sulla Lancia Thema
+Ferrari F105 V8 (308/328/Mondial) | dal 1980: 308 QV, 328, Mondial
+Ferrari F113 flat-12 Testarossa | Testarossa, 512 TR, F512 M
+Ferrari F120 V8 biturbo F40 | F40, 288 GTO evoluzione
+Ferrari F133 V12 | 456, 550 Maranello, 575M
+Ferrari F131 V8 | F355, 360 Modena
+Lamborghini V12 Bizzarrini (Countach/Diablo/Murciélago) | dal 1980: Countach QV, Diablo, Murciélago
+Lamborghini V10 5.0 (Gallardo prima serie) | 2003–2008
+Maserati biturbo V6 (Biturbo anni '80) | Biturbo, Ghibli II, Shamal V8
+Maserati F160 3.0 V6 biturbo | Ghibli, Quattroporte, Levante V6
+BMW M20 | sei cilindri piccolo, E30 320i/325i
+BMW M30 | sei cilindri grande, E28, E34, E32
+BMW M50 / M52 | E36, E39
+BMW S50 / S52 | M3 E36
+BMW S38 | M5 E28/E34
+BMW N47 2.0 diesel | catena di distribuzione posteriore difettosa
+BMW N55 | sei cilindri turbo singolo twin-scroll
+BMW S63 V8 biturbo | M5 F10/F90, X5 M
+BMW S62 V8 | M5 E39
+BMW M70 / S70 V12 | 750i E32, McLaren F1 S70/2
+BMW B48 | quattro cilindri modulare
+BMW B47 / B57 diesel | quattro e sei cilindri diesel modulari
+Mercedes M117 / M119 V8 | 500 SL, 500 E, 560 SEL
+Mercedes M104 sei cilindri | E320, SL320, C36 AMG
+Mercedes M112 / M113 V6 e V8 | E/S/SL anni 2000, E55 AMG Kompressor
+Mercedes M275 / M279 V12 biturbo | S600, S65 AMG, Pagani Zonda/Huayra (M158/M279 AMG)
+Mercedes M120 V12 | S600 W140, Pagani Zonda (M120 AMG)
+Mercedes OM642 3.0 V6 diesel | 320 CDI, 350 CDI
+Mercedes OM651 2.1 diesel | C 220 CDI, Sprinter
+Mercedes M274 / M264 2.0 turbo | C 200/250 W205
+Mercedes M256 sei cilindri | ibrido leggero 48 V
+Audi 2.2 cinque cilindri turbo (Quattro, S2, RS2) | 10v e 20v, RS2 con Porsche
+Audi 4.2 V8 40v | S4 B6, RS6 C5 biturbo
+Audi 4.0 TFSI V8 (EA824) | RS6, RS7, S8, Bentley, Lamborghini Urus
+Audi 2.9 / 3.0 TFSI V6 biturbo (EA839) | RS4 B9, RS5, S4 B9
+Audi 3.0 TDI V6 | A6, A8, Q7, Touareg
+VW EA111 1.4 TSI twincharger | Golf GTI, Polo GTI; compressore + turbo
+VW 1.6 TDI / 2.0 TDI EA288 | successore EA189
+VW W12 | Phaeton, Bentley Continental, Audi A8 W12
+VW EA390 VR6 / 3.6 | solo se distinto dalla scheda VR6, altrimenti saltare
+VW EA888 evo4 / EA211 1.5 TSI evo | 1.5 TSI con disattivazione cilindri
+Porsche 3.2 Carrera boxer raffreddato ad aria (930/20) | 911 Carrera 3.2
+Porsche M64 (964/993) | 3.6 raffreddato ad aria, 993 Turbo biturbo
+Porsche 9A1 boxer DFI | 997.2, 991.1, Cayman/Boxster 981
+Porsche 9A2 boxer biturbo | 991.2, 992
+Porsche 4.0 GT3 (MA1.75 / 9A2 Evo GT) | 991 GT3, 992 GT3, 718 GT4
+Porsche 2.5 / 2.0 quattro cilindri boxer 718 | 718 Boxster/Cayman
+Porsche 4.8 V8 (M48) | Cayenne, Panamera
+Porsche 944 / 968 quattro cilindri | 2.5–3.0, 944 Turbo
+Porsche 928 V8 | 4.5–5.4
+Opel 2.0 16v turbo Z20LET | Astra G/H OPC
+Opel X20XEV Ecotec | Calibra, Astra, Vectra
+Ford 2.0 / 2.3 EcoBoost | Focus RS, Mustang EcoBoost
+Ford 5.0 Voodoo / Predator | Mustang Shelby GT350/GT500 albero piatto
+Ford 3.5 EcoBoost V6 (D35) | F-150, Ford GT
+Ford Zetec / Duratec 2.0 | Focus, Mondeo
+Ford 1.6 TDCi / 2.0 TDCi | PSA-Ford DV6 e DW10
+PSA XU10J4 / XU9J4 | Peugeot 405 Mi16, 205 GTI 1.9 (XU9JA)
+PSA EW10J4 / EW10J4S | 206 RC, 307
+PSA DW10 2.0 HDi | 406, 407, 307
+PSA DV6 1.6 HDi | con Ford
+PSA EB2 PureTech 1.2 | cinghia a bagno d'olio
+Renault F7R | Clio Williams, Clio 16v
+Renault F4R / F4Rt | Clio RS, Mégane RS
+Renault K9K 1.5 dCi | Renault, Dacia, Nissan, Mercedes
+Renault/Alpine M5P 1.8 turbo | Alpine A110, Mégane RS 280/300
+Renault V6 PRV | Delorean, Alpine GTA, Peugeot 605
+Volvo B5254T cinque cilindri | 850 T5-R, S60 R
+Volvo B6304 / B4204 Drive-E | modulari 2.0
+Saab B234 / B235 | 9000, 9-3, 9-5 turbo
+Toyota 1JZ-GTE | Supra JZA70, Chaser, Mark II
+Toyota 2ZZ-GE | Celica T-Sport, Lotus Elise
+Toyota 2GR-FE / 2GR-FSE | V6 3.5, Lotus Evora
+Toyota 1KD-FTV / 1GD-FTV | diesel Land Cruiser, Hilux
+Toyota 2UR-GSE | Lexus IS F, RC F, LC 500
+Toyota 7M-GTE | Supra MkIII
+Toyota 2AR / M20A Dynamic Force | M20A e A25A ibridi
+Nissan VQ35DE / VQ37VHR | 350Z, 370Z, Infiniti
+Nissan RB25DET | Skyline R33/R34 GTS-T
+Nissan VG30DETT | 300ZX Z32
+Nissan CA18DET | Silvia S12/S13
+Nissan VR30DDTT | Z RZ34, Infiniti Q50
+Honda H22A | Prelude, Accord Type R
+Honda B18C | Integra Type R DC2
+Honda D16 | Civic anni '90
+Honda J35 / J37 V6 | Accord, Acura
+Honda JNC1 (NSX ibrida) | NSX NC1
+Mazda B6 / BP (MX-5) | MX-5 NA/NB
+Mazda Skyactiv-G 2.0 / 2.5 | compressione 13:1
+Mazda Skyactiv-X | accensione a compressione controllata da candela
+Mazda 20B-REW | Eunos Cosmo triplo rotore
+Mazda 26B | 787B, Le Mans 1991
+Mitsubishi 4B11T | Lancer Evolution X
+Mitsubishi 6G72TT | 3000GT VR-4, GTO
+Mitsubishi 4G93 GDI | primo benzina a iniezione diretta moderno
+Subaru EZ30 / EZ36 | boxer sei cilindri
+Subaru FA20DIT / FA24 | WRX, Levorg, BRZ/GR86
+Hyundai Theta 2.0 turbo | Genesis Coupé, Veloster N (Theta II)
+Hyundai Smartstream G2.5T / N 2.0 T-GDi | i30 N, Elantra N
+Kia/Hyundai Lambda V6 | 3.3 / 3.8
+GM LT1 / LT2 / LT4 / LT5 Gen V | Corvette C7/C8, Camaro
+GM LT6 albero piatto | Corvette Z06 C8
+GM Northstar V8 | Cadillac
+GM Ecotec LSJ / LNF 2.0 turbo | Cobalt SS, Opel GT, Solstice
+Chrysler/Dodge 8.0 / 8.4 V10 Viper | Viper RT/10–ACR
+Chrysler 5.7 / 6.4 HEMI | 300C, Charger, Jeep
+Chrysler 3.6 Pentastar | Jeep, Chrysler, Dodge
+Ford 4.6 Modular / 5.4 | Mustang, Ford GT 2005
+Ford 7.3 / 6.7 Power Stroke diesel | F-Series
+Cummins 5.9 / 6.7 B-series | Ram
+Jaguar AJ-V8 | 4.0–5.0, AJ133 compressore
+Jaguar AJ6 / AJ16 | XJ40, XJS, XJR
+Jaguar V12 HE | XJ-S, XJ12
+Land Rover / Rover V8 | 3.5–4.6, TVR
+Rover K-Series | MGF, Lotus Elise; guarnizione testata
+Lotus 907 / 910 | Esprit Turbo
+TVR Speed Six | Tuscan, Cerbera, Sagaris
+Aston Martin AM V12 | DB9, Vanquish, DBS
+Aston Martin V8 4.3 / 4.7 (AJ37) | V8 Vantage 2005
+McLaren M840T | 720S, 765LT, Artura escluso
+Pagani / AMG M158 / M279 V12 | Huayra
+Koenigsegg V8 biturbo 5.0 | Agera, Regera, Jesko
+Rolls-Royce / BMW N74 V12 | Ghost, Wraith, Cullinan (N74, N74B66)
+Bentley 6¾ L-series V8 | Mulsanne, Arnage
+Škoda 1.0 / 1.2 TSI | EA211 tre cilindri
+Smart / Mitsubishi 3B2 tre cilindri | Smart ForTwo
+Suzuki G13B / M13A / K14C | Swift GTi, Swift Sport
+Daihatsu / Toyota KF tre cilindri | kei car
+Lada VAZ-2106 / 21126 | Niva, Priora
+Škoda / VW 1.2 HTP | Fabia, Polo

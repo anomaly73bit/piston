@@ -1,0 +1,44 @@
+# Istruzioni per il robot che aggiunge motori
+
+Ogni esecuzione aggiunge **4 motori** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+
+## Procedura
+
+1. Leggi `tools/coda.txt`. Prendi le prime righe non commentate.
+   - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
+     o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
+   - Continua finché hai 4 motori validi o la coda è vuota.
+2. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
+   riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
+   delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
+   versione, oppure scrivi un valore prudente nel testo. Mai inventare.
+3. Scrivi la voce in coda a `_data/motori.yml` seguendo esattamente lo schema delle voci esistenti (guarda ad esempio
+   `ferrari-f154` e `bmw-s58`). Tutti i campi elencati in `tools/valida.py` sono obbligatori.
+   - `fine:` vuoto se il motore è ancora in produzione (verifica sul web).
+   - `angolo:` obbligatorio per architetture V e W (gradi tra le bancate).
+   - `architettura:` deve essere uno degli `id` di `_data/architetture.yml`. Se serve un'architettura nuova
+     (es. "Boxer 12", "W12", "V16"), aggiungila a quel file con nome e testo tecnico di due frasi.
+   - Lo `slug` è minuscolo con trattini: costruttore-codice (es. `bmw-n55`).
+   - Ogni testo in un elenco che contiene "due punti seguiti da spazio" va tra virgolette doppie.
+4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa.
+5. Controlla i template: `pip install python-liquid pyyaml markdown --break-system-packages -q` e
+   `python3 tools/anteprima.py` deve terminare senza errori. Poi cancella la cartella `_anteprima/`.
+6. Cancella da `tools/coda.txt` le righe elaborate (aggiunte o saltate).
+7. Commit con messaggio "Aggiunti motori: <nomi>" e push sul ramo `main`.
+
+## Stile dei testi
+
+- Italiano, registro **tecnico**: dati costruttivi, soluzioni tecniche, date, risultati sportivi documentati.
+- Niente aggettivi enfatici, soprannomi, frasi da rivista, giudizi estetici sul suono, aneddoti da film.
+  Da evitare: "leggenda", "icona", "mitico", "cuore", "canto del cigno", "inconfondibile", "il migliore di sempre".
+- `storia`: 3–4 frasi, cosa ha di tecnicamente particolare e dove è stato usato.
+- `in_breve`: 3 dati chiave verificati, `valore` corto (numero, sigla o parola) e `testo` di una riga.
+- `punti_deboli`: difetti documentati e ricorrenti, con il componente coinvolto.
+- `limiti`: soglie di potenza indicative con il componente critico.
+- `curiosita`: 1–2 fatti tecnici o storici verificabili.
+- Unità: CV (PS), Nm, cc, mm, giri/min. Decimali con la virgola nei testi.
+
+## Se qualcosa va storto
+
+Se la validazione o l'anteprima non passano dopo i tentativi di correzione, non fare push: annulla le modifiche
+e lascia la coda invariata.

@@ -260,7 +260,7 @@
   punti_deboli:
     - "Consumo d'olio se usato spesso al limitatore: controllare il livello frequentemente"
     - Tenditore catena e gioco valvole
-    - Fuorigiri da scalata errata su esemplari usati: verificare il registro dei fuorigiri in centralina
+    - "Fuorigiri da scalata errata su esemplari usati: verificare il registro dei fuorigiri in centralina"
   limiti: >-
     Con compressore volumetrico si raggiungono 350–400 CV; il limite pratico sono le bielle di serie.
   curiosita:
@@ -553,7 +553,7 @@
     alternativo di pari potenza.
   punti_deboli:
     - "Tenute d'apice e laterali: la compressione va misurata prima dell'acquisto"
-    - Tubazioni del vuoto del sistema sequenziale: invecchiano e causano malfunzionamenti del secondo turbo
+    - "Tubazioni del vuoto del sistema sequenziale: invecchiano e causano malfunzionamenti del secondo turbo"
     - "Surriscaldamento: radiatore e sensori vanno tenuti in perfetto stato"
   limiti: >-
     Con turbo singolo e gestione adeguata raggiunge circa 400 CV con affidabilità accettabile. Oltre servono
