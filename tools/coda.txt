@@ -2,32 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Porsche 2.5 / 2.0 quattro cilindri boxer 718 | 718 Boxster/Cayman
-Porsche 4.8 V8 (M48) | Cayenne, Panamera
-Porsche 944 / 968 quattro cilindri | 2.5–3.0, 944 Turbo
-Porsche 928 V8 | 4.5–5.4
-Opel 2.0 16v turbo Z20LET | Astra G/H OPC
-Opel X20XEV Ecotec | Calibra, Astra, Vectra
-Ford 2.0 / 2.3 EcoBoost | Focus RS, Mustang EcoBoost
-Ford 5.0 Voodoo / Predator | Mustang Shelby GT350/GT500 albero piatto
-Ford 3.5 EcoBoost V6 (D35) | F-150, Ford GT
-Ford Zetec / Duratec 2.0 | Focus, Mondeo
-Ford 1.6 TDCi / 2.0 TDCi | PSA-Ford DV6 e DW10
-PSA XU10J4 / XU9J4 | Peugeot 405 Mi16, 205 GTI 1.9 (XU9JA)
-PSA EW10J4 / EW10J4S | 206 RC, 307
-PSA DW10 2.0 HDi | 406, 407, 307
-PSA DV6 1.6 HDi | con Ford
-PSA EB2 PureTech 1.2 | cinghia a bagno d'olio
-Renault F7R | Clio Williams, Clio 16v
-Renault F4R / F4Rt | Clio RS, Mégane RS
-Renault K9K 1.5 dCi | Renault, Dacia, Nissan, Mercedes
-Renault/Alpine M5P 1.8 turbo | Alpine A110, Mégane RS 280/300
-Renault V6 PRV | Delorean, Alpine GTA, Peugeot 605
-Volvo B5254T cinque cilindri | 850 T5-R, S60 R
-Volvo B6304 / B4204 Drive-E | modulari 2.0
-Saab B234 / B235 | 9000, 9-3, 9-5 turbo
-Toyota 1JZ-GTE | Supra JZA70, Chaser, Mark II
-Toyota 2ZZ-GE | Celica T-Sport, Lotus Elise
 Toyota 2GR-FE / 2GR-FSE | V6 3.5, Lotus Evora
 Toyota 1KD-FTV / 1GD-FTV | diesel Land Cruiser, Hilux
 Toyota 2UR-GSE | Lexus IS F, RC F, LC 500

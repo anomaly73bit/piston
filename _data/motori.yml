@@ -6029,3 +6029,1477 @@
   curiosita:
     - "Il 4,0 litri delle 718 GT4 e Spyder del 2019 è il primo motore ad alto regime Porsche con iniettori piezoelettrici, con fino a cinque iniezioni per ciclo."
     - "Il motore della 992 GT3 è impiegato in forma quasi invariata sulla 911 GT3 Cup dalla stagione 2021."
+
+- slug: porsche-718-boxer-4
+  codice: MA2 (2.0 / 2.5)
+  nome: Porsche 718 quattro cilindri boxer turbo
+  costruttore: Porsche
+  paese: Germania
+  inizio: 2016
+  fine: 2025
+  architettura: Boxer 4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1988
+  alesaggio: 91.0
+  corsa: 76.4
+  compressione: "9.5:1"
+  distribuzione: DOHC, VarioCam Plus su aspirazione e scarico
+  valvole: 4
+  blocco: Alluminio, cilindri con riporto al plasma
+  testa: Alluminio
+  iniezione: Diretta, iniettore centrale a 250 bar
+  cv_min: 250
+  cv_max: 365
+  nm_max: 430
+  limitatore: 7500
+  in_breve:
+    - { valore: "VTG", testo: "turbina a geometria variabile sul 2.5, tecnologia ripresa dalla 911 Turbo" }
+    - { valore: "91 × 76,4", testo: "alesaggio e corsa del 2.0, gli stessi del boxer sei cilindri 3.0 della 911" }
+    - { valore: "7500", testo: "giri/min al limitatore" }
+  versioni:
+    - { nome: "718 Boxster / Cayman 2.0", anni: "2016–2025", cv: 300, nm: 380, nota: "1988 cc; coppia massima da 1950 a 4500 giri/min" }
+    - { nome: "718 Boxster / Cayman 2.0 (Cina)", anni: "2016–2025", cv: 250, nm: 310, nota: "Versione depotenziata per il mercato cinese" }
+    - { nome: "718 Boxster / Cayman T", anni: "2019–2025", cv: 300, nm: 380, nota: "Stesso 2.0 della versione base" }
+    - { nome: "718 Boxster S / Cayman S 2.5", anni: "2016–2025", cv: 350, nm: 420, nota: "2497 cc, 102 × 76,4 mm, turbo VTG" }
+    - { nome: "718 Boxster GTS / Cayman GTS 2.5", anni: "2017–2019", cv: 365, nm: 430, nota: "Condotto di aspirazione nuovo e turbo ottimizzato" }
+  modelli:
+    - { nome: "Porsche 718 Boxster (982)", anni: "2016–2025" }
+    - { nome: "Porsche 718 Cayman (982)", anni: "2016–2025" }
+  storia: >-
+    Boxer a quattro cilindri sovralimentato che nel 2016 sostituisce i sei cilindri aspirati di Boxster e Cayman, ricavato
+    dalla famiglia di boxer biturbo 9A2 della 911 con due cilindri in meno. Il 2.0 ha alesaggio e corsa del 3,0 litri a sei
+    cilindri; il 2.5 porta l'alesaggio a 102 mm e adotta un turbocompressore a geometria variabile con wastegate. Iniezione
+    diretta con iniettore centrale vicino alla candela e VarioCam Plus con alzata variabile anche sullo scarico. La
+    produzione dei 718 a benzina, con i quali il motore è uscito di scena, è terminata nell'ottobre 2025.
+  punti_deboli:
+    - "Non risultano difetti ricorrenti documentati su larga scala"
+  limiti: >-
+    Le elaborazioni diffuse sono soprattutto di sola centralina; i componenti critici indicati per aumenti più consistenti
+    sono turbocompressore e intercooler. Non sono disponibili soglie documentate dal costruttore.
+  curiosita:
+    - "La sigla 718 riprende le Porsche 718 da competizione della fine degli anni '50, anch'esse con boxer a quattro cilindri."
+    - "Secondo Porsche il 2.0 completo di turbo, intercooler e radiatori pesa circa 8 kg meno del sei cilindri 2.7 che sostituisce."
+
+- slug: porsche-m48
+  codice: M48
+  nome: Porsche M48 V8 4.5 / 4.8
+  costruttore: Porsche
+  paese: Germania
+  inizio: 2002
+  fine: 2017
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Biturbo
+  cilindrata: 4806
+  alesaggio: 96.0
+  corsa: 83.0
+  compressione: "10.5–12.5:1"
+  distribuzione: DOHC a catena, VarioCam (VarioCam Plus dal 4.8)
+  valvole: 4
+  blocco: Lega di alluminio
+  testa: Alluminio
+  iniezione: Indiretta (4.5), diretta DFI (4.8)
+  cv_min: 340
+  cv_max: 570
+  nm_max: 800
+  limitatore: 6700
+  in_breve:
+    - { valore: "DFI", testo: "iniezione diretta introdotta nel 2007 con il 4,8 litri, consumi NEDC ridotti in media dell'8%" }
+    - { valore: "6700", testo: "giri/min di regime massimo dichiarato sulle versioni 4.8" }
+    - { valore: "800 Nm", testo: "nella Cayenne Turbo S del 2015 con 570 CV" }
+  versioni:
+    - { nome: "Cayenne S 4.5 (M48.00)", anni: "2002–2007", cv: 340, nm: 420, nota: "4511 cc, 93 × 83 mm, compressione 11,5:1" }
+    - { nome: "Cayenne Turbo 4.5 (M48.50)", anni: "2002–2007", cv: 450, nm: 620, nota: "Biturbo in parallelo, pistoni forgiati" }
+    - { nome: "Cayenne Turbo S 4.5", anni: "2006–2007", cv: 521, nm: 720, nota: "" }
+    - { nome: "Cayenne S / GTS 4.8 (M48.01)", anni: "2007–2010", cv: 385, nm: 500, nota: "GTS 405 CV; compressione 12,5:1" }
+    - { nome: "Cayenne Turbo / Turbo S 4.8 (M48.51)", anni: "2007–2010", cv: 500, nm: 700, nota: "Turbo S 550 CV, 750 Nm" }
+    - { nome: "Panamera S / 4S", anni: "2009–2013", cv: 400, nm: 500, nota: "" }
+    - { nome: "Panamera GTS", anni: "2011–2016", cv: 430, nm: 520, nota: "440 CV dal restyling del 2013" }
+    - { nome: "Panamera Turbo / Turbo S", anni: "2009–2016", cv: 500, nm: 700, nota: "Compressione 10,5:1; Turbo S 550 CV, poi 570 CV" }
+    - { nome: "Cayenne S / GTS (958)", anni: "2010–2014", cv: 400, nm: 500, nota: "GTS 420 CV" }
+    - { nome: "Cayenne Turbo / Turbo S (958)", anni: "2010–2017", cv: 500, nm: 700, nota: "Dal 2014 Turbo 520 CV; Turbo S 570 CV, 800 Nm" }
+  modelli:
+    - { nome: "Porsche Cayenne (955, 957)", anni: "2002–2010" }
+    - { nome: "Porsche Cayenne (958)", anni: "2010–2017" }
+    - { nome: "Porsche Panamera (970)", anni: "2009–2016" }
+  storia: >-
+    V8 a 90° sviluppato per la prima Cayenne, con quattro valvole per cilindro, fasatura variabile VarioCam e
+    lubrificazione a carter secco; le versioni biturbo hanno due turbocompressori in parallelo e pistoni forgiati con
+    getti d'olio di raffreddamento. Nel 2007 l'alesaggio passa da 93 a 96 mm, la cilindrata a 4806 cc e arriva l'iniezione
+    diretta con VarioCam Plus. Dal 2009 equipaggia anche la Panamera, la cui versione biturbo alleggerita è passata sulla
+    Cayenne meno di un anno dopo.
+  punti_deboli:
+    - "Rigature dei cilindri sulle versioni aspirate, più frequenti sul 4.5, legate a surriscaldamento, uso a freddo e lubrificazione"
+    - "Tubazioni del circuito di raffreddamento: rotture e perdite di liquido"
+    - "Pompa carburante ad alta pressione dell'iniezione diretta (4.8) e bobine di accensione"
+  limiti: >-
+    Sulle versioni biturbo la rimappatura è l'intervento più diffuso; oltre le potenze delle Turbo S di serie i
+    componenti critici sono turbocompressori, raffreddamento dell'aria di sovralimentazione e cambio. Non risultano soglie
+    documentate dal costruttore.
+  curiosita:
+    - "La Cayenne Turbo S del 2006 è stata la prima versione del 4,5 litri a superare i 500 CV, con 521 CV."
+    - "Sulle Panamera Turbo e Turbo S il pacchetto Sport Chrono porta la coppia in overboost a 770 e 800 Nm."
+
+- slug: porsche-m44
+  codice: M44
+  nome: Porsche M44 quattro cilindri 944 / 968
+  costruttore: Porsche
+  paese: Germania
+  inizio: 1982
+  fine: 1995
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 2479
+  alesaggio: 100.0
+  corsa: 78.9
+  compressione: "8.0–11.0:1"
+  distribuzione: SOHC a cinghia (8 valvole); DOHC a cinghia e catena (16 valvole), VarioCam sulla 968
+  valvole: "2 / 4"
+  blocco: Lega alluminio-silicio senza canne riportate
+  testa: Alluminio
+  iniezione: Indiretta elettronica
+  cv_min: 160
+  cv_max: 305
+  nm_max: 500
+  limitatore: 6500
+  in_breve:
+    - { valore: "2 contralberi", testo: "controrotanti a velocità doppia del motore, su brevetto Mitsubishi in licenza" }
+    - { valore: "3,0 litri", testo: "cilindrata di 944 S2 e 968, tra i quattro cilindri a benzina più grandi di serie" }
+    - { valore: "30°", testo: "inclinazione del motore nel vano" }
+  versioni:
+    - { nome: "944 2.5 8v", anni: "1982–1988", cv: 163, nm: 205, nota: "Dal 1988 160 CV con catalizzatore" }
+    - { nome: "944 Turbo (951)", anni: "1985–1988", cv: 220, nm: 330, nota: "Compressione 8,0:1, pistoni forgiati" }
+    - { nome: "944 Turbo S / Turbo 250", anni: "1988–1991", cv: 250, nm: 350, nota: "" }
+    - { nome: "944 S 16v", anni: "1986–1988", cv: 190, nm: 230, nota: "Compressione 10,9:1, limitatore 6800" }
+    - { nome: "944 2.7", anni: "1988–1989", cv: 165, nm: 225, nota: "2681 cc, 104 × 78,9 mm" }
+    - { nome: "944 S2 3.0", anni: "1989–1991", cv: 211, nm: 280, nota: "2990 cc, 104 × 88 mm" }
+    - { nome: "968", anni: "1991–1995", cv: 240, nm: 305, nota: "Compressione 11,0:1, VarioCam" }
+    - { nome: "968 Turbo S", anni: "1993", cv: 305, nm: 500, nota: "Testata a 8 valvole, 14 esemplari" }
+  modelli:
+    - { nome: "Porsche 944, 944 S, S2", anni: "1982–1991" }
+    - { nome: "Porsche 944 Turbo, Turbo S", anni: "1985–1991" }
+    - { nome: "Porsche 968, 968 CS, 968 Turbo S", anni: "1991–1995" }
+  storia: >-
+    Quattro cilindri in linea progettato da Porsche per la 944, che riprende dal V8 della 928 interasse dei cilindri,
+    concetto della testata, valvole, molle e punterie; il basamento in lega alluminio-silicio non ha canne riportate. Per
+    contenere le vibrazioni di un 2,5 litri a quattro cilindri adotta due contralberi controrotanti su brevetto
+    Mitsubishi. La cilindrata sale a 2,7 e 3,0 litri, con testata a 16 valvole dalla 944 S e fasatura variabile
+    VarioCam sulla 968; la versione Turbo ha intercooler e pistoni forgiati.
+  punti_deboli:
+    - "Cinghie di distribuzione e dei contralberi: tensione da controllare, la rottura della distribuzione danneggia le valvole"
+    - "Guarnizioni dello scambiatore olio-acqua: miscelazione di olio e liquido refrigerante"
+    - "Pompa dell'acqua, azionata dalla cinghia di distribuzione"
+  limiti: >-
+    Sulle 944 Turbo gli aumenti di pressione di sovralimentazione sono l'intervento più diffuso; i componenti critici
+    sono guarnizione della testata e turbocompressore. Non risultano soglie documentate dal costruttore. Le versioni aspirate offrono margini limitati.
+  curiosita:
+    - "Porsche pagò a Mitsubishi una licenza per i contralberi invece di sviluppare una soluzione alternativa."
+    - "Il VarioCam debuttò sulla 968 nel 1991 prima di passare ai boxer della 911 (993)."
+
+- slug: porsche-m28
+  codice: M28
+  nome: Porsche M28 V8 928
+  costruttore: Porsche
+  paese: Germania
+  inizio: 1977
+  fine: 1995
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4957
+  alesaggio: 100.0
+  corsa: 78.9
+  compressione: "8.5–10.4:1"
+  distribuzione: SOHC per bancata a cinghia; DOHC dal 1985 con cinghia (scarico) e catena (aspirazione)
+  valvole: "2 / 4"
+  blocco: Lega alluminio-silicio senza canne riportate
+  testa: Alluminio
+  iniezione: Indiretta, Bosch K-Jetronic poi LH-Jetronic
+  cv_min: 240
+  cv_max: 350
+  nm_max: 500
+  limitatore: 6600
+  in_breve:
+    - { valore: "Senza canne", testo: "cilindri ricavati nel basamento in lega leggera, primo caso in Europa secondo Porsche" }
+    - { valore: "5,4 litri", testo: "cilindrata finale della 928 GTS (1992–1995)" }
+    - { valore: "18 anni", testo: "di produzione, dal 1977 al 1995" }
+  versioni:
+    - { nome: "928 4.5", anni: "1977–1982", cv: 240, nm: 350, nota: "4474 cc, 95 × 78,9 mm, compressione 8,5:1" }
+    - { nome: "928 S 4.7", anni: "1979–1983", cv: 300, nm: 385, nota: "4664 cc, 97 × 78,9 mm, compressione 10,0:1" }
+    - { nome: "928 S / S2 4.7", anni: "1984–1986", cv: 310, nm: 400, nota: "LH-Jetronic, compressione 10,4:1" }
+    - { nome: "928 S4 5.0 32v", anni: "1986–1991", cv: 320, nm: 430, nota: "4957 cc, compressione 10,0:1" }
+    - { nome: "928 GT", anni: "1989–1991", cv: 330, nm: 430, nota: "Solo cambio manuale" }
+    - { nome: "928 GTS 5.4", anni: "1991–1995", cv: 350, nm: 500, nota: "5397 cc, 100 × 85,9 mm, compressione 10,4:1" }
+  modelli:
+    - { nome: "Porsche 928, 928 S", anni: "1977–1986" }
+    - { nome: "Porsche 928 S4, CS, SE, GT", anni: "1986–1991" }
+    - { nome: "Porsche 928 GTS", anni: "1991–1995" }
+  storia: >-
+    Primo V8 di serie Porsche raffreddato ad acqua, progettato per la 928 con basamento e testate quasi interamente in lega
+    leggera e cilindri senza canne riportate. Nato a due valvole per cilindro con un albero a camme per bancata e
+    alimentazione K-Jetronic, passa nel 1985 a quattro valvole e due alberi per bancata. La cilindrata cresce da 4,5 a
+    5,0 litri e, con la corsa allungata a 85,9 mm, a 5,4 litri sulla GTS, ultima versione prodotta fino al 1995.
+  punti_deboli:
+    - "Cinghia di distribuzione e tenditore: sostituzione periodica necessaria, la rottura sulle versioni 32 valvole danneggia le valvole"
+    - "Reggispinta dell'albero motore: usura segnalata sulle S4 e GT con cambio automatico"
+    - "Ricambi specifici costosi, causa principale degli alti costi di manutenzione"
+  limiti: >-
+    Da aspirato i margini sono limitati. Gli aumenti consistenti passano per kit compressore aftermarket, con impianto di
+    alimentazione e raffreddamento come componenti critici.
+  curiosita:
+    - "Il V8 del 1977 aveva compressione 8,5:1 e funzionava con benzina normale a 91 ottani."
+    - "Il quattro cilindri della 944 riprende dal V8 della 928 interasse dei cilindri, valvole, molle e punterie."
+
+- slug: opel-z20let
+  codice: Z20LET / Z20LER / Z20LEH / Z20LEL
+  nome: Opel 2.0 16v Turbo Z20LET / Z20LEH
+  costruttore: Opel
+  paese: Germania
+  inizio: 2000
+  fine: 2010
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "8.5–8.8:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 170
+  cv_max: 240
+  nm_max: 320
+  limitatore: 5600
+  in_breve:
+    - { valore: "86 × 86", testo: "alesaggio e corsa uguali, misure della famiglia Family II da 2 litri" }
+    - { valore: "240 CV", testo: "nella versione Z20LEH di Astra H OPC e Zafira B OPC" }
+    - { valore: "Lotus", testo: "lo Z20LER equipaggia la Lotus Europa S e SE" }
+  versioni:
+    - { nome: "Z20LET 192 CV (Astra G Coupé / Cabrio, Zafira A OPC)", anni: "2000–2005", cv: 192, nm: 250, nota: "Compressione 8,8:1" }
+    - { nome: "Z20LET 200 CV (Astra G OPC, Speedster Turbo)", anni: "2002–2005", cv: 200, nm: 250, nota: "Coppia massima a 1950 giri/min" }
+    - { nome: "Z20LEL (Astra H, Zafira B)", anni: "2004–2010", cv: 170, nm: 250, nota: "" }
+    - { nome: "Z20LER (Astra H 2.0 Turbo, Zafira B)", anni: "2004–2010", cv: 200, nm: 262, nota: "" }
+    - { nome: "Z20LER Lotus Europa S", anni: "2006–2008", cv: 200, nm: 272, nota: "Compressione 8,5:1, 0,6 bar" }
+    - { nome: "Z20LER Lotus Europa SE", anni: "2008–2010", cv: 225, nm: 300, nota: "Turbo rivisto" }
+    - { nome: "Z20LEH (Astra H OPC, Zafira B OPC)", anni: "2005–2010", cv: 240, nm: 320, nota: "0,85 bar, compressione 8,8:1" }
+  modelli:
+    - { nome: "Opel Astra G Coupé, Cabrio, OPC", anni: "2000–2005" }
+    - { nome: "Opel Zafira A OPC", anni: "2001–2005" }
+    - { nome: "Opel Speedster Turbo", anni: "2003–2005" }
+    - { nome: "Vauxhall VX220 Turbo", anni: "2003–2005" }
+    - { nome: "Opel Astra H 2.0 Turbo, OPC", anni: "2004–2010" }
+    - { nome: "Opel Zafira B 2.0 Turbo, OPC", anni: "2005–2010" }
+    - { nome: "Vauxhall Astra VXR, Zafira VXR", anni: "2005–2010" }
+    - { nome: "Lotus Europa S / SE", anni: "2006–2010" }
+  storia: >-
+    Quattro cilindri sovralimentato della famiglia Opel Family II, con basamento in ghisa, testata in alluminio a 16
+    valvole e due alberi a camme comandati da cinghia dentata, turbocompressore con intercooler e iniezione multipoint.
+    Debutta nel 2000 con 192 CV sulle Astra G Coupé e Cabrio e raggiunge 200 CV su Astra G OPC e Speedster Turbo. Dal 2004
+    è sostituito dalle varianti Z20LEL (170 CV), Z20LER (200 CV) e Z20LEH (240 CV con 0,85 bar), montate su Astra H e
+    Zafira B fino al 2010.
+  punti_deboli:
+    - "Collettore di scarico: crepe ricorrenti, di solito riparabili con saldatura"
+    - "Paraolio e guarnizione del coperchio punterie: perdite d'olio frequenti"
+    - "Cinghia di distribuzione: sostituzione indicata intorno ai 60.000 km, la rottura piega le valvole"
+  limiti: >-
+    Il basamento in ghisa tollera pressioni di sovralimentazione superiori a quelle di serie; nelle elaborazioni spinte i
+    componenti critici sono turbocompressore, collettore di scarico, pistoni e frizione. Non risultano soglie documentate
+    dal costruttore.
+  curiosita:
+    - "Sulla Lotus Europa SE lo Z20LER arriva a 225 CV con turbo rivisto, centralina ricalibrata e candele di grado termico più freddo."
+
+- slug: opel-x20xev
+  codice: X20XEV
+  nome: Opel X20XEV Ecotec 2.0 16v
+  costruttore: Opel
+  paese: Germania
+  inizio: 1994
+  fine: 2000
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "10.8:1"
+  distribuzione: DOHC a cinghia, punterie idrauliche
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 136
+  cv_max: 136
+  nm_max: 185
+  limitatore: 5600
+  in_breve:
+    - { valore: "Ecotec", testo: "primo motore Opel commercializzato con questo marchio" }
+    - { valore: "86 × 86", testo: "alesaggio e corsa in mm, misure quadre come il C20XE" }
+    - { valore: "185 Nm", testo: "a 4000 giri/min, con 136 CV a 5600 giri/min" }
+  versioni:
+    - { nome: "X20XEV (Calibra, Vectra, Omega, Astra)", anni: "1994–2000", cv: 136, nm: 185, nota: "100 kW; EGR e iniezione d'aria secondaria" }
+  modelli:
+    - { nome: "Opel Calibra 2.0 16V", anni: "1994–1997" }
+    - { nome: "Opel Vectra A e Vectra B 2.0 16V", anni: "1994–2000" }
+    - { nome: "Opel Omega B 2.0 16V", anni: "1994–1999" }
+    - { nome: "Opel Astra F e Astra G 2.0 16V", anni: "1996–2000" }
+    - { nome: "Vauxhall Calibra, Cavalier, Vectra, Omega, Astra 2.0 16V", anni: "1994–2000" }
+  storia: >-
+    Quattro cilindri bialbero a 16 valvole della famiglia GM Family II, erede di grande serie del C20XE con lo stesso
+    basamento in ghisa e le stesse misure quadre. La testata è riprogettata con un angolo tra le valvole più stretto per
+    favorire la coppia ai regimi medio-bassi a scapito della potenza massima (136 CV contro 150). Per le norme Euro 2 adotta
+    ricircolo dei gas di scarico (EGR) e iniezione d'aria secondaria per scaldare più in fretta il catalizzatore.
+  punti_deboli:
+    - "Sensore di posizione dell'albero a camme: guasti frequenti"
+    - "Collettore di scarico in ghisa soggetto a crepe"
+    - "Minimo irregolare per sporcizia del regolatore del minimo o della ventilazione del basamento"
+    - "Cinghia di distribuzione: motore interferente, la rottura piega le valvole"
+  limiti: >-
+    Di serie è tarato per la coppia più che per la potenza: centralina e scarico danno guadagni modesti. Per salire
+    servono alberi a camme, aspirazione e gestione dedicati; il basamento in ghisa non è il componente critico, lo sono
+    testata e distribuzione a cinghia ai regimi elevati.
+  curiosita:
+    - "Nelle versioni 16V di Calibra e Vectra ha preso il posto del C20XE con testata Cosworth, rinunciando a 14 CV ma con coppia più disponibile ai bassi regimi."
+
+- slug: ford-ecoboost-20-23
+  codice: 2.0 / 2.3 EcoBoost
+  nome: Ford 2.0 / 2.3 EcoBoost
+  costruttore: Ford
+  paese: Stati Uniti / Spagna
+  inizio: 2010
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 2261
+  alesaggio: 87.5
+  corsa: 94.0
+  compressione: "9.3–9.5:1"
+  distribuzione: DOHC a catena, Ti-VCT
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 203
+  cv_max: 350
+  nm_max: 475
+  limitatore: 6000
+  in_breve:
+    - { valore: "87,5 mm", testo: "alesaggio comune a 2.0 e 2.3: cambia solo la corsa (83,1 / 94,0 mm)" }
+    - { valore: "350 CV", testo: "nella Focus RS Mk3, con 470 Nm in overboost" }
+    - { valore: "Twin-scroll", testo: "turbo a doppio ingresso sulla 2.3" }
+  versioni:
+    - { nome: "2.0 EcoBoost (Volvo 2.0T)", anni: "2010–2011", cv: 203, nm: 300, nota: "1999 cc, corsa 83,1 mm" }
+    - { nome: "2.0 EcoBoost Focus ST Mk3", anni: "2012–2018", cv: 250, nm: 360, nota: "9,3:1; 340 Nm, 360 Nm in overboost" }
+    - { nome: "2.3 EcoBoost Mustang (S550)", anni: "2015–2023", cv: 314, nm: 475, nota: "Dati USA 310 hp / 350 lb-ft" }
+    - { nome: "2.3 EcoBoost Focus RS Mk3", anni: "2016–2018", cv: 350, nm: 470, nota: "440 Nm, 470 Nm in overboost; canne in ghisa rinforzate" }
+    - { nome: "2.3 EcoBoost Focus ST Mk4", anni: "2019–2025", cv: 280, nm: 420, nota: "" }
+    - { nome: "2.3 EcoBoost Mustang (S650)", anni: "2024–oggi", cv: 319, nm: 475, nota: "Dati USA 315 hp / 350 lb-ft" }
+  modelli:
+    - { nome: "Ford Focus ST, Focus RS", anni: "2012–2025" }
+    - { nome: "Ford Mustang EcoBoost", anni: "2015–oggi" }
+    - { nome: "Ford Explorer, Ranger, Bronco, Everest", anni: "2019–oggi" }
+    - { nome: "Lincoln MKC, Corsair", anni: "2015–oggi" }
+    - { nome: "Volvo S60, V60, S80, V70, XC60 2.0T", anni: "dal 2010" }
+    - { nome: "Land Rover Range Rover Evoque Si4", anni: "dal 2011" }
+  storia: >-
+    Quattro cilindri turbo a iniezione diretta derivato dal Duratec HE, a sua volta basato sul Mazda MZR (serie L):
+    basamento e testata in alluminio, distribuzione a catena e fasatura variabile su entrambi gli alberi (Ti-VCT). La 2.0
+    debutta nel 2010 su Ford, Volvo e Land Rover; nel 2015 arriva la 2.3, ottenuta allungando la corsa da 83,1 a 94,0 mm a
+    parità di alesaggio e dotata di turbo twin-scroll. Sulla Focus RS Mk3 la 2.3 ha testata in lega per temperature più
+    alte, guarnizione rinforzata, canne in ghisa più resistenti e turbo con compressore maggiorato.
+  punti_deboli:
+    - "Guarnizione della testata sulle prime Focus RS Mk3: infiltrazioni di refrigerante e surriscaldamento"
+    - "Depositi carboniosi sulle valvole di aspirazione, tipici dell'iniezione solo diretta"
+    - "Surriscaldamento sui primi esemplari della 2.3 per schermi termici mancanti"
+  limiti: >-
+    Con sola mappatura la 2.3 guadagna il 10–20 %. Oltre i 400 CV circa, con turbo maggiorato, i preparatori sostituiscono
+    pistoni e bielle di serie con componenti forgiati; la guarnizione della testata è il componente critico.
+  curiosita:
+    - "La Focus RS Mk3 è stata assemblata a Saarlouis, in Germania; il motore 2.3 è prodotto a Valencia e a Brook Park (Ohio)."
+
+- slug: ford-voodoo-predator
+  codice: Voodoo 5.2 / Predator 5.2
+  nome: Ford 5.2 Voodoo / Predator V8
+  costruttore: Ford
+  paese: Stati Uniti
+  inizio: 2015
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore volumetrico
+  cilindrata: 5163
+  alesaggio: 94.0
+  corsa: 93.0
+  compressione: "9.5–12.0:1"
+  distribuzione: DOHC a catena, Ti-VCT
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 533
+  cv_max: 826
+  nm_max: 900
+  limitatore: 8250
+  in_breve:
+    - { valore: "Piatto", testo: "albero motore del Voodoo aspirato; a croce nel Predator sovralimentato" }
+    - { valore: "8250", testo: "giri/min massimi del Voodoo della Shelby GT350" }
+    - { valore: "826 CV", testo: "nella Mustang GTD, con carter secco" }
+  versioni:
+    - { nome: "Voodoo (Shelby GT350 / GT350R)", anni: "2015–2020", cv: 533, nm: 582, nota: "Albero piatto, aspirato, 12,0:1" }
+    - { nome: "Predator (Shelby GT500)", anni: "2019–2022", cv: 771, nm: 847, nota: "Albero a croce, compressore Eaton TVS R2650, 9,5:1" }
+    - { nome: "Predator (F-150 Raptor R)", anni: "2023–oggi", cv: 730, nm: 868, nota: "710 CV nel 2023, 730 CV dal 2024" }
+    - { nome: "Predator (Mustang GTD)", anni: "2025–oggi", cv: 826, nm: 900, nota: "Carter secco, limitatore 7650 giri/min" }
+  modelli:
+    - { nome: "Ford Mustang Shelby GT350, GT350R", anni: "2015–2020" }
+    - { nome: "Ford Mustang Shelby GT500 (S550)", anni: "2019–2022" }
+    - { nome: "Ford F-150 Raptor R", anni: "2023–oggi" }
+    - { nome: "Ford Mustang GTD", anni: "2025–oggi" }
+  storia: >-
+    Famiglia di V8 da 5,2 litri derivata dal Coyote 5.0, con alesaggio portato a 94 mm e corsa di 93 mm. Il Voodoo della
+    Shelby GT350 (2015) è aspirato, ha albero motore piatto in acciaio forgiato, pistoni forgiati e rapporto di compressione
+    12,0:1, ed eroga la potenza massima a 7500 giri/min. Il Predator (Shelby GT500, 2019) mantiene alesaggio e corsa ma
+    torna all'albero a croce, abbassa la compressione a 9,5:1, usa canne riportate al plasma e un compressore volumetrico
+    Eaton TVS R2650 nella V. Lo stesso motore equipaggia la F-150 Raptor R e, con carter secco, la Mustang GTD.
+  punti_deboli:
+    - "Voodoo: consumo d'olio elevato, ammesso dal manuale fino a circa 1 quarto di gallone ogni 500 miglia in uso gravoso"
+    - "Voodoo: surriscaldamento in pista sulle GT350 2016 prive di radiatori olio motore e cambio"
+    - "Voodoo: tenditore secondario della catena non attivato su parte delle GT350 2020 (programma Ford 21B26)"
+    - "Pistoni forgiati rumorosi a freddo (piston slap), considerato normale da Ford"
+  limiti: >-
+    Il Voodoo guadagna circa 50 CV con la sola mappatura; per sovralimentarlo il limite è la compressione 12,0:1. Il
+    Predator con compressore maggiorato supera i 1000 CV; a quei livelli diventano critici alimentazione benzina,
+    raffreddamento dell'aria compressa e organi interni di serie.
+  curiosita:
+    - "Il Voodoo è il primo V8 Ford di serie con albero motore piatto; non è mai stato venduto come motore da banco, a differenza del Predator."
+
+- slug: ford-ecoboost-35
+  codice: 3.5 EcoBoost (D35)
+  nome: Ford 3.5 EcoBoost V6
+  costruttore: Ford
+  paese: Stati Uniti
+  inizio: 2009
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina / Ibrido
+  aspirazione: Biturbo
+  cilindrata: 3497
+  alesaggio: 92.5
+  corsa: 86.7
+  compressione: "9.0–10.5:1"
+  distribuzione: DOHC a catena, Ti-VCT
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta (diretta + indiretta dalla seconda generazione)
+  cv_min: 314
+  cv_max: 656
+  nm_max: 746
+  limitatore: 6200
+  in_breve:
+    - { valore: "2", testo: "turbo BorgWarner, uno per bancata" }
+    - { valore: "656 CV", testo: "nella Ford GT, con carter secco e iniezione doppia" }
+    - { valore: "2017", testo: "seconda generazione con iniezione diretta e indiretta per cilindro" }
+  versioni:
+    - { nome: "Gen 1 (Taurus SHO, Flex, Lincoln MKS)", anni: "2009–2019", cv: 370, nm: 475, nota: "Iniezione diretta" }
+    - { nome: "Gen 1 (F-150)", anni: "2011–2016", cv: 370, nm: 569, nota: "10,0:1" }
+    - { nome: "Gen 1 (Transit)", anni: "2013–2024", cv: 314, nm: 542, nota: "" }
+    - { nome: "Gen 2 (F-150)", anni: "2017–2020", cv: 380, nm: 637, nota: "10,5:1; iniezione doppia" }
+    - { nome: "Gen 2 HO (F-150 Raptor)", anni: "2017–2020", cv: 456, nm: 691, nota: "10,0:1" }
+    - { nome: "Ford GT", anni: "2017–2022", cv: 656, nm: 746, nota: "9,0:1; carter secco" }
+    - { nome: "Gen 3 (F-150)", anni: "2021–oggi", cv: 406, nm: 678, nota: "Dati USA 400 hp / 500 lb-ft" }
+  modelli:
+    - { nome: "Ford F-150, F-150 Raptor", anni: "2011–oggi" }
+    - { nome: "Ford Expedition, Transit", anni: "2013–oggi" }
+    - { nome: "Ford Taurus SHO, Flex, Explorer Sport", anni: "2009–2019" }
+    - { nome: "Ford GT", anni: "2017–2022" }
+    - { nome: "Lincoln MKS, MKT, Navigator", anni: "2009–oggi" }
+  storia: >-
+    V6 a 60° biturbo derivato dal basamento in alluminio del Duratec 35 (famiglia Cyclone), con un turbo per bancata e
+    iniezione diretta. La seconda generazione (2017) aggiunge l'iniezione indiretta nei condotti, alberi a camme cavi,
+    wastegate elettriche e start-stop; la produzione passa allo stabilimento di Cleveland. Nella Ford GT lavora con carter
+    secco a quattro stadi e compressione 9,0:1 ed eroga 656 CV a 6250 giri/min. Nella F-150 PowerBoost è abbinato a un
+    motore elettrico.
+  punti_deboli:
+    - "Prima generazione: allungamento della catena di distribuzione primaria, rumorosa soprattutto sui motori 2013–2015"
+    - "Prima generazione: depositi carboniosi sulle valvole di aspirazione e diluizione dell'olio con benzina"
+    - "Condensa nell'intercooler di serie, con mancate accensioni in accelerazione"
+    - "Seconda generazione: usura precoce dei variatori di fase e coppa olio in plastica sulle F-150 2017–2018"
+  limiti: >-
+    Con mappatura, scarico e intercooler maggiorato le F-150 superano i 450–500 CV; oltre servono turbo più grandi e
+    l'impianto di alimentazione diventa il componente critico, insieme al cambio automatico.
+  curiosita:
+    - "Una versione da competizione del motore della Ford GT ha vinto la classe GTE Pro alla 24 Ore di Le Mans 2016."
+
+- slug: ford-zetec
+  codice: Zeta / Zetec (L1, NGA, ecc.)
+  nome: Ford Zetec 1.6–2.0 16v
+  costruttore: Ford
+  paese: Regno Unito / Germania
+  inizio: 1991
+  fine: 2004
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1988
+  alesaggio: 84.8
+  corsa: 88.0
+  compressione: "9.6–10.2:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 90
+  cv_max: 215
+  nm_max: 310
+  limitatore: 7000
+  in_breve:
+    - { valore: "Zeta", testo: "nome di progetto cambiato in Zetec nel 1991 per una contestazione di Lancia sul marchio" }
+    - { valore: "3,5 milioni", testo: "di esemplari superati nel solo stabilimento di Bridgend (1991–2004)" }
+    - { valore: "215 CV", testo: "nella versione turbo della Focus RS Mk1, siglata Duratec RS" }
+  versioni:
+    - { nome: "2.0 Mondeo Mk1 (NGA)", anni: "1993–1996", cv: 136, nm: 180, nota: "10,0:1" }
+    - { nome: "2.0 Mondeo Mk2", anni: "1996–2000", cv: 131, nm: 176, nota: "" }
+    - { nome: "Focus ST170 / SVT Focus", anni: "2002–2004", cv: 173, nm: 196, nota: "Testata nuova, fasatura variabile in aspirazione" }
+    - { nome: "Focus RS Mk1 (Duratec RS)", anni: "2002–2003", cv: 215, nm: 310, nota: "Turbo Garrett, pistoni e bielle forgiati" }
+  modelli:
+    - { nome: "Ford Escort, Orion, Fiesta 1.6 e 1.8 16V", anni: "1992–1998" }
+    - { nome: "Ford Mondeo Mk1 e Mk2", anni: "1993–2000" }
+    - { nome: "Ford Focus Mk1", anni: "1998–2004" }
+    - { nome: "Ford Contour, Escort ZX2, Escape", anni: "1995–2004" }
+    - { nome: "Mercury Mystique, Cougar", anni: "1995–2002" }
+    - { nome: "Mazda Tribute", anni: "2001–2004" }
+  storia: >-
+    Quattro cilindri bialbero a 16 valvole con basamento in ghisa e testata in alluminio, prodotto a Bridgend dal 1991 e
+    poi a Colonia e Chihuahua, in cilindrate da 1,6 a 2,0 litri. La serie Zetec-E (1995) risolve il grippaggio delle valvole
+    dei primi motori e adotta collettore in plastica ed EGR; la Zetec-R (1998) ha basamento in due pezzi, punterie
+    meccaniche e bielle più lunghe. Dal 2002 Ford applica il nome Duratec anche ad alcune versioni Zetec (Duratec ST, Duratec
+    RS), ma i Duratec 1.8 e 2.0 delle Focus Mk2 e Mondeo Mk3 sono un motore diverso, in alluminio, derivato dal Mazda MZR.
+    Il nome Zetec-SE indica invece il più piccolo motore Sigma, sviluppato con Yamaha.
+  punti_deboli:
+    - "Valvole che si incollano nelle guide sui primi motori (1992–1994), soprattutto nei climi freddi"
+    - "Cinghia di distribuzione: motore interferente nelle versioni europee"
+    - "Scatola del termostato in plastica soggetta a crepe con perdita di refrigerante (2.0 di Focus ed Escape USA)"
+  limiti: >-
+    Aspirato rende 170–175 CV con testata e alberi a camme dedicati, come sulla ST170. La Focus RS raggiunge 215 CV con
+    turbo, pistoni e bielle forgiati: con pistoni di serie la sovralimentazione è limitata dai pistoni stessi.
+  curiosita:
+    - "La versione statunitense del 2.0 aveva pistoni e bielle diversi per essere non interferente, a costo di circa l'1–2 % di consumo in più."
+
+- slug: psa-xu
+  codice: XU9JA / XU9J4 / XU10J4
+  nome: PSA XU 1.9–2.0 benzina (versioni sportive)
+  costruttore: PSA
+  paese: Francia
+  inizio: 1986
+  fine: 2002
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1905
+  alesaggio: 83.0
+  corsa: 88.0
+  compressione: "9.6–10.8:1"
+  distribuzione: SOHC (8v) o DOHC (16v) a cinghia dentata
+  valvole: "2 / 4"
+  blocco: Alluminio con canne umide in ghisa (XU9), ghisa (XU10)
+  testa: Alluminio
+  iniezione: Indiretta multipoint, Bosch Motronic sulle 16v
+  cv_min: 122
+  cv_max: 167
+  nm_max: 193
+  limitatore: 7300
+  in_breve:
+    - { valore: "30°", testo: "inclinazione all'indietro del motore trasversale" }
+    - { valore: "83 × 88", testo: "alesaggio e corsa in mm delle 1.9 XU9" }
+    - { valore: "167 CV", testo: "XU10J4RS della 306 S16/GTI-6 e della Xsara VTS" }
+  versioni:
+    - { nome: "XU9JA (Peugeot 205 GTI 1.9, 309 GTI)", anni: "1986–1994", cv: 130, nm: 161, nota: "8 valvole, 9,6:1; 122 CV con catalizzatore (XU9JA/Z)" }
+    - { nome: "XU9J4 (Peugeot 405 Mi16, Citroën BX 16V)", anni: "1987–1992", cv: 160, nm: 177, nota: "16 valvole, 10,4:1; 148 CV con catalizzatore" }
+    - { nome: "XU10J4RS (Peugeot 306 GTI-6, Citroën Xsara VTS)", anni: "1996–2002", cv: 167, nm: 193, nota: "1998 cc, 86 × 86 mm, 10,8:1; senza ACAV" }
+  modelli:
+    - { nome: "Peugeot 205 GTI 1.9, 309 GTI, 309 GTI 16", anni: "1986–1994" }
+    - { nome: "Peugeot 405 Mi16", anni: "1987–1994" }
+    - { nome: "Peugeot 306 S16, GTI-6, Rallye", anni: "1993–2001" }
+    - { nome: "Citroën BX 19 GTi 16V", anni: "dal 1987" }
+    - { nome: "Citroën ZX Volcane, ZX Coupé 16V", anni: "anni '90" }
+    - { nome: "Citroën Xsara VTS 2.0 16V", anni: "1998–2002" }
+  storia: >-
+    La famiglia XU, introdotta nel 1982, è un quattro cilindri trasversale inclinato all'indietro di 30°, con
+    basamento in lega leggera e canne umide in ghisa; la XU10 da 2,0 litri adotta invece un basamento in ghisa senza
+    canne riportate. La 1.9 a 8 valvole XU9JA equipaggia la 205 GTI e la 309 GTI, mentre la XU9J4 a 16 valvole e
+    doppio albero a camme debutta nel 1987 sulla 405 Mi16 e sulla BX 16V. La XU10J4RS della 306 GTI-6 abbandona il
+    collettore a geometria variabile ACAV della prima XU10J4 (155 CV, poi dichiarati 150) e raggiunge 167 CV a
+    6500 giri/min.
+  punti_deboli:
+    - "Guarnizione della testata sulle 16 valvole, spesso dopo surriscaldamenti"
+    - "Cinghia di distribuzione da sostituire con pompa acqua a intervalli brevi (circa 58.000 km o 4 anni sulla Mi16)"
+    - "Componenti del collettore a geometria variabile ACAV soggetti a usura sulle prime 306 S16"
+    - "Valvole di non ritorno nella testata e punterie: ticchettio all'avviamento"
+  limiti: >-
+    Le preparazioni aspirate lavorano su alberi a camme, aspirazione, scarico e gestione elettronica. Le versioni
+    sovralimentate di serie (XU10J4TE della 405 T16, 196 CV) e le derivate da competizione indicano che il
+    basamento sopporta potenze ben superiori a quelle stradali, a condizione di intervenire su bielle e raffreddamento.
+  curiosita:
+    - "La 306 S16 con XU10J4RS del 1996 è stata la prima Peugeot con cambio manuale a sei marce."
+    - "Una XU10J4TE turbo da 196 CV equipaggia la Peugeot 405 T16 a trazione integrale."
+
+- slug: psa-ew10
+  codice: EW10J4 / EW10J4S / EW10A
+  nome: PSA EW10 2.0 16v
+  costruttore: PSA
+  paese: Francia
+  inizio: 1999
+  fine: 2017
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1997
+  alesaggio: 85.0
+  corsa: 88.0
+  compressione: "10.8–11.4:1"
+  distribuzione: DOHC a cinghia dentata, fasatura variabile su J4S e A
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint (diretta HPi sulla EW10D)
+  cv_min: 136
+  cv_max: 177
+  nm_max: 202
+  limitatore: 7000
+  in_breve:
+    - { valore: "85 × 88", testo: "alesaggio e corsa in mm, comuni al diesel DW10" }
+    - { valore: "177 CV", testo: "EW10J4S a 7000 giri/min nella 206 RC" }
+    - { valore: "2017", testo: "fine produzione della EW10A nello stabilimento argentino di Jeppener" }
+  versioni:
+    - { nome: "EW10J4 (Peugeot 206, 307, 406; Citroën Xsara, C5)", anni: "dal 1999", cv: 136, nm: 190, nota: "10,8:1; 190 Nm a 4100 giri/min" }
+    - { nome: "EW10J4S (Peugeot 206 RC/GTi 180, 307; Citroën C4 VTS)", anni: "dal 2003", cv: 177, nm: 202, nota: "11:1; fasatura variabile, collettore a stadi; 202 Nm a 4750 giri/min" }
+    - { nome: "EW10A (Peugeot 307, 407; Citroën C4, C5)", anni: "fino al 2017", cv: 143, nm: 200, nota: "Fasatura variabile; Peugeot dichiara 140 CV" }
+    - { nome: "EW10D HPi (Peugeot 406, Citroën C5)", anni: "2001–2003", cv: 140, nm: 192, nota: "Iniezione diretta benzina, 11,4:1" }
+  modelli:
+    - { nome: "Peugeot 206 2.0 S16, GTi 180, RC", anni: "1999–2006" }
+    - { nome: "Peugeot 307, 307 CC", anni: "2001–2008" }
+    - { nome: "Peugeot 406, 407, 806, 807", anni: "1999–2010" }
+    - { nome: "Peugeot 308, 408 2.0 (Argentina)", anni: "fino al 2017" }
+    - { nome: "Citroën Xsara, Xsara Picasso, C4, C5", anni: "1999–2010" }
+    - { nome: "Citroën C4 Lounge 2.0 (Argentina)", anni: "fino al 2017" }
+  storia: >-
+    Quattro cilindri a 16 valvole con basamento e testa in alluminio, introdotto nel 1999 sulla 406 al posto della
+    XU10, con le stesse quote di alesaggio e corsa del diesel DW10. La EW10J4S della 206 RC aggiunge fasatura
+    variabile dell'aspirazione e collettore a stadi, con 177 CV a 7000 giri/min. In Europa la famiglia esce di
+    listino verso il 2010, sostituita dal 1.6 THP; in Argentina la EW10A resta in produzione fino al 2017.
+  punti_deboli:
+    - "Consumo d'olio e trafilaggi dal coperchio punterie e dallo sfiato"
+    - "Bobine di accensione"
+    - "Corpo farfallato e regolazione del minimo sporchi: minimo irregolare"
+    - "Variatore di fase sulle EW10D intorno a 70.000–80.000 km"
+  limiti: >-
+    Motore aspirato senza margini rilevanti con la sola mappatura: i guadagni passano da aspirazione, scarico e
+    alberi a camme. La cinghia di distribuzione è il componente da tenere sotto controllo agli alti regimi.
+  curiosita:
+    - "La EW10D a iniezione diretta benzina HPi viene ritirata nel 2003 per le vendite ridotte."
+
+- slug: psa-dw10
+  codice: DW10
+  nome: PSA DW10 2.0 HDi / BlueHDi
+  costruttore: PSA
+  paese: Francia
+  inizio: 1999
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo / Biturbo
+  cilindrata: 1997
+  alesaggio: 85.0
+  corsa: 88.0
+  compressione: "16.0–18.5:1"
+  distribuzione: SOHC 8v o DOHC 16v a cinghia dentata (catenella tra gli alberi sulla DW10C)
+  valvole: "2 / 4"
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail (Bosch, Siemens, Delphi)
+  cv_min: 90
+  cv_max: 210
+  nm_max: 450
+  limitatore: 4000
+  in_breve:
+    - { valore: "1999", testo: "primo diesel PSA con iniezione common rail (HDi)" }
+    - { valore: "85 × 88", testo: "alesaggio e corsa in mm, comuni al benzina EW10" }
+    - { valore: "Ford, Volvo", testo: "usato come 2.0 TDCi e come 2.0D (D4204T)" }
+  versioni:
+    - { nome: "DW10ATED (Peugeot 406, 307; Citroën Xsara)", anni: "1999–2006", cv: 110, nm: 255, nota: "8 valvole, intercooler, 18:1; 82 kW" }
+    - { nome: "DW10BTED4 (Peugeot 307, 407, 607)", anni: "2004–2010", cv: 136, nm: 320, nota: "16 valvole, turbo a geometria variabile, 17,6:1; 340 Nm in overboost" }
+    - { nome: "DW10C (Peugeot 508, 3008, 5008, RCZ)", anni: "2009–2015", cv: 163, nm: 340, nota: "16:1; iniettori piezo Delphi" }
+    - { nome: "DW10FC BlueHDi 180 (Peugeot 508 II)", anni: "2018–2023", cv: 180, nm: 400, nota: "Euro 6 con SCR; famiglia DW10F dal 2014" }
+    - { nome: "Ford 2.0 TDCi biturbo (Mondeo)", anni: "2015–2018", cv: 210, nm: 450, nota: "Derivato dal DW10" }
+  modelli:
+    - { nome: "Peugeot 206, 306, 307, 308, 406, 407, 508, 607, 807", anni: "dal 1999" }
+    - { nome: "Peugeot Expert, Traveller", anni: "dal 2016" }
+    - { nome: "Citroën Xsara, Xantia, C5, C4 Picasso, Jumpy", anni: "dal 1999" }
+    - { nome: "Fiat Scudo, Ulysse", anni: "anni 2000" }
+    - { nome: "Suzuki Vitara, Grand Vitara, XL-7", anni: "anni 2000" }
+    - { nome: "Ford Focus, C-Max 2.0 TDCi", anni: "2005–2018" }
+    - { nome: "Ford Mondeo 2.0 TDCi", anni: "2007–2018" }
+    - { nome: "Ford Kuga, S-Max, Galaxy 2.0 TDCi", anni: "dal 2006" }
+    - { nome: "Volvo C30, S40, V50, C70 2.0D", anni: "2004–2010" }
+    - { nome: "Volvo S80, V70 2.0D", anni: "2007–2010" }
+  storia: >-
+    Quattro cilindri diesel con basamento in ghisa e testa in alluminio, introdotto nel 1999 al posto dell'XUD9:
+    è il primo motore PSA con iniezione diretta common rail, inizialmente con pompa Bosch CP1 e circa 1350 bar.
+    La DW10BTED4 passa a 16 valvole e turbo a geometria variabile; Ford e Volvo lo adottano come 2.0 TDCi e 2.0D.
+    Le versioni DW10F Euro 6 con SCR sono ancora montate sui veicoli commerciali medi Stellantis nel 2026.
+  punti_deboli:
+    - "Puleggia smorzatrice dell'albero motore sulle prime DW10TD, anche prima di 30.000–50.000 km"
+    - "Pompa tandem Siemens e filtro del regolatore di pressione sulle prime versioni"
+    - "Iniettori che si bloccano nella testata durante lo smontaggio"
+    - "Catenella tra gli alberi a camme della DW10C che si allunga verso i 150.000 km"
+    - "Valvola EGR e filtro antiparticolato sulle versioni Euro 4 e successive"
+  limiti: >-
+    Le versioni a 16 valvole con turbo a geometria variabile accettano mappature moderate; turbocompressore,
+    volano bimassa e frizione sono i primi componenti a soffrire quando si alza la coppia oltre i valori di serie
+    (fino a 400 Nm nella DW10FC e 450 Nm nella biturbo Ford).
+  curiosita:
+    - "Il DW10 condivide alesaggio e corsa (85 × 88 mm) con il benzina EW10 della stessa famiglia EW/DW."
+
+- slug: psa-dv6
+  codice: DV6
+  nome: PSA/Ford DV6 1.6 HDi / BlueHDi
+  costruttore: PSA / Ford
+  paese: Francia
+  inizio: 2004
+  fine: 2018
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 1560
+  alesaggio: 75.0
+  corsa: 88.3
+  compressione: "16.0–18.0:1"
+  distribuzione: DOHC 16v (cinghia + catenella tra gli alberi), poi SOHC 8v a cinghia
+  valvole: "4 / 2"
+  blocco: Alluminio con canne in ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail (Bosch, poi Siemens con iniettori piezo)
+  cv_min: 90
+  cv_max: 115
+  nm_max: 270
+  limitatore: 4000
+  in_breve:
+    - { valore: "PSA + Ford", testo: "sviluppo congiunto, prodotto anche come Ford 1.6 TDCi" }
+    - { valore: "16v → 8v", testo: "testa a 8 valvole dalla DV6C del 2009" }
+    - { valore: "Ford, Volvo, Mazda, Mini", testo: "marchi esterni a PSA che lo hanno montato" }
+  versioni:
+    - { nome: "DV6ATED4 1.6 HDi 90", anni: "2004–2011", cv: 90, nm: 215, nota: "16 valvole, turbo a geometria fissa Mitsubishi, 18:1" }
+    - { nome: "DV6TED4 1.6 HDi 110", anni: "2004–2011", cv: 109, nm: 240, nota: "16 valvole, Garrett GT1544V a geometria variabile; 260 Nm in overboost" }
+    - { nome: "DV6C 1.6 HDi/e-HDi 115", anni: "2009–2017", cv: 115, nm: 270, nota: "8 valvole, 16:1, iniettori piezo" }
+    - { nome: "DV6FD BlueHDi 100", anni: "2014–2018", cv: 100, nm: 254, nota: "8 valvole, 17:1, Euro 6" }
+  modelli:
+    - { nome: "Peugeot 206, 207, 208, 307, 308, 407, 508, 2008, 3008, 5008, Partner", anni: "2004–2018" }
+    - { nome: "Citroën C3, C4, C4 Picasso, C5, Berlingo, Xsara Picasso", anni: "2004–2018" }
+    - { nome: "DS 3, DS 4, DS 5", anni: "2010–2019" }
+    - { nome: "Ford Fiesta, Fusion, Focus, C-Max 1.6 TDCi", anni: "anni 2000" }
+    - { nome: "Volvo S40, V50, C30 1.6D", anni: "anni 2000" }
+    - { nome: "Mazda 2, 3 1.6 diesel", anni: "anni 2000" }
+    - { nome: "Mini Cooper D (R56)", anni: "2007–2010" }
+    - { nome: "Opel Crossland X", anni: "2017–2018" }
+    - { nome: "Toyota ProAce", anni: "2016–2018" }
+  storia: >-
+    Quattro cilindri diesel sviluppato da PSA e Ford, con basamento in alluminio e canne in ghisa, presentato sulla
+    206 1.6 HDi. Le prime versioni hanno testa a 16 valvole con cinghia sull'albero di scarico e catenella tra i due
+    alberi a camme; dal 2009 la DV6C passa a una testa a 8 valvole con un solo albero, per ridurre attriti e costi.
+    Dal 2017 viene sostituito dal 1.5 BlueHDi DV5.
+  punti_deboli:
+    - "Filtro a rete nel raccordo di mandata olio del turbo: se si intasa il turbo si danneggia precocemente"
+    - "Rondelle di tenuta sotto gli iniettori che si bruciano, con depositi carboniosi in testata"
+    - "Usura degli alberi a camme e tendicatena sulle prime DV6TED4"
+    - "Valvola EGR e filtro antiparticolato in uso urbano"
+    - "Perdite di liquido dalla guarnizione dello scambiatore olio-acqua (DV6C)"
+  limiti: >-
+    Le versioni a geometria variabile accettano mappature moderate; la lubrificazione del turbo e la qualità
+    dell'olio sono il punto critico, prima ancora della meccanica interna.
+  curiosita:
+    - "Sulla DV6TED4 la funzione di overboost aggiunge circa 20 Nm per brevi periodi."
+
+- slug: psa-eb2
+  codice: EB2 / EB2DT / EB2DTS
+  nome: PSA EB2 1.2 PureTech
+  costruttore: PSA
+  paese: Francia
+  inizio: 2012
+  fine:
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina / Ibrido
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1199
+  alesaggio: 75.0
+  corsa: 90.5
+  compressione: "10.0:1"
+  distribuzione: DOHC a cinghia in bagno d'olio, a catena dalla Gen3 (2023)
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta (aspirati), diretta (turbo)
+  cv_min: 75
+  cv_max: 155
+  nm_max: 240
+  limitatore: 5750
+  in_breve:
+    - { valore: "Cinghia", testo: "di distribuzione a bagno d'olio fino alla Gen3" }
+    - { valore: "4 volte", testo: "International Engine of the Year categoria 1,0–1,4 litri (2015–2018)" }
+    - { valore: "155 CV", testo: "EB2ADTX della Peugeot 2008 GT" }
+  versioni:
+    - { nome: "EB2FA aspirato (Peugeot 208 II, Opel Corsa F)", anni: "dal 2019", cv: 75, nm: 118, nota: "75 CV a 5750 giri/min" }
+    - { nome: "EB2DT/EB2ADT PureTech 110", anni: "dal 2014", cv: 110, nm: 205, nota: "Turbo, iniezione diretta, 10:1" }
+    - { nome: "EB2DTS PureTech 130 (Peugeot 308 II)", anni: "2014–2022", cv: 130, nm: 230, nota: "Cinghia a bagno d'olio" }
+    - { nome: "EB2ADTX PureTech 155 (Peugeot 2008 GT, Citroën C4)", anni: "dal 2020", cv: 155, nm: 240, nota: "" }
+    - { nome: "EB2LTED Gen3 / Hybrid 48V", anni: "dal 2023", cv: 100, nm: 205, nota: "Distribuzione a catena; versioni ibride 100 e 136 CV" }
+  modelli:
+    - { nome: "Peugeot 208, 2008, 308, 3008, 5008, Rifter", anni: "dal 2012" }
+    - { nome: "Citroën C3, C3 Aircross, C4, C4 Cactus, C5 Aircross, Berlingo", anni: "dal 2012" }
+    - { nome: "DS 3, DS 4, DS 7", anni: "dal 2014" }
+    - { nome: "Opel Corsa F, Crossland, Grandland, Combo", anni: "dal 2019" }
+    - { nome: "Fiat 600", anni: "dal 2023" }
+    - { nome: "Jeep Avenger", anni: "dal 2023" }
+  storia: >-
+    Tre cilindri da 1,2 litri con basamento in alluminio, presentato nel 2012 in versione aspirata (prodotta a
+    Trémery) e dal 2014 in versione turbo a iniezione diretta (Douvrin, poi anche Cina e Tychy). Fino al 2022 la
+    distribuzione usa una cinghia dentata che lavora immersa nell'olio motore; la terza generazione del 2023 passa
+    alla catena ed è la base delle versioni ibride a 48 V. Dal 2026 Peugeot monta sulla 208 e sulla 2008 il Turbo 100,
+    un 1.2 tre cilindri rivisto con catena, ciclo Miller e turbo a geometria variabile.
+  punti_deboli:
+    - "Cinghia di distribuzione a bagno d'olio che si degrada: i frammenti intasano la succhieruola della pompa olio, con calo di pressione e danni al motore"
+    - "Guasti alla pompa del vuoto del servofreno collegati ai residui della cinghia"
+    - "Diluizione dell'olio con carburante e consumo d'olio elevato sulle turbo"
+    - "Depositi carboniosi su iniettori e valvole delle versioni a iniezione diretta"
+  limiti: >-
+    Le versioni turbo da 130–155 CV condividono il basamento con le 110 CV; con la sola mappatura si guadagna
+    coppia, ma lo stato della cinghia e dell'olio resta il fattore limitante prima della meccanica interna.
+  curiosita:
+    - "Dal dicembre 2020 l'intervallo di sostituzione della cinghia scende da 180.000 km o 10 anni a 100.000 km o 6 anni; dal 2024 Stellantis estende la garanzia a 10 anni o 180.000 km."
+
+- slug: renault-f7r
+  codice: F7R / F7P
+  nome: Renault F7R 2.0 16v
+  costruttore: Renault
+  paese: Francia
+  inizio: 1990
+  fine: 2001
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1998
+  alesaggio: 82.7
+  corsa: 93.0
+  compressione: "9.8–10.0:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 135
+  cv_max: 150
+  nm_max: 185
+  limitatore: 6500
+  in_breve:
+    - { valore: "82,7 × 93 mm", testo: "alesaggio e corsa dell'F7R, contro 82 × 83,5 mm dell'F7P 1,8 litri" }
+    - { valore: "6500", testo: "giri/min di regime massimo sulla Clio Williams, con potenza massima a 6100 giri/min" }
+    - { valore: "3800", testo: "Clio Williams numerate della prima serie del 1993" }
+  versioni:
+    - { nome: "F7P 1.8 16v (Renault 19 16S, Clio 16S)", anni: "1990–1997", cv: 140, nm: 160, nota: "1764 cc; 135–140 CV secondo mercato e catalizzatore" }
+    - { nome: "F7R 700 (Clio Williams)", anni: "1993–1996", cv: 150, nm: 175, nota: "150 CV a 6100 giri/min, coppia a 4500 giri/min" }
+    - { nome: "F7R (Mégane Coupé 16V, Sport Spider)", anni: "1996–1999", cv: 150, nm: 185, nota: "185 Nm a 4500 giri/min" }
+  modelli:
+    - { nome: "Renault 19 16S / 16V", anni: "1990–1997" }
+    - { nome: "Renault Clio 16S (F7P)", anni: "1991–1996" }
+    - { nome: "Renault Clio Williams", anni: "1993–1996" }
+    - { nome: "Renault Mégane Coupé 16V", anni: "1996–1999" }
+    - { nome: "Renault Sport Spider", anni: "1996–1999" }
+    - { nome: "Moskvitch 2142 (versione 214242, solo Russia)", anni: "1999–2001" }
+  storia: >-
+    Quattro cilindri della famiglia F con basamento in ghisa e testata bialbero a 16 valvole in alluminio, con distribuzione
+    a cinghia. Deriva dall'F7P 1,8 litri della Renault 19 16S: per l'F7R l'alesaggio passa da 82 a 82,7 mm e la corsa da
+    83,5 a 93 mm, con valvole più grandi e profili delle camme più spinti. Debutta nel 1993 sulla Clio Williams con gestione
+    integrata Fenix 3A, poi equipaggia la Mégane Coupé 16V e la Renault Sport Spider; l'ultimo impiego è sulla Moskvitch
+    2142 russa fino al 2001.
+  punti_deboli:
+    - "Sensore di pressione dell'olio poco affidabile: con pressione insufficiente si segnalano rotture degli alberi a camme e bronzine di banco danneggiate"
+    - "Accensione (calotta dello spinterogeno, bobina, candele e cavi): causa frequente di funzionamento irregolare"
+    - "Cinghia di distribuzione allungata o con un dente saltato: minimo instabile e perdita di potenza"
+  limiti: >-
+    Soglie indicative. Le versioni da rally Clio Williams Maxi arrivarono a 250–275 CV con preparazione completa e, nelle
+    evoluzioni successive, albero a corsa ridotta (90 mm) con alesaggio 84 mm per restare a 1998 cc. La corsa lunga di serie
+    (93 mm) rende il gruppo albero-bielle il componente critico quando si alza il regime oltre i valori di serie.
+  curiosita:
+    - "Nel BTCC la Laguna della Williams usava un F7R preparato da Sodemo, fino a circa 320 CV in versione aspirata."
+    - "La Clio Williams del 1993 fu prodotta in 3800 esemplari numerati, poi affiancati da ulteriori serie per circa 12.600 unità totali."
+
+- slug: renault-f4r
+  codice: F4R / F4Rt
+  nome: Renault F4R 2.0 16v
+  costruttore: Renault
+  paese: Francia
+  inizio: 1998
+  fine: 2023
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1998
+  alesaggio: 82.7
+  corsa: 93.0
+  compressione: "8.6–11.5:1"
+  distribuzione: DOHC a cinghia, variatore di fase sull'aspirazione
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 135
+  cv_max: 275
+  nm_max: 360
+  limitatore: 7200
+  in_breve:
+    - { valore: "11,5:1", testo: "compressione dell'F4R aspirato della Clio RS 197, con alzata valvole portata a 11,5 mm" }
+    - { valore: "275 CV", testo: "nella versione F4Rt turbo della Mégane RS 275 Trophy" }
+    - { valore: "2,5 bar", testo: "pressione massima di sovralimentazione delle F4Rt della Mégane RS 265 e 275" }
+  versioni:
+    - { nome: "F4R base (Laguna, Mégane, Scénic, Espace)", anni: "1998–2009", cv: 140, nm: 195, nota: "135–140 CV e 185–195 Nm secondo versione" }
+    - { nome: "Clio RS 172 (F4R aspirato)", anni: "2000–2004", cv: 172, nm: 200, nota: "Compressione 11,2:1; 172 CV a 6250 giri/min" }
+    - { nome: "Clio RS 182", anni: "2004–2005", cv: 182, nm: 200, nota: "Compressione 11,0:1; 182 CV a 6500 giri/min" }
+    - { nome: "Clio RS 197 (Clio III)", anni: "2006–2009", cv: 197, nm: 215, nota: "Compressione 11,5:1; 197 CV a 7250 giri/min" }
+    - { nome: "Clio RS 200 (Clio III fase 2)", anni: "2009–2012", cv: 203, nm: 215, nota: "203 CV a 7100 giri/min" }
+    - { nome: "F4Rt Mégane RS 225 / 230 (Mégane II)", anni: "2004–2009", cv: 225, nm: 300, nota: "Turbo twin-scroll; 230 CV nelle ultime serie" }
+    - { nome: "F4Rt Mégane RS 250 (Mégane III)", anni: "2010–2012", cv: 250, nm: 340, nota: "Compressione 8,6:1; 2,3 bar" }
+    - { nome: "F4Rt Mégane RS 265", anni: "2012–2016", cv: 265, nm: 360, nota: "Valori con modalità Sport; altrimenti 250 CV e 340 Nm" }
+    - { nome: "F4Rt Mégane RS 275 Trophy", anni: "2014–2016", cv: 275, nm: 360, nota: "360 Nm tra 3000 e 5000 giri/min" }
+  modelli:
+    - { nome: "Renault Clio RS (Clio II e III)", anni: "2000–2012" }
+    - { nome: "Renault Mégane RS (Mégane II e III)", anni: "2004–2016" }
+    - { nome: "Renault Laguna, Espace, Scénic, Mégane 2.0 16V", anni: "1998–2009" }
+    - { nome: "Renault Laguna, Espace, Vel Satis, Avantime 2.0 Turbo (F4Rt)", anni: "2002–2015" }
+    - { nome: "Renault Duster, Kaptur, Sandero R.S. (Brasile e Russia)", anni: "2010–2022" }
+    - { nome: "Dacia Duster 2.0 16V", anni: "2010–2023" }
+    - { nome: "Nissan Terrano (Russia)", anni: "dal 2014" }
+  storia: >-
+    Quattro cilindri della famiglia F con basamento in ghisa senza canne riportate, testata in alluminio a 16 valvole con
+    punterie idrauliche e variatore di fase sull'albero a camme di aspirazione. Mantiene alesaggio e corsa dell'F7R
+    (82,7 × 93 mm) ed è stato usato sia aspirato, sulle Renault di serie e sulle Clio RS fino a 203 CV, sia sovralimentato
+    come F4Rt con turbina twin-scroll Mitsubishi. Sulle Mégane RS l'F4Rt lavora con compressione 8,6:1, valvole di scarico
+    raffreddate al sodio e fino a 2,5 bar di sovralimentazione.
+  punti_deboli:
+    - "Variatore di fase dell'albero a camme di aspirazione: tende a creparsi, spesso prima dei 100.000 km"
+    - "Consumo d'olio fino a circa 1 litro ogni 1000 km oltre i 100.000 km, per fasce elastiche e guarnizioni degli steli valvola"
+    - "Turbo delle F4Rt: gioco radiale del rotore intorno ai 150.000 km, con passaggio d'olio allo scarico"
+    - "Bobine di accensione e sensore di posizione dell'albero motore"
+  limiti: >-
+    Soglie indicative. Le versioni aspirate RS lavorano già con compressione 11–11,5:1 e soffrono di detonazione con benzina
+    a basso numero di ottano: oltre i valori di serie servono interventi su aspirazione e alberi a camme. Le F4Rt della
+    Mégane RS escono con 2,5 bar di sovralimentazione; aumenti ulteriori gravano sul turbo twin-scroll, il componente più
+    soggetto a usura già nelle versioni di serie.
+  curiosita:
+    - "L'F4R è stato il motore della Formula Renault 2.0 dal 2000 al 2020."
+    - "Sulla Clio RS di seconda generazione le valvole sono in lega Nimonic, a base di nichel con cromo e titanio."
+
+- slug: renault-k9k
+  codice: K9K
+  nome: Renault K9K 1.5 dCi
+  costruttore: Renault
+  paese: Francia
+  inizio: 2001
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo (geometria fissa o variabile)
+  cilindrata: 1461
+  alesaggio: 76.0
+  corsa: 80.5
+  compressione: "15.2–18.8:1"
+  distribuzione: SOHC a cinghia
+  valvole: 2
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Diretta common rail
+  cv_min: 65
+  cv_max: 115
+  nm_max: 260
+  limitatore: 4000
+  in_breve:
+    - { valore: "5 milioni", testo: "di unità prodotte entro giugno 2008, dopo circa sette anni di produzione" }
+    - { valore: "1600 bar", testo: "pressione del common rail di seconda generazione con iniettori piezoelettrici, contro 1400 bar al lancio" }
+    - { valore: "OM 607", testo: "sigla del motore sulle Mercedes-Benz Classe A, B, CLA e Citan" }
+  versioni:
+    - { nome: "dCi 65 Euro 3 (Clio II, Kangoo)", anni: "2001–2005", cv: 65, nm: 160, nota: "Iniezione Delphi, turbo a geometria fissa" }
+    - { nome: "dCi 100 Euro 3 (Mégane II)", anni: "2002–2005", cv: 100, nm: 200, nota: "Iniezione Siemens a 1600 bar, turbo a geometria variabile" }
+    - { nome: "dCi 106 Euro 4", anni: "2005–2010", cv: 106, nm: 240, nota: "240 Nm a 2000 giri/min" }
+    - { nome: "dCi 110 Euro 5 (K9K 836, Mégane III)", anni: "2008–2015", cv: 110, nm: 260, nota: "Turbo a geometria variabile" }
+    - { nome: "Blue dCi 115 Euro 6 (K9K 872)", anni: "2018–oggi", cv: 115, nm: 260, nota: "Riduzione catalitica selettiva (SCR) con urea" }
+  modelli:
+    - { nome: "Renault Clio, Mégane, Scénic, Kangoo, Captur, Kadjar, Laguna, Talisman", anni: "2001–oggi" }
+    - { nome: "Dacia Logan, Sandero, Duster, Lodgy, Dokker", anni: "dal 2005" }
+    - { nome: "Nissan Micra, Note, Qashqai, Juke, NV200, Tiida", anni: "dal 2005" }
+    - { nome: "Mercedes-Benz Classe A, B, CLA, GLA e Citan (OM 607 / OM 608)", anni: "dal 2012" }
+    - { nome: "Infiniti Q30", anni: "2015–2019" }
+    - { nome: "Suzuki Jimny 1.5 DDiS", anni: "2006–2011" }
+  storia: >-
+    Quattro cilindri diesel a 8 valvole con basamento in ghisa irrigidito, albero motore in acciaio e collettore di
+    aspirazione integrato nella testata, introdotto nella primavera 2001 su Clio e Kangoo. L'iniezione common rail è fornita
+    da Delphi per le versioni fino a 90 CV e da Siemens (poi Continental) per quelle più potenti, con turbo a geometria
+    variabile sulle versioni di punta; Bosch sostituisce Delphi nelle versioni Euro 5. Prodotto a Valladolid, Bursa e
+    Chennai, è usato da Renault, Dacia, Nissan, Mercedes-Benz e Infiniti; dal 2018 le versioni Blue dCi adottano l'SCR.
+  punti_deboli:
+    - "Bronzine di biella: il guasto più noto, favorito da intervalli di cambio olio lunghi (30.000 km) e olio non conforme"
+    - "Impianto common rail Delphi (fino al 2009): sensibile ad aria nel circuito, filtro intasato e gasolio di bassa qualità, con iniettori che si bloccano"
+    - "Filtro antiparticolato e valvola EGR: intasamento nell'uso urbano"
+    - "Calo di pressione dell'olio per valvola del filtro o molla della valvola di sovrappressione della pompa"
+  limiti: >-
+    Soglie indicative, non documentate dal costruttore. Il limite pratico è la lubrificazione delle bronzine di biella:
+    aumenti di coppia oltre i 260 Nm delle versioni più potenti di serie gravano su bronzine, turbo e frizione.
+  curiosita:
+    - "Le versioni Euro 5 introducono due pre-iniezioni che riducono il rumore di combustione fino a 3 dB."
+    - "Sulla Suzuki Jimny il K9K era venduto con la sigla 1.5 DDiS."
+
+- slug: renault-m5p
+  codice: M5Pt (MR18DDT)
+  nome: Renault M5Pt 1.8 TCe
+  costruttore: Renault
+  paese: Francia
+  inizio: 2017
+  fine: 2026
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo twin-scroll
+  cilindrata: 1798
+  alesaggio: 79.7
+  corsa: 90.1
+  compressione: "9.0:1"
+  distribuzione: DOHC a catena, fasatura variabile su aspirazione e scarico
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 225
+  cv_max: 300
+  nm_max: 420
+  limitatore: 6000
+  in_breve:
+    - { valore: "90,1 mm", testo: "di corsa contro 81,1 mm dell'M5Mt 1,6 litri, con lo stesso alesaggio di 79,7 mm" }
+    - { valore: "420 Nm", testo: "nella Mégane RS Trophy con cambio EDC (400 Nm con il manuale)" }
+    - { valore: "28.701", testo: "Alpine A110 di seconda generazione costruite dal 2017 al 1° luglio 2026" }
+  versioni:
+    - { nome: "TCe 225 (Espace V, Talisman)", anni: "2017–2023", cv: 225, nm: 300, nota: "Cambio EDC a 7 rapporti" }
+    - { nome: "Alpine A110", anni: "2017–2026", cv: 252, nm: 320, nota: "252 CV a 6000 giri/min, 320 Nm da 2000 giri/min" }
+    - { nome: "Mégane R.S. 280", anni: "2018–2020", cv: 280, nm: 390, nota: "390 Nm a 2400 giri/min" }
+    - { nome: "Alpine A110S", anni: "2019–2021", cv: 292, nm: 320, nota: "Coppia piena fino a 6400 giri/min" }
+    - { nome: "Mégane R.S. Trophy / 300", anni: "2018–2023", cv: 300, nm: 420, nota: "Turbina su cuscinetti a sfere in ceramica; 400 Nm con cambio manuale" }
+    - { nome: "Alpine A110 S, GT, R", anni: "2022–2026", cv: 300, nm: 340, nota: "340 Nm" }
+  modelli:
+    - { nome: "Alpine A110", anni: "2017–2026" }
+    - { nome: "Renault Mégane R.S. (Mégane IV)", anni: "2018–2023" }
+    - { nome: "Renault Espace V TCe 225", anni: "2017–2023" }
+    - { nome: "Renault Talisman TCe 225", anni: "2017–2022" }
+    - { nome: "Zagato AGTZ Twin Tail (su base Alpine A110)", anni: "2024" }
+  storia: >-
+    Quattro cilindri sovralimentato della famiglia MR sviluppata dall'alleanza Renault-Nissan, in cui Nissan lo identifica
+    come MR18DDT. Rispetto all'M5Mt 1,6 TCe mantiene l'alesaggio di 79,7 mm e allunga la corsa a 90,1 mm; ha basamento e
+    testata in alluminio, distribuzione a catena, iniezione diretta, turbina twin-scroll con wastegate elettronica e
+    fasatura variabile su entrambi gli alberi a camme. Per la Mégane R.S. la testata è stata rivista con i tecnici del reparto
+    motori di Formula 1 e le canne dei cilindri hanno un rivestimento a specchio; la produzione di serie è terminata con
+    l'ultima Alpine A110 il 1° luglio 2026.
+  punti_deboli:
+    - "Motore recente: pochi difetti ricorrenti documentati"
+    - "Iniezione diretta: sensibile alla qualità del carburante (benzina minimo 98 RON prescritta sulla Mégane R.S.)"
+    - "Catena di distribuzione: indicata come punto da controllare sui TCe sovralimentati ad alto chilometraggio"
+  limiti: >-
+    Soglie indicative. Lo stesso basamento in alluminio è omologato da 225 a 300 CV e fino a 420 Nm; per la versione Trophy
+    Renault ha adottato una turbina su cuscinetti in ceramica per compensare la contropressione del filtro antiparticolato.
+    Oltre i valori di serie il componente critico è il turbo twin-scroll.
+  curiosita:
+    - "L'ultima Alpine A110 con questo motore è uscita dallo stabilimento di Dieppe il 1° luglio 2026."
+    - "Il valore di 280 CV della Mégane R.S. deriva da 205 kW, pari a circa 279 CV."
+
+- slug: prv-v6
+  codice: PRV (ZM, Z6, Z7, ZPJ)
+  nome: PRV V6 Peugeot-Renault-Volvo
+  costruttore: PRV (Peugeot-Renault-Volvo)
+  paese: Francia
+  inizio: 1974
+  fine: 1998
+  architettura: V6
+  angolo: 90
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo / Biturbo
+  cilindrata: 2849
+  alesaggio: 91.0
+  corsa: 73.0
+  compressione: "7.3–10.5:1"
+  distribuzione: SOHC per bancata
+  valvole: "2 / 4"
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Carburatori, poi iniezione indiretta (Bosch LH-Jetronic su alcune versioni)
+  cv_min: 125
+  cv_max: 408
+  nm_max: 520
+  limitatore: 6000
+  in_breve:
+    - { valore: "970.315", testo: "unità prodotte a Douvrin fino al 15 giugno 1998" }
+    - { valore: "90°", testo: "tra le bancate, eredità del progetto V8; perni di manovella sfalsati dal 1984 per scoppi regolari" }
+    - { valore: "2458–2975 cc", testo: "cilindrate di serie, dal 2,5 turbo al 3,0 litri" }
+  versioni:
+    - { nome: "ZMJ-159 (DeLorean DMC-12)", anni: "1981–1983", cv: 132, nm: 207, nota: "2849 cc, 91 × 73 mm; taratura per gli USA" }
+    - { nome: "Z7X-744 (Alpine A610 Turbo)", anni: "1991–1995", cv: 250, nm: 350, nota: "3,0 litri turbo" }
+    - { nome: "ZPJ4 24v (Peugeot 605, Citroën XM)", anni: "1990–1997", cv: 200, nm: 260, nota: "2963–2975 cc, 24 valvole" }
+    - { nome: "Venturi 400 GT", anni: "1994–1997", cv: 408, nm: 520, nota: "2975 cc, 24 valvole, biturbo; circa 15 esemplari stradali" }
+  modelli:
+    - { nome: "DeLorean DMC-12", anni: "1981–1983" }
+    - { nome: "Alpine A310 V6", anni: "1976–1985" }
+    - { nome: "Alpine GTA", anni: "1984–1991" }
+    - { nome: "Alpine A610", anni: "1991–1995" }
+    - { nome: "Renault 30, 25, Safrane, Espace, Laguna", anni: "1975–1998" }
+    - { nome: "Peugeot 504 coupé/cabriolet, 604, 505, 605", anni: "1974–1995" }
+    - { nome: "Citroën XM", anni: "1989–1997" }
+    - { nome: "Volvo 260, 760, 960", anni: "1974–1991" }
+    - { nome: "Talbot Tagora", anni: "1980–1983" }
+    - { nome: "Lancia Thema 2.8 V6", anni: "1984–1992" }
+    - { nome: "Eagle Premier", anni: "1988–1992" }
+    - { nome: "Dodge Monaco", anni: "1990–1992" }
+    - { nome: "Venturi 160, 260, 300, 400", anni: "1987–1998" }
+  storia: >-
+    V6 a 90° con basamento e testate in alluminio, costruito da Française de Mécanique a Douvrin per il consorzio fra
+    Peugeot, Renault e Volvo. Nasce da un progetto V8 ridotto a sei cilindri dopo le crisi petrolifere, da cui l'angolo di
+    90° che nella prima serie (1974–1985) produce intervalli di accensione irregolari. Dal 1984, con la Renault 25 V6
+    Turbo, i perni di manovella sfalsati rendono regolari gli scoppi; le cilindrate di serie vanno da 2458 a 2975 cc, aspirate
+    o sovralimentate, con teste a 12 o 24 valvole. Dal 1994 viene sostituito dal V6 ES/L di PSA e Renault e la produzione
+    termina il 15 giugno 1998.
+  punti_deboli:
+    - "Prime serie (1974–1985) con perni di manovella comuni: intervalli di accensione irregolari e vibrazioni"
+    - "Versione 24 valvole ZPJ4: usura degli alberi a camme, con più valvole di scarico comandate dalla stessa camma, risolta con la modifica del 1993"
+  limiti: >-
+    Le versioni turbo di serie arrivano a 250 CV (Alpine A610) con compressione ridotta a 7,3–7,6:1; la Venturi 400 GT
+    supera i 400 CV con teste a 24 valvole e due turbo, ma in pochissimi esemplari. Oltre, nelle WM da Le Mans
+    furono necessarie teste bialbero specifiche: le teste monoalbero di serie sono il limite principale.
+  curiosita:
+    - "Nel 1988 la WM P88 con V6 PRV sovralimentato raggiunse 407 km/h sul rettilineo dell'Hunaudières a Le Mans."
+    - "La Renault Safrane Biturbo, sviluppata con Hartge e Irmscher, fu prodotta in 806 esemplari dal 1994 al 1996."
+
+- slug: volvo-modulare-l5
+  codice: B5234T / B5254T
+  nome: Volvo Modular cinque cilindri turbo
+  costruttore: Volvo
+  paese: Svezia
+  inizio: 1993
+  fine: 2016
+  architettura: L5
+  cilindri: 5
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 2521
+  alesaggio: 83.0
+  corsa: 93.2
+  compressione: "8.5–9.5:1"
+  distribuzione: DOHC a cinghia, fasatura variabile sulle versioni successive
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 193
+  cv_max: 350
+  nm_max: 460
+  limitatore: 6500
+  in_breve:
+    - { valore: "Alluminio", testo: "blocco e testata in tutte le versioni della famiglia Modular" }
+    - { valore: "350 CV", testo: "nella Ford Focus RS500 del 2010, la versione più potente di serie" }
+    - { valore: "Skövde", testo: "stabilimento Volvo dove la famiglia è stata prodotta dal 1990 al 2016" }
+  versioni:
+    - { nome: "B5234T (850 T5)", anni: "1993–1997", cv: 225, nm: 300, nota: "2319 cc, alesaggio 81 mm, corsa 90 mm" }
+    - { nome: "B5234T4 (850 R, manuale)", anni: "1996–1997", cv: 250, nm: 350, nota: "240 CV con cambio automatico" }
+    - { nome: "B5254T2 (S60, V70, XC90 2.5T)", anni: "2003–2012", cv: 210, nm: 320, nota: "2521 cc" }
+    - { nome: "B5254T4 (S60 R, V70 R)", anni: "2004–2007", cv: 300, nm: 400, nota: "Compressione 8,5:1; 350 Nm con cambio automatico" }
+    - { nome: "Duratec ST (Ford Focus ST)", anni: "2005–2010", cv: 225, nm: 320, nota: "Derivato dal B5254T3" }
+    - { nome: "Duratec RS (Ford Focus RS)", anni: "2009–2010", cv: 305, nm: 440, nota: "Compressione 8,5:1, turbo BorgWarner K16" }
+    - { nome: "Ford Focus RS500", anni: "2010", cv: 350, nm: 460, nota: "500 esemplari; intercooler e scarico maggiorati" }
+    - { nome: "B5254T12 (T5)", anni: "2013–2016", cv: 254, nm: 360, nota: "2497 cc, corsa 92,3 mm, compressione 9,5:1" }
+  modelli:
+    - { nome: "Volvo 850 T5, T-5R, R", anni: "1993–1997" }
+    - { nome: "Volvo S70, V70, C70 (prima serie)", anni: "1996–2002" }
+    - { nome: "Volvo S60, V70, XC70, S80, XC90", anni: "2000–2012" }
+    - { nome: "Volvo S60 R, V70 R", anni: "2004–2007" }
+    - { nome: "Volvo S40, V50, C30, C70 T5", anni: "2004–2013" }
+    - { nome: "Volvo V40, S60, V60, XC60, XC70 T5", anni: "2013–2016" }
+    - { nome: "Ford Focus ST, RS, RS500 (seconda serie)", anni: "2005–2011" }
+    - { nome: "Ford Mondeo, S-Max, Kuga 2.5T", anni: "2006–2012" }
+  storia: >-
+    Cinque cilindri turbo della famiglia modulare Volvo, costruita a Skövde dal 1990 al 2016 con blocco e testata in
+    alluminio e venti valvole. Il primo turbo è il 2,3 litri (81 x 90 mm) dell'850 T5 per il model year 1994; dal 2003 la
+    cilindrata principale passa a 2521 cc con corsa di 93,2 mm, e l'ultima evoluzione B5254T12 da 2497 cc resta in
+    listino sulle T5 fino al 2016. Ford lo usa come Duratec ST e Duratec RS sulla Focus di
+    seconda serie: la RS ha compressione ridotta a 8,5:1, bielle rinforzate e turbo K16 con 1,37 bar di pressione massima.
+  punti_deboli:
+    - "Ventilazione del basamento (PCV, flame trap): se si intasa la pressione interna fa trafilare olio dal paraolio posteriore dell'albero"
+    - "Bielle delle 850 T5 e R: possono piegarsi se l'elettrovalvola di controllo della pressione di sovralimentazione si guasta o è regolata male"
+    - "Cinghia di distribuzione e paraolio anteriori degli alberi a camme: motore interferente, la rottura della cinghia danneggia le valvole"
+    - "Consumo d'olio sui 2,5 litri dei model year 2013–2016, oggetto di una class action negli Stati Uniti per gli anelli raschiaolio"
+  limiti: >-
+    La RS500 eroga 350 CV e 460 Nm con gli stessi componenti interni della RS da 305 CV (bielle, pistoni, canne con
+    riporto a spruzzo, guarnizione della testata rivista). Sulle versioni 2,3 litri dell'850 il componente critico sono le
+    bielle; oltre la potenza delle versioni R servono controllo accurato della pressione di sovralimentazione e turbo maggiorato.
+  curiosita:
+    - "Della 850 T-5R, venduta come tale nel 1995 e poi in una seconda serie nel 1996, sono stati prodotti 6964 esemplari."
+    - "La Focus RS500 è stata costruita a Saarlouis in 500 esemplari numerati dal maggio 2010."
+
+- slug: volvo-vea
+  codice: B4204
+  nome: Volvo VEA Drive-E 2.0 benzina
+  costruttore: Volvo
+  paese: Svezia
+  inizio: 2013
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina / Ibrido
+  aspirazione: Turbo / Turbo e compressore volumetrico
+  cilindrata: 1969
+  alesaggio: 82.0
+  corsa: 93.2
+  compressione: "8.6–11.8:1"
+  distribuzione: DOHC, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 122
+  cv_max: 367
+  nm_max: 470
+  limitatore: 6000
+  in_breve:
+    - { valore: "1969 cc", testo: "cilindrata comune a tutte le versioni benzina 2.0, alesaggio 82 mm" }
+    - { valore: "Doppia", testo: "sovralimentazione con compressore Roots e turbo sulle versioni T6 e T8" }
+    - { valore: "367 CV", testo: "nella B4204T43 delle S60 e V60 Polestar (2017–2018)" }
+  versioni:
+    - { nome: "B4204T38 (V40 T2)", anni: "2016–2019", cv: 122, nm: 220, nota: "Turbo, compressione 11,3:1" }
+    - { nome: "B4204T19 (T4)", anni: "2015–2019", cv: 190, nm: 300, nota: "Turbo" }
+    - { nome: "B4204T11 (T5)", anni: "2014–2019", cv: 245, nm: 350, nota: "Turbo" }
+    - { nome: "B4204T23 (T5)", anni: "2015–oggi", cv: 254, nm: 350, nota: "Turbo; anche Lynk & Co 03+" }
+    - { nome: "B4204T27 (T6)", anni: "2016–2022", cv: 320, nm: 400, nota: "Compressore volumetrico e turbo" }
+    - { nome: "B4204T35 (T8 Twin Engine)", anni: "2016–oggi", cv: 320, nm: 400, nota: "Ibrido plug-in con motore elettrico posteriore" }
+    - { nome: "B4204T43 (Polestar)", anni: "2017–2018", cv: 367, nm: 470, nota: "Compressione 8,6:1" }
+  modelli:
+    - { nome: "Volvo S60, V60, XC60", anni: "2013–oggi" }
+    - { nome: "Volvo S90, V90, XC90", anni: "2015–oggi" }
+    - { nome: "Volvo V40, XC40", anni: "2014–oggi" }
+    - { nome: "Volvo S80, V70, XC70", anni: "2014–2016" }
+    - { nome: "Lynk & Co 01, 02, 03, 09", anni: "2017–oggi" }
+    - { nome: "Polestar 1", anni: "2019–2022" }
+  storia: >-
+    Quattro cilindri della famiglia modulare VEA (Volvo Engine Architecture), che comprende tre e quattro cilindri benzina
+    e diesel e ha sostituito i cinque e sei cilindri Volvo. Le prime vetture con questi motori, S60 e V60, sono consegnate
+    nell'autunno 2013; la produzione avviene a Skövde, dal 2016 anche a Zhangjiakou in Cina e dal 2022 presso Proton in
+    Malaysia. Le versioni più potenti abbinano un compressore volumetrico Roots al turbocompressore, e la stessa base
+    equipaggia gli ibridi plug-in T8, le Polestar e i modelli Lynk & Co.
+  punti_deboli:
+    - "Consumo d'olio sui 2.0 dei model year 2013–2016: una class action negli Stati Uniti attribuisce il difetto agli anelli raschiaolio dei pistoni"
+    - "Versioni con compressore (dal 2015): trafilamenti d'aria da valvola di non ritorno del compressore e membrana del separatore d'olio PCV, con codice di miscela magra P0171"
+  limiti: >-
+    La B4204T43 Polestar arriva di serie a 367 CV e 470 Nm con compressione ridotta a 8,6:1 ed è il riferimento per il
+    carico sopportato dal motore. Il regime massimo dichiarato per i benzina VEA è 6000 giri/min.
+  curiosita:
+    - "Nelle versioni a doppia sovralimentazione il compressore volumetrico fornisce la spinta ai bassi regimi e il turbocompressore interviene sopra circa 3000 giri/min."
+    - "Dal 2022 il motore è prodotto anche da Proton a Tanjung Malim, in Malaysia."
+
+- slug: saab-b234-b235
+  codice: B234 / B235
+  nome: Saab B234 / B235 2.3
+  costruttore: Saab
+  paese: Svezia
+  inizio: 1990
+  fine: 2009
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 2290
+  alesaggio: 90.0
+  corsa: 90.0
+  compressione: "8.5–10.5:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 146
+  cv_max: 260
+  nm_max: 370
+  limitatore: 5300
+  in_breve:
+    - { valore: "90 x 90", testo: "alesaggio e corsa in mm: motore quadro da 2290 cc" }
+    - { valore: "Trionic", testo: "gestione motore Saab che usa la candela come sensore di combustione" }
+    - { valore: "260 CV", testo: "nella B235R delle 9-5 Aero dal 2006" }
+  versioni:
+    - { nome: "B234i (9000 2.3i)", anni: "1990–1993", cv: 146, nm: 212, nota: "Aspirato, compressione 10,1:1" }
+    - { nome: "B234L (9000 2.3 Turbo)", anni: "1994–1998", cv: 200, nm: 323, nota: "Compressione 9,25:1" }
+    - { nome: "B234R (9000 Aero)", anni: "1993–1997", cv: 225, nm: 342, nota: "Pressione di sovralimentazione 1,08 bar" }
+    - { nome: "B235E (9-3, 9-5 2.3t)", anni: "2001–2009", cv: 185, nm: 280, nota: "Turbo Garrett GT1752S a bassa pressione" }
+    - { nome: "B235R (9-3 Viggen, 9-5 Aero)", anni: "1999–2001", cv: 230, nm: 350, nota: "370 Nm in overboost con cambio manuale" }
+    - { nome: "B235R (9-5 Aero)", anni: "2006–2009", cv: 260, nm: 350, nota: "370 Nm in overboost con cambio manuale" }
+  modelli:
+    - { nome: "Saab 9000 2.3", anni: "1990–1998" }
+    - { nome: "Saab 9-3 (prima serie) 2.3, Viggen", anni: "1998–2002" }
+    - { nome: "Saab 9-5 (prima serie) 2.3t, Aero", anni: "1997–2009" }
+  storia: >-
+    Versione da 2,3 litri del quattro cilindri Saab serie H, ottenuta portando la corsa a 90 mm, con blocco in ghisa,
+    testata a sedici valvole e alberi di equilibratura controrotanti nel basamento. Il B234 equipaggia la 9000 dal 1990
+    al 1998, con il B234R della 9000 Aero come versione di punta; dal 1993 la gestione è affidata al sistema Trionic.
+    Il B235 del 1998, alleggerito e con gestione Trionic 7 a controllo di coppia, monta turbo a bassa pressione sulle
+    2.3t e il Mitsubishi TD04HL sulle Aero, e resta in produzione fino alla fine della prima 9-5 nel 2009.
+  punti_deboli:
+    - "Formazione di morchie nell'olio su 9-3 e 9-5 dal 1999 al 2003: i depositi intasano il filtro di aspirazione della pompa dell'olio; cause indicate negli intervalli di cambio di 16000 km e nel calore del catalizzatore vicino alla coppa"
+    - "Alberi di equilibratura e relativa catena: rumorosità e usura, spesso rimossi"
+    - "Catena di distribuzione che si allunga ad alto chilometraggio"
+    - "Cassetta di accensione diretta (DI) soggetta a guasti"
+  limiti: >-
+    I pistoni del B235, alleggeriti, sono il limite alle elaborazioni: con pressioni elevate e detonazione possono
+    danneggiarsi. Le elaborazioni più spinte sui B234R (stadi da circa 400 CV dei preparatori specializzati) richiedono
+    interventi su componenti interni, turbo e alimentazione.
+  curiosita:
+    - "Il sistema Trionic misura la corrente di ionizzazione tra gli elettrodi della candela dopo ogni scintilla per rilevare detonazione e mancate accensioni senza un sensore di battito separato."
+    - "La 9-3 Viggen usa il B235R da 230 CV, la stessa versione delle 9-5 Aero dello stesso periodo."
+
+- slug: toyota-1jz-gte
+  codice: 1JZ-GTE
+  nome: Toyota 1JZ-GTE 2.5 turbo
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 1990
+  fine: 2007
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo / Turbo
+  cilindrata: 2492
+  alesaggio: 86.0
+  corsa: 71.5
+  compressione: "8.5–9.0:1"
+  distribuzione: DOHC a cinghia, VVT-i sull'aspirazione dal 1996
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 280
+  cv_max: 280
+  nm_max: 379
+  limitatore: 7000
+  in_breve:
+    - { valore: "280 CV", testo: "in tutte le versioni, il limite concordato dai costruttori giapponesi" }
+    - { valore: "71,5 mm", testo: "di corsa: il 2JZ deriva da questo motore con corsa portata a 86 mm" }
+    - { valore: "379 Nm", testo: "a 2400 giri/min nella versione VVT-i a turbo singolo" }
+  versioni:
+    - { nome: "1JZ-GTE biturbo", anni: "1990–1996", cv: 280, nm: 363, nota: "Due turbo CT12A in parallelo, compressione 8,5:1" }
+    - { nome: "1JZ-GTE VVT-i", anni: "1996–2007", cv: 280, nm: 379, nota: "Turbo singolo CT15B, compressione 9,0:1" }
+  modelli:
+    - { nome: "Toyota Chaser, Cresta, Mark II (JZX81, JZX90, JZX100)", anni: "1990–2001" }
+    - { nome: "Toyota Supra 2.5 Twin Turbo R (JZA70)", anni: "1990–1993" }
+    - { nome: "Toyota Soarer 2.5 GT-T (JZZ30)", anni: "1991–2000" }
+    - { nome: "Toyota Crown Athlete V (JZS171)", anni: "1999–2003" }
+    - { nome: "Toyota Mark II, Mark II Blit, Verossa (JZX110)", anni: "2000–2007" }
+  storia: >-
+    Sei cilindri in linea da 2,5 litri della famiglia JZ, con blocco in ghisa, testata a 24 valvole e due alberi a camme
+    comandati da cinghia. La prima versione usa due turbo CT12A in parallelo con intercooler aria-aria e 363 Nm a 4800
+    giri/min. Dal 1996 passa a un turbo singolo CT15B e alla fasatura variabile VVT-i, con compressione salita a 9,0:1 e
+    coppia massima di 379 Nm già a 2400 giri/min. È montato sulle berline a trazione posteriore Chaser, Cresta e Mark II,
+    sulla Soarer, sulla Supra JZA70 e sulla Crown fino al 2007.
+  punti_deboli:
+    - "Giranti in ceramica dei turbo della prima serie: possono sfaldarsi ad alti regimi e temperature"
+    - "Valvola unidirezionale difettosa sul coperchio della distribuzione: i gas di sfiato raggiungono l'aspirazione e l'olio danneggia le tenute dei turbo (richiamo in Giappone)"
+    - "Staffa del tenditore della cinghia di distribuzione"
+    - "Consumo d'olio per usura dei paraolio valvole"
+  limiti: >-
+    Con componenti interni di serie il limite indicato è intorno a 500–550 CV alla ruota, con turbo singolo maggiorato,
+    iniettori e pompa benzina adeguati. Con i turbo di serie della prima serie, a giranti in ceramica, conviene
+    mantenere pressioni di sovralimentazione contenute.
+  curiosita:
+    - "La potenza dichiarata di 280 CV rispetta l'accordo tra costruttori giapponesi che limitava le auto di serie a quella soglia."
+    - "Nel passaggio al turbo singolo la potenza resta 280 CV, ma il regime di coppia massima scende da 4800 a 2400 giri/min."
+
+- slug: toyota-2zz-ge
+  codice: 2ZZ-GE
+  nome: Toyota 2ZZ-GE 1.8 VVTL-i
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 1999
+  fine: 2011
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore volumetrico
+  cilindrata: 1796
+  alesaggio: 82.0
+  corsa: 85.0
+  compressione: "11.5:1"
+  distribuzione: DOHC a catena, VVTL-i (fasatura e alzata variabili)
+  valvole: 4
+  blocco: Alluminio con canne in composito a matrice metallica
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 166
+  cv_max: 260
+  nm_max: 236
+  limitatore: 8200
+  in_breve:
+    - { valore: "Yamaha", testo: "ha progettato il motore su incarico di Toyota" }
+    - { valore: "6200", testo: "giri/min circa: inserimento del profilo a camme ad alta alzata" }
+    - { valore: "8500", testo: "giri/min il limitatore sulle Lotus; circa 8200 sulle Toyota" }
+  versioni:
+    - { nome: "Toyota Celica, Corolla T-Sport", anni: "1999–2006", cv: 192, nm: 181, nota: "Potenza a 7600 giri/min" }
+    - { nome: "Toyota Matrix XRS, Pontiac Vibe GT", anni: "2003–2006", cv: 182, nm: 176, nota: "Ridotta fino a 166 CV nel 2006" }
+    - { nome: "Lotus Elise 111R", anni: "2004–2011", cv: 192, nm: 181, nota: "Coppia a 6800 giri/min" }
+    - { nome: "Lotus Exige S", anni: "2006–2011", cv: 221, nm: 215, nota: "Compressore volumetrico" }
+    - { nome: "Lotus Exige Cup 260", anni: "2010–2011", cv: 260, nm: 236, nota: "Compressore volumetrico, potenza a 8000 giri/min" }
+  modelli:
+    - { nome: "Toyota Celica (T230)", anni: "1999–2006" }
+    - { nome: "Toyota Corolla, Corolla Matrix XRS", anni: "2002–2006" }
+    - { nome: "Toyota WiLL VS", anni: "2001–2004" }
+    - { nome: "Pontiac Vibe GT", anni: "2003–2006" }
+    - { nome: "Lotus Elise, Exige, 2-Eleven", anni: "2004–2011" }
+  storia: >-
+    Quattro cilindri da 1,8 litri della famiglia ZZ progettato da Yamaha su incarico di Toyota, con blocco in alluminio
+    pressofuso e canne in composito a matrice metallica al posto delle canne in ghisa dell'1ZZ-FE. Il sistema VVTL-i
+    affianca la fasatura variabile a un secondo profilo delle camme ad alta alzata, che si inserisce intorno a 6200
+    giri/min (tra 6000 e 6700 secondo il modello). Equipaggia Celica, Corolla e Matrix sportive e la Pontiac Vibe GT;
+    Lotus lo adotta su Elise, Exige e 2-Eleven, anche con compressore volumetrico, fino alla fine della produzione nel 2011.
+  punti_deboli:
+    - "Bulloni di sollevamento dei bilancieri VVTL-i sui primi motori: si allentano e il profilo ad alta alzata non si inserisce; riprogettati da Toyota a fine 2002"
+    - "Pompa dell'olio: un fuorigiri per scalata errata può rompere l'anello del rotore, e la mancanza d'olio danneggia il motore"
+    - "Consumo d'olio oltre circa 150000 km"
+  limiti: >-
+    Di serie il motore regge 260 CV con compressore volumetrico nella Exige Cup 260. La compressione di 11,5:1, pensata
+    per l'aspirato, e la pompa dell'olio sono i componenti critici quando si aumenta la sovralimentazione o il regime.
+  curiosita:
+    - "La fine della produzione del 2ZZ-GE da parte di Toyota ha chiuso nell'agosto 2011 la produzione della Lotus Exige Series 2 per il Nord America."
+    - "Il profilo ad alta alzata del VVTL-i non si inserisce finché il motore non ha raggiunto almeno 60 °C."
