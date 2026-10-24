@@ -2,31 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-GM Northstar V8 | Cadillac
-GM Ecotec LSJ / LNF 2.0 turbo | Cobalt SS, Opel GT, Solstice
-Chrysler/Dodge 8.0 / 8.4 V10 Viper | Viper RT/10–ACR
-Chrysler 5.7 / 6.4 HEMI | 300C, Charger, Jeep
-Chrysler 3.6 Pentastar | Jeep, Chrysler, Dodge
-Ford 4.6 Modular / 5.4 | Mustang, Ford GT 2005
-Ford 7.3 / 6.7 Power Stroke diesel | F-Series
-Cummins 5.9 / 6.7 B-series | Ram
-Jaguar AJ-V8 | 4.0–5.0, AJ133 compressore
-Jaguar AJ6 / AJ16 | XJ40, XJS, XJR
-Jaguar V12 HE | XJ-S, XJ12
-Land Rover / Rover V8 | 3.5–4.6, TVR
-Rover K-Series | MGF, Lotus Elise; guarnizione testata
-Lotus 907 / 910 | Esprit Turbo
-TVR Speed Six | Tuscan, Cerbera, Sagaris
-Aston Martin AM V12 | DB9, Vanquish, DBS
-Aston Martin V8 4.3 / 4.7 (AJ37) | V8 Vantage 2005
-McLaren M840T | 720S, 765LT, Artura escluso
-Koenigsegg V8 biturbo 5.0 | Agera, Regera, Jesko
-Rolls-Royce / BMW N74 V12 | Ghost, Wraith, Cullinan (N74, N74B66)
-Bentley 6¾ L-series V8 | Mulsanne, Arnage
-Škoda 1.0 / 1.2 TSI | EA211 tre cilindri
-Smart / Mitsubishi 3B2 tre cilindri | Smart ForTwo
-Suzuki G13B / M13A / K14C | Swift GTi, Swift Sport
-Daihatsu / Toyota KF tre cilindri | kei car
 Lada VAZ-2106 / 21126 | Niva, Priora
 Škoda / VW 1.2 HTP | Fabia, Polo
 Hyundai Alpha 1.3 / 1.5 / 1.6 | Accent, Lantra, Kia Rio; primo motore progettato da Hyundai
@@ -254,3 +229,7 @@ Toyota 2AR / M20A Dynamic Force | M20A e A25A ibridi
 Mitsubishi 4G93 GDI | primo benzina a iniezione diretta moderno
 Hyundai Theta 2.0 turbo | Genesis Coupé, Veloster N (Theta II)
 Hyundai Smartstream G2.5T / N 2.0 T-GDi | i30 N, Elantra N
+Navistar / Ford 7.3 Power Stroke (T444E) | F-Series 1994–2003
+Suzuki G13B | Swift GTi; separato dalla famiglia M
+Suzuki K14C Boosterjet | Swift Sport ZC33S, Vitara
+Volkswagen EA211 1.2 TSI quattro cilindri | Golf, Polo, Škoda Fabia; non coperto dalla scheda 1.4 TSI

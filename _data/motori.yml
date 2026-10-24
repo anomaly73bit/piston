@@ -8911,3 +8911,1505 @@
   curiosita:
     - "Ogni perno di manovella ha un proprio vano nel basamento e ogni pistone è raffreddato da uno spruzzatore d'olio."
     - "Le valvole di scarico, da 35 mm, sono riempite di sodio; quelle di aspirazione sono in titanio."
+
+- slug: gm-northstar
+  codice: L37 / LD8 / LH2 / LC3 / L47
+  nome: GM Northstar V8
+  costruttore: General Motors
+  paese: Stati Uniti
+  inizio: 1993
+  fine: 2011
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore
+  cilindrata: 4565
+  alesaggio: 93.0
+  corsa: 84.0
+  compressione: "9.0–10.5:1"
+  distribuzione: DOHC a catena, fasatura variabile su LH2 e LC3
+  valvole: 4
+  blocco: Alluminio pressofuso, canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta sequenziale multipoint
+  cv_min: 253
+  cv_max: 476
+  nm_max: 595
+  limitatore: 6500
+  in_breve:
+    - { valore: "4565 cc", testo: "cilindrata della versione principale 4.6, alesaggio 93 mm e corsa 84 mm" }
+    - { valore: "LC3", testo: "4.4 con compressore della Cadillac STS-V, 476 CV e 595 Nm" }
+    - { valore: "3 anni", testo: "nella lista Ward's 10 Best Engines (1995, 1996, 1997)" }
+  versioni:
+    - { nome: "L37 4.6 (Allanté, Seville STS, Eldorado ETC)", anni: "1993–2004", cv: 304, nm: 400, nota: "299 CV e 393 Nm nel 1993–1994" }
+    - { nome: "LD8 4.6 (Seville SLS, DeVille, Eldorado ESC)", anni: "1993–2011", cv: 279, nm: 407, nota: "Taratura orientata alla coppia" }
+    - { nome: "L37 4.6 (DTS Performance)", anni: "2006–2011", cv: 296, nm: 390, nota: "" }
+    - { nome: "LH2 4.6 longitudinale (SRX, XLR, STS)", anni: "2004–2010", cv: 324, nm: 427, nota: "Fasatura variabile su aspirazione e scarico" }
+    - { nome: "LC3 4.4 compressore (STS-V)", anni: "2006–2009", cv: 476, nm: 595, nota: "4371 cc, alesaggio 91 mm; XLR-V 449 CV e 561 Nm" }
+    - { nome: "L47 4.0 (Oldsmobile Aurora)", anni: "1995–2003", cv: 253, nm: 353, nota: "Alesaggio 87 mm" }
+  modelli:
+    - { nome: "Cadillac Allanté, Seville, Eldorado, DeVille, DTS", anni: "1993–2011" }
+    - { nome: "Cadillac SRX, XLR, STS", anni: "2004–2010" }
+    - { nome: "Oldsmobile Aurora", anni: "1995–2003" }
+    - { nome: "Oldsmobile Shelby Series 1", anni: "1999–2005" }
+    - { nome: "Pontiac Bonneville GXP", anni: "2004–2005" }
+    - { nome: "Buick Lucerne CXS, Super", anni: "2006–2011" }
+  storia: >-
+    V8 a 90° di Cadillac con basamento in alluminio pressofuso, canne in ghisa inglobate non sostituibili e semibasamento
+    inferiore che sostituisce i cappelli di banco. Nato per la trazione anteriore trasversale, dal 2004 è stato adattato al
+    montaggio longitudinale (LH2) con fasatura variabile su entrambi gli alberi. Dal 2000 adotta accensione con bobine sulle
+    candele, semibasamento ottenuto per squeeze casting e compressione ridotta a 10,0:1; il 4.4 LC3 con compressore equipaggia
+    STS-V e XLR-V.
+  punti_deboli:
+    - "Guarnizioni della testata sui 4.6 1995–2005, per cedimento delle viti testata elasto-plastiche nei filetti del basamento in alluminio"
+    - "Consumo d'olio sui motori 1996–1999 per incollaggio delle fasce elastiche (bollettino GM 01-06-01-011)"
+    - Perdite d'olio dal paraolio posteriore dell'albero motore e dal semibasamento sui motori fino al 1999
+    - "Motore interferente: rottura o salto della catena di distribuzione con contatto valvole-pistoni"
+  limiti: >-
+    Il limite pratico è la tenuta della guarnizione della testata: l'LC3 riduce l'alesaggio a 91 mm proprio per migliorarla con
+    il compressore. Sui 4.6 aspirati, prima di aumentare la potenza è prassi riparare i filetti del basamento con inserti o
+    prigionieri.
+  curiosita:
+    - "Il sistema di emergenza limp home consente di percorrere circa 160 km senza liquido di raffreddamento, alimentando i cilindri a bancate alterne."
+    - "Dalla stessa architettura derivano il V6 3.5 LX5 (Oldsmobile Intrigue) e il V8 dell'Opel Astra DTM del 2000."
+
+- slug: gm-ecotec-lsj-lnf
+  codice: LSJ / LNF
+  nome: GM Ecotec LSJ / LNF 2.0 sovralimentato
+  costruttore: General Motors
+  paese: Stati Uniti
+  inizio: 2004
+  fine: 2010
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Compressore / Turbo
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "9.2–9.5:1"
+  distribuzione: DOHC a catena; doppia fasatura variabile sull'LNF
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint (LSJ) / diretta (LNF)
+  cv_min: 208
+  cv_max: 264
+  nm_max: 353
+  limitatore: 6300
+  in_breve:
+    - { valore: "M62", testo: "compressore volumetrico Eaton con intercooler aria-liquido sull'LSJ" }
+    - { valore: "155 bar", testo: "pressione massima dell'iniezione diretta dell'LNF a pieno carico" }
+    - { valore: "Twin-scroll", testo: "turbocompressore dell'LNF, montato longitudinale su Solstice, Sky e Opel GT" }
+  versioni:
+    - { nome: "LSJ (Saturn Ion Red Line)", anni: "2004–2007", cv: 208, nm: 271, nota: "Compressore Eaton M62, limitatore 6450 giri/min" }
+    - { nome: "LSJ (Chevrolet Cobalt SS Supercharged)", anni: "2005–2007", cv: 208, nm: 271, nota: "" }
+    - { nome: "LNF (Pontiac Solstice GXP, Saturn Sky Red Line)", anni: "2007–2010", cv: 264, nm: 353, nota: "" }
+    - { nome: "LNF (Opel GT)", anni: "2007–2009", cv: 264, nm: 353, nota: "" }
+    - { nome: "LNF (Chevrolet Cobalt SS, HHR SS)", anni: "2008–2010", cv: 264, nm: 353, nota: "Kit GM di ricalibrazione fino a 294 CV e 461 Nm" }
+  modelli:
+    - { nome: "Saturn Ion Red Line", anni: "2004–2007" }
+    - { nome: "Saturn Sky Red Line", anni: "2007–2009" }
+    - { nome: "Chevrolet Cobalt SS", anni: "2005–2010" }
+    - { nome: "Chevrolet HHR SS", anni: "2008–2010" }
+    - { nome: "Pontiac Solstice GXP", anni: "2007–2010" }
+    - { nome: "Opel GT", anni: "2007–2009" }
+  storia: >-
+    Versioni sovralimentate del quattro cilindri Ecotec 2.0 con alesaggio e corsa di 86 mm. L'LSJ usa un compressore volumetrico
+    Eaton M62 con intercooler aria-liquido e condivide con l'LK9 testa, pistoni, bielle, albero motore e getti di raffreddamento
+    dei pistoni. L'LNF, sul basamento di seconda generazione, adotta iniezione diretta con pompa ad alta pressione azionata
+    dall'albero a camme, turbo twin-scroll, albero motore e bielle in acciaio forgiato e valvole di scarico al sodio.
+  punti_deboli:
+    - Pompa dell'intercooler aria-liquido dell'LSJ soggetta a guasti, con calo di rendimento del compressore
+    - Usura dei pattini della catena di distribuzione sull'LSJ ad alto chilometraggio
+    - Depositi carboniosi sulle valvole di aspirazione dell'LNF, tipici dell'iniezione diretta
+  limiti: >-
+    GM ha omologato per l'LNF un kit di ricalibrazione fino a 294 CV coperto da garanzia; oltre, con turbo maggiorato, il
+    componente critico è l'alimentazione (pompa alta pressione e iniettori). Per l'LSJ le fonti dei preparatori indicano
+    il blocco di serie adatto a potenze molto superiori all'originale, senza dati del costruttore.
+  curiosita:
+    - "Nel 2008 GM Powertrain Europe ha denominato A20NHT la variante Euro 5 dell'LNF."
+    - "L'LSJ è entrato nella lista Ward's 10 Best Engines del 2006."
+
+- slug: dodge-viper-v10
+  codice: Viper V10 8.0 / 8.3 / 8.4
+  nome: Dodge Viper V10
+  costruttore: Dodge
+  paese: Stati Uniti
+  inizio: 1992
+  fine: 2017
+  architettura: V10
+  angolo: 90
+  cilindri: 10
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 7990
+  alesaggio: 101.6
+  corsa: 98.6
+  compressione: "9.6–10.2:1"
+  distribuzione: OHV ad aste e bilancieri, punterie idrauliche a rullo; fasatura variabile cam-in-cam dal 2008
+  valvole: 2
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta sequenziale multipoint
+  cv_min: 406
+  cv_max: 654
+  nm_max: 813
+  limitatore: 6400
+  in_breve:
+    - { valore: "8382 cc", testo: "cilindrata massima, raggiunta dalla quarta generazione del 2008" }
+    - { valore: "Lamborghini", testo: "progettazione della fusione del basamento in alluminio della prima serie" }
+    - { valore: "813 Nm", testo: "coppia della quinta generazione, motore aspirato" }
+  versioni:
+    - { nome: "8.0 Viper RT/10 (1ª serie)", anni: "1992–1995", cv: 406, nm: 610, nota: "7990 cc" }
+    - { nome: "8.0 Viper GTS (2ª serie)", anni: "1996–2002", cv: 456, nm: 664, nota: "" }
+    - { nome: "8.3 Viper SRT-10 (3ª serie)", anni: "2003–2007", cv: 517, nm: 725, nota: "8285 cc, alesaggio 102,4 mm e corsa 100,6 mm; dati 2006" }
+    - { nome: "8.4 Viper SRT-10 / ACR (4ª serie)", anni: "2008–2010", cv: 608, nm: 759, nota: "8382 cc, alesaggio 103 mm, fasatura variabile" }
+    - { nome: "8.4 SRT Viper / Dodge Viper (5ª serie)", anni: "2013–2017", cv: 654, nm: 813, nota: "649 CV nel 2013–2014; pistoni forgiati" }
+  modelli:
+    - { nome: "Dodge Viper RT/10, GTS, SRT-10, ACR", anni: "1992–2010" }
+    - { nome: "SRT Viper", anni: "2013–2014" }
+    - { nome: "Dodge Viper GTS, GTC, ACR", anni: "2015–2017" }
+    - { nome: "Dodge Ram SRT-10", anni: "2004–2006" }
+    - { nome: "Bristol Fighter", anni: "2004–2011" }
+  storia: >-
+    Dieci cilindri a 90° ad aste e bilancieri con due valvole per cilindro, nato come evoluzione a dieci cilindri e corsa
+    allungata del V8 Magnum 5.9 da autocarro. Basamento e teste sono in alluminio, con la fusione del basamento progettata da
+    Lamborghini, allora controllata da Chrysler. La cilindrata è salita da 7990 a 8285 e poi a 8382 cc; dal 2008 adotta un
+    albero a camme concentrico cam-in-cam che varia la fase dei soli lobi di scarico.
+  punti_deboli:
+    - Pochi difetti strutturali ricorrenti documentati
+  limiti: >-
+    Sulla quinta generazione con pistoni forgiati, albero in acciaio forgiato e bielle in metallo sinterizzato forgiato il
+    limite è dato dal regime e dal raffreddamento più che dalla tenuta degli interni; mancano soglie documentate dal costruttore.
+  curiosita:
+    - "Il collettore del liquido di raffreddamento corre esternamente lungo il basamento e i coperchi delle punterie sono in magnesio."
+    - "La Bristol Fighter usa una versione modificata del V10 da 532 CV, 637 CV nella Fighter S."
+
+- slug: chrysler-hemi-57-64
+  codice: 5.7 HEMI (Eagle) / 6.1 SRT / 6.4 392 (Apache)
+  nome: Chrysler HEMI 5.7 / 6.4 V8
+  costruttore: Chrysler
+  paese: Stati Uniti
+  inizio: 2003
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5654
+  alesaggio: 99.5
+  corsa: 90.9
+  compressione: "9.6–10.9:1"
+  distribuzione: OHV ad aste e bilancieri, fasatura variabile dal 2009
+  valvole: 2
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta sequenziale multipoint
+  cv_min: 345
+  cv_max: 492
+  nm_max: 644
+  limitatore: 5800
+  in_breve:
+    - { valore: "2", testo: "candele per cilindro con accensione a bobine sulle candele" }
+    - { valore: "MDS", testo: "disattivazione di quattro cilindri ai carichi parziali su gran parte delle versioni" }
+    - { valore: "6415 cc", testo: "cilindrata del 6.4 392, alesaggio 103,9 mm e corsa 94,6 mm" }
+  versioni:
+    - { nome: "5.7 (Dodge Ram)", anni: "2003–2008", cv: 350, nm: 508, nota: "Compressione 9,6:1" }
+    - { nome: "5.7 (Chrysler 300C, Dodge Magnum R/T)", anni: "2005–2008", cv: 345, nm: 529, nota: "" }
+    - { nome: "5.7 Eagle VVT (Ram 1500)", anni: "2009–2012", cv: 395, nm: 552, nota: "Compressione 10,5:1" }
+    - { nome: "5.7 Eagle VVT (Ram 1500)", anni: "2013–oggi", cv: 400, nm: 556, nota: "" }
+    - { nome: "6.1 SRT (300C SRT8, Charger SRT8, Grand Cherokee SRT8)", anni: "2005–2010", cv: 431, nm: 569, nota: "6059 cc, senza MDS" }
+    - { nome: "6.4 392 Apache (Challenger SRT8)", anni: "2011–2014", cv: 477, nm: 637, nota: "Compressione 10,9:1" }
+    - { nome: "6.4 392 (Challenger, Charger SRT 392 e Scat Pack)", anni: "2015–2023", cv: 492, nm: 644, nota: "" }
+  modelli:
+    - { nome: "Dodge Ram 1500, 2500, 3500", anni: "2003–2010" }
+    - { nome: "Ram 1500, 2500, 3500", anni: "2010–oggi" }
+    - { nome: "Chrysler 300C, 300S, 300 SRT8", anni: "2005–2023" }
+    - { nome: "Chrysler Aspen", anni: "2007–2009" }
+    - { nome: "Dodge Magnum, Charger, Challenger", anni: "2005–2023" }
+    - { nome: "Dodge Durango", anni: "2004–oggi" }
+    - { nome: "Jeep Grand Cherokee, Commander", anni: "2005–oggi" }
+    - { nome: "Jeep Wrangler Rubicon 392", anni: "2021–oggi" }
+  storia: >-
+    Terza generazione degli HEMI Chrysler: V8 a 90° in ghisa con teste in alluminio, aste e bilancieri, due valvole e due
+    candele per cilindro; le camere di combustione non sono più realmente emisferiche. Dal 2009 la versione 5.7 Eagle adotta
+    fasatura variabile e compressione 10,5:1, mentre il sistema MDS disattiva quattro cilindri ai carichi parziali. Il 6.4 392
+    deriva dal 6.1 SRT con corsa allungata; dallo stesso basamento in ghisa del 6.4 per autocarri deriva il 6.2 sovralimentato
+    Hellcat, trattato in una scheda a parte.
+  punti_deboli:
+    - "Grippaggio dei rullini delle punterie a rullo con usura dei lobi dell'albero a camme (ticchettio noto come Hemi tick)"
+    - Rottura delle viti dei collettori di scarico sul lato posteriore delle teste per i cicli termici
+  limiti: >-
+    I componenti critici sono le punterie e l'albero a camme più che la tenuta di basamento e albero motore; sulle versioni
+    con MDS gli interventi su camme e punterie richiedono di escludere il sistema. Non si trovano soglie di potenza del
+    costruttore per gli interni di serie.
+  curiosita:
+    - "Il 5.7 HEMI è tornato sul Ram 1500 nel model year 2026: i primi esemplari sono usciti dallo stabilimento di Sterling Heights il 29 agosto 2025."
+    - "Sui pickup Ram HD con 6.4 il regime è limitato a 5800 giri/min."
+
+- slug: chrysler-pentastar
+  codice: Pentastar 3.0 / 3.2 / 3.6
+  nome: Chrysler Pentastar V6
+  costruttore: Chrysler
+  paese: Stati Uniti
+  inizio: 2010
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3604
+  alesaggio: 96.0
+  corsa: 83.0
+  compressione: "10.2–11.3:1"
+  distribuzione: DOHC a catena, doppia fasatura variabile; alzata variabile a due stadi dal 2016
+  valvole: 4
+  blocco: Alluminio pressofuso
+  testa: Alluminio
+  iniezione: Indiretta sequenziale multipoint
+  cv_min: 234
+  cv_max: 309
+  nm_max: 365
+  limitatore: 6600
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate, distribuzione bialbero a catena" }
+    - { valore: "11,3:1", testo: "compressione dell'evoluzione del 2016 con alzata variabile ed EGR raffreddato" }
+    - { valore: "2011", testo: "Ward's 10 Best Engines al primo anno di produzione" }
+  versioni:
+    - { nome: "3.6 (Jeep Grand Cherokee, Dodge Durango)", anni: "2010–2015", cv: 294, nm: 353, nota: "Compressione 10,2:1" }
+    - { nome: "3.6 (Dodge Challenger)", anni: "2011–2023", cv: 309, nm: 363, nota: "" }
+    - { nome: "3.6 (Ram 1500)", anni: "2013–oggi", cv: 309, nm: 365, nota: "" }
+    - { nome: "3.6 (Lancia Thema)", anni: "2012–2014", cv: 286, nm: 340, nota: "" }
+    - { nome: "3.6 (Fiat Freemont)", anni: "2012–2015", cv: 280, nm: 342, nota: "" }
+    - { nome: "3.2 (Jeep Cherokee KL)", anni: "2014–2022", cv: 275, nm: 324, nota: "3239 cc, alesaggio 91 mm" }
+    - { nome: "3.0", anni: "2013–", cv: 234, nm: 285, nota: "2997 cc, alesaggio 91 mm e corsa 76 mm" }
+  modelli:
+    - { nome: "Chrysler 200, 300, Town & Country, Pacifica, Voyager", anni: "2011–oggi" }
+    - { nome: "Dodge Avenger, Challenger, Charger, Durango, Grand Caravan, Journey", anni: "2011–oggi" }
+    - { nome: "Jeep Grand Cherokee, Wrangler, Cherokee, Gladiator", anni: "2011–oggi" }
+    - { nome: "Ram 1500, ProMaster", anni: "2012–oggi" }
+    - { nome: "Lancia Thema, Voyager", anni: "2012–2015" }
+    - { nome: "Fiat Freemont", anni: "2012–2015" }
+    - { nome: "Volkswagen Routan", anni: "2011–2014" }
+  storia: >-
+    V6 a 60° interamente in alluminio con basamento pressofuso, bialbero a catena e doppia fasatura variabile, introdotto
+    sulla Jeep Grand Cherokee del 2011 e poi esteso a quasi tutta la gamma Chrysler, Dodge, Jeep e Ram. Iniezione indiretta:
+    l'iniezione diretta, la sovralimentazione e la disattivazione dei cilindri erano state previste ma non adottate in serie.
+    L'evoluzione del 2016 porta la compressione a 11,3:1 e aggiunge alzata variabile a due stadi ed EGR raffreddato; dalla
+    stessa famiglia derivano il 3.2 della Cherokee e il 3.0.
+  punti_deboli:
+    - "Testata sinistra sui motori 2011–2013 per surriscaldamento delle sedi valvola del cilindro 2, con ticchettio e mancate accensioni; garanzia estesa a 10 anni o 150.000 miglia, modifica di progetto dall'agosto 2012"
+    - Usura dei bilancieri a rullo e delle punterie idrauliche, con ticchettio e mancate accensioni
+    - Perdite dal gruppo supporto filtro olio e scambiatore olio-acqua in plastica nella V delle bancate
+  limiti: >-
+    Motore aspirato con interni non previsti per la sovralimentazione; le fonti non indicano soglie di potenza del costruttore.
+    I componenti critici sono bilancieri e punterie più che basamento e albero motore.
+  curiosita:
+    - "Dal 2026 il 3.6 funziona da generatore da 130 kW sul Ram 1500 REV ad autonomia estesa."
+    - "Il nome riprende il Pentastar, il logo a stella pentagonale di Chrysler."
+
+- slug: ford-modular-46-54
+  codice: Modular 4.6 / 5.4 (SOHC 2V, 3V, DOHC 4V)
+  nome: Ford Modular 4.6 / 5.4 V8
+  costruttore: Ford
+  paese: Stati Uniti
+  inizio: 1991
+  fine: 2014
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore volumetrico
+  cilindrata: 5408
+  alesaggio: 90.2
+  corsa: 105.8
+  compressione: "8.4–9.8:1"
+  distribuzione: SOHC o DOHC a catena, fasatura variabile sui 3 valvole
+  valvole: "2 / 3 / 4"
+  blocco: Ghisa o alluminio secondo versione
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 193
+  cv_max: 558
+  nm_max: 691
+  limitatore: 6500
+  in_breve:
+    - { valore: "90,2 mm", testo: "alesaggio comune: il 4.6 ha corsa 90,0 mm, il 5.4 corsa 105,8 mm" }
+    - { valore: "2 / 3 / 4", testo: "valvole per cilindro: SOHC 2V dal 1991, DOHC 4V dal 1993, SOHC 3V con VCT dal 2002" }
+    - { valore: "558 CV", testo: "nella Ford GT 2005–2006 e nella Shelby GT500 2011–2012, entrambe con compressore" }
+  versioni:
+    - { nome: "4.6 SOHC 2V (Mustang GT 1999–2004)", anni: "1991–2014", cv: 264, nm: 409, nota: "Town Car 1991: 193 CV; anche Crown Victoria, F-150, E-Series" }
+    - { nome: "4.6 SOHC 3V (Mustang GT S197)", anni: "2005–2010", cv: 319, nm: 441, nota: "Fasatura variabile VCT; 304 CV fino al 2009" }
+    - { nome: "4.6 DOHC 4V (Mark VIII, Mustang SVT Cobra)", anni: "1993–2004", cv: 324, nm: 430, nota: "Cobra 1999 e 2001" }
+    - { nome: "4.6 DOHC compressore (SVT Cobra 2003–2004)", anni: "2003–2004", cv: 395, nm: 529, nota: "Blocco in ghisa" }
+    - { nome: "5.4 SOHC 3V (F-150, Expedition, Navigator)", anni: "2004–2014", cv: 314, nm: 495, nota: "Versione 2V dal 1997: 238–264 CV" }
+    - { nome: "5.4 DOHC (Ford Falcon XR8, FPV GT, Australia)", anni: "2002–2010", cv: 428, nm: 550, nota: "Denominazione Boss; valore della FPV GT 2008–2010" }
+    - { nome: "5.4 DOHC compressore (Ford GT)", anni: "2004–2006", cv: 558, nm: 678, nota: "Blocco in alluminio, carter secco, compressore a vite" }
+    - { nome: "5.4 DOHC compressore (Shelby GT500)", anni: "2007–2012", cv: 558, nm: 691, nota: "507 CV nel 2007–2009 con blocco in ghisa; alluminio dal 2011" }
+  modelli:
+    - { nome: "Ford Mustang GT, SVT Cobra, Mach 1, Bullitt", anni: "1996–2010" }
+    - { nome: "Ford Mustang Shelby GT500", anni: "2007–2012" }
+    - { nome: "Ford GT", anni: "2005–2006" }
+    - { nome: "Ford Crown Victoria, Thunderbird", anni: "1992–2012" }
+    - { nome: "Ford F-150, Expedition, Explorer, E-Series", anni: "1997–2014" }
+    - { nome: "Ford Falcon / FPV GT (Australia)", anni: "2002–2010" }
+    - { nome: "Lincoln Town Car, Mark VIII, Continental, Navigator, Aviator", anni: "1991–2014" }
+    - { nome: "Mercury Grand Marquis, Cougar, Marauder, Mountaineer", anni: "1992–2011" }
+    - { nome: "MG ZT 260", anni: "2003–2005" }
+    - { nome: "Rover 75 V8", anni: "2003–2005" }
+    - { nome: "Panoz Esperante", anni: "2000–2009" }
+  storia: >-
+    Famiglia di V8 a camme in testa con comando a catena prodotta a Romeo (Michigan), Windsor ed Essex (Ontario), debutto sulla
+    Lincoln Town Car del 1991. Il termine «Modular» indicava il processo produttivo con linee riconfigurabili, non
+    l'intercambiabilità dei pezzi. Il 4.6 è quasi quadro (90,2 × 90,0 mm), il 5.4 del 1997 allunga la corsa a 105,8 mm;
+    entrambi esistono in versione SOHC a 2 e 3 valvole e DOHC a 4 valvole, con blocco in ghisa o alluminio secondo l'impiego.
+    Le varianti sovralimentate di fabbrica (Cobra 2003–2004, Ford GT, Shelby GT500) erano assemblate a mano nella linea SVT di Romeo.
+  punti_deboli:
+    - "Teste 2V in alluminio: filetti delle candele con pochi giri di filetto, con espulsione della candela (TSB Ford 07-21-2)"
+    - "Teste 3V costruite fino a fine 2007: candele in due pezzi che si grippano e si spezzano allo smontaggio (TSB 08-7-6)"
+    - "Collettore di aspirazione in materiale composito (2V dal 1996): crepe nel condotto del liquido di raffreddamento"
+    - "Guarnizioni guida valvole sui motori fino al 1995: consumo d'olio e fumo"
+  limiti: >-
+    Mancano soglie documentate da fonti tecniche affidabili. Le versioni sovralimentate di fabbrica partono da basi più robuste
+    (blocco in ghisa sulle Cobra 2003–2004 e GT500 2007–2010, organi interni forgiati sulla Ford GT); le 2V e 3V aspirate
+    da autovettura e autocarro non sono progettate per aumenti consistenti di pressione nei cilindri.
+  curiosita:
+    - "La Koenigsegg CCR usava un 4.6 DOHC modificato, con alesaggio 94,6 mm, corsa 94 mm e compressore Rotrex, da 806 hp."
+    - "Il 4.6 SOHC 2V da 264 CV fu montato anche su MG ZT 260 e Rover 75 V8 (2003–2005)."
+
+- slug: ford-67-power-stroke
+  codice: 6.7 Power Stroke (Scorpion)
+  nome: Ford 6.7 Power Stroke V8 diesel
+  costruttore: Ford
+  paese: Stati Uniti
+  inizio: 2011
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Diesel
+  aspirazione: Turbo (a geometria variabile dal 2015)
+  cilindrata: 6653
+  alesaggio: 99.1
+  corsa: 108.0
+  compressione: "15.8–16.2:1"
+  distribuzione: OHV, albero a camme nel basamento
+  valvole: 4
+  blocco: Ghisa a grafite compatta (CGI)
+  testa: Alluminio, flusso invertito
+  iniezione: Diretta common rail Bosch, iniettori piezoelettrici (2000 bar, 2480 bar dal 2020)
+  cv_min: 395
+  cv_max: 507
+  nm_max: 1627
+  limitatore: 4000
+  in_breve:
+    - { valore: "CGI", testo: "primo blocco Ford diesel in ghisa a grafite compatta" }
+    - { valore: "Flusso invertito", testo: "scarichi nella V tra le bancate, turbo in posizione centrale" }
+    - { valore: "1627 Nm", testo: "nella versione High Output dal 2023" }
+  versioni:
+    - { nome: "Super Duty 2011–2014", anni: "2011–2014", cv: 406, nm: 1085, nota: "Al lancio 395 CV / 997 Nm; Garrett GT32 a doppia girante" }
+    - { nome: "Super Duty 2015–2016", anni: "2015–2016", cv: 446, nm: 1166, nota: "Turbo GT37 a geometria variabile" }
+    - { nome: "Super Duty 2017–2019", anni: "2017–2019", cv: 456, nm: 1268, nota: "1254 Nm nel 2017" }
+    - { nome: "Super Duty 2020–oggi", anni: "2020–oggi", cv: 482, nm: 1424, nota: "Pistoni in acciaio, compressione 15,8:1" }
+    - { nome: "Super Duty High Output", anni: "2023–oggi", cv: 507, nm: 1627, nota: "" }
+  modelli:
+    - { nome: "Ford F-250, F-350, F-450 Super Duty", anni: "2011–oggi" }
+    - { nome: "Ford F-350, F-450, F-550 Super Duty Chassis Cab", anni: "2011–oggi" }
+    - { nome: "Ford F-650, F-750", anni: "2016–oggi" }
+  storia: >-
+    V8 diesel sviluppato internamente da Ford dal 2008 con il nome di progetto «Scorpion», dopo i Power Stroke forniti da Navistar.
+    Le teste in alluminio a flusso invertito hanno gli scarichi rivolti verso l'interno della V, dove si trova il turbocompressore,
+    e sono fissate con sei viti per cilindro su un basamento in ghisa a grafite compatta. Al lancio usava un turbo Garrett a
+    doppia girante del compressore, sostituito nel 2015 da un GT37 a geometria variabile; nel 2020 arrivano pistoni in acciaio,
+    bielle e albero rinforzati e iniezione a 36.000 psi.
+  punti_deboli:
+    - "Pompa ad alta pressione Bosch CP4.2: rottura con detriti metallici in tutto l'impianto di alimentazione"
+    - "Turbo dei pickup 2011–2012: cedimento dei cuscinetti ceramici, poi sostituiti con cuscinetti in acciaio"
+    - "Sensori NOx e radiatori sui primi esemplari del 2011"
+    - "Candelette di preriscaldamento con punta che si stacca su alcuni motori dei primi anni, con danni al cilindro"
+  limiti: >-
+    Secondo la stampa specializzata le bielle di serie, più piccole di quelle dei 6.0 e 6.4, reggono circa 700 hp alla ruota
+    e 1750–2000 Nm; oltre servono bielle aftermarket. Gli iniettori di serie arrivano a valori simili con una seconda pompa
+    ad alta pressione.
+  curiosita:
+    - "Dal 2020 la pompa di alimentazione a bassa pressione è stata spostata dal modulo esterno all'interno del serbatoio."
+    - "Nel 2011 un aggiornamento gratuito della centralina portò la potenza da 390 a 400 hp e la coppia da 735 a 800 lb-ft."
+
+- slug: cummins-b-series
+  codice: 6BT / ISB 5.9 / ISB 6.7
+  nome: Cummins B-series 5.9 / 6.7 (Ram)
+  costruttore: Cummins
+  paese: Stati Uniti
+  inizio: 1984
+  fine:
+  architettura: L6
+  cilindri: 6
+  alimentazione: Diesel
+  aspirazione: Turbo (a geometria variabile sul 6.7)
+  cilindrata: 6690
+  alesaggio: 107.0
+  corsa: 124.0
+  compressione: "17.2–17.5:1"
+  distribuzione: OHV, albero a camme nel basamento comandato a ingranaggi
+  valvole: "2 / 4"
+  blocco: Ghisa; ghisa a grafite compatta (CGI) dal 2019
+  testa: Ghisa
+  iniezione: Diretta; pompa meccanica Bosch VE e P7100, elettronica VP44, common rail dal 2003
+  cv_min: 162
+  cv_max: 436
+  nm_max: 1458
+  limitatore: 3200
+  in_breve:
+    - { valore: "1989", testo: "primo anno sul pickup Dodge Ram 250/350" }
+    - { valore: "1356 Nm", testo: "nel 2019: primo pickup con 1000 lb-ft" }
+    - { valore: "12 / 24", testo: "valvole del 5.9: 12 fino al 1998, 24 dalla ISB" }
+  versioni:
+    - { nome: "5.9 12v, pompa Bosch VE", anni: "1989–1993", cv: 162, nm: 542, nota: "" }
+    - { nome: "5.9 12v, pompa Bosch P7100", anni: "1994–1998", cv: 218, nm: 597, nota: "Con cambio manuale; automatico 162–182 CV" }
+    - { nome: "5.9 ISB 24v, pompa VP44", anni: "1998–2002", cv: 248, nm: 685, nota: "High Output 2001–2002 solo con manuale" }
+    - { nome: "5.9 ISB common rail", anni: "2003–2007", cv: 330, nm: 827, nota: "Pompa Bosch CP3; 309 CV nel 2003" }
+    - { nome: "6.7 ISB", anni: "2007–2012", cv: 355, nm: 1085, nota: "1085 Nm dal 2011 con automatico; DPF ed EGR" }
+    - { nome: "6.7 ISB (cambio Aisin)", anni: "2013–2018", cv: 390, nm: 1152, nota: "Con 68RFE 375 CV / 1085 Nm" }
+    - { nome: "6.7 High Output", anni: "2019–2024", cv: 406, nm: 1458, nota: "Blocco CGI; 1356 Nm fino al 2020" }
+    - { nome: "6.7 High Output (2025)", anni: "2025–oggi", cv: 436, nm: 1458, nota: "Unica versione, cambio a 8 marce" }
+  modelli:
+    - { nome: "Dodge Ram 250, 350 (D/W)", anni: "1989–1993" }
+    - { nome: "Dodge Ram 2500, 3500", anni: "1994–2010" }
+    - { nome: "Dodge Ram 3500, 4500, 5500 Chassis Cab", anni: "2007–2010" }
+    - { nome: "Ram 2500, 3500 Heavy Duty", anni: "2011–oggi" }
+    - { nome: "Ram 3500, 4500, 5500 Chassis Cab", anni: "2011–oggi" }
+  storia: >-
+    Sei cilindri in linea diesel a iniezione diretta della serie B, prodotto dal 1984 inizialmente a Rocky Mount (North Carolina)
+    e montato sui pickup Dodge dal 1989. Il 5.9 (102 × 120 mm, 5883 cc) passa dalle 12 valvole con pompa meccanica alle
+    24 valvole della ISB a metà 1998 e al common rail Bosch nel 2003. Il 6.7 del 2007 (107 × 124 mm) aggiunge turbo Holset a
+    geometria variabile, filtro antiparticolato ed EGR; nel 2019 riceve basamento in ghisa a grafite compatta, punterie
+    idrauliche e iniezione a 2000 bar. I dati tecnici in testa alla scheda si riferiscono al 6.7.
+  punti_deboli:
+    - "Spina di centraggio nel coperchio della distribuzione (5.9 1989–2002, «killer dowel pin»): si sfila e danneggia gli ingranaggi"
+    - "Pompa elettronica VP44 (1998–2002): guasti più frequenti rispetto alla P7100 meccanica"
+    - "Basamenti 24v 1998–2001 con il numero 53 in rilievo: crepe da difetti di fusione"
+    - "Turbo a geometria variabile del 6.7: blocco del meccanismo, segnalato dalla perdita del freno motore"
+  limiti: >-
+    Secondo la stampa specializzata le bielle forgiate del 5.9 1989–2002 reggono circa 800 CV con viti di serie, quelle a
+    cappello fratturato del 5.9 common rail circa 900 CV e 2400 Nm. Sul 6.7, a cilindrata maggiore, si consigliano bielle
+    aftermarket oltre gli 800 CV circa.
+  curiosita:
+    - "Nel 2019 Cummins presentò il 6.7 High Output come primo motore per pickup con 1000 lb-ft (1356 Nm) di coppia."
+
+- slug: jaguar-aj-v8
+  codice: AJ26 / AJ27 / AJ28 / AJ33 / AJ34 / AJ133
+  nome: Jaguar AJ-V8
+  costruttore: Jaguar
+  paese: Regno Unito
+  inizio: 1996
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore volumetrico
+  cilindrata: 5000
+  alesaggio: 92.5
+  corsa: 93.0
+  compressione: "9.0–11.5:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio, canne Nikasil poi canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint; diretta dal 5.0 (2009)
+  cv_min: 255
+  cv_max: 600
+  nm_max: 700
+  limitatore: 6500
+  in_breve:
+    - { valore: "4.0–5.0", testo: "litri: 3996 cc (1996), 4196 cc (2002), 5000 cc (2009)" }
+    - { valore: "Eaton", testo: "compressore volumetrico M112 sui 4.0 e 4.2, twin-vortex TVS1900 sul 5.0" }
+    - { valore: "600 CV", testo: "nella Jaguar XE SV Project 8" }
+  versioni:
+    - { nome: "AJ26 / AJ27 4.0 (XK8, XJ8)", anni: "1996–2003", cv: 294, nm: 393, nota: "Fasatura di aspirazione a due stati sull'AJ26, continua sull'AJ27" }
+    - { nome: "AJ26S / AJ27S 4.0 compressore (XKR, XJR)", anni: "1998–2003", cv: 375, nm: 525, nota: "Eaton M112" }
+    - { nome: "AJ28 4.0 (S-Type)", anni: "2000–2002", cv: 285, nm: 389, nota: "" }
+    - { nome: "Lincoln LS / Ford Thunderbird 3.9", anni: "2000–2006", cv: 284, nm: 388, nota: "Prodotto da Ford a Lima (Ohio); 255 CV / 362 Nm fino al 2002" }
+    - { nome: "AJ33 / AJ34 4.2 (XK, XJ8, S-Type, XF)", anni: "2002–2010", cv: 304, nm: 420, nota: "" }
+    - { nome: "AJ33S / AJ34S 4.2 compressore (XKR, S-Type R, XJR)", anni: "2002–2010", cv: 406, nm: 553, nota: "Compressione 9,0:1" }
+    - { nome: "AJ133 5.0 aspirato (XF, XJ, XK)", anni: "2009–2015", cv: 385, nm: 515, nota: "Compressione 11,5:1, profilo camme variabile in aspirazione" }
+    - { nome: "AJ133 5.0 compressore (XFR, XKR, Range Rover)", anni: "2009–2021", cv: 510, nm: 625, nota: "Compressione 9,5:1" }
+    - { nome: "AJ133 5.0 compressore (F-Pace SVR)", anni: "2018–2025", cv: 550, nm: 700, nota: "" }
+    - { nome: "AJ133 5.0 compressore (XE SV Project 8)", anni: "2018–2019", cv: 600, nm: 700, nota: "" }
+  modelli:
+    - { nome: "Jaguar XK8, XKR (X100) e XK, XKR (X150)", anni: "1996–2015" }
+    - { nome: "Jaguar XJ8, XJR (X308, X350) e XJ (X351)", anni: "1997–2019" }
+    - { nome: "Jaguar S-Type V8, S-Type R", anni: "2000–2008" }
+    - { nome: "Jaguar XF, XFR, XFR-S", anni: "2008–2015" }
+    - { nome: "Jaguar F-Type V8", anni: "2013–2024" }
+    - { nome: "Jaguar F-Pace SVR", anni: "2018–2025" }
+    - { nome: "Jaguar XE SV Project 8", anni: "2018–2019" }
+    - { nome: "Daimler V8, Super V8, Super Eight", anni: "1997–2009" }
+    - { nome: "Lincoln LS", anni: "2000–2006" }
+    - { nome: "Ford Thunderbird", anni: "2002–2005" }
+    - { nome: "Land Rover Discovery 3, Discovery 4", anni: "2004–2015" }
+    - { nome: "Land Rover Range Rover Sport", anni: "2005–2022" }
+    - { nome: "Land Rover Range Rover (L322, L405)", anni: "2006–2021" }
+    - { nome: "Land Rover Defender V8", anni: "2021–oggi" }
+  storia: >-
+    V8 Jaguar sviluppato dal 1993 e lanciato nel 1996 sulla XK8, prodotto in un reparto dedicato dello stabilimento
+    Ford di Bridgend fino al 2020 e poi da JLR a Wolverhampton. Basamento in alluminio pressofuso progettato per canne
+    Nikasil, sostituite con canne in ghisa dopo i guasti legati ai carburanti ad alto tenore di zolfo. Il 5.0 AJ133 del 2009
+    adotta iniezione diretta, quattro variatori di fase azionati dalle coppie dell'albero a camme e, sulla versione aspirata,
+    commutazione del profilo delle camme di aspirazione. Ne derivano le versioni 3.9 per Lincoln e Ford e le unità
+    Aston Martin AJ37 da 4,3 e 4,7 litri con carter secco, trattate in una scheda separata.
+  punti_deboli:
+    - "Canne Nikasil dei primi 4.0: usura con benzine ad alto tenore di zolfo, con sostituzione del motore in garanzia"
+    - "Catene di distribuzione, pattini e tenditori: rivisti più volte, con modifiche documentate sul 5.0 nel 2011 e nel 2014"
+    - "Tubi di raccordo del liquido di raffreddamento in plastica, sostituiti con elementi in alluminio sulle ultime versioni"
+  limiti: >-
+    Mancano soglie documentate da fonti tecniche affidabili. Di fabbrica il 5.0 compressore arriva a 600 CV sulla XE SV Project 8
+    con lo stesso basamento open-deck delle versioni da 510 CV; oltre, il limite indicativo è dato dalla capacità del compressore
+    e dalla trasmissione.
+  curiosita:
+    - "Il 5.0 compressore ha il gruppo compressore e intercooler all'interno della V, per ridurre l'altezza del motore e rispettare le norme sull'urto del pedone."
+    - "Il 3.9 di Lincoln LS e Ford Thunderbird era costruito da Ford a Lima (Ohio), non a Bridgend."
+
+- slug: jaguar-aj6-aj16
+  codice: AJ6 / AJ16
+  nome: Jaguar AJ6 / AJ16 sei cilindri
+  costruttore: Jaguar
+  paese: Regno Unito
+  inizio: 1983
+  fine: 1997
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore volumetrico
+  cilindrata: 3980
+  alesaggio: 91.0
+  corsa: 102.0
+  compressione: "8.0–10.0:1"
+  distribuzione: DOHC a catena (SOHC sul 2.9)
+  valvole: "2 / 4"
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta elettronica
+  cv_min: 167
+  cv_max: 340
+  nm_max: 512
+  limitatore: 6000
+  in_breve:
+    - { valore: "91 mm", testo: "alesaggio comune a tutte le cilindrate, che cambiano con la corsa da 74,8 a 102 mm" }
+    - { valore: "Eaton M90", testo: "compressore con intercooler aria-acqua sulla XJR X300" }
+    - { valore: "326 CV", testo: "nel 4.0 AJ16 compressore della XJR 1994–1997" }
+  versioni:
+    - { nome: "3.6 24v (XJ-S, XJ40)", anni: "1983–1989", cv: 224, nm: 325, nota: "204 CV con catalizzatore" }
+    - { nome: "3.2 24v (XJ40)", anni: "1990–1994", cv: 203, nm: 298, nota: "Non esportato negli Stati Uniti" }
+    - { nome: "4.0 24v (XJ40, XJS)", anni: "1989–1994", cv: 238, nm: 392, nota: "Potenza dichiarata variabile tra i mercati" }
+    - { nome: "AJ16 4.0 compressore (XJR X300)", anni: "1994–1997", cv: 326, nm: 512, nota: "Eaton M90" }
+    - { nome: "Aston Martin DB7 3.2 compressore", anni: "1994–1999", cv: 340, nm: 489, nota: "3228 cc, assemblato a Kidlington" }
+  modelli:
+    - { nome: "Jaguar XJ-S, XJS 3.6 e 4.0", anni: "1983–1996" }
+    - { nome: "Jaguar XJ6, Sovereign, XJR (XJ40)", anni: "1986–1994" }
+    - { nome: "Jaguar XJ6, XJR (X300)", anni: "1994–1997" }
+    - { nome: "Daimler (XJ40), Daimler Six (X300)", anni: "1986–1997" }
+    - { nome: "Aston Martin DB7 i6", anni: "1994–1999" }
+  storia: >-
+    Sei cilindri in linea con basamento e testa in alluminio, debutto nel 1983 sulla XJ-S 3.6 e poi sulla berlina XJ40 dal 1986.
+    Tutte le cilindrate condividono l'alesaggio di 91 mm: 2,9 litri monoalbero a 12 valvole (167 CV), 3,2, 3,6 e 4,0 litri
+    bialbero a 24 valvole. L'evoluzione AJ16 del 1994 per la XJ X300 introduce accensione elettronica senza distributore,
+    pistoni rivisti e, sulla XJR, compressore Eaton M90 con intercooler. La DB7 a sei cilindri usava un 3.2 compressore derivato
+    dall'AJ6, assemblato a Kidlington.
+  punti_deboli:
+    - "Testa monoalbero del 2.9: cedimenti documentati"
+    - "Perdite d'olio da guarnizione del coperchio punterie, tenute dei pozzetti candele e O-ring del bypass del radiatore olio"
+    - "Collettori di scarico che si crepano"
+    - "XJR X300: pulegge di rinvio della cinghia del compressore che si bloccano e giunto del compressore usurato"
+  limiti: >-
+    Mancano soglie documentate da fonti tecniche affidabili. Le versioni aspirate hanno compressione intorno a 10:1 e non
+    sono pensate per la sovralimentazione; sull'AJ16 compressore la compressione è ridotta e il limite pratico è dato dal
+    compressore volumetrico e dalle guarnizioni della testa, sostituite su diversi esemplari.
+  curiosita:
+    - "Le prime 3.6 (1984–1987) avevano accensione con spinterogeno ed elettronica separata, sostituita sulle XJ40 da sensore sull'albero motore e misuratore d'aria a filo caldo."
+
+- slug: jaguar-v12
+  codice: V12 HE (5.3 / 6.0)
+  nome: Jaguar V12 HE
+  costruttore: Jaguar
+  paese: Regno Unito
+  inizio: 1981
+  fine: 1997
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5344
+  alesaggio: 90.0
+  corsa: 70.0
+  compressione: "10.5–12.5:1"
+  distribuzione: SOHC per bancata a catena
+  valvole: 2
+  blocco: Alluminio, canne in umido
+  testa: Alluminio, camere di combustione ad alta turbolenza di Michael May
+  iniezione: Indiretta elettronica Lucas (derivata da Bosch D-Jetronic, poi Digital P)
+  cv_min: 267
+  cv_max: 338
+  nm_max: 495
+  limitatore: 6500
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate, monoalbero a camme in testa per bancata" }
+    - { valore: "HE", testo: "testate High Efficiency con camere di Michael May dal luglio 1981" }
+    - { valore: "5993 cc", testo: "cilindrata della versione 6.0 con corsa portata a 78,5 mm" }
+  versioni:
+    - { nome: "XJ-S HE 5.3", anni: "1981–1991", cv: 295, nm: 443, nota: "Dato europeo; 263 hp in Nord America" }
+    - { nome: "XJ12 / Daimler Double-Six Series III 5.3 HE", anni: "1981–1992", cv: 295, nota: "" }
+    - { nome: "XJR-S 6.0 (JaguarSport)", anni: "1989–1993", cv: 338, nm: 495, nota: "Gestione Zytek, compressione 11,0:1; prime unità 322 CV" }
+    - { nome: "XJS 6.0", anni: "1992–1996", cv: 309, nota: "227 kW" }
+    - { nome: "XJ12 / Daimler Double Six 6.0 (XJ81, X305)", anni: "1993–1997", cv: 322, nm: 456, nota: "Compressione 11,0:1" }
+  modelli:
+    - { nome: "Jaguar XJ-S / XJS V12, XJR-S", anni: "1981–1996" }
+    - { nome: "Jaguar XJ12 Series III, XJ12 (XJ81, X305)", anni: "1981–1997" }
+    - { nome: "Daimler Double-Six (Series III, XJ81, X305)", anni: "1981–1997" }
+  storia: >-
+    Il V12 Jaguar a 60° nasce nel 1971 sulla E-Type Series 3 con monoalbero per bancata, blocco e testate in alluminio e
+    canne in umido. Nel luglio 1981 arrivano le testate HE progettate dallo svizzero Michael May, con camera di combustione
+    ad alta turbolenza che consente rapporti di compressione elevati con miscela magra e riduce i consumi. Nel 1992 la corsa
+    passa da 70 a 78,5 mm per 5993 cc, mantenendo le camere HE; l'ultimo V12 Jaguar, montato su una XJ12 a passo lungo,
+    è stato prodotto il 17 aprile 1997.
+  punti_deboli:
+    - "Temperature elevate nel vano motore dopo lo spegnimento a caldo, con vapor lock nell'alimentazione, grippaggio dello spinterogeno e guasti all'amplificatore d'accensione"
+    - "Tenditore della catena di distribuzione che con età e calore diventa fragile e può rompersi"
+  limiti: >-
+    Non esistono soglie documentate per la sovralimentazione di serie. Le elaborazioni note restano in aspirato: TWR
+    portava il 5.3 a circa 450 bhp nelle XJ-S da competizione e Lister ha usato versioni fino a 7,0 litri; il regime
+    massimo di serie è di 6500 giri/min.
+  curiosita:
+    - "Il progetto originale bialbero era pensato per 8000 giri/min; la versione di serie monoalbero ha un regime massimo di 6500 giri/min."
+    - "In tutto sono stati prodotti 161.583 V12 Jaguar tra il 1971 e il 1997."
+
+- slug: rover-v8
+  codice: 3.5 / 3.9 / 4.0 / 4.2 / 4.6
+  nome: Rover V8
+  costruttore: Rover
+  paese: Regno Unito
+  inizio: 1967
+  fine: 2006
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3946
+  alesaggio: 94.0
+  corsa: 71.1
+  compressione: "8.13–10.5:1"
+  distribuzione: OHV ad aste e bilancieri, albero a camme centrale
+  valvole: 2
+  blocco: Alluminio, canne in ghisa inserite a pressione
+  testa: Alluminio
+  iniezione: Indiretta elettronica (Lucas 4CU, Lucas 14CUX, GEMS, Bosch Motronic); carburatori SU o Stromberg sulle prime versioni
+  cv_min: 150
+  cv_max: 345
+  nm_max: 475
+  limitatore: 5500
+  in_breve:
+    - { valore: "Buick 215", testo: "deriva dal V8 in alluminio Buick del 1960, attrezzature acquistate da Rover nel 1965" }
+    - { valore: "94 mm", testo: "alesaggio delle versioni 3.9, 4.0, 4.2 e 4.6, contro 88,9 mm del 3.5" }
+    - { valore: "2004", testo: "fine della produzione in grande serie a Solihull; LDV fino al 2006" }
+  versioni:
+    - { nome: "Rover 3500 (SD1) USA", anni: "1980", cv: 150, nota: "3528 cc, Lucas L-Jetronic" }
+    - { nome: "Rover SD1 Vitesse 3.5", anni: "1982–1986", cv: 193, nm: 298, nota: "3528 cc, 88,9 × 71,12 mm" }
+    - { nome: "MG RV8 3.9", anni: "1992–1995", cv: 190, nm: 318, nota: "3946 cc, compressione 9,4:1" }
+    - { nome: "Range Rover P38A 4.0", anni: "1994–2001", cv: 193, nm: 320, nota: "Gestione GEMS; Bosch Motronic dal 1999" }
+    - { nome: "Range Rover P38A 4.6", anni: "1994–2001", cv: 228, nm: 380, nota: "4552 cc, 94 × 82 mm" }
+    - { nome: "Land Rover Discovery II 4.0", anni: "1998–2004", cv: 191, nm: 339, nota: "" }
+    - { nome: "TVR Chimaera 4.0", anni: "1992–2001", cv: 243, nota: "240 bhp; 4.0 HC 279 CV" }
+    - { nome: "TVR Griffith / Chimaera 5.0", anni: "1993–2002", cv: 345, nm: 475, nota: "4997 cc, 94 × 90 mm" }
+  modelli:
+    - { nome: "Rover SD1 3500, Vitesse, Vanden Plas EFi", anni: "1980–1986" }
+    - { nome: "Land Rover Range Rover Classic, Range Rover P38A", anni: "1980–2001" }
+    - { nome: "Land Rover 90, 110, Defender, Discovery", anni: "1983–2004" }
+    - { nome: "MG RV8", anni: "1992–1995" }
+    - { nome: "Morgan Plus 8", anni: "1980–2004" }
+    - { nome: "TVR 350i, 390SE, Griffith, Chimaera", anni: "1980–2002" }
+    - { nome: "Marcos Mantula, LM500", anni: "1983–2001" }
+    - { nome: "LDV Sherpa e furgoni Freight Rover", anni: "1985–2006" }
+  storia: >-
+    V8 a 90° interamente in alluminio derivato dal Buick 215 del 1960, di cui Rover acquistò progetto e attrezzature nel 1965
+    producendolo dal 1967. Mantiene la distribuzione ad aste con albero a camme centrale e due valvole per cilindro; il
+    basamento in alluminio fuso in sabbia ha canne in ghisa inserite. L'alesaggio passa da 88,9 a 94 mm con il 3.9 del 1989,
+    seguito dal 4.2 a corsa lunga (77 mm) e, nel 1995, dal 4.6 (82 mm) con supporti di banco imbullonati lateralmente; dal
+    1999 la versione per Range Rover adotta gestione Bosch Motronic e coppa strutturale.
+  punti_deboli:
+    - "Versioni ad alesaggio 94 mm (3.9, 4.0, 4.2, 4.6): incrinature della parete del cilindro dal lato più sottile della camicia d'acqua, con passaggio di liquido tra blocco e canna e perdita di refrigerante senza tracce esterne"
+    - "Spostamento delle canne con sovrapressione dell'impianto di raffreddamento, spesso diagnosticato come guarnizione della testata; il rimedio è l'installazione di canne con battuta superiore"
+    - "Usura degli alberi a camme e perdite d'olio dal coperchio della distribuzione"
+  limiti: >-
+    In aspirato le versioni di serie più spinte arrivano a 345 CV con il 5.0 TVR (94 × 90 mm). Il punto critico è il
+    basamento ad alesaggio 94 mm con canne inserite: oltre le potenze di serie le elaborazioni richiedono canne con battuta
+    superiore o basamenti rinforzati; non ci sono soglie documentate affidabili.
+  curiosita:
+    - "Land Rover sottoponeva i basamenti a controllo a ultrasuoni per destinare quelli migliori alle versioni più potenti, senza modificare il processo di fusione."
+    - "La Rover SD1 Vitesse del 1982 aveva una zona rossa del contagiri a 5500 giri/min."
+
+- slug: rover-k-series
+  codice: K8 / K16 / VVC
+  nome: Rover K-Series
+  costruttore: Rover
+  paese: Regno Unito
+  inizio: 1988
+  fine: 2005
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1796
+  alesaggio: 80.0
+  corsa: 89.3
+  compressione: "10.5:1"
+  distribuzione: DOHC a cinghia (SOHC sui K8), VVC con fase di aspirazione variabile in continuo
+  valvole: 4
+  blocco: Alluminio, canne in ghisa centrifugata umide o semi-umide, tiranti passanti lunghi
+  testa: Alluminio
+  iniezione: Indiretta multipoint, gestione MEMS (carburatore SU e monopoint sulle prime versioni)
+  cv_min: 60
+  cv_max: 195
+  nm_max: 215
+  limitatore: 7200
+  in_breve:
+    - { valore: "Tiranti", testo: "testata, blocco e supporti di banco tenuti in compressione da lunghi tiranti passanti" }
+    - { valore: "VVC", testo: "fase di aspirazione variabile in continuo, limitatore a 7200 giri/min" }
+    - { valore: "1.1–1.8", testo: "cilindrate da 1113 a 1796 cc, a 8 e 16 valvole" }
+  versioni:
+    - { nome: "MGF 1.8i", anni: "1995–2002", cv: 120, nm: 166, nota: "" }
+    - { nome: "MGF 1.8 VVC", anni: "1995–2002", cv: 145, nm: 174, nota: "" }
+    - { nome: "MGF Trophy 160 / MG TF 160 VVC", anni: "2001–2005", cv: 160, nm: 174, nota: "Compressione 10,5:1" }
+    - { nome: "Lotus Elise S1 1.8", anni: "1996–2000", cv: 120, nota: "111S VVC dal 1999, 145 CV" }
+    - { nome: "Lotus 340R / Exige S1", anni: "2000–2001", cv: 195, nota: "179 CV di serie, 195 CV con Track Pack" }
+    - { nome: "1.8 Turbo (MG ZT, Rover 75)", anni: "", cv: 160, nm: 215, nota: "150–160 CV" }
+  modelli:
+    - { nome: "Rover Metro, 100, 200, 25, 400, 45, 75", anni: "1990–2005" }
+    - { nome: "MG F, TF, ZR, ZS, ZT", anni: "1995–2005" }
+    - { nome: "Lotus Elise S1 e S2, Exige S1, 340R", anni: "1996–2005" }
+    - { nome: "Caterham Seven, 21", anni: "" }
+    - { nome: "Land Rover Freelander 1.8", anni: "1997–2006" }
+  storia: >-
+    Quattro cilindri in alluminio sviluppato da Rover, con canne in ghisa riportate e lunghi tiranti passanti che tengono
+    in compressione testata, basamento e supporti di banco. Nato in versione K8 monoalbero, è stato prodotto soprattutto
+    come K16 bialbero a 16 valvole; il 1.8 VVC del 1995 sulla MGF varia in continuo la fase dell'albero di aspirazione.
+    Oltre ai modelli Rover e MG è stato montato da Lotus, Caterham e Land Rover; dopo il fallimento di MG Rover nel 2005
+    le attrezzature sono passate in Cina, dove è stato prodotto come N-Series e sviluppato da SAIC come Kavachi.
+  punti_deboli:
+    - "Guarnizione della testata: cedimento ricorrente, favorito da surriscaldamento e perdite di liquido; le guarnizioni successive hanno spine di centraggio in acciaio e la riparazione prevede controllo dell'altezza delle canne e della planarità della testata"
+    - "Perdita di liquido sotto il collettore di aspirazione che può passare inosservata e danneggiare la testata, soprattutto sulla MGF a motore centrale"
+    - "Testata in lega LM25 trattata termicamente: un surriscaldamento può ricuocerla e renderla inutilizzabile"
+  limiti: >-
+    Le versioni di serie più spinte arrivano a 195 CV in aspirato (Lotus) e a 160 CV turbo con 215 Nm. Oltre, i punti
+    critici sono la tenuta della guarnizione della testata e la costruzione a tiranti passanti con canne riportate; non
+    ci sono soglie documentate affidabili.
+  curiosita:
+    - "Dopo il 2005 Nanjing Automobile e Lotus Engineering hanno sviluppato la N-Series con guarnizione della testata e telaio di supporto riprogettati, montata sulla MG TF fino al 2011."
+    - "Lotus abbandonò il K-Series nel 2005 per il motore Toyota, secondo ricostruzioni non ufficiali per le difficoltà di omologazione dell'unità Rover negli Stati Uniti."
+
+- slug: lotus-907-910
+  codice: 907 / 910 / 912
+  nome: Lotus 907 / 910
+  costruttore: Lotus
+  paese: Regno Unito
+  inizio: 1972
+  fine: 1999
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 2174
+  alesaggio: 95.3
+  corsa: 76.2
+  compressione: "7.5–10.9:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Alluminio, canne in umido
+  testa: Alluminio
+  iniezione: Carburatori Dell'Orto o Zenith-Stromberg; Bosch KE-Jetronic dal 1986, Delco GMP4 dal 1989
+  cv_min: 142
+  cv_max: 306
+  nm_max: 393
+  limitatore: 7000
+  in_breve:
+    - { valore: "Garrett T3", testo: "turbo del 910 che soffia attraverso due carburatori Dell'Orto 40 DHLA" }
+    - { valore: "7,5:1", testo: "compressione del primo 910, contro 9,4:1 dell'aspirato" }
+    - { valore: "306 CV", testo: "sulla Esprit Sport 300, versione 910S" }
+  versioni:
+    - { nome: "907 2.0 (Jensen-Healey, Elite, Eclat, Esprit S1/S2)", anni: "1972–anni '80", cv: 162, nm: 190, nota: "1973 cc, 95,25 × 69,24 mm; 142 CV in versione USA" }
+    - { nome: "912 2.2 (Esprit S2.2/S3, Eclat, Excel)", anni: "1980–1990", cv: 162, nm: 217, nota: "HC dal 1985 182 CV, 224 Nm, compressione 10,9:1" }
+    - { nome: "910 Esprit Turbo", anni: "1980–1985", cv: 213, nm: 271, nota: "0,55 bar; carter secco fino al 1983" }
+    - { nome: "910 Esprit Turbo HC", anni: "1986–1987", cv: 218, nm: 298, nota: "Compressione 8,0:1, 0,65 bar" }
+    - { nome: "910S Esprit Turbo SE / S4", anni: "1989–1996", cv: 268, nm: 367, nota: "Chargecooler aria-acqua; 284 CV in overboost" }
+    - { nome: "910S Esprit Sport 300", anni: "1993", cv: 306, nm: 389, nota: "" }
+    - { nome: "910S Esprit S4s", anni: "1995–1996", cv: 305, nm: 393, nota: "" }
+    - { nome: "920 2.0 turbo (Esprit GT3)", anni: "1996–1999", cv: 243, nm: 292, nota: "1994 cc, 84,45 × 89 mm" }
+  modelli:
+    - { nome: "Jensen-Healey e Jensen GT", anni: "1972–1976" }
+    - { nome: "Lotus Elite, Eclat, Excel", anni: "1974–1992" }
+    - { nome: "Lotus Esprit", anni: "1976–1999" }
+    - { nome: "Emme 422T", anni: "1997–1999" }
+  storia: >-
+    Primo motore progettato e costruito interamente da Lotus, quattro cilindri bialbero a 16 valvole con distribuzione a
+    cinghia, basamento e testata in alluminio e canne in umido; debutta nel marzo 1972 sulla Jensen-Healey. Nel 1980 la
+    corsa passa a 76,2 mm per il 2.2 (912 aspirato e 910 turbo); il 910 dell'Esprit Turbo ha supporti di banco integrati
+    in un unico elemento, valvole di scarico al sodio, compressione 7,5:1 e turbo Garrett T3, con carter secco sostituito
+    da un carter umido nel 1983. Dal 1989 adotta l'iniezione Delco e nel 1990, come 910S, uno scambiatore aria-acqua;
+    il 920 da 2,0 litri a corsa lunga chiude la famiglia nel 1999.
+  punti_deboli:
+    - "Cinghia della distribuzione da sostituire ogni 24.000 miglia o due anni"
+    - "Perdite d'olio dalla guarnizione dei coperchi degli alberi a camme sul collettore di scarico e nei pozzetti delle candele, con mancate accensioni in accelerazione"
+    - "Guarnizione della testata danneggiata da surriscaldamento per guasto della ventola o radiatore ostruito; perdite dalla pompa dell'acqua"
+    - "Wastegate del turbo che si blocca e collettori di scarico incrinati"
+  limiti: >-
+    La versione di serie più spinta è il 910S con testata Zeus, circa 300 hp a 1 bar di pressione. Non ci sono soglie
+    documentate oltre questo livello; i componenti critici sono guarnizione della testata e raffreddamento.
+  curiosita:
+    - "Il 920 da 1994 cc fu creato per l'Italia, dove la fascia fiscale sotto i 2 litri rendeva svantaggioso il 2.2."
+    - "Sul 910 il turbo soffia aria attraverso i carburatori, dotati di tenute a pressione sugli alberini delle farfalle."
+
+- slug: tvr-speed-six
+  codice: AJP6
+  nome: TVR Speed Six
+  costruttore: TVR
+  paese: Regno Unito
+  inizio: 1998
+  fine: 2006
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3996
+  alesaggio: 96.0
+  corsa: 92.0
+  compressione: "11.0–12.2:1"
+  distribuzione: DOHC, punterie a dito
+  valvole: 4
+  blocco: Alluminio, canne in ghisa, carter secco
+  testa: Alluminio
+  iniezione: Indiretta, un corpo farfallato per cilindro
+  cv_min: 355
+  cv_max: 412
+  nm_max: 473
+  limitatore: 7500
+  in_breve:
+    - { valore: "Carter secco", testo: "permette di montare il motore più in basso nel telaio" }
+    - { valore: "6 farfalle", testo: "un corpo farfallato e un iniettore per cilindro" }
+    - { valore: "412 CV", testo: "sulla Sagaris, 4.0 a 7000 giri/min" }
+  versioni:
+    - { nome: "Cerbera Speed Six 4.0", anni: "dal 1998", cv: 355, nm: 447, nota: "" }
+    - { nome: "Tuscan 3.6", anni: "1999–2006", cv: 355, nm: 393, nota: "3605 cc, 96 × 83 mm" }
+    - { nome: "Tuscan 4.0 / Red Rose", anni: "1999–2006", cv: 365, nm: 420, nota: "Red Rose 385 CV" }
+    - { nome: "Tuscan S 4.0", anni: "", cv: 406, nm: 427, nota: "395 CV fino al 2003" }
+    - { nome: "Tamora / T350 3.6", anni: "2002–2006", cv: 355, nm: 393, nota: "" }
+    - { nome: "Sagaris 4.0", anni: "2005–2006", cv: 412, nm: 473, nota: "" }
+  modelli:
+    - { nome: "TVR Cerbera Speed Six", anni: "1998–2006" }
+    - { nome: "TVR Tuscan", anni: "1999–2006" }
+    - { nome: "TVR Tamora, T350", anni: "2002–2006" }
+    - { nome: "TVR Sagaris", anni: "2005–2006" }
+  storia: >-
+    Sei cilindri in linea progettato internamente da TVR sulla base dei prototipi AJP6 di Al Melling, con basamento e
+    testata in alluminio, canne in ghisa, bialbero a 24 valvole con punterie a dito e lubrificazione a carter secco.
+    L'alimentazione usa un corpo farfallato e un iniettore per cilindro. Prodotto in cilindrata 3,6 litri (96 × 83 mm)
+    e 4,0 litri (96 × 92 mm), ha equipaggiato Cerbera, Tuscan, Tamora, T350 e Sagaris fino alla chiusura di TVR nel 2006.
+  punti_deboli:
+    - "Distribuzione dei primi motori: eliminati i fori di lubrificazione dal centro degli alberi a camme ai lobi, con usura di lobi e punterie a dito e molti interventi in garanzia"
+    - "Correzioni successive con lobi, punterie e guide valvole più duri, molle più morbide e valvole a stelo maggiorato; molti preparatori ripristinano i passaggi d'olio"
+    - "Sulla Cerbera numerosi motori dei primi anni hanno richiesto la ricostruzione"
+  limiti: >-
+    In aspirato la versione di serie più spinta arriva a 412 CV con 473 Nm (Sagaris). Il componente critico è la
+    distribuzione a punterie a dito e la sua lubrificazione; non ci sono soglie documentate affidabili oltre la potenza
+    di serie.
+  curiosita:
+    - "Le versioni 3,6 e 4,0 litri hanno lo stesso alesaggio di 96 mm e differiscono solo per la corsa, 83 e 92 mm."
+
+- slug: aston-martin-v12-59
+  codice: AM2 / AM03 / AM04 / AM06 / AM08 / AM11 / AM28 / AM29
+  nome: Aston Martin V12 5.9 aspirato
+  costruttore: Aston Martin
+  paese: Regno Unito
+  inizio: 1999
+  fine: 2020
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5935
+  alesaggio: 89.0
+  corsa: 79.5
+  compressione: "10.3–11.0:1"
+  distribuzione: DOHC a catena
+  valvole: 4
+  blocco: Alluminio A365-T6, canne sottili inserite a pressione
+  testa: Alluminio A365-T6
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 426
+  cv_max: 603
+  nm_max: 630
+  limitatore: 6800
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate, basamento deep-skirt con supporti di banco a sei bulloni" }
+    - { valore: "Colonia", testo: "assemblaggio a mano nello stabilimento Aston Martin di Niehl dal 2004" }
+    - { valore: "603 CV", testo: "sulla Vanquish S del 2017, ultima evoluzione aspirata" }
+  versioni:
+    - { nome: "DB7 V12 Vantage (AM2)", anni: "1999–2003", cv: 426, nm: 542, nota: "GT: 435 CV, 556 Nm" }
+    - { nome: "V12 Vanquish (AM03)", anni: "2001–2004", cv: 466, nm: 542, nota: "" }
+    - { nome: "V12 Vanquish S (AM06)", anni: "2004–2007", cv: 527, nm: 578, nota: "" }
+    - { nome: "DB9 (AM04)", anni: "2004–2016", cv: 457, nm: 570, nota: "Dal 2013 circa 517 CV; DB9 GT 547 CV" }
+    - { nome: "DBS (AM08)", anni: "2007–2012", cv: 517, nm: 570, nota: "Valvola di bypass sull'aspirazione oltre 5500 giri/min" }
+    - { nome: "V12 Vantage S (AM28)", anni: "2013–2018", cv: 573, nm: 620, nota: "" }
+    - { nome: "Vanquish (AM28)", anni: "2012–2018", cv: 573, nm: 620, nota: "Dal 2014: 576 CV, 630 Nm" }
+    - { nome: "Vanquish S (AM29)", anni: "2017–2018", cv: 603, nm: 630, nota: "Collettori di aspirazione di volume maggiore" }
+  modelli:
+    - { nome: "Aston Martin DB7 V12 Vantage, GT, GTA, Zagato", anni: "1999–2003" }
+    - { nome: "Aston Martin V12 Vanquish, Vanquish S", anni: "2001–2007" }
+    - { nome: "Aston Martin DB9", anni: "2004–2016" }
+    - { nome: "Aston Martin DBS", anni: "2007–2012" }
+    - { nome: "Aston Martin V12 Vantage, V12 Vantage S, Virage", anni: "2009–2018" }
+    - { nome: "Aston Martin Vanquish, Vanquish S", anni: "2012–2018" }
+    - { nome: "Aston Martin Rapide, Rapide S", anni: "2010–2020" }
+  storia: >-
+    V12 a 60° nato nel 1994 presso la divisione Advanced Powertrain di Ford, all'epoca proprietaria di Aston Martin, e avviato
+    al banco nel settembre 1995. Blocco e teste in lega A365-T6, basamento deep-skirt e canne sottili inserite a pressione: condivide
+    pistoni e componenti della distribuzione con il Duratec V6, ma non è l'unione di due V6. Prodotto da Ford e Cosworth
+    Technology fino al 2004, poi nello stabilimento dedicato di Colonia-Niehl; le versioni AM28 hanno camere di combustione
+    lavorate a controllo numerico e alberi a camme cavi. Dal 2016 è affiancato e poi sostituito dal 5.2 V12 biturbo (AE31) della DB11.
+  punti_deboli:
+    - "Bobine di accensione: guasti frequenti con mancate accensioni ed esitazioni in accelerazione (DB9)"
+  limiti: >-
+    Motore aspirato con margini di incremento ridotti con sola centralina e scarico. Non risultano soglie documentate per i
+    componenti interni; lo stesso basamento è stato impiegato nelle corse (DBR9) e portato a 7,3 litri da Cosworth per la One-77.
+  curiosita:
+    - "Il primo esemplare fu mostrato sulla concept Ford Indigo, con carter secco e targhetta Ford V12."
+    - "La One-77 usa una versione da 7,3 litri (AM77) rielaborata da Cosworth."
+
+- slug: aston-martin-aj37-v8
+  codice: AJ37 (AM05) / AM14
+  nome: Aston Martin V8 4.3 / 4.7
+  costruttore: Aston Martin
+  paese: Regno Unito
+  inizio: 2005
+  fine: 2017
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4735
+  alesaggio: 91.0
+  corsa: 91.0
+  compressione: "11.3:1"
+  distribuzione: DOHC, fasatura variabile dell'aspirazione
+  valvole: 4
+  blocco: Alluminio, canne inserite a pressione (4.7)
+  testa: Alluminio, specifica Aston Martin
+  iniezione: Indiretta multipoint
+  cv_min: 385
+  cv_max: 446
+  nm_max: 490
+  limitatore: 7300
+  in_breve:
+    - { valore: "Carter secco", testo: "lubrificazione a carter secco per montare il motore più in basso" }
+    - { valore: "91 × 91", testo: "alesaggio e corsa in mm del 4.7 dal 2008" }
+    - { valore: "Colonia", testo: "assemblaggio a mano nello stabilimento motori Aston Martin" }
+  versioni:
+    - { nome: "V8 Vantage 4.3 (AM05)", anni: "2005–2008", cv: 385, nm: 410, nota: "4280 cc, 89 × 86 mm; Sports Pack N400 405 CV" }
+    - { nome: "V8 Vantage 4.7 (AM14)", anni: "2008–2017", cv: 426, nm: 470, nota: "" }
+    - { nome: "V8 Vantage S / N430", anni: "2011–2017", cv: 436, nm: 490, nota: "Aspirazione rivista, valvole di bypass allo scarico" }
+    - { nome: "Vantage GT8", anni: "2016–2017", cv: 446, nm: 490, nota: "Serie limitata" }
+  modelli:
+    - { nome: "Aston Martin V8 Vantage coupé e Roadster", anni: "2005–2017" }
+    - { nome: "Aston Martin V8 Vantage S, N430, GT8", anni: "2011–2017" }
+  storia: >-
+    V8 a 90° derivato dall'architettura Jaguar AJ-V8 del gruppo Ford, con teste, albero motore, centralina e lubrificazione a
+    carter secco specifici Aston Martin, assemblato a mano a Colonia. Nel 2008 la cilindrata passa da 4280 a 4735 cc: le canne
+    inserite a pressione al posto di quelle fuse sono più sottili e permettono l'alesaggio di 91 mm, con corsa portata a 91 mm e
+    volano alleggerito di 0,5 kg. I dati della scheda si riferiscono al 4.7. Dal 2018 la Vantage adotta il V8 biturbo Mercedes-AMG.
+  punti_deboli:
+    - "Cinghia dei servizi (alternatore) rumorosa a freddo; si risolve con regolazione del tendicinghia o puleggia rivista"
+    - "Copertura motore in plastica che può allentarsi e fondere a contatto con i collettori di scarico"
+  limiti: >-
+    Motore aspirato: il pacchetto Prodrive dell'epoca della Vantage S aggiungeva circa 45 CV con scarico e centralina. Oltre servono
+    interventi interni; non risultano soglie documentate per i componenti.
+  curiosita:
+    - "Nel 2018 l'esemplare unico V8 Cygnet ha ricevuto il 4.7 della Vantage S."
+
+- slug: mclaren-m840t
+  codice: M840T / M840TR / M840TE
+  nome: McLaren M840T 4.0 V8
+  costruttore: McLaren
+  paese: Regno Unito
+  inizio: 2017
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 3994
+  alesaggio: 93.0
+  corsa: 73.5
+  compressione: "8.7:1"
+  distribuzione: DOHC, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 620
+  cv_max: 815
+  nm_max: 800
+  limitatore: 8500
+  in_breve:
+    - { valore: "41%", testo: "di componenti nuovi rispetto al M838T, secondo McLaren" }
+    - { valore: "+3,6 mm", testo: "di corsa rispetto al M838T, per 3994 cc" }
+    - { valore: "Piatto", testo: "albero motore, carter secco" }
+  versioni:
+    - { nome: "720S", anni: "2017–2023", cv: 720, nm: 770, nota: "" }
+    - { nome: "Senna (M840TR)", anni: "2018–2020", cv: 800, nm: 800, nota: "" }
+    - { nome: "GT (M840TE)", anni: "2019–2024", cv: 620, nm: 630, nota: "" }
+    - { nome: "Speedtail", anni: "2020", cv: 756, nm: 800, nota: "Ibrida, 1050 CV e 1150 Nm di sistema" }
+    - { nome: "Elva", anni: "2020", cv: 815, nota: "Coppia non dichiarata nelle fonti consultate" }
+    - { nome: "765LT", anni: "2020–2023", cv: 765, nm: 800, nota: "" }
+    - { nome: "750S", anni: "2023–oggi", cv: 750, nm: 800, nota: "" }
+    - { nome: "GTS (M840TE)", anni: "2024–oggi", cv: 635, nm: 630, nota: "" }
+  modelli:
+    - { nome: "McLaren 720S, 765LT, 750S", anni: "2017–oggi" }
+    - { nome: "McLaren Senna, Speedtail, Elva", anni: "2018–2020" }
+    - { nome: "McLaren GT, GTS", anni: "2019–oggi" }
+  storia: >-
+    V8 biturbo a 90° che evolve il M838T: a parità di alesaggio (93 mm) la corsa sale di 3,6 mm e la cilindrata passa a 3994 cc.
+    Mantiene albero piatto, carter secco e iniezione indiretta; i due turbo MHI lavorano con pressioni oltre 1,3 bar. Sviluppato
+    con Ricardo e costruito nello stabilimento Ricardo di Shoreham-by-Sea, è usato sulle Super Series, sulle Ultimate Series e,
+    come M840TE, sulle granturismo GT e GTS. La W1 adotta il nuovo MHP-8.
+  punti_deboli:
+    - "Raccordi dei tubi del liquido di raffreddamento che si induriscono e si crepano; sulle 720S 2017–2018 montati in parte raccordi della serie precedente"
+    - "Segnalazioni di surriscaldamento e mancate accensioni riportate da officine specializzate"
+  limiti: >-
+    Le versioni di serie arrivano a 815 CV sulla Elva con la stessa cilindrata, il che indica margini ampi della base. Per le
+    elaborazioni non risultano soglie documentate in modo affidabile per bielle e turbo di serie.
+  curiosita:
+    - "Sulla Speedtail il motore è abbinato a un'unità elettrica da 312 CV per 1050 CV complessivi."
+
+- slug: koenigsegg-v8-50
+  codice: 5.0 V8 biturbo
+  nome: Koenigsegg V8 5.0 biturbo
+  costruttore: Koenigsegg
+  paese: Svezia
+  inizio: 2010
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina / E85
+  aspirazione: Biturbo
+  cilindrata: 5032
+  alesaggio: 91.7
+  corsa: 95.25
+  compressione: "9.0:1"
+  distribuzione: DOHC
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 960
+  cv_max: 1600
+  nm_max: 1500
+  limitatore: 8500
+  in_breve:
+    - { valore: "E85", testo: "centralina Koenigsegg flex-fuel: con etanolo pressione e potenza più alte" }
+    - { valore: "1600 CV", testo: "sulla Jesko alimentata a E85" }
+    - { valore: "189 kg", testo: "peso del motore della Jesko Absolut" }
+  versioni:
+    - { nome: "Agera", anni: "2010", cv: 960, nm: 1100, nota: "Pressione 1,3 bar" }
+    - { nome: "Agera R", anni: "2011–2014", cv: 1140, nm: 1200, nota: "A E85; 960 CV a benzina" }
+    - { nome: "Agera S", anni: "2012–2014", cv: 1030, nm: 1100, nota: "Benzina" }
+    - { nome: "One:1", anni: "2014–2015", cv: 1360, nm: 1371, nota: "Alesaggio 92 mm, 5065 cc" }
+    - { nome: "Agera RS", anni: "2015–2018", cv: 1176, nota: "1360 CV con l'opzione da 1 MW" }
+    - { nome: "Regera", anni: "2016–2022", cv: 1115, nm: 1280, nota: "Solo motore termico a benzina; ibrida, 1521 CV di sistema" }
+    - { nome: "Jesko / Jesko Absolut", anni: "2020–oggi", cv: 1600, nm: 1500, nota: "A E85; 1280 CV a benzina; 5065 cc" }
+    - { nome: "CC850", anni: "2024–oggi", cv: 1385, nm: 1385, nota: "A E85; turbo più piccoli" }
+  modelli:
+    - { nome: "Koenigsegg Agera, Agera R, Agera S, Agera RS, One:1", anni: "2010–2018" }
+    - { nome: "Koenigsegg Regera", anni: "2016–2022" }
+    - { nome: "Koenigsegg Jesko, Jesko Absolut", anni: "2020–oggi" }
+    - { nome: "Koenigsegg CC850", anni: "2024–oggi" }
+  storia: >-
+    V8 biturbo in alluminio sviluppato internamente da Koenigsegg, con carter secco, collettore di aspirazione in fibra di carbonio
+    e collettori di scarico in Inconel con rivestimento ceramico. La centralina Koenigsegg è flex-fuel e alza pressione e potenza
+    con l'E85. Sulla Jesko adotta un albero piatto a 180° più leggero di 5 kg, limitatore a 8500 giri/min invece di 8250, sensori
+    di pressione per ogni cilindro e un serbatoio d'aria da 20 litri con compressore elettrico che alimenta i turbo per ridurne il
+    ritardo di risposta. Sulla Regera è abbinato a motori elettrici e alla trasmissione Direct Drive a rapporto fisso.
+  punti_deboli:
+    - "Produzione in piccola serie: non risultano difetti ricorrenti documentati"
+  limiti: >-
+    Il motore lavora già di serie con pressioni elevate (fino a 2,2 bar a E85 sulla Jesko Absolut). Non esistono dati affidabili
+    su soglie oltre le potenze di fabbrica.
+  curiosita:
+    - "Nell'agosto 2025 una Jesko Absolut ha registrato 25,21 secondi nello 0–400–0 km/h."
+    - "Il motore della Agera R pesa 197 kg e usa due iniettori per cilindro."
+
+- slug: bmw-n74
+  codice: N74B60 / N74B66 / N74B68
+  nome: BMW N74 V12 biturbo
+  costruttore: BMW
+  paese: Germania
+  inizio: 2008
+  fine:
+  architettura: V12
+  angolo: 60
+  cilindri: 12
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 6592
+  alesaggio: 89.0
+  corsa: 88.3
+  compressione: "10.0:1"
+  distribuzione: DOHC a catena, doppio VANOS, senza Valvetronic
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 544
+  cv_max: 632
+  nm_max: 900
+  limitatore: 7000
+  in_breve:
+    - { valore: "3", testo: "cilindrate: 5972 cc (B60), 6592 cc (B66) e 6749 cc (B68, solo Rolls-Royce)" }
+    - { valore: "50°", testo: "escursione del doppio VANOS sull'angolo di manovella" }
+    - { valore: "900 Nm", testo: "sulla Rolls-Royce Phantom VIII e sulla Cullinan Black Badge" }
+  versioni:
+    - { nome: "BMW 760i / 760Li (N74B60)", anni: "2009–2015", cv: 544, nm: 750, nota: "5972 cc, 89 × 80 mm" }
+    - { nome: "BMW M760Li xDrive (N74B66TU)", anni: "2016–2022", cv: 610, nm: 800, nota: "" }
+    - { nome: "Rolls-Royce Ghost (N74B66)", anni: "2010–2020", cv: 570, nm: 780, nota: "V-Specification circa 600 CV" }
+    - { nome: "Rolls-Royce Wraith (N74B66)", anni: "2014–2022", cv: 632, nm: 800, nota: "" }
+    - { nome: "Rolls-Royce Dawn (N74B66)", anni: "2015–2022", cv: 570, nm: 820, nota: "" }
+    - { nome: "Rolls-Royce Phantom VIII (N74B68)", anni: "2017–oggi", cv: 571, nm: 900, nota: "6749 cc, 92 × 84,6 mm" }
+    - { nome: "Rolls-Royce Cullinan (N74B68)", anni: "2018–oggi", cv: 571, nm: 850, nota: "Black Badge 600 CV, 900 Nm" }
+  modelli:
+    - { nome: "BMW 760i, 760Li (F01, F02)", anni: "2009–2015" }
+    - { nome: "BMW M760Li xDrive (G12)", anni: "2016–2022" }
+    - { nome: "Rolls-Royce Ghost, Ghost V-Specification", anni: "2010–2020" }
+    - { nome: "Rolls-Royce Wraith, Dawn", anni: "2014–2022" }
+    - { nome: "Rolls-Royce Phantom VIII", anni: "2017–oggi" }
+    - { nome: "Rolls-Royce Cullinan", anni: "2018–oggi" }
+    - { nome: "Rolls-Royce Ghost (seconda serie)", anni: "2021–oggi" }
+  storia: >-
+    V12 a 60° biturbo che sostituisce l'N73 aspirato, con un turbocompressore per bancata, iniezione diretta e doppio VANOS, ma
+    senza la variazione dell'alzata Valvetronic. Esordisce sulla 760Li come N74B60 da 5972 cc e cresce a 6592 cc (N74B66) per le
+    Rolls-Royce e per la M760Li. Uscito dalla gamma BMW nel 2022, prosegue su Rolls-Royce come N74B68 da 6749 cc con alesaggio di
+    92 mm e corsa di 84,6 mm. I dati principali della scheda si riferiscono all'N74B66.
+  punti_deboli:
+    - "Pompa carburante ad alta pressione: guasti segnalati soprattutto su esemplari più vecchi, con cali di prestazioni o mancato avviamento"
+    - "Pompa dell'acqua elettrica soggetta a guasti"
+    - "Astina dell'attuatore wastegate usurata: rumore metallico e, se trascurata, danni al turbocompressore"
+  limiti: >-
+    Con sola centralina si ottengono indicativamente fino a 100 CV in più. Oltre i 700 CV servono turbo maggiorati, intercooler e
+    radiatori potenziati per gestire il calore.
+  curiosita:
+    - "È stato il primo motore BMW abbinato al cambio automatico ZF 8HP90 a otto rapporti."
+    - "La versione N74B68 da 6,75 litri è montata solo su vetture Rolls-Royce."
+
+- slug: bentley-l-series
+  codice: L410 (L-series 6¾)
+  nome: Bentley 6¾ L-series V8
+  costruttore: Bentley
+  paese: Regno Unito
+  inizio: 1959
+  fine: 2020
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo / Biturbo
+  cilindrata: 6750
+  alesaggio: 104.1
+  corsa: 99.1
+  compressione: "7.8:1"
+  distribuzione: OHV ad aste e bilancieri, albero a camme centrale comandato da ingranaggi; fasatura variabile dal 2009
+  valvole: 2
+  blocco: Alluminio, canne in umido
+  testa: Alluminio
+  iniezione: Carburatore fino al 1986, poi indiretta Bosch (Zytek dal 1997)
+  cv_min: 300
+  cv_max: 537
+  nm_max: 1100
+  limitatore: 4500
+  in_breve:
+    - { valore: "1959–2020", testo: "61 anni di produzione nella stessa architettura di base" }
+    - { valore: "1100 Nm", testo: "coppia della Mulsanne Speed a 1750 giri/min" }
+    - { valore: "36.000", testo: "unità costruite a Crewe secondo Bentley" }
+  versioni:
+    - { nome: "Mulsanne Turbo / Turbo R", anni: "1982–1997", cv: 300, nm: 660, nota: "Valori stimati; Rolls-Royce non dichiarava la potenza" }
+    - { nome: "Continental R", anni: "1991–1996", cv: 390, nm: 746, nota: "330 CV nel 1991, 365 CV dal 1994; turbo Garrett" }
+    - { nome: "Continental T / Turbo RT", anni: "1996–1999", cv: 426, nm: 881, nota: "Turbo Garrett T04, gestione Zytek" }
+    - { nome: "Arnage T", anni: "2002–2006", cv: 456, nm: 875, nota: "Due turbo Garrett T3" }
+    - { nome: "Arnage T (L410TT)", anni: "2007–2009", cv: 507, nm: 1000, nota: "Due turbo Mitsubishi a bassa inerzia" }
+    - { nome: "Brooklands Coupé", anni: "2008–2011", cv: 537, nm: 1050, nota: "" }
+    - { nome: "Mulsanne (L410HT)", anni: "2010–2020", cv: 512, nm: 1020, nota: "Fasatura variabile e disattivazione di quattro cilindri" }
+    - { nome: "Mulsanne Speed", anni: "2014–2020", cv: 537, nm: 1100, nota: "" }
+  modelli:
+    - { nome: "Bentley Mulsanne, Eight, Turbo R, Turbo S, Turbo RT", anni: "1980–1998" }
+    - { nome: "Bentley Continental R, S, T; Azure; Brooklands", anni: "1991–2003" }
+    - { nome: "Bentley Arnage, Azure (2006), Brooklands Coupé", anni: "1999–2011" }
+    - { nome: "Bentley Mulsanne", anni: "2010–2020" }
+    - { nome: "Rolls-Royce Silver Spirit, Silver Spur, Corniche, Camargue, Phantom VI", anni: "1980–1998" }
+    - { nome: "Rolls-Royce Corniche (2000)", anni: "2000–2002" }
+  storia: >-
+    V8 a 90° ad aste e bilancieri progettato da Rolls-Royce a metà degli anni Cinquanta, portato a 6750 cc nel 1971 con
+    l'allungamento della corsa. Dal 1982 la Mulsanne Turbo introduce la sovralimentazione, seguita dall'iniezione Bosch nel
+    1986–87 e dall'intercooler sulla Turbo R. Sotto Volkswagen, dopo la parentesi del V8 BMW sulla Arnage Green Label, è stato
+    riprogettato per la Mulsanne del 2010 con nuovo basamento, nuove teste, fasatura variabile e disattivazione dei cilindri.
+  punti_deboli:
+    - "Impianto di raffreddamento, in particolare la ventola viscostatica: causa principale dei guasti gravi al motore"
+    - "Guarnizioni della testa in gomma sulle versioni dal 1996"
+    - "Punterie rumorose per usura sulle unità ad alto chilometraggio"
+    - "Versioni a iniezione Bosch: cinghia che collega i due spinterogeni, se si rompe il motore funziona su quattro cilindri"
+  limiti: >-
+    Non esistono riferimenti affidabili sulle soglie di potenza con componenti di serie. Le versioni di fabbrica arrivano a
+    1100 Nm con regime massimo intorno a 4500 giri/min; coppia elevata e temperature nel vano motore rendono critici
+    trasmissione e raffreddamento.
+  curiosita:
+    - "Nella Mulsanne del 2010 sono stati sostituiti o riprogettati circa 300 dei 700 componenti; dell'unità precedente restano alesaggio e interasse dei cilindri."
+    - "L'ultimo L-series è stato montato nel giugno 2020 per l'ultima delle 30 Mulsanne 6.75 Edition."
+
+- slug: vw-ea211-10-tsi
+  codice: EA211 1.0 MPI / TSI / TGI
+  nome: Volkswagen EA211 1.0 tre cilindri
+  costruttore: Volkswagen
+  paese: Germania
+  inizio: 2011
+  fine:
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina / Metano
+  aspirazione: Aspirato / Turbo
+  cilindrata: 999
+  alesaggio: 74.5
+  corsa: 76.4
+  compressione: "10.5–11.5:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Alluminio pressofuso (AlSi9Cu3)
+  testa: Alluminio, collettore di scarico integrato
+  iniezione: Indiretta (MPI) o diretta (TSI)
+  cv_min: 60
+  cv_max: 116
+  nm_max: 200
+  limitatore: 6500
+  in_breve:
+    - { valore: "999 cc", testo: "alesaggio 74,5 mm e corsa 76,4 mm, circa 333 cc per cilindro" }
+    - { valore: "82 mm", testo: "interasse dei cilindri comune agli EA211 quattro cilindri 1.2 e 1.4 TSI" }
+    - { valore: "Miller", testo: "ciclo adottato sul 1.0 TSI della Golf VIII con turbina a geometria variabile" }
+  versioni:
+    - { nome: "1.0 MPI 60 / 75 CV (CHYA, CHYB)", anni: "2011–oggi", cv: 75, nm: 95, nota: "Aspirato, 10,5:1; 80 CV e 93 Nm sulla Polo VI" }
+    - { nome: "1.0 MPI metano (CPGA)", anni: "2012–2019", cv: 68, nm: 90, nota: "Compressione 11,5:1" }
+    - { nome: "1.0 TSI 95 CV (CHZB)", anni: "2014–oggi", cv: 95, nm: 160, nota: "" }
+    - { nome: "1.0 TSI 116 CV (CHZD)", anni: "2015–2020", cv: 116, nm: 200, nota: "Golf VII" }
+    - { nome: "1.0 TSI 115 CV up! GTI", anni: "2018–2023", cv: 115, nm: 200, nota: "" }
+    - { nome: "1.0 TSI 110 CV", anni: "2021–oggi", cv: 110, nm: 200, nota: "Polo VI restyling, cambio DSG" }
+    - { nome: "1.0 TSI / eTSI 110 CV (EA211 evo)", anni: "2020–oggi", cv: 110, nm: 200, nota: "Golf VIII; ciclo Miller, 11,5:1, turbina VTG" }
+  modelli:
+    - { nome: "Volkswagen up!", anni: "2011–2023" }
+    - { nome: "Volkswagen Polo V, Polo VI", anni: "2014–oggi" }
+    - { nome: "Volkswagen Golf VII, Golf VIII", anni: "2015–oggi" }
+    - { nome: "Volkswagen T-Roc, T-Cross, Taigo", anni: "2017–oggi" }
+    - { nome: "Škoda Citigo", anni: "2011–2019" }
+    - { nome: "Škoda Fabia III, Fabia IV, Scala, Kamiq", anni: "2014–oggi" }
+    - { nome: "Škoda Kushaq, Slavia (India)", anni: "2021–oggi" }
+    - { nome: "Seat Mii", anni: "2011–2019" }
+    - { nome: "Seat Ibiza V, Arona, Leon IV", anni: "2017–oggi" }
+    - { nome: "Audi A1 (GB), Q2", anni: "2016–oggi" }
+  storia: >-
+    Tre cilindri della famiglia modulare EA211, ricavato dallo stesso progetto dei quattro cilindri 1.2 e 1.4 TSI con
+    basamento in alluminio pressofuso, distribuzione a cinghia e collettore di scarico integrato nella testata. Debutta
+    aspirato con iniezione indiretta sulla up! nel 2011; dal 2014 arriva la versione TSI turbo a iniezione diretta. Con la Golf
+    VIII passa alla specifica evo con ciclo Miller, compressione 11,5:1 e turbina a geometria variabile, anche in versione
+    mild hybrid eTSI.
+  punti_deboli:
+    - "Pompa dell'acqua e alloggiamento del termostato: perdite di liquido con rischio di surriscaldamento"
+    - "Corpo farfallato: guasti con risposta irregolare all'acceleratore e minimo instabile"
+  limiti: >-
+    Non esistono riferimenti affidabili sulle soglie con componenti di serie; le versioni di fabbrica arrivano a 200 Nm con
+    turbo e frizione dimensionati per questo valore, che restano gli elementi critici in caso di mappature.
+  curiosita:
+    - "Dal 2021, sulla Škoda Fabia IV, le canne dei cilindri del 1.0 TSI sono rivestite con riporto al plasma."
+    - "Le versioni da 81 kW in su usano valvole di scarico cave raffreddate al sodio."
+
+- slug: mitsubishi-3b2
+  codice: 3B20 / 3B21
+  nome: Mitsubishi 3B2 tre cilindri
+  costruttore: Mitsubishi
+  paese: Giappone
+  inizio: 2005
+  fine: 2020
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 999
+  alesaggio: 72.0
+  corsa: 81.8
+  compressione: "10.0:1"
+  distribuzione: DOHC a catena, MIVEC in aspirazione
+  valvole: 4
+  blocco: Alluminio pressofuso
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 49
+  cv_max: 102
+  nm_max: 147
+  limitatore: 7000
+  in_breve:
+    - { valore: "659 cc", testo: "cilindrata del 3B20 per le kei car, alesaggio e corsa 65,4 mm" }
+    - { valore: "999 cc", testo: "3B21 della Smart fortwo di seconda generazione, alesaggio 72 mm e corsa 81,8 mm" }
+    - { valore: "Mizushima", testo: "stabilimento di produzione a Kurashiki dal dicembre 2005" }
+  versioni:
+    - { nome: "3B20 aspirato (Mitsubishi i)", anni: "2006–2013", cv: 52, nm: 57, nota: "10,8:1" }
+    - { nome: "3B20 turbo (Mitsubishi i)", anni: "2006–2013", cv: 64, nm: 94, nota: "8,8:1" }
+    - { nome: "3B20 aspirato (eK, Dayz)", anni: "2013–2020", cv: 49, nm: 59, nota: "Fino a 12,0:1" }
+    - { nome: "3B20 turbo (eK, Dayz)", anni: "2013–2020", cv: 64, nm: 100, nota: "9,0:1" }
+    - { nome: "3B21 aspirato Smart fortwo 451", anni: "2007–2014", cv: 71, nm: 92, nota: "Anche 61 CV; versione mhd con start-stop" }
+    - { nome: "3B21 turbo Smart fortwo 451", anni: "2007–2014", cv: 84, nm: 120, nota: "" }
+    - { nome: "3B21 turbo Brabus", anni: "2007–2014", cv: 102, nm: 147, nota: "Sviluppato con Brabus" }
+  modelli:
+    - { nome: "Mitsubishi i", anni: "2006–2013" }
+    - { nome: "Mitsubishi eK Wagon, eK Space", anni: "2013–2020" }
+    - { nome: "Nissan Dayz, Dayz Roox", anni: "2013–2020" }
+    - { nome: "Smart fortwo (451)", anni: "2007–2014" }
+  storia: >-
+    Tre cilindri in alluminio con distribuzione bialbero a catena e variatore MIVEC sull'aspirazione, prodotto a Mizushima
+    dal dicembre 2005. Il 3B20 da 659 cc rispetta il limite delle kei car e ha equipaggiato la Mitsubishi i e poi le eK e Nissan
+    Dayz sviluppate dalla joint venture NMKV. Il 3B21 da 999 cc, con corsa allungata, è stato fornito a Smart per la fortwo
+    451, aspirato, turbo e nella versione Brabus. È stato sostituito dal BR06 sviluppato con Nissan.
+  punti_deboli:
+    - "Smart fortwo 451: bobine d'accensione, causa frequente di accensioni irregolari"
+    - "Turbo sensibile alla scarsa lubrificazione con livello dell'olio basso"
+  limiti: >-
+    Non esistono riferimenti affidabili sulle soglie con componenti di serie. La versione Brabus da 102 CV e 147 Nm è la
+    taratura più spinta di fabbrica del 3B21; turbo e frizione restano i componenti critici.
+  curiosita:
+    - "Sulla Smart fortwo 451 mhd un alterno-starter comandato a cinghia sostituisce motorino d'avviamento e alternatore e spegne il motore sotto gli 8 km/h."
+
+- slug: suzuki-m
+  codice: M13A / M15A / M16A / M18A
+  nome: Suzuki serie M
+  costruttore: Suzuki
+  paese: Giappone
+  inizio: 2000
+  fine: 2022
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1586
+  alesaggio: 78.0
+  corsa: 83.0
+  compressione: "9.5–11.1:1"
+  distribuzione: DOHC a catena, VVT
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio, punterie a pastiglia
+  iniezione: Indiretta multipoint
+  cv_min: 85
+  cv_max: 136
+  nm_max: 170
+  limitatore: 7200
+  in_breve:
+    - { valore: "78 mm", testo: "alesaggio comune a M13A, M15A e M16A; cambia solo la corsa" }
+    - { valore: "136 CV", testo: "M16A della Swift Sport ZC32S a 6900 giri/min" }
+    - { valore: "7200", testo: "regime massimo indicato per la famiglia" }
+  versioni:
+    - { nome: "M13A / M13AA Jimny", anni: "2005–2018", cv: 85, nm: 110, nota: "Compressione 9,5:1" }
+    - { nome: "M13A VVT Swift", anni: "2005–2010", cv: 92, nm: 116, nota: "" }
+    - { nome: "M15A Swift, SX4", anni: "2004–2013", cv: 100, nm: 133, nota: "1490 cc, 9,5:1" }
+    - { nome: "M16A VVT SX4, Vitara", anni: "2006–2018", cv: 120, nm: 156, nota: "11,0:1" }
+    - { nome: "M16A Swift Sport (ZC31S)", anni: "2005–2011", cv: 125, nm: 148, nota: "11,1:1" }
+    - { nome: "M16A Swift Sport (ZC32S)", anni: "2011–2017", cv: 136, nm: 160, nota: "Camma di aspirazione ad alzata maggiore, collettore a lunghezza variabile" }
+    - { nome: "M18A Aerio, Liana", anni: "2004–2007", cv: 125, nm: 170, nota: "1796 cc, alesaggio 83 mm" }
+  modelli:
+    - { nome: "Suzuki Ignis", anni: "2000–2008" }
+    - { nome: "Suzuki Swift, Swift Sport", anni: "2004–2017" }
+    - { nome: "Suzuki Liana, Aerio", anni: "2001–2007" }
+    - { nome: "Suzuki SX4, S-Cross", anni: "2006–2022" }
+    - { nome: "Suzuki Jimny (JB43)", anni: "2005–2018" }
+    - { nome: "Suzuki Grand Vitara, Vitara (LY)", anni: "2005–2018" }
+    - { nome: "Chevrolet Cruze (Giappone)", anni: "2001–2008" }
+    - { nome: "Subaru G3X Justy", anni: "2003–2007" }
+    - { nome: "Fiat Sedici", anni: "2006–2014" }
+  storia: >-
+    Famiglia di quattro cilindri in alluminio sviluppata da Suzuki dopo la separazione da General Motors per sostituire la
+    serie G. Tutte le versioni hanno distribuzione bialbero a catena, quattro valvole per cilindro e, in gran parte, variatore
+    di fase. M13A, M15A e M16A condividono l'alesaggio di 78 mm, mentre l'M18A usa lo stesso basamento dell'M16A con
+    alesaggio di 83 mm. L'M16A ad alta compressione ha equipaggiato due generazioni di Swift Sport prima del passaggio al
+    K14C turbo.
+  punti_deboli:
+    - "Guarnizione e elettrovalvola del variatore VVT: piccole perdite d'olio frequenti"
+    - "Tenditore della catena di distribuzione meno durevole della catena"
+    - "Gioco valvole a pastiglie, rumoroso a freddo e laborioso da registrare"
+  limiti: >-
+    Non esistono riferimenti affidabili sulle soglie con componenti di serie. Per l'M16A sono diffusi kit di sovralimentazione
+    volumetrica (Rotrex) e kit di maggiorazione; i dati di potenza dipendono dalla preparazione.
+  curiosita:
+    - "L'M18A condivide la fusione del basamento con l'M16A ed è l'unica versione con alesaggio diverso."
+    - "Sulla Swift Sport ZC32S i 136 CV arrivano a 6900 giri/min con limitatore a 7200."
+
+- slug: daihatsu-kf
+  codice: KF-VE / KF-DET / KF-VET
+  nome: Daihatsu KF tre cilindri
+  costruttore: Daihatsu
+  paese: Giappone
+  inizio: 2005
+  fine:
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 658
+  alesaggio: 63.0
+  corsa: 70.4
+  compressione: "9.0–12.2:1"
+  distribuzione: DOHC a catena, punterie dirette, DVVT su KF-VE e KF-VET
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta
+  cv_min: 49
+  cv_max: 64
+  nm_max: 103
+  limitatore: 7200
+  in_breve:
+    - { valore: "47 kg", testo: "peso del motore, il 25% in meno del precedente EF" }
+    - { valore: "658 cc", testo: "cilindrata entro il limite delle kei car giapponesi" }
+    - { valore: "64 CV", testo: "potenza delle versioni turbo, limite di categoria" }
+  versioni:
+    - { nome: "KF-VE (Move, Tanto, Esse)", anni: "2006–oggi", cv: 58, nm: 65, nota: "DVVT" }
+    - { nome: "KF-VE e:S (Mira e:S)", anni: "2011–oggi", cv: 52, nm: 60, nota: "11,3:1; 49 CV con 12,2:1" }
+    - { nome: "KF-DET turbo", anni: "2006–oggi", cv: 64, nm: 103, nota: "9,0:1; turbo IHI RHF25" }
+    - { nome: "KF-VET Copen (LA400)", anni: "2014–oggi", cv: 64, nm: 92, nota: "9,5:1" }
+  modelli:
+    - { nome: "Daihatsu Mira, Mira e:S, Move, Tanto, Esse, Sonica", anni: "2006–oggi" }
+    - { nome: "Daihatsu Cast, Wake, Hijet", anni: "2014–oggi" }
+    - { nome: "Daihatsu Copen (LA400)", anni: "2014–oggi" }
+    - { nome: "Toyota Pixis Epoch, Pixis Joy, Pixis Mega, Pixis Van, Pixis Truck", anni: "2011–oggi" }
+    - { nome: "Subaru Pleo, Stella, Chiffon, Sambar", anni: "2010–oggi" }
+  storia: >-
+    Tre cilindri da 658 cc per kei car presentato da Daihatsu nel novembre 2005 in sostituzione della serie EF, con peso di
+    47 kg. Le versioni aspirate KF-VE adottano il variatore di fase DVVT; le turbo KF-DET e KF-VET (quest'ultima con DVVT) raggiungono il limite di
+    categoria di 64 CV con un turbocompressore IHI RHF25 di piccole dimensioni. Con la piattaforma DNGA del 2019 il motore è
+    stato aggiornato con accensione a scintilla multipla e, sulle turbo, turbina e intercooler maggiorati. Equipaggia anche le
+    kei car rimarchiate Toyota e Subaru.
+  punti_deboli:
+    - "Bobine d'accensione dei primi esemplari (fino al 2010 circa): dispersioni di scintilla segnalate dagli utenti"
+  limiti: >-
+    Non esistono riferimenti affidabili sulle soglie con componenti di serie; le versioni turbo sono tarate a 64 CV per il
+    limite di categoria e il turbocompressore di serie, di piccole dimensioni, è il componente critico.
+  curiosita:
+    - "Il turbo IHI RHF25 della versione KF-DET ammette fino a 310.000 giri/min."
+    - "L'interasse dei cilindri è di 78 mm."
