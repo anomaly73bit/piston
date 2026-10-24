@@ -7503,3 +7503,1411 @@
   curiosita:
     - "La fine della produzione del 2ZZ-GE da parte di Toyota ha chiuso nell'agosto 2011 la produzione della Lotus Exige Series 2 per il Nord America."
     - "Il profilo ad alta alzata del VVTL-i non si inserisce finché il motore non ha raggiunto almeno 60 °C."
+
+- slug: toyota-2gr
+  codice: 2GR-FE / 2GR-FSE / 2GR-FKS
+  nome: Toyota 2GR V6 3.5
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 2005
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina / Ibrido
+  aspirazione: Aspirato (compressore volumetrico nelle versioni Lotus)
+  cilindrata: 3456
+  alesaggio: 94.0
+  corsa: 83.0
+  compressione: "10.8:1 (FE), 11.8:1 (FSE, FKS)"
+  distribuzione: DOHC a catena su due stadi, Dual VVT-i (VVT-iW in aspirazione sul 2GR-FKS)
+  valvole: 4
+  blocco: Alluminio pressofuso, open-deck
+  testa: Alluminio
+  iniezione: Indiretta multipoint (FE); D-4S diretta + indiretta (FSE, FKS)
+  cv_min: 272
+  cv_max: 430
+  nm_max: 440
+  limitatore: 7000
+  in_breve:
+    - { valore: "3456 cc", testo: "alesaggio 94 mm e corsa 83 mm comuni a FE, FSE e FKS" }
+    - { valore: "D-4S", testo: "iniezione combinata diretta e indiretta introdotta con il 2GR-FSE (2005)" }
+    - { valore: "430 CV", testo: "con compressore Edelbrock sulla Lotus Exige Cup 430" }
+  versioni:
+    - { nome: "2GR-FE (Camry, RAV4, Avalon, Lexus ES 350)", anni: "2005–oggi", cv: 280, nm: 346, nota: "Valori 277–280 CV secondo mercato; iniezione indiretta" }
+    - { nome: "2GR-FSE (Lexus IS 350, GS 350, Toyota Crown, Mark X)", anni: "2005–oggi", cv: 318, nm: 380, nota: "Compressione 11,8:1, D-4S; IS 350 310 CV e 375 Nm" }
+    - { nome: "2GR-FKS (Camry, Highlander, Lexus RX 350, IS 350)", anni: "2015–oggi", cv: 316, nm: 380, nota: "VVT-iW e ciclo Atkinson simulato; 282–316 CV secondo modello" }
+    - { nome: "2GR-FE Lotus Evora", anni: "2009–2015", cv: 280, nm: 350, nota: "Aspirato, gestione Lotus" }
+    - { nome: "2GR-FE Lotus Evora S / Exige S", anni: "2011–2016", cv: 350, nm: 400, nota: "Compressore volumetrico" }
+    - { nome: "2GR-FE Lotus Exige Cup 430", anni: "2017–2021", cv: 430, nm: 440, nota: "Compressore Edelbrock con intercooler aria-acqua, 430 CV a 7000 giri/min" }
+    - { nome: "2GR-FE Lotus Emira V6", anni: "2022–oggi", cv: 406, nm: 430, nota: "420 Nm con cambio manuale, 430 Nm con automatico" }
+  modelli:
+    - { nome: "Toyota Avalon, Camry, RAV4, Highlander, Sienna", anni: "2005–2024" }
+    - { nome: "Toyota Crown, Mark X", anni: "2005–2019" }
+    - { nome: "Toyota Tacoma (2GR-FKS)", anni: "2015–2023" }
+    - { nome: "Lexus IS 350, GS 350, ES 350, RX 350, RC 350", anni: "2005–2025" }
+    - { nome: "Lotus Evora, Exige", anni: "2009–2021" }
+    - { nome: "Lotus Emira", anni: "2022–oggi" }
+  storia: >-
+    V6 a 60° con basamento in alluminio pressofuso open-deck e distribuzione a catena su due stadi: una catena primaria
+    comanda gli alberi di aspirazione, due catene secondarie quelli di scarico. Debutta nel 2005 sulla Toyota Avalon
+    come 2GR-FE a iniezione indiretta e, nello stesso anno, come 2GR-FSE con iniezione D-4S su Lexus GS 350 e IS 350.
+    Dal 2015 il 2GR-FKS unisce D-4S e fasatura di aspirazione VVT-iW con funzionamento in ciclo Atkinson simulato;
+    Lotus lo usa dal 2009, anche con compressore volumetrico.
+  punti_deboli:
+    - "Tubo dell'olio per i variatori VVT-i con tratto in gomma (2GR-FE fino al 2008): rottura e perdita rapida d'olio, sostituito in campagna di richiamo con tubo metallico"
+    - "Pompa dell'acqua soggetta a perdite e rumorosità sul 2GR-FE"
+    - "Consumo d'olio elevato su alcuni 2GR-FSE; richiamo per le molle valvola sulla produzione 2007–2008"
+    - "Rumore all'avviamento dai variatori di fase VVT su esemplari 2GR-FE"
+  limiti: >-
+    Le versioni Lotus con compressore arrivano di serie a 430 CV e 440 Nm, indicazione della tenuta degli organi
+    interni a quei livelli. Oltre, il basamento open-deck e la tenuta della guarnizione di testa diventano i punti da
+    valutare; valori superiori vanno considerati con prudenza.
+  curiosita:
+    - "Il 2GR-FSE è stato inserito nei Ward's 10 Best Engines dal 2006 al 2009."
+    - "Il 2GR-FSE usa iniettori diretti da 949 cc/min e iniettori nei condotti da 298 cc/min."
+
+- slug: toyota-1kd-1gd
+  codice: 1KD-FTV / 1GD-FTV
+  nome: Toyota 1KD-FTV e 1GD-FTV turbodiesel
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 2000
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel / Mild hybrid 48 V
+  aspirazione: Turbo a geometria variabile con intercooler
+  cilindrata: 2755
+  alesaggio: 92.0
+  corsa: 103.6
+  compressione: "15.6:1 (1GD-FTV); 17.9:1 (1KD-FTV)"
+  distribuzione: DOHC; cinghia sul 1KD-FTV, catena sul 1GD-FTV
+  valvole: 4
+  blocco: Ghisa, senza canne riportate
+  testa: Alluminio
+  iniezione: Diretta common rail Denso (fino a 220 MPa sul 1GD-FTV, 250 MPa dal 2020)
+  cv_min: 109
+  cv_max: 224
+  nm_max: 550
+  limitatore: 4600
+  in_breve:
+    - { valore: "44%", testo: "rendimento termico massimo dichiarato da Toyota per il 1GD-FTV (tecnologia ESTEC)" }
+    - { valore: "2015", testo: "il GD sostituisce il KD su Hilux, Fortuner e Land Cruiser Prado" }
+    - { valore: "550 Nm", testo: "nella versione 224 CV di Hilux e Fortuner GR Sport" }
+  versioni:
+    - { nome: "1KD-FTV HiAce (Euro III)", anni: "2006–2010", cv: 109, nm: 286, nota: "2982 cc, 96 x 103 mm; 80 kW" }
+    - { nome: "1KD-FTV Hilux (Euro IV)", anni: "2006–2015", cv: 171, nm: 343, nota: "126 kW" }
+    - { nome: "1KD-FTV Land Cruiser Prado 120 / 150", anni: "2006–2015", cv: 173, nm: 410, nota: "127 kW" }
+    - { nome: "1GD-FTV prima serie", anni: "2015–2020", cv: 177, nm: 450, nota: "420 Nm con cambio manuale" }
+    - { nome: "1GD-FTV aggiornato", anni: "2020–oggi", cv: 204, nm: 500, nota: "500 Nm solo con automatico, 420 Nm con manuale; iniezione 250 MPa" }
+    - { nome: "1GD-FTV Hilux / Fortuner GR Sport", anni: "2023–oggi", cv: 224, nm: 550, nota: "165 kW" }
+  modelli:
+    - { nome: "Toyota Land Cruiser Prado (90, 120, 150, 250)", anni: "2000–oggi" }
+    - { nome: "Toyota Hilux", anni: "2005–oggi" }
+    - { nome: "Toyota Fortuner", anni: "2005–oggi" }
+    - { nome: "Toyota HiAce", anni: "2006–oggi" }
+  storia: >-
+    Il 1KD-FTV, 3,0 litri common rail D-4D con turbo a geometria variabile e due alberi di equilibratura, debutta nel 2000
+    sulla Land Cruiser Prado giapponese. Nel 2015 la famiglia KD viene sostituita dalla GD: il 1GD-FTV da 2,8 litri passa
+    alla catena di distribuzione, abbassa la compressione a 15,6:1 e porta la pressione di iniezione a 220 MPa.
+    Dal 2020 la versione aggiornata sale a 204 CV e dall'agosto 2023 è disponibile anche con sistema mild hybrid a 48 V.
+    I dati tecnici principali della scheda si riferiscono al 1GD-FTV.
+  punti_deboli:
+    - "1KD-FTV: rondelle di tenuta in rame degli iniettori (2005–2007) che lasciano passare i gas nel coperchio punterie, con olio carbonizzato e pescante della coppa ostruito"
+    - "1KD-FTV Euro IV: crepe nei pistoni, riconosciute da Toyota con il bollettino EG-008T-0112 del 2014"
+    - "1KD-FTV: guasti agli iniettori, spesso tra 120.000 e 140.000 km"
+    - "1GD-FTV: rigenerazione incompleta del filtro antiparticolato con intasamento (codice P2463), oggetto di aggiornamenti software e di un'azione collettiva in Australia"
+    - "1GD-FTV: depositi sugli ugelli degli iniettori e crepe interne nel radiatore EGR"
+  limiti: >-
+    Sul 1KD-FTV la modifica della centralina è sconsigliata per il rischio di crepe nei pistoni. Il 1GD-FTV raggiunge
+    di serie 224 CV e 550 Nm su basamento in ghisa; aumenti ulteriori sollecitano frizione, cambio manuale (limitato a
+    420 Nm di serie) e filtro antiparticolato. Valori di tenuta oltre quelli di serie non sono documentati.
+  curiosita:
+    - "Gli iniettori del 1GD-FTV hanno un codice QR con la correzione di portata individuale, da programmare nella centralina alla sostituzione."
+    - "Sul 1KD-FTV l'albero a camme di aspirazione è mosso dalla cinghia e comanda quello di scarico tramite ingranaggio."
+
+- slug: toyota-2ur-gse
+  codice: 2UR-GSE
+  nome: Toyota 2UR-GSE V8 5.0
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 2007
+  fine: 2026
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 4969
+  alesaggio: 94.0
+  corsa: 89.5
+  compressione: "11.8:1 (IS F); 12.3:1 (RC F, GS F)"
+  distribuzione: DOHC a catena, Dual VVT-i con VVT-iE elettrico in aspirazione
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio, progettata da Yamaha
+  iniezione: D-4S (diretta + indiretta)
+  cv_min: 421
+  cv_max: 481
+  nm_max: 540
+  limitatore: 7300
+  in_breve:
+    - { valore: "Yamaha", testo: "teste ad alto flusso progettate da Yamaha, valvole di aspirazione in titanio" }
+    - { valore: "7300", testo: "giri/min di regime massimo nelle ultime versioni (6800 sulla IS F)" }
+    - { valore: "540 Nm", testo: "sulla Lexus LC 500, a 4800 giri/min" }
+  versioni:
+    - { nome: "Lexus IS F", anni: "2007–2014", cv: 421, nm: 503, nota: "310 kW a 6600 giri/min; compressione 11,8:1" }
+    - { nome: "Lexus RC F / GS F", anni: "2015–2020", cv: 473, nm: 527, nota: "348 kW a 7100 giri/min; compressione 12,3:1" }
+    - { nome: "Lexus LC 500", anni: "2017–2026", cv: 477, nm: 540, nota: "351 kW; cambio automatico a 10 rapporti" }
+    - { nome: "Lexus RC F aggiornata", anni: "2019–2025", cv: 481, nm: 535, nota: "354 kW; in Europa 464 CV dal 2018" }
+  modelli:
+    - { nome: "Lexus IS F", anni: "2007–2014" }
+    - { nome: "Lexus RC F", anni: "2015–2025" }
+    - { nome: "Lexus GS F", anni: "2015–2020" }
+    - { nome: "Lexus LC 500", anni: "2017–2026" }
+    - { nome: "Lexus IS 500 F Sport Performance", anni: "2022–2025" }
+  storia: >-
+    Versione ad alte prestazioni del V8 5.0 della famiglia UR, sviluppata per la Lexus IS F. Le teste ad alto flusso
+    sono progettate da Yamaha, con valvole di aspirazione in titanio, alberi a camme ad alzata maggiorata, collettore
+    di aspirazione a due lunghezze e iniezione D-4S. Il regime massimo è salito da 6800 a 7300 giri/min nelle versioni
+    successive; non è mai stato abbinato a un cambio manuale di serie. Secondo comunicazioni ai concessionari riportate
+    dalla stampa, la produzione termina con la LC 500 nell'agosto 2026.
+  punti_deboli:
+    - "Perdite di liquido refrigerante dalla piastra di chiusura della V sotto il collettore, problema segnalato su tutta la famiglia UR"
+    - "Difetto della guida del tenditore della catena di distribuzione sulle prime 2UR-GSE, corretto dal model year 2016"
+  limiti: >-
+    Motore aspirato ad alta compressione (fino a 12,3:1). Gli incrementi con sola aspirazione e scarico sono contenuti;
+    la sovralimentazione richiede compressione e anticipo ridotti. Non esistono dati del costruttore sui limiti degli
+    organi interni: valori indicativi oltre i 600 CV vanno considerati con prudenza.
+  curiosita:
+    - "Fino alla LC 500, che adotta un automatico a 10 rapporti, è stato abbinato solo al cambio automatico a 8 rapporti."
+
+- slug: toyota-7m-gte
+  codice: 7M-GTE / 7M-GTEU
+  nome: Toyota 7M-GTE
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 1986
+  fine: 1992
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Turbo con intercooler
+  cilindrata: 2954
+  alesaggio: 83.0
+  corsa: 91.0
+  compressione: "8.4:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 235
+  cv_max: 270
+  nm_max: 358
+  limitatore: 6500
+  in_breve:
+    - { valore: "CT26", testo: "turbocompressore Toyota di serie, circa 0,4 bar di pressione" }
+    - { valore: "500", testo: "esemplari della Supra 3.0GT Turbo A (1988) per l'omologazione Gruppo A" }
+    - { valore: "270 CV", testo: "sulla Turbo A, con turbo e intercooler maggiorati" }
+  versioni:
+    - { nome: "7M-GTE (Supra MA70, mercato USA)", anni: "1986–1992", cv: 235, nm: 325, nota: "232 hp a 5600 giri/min" }
+    - { nome: "7M-GTEU (Supra 3.0GT Turbo, Soarer, Giappone)", anni: "1986–1991", cv: 240, nm: 343, nota: "35,0 kgm" }
+    - { nome: "7M-GTEU Supra 3.0GT Turbo A", anni: "1988", cv: 270, nm: 358, nota: "270 CV a 5600 e 36,5 kgm a 4400 giri/min; 500 esemplari" }
+  modelli:
+    - { nome: "Toyota Supra (MA70)", anni: "1986–1992" }
+    - { nome: "Toyota Soarer (MZ20, MZ21)", anni: "1986–1991" }
+  storia: >-
+    Sei cilindri in linea sovralimentato derivato dal 7M-GE, ultimo sviluppo della serie M. Basamento in ghisa, testa in
+    alluminio a 24 valvole, turbocompressore CT26 e intercooler. Debutta nel 1986 sulla Supra A70 e sulla Soarer Z20.
+    Nell'agosto 1988 Toyota mette in vendita 500 esemplari della Supra 3.0GT Turbo A, con turbo e intercooler maggiorati,
+    profilo camme dedicato e corpo farfallato più grande, per omologare la vettura nel Gruppo A.
+  punti_deboli:
+    - "Guarnizione della testata: passaggio a una guarnizione senza amianto poco prima del lancio, con cedimenti frequenti e miscelazione di olio e liquido refrigerante"
+    - "La revisione della coppia di serraggio dei bulloni di testa indicata da Toyota non risolve il problema in modo definitivo; si ricorre a guarnizione metallica e prigionieri rinforzati"
+  limiti: >-
+    Il turbo CT26 di serie regge circa 1 bar di pressione. Con guarnizione metallica, prigionieri di testa e iniettori
+    maggiorati si citano circa 400–450 CV; il limite pratico resta la tenuta della guarnizione di testa.
+  curiosita:
+    - "Nel 1988 la FIA aumentò il coefficiente di equivalenza dei motori turbo da 1,4 a 1,7, portando la Supra MA70 nella classe dei 5,0 litri."
+
+- slug: nissan-vq35de-vq37vhr
+  codice: VQ35DE / VQ35HR / VQ37VHR
+  nome: Nissan VQ35DE / VQ35HR / VQ37VHR
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 2000
+  fine: 2024
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3498
+  alesaggio: 95.5
+  corsa: 81.4
+  compressione: "10.0–11.0:1"
+  distribuzione: DOHC a catena, fasatura variabile CVTC; VVEL in aspirazione sul VQ37VHR
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 231
+  cv_max: 355
+  nm_max: 374
+  limitatore: 7500
+  in_breve:
+    - { valore: "VVEL", testo: "alzata e durata variabili delle valvole di aspirazione sul VQ37VHR, prima applicazione di serie Nissan" }
+    - { valore: "8,4 mm", testo: "rialzo del basamento del VQ35HR rispetto al DE, con bielle più lunghe" }
+    - { valore: "7500 giri/min", testo: "limitatore di VQ35HR e VQ37VHR" }
+  versioni:
+    - { nome: "VQ35DE, Nissan 350Z / Fairlady Z (Z33)", anni: "2002–2006", cv: 291, nm: 371, nota: "Versione Rev-Up dal 2005 fino a 304 CV" }
+    - { nome: "VQ35HR, Nissan 350Z / Infiniti G35", anni: "2006–2008", cv: 310, nm: 363, nota: "Compressione 10,6:1, fasatura variabile anche allo scarico" }
+    - { nome: "VQ37VHR, Nissan 370Z / Infiniti G37", anni: "2008–2020", cv: 337, nm: 366, nota: "3696 cc, corsa 86 mm, compressione 11,0:1" }
+    - { nome: "VQ37VHR, Nismo 370Z", anni: "2009–2020", cv: 355, nm: 374, nota: "" }
+  modelli:
+    - { nome: "Nissan 350Z / Fairlady Z (Z33)", anni: "2002–2008" }
+    - { nome: "Nissan 370Z / Fairlady Z (Z34)", anni: "2009–2020" }
+    - { nome: "Nissan Altima, Maxima, Murano", anni: "2002–2024" }
+    - { nome: "Nissan Skyline (V36), Fuga", anni: "2006–2022" }
+    - { nome: "Infiniti G35 coupé e berlina", anni: "2002–2008" }
+    - { nome: "Infiniti G37, Q60", anni: "2008–2016" }
+    - { nome: "Infiniti FX35, EX35, M35", anni: "2002–2012" }
+    - { nome: "Infiniti Q70, QX70", anni: "2014–2019" }
+  storia: >-
+    V6 a 60° della famiglia VQ con basamento e testate in alluminio, bialbero a quattro valvole per cilindro e catene di
+    distribuzione. Il VQ35DE debutta nel 2000 sulla Nissan Elgrand e viene montato su berline, SUV e sulla 350Z. Il VQ35HR
+    del 2006 mantiene alesaggio e corsa ma ha basamento rialzato di 8,4 mm, bielle più lunghe e compressione 10,6:1. Il
+    VQ37VHR del 2008 porta la corsa a 86 mm e introduce il sistema VVEL sulle valvole di aspirazione. La cilindrata indicata
+    è quella del 3,5 litri.
+  punti_deboli:
+    - "Guarnizioni delle gallerie olio tra coperchio distribuzione e basamento (VQ37VHR fino al 2012 circa, segnalate anche su VQ35HR): calo improvviso della pressione olio"
+    - "Consumo d'olio elevato sul VQ35DE, che con livello basso danneggia le catene di distribuzione"
+    - "Catalizzatori del VQ37VHR che si intasano per le alte temperature dei gas di scarico"
+    - "Tendicatena e pattini delle catene di distribuzione rumorosi all'avviamento a freddo su unità ad alto chilometraggio"
+  limiti: >-
+    Sul VQ35DE con interni di serie i preparatori indicano come limite prudente circa 400 CV alla ruota. Il VQ37VHR ha albero
+    motore e bielle forgiati e regge potenze superiori, ma con la sovralimentazione i punti critici restano pistoni, guarnizioni
+    della testata e lubrificazione.
+  curiosita:
+    - "La famiglia VQ è rimasta nella lista Ward's 10 Best Engines per 14 anni consecutivi fino al 2008; il VQ35DE vi figura dal 2002 al 2007 e di nuovo nel 2016."
+    - "Le versioni ibride del VQ35HR (Fuga Hybrid, Infiniti M35h, Q50 Hybrid) raggiungono 360 hp complessivi con un motore elettrico e batteria agli ioni di litio."
+
+- slug: nissan-rb25det
+  codice: RB25DET
+  nome: Nissan RB25DET / RB25DET NEO
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 1993
+  fine: 2002
+  architettura: L6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 2498
+  alesaggio: 86.0
+  corsa: 71.7
+  compressione: "9.0:1"
+  distribuzione: DOHC a cinghia, fasatura variabile NVCS in aspirazione
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 250
+  cv_max: 280
+  nm_max: 343
+  limitatore: 7000
+  in_breve:
+    - { valore: "86 mm", testo: "alesaggio uguale a quello dell'RB26DETT, con corsa ridotta a 71,7 mm" }
+    - { valore: "NVCS", testo: "fasatura variabile sull'albero a camme di aspirazione dal 1993" }
+    - { valore: "280 CV", testo: "nella versione NEO della Skyline R34 25GT-t" }
+  versioni:
+    - { nome: "Skyline R33 GTS25t", anni: "1993–1998", cv: 250, nm: 294, nota: "Turbo singolo, punterie idrauliche" }
+    - { nome: "RB25DET NEO, Skyline R34 25GT-t", anni: "1998–2002", cv: 280, nm: 343, nota: "Punterie meccaniche, bielle dell'RB26" }
+  modelli:
+    - { nome: "Nissan Skyline R33 GTS25t", anni: "1993–1998" }
+    - { nome: "Nissan Skyline R34 25GT-t", anni: "1998–2002" }
+    - { nome: "Nissan Stagea (WC34)", anni: "1996–2001" }
+  storia: >-
+    Sei cilindri in linea turbo con basamento in ghisa e testata bialbero a 24 valvole in alluminio, cinghia di distribuzione e
+    fasatura variabile NVCS in aspirazione. Debutta nel 1993 sulla Skyline R33 GTS25t; la Series 2 del 1995 rivede turbina e
+    accensione. La versione NEO del 1998 introduce punterie meccaniche, camere di combustione più piccole, pistoni specifici e
+    le bielle dell'RB26DETT, con 280 CV sulla Skyline R34. Montato anche sulle berline Laurel C34 e C35.
+  punti_deboli:
+    - "Collare di trascinamento della pompa olio sull'albero motore: si usura e può rompere l'ingranaggio della pompa con perdita di pressione"
+    - "Ritorni dell'olio dalla testata sottodimensionati: ad alti regimi l'olio si accumula in testa e lascia a secco le bronzine in pista"
+    - "Turbina con girante in ceramica delle unità pre-NEO, fragile con pressioni di sovralimentazione elevate"
+    - "Motore a interferenza: la rottura della cinghia di distribuzione danneggia le valvole"
+  limiti: >-
+    Con interni di serie in buone condizioni le esperienze dei preparatori indicano circa 300–320 kW alla ruota come soglia
+    prudente; oltre diventano critici bielle, pistoni e guarnizione della testata, soprattutto con limitatore rialzato.
+  curiosita:
+    - "La testata dell'RB25DET viene usata sui motori ibridi RB30, montata sul basamento a corsa lunga dell'RB30."
+
+- slug: nissan-vg30dett
+  codice: VG30DETT
+  nome: Nissan VG30DETT
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 1989
+  fine: 2000
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2960
+  alesaggio: 87.0
+  corsa: 83.0
+  compressione: "8.5:1"
+  distribuzione: DOHC a cinghia, fasatura variabile NVTCS
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 280
+  cv_max: 304
+  nm_max: 388
+  limitatore: 7000
+  in_breve:
+    - { valore: "2 + 2", testo: "due turbo Garrett, uno per bancata, e due intercooler aria-aria" }
+    - { valore: "8,5:1", testo: "compressione ridotta rispetto al VG30DE aspirato (10,5:1)" }
+    - { valore: "280 CV", testo: "dichiarati in Giappone; 304 CV per la 300ZX manuale da esportazione" }
+  versioni:
+    - { nome: "Fairlady Z Twin Turbo (Z32), Giappone", anni: "1989–2000", cv: 280, nm: 388, nota: "" }
+    - { nome: "300ZX Twin Turbo, cambio manuale", anni: "1990–1996", cv: 304, nm: 384, nota: "300 hp; con cambio automatico 284 CV" }
+  modelli:
+    - { nome: "Nissan Fairlady Z / 300ZX Twin Turbo (Z32)", anni: "1989–2000" }
+  storia: >-
+    V6 a 60° con basamento in ghisa e testate bialbero a quattro valvole in alluminio, sviluppato dal VG30DET a turbo
+    singolo. Compare nel 1987 sul prototipo Nissan MID4-II e va in produzione nel 1989 sulla Fairlady Z Z32. Due turbo
+    Garrett in parallelo, uno per bancata, con circa 0,7 bar di pressione e due intercooler alloggiati davanti alle ruote
+    anteriori. Sulle 300ZX americane del 1996 la fasatura variabile viene eliminata con l'adozione dell'OBD II.
+  punti_deboli:
+    - "Iniettori di prima serie con bobina esposta al carburante, che si guastano con benzine contenenti etanolo"
+    - "Accesso difficile: per iniettori e turbo va smontato il collettore di aspirazione"
+    - "Cablaggi e componenti in plastica degradati dal calore nel vano motore molto compatto"
+    - "Intercooler di serie poco efficienti e restrittivi; turbine in ceramica danneggiate oltre circa 1 bar"
+  limiti: >-
+    Con interni di serie le elaborazioni arrivano indicativamente a 450–500 CV; oltre servono interni forgiati. Il primo limite è
+    rappresentato dai turbo con girante in ceramica e da iniettori e pompa benzina, insufficienti oltre circa 280 kW.
+  curiosita:
+    - "Sul prototipo MID4-II del 1987 il VG30DETT erogava 330 CV."
+    - "Tra le modifiche in produzione: isolamento delle tubazioni olio rivisto nel 1993 e centralina aggiornata nel 1994."
+
+- slug: nissan-ca18det
+  codice: CA18DET
+  nome: Nissan CA18DET
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 1985
+  fine: 1994
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1809
+  alesaggio: 83.0
+  corsa: 83.6
+  compressione: "8.5:1"
+  distribuzione: DOHC a cinghia
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint ECCS
+  cv_min: 169
+  cv_max: 175
+  nm_max: 228
+  limitatore: 7500
+  in_breve:
+    - { valore: "T25", testo: "turbo Garrett con intercooler, al posto del T2 senza intercooler del CA18ET" }
+    - { valore: "175 CV", testo: "su Silvia S13 e 180SX giapponesi" }
+    - { valore: "1994", testo: "fine produzione sulla 200SX europea, tre anni dopo il passaggio all'SR20DET in Giappone" }
+  versioni:
+    - { nome: "Silvia S13 / 180SX (Giappone)", anni: "1988–1991", cv: 175, nm: 226, nota: "" }
+    - { nome: "200SX RS13 (Europa)", anni: "1989–1994", cv: 169, nm: 228, nota: "Testata a 4 condotti e mappatura ECCS specifica" }
+  modelli:
+    - { nome: "Nissan Silvia (S12 RS-X, S13)", anni: "1987–1991" }
+    - { nome: "Nissan 180SX", anni: "1989–1991" }
+    - { nome: "Nissan Silvia S12 Grand Prix (Europa)", anni: "1987–1989" }
+    - { nome: "Nissan 200SX (RS13, Europa)", anni: "1989–1994" }
+    - { nome: "Nissan Bluebird SSS ATTESA Limited (RNU12)", anni: "1987–1989" }
+    - { nome: "Nissan Auster 1.8Xtt", anni: "1985–1990" }
+  storia: >-
+    Quattro cilindri turbo della serie CA con basamento in ghisa e nuova testata bialbero a 16 valvole in alluminio, ultimo
+    motore CA introdotto. Turbo Garrett T25 con intercooler, iniezione multipoint ECCS con iniettori da 370 cc e spruzzatori
+    d'olio sotto i pistoni. Montato trasversale su Auster e Bluebird ATTESA e longitudinale su Silvia, 180SX e 200SX. Le
+    ultime versioni giapponesi hanno una testata a 8 condotti di aspirazione con farfalle secondarie, quelle europee una a 4.
+  punti_deboli:
+    - "Sensore di detonazione di vecchio tipo, soggetto a guasti e poco affidabile su motori elaborati"
+    - "Bronzine di biella a rischio per scarsa lubrificazione in curva ad alto carico: si consiglia una coppa con setti"
+  limiti: >-
+    Non esistono soglie documentate affidabili per gli interni di serie. Con pressioni elevate i punti critici sono bronzine e
+    bielle e la lubrificazione in uso pista; le elaborazioni spinte richiedono interni forgiati.
+  curiosita:
+    - "Sulla Silvia e sulla 180SX giapponesi il CA18DET fu sostituito dall'SR20DET nel gennaio 1991, mentre le S13 europee e sudafricane lo mantennero fino al 1994 circa."
+
+- slug: nissan-vr30ddtt
+  codice: VR30DDTT
+  nome: Nissan VR30DDTT
+  costruttore: Nissan
+  paese: Giappone
+  inizio: 2016
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2997
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "10.3:1"
+  distribuzione: DOHC, fasatura variabile elettrica in aspirazione e idraulica allo scarico
+  valvole: 4
+  blocco: Alluminio, canne con riporto a spruzzo
+  testa: Alluminio, collettori di scarico integrati
+  iniezione: Diretta
+  cv_min: 304
+  cv_max: 426
+  nm_max: 521
+  limitatore: 6800
+  in_breve:
+    - { valore: "86 × 86", testo: "alesaggio e corsa uguali, 2997 cc" }
+    - { valore: "2 pompe", testo: "per gli intercooler aria-acqua nella versione da 405 CV, una sola in quella da 304 CV" }
+    - { valore: "426 CV", testo: "nella Nissan Z Nismo" }
+  versioni:
+    - { nome: "Infiniti Q50 / Q60 3.0t", anni: "2016–2024", cv: 304, nm: 400, nota: "" }
+    - { nome: "Infiniti Q50 / Q60 Red Sport 400", anni: "2016–2024", cv: 405, nm: 475, nota: "Sensore ottico della velocità dei turbo" }
+    - { nome: "Nissan Z (RZ34)", anni: "2022–oggi", cv: 405, nm: 475, nota: "" }
+    - { nome: "Nissan Z Nismo", anni: "2023–oggi", cv: 426, nm: 521, nota: "" }
+  modelli:
+    - { nome: "Infiniti Q50", anni: "2016–2024" }
+    - { nome: "Infiniti Q60", anni: "2017–2022" }
+    - { nome: "Nissan Skyline (V37)", anni: "2019–oggi" }
+    - { nome: "Nissan Z / Fairlady Z (RZ34)", anni: "2022–oggi" }
+  storia: >-
+    V6 a 60° della famiglia VR, annunciato da Infiniti nel dicembre 2015 e prodotto dal 2016 nello stabilimento di Iwaki.
+    Basamento in alluminio senza canne riportate, con rivestimento a spruzzo dei cilindri, collettori di scarico integrati
+    nelle testate e due turbo compatti montati direttamente, con wastegate elettroniche. Iniezione diretta e intercooler
+    aria-acqua sopra il motore; la versione da 400 hp ha un sensore ottico di velocità dei turbo che permette circa il 30%
+    di pressione in più.
+  punti_deboli:
+    - "Slittamento della cinghia servizi su Infiniti Q50 e Q60 2016–2017, oggetto di bollettino tecnico"
+    - "Iniettori danneggiati da residui metallici del collettore carburante, sostituito con un nuovo ricambio originale"
+    - "Depositi carboniosi sulle valvole di aspirazione, tipici dell'iniezione diretta, ad alto chilometraggio"
+  limiti: >-
+    I turbo Garrett di serie sono piccoli: oltre circa 1,2 bar escono dalla zona di rendimento sopra i 5000 giri/min, quindi
+    potenze molto superiori richiedono turbo maggiorati. Il limite degli interni di serie non è ancora documentato in modo
+    affidabile.
+  curiosita:
+    - "Il VR30DDTT è stato inserito nella lista Ward's 10 Best Engines nel 2017 e nel 2018."
+    - "Il motore base pesa circa 195 kg; turbo e intercooler aggiungono quasi 26 kg."
+
+- slug: honda-h22a
+  codice: H22A
+  nome: Honda H22A VTEC
+  costruttore: Honda
+  paese: Giappone
+  inizio: 1992
+  fine: 2002
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 2157
+  alesaggio: 87.0
+  corsa: 90.7
+  compressione: "10.0–11.0:1"
+  distribuzione: DOHC a cinghia, VTEC
+  valvole: 4
+  blocco: Alluminio, canne FRM; closed-deck fino al 1996, open-deck dal 1997
+  testa: Alluminio
+  iniezione: Indiretta multipoint (PGM-FI)
+  cv_min: 185
+  cv_max: 220
+  nm_max: 222
+  limitatore: 7400
+  in_breve:
+    - { valore: "FRM", testo: "canne dei cilindri in metallo rinforzato con fibre, al posto delle canne in ghisa" }
+    - { valore: "220 CV", testo: "nelle versioni giapponesi Prelude Type S e Accord Euro R" }
+    - { valore: "2 titoli", testo: "JTCC 1996 e 1997 con la Accord, motore derivato da 2,0 litri" }
+  versioni:
+    - { nome: "H22A4 (Prelude BB6, VTi-R Australia)", anni: "1997–2001", cv: 200, nm: 212, nota: "Blocco open-deck; 195–200 hp nelle versioni USA" }
+    - { nome: "H22A8 (Prelude 2.2 VTi Europa, BB6)", anni: "1999–2001", cv: 200, nm: 212, nota: "200 CV a 7100 giri/min" }
+    - { nome: "H22A7 (Accord Type R Europa, CH1)", anni: "1998–2002", cv: 212, nm: 222, nota: "Compressione 11,0:1; 212 CV a 7200 giri/min" }
+    - { nome: "H22A (Prelude Type S, Giappone)", anni: "1997–2001", cv: 220, nm: 221, nota: "Compressione 11,0:1, alberi a camme specifici" }
+  modelli:
+    - { nome: "Honda Prelude (BB1, BB4, BB6, BB8)", anni: "1992–2001" }
+    - { nome: "Honda Accord SiR (CD6, CF2)", anni: "1994–1997" }
+    - { nome: "Honda Accord Type R (CH1)", anni: "1998–2002" }
+    - { nome: "Honda Accord Euro R (CL1)", anni: "2000–2002" }
+  storia: >-
+    Quattro cilindri da 2157 cc della serie H, con basamento in alluminio e canne in FRM (Fiber Reinforced Metal), testata
+    bialbero a cinghia con VTEC e alberi di equilibratura. Nato per la Prelude di quarta generazione, è passato al blocco
+    open-deck con la quinta (1997). Le versioni più spinte (Prelude Type S, Accord Type R ed Euro R) hanno compressione 11,0:1
+    e superano i 210 CV. Una versione da 2,0 litri derivata dall'H22A è stata usata da Honda nel BTCC (1995–1997) e nel JTCC.
+  punti_deboli:
+    - "Consumo d'olio segnalato con frequenza, legato a fasce elastiche e canne FRM"
+    - "Cinghia di distribuzione e cinghia degli alberi di equilibratura da sostituire insieme"
+    - "Regolazione periodica del gioco valvole (punterie meccaniche)"
+  limiti: >-
+    Con turbo e interni di serie si indicano in genere 300–350 CV con mappatura adeguata. Oltre servono pistoni e bielle
+    forgiati; il blocco open-deck (1997–2001) è meno rigido del closed-deck nelle preparazioni sovralimentate.
+  curiosita:
+    - "Honda ha vinto il campionato giapponese turismo JTCC nel 1996 e nel 1997 con la Accord spinta dal 2,0 litri derivato dall'H22A."
+    - "Il F20B è una versione da 2,0 litri a corsa ridotta dell'H22A, creata per la classe turismo da 2 litri."
+
+- slug: honda-b18c
+  codice: B18C
+  nome: Honda B18C VTEC
+  costruttore: Honda
+  paese: Giappone
+  inizio: 1993
+  fine: 2001
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1797
+  alesaggio: 81.0
+  corsa: 87.2
+  compressione: "10.0–11.1:1"
+  distribuzione: DOHC a cinghia, VTEC
+  valvole: 4
+  blocco: Alluminio pressofuso, canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint (PGM-FI)
+  cv_min: 170
+  cv_max: 200
+  nm_max: 181
+  limitatore: 8400
+  in_breve:
+    - { valore: "200 CV", testo: "a 8000 giri/min nella Integra Type R giapponese, 111 CV/litro" }
+    - { valore: "11,1:1", testo: "compressione della Type R, contro 10,6:1 della SiR-G" }
+    - { valore: "87,2 mm", testo: "corsa, con lo stesso alesaggio di 81 mm del B16" }
+  versioni:
+    - { nome: "B18C1 (Acura Integra GS-R)", anni: "1994–2001", cv: 170, nm: 174, nota: "170 hp SAE a 7600 giri/min" }
+    - { nome: "B18C (Integra SiR-G, Giappone)", anni: "1993–2001", cv: 180, nm: 175, nota: "Compressione 10,6:1" }
+    - { nome: "B18C6 (Integra Type R Europa)", anni: "1996–2001", cv: 190, nm: 178, nota: "190 CV a 7900 giri/min" }
+    - { nome: "B18C 96 spec R (Integra Type R DC2/DB8, Giappone)", anni: "1995–1997", cv: 200, nm: 181, nota: "Compressione 11,1:1; dal 1998 la 98 spec R" }
+  modelli:
+    - { nome: "Honda Integra SiR-G (DC2, DB8)", anni: "1993–2001" }
+    - { nome: "Honda Integra Type R (DC2, DB8)", anni: "1995–2001" }
+    - { nome: "Honda Civic 1.8 VTi (Europa)", anni: "fine anni '90" }
+    - { nome: "Acura Integra GS-R", anni: "1994–2001" }
+    - { nome: "Acura Integra Type R", anni: "1997–2001" }
+  storia: >-
+    Versione da 1,8 litri della serie B, con lo stesso alesaggio del B16 (81 mm) e corsa allungata a 87,2 mm. Basamento in
+    alluminio pressofuso con canne in ghisa annegate, testata bialbero a cinghia con VTEC. Nella Type R (1995) Honda ha
+    portato la compressione a 11,1:1, montato pistoni con mantello rivestito al molibdeno e bronzine a basso attrito,
+    corpo farfallato da 62 mm e aspirazione e scarico maggiorati. La 98 spec R adotta un collettore di scarico 4-in-1 a
+    condotti di uguale lunghezza.
+  punti_deboli:
+    - "Regolazione periodica del gioco valvole (punterie meccaniche)"
+    - "Consumo d'olio negli esemplari usati a lungo agli alti regimi"
+    - "Guarnizioni del solenoide VTEC e sensore pressione olio"
+  limiti: >-
+    Con preparazioni aspirate la Type R supera i 210 CV. Con turbo e interni di serie si indicano in genere 250–300 CV
+    con mappatura adeguata; oltre servono bielle e pistoni forgiati e, per potenze maggiori, canne riportate.
+  curiosita:
+    - "Sulla Type R i condotti di aspirazione della testata sono rifiniti a mano."
+    - "La Acura Integra Type R è stata venduta negli Stati Uniti nei model year 1997–1998 e 2000–2001 (B18C5)."
+
+- slug: honda-d16
+  codice: D16A / D16Z / D16Y
+  nome: Honda D16
+  costruttore: Honda
+  paese: Giappone
+  inizio: 1986
+  fine: 2006
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1590
+  alesaggio: 75.0
+  corsa: 90.0
+  compressione: "9.1–9.6:1"
+  distribuzione: SOHC o DOHC a cinghia; VTEC e VTEC-E su alcune versioni
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta multipoint (PGM-FI)
+  cv_min: 107
+  cv_max: 129
+  nm_max: 145
+  limitatore: 7200
+  in_breve:
+    - { valore: "75 x 90", testo: "mm alesaggio e corsa, uguali in tutti i D16" }
+    - { valore: "1992", testo: "il D16Z6 porta il VTEC su una testata monoalbero" }
+    - { valore: "VTEC-E", testo: "sul D16Y5 della Civic HX, a combustione magra" }
+  versioni:
+    - { nome: "D16A1 (Acura Integra, USA)", anni: "1986–1989", cv: 115, nm: 134, nota: "DOHC; 113 hp, 118 hp dal 1988" }
+    - { nome: "D16Z6 (Civic EX/Si EG, del Sol Si)", anni: "1992–1995", cv: 127, nm: 144, nota: "SOHC VTEC; 125 hp a 6600 giri/min" }
+    - { nome: "D16Y7 (Civic DX/LX EK)", anni: "1996–2000", cv: 107, nm: 140, nota: "SOHC senza VTEC" }
+    - { nome: "D16Y5 (Civic HX)", anni: "1996–2000", cv: 117, nm: 136, nota: "SOHC VTEC-E" }
+    - { nome: "D16Y8 (Civic EX EK, Acura 1.6EL)", anni: "1996–2000", cv: 129, nm: 145, nota: "SOHC VTEC; 127 hp a 6600 giri/min" }
+  modelli:
+    - { nome: "Honda Integra", anni: "1986–1989" }
+    - { nome: "Honda Civic (EF, EG, EK)", anni: "1988–2000" }
+    - { nome: "Honda CRX, CRX del Sol", anni: "1988–1997" }
+    - { nome: "Honda Civic (Europa, settima generazione)", anni: "2001–2005" }
+    - { nome: "Honda HR-V", anni: "1998–2006" }
+    - { nome: "Acura Integra", anni: "1986–1989" }
+    - { nome: "Acura 1.6EL (Canada)", anni: "1997–2000" }
+    - { nome: "Rover 216, 416", anni: "1989–1996" }
+  storia: >-
+    Versione da 1590 cc della serie D, introdotta da Honda nel 1984; tutti i D16 hanno alesaggio di 75 mm e corsa di 90 mm.
+    Il D16A1 bialbero ha equipaggiato la prima Integra (1986). Sulle Civic e CRX si è diffuso soprattutto in versione
+    monoalbero a 16 valvole: il D16Z6 del 1992 ha introdotto il VTEC sulla sola aspirazione, il D16Y5 il VTEC-E a
+    combustione magra. È rimasto in produzione fino alla metà degli anni 2000 su Civic europea e HR-V.
+  punti_deboli:
+    - "Perdite d'olio dalle guarnizioni, in genere facili da individuare"
+    - "Minimo irregolare per corpo farfallato o valvola di regolazione del minimo sporchi, poi sonda lambda"
+    - "Cricche nel collettore di scarico, con funzionamento irregolare"
+  limiti: >-
+    Con turbo e interni di serie si indicano in genere 200–250 CV con mappatura adeguata, dopo una prova di compressione
+    del motore. Oltre servono pistoni e bielle forgiati; i limiti principali sono pistoni e guarnizione della testata.
+  curiosita:
+    - "Nel D16Y5 il VTEC-E lascia quasi chiusa una delle due valvole di aspirazione ai bassi regimi, per creare turbolenza e funzionare con miscela magra."
+
+- slug: honda-j35-j37
+  codice: J35A / J35Z / J35Y / J37A
+  nome: Honda J35 / J37 V6
+  costruttore: Honda
+  paese: Giappone
+  inizio: 1999
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3471
+  alesaggio: 89.0
+  corsa: 93.0
+  compressione: "10.0–11.5:1"
+  distribuzione: SOHC a cinghia con VTEC o i-VTEC; DOHC sul J35Y8 dal 2023
+  valvole: 4
+  blocco: Alluminio pressofuso, canne in ghisa (J35); canne in alluminio (J37)
+  testa: Alluminio
+  iniezione: Indiretta; diretta dal 2014
+  cv_min: 208
+  cv_max: 314
+  nm_max: 373
+  limitatore: 7200
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate, contro i 90° della precedente serie C" }
+    - { valore: "VCM", testo: "disattivazione di 2 o 3 cilindri, dal 2005 sulla Odyssey" }
+    - { valore: "3664 cc", testo: "nel J37, con alesaggio 90 mm e corsa 96 mm" }
+  versioni:
+    - { nome: "J35A (Honda Odyssey)", anni: "1999–2001", cv: 213, nm: 310, nota: "Con benzina premium; 205 hp con benzina normale" }
+    - { nome: "J35A (Honda Pilot)", anni: "2003–2004", cv: 243, nm: 328, nota: "Compressione 10,0:1" }
+    - { nome: "J35Z (Honda Accord V6)", anni: "2008–2012", cv: 272, nm: 336, nota: "VCM a 3, 4 o 6 cilindri; 344 Nm con cambio manuale" }
+    - { nome: "J35A (Acura RL)", anni: "2005–2008", cv: 294, nm: 353, nota: "Compressione 11,0:1" }
+    - { nome: "Acura RLX / Honda Legend", anni: "2014–2020", cv: 314, nm: 369, nota: "Iniezione diretta, compressione 11,5:1" }
+    - { nome: "J35Y8 (Honda Pilot)", anni: "2023–oggi", cv: 289, nm: 355, nota: "DOHC con fasatura variabile, senza VTEC" }
+    - { nome: "J37A (Acura MDX)", anni: "2007–2009", cv: 304, nm: 373, nota: "3664 cc; compressione 11,0:1" }
+    - { nome: "J37A (Acura TL SH-AWD)", anni: "2009–2014", cv: 309, nm: 370, nota: "3664 cc; compressione 11,2:1" }
+  modelli:
+    - { nome: "Honda Odyssey", anni: "1999–oggi" }
+    - { nome: "Honda Pilot", anni: "2003–oggi" }
+    - { nome: "Honda Ridgeline", anni: "2006–oggi" }
+    - { nome: "Honda Accord V6, Crosstour", anni: "2008–2017" }
+    - { nome: "Honda Legend", anni: "2004–2020" }
+    - { nome: "Honda Passport", anni: "2019–oggi" }
+    - { nome: "Acura MDX", anni: "2003–oggi" }
+    - { nome: "Acura RL, RLX", anni: "2005–2020" }
+    - { nome: "Acura TL, TSX V6", anni: "2007–2014" }
+    - { nome: "Acura TLX, RDX", anni: "2013–2020" }
+    - { nome: "Acura ZDX", anni: "2010–2013" }
+    - { nome: "Saturn Vue", anni: "2004–2007" }
+  storia: >-
+    Il J35 è il 3,5 litri della serie J, quarta famiglia di V6 Honda con bancate a 60°, prodotta negli stabilimenti di
+    Anna (Ohio) e Lincoln (Alabama). Ha esordito sulla Odyssey del 1999 con testate monoalbero a cinghia e VTEC; dal
+    2005 adotta la disattivazione dei cilindri VCM e dal 2014 l'iniezione diretta. Il J37 da 3664 cc (2007–2014) ha
+    alesaggio e corsa maggiorati e collettore di aspirazione in lega di magnesio. Nel 2023 il J35Y8 della Pilot è passato a
+    testate bialbero senza VTEC.
+  punti_deboli:
+    - "VCM: consumo d'olio, accensioni irregolari e candele imbrattate sui cilindri disattivati (Accord 2008–2012, Odyssey 2008–2013, Pilot 2009–2013), oggetto di un accordo transattivo negli USA nel 2013"
+    - "Supporti motore attivi soggetti a usura, con vibrazioni in modalità ECO"
+    - "Cinghia di distribuzione e tendicinghia da sostituire agli intervalli prescritti"
+  limiti: >-
+    Con compressore volumetrico e interni di serie si indicano in genere 350–400 CV con mappatura adeguata. Oltre servono
+    pistoni e bielle rinforzati; nelle versioni con VCM la gestione elettronica va adattata.
+  curiosita:
+    - "Il J35 è stato fornito a General Motors per la Saturn Vue (2004–2007), dove era denominato L66."
+    - "Le testate bialbero del J35Y8 sono condivise con il 3,0 litri turbo delle Acura TLX e MDX Type S."
+
+- slug: honda-jnc1
+  codice: JNC1
+  nome: Honda JNC1 V6 biturbo
+  costruttore: Honda
+  paese: Giappone
+  inizio: 2016
+  fine: 2022
+  architettura: V6
+  angolo: 75
+  cilindri: 6
+  alimentazione: Benzina / Ibrido
+  aspirazione: Biturbo
+  cilindrata: 3493
+  alesaggio: 91.0
+  corsa: 89.5
+  compressione: "10.0:1"
+  distribuzione: DOHC a catena, fasatura variabile VTC
+  valvole: 4
+  blocco: Alluminio, fusione in sabbia Cosworth
+  testa: Alluminio, fusione in sabbia Cosworth
+  iniezione: Diretta e indiretta
+  cv_min: 507
+  cv_max: 527
+  nm_max: 600
+  limitatore: 7500
+  in_breve:
+    - { valore: "75°", testo: "angolo tra le bancate, per abbassare il baricentro del motore" }
+    - { valore: "Carter secco", testo: "con pompa di recupero a sei rotori" }
+    - { valore: "5 ore", testo: "di assemblaggio a mano per ogni motore nello stabilimento di Anna (Ohio)" }
+  versioni:
+    - { nome: "NSX (NC1)", anni: "2016–2021", cv: 507, nm: 550, nota: "500 hp tra 6500 e 7500 giri/min; 573 hp di sistema" }
+    - { nome: "NSX Type S", anni: "2022", cv: 527, nm: 600, nota: "Turbo della NSX GT3 Evo, iniettori +25%; 600 hp di sistema" }
+  modelli:
+    - { nome: "Acura NSX (NC1)", anni: "2016–2022" }
+    - { nome: "Honda NSX (NC1)", anni: "2016–2022" }
+  storia: >-
+    V6 da 3493 cc a 75° montato in posizione centrale sulla NSX di seconda generazione, abbinato a un motore elettrico
+    posteriore, a due motori elettrici anteriori e a un cambio a doppia frizione a nove marce. Basamento e testate in
+    alluminio fusi in sabbia da Cosworth, due turbo single-scroll, doppia iniezione diretta e nel collettore, lubrificazione
+    a carter secco. Costruito a mano in una cella dedicata dell'Anna Engine Plant in Ohio fino alla fine della produzione
+    della NSX nel 2022, chiusa con la serie Type S da 350 esemplari.
+  punti_deboli:
+    - "Motore a bassa diffusione; non risultano difetti ricorrenti documentati"
+    - "Accesso e manutenzione complessi per la posizione centrale e l'integrazione con il sistema ibrido"
+  limiti: >-
+    La Type S porta la pressione massima di sovralimentazione da circa 1,05 a 1,11 bar con i turbo della NSX GT3 Evo.
+    Le preparazioni oltre questi valori sono poco documentate; i limiti dipendono da turbo, alimentazione e gestione del
+    sistema ibrido.
+  curiosita:
+    - "Nella NSX Type S Honda ha aumentato del 25% la portata degli iniettori e del 15% la capacità di smaltimento degli intercooler."
+
+- slug: mazda-b6-bp
+  codice: B6 / BP DOHC
+  nome: Mazda B6 / BP DOHC
+  costruttore: Mazda
+  paese: Giappone
+  inizio: 1985
+  fine: 2005
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1839
+  alesaggio: 83.0
+  corsa: 85.0
+  compressione: "9.0–9.5:1"
+  distribuzione: DOHC a cinghia; fasatura variabile S-VT sull'aspirazione dal BP-Z3 (2001)
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 90
+  cv_max: 212
+  nm_max: 255
+  limitatore: 7200
+  in_breve:
+    - { valore: "1597 / 1839 cc", testo: "B6 con alesaggio e corsa 78,0 × 83,6 mm, BP con 83 × 85 mm" }
+    - { valore: "Non interferente", testo: "la rottura della cinghia non porta valvole e pistoni a contatto" }
+    - { valore: "S-VT", testo: "fasatura variabile sull'aspirazione introdotta con il BP-Z3 del 2001" }
+  versioni:
+    - { nome: "B6T (Familia, Ford Laser TX3)", anni: "1985–1989", cv: 140, nm: 186, nota: "1597 cc, turbo con intercooler; valori Giappone, 150 CV sulla GT-Ae del 1987" }
+    - { nome: "B6-ZE (MX-5 NA 1.6, Giappone)", anni: "1989–1993", cv: 120, nm: 136, nota: "1597 cc, 9,4:1; 115 hp nelle versioni USA ed Europa" }
+    - { nome: "B6-ZE (MX-5 NA 1.6, Europa)", anni: "1994–1997", cv: 90, nm: 129, nota: "Versione depotenziata" }
+    - { nome: "BP-ZE (Familia GT, 323)", anni: "1989–1994", cv: 131, nm: 165, nota: "Aspirazione variabile VICS" }
+    - { nome: "BPT (Familia GT-X, 323 GT)", anni: "1989–1994", cv: 180, nm: 237, nota: "Turbo IHI RHB5, trazione integrale; 166 CV e 219 Nm in Europa" }
+    - { nome: "BPD (Familia GT-R)", anni: "1992–1994", cv: 212, nm: 255, nota: "156 kW; turbo IHI RHF6 raffreddato ad acqua, intercooler frontale" }
+    - { nome: "BP-4W (MX-5 NB 1.8)", anni: "1998–2000", cv: 142, nm: 161, nota: "Punterie meccaniche al posto delle idrauliche" }
+    - { nome: "BP-4W turbo (Mazdaspeed MX-5)", anni: "2004–2005", cv: 180, nm: 226, nota: "9,5:1" }
+  modelli:
+    - { nome: "Mazda MX-5 (NA, NB)", anni: "1989–2005" }
+    - { nome: "Mazda 323 / Familia (BF, BG, BH)", anni: "1985–1998" }
+    - { nome: "Mazda Lantis, Xedos 6", anni: "1993–1999" }
+    - { nome: "Ford Laser TX3, Laser KJ, Escort GT", anni: "1985–1998" }
+    - { nome: "Mercury Capri XR2, Tracer LTS", anni: "1991–1996" }
+    - { nome: "Kia Sephia, Shuma, Spectra, Rio", anni: "1995–2005" }
+  storia: >-
+    Quattro cilindri della famiglia B con basamento in ghisa, testata in alluminio a 16 valvole e distribuzione a
+    cinghia. La versione bialbero debutta nel 1985 con il B6T turbo della Familia/323 a trazione integrale; nel 1989
+    arriva il BP da 1839 cc. Per la MX-5 il B6-ZE riceve albero motore e volano alleggeriti e coppa dell'olio in
+    alluminio alettata. Il BP-Z3 del 2001 introduce la fasatura variabile S-VT sull'aspirazione.
+  punti_deboli:
+    - "Albero motore 'short nose' (MX-5 del 1990 e parte del 1991): il bullone della puleggia si allenta, chiavetta e sede si usurano e la fasatura arretra"
+    - "Punterie idrauliche: rumorose o difettose con olio scadente; il BP-4W passa a punterie meccaniche"
+    - "Consumo d'olio crescente con il chilometraggio sul BP"
+    - "Minimo instabile, spesso per corpo farfallato sporco"
+  limiti: >-
+    Le versioni turbo di fabbrica arrivano a circa 210 CV con componenti rinforzati (BPD). Sui BP aspirati
+    sovralimentati in aftermarket bielle e pistoni di serie sono il limite: per potenze nettamente superiori a quelle
+    di fabbrica servono interni forgiati.
+  curiosita:
+    - "Il BPD è stato sviluppato per il programma rally di Mazda ed è la base della Familia GT-R (2200 esemplari) e della GT-Ae (300 esemplari)."
+    - "Il BPD ha naso dell'albero motore maggiorato, getti d'olio sotto i pistoni più grandi e valvole di scarico al sodio."
+
+- slug: mazda-skyactiv-g
+  codice: PE-VPS / PY-VPS / PY-VPTS
+  nome: Mazda Skyactiv-G 2.0 / 2.5
+  costruttore: Mazda
+  paese: Giappone
+  inizio: 2011
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato / Turbo
+  cilindrata: 1998
+  alesaggio: 83.5
+  corsa: 91.2
+  compressione: "13.0–14.0:1"
+  distribuzione: DOHC a catena, fasatura variabile su entrambi gli assi (Dual S-VT)
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta
+  cv_min: 122
+  cv_max: 258
+  nm_max: 430
+  limitatore: 7500
+  in_breve:
+    - { valore: "14:1", testo: "compressione delle versioni per benzina a 95 ottani; 13:1 negli Stati Uniti" }
+    - { valore: "2488 cc", testo: "cilindrata del 2.5, alesaggio e corsa 89,0 × 100,0 mm" }
+    - { valore: "7500", testo: "giri/min al limitatore del 2.0 della MX-5 ND dal 2018" }
+  versioni:
+    - { nome: "2.0 PE-VPS (Mazda6 GJ, Europa)", anni: "2012–2016", cv: 165, nm: 210, nota: "14:1; anche da 145 CV" }
+    - { nome: "2.0 PE-VPS (USA)", anni: "2012–2018", cv: 158, nm: 200, nota: "13:1; 155 hp" }
+    - { nome: "2.0 PE-VPS (MX-5 ND)", anni: "2018–oggi", cv: 184, nm: 205, nota: "Limitatore 7500 giri/min" }
+    - { nome: "2.5 PY-VPS (USA)", anni: "2013–oggi", cv: 189, nm: 252, nota: "13:1; disattivazione di due cilindri dal 2018" }
+    - { nome: "2.5 Turbo PY-VPTS", anni: "2016–oggi", cv: 258, nm: 430, nota: "10,5:1, benzina premium; 230 CV e 420 Nm con benzina normale" }
+  modelli:
+    - { nome: "Mazda 3 (BL, BM, BP)", anni: "2011–oggi" }
+    - { nome: "Mazda 6 (GJ, GL)", anni: "2012–2024" }
+    - { nome: "Mazda CX-5 (KE, KF)", anni: "2012–oggi" }
+    - { nome: "Mazda CX-3, CX-30", anni: "2015–oggi" }
+    - { nome: "Mazda MX-5 (ND)", anni: "2015–oggi" }
+    - { nome: "Mazda CX-9, CX-50 (2.5 Turbo)", anni: "2016–oggi" }
+  storia: >-
+    Famiglia di quattro cilindri a iniezione diretta del programma Skyactiv, con compressione di 14:1 sulle versioni
+    per benzina a 95 ottani e 13:1 dove la benzina ha ottano inferiore. Il 2.0 debutta nel 2011 sulla Mazda3 BL, il
+    2.5 sulla CX-5 e poi sulla Mazda6 GJ. Nel 2016 la CX-9 introduce il 2.5 Turbo con compressione ridotta a 10,5:1;
+    dal 2018 il 2.5 aspirato adotta la disattivazione dei cilindri e il 2.0 della MX-5 sale a 184 CV e 7500 giri/min.
+  punti_deboli:
+    - "Avviamento a freddo difficoltoso sui primi esemplari, corretto con aggiornamenti della centralina"
+    - "Pressione dell'olio insufficiente su una piccola quota di motori 2011–2013, sostituiti in garanzia"
+    - "Usura dell'asse a camme di aspirazione associata a intervalli di cambio olio lunghi"
+    - "Bobine di accensione sensibili alla benzina di scarsa qualità"
+  limiti: >-
+    Gli aspirati ad alta compressione si prestano poco alla sovralimentazione con pistoni di serie: Mazda per il 2.5
+    Turbo ha ridotto la compressione a 10,5:1. Sugli aspirati gli interventi di centralina e scarico danno guadagni
+    contenuti; non esistono riferimenti affidabili su soglie di rottura dei componenti interni.
+  curiosita:
+    - "Con benzina sotto i 95 ottani la centralina riduce la compressione effettiva agendo sulla fasatura delle valvole."
+    - "Nell'e-Skyactiv PHEV della CX-60 il 2.5 è abbinato a un motore elettrico per 241 kW e 500 Nm di sistema."
+
+- slug: mazda-skyactiv-x
+  codice: HF-VPH
+  nome: Mazda Skyactiv-X
+  costruttore: Mazda
+  paese: Giappone
+  inizio: 2019
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina / Mild hybrid
+  aspirazione: Compressore volumetrico
+  cilindrata: 1998
+  alesaggio: 83.5
+  corsa: 91.2
+  compressione: "15.0–16.3:1"
+  distribuzione: DOHC a catena, fasatura variabile su entrambi gli assi (Dual S-VT)
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta ad altissima pressione
+  cv_min: 180
+  cv_max: 186
+  nm_max: 240
+  limitatore: 6500
+  in_breve:
+    - { valore: "SPCCI", testo: "accensione per compressione di una miscela magra innescata dalla candela" }
+    - { valore: "16,3:1", testo: "compressione della prima serie, ridotta a 15,0:1 sull'e-Skyactiv X" }
+    - { valore: "24 V", testo: "sistema mild hybrid M Hybrid con starter-generatore a cinghia di serie" }
+  versioni:
+    - { nome: "Skyactiv-X (prima serie)", anni: "2019–2021", cv: 180, nm: 224, nota: "16,3:1" }
+    - { nome: "e-Skyactiv X", anni: "2021–oggi", cv: 186, nm: 240, nota: "15,0:1" }
+  modelli:
+    - { nome: "Mazda 3 (BP)", anni: "2019–oggi" }
+    - { nome: "Mazda CX-30", anni: "2019–oggi" }
+  storia: >-
+    Quattro cilindri 2.0 con combustione SPCCI (Spark Controlled Compression Ignition): una miscela molto magra
+    iniettata in aspirazione viene accesa per compressione dall'aumento di pressione prodotto da una piccola carica
+    più ricca accesa dalla candela. Un compressore volumetrico di tipo Roots fornisce l'eccesso d'aria richiesto
+    dalla combustione magra. Debutta nel 2019 su Mazda3 e CX-30 e nel 2021 diventa e-Skyactiv X con 186 CV; non è
+    mai stato offerto negli Stati Uniti. Una versione a sei cilindri 3.0 annunciata da Mazda non è entrata in produzione.
+  punti_deboli:
+    - "Motore poco diffuso: ricambi costosi e di reperibilità limitata"
+    - "Depositi carboniosi sulle valvole di aspirazione, comuni ai motori a iniezione diretta"
+  limiti: >-
+    La combustione SPCCI dipende da un sensore di pressione in camera e da una calibrazione specifica: le
+    elaborazioni sono rare e non esistono riferimenti affidabili. Il compressore serve a garantire l'eccesso d'aria
+    della combustione magra più che ad aumentare la potenza specifica.
+  curiosita:
+    - "Con avviamento a freddo, riscaldamento e carichi molto alti il motore passa all'accensione comandata con miscela stechiometrica 14,7:1."
+    - "L'aggiornamento del 2021 ha portato 6 CV e 16 Nm in più e una riduzione delle emissioni di CO2 fino a 10 g/km nel ciclo WLTP."
+
+- slug: mazda-20b-rew
+  codice: 20B-REW
+  nome: Mazda 20B-REW
+  costruttore: Mazda
+  paese: Giappone
+  inizio: 1990
+  fine: 1995
+  architettura: Rotativo
+  cilindri: 3
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 1962
+  alesaggio:
+  corsa:
+  compressione: "9.0:1"
+  distribuzione: Wankel a luci (nessuna valvola)
+  valvole: 0
+  blocco: Ghisa / alluminio (statori e alloggiamenti)
+  testa: "—"
+  iniezione: Indiretta multipoint
+  cv_min: 280
+  cv_max: 280
+  nm_max: 403
+  limitatore: 7000
+  in_breve:
+    - { valore: "3 × 654 cc", testo: "volume delle camere dei tre rotori" }
+    - { valore: "Sequenziale", testo: "due turbo Hitachi che entrano in funzione uno dopo l'altro" }
+    - { valore: "Circa 40%", testo: "quota delle 8875 Eunos Cosmo vendute con il tre rotori" }
+  versioni:
+    - { nome: "Eunos Cosmo (JCESE / JCES)", anni: "1990–1995", cv: 280, nm: 403, nota: "Solo cambio automatico a 4 rapporti" }
+  modelli:
+    - { nome: "Eunos Cosmo (JC)", anni: "1990–1995" }
+  storia: >-
+    Unico motore rotativo a tre rotori prodotto in serie da Mazda, montato solo sulla Eunos Cosmo da febbraio 1990 a
+    settembre 1995. Deriva dal 13G a tre rotori impiegato nelle corse di durata sulla Mazda 757. La cilindrata di 1962
+    cc è la somma del volume di una camera per ciascuno dei tre rotori (3 × 654 cc). La
+    potenza dichiarata di 280 CV coincide con il limite dell'accordo di autoregolamentazione dei costruttori giapponesi.
+  punti_deboli:
+    - "Primi motori (numerazione 000–999 e A000–A999): problemi agli alloggiamenti e rotture dell'albero eccentrico, risolti da Mazda in garanzia"
+    - "Tenute d'apice e laterali: la compressione va misurata su tutti e tre i rotori"
+    - "Consumi elevati: 15–20 l/100 km nel ciclo misto"
+  limiti: >-
+    Con centralina aftermarket i turbo di serie arrivano a circa 1 bar di pressione e intorno ai 300 CV. Oltre servono
+    turbo maggiorati e revisione completa con tenute nuove; le cifre più alte dichiarate dai preparatori vanno
+    considerate con prudenza.
+  curiosita:
+    - "La Eunos Cosmo con sistema CCS è indicata come la prima auto di serie con navigatore GPS integrato, gestito da uno schermo a sfioramento."
+    - "Il 13G a tre rotori, da cui deriva il 20B, ha corso alla 24 Ore di Le Mans sulla Mazda 757."
+
+- slug: mitsubishi-4b11t
+  codice: 4B11T
+  nome: Mitsubishi 4B11T
+  costruttore: Mitsubishi
+  paese: Giappone
+  inizio: 2007
+  fine: 2016
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 86.0
+  corsa: 86.0
+  compressione: "9.0:1"
+  distribuzione: DOHC a catena, MIVEC su aspirazione e scarico
+  valvole: 4
+  blocco: Alluminio pressofuso, semi closed-deck
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 240
+  cv_max: 446
+  nm_max: 559
+  limitatore: 7600
+  in_breve:
+    - { valore: "12 kg", testo: "in meno rispetto al 4G63 grazie al basamento in alluminio" }
+    - { valore: "MIVEC", testo: "fasatura variabile su entrambi gli assi a camme" }
+    - { valore: "86 × 86 mm", testo: "alesaggio e corsa uguali" }
+  versioni:
+    - { nome: "Lancer Ralliart / Galant Fortis Ralliart", anni: "2008–2015", cv: 240, nm: 343, nota: "Turbo single-scroll più piccolo; limite 6500 giri/min" }
+    - { nome: "Lancer Evolution X (Giappone)", anni: "2007–2016", cv: 280, nm: 422, nota: "Turbo twin-scroll" }
+    - { nome: "Lancer Evolution X (USA)", anni: "2008–2015", cv: 295, nm: 407, nota: "291 hp; Final Edition 307 CV" }
+    - { nome: "Lancer Evolution X FQ-400 (Regno Unito)", anni: "2009", cv: 409, nm: 525, nota: "" }
+    - { nome: "Lancer Evolution X FQ-440 MR (Regno Unito)", anni: "2014", cv: 446, nm: 559, nota: "40 esemplari; turbo HKS" }
+  modelli:
+    - { nome: "Mitsubishi Lancer Evolution X", anni: "2007–2016" }
+    - { nome: "Mitsubishi Lancer Ralliart, Galant Fortis Ralliart", anni: "2008–2015" }
+  storia: >-
+    Versione turbo del 4B11 della famiglia 4B1, progettata nell'ambito dell'alleanza GEMA con Chrysler e Hyundai e
+    costruita nello stabilimento Mitsubishi di Shiga. Dal 2007 sostituisce il 4G63 sulla Lancer Evolution X con
+    basamento in alluminio pressofuso, catena di distribuzione e fasatura variabile MIVEC anche sullo scarico. La Evo
+    usa un turbo twin-scroll, la Lancer Ralliart un turbo single-scroll più piccolo. La produzione termina con la Evo X
+    nel 2016.
+  punti_deboli:
+    - "Allungamento della catena di distribuzione segnalato su esemplari 2008–2010"
+    - "Collettore di scarico: crepe sul lato caldo"
+    - "Relè della pompa benzina con contatti che si bruciano nel tempo"
+  limiti: >-
+    Le stime dei preparatori indicano circa 400 CV alle ruote come limite degli interni di serie; per potenze
+    superiori si montano bielle e pistoni forgiati. Di fabbrica la FQ-440 MR arriva a 446 CV con turbo HKS e iniettori
+    maggiorati.
+  curiosita:
+    - "Rispetto al 4G63 elimina gli alberi di equilibratura e adotta pistoni con spinotto flottante e punterie a comando diretto al posto dei bilancieri a rullo."
+    - "La FQ-440 MR del 2014, prodotta in 40 esemplari per i 40 anni di Mitsubishi nel Regno Unito, è stata sviluppata da Mitsubishi Motors UK con turbo HKS e scarico Janspeed."
+
+- slug: mitsubishi-6g72tt
+  codice: 6G72TT
+  nome: Mitsubishi 6G72 V6 biturbo
+  costruttore: Mitsubishi
+  paese: Giappone
+  inizio: 1990
+  fine: 2000
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Biturbo
+  cilindrata: 2972
+  alesaggio: 91.1
+  corsa: 76.0
+  compressione: "8.0:1"
+  distribuzione: DOHC a cinghia, punterie idrauliche
+  valvole: 4
+  blocco: Ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint
+  cv_min: 280
+  cv_max: 324
+  nm_max: 427
+  limitatore: 7000
+  in_breve:
+    - { valore: "2 turbo", testo: "Mitsubishi TD04-09B, uno per bancata, ciascuno con il proprio intercooler aria-aria" }
+    - { valore: "427 Nm", testo: "a 2500 giri/min nelle versioni dal restyling del 1994" }
+    - { valore: "8,0:1", testo: "rapporto di compressione, contro 10,0:1 del 6G72 DOHC aspirato" }
+  versioni:
+    - { nome: "GTO Twin Turbo (Giappone)", anni: "1990–2000", cv: 280, nm: 427, nota: "Coppia salita a 427 Nm con il restyling" }
+    - { nome: "3000GT VR-4 / Stealth R/T Turbo (USA)", anni: "1991–1993", cv: 304, nm: 416, nota: "300 hp a 5500 giri/min; cambio Getrag a 5 marce" }
+    - { nome: "3000GT VR-4 / Stealth R/T Turbo (USA) restyling", anni: "1994–1999", cv: 324, nm: 427, nota: "320 hp a 6000 giri/min; cambio Getrag a 6 marce" }
+  modelli:
+    - { nome: "Mitsubishi GTO Twin Turbo", anni: "1990–2000" }
+    - { nome: "Mitsubishi 3000GT VR-4", anni: "1991–1999" }
+    - { nome: "Dodge Stealth R/T Turbo", anni: "1991–1996" }
+  storia: >-
+    Versione biturbo del V6 a 60° 6G72 con testate DOHC a 24 valvole, sviluppata per la coupé a trazione integrale GTO, venduta
+    fuori dal Giappone come 3000GT e, in versione Dodge, come Stealth. Ogni bancata ha un turbocompressore Mitsubishi e un intercooler
+    dedicati; la compressione scende a 8,0:1. Con il restyling del 1994 la versione americana passa da 300 a 320 hp e adotta il
+    cambio Getrag a sei marce; la produzione della GTO termina nel 2000.
+  punti_deboli:
+    - "Punterie idrauliche rumorose (ticchettio): passaggio olio ridotto nelle punterie originali 1991–1996, migliora con olio pulito o punterie nuove"
+    - "Cinghia di distribuzione e tendicinghia idraulico da sostituire con rulli e pompa acqua a intervalli regolari"
+    - "Condensatori elettrolitici della centralina che perdono con l'età, causa di spegnimenti e mancati avviamenti"
+  limiti: >-
+    Le TD04-09B di serie sono piccole e limitano gli incrementi ottenibili con la sola gestione elettronica. Potenze più alte
+    richiedono turbo maggiorati, iniettori e pompa benzina adeguati; la tenuta degli organi interni dipende dalla preparazione.
+  curiosita:
+    - "La versione europea, in vendita dall'autunno 1992, usava turbo TD04-13G a circa 0,9 bar (13 psi) contro 0,6 bar (9 psi) di Giappone e USA, per 286 CV."
+    - "Le versioni turbo non sono mai state offerte con cambio automatico."
+
+- slug: subaru-ez30-ez36
+  codice: EZ30D / EZ36D
+  nome: Subaru EZ30 / EZ36 boxer sei cilindri
+  costruttore: Subaru
+  paese: Giappone
+  inizio: 2000
+  fine: 2019
+  architettura: Boxer 6
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 3629
+  alesaggio: 92.0
+  corsa: 91.0
+  compressione: "10.5–10.7:1"
+  distribuzione: DOHC a catena, AVCS (doppio sull'EZ36)
+  valvole: 4
+  blocco: Alluminio pressofuso, canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta
+  cv_min: 215
+  cv_max: 260
+  nm_max: 350
+  limitatore: 6500
+  in_breve:
+    - { valore: "AVLS", testo: "alzata variabile delle valvole di aspirazione sull'EZ30 seconda serie (2003)" }
+    - { valore: "92 × 91", testo: "alesaggio e corsa in mm dell'EZ36, quasi quadro" }
+    - { valore: "Stessi ingombri", testo: "l'EZ36 mantiene interasse dei cilindri e altezza del basamento dell'EZ30" }
+  versioni:
+    - { nome: "EZ30 prima serie (Outback H6, Legacy Lancaster 6)", anni: "2000–2004", cv: 220, nm: 289, nota: "212 hp e 280 Nm in Nord America; 89,2 × 80 mm, 2999 cc" }
+    - { nome: "EZ30 seconda serie (Legacy / Outback 3.0R, B9 Tribeca)", anni: "2003–2009", cv: 245, nm: 297, nota: "245 CV a 6600 giri/min; AVLS" }
+    - { nome: "EZ36 (Tribeca, Legacy / Outback 3.6R)", anni: "2007–2019", cv: 260, nm: 335, nota: "Doppio AVCS, benzina normale; 350 Nm dichiarati in Australia" }
+  modelli:
+    - { nome: "Subaru Legacy, Outback (H6, Lancaster 6, 3.0R)", anni: "2000–2009" }
+    - { nome: "Subaru B9 Tribeca, Tribeca", anni: "2006–2014" }
+    - { nome: "Subaru Legacy, Outback 3.6R", anni: "2009–2019" }
+  storia: >-
+    Famiglia di boxer sei cilindri aspirati con basamento in alluminio pressofuso, canne in ghisa e distribuzione a catena, nata per
+    le versioni di punta di Legacy e Outback. La seconda serie dell'EZ30 (2003) introduce l'alzata variabile in aspirazione e tre luci
+    di scarico per testata. L'EZ36 del 2007 porta alesaggio a 92 mm e corsa a 91 mm mantenendo gli ingombri esterni, con fasatura
+    variabile su aspirazione e scarico e taratura per benzina normale. I dati costruttivi indicati in alto sono quelli dell'EZ36.
+  punti_deboli:
+    - "Tendicatena della distribuzione sensibile all'olio non conforme alle specifiche"
+    - "Consumo d'olio progressivo oltre i 150.000 km circa (EZ30)"
+    - "Perdite d'olio e sensibilità al surriscaldamento segnalate sull'impianto di raffreddamento"
+  limiti: >-
+    Motore aspirato poco documentato in ambito elaborazioni: con aspirazione e scarico i guadagni sono modesti. Con sovralimentazione
+    aftermarket conviene restare su incrementi moderati per la compressione di 10,5–10,7:1 e gli organi interni di serie.
+  curiosita:
+    - "Subaru non ha mai usato la sigla EZ30R: è un nome diffuso per la seconda serie dell'EZ30D, montata sulle versioni 3.0R."
+    - "Nell'EZ36 le bielle hanno la testa divisa per frattura con taglio obliquo e il basamento è stato lavorato per lasciare spazio alla maggiore escursione."
+
+- slug: subaru-fa20dit-fa24
+  codice: FA20DIT / FA24D / FA24F
+  nome: Subaru FA20DIT / FA24 boxer
+  costruttore: Subaru
+  paese: Giappone
+  inizio: 2012
+  fine:
+  architettura: Boxer 4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Turbo / Aspirato
+  cilindrata: 2387
+  alesaggio: 94.0
+  corsa: 86.0
+  compressione: "10.6–12.5:1"
+  distribuzione: DOHC a catena, fasatura variabile
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Diretta (D-4S diretta e indiretta sull'FA24D)
+  cv_min: 231
+  cv_max: 300
+  nm_max: 400
+  limitatore: 7400
+  in_breve:
+    - { valore: "300 CV", testo: "e 400 Nm del FA20DIT su Legacy 2.0GT DIT, Levorg e WRX S4 giapponesi" }
+    - { valore: "94 × 86", testo: "alesaggio e corsa in mm del FA24: cresce l'alesaggio, la corsa resta quella del FA20" }
+    - { valore: "Twin-scroll", testo: "turbo del FA20DIT in posizione bassa e centrale, con collettore a condotti di uguale lunghezza" }
+  versioni:
+    - { nome: "FA20DIT Legacy 2.0GT DIT / Levorg / WRX S4 (Giappone)", anni: "2012–2021", cv: 300, nm: 400, nota: "1998 cc, 86 × 86 mm, compressione 10,6:1" }
+    - { nome: "FA20DIT Forester XT (Giappone)", anni: "2012–2018", cv: 280, nm: 350, nota: "253 CV negli USA" }
+    - { nome: "FA20DIT WRX (USA)", anni: "2015–2021", cv: 272, nm: 350, nota: "Limitatore a 6700 giri/min" }
+    - { nome: "FA24F Ascent / Legacy XT / Outback XT (USA)", anni: "2018–oggi", cv: 264, nm: 376, nota: "Compressione 10,6:1" }
+    - { nome: "FA24F WRX / Levorg", anni: "2021–oggi", cv: 275, nm: 350, nota: "376 Nm su WRX S4 e Levorg giapponesi" }
+    - { nome: "FA24D BRZ / GR86", anni: "2021–oggi", cv: 235, nm: 250, nota: "Aspirato, compressione 12,5:1; 228 hp negli USA" }
+  modelli:
+    - { nome: "Subaru Legacy B4, Legacy Touring Wagon 2.0GT DIT", anni: "2012–2014" }
+    - { nome: "Subaru Forester XT", anni: "2012–2018" }
+    - { nome: "Subaru Levorg", anni: "2014–oggi" }
+    - { nome: "Subaru WRX, WRX S4", anni: "2014–oggi" }
+    - { nome: "Subaru Ascent", anni: "2018–oggi" }
+    - { nome: "Subaru Legacy XT, Outback XT", anni: "2019–oggi" }
+    - { nome: "Subaru BRZ (ZD8)", anni: "2021–oggi" }
+    - { nome: "Toyota GR86", anni: "2021–oggi" }
+  storia: >-
+    Il FA20DIT, presentato nel 2012 sulla Legacy giapponese 2.0GT DIT, è la versione sovralimentata del boxer FA a corsa lunga, con
+    sola iniezione diretta e turbo twin-scroll; sostituisce l'EJ20 turbo su WRX, Levorg e Forester XT. Il FA24 porta l'alesaggio a 94 mm
+    per 2387 cc: il FA24F turbo debutta nel 2018 sull'Ascent e passa poi a Legacy, Outback, WRX e Levorg, mentre il FA24D aspirato con
+    iniezione Toyota D-4S equipaggia dal 2021 la seconda BRZ e la Toyota GR86. I dati costruttivi indicati in alto sono quelli del FA24.
+  punti_deboli:
+    - "FA20DIT: bielle asimmetriche soggette a piegatura o rottura con pressioni di sovralimentazione elevate ai bassi regimi su motori elaborati"
+    - "Depositi carboniosi sulle valvole di aspirazione nelle versioni a sola iniezione diretta"
+    - "FA24D: segnalazioni di residui di sigillante nel pescante dell'olio e pressione olio da controllare in uso pista"
+  limiti: >-
+    FA20DIT: con organi interni di serie i preparatori indicano come limite pratico circa 380–400 lb-ft alla ruota (515–540 Nm);
+    oltre, bielle e pistoni fusi diventano critici. FA24F: esperienze ancora limitate, considerato più robusto nelle bielle.
+  curiosita:
+    - "Sulla GR86 e sulla BRZ di seconda generazione il FA24D sale fino a 7400 giri/min sia con il cambio manuale sia con l'automatico."
+
+- slug: hyundai-lambda-v6
+  codice: G6DB / G6DA / G6DH / G6DP
+  nome: Hyundai Lambda V6
+  costruttore: Hyundai
+  paese: Corea del Sud
+  inizio: 2005
+  fine:
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Benzina
+  aspirazione: Aspirato / Biturbo
+  cilindrata: 3778
+  alesaggio: 96.0
+  corsa: 87.0
+  compressione: "10.0–13.0:1"
+  distribuzione: DOHC a catena, CVVT (doppio dal Lambda II)
+  valvole: 4
+  blocco: Alluminio
+  testa: Alluminio
+  iniezione: Indiretta (MPi) / Diretta (GDi, T-GDi)
+  cv_min: 233
+  cv_max: 370
+  nm_max: 510
+  limitatore: 6500
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate, blocco e testate in alluminio" }
+    - { valore: "6500 giri/min", testo: "zona rossa della Genesis Coupé 3.8 nella prova Edmunds del 2011" }
+    - { valore: "370 CV", testo: "nel 3.3 T-GDi biturbo di Kia Stinger e Genesis G70" }
+  versioni:
+    - { nome: "3.3 MPi (G6DB)", anni: "2005–2011", cv: 233, nm: 304, nota: "92 x 83,8 mm; fino a 247 CV" }
+    - { nome: "3.8 MPi (G6DA)", anni: "2005–2010", cv: 250, nm: 343, nota: "96 x 87 mm; fino a 267 CV" }
+    - { nome: "3.8 Lambda II RS MPi, Genesis Coupé", anni: "2009–2012", cv: 310, nm: 361, nota: "Montaggio longitudinale; zona rossa 6500 giri/min" }
+    - { nome: "3.3 GDi (G6DH)", anni: "2011–2016", cv: 298, nm: 346, nota: "Compressione 11,5:1; da 284 CV" }
+    - { nome: "3.8 GDi, Genesis Coupé", anni: "2013–2016", cv: 353, nm: 400, nota: "Potenza massima a 6400 giri/min" }
+    - { nome: "3.8 GDi ciclo Atkinson, Palisade / Telluride", anni: "2018–2025", cv: 295, nm: 355, nota: "Compressione 13,0:1" }
+    - { nome: "3.3 T-GDi (G6DP)", anni: "2015–oggi", cv: 370, nm: 510, nota: "Biturbo Garrett, compressione 10,0:1" }
+  modelli:
+    - { nome: "Hyundai Sonata (NF), Santa Fe, Grandeur / Azera", anni: "2005–2022" }
+    - { nome: "Hyundai Genesis (BH, DH), Equus", anni: "2008–2016" }
+    - { nome: "Hyundai Genesis Coupé", anni: "2009–2016" }
+    - { nome: "Hyundai Veracruz, Palisade", anni: "2007–2024" }
+    - { nome: "Kia Opirus / Amanti, Sorento, Carnival / Sedona", anni: "2005–2020" }
+    - { nome: "Kia Mohave / Borrego, K7 / Cadenza", anni: "2008–2021" }
+    - { nome: "Kia Stinger", anni: "2017–2023" }
+    - { nome: "Kia K9 / K900", anni: "2012–oggi" }
+    - { nome: "Kia Telluride", anni: "2019–2025" }
+    - { nome: "Genesis G70, G80, G90", anni: "2015–oggi" }
+  storia: >-
+    V6 a 60° interamente in alluminio, con quattro valvole per cilindro e distribuzione a catena, introdotto nel 2005 in
+    sostituzione del Sigma. La prima serie ha fasatura variabile solo all'aspirazione; il Lambda II la estende allo scarico e
+    comprende la variante RS a montaggio longitudinale per Genesis, Equus e Genesis Coupé. Dal 2011 arriva l'iniezione diretta
+    (GDi) e dal 2015 il 3.3 T-GDi biturbo. Prodotto ad Asan in Corea e in passato anche a Montgomery (Alabama); la cilindrata
+    indicata è quella del 3.8.
+  punti_deboli:
+    - "Prima serie MPi: consumo d'olio progressivo per usura dei raschiaolio, con rischio di danni alle bronzine se il livello scende"
+    - "Catena di distribuzione e tenditore idraulico sulle prime serie, con sostituzione costosa insieme ai variatori di fase"
+    - "Versioni GDi e T-GDi: depositi carboniosi sulle valvole di aspirazione; gioco valvole da controllare periodicamente (punterie meccaniche)"
+  limiti: >-
+    Sul 3.3 T-GDi i componenti critici per aumenti oltre i valori di serie sono i turbocompressori Garrett e il circuito di
+    raffreddamento, sensibile al surriscaldamento. Sugli aspirati il limite pratico è legato a catena di distribuzione e
+    lubrificazione. Una versione da 4,1 litri sovralimentata con organi interni specifici, preparata da Rhys Millen Racing, ha
+    superato i 750 CV.
+  curiosita:
+    - "Rhys Millen Racing ha realizzato un Lambda II RS da 4,1 litri con alesaggio e corsa maggiorati e turbocompressore per un tentativo di record alla Pikes Peak."
+    - "Al SEMA Show 2013 Hyundai ha annunciato un programma di motori crate, partito con il 3.8 V6 a iniezione diretta."
+
+- slug: gm-lt-gen-v
+  codice: LT1 / LT2 / LT4 / LT5
+  nome: GM small-block LT (Gen V)
+  costruttore: General Motors
+  paese: Stati Uniti
+  inizio: 2014
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato / Compressore
+  cilindrata: 6162
+  alesaggio: 103.25
+  corsa: 92.0
+  compressione: "10.0–11.5:1"
+  distribuzione: OHV ad aste e bilancieri, fasatura variabile continua
+  valvole: 2
+  blocco: Alluminio, canne in ghisa
+  testa: Alluminio
+  iniezione: Diretta (LT5 diretta + indiretta)
+  cv_min: 461
+  cv_max: 765
+  nm_max: 970
+  limitatore: 6600
+  in_breve:
+    - { valore: "6600 giri/min", testo: "regime massimo dichiarato da GM per LT1 e LT4 (6500 per l'LT5)" }
+    - { valore: "150 bar", testo: "pressione dell'iniezione diretta dell'LT1, con pompa ad alta pressione azionata dal motore" }
+    - { valore: "765 CV", testo: "nell'LT5 della Corvette ZR1 C7, con compressore da 2,65 litri" }
+  versioni:
+    - { nome: "LT1, Corvette C7 Stingray / Grand Sport", anni: "2014–2019", cv: 461, nm: 624, nota: "466 CV e 630 Nm con scarico Performance" }
+    - { nome: "LT1, Camaro SS", anni: "2016–2024", cv: 461, nm: 617, nota: "" }
+    - { nome: "LT4, Corvette Z06 C7", anni: "2015–2019", cv: 659, nm: 881, nota: "Compressore Eaton da 1,7 litri, compressione 10,0:1" }
+    - { nome: "LT4, Cadillac CTS-V", anni: "2016–2019", cv: 649, nm: 855, nota: "" }
+    - { nome: "LT4, Camaro ZL1", anni: "2017–2024", cv: 659, nm: 881, nota: "" }
+    - { nome: "LT4, Cadillac CT5-V Blackwing", anni: "2022–oggi", cv: 677, nm: 893, nota: "Anche con cambio manuale a 6 marce" }
+    - { nome: "LT4, Cadillac Escalade-V", anni: "2023–oggi", cv: 691, nm: 885, nota: "Compressore maggiorato" }
+    - { nome: "LT5, Corvette ZR1 C7", anni: "2019", cv: 765, nm: 970, nota: "Iniezione diretta e indiretta; 783 CV con aspirazione opzionale" }
+    - { nome: "LT2, Corvette C8 Stingray / E-Ray", anni: "2020–2026", cv: 502, nm: 637, nota: "Con scarico Performance; carter secco di serie" }
+  modelli:
+    - { nome: "Chevrolet Corvette C7 (Stingray, Grand Sport, Z06, ZR1)", anni: "2014–2019" }
+    - { nome: "Chevrolet Camaro SS, ZL1", anni: "2016–2024" }
+    - { nome: "Chevrolet Corvette C8 Stingray, E-Ray", anni: "2020–2026" }
+    - { nome: "Cadillac CTS-V", anni: "2016–2019" }
+    - { nome: "Cadillac CT5-V Blackwing", anni: "2022–oggi" }
+    - { nome: "Cadillac Escalade-V", anni: "2023–oggi" }
+  storia: >-
+    Quinta generazione del small-block Chevrolet, debutta con l'LT1 sulla Corvette C7 del 2014. Mantiene l'architettura di base
+    dell'LS3 con aste e bilancieri e due valvole per cilindro, ma adotta un nuovo basamento, testate con condotti ridisegnati,
+    iniezione diretta, fasatura variabile continua e disattivazione di quattro cilindri. Le versioni sovralimentate LT4 e LT5
+    usano compressori volumetrici Eaton; l'LT5 introduce la doppia iniezione diretta e indiretta. L'LT2 della Corvette C8 a motore
+    centrale ha lubrificazione a carter secco di serie.
+  punti_deboli:
+    - "LT4 della Corvette Z06 C7: surriscaldamento in pista con passaggio alla modalità di emergenza, oggetto di class action nel 2017; GM ha rivisto il cofano con prese d'aria maggiorate"
+    - "LT2 delle Corvette C8 costruite tra giugno e settembre 2020: molle valvola soggette a rottura, con controllo previsto da un service update GM"
+  limiti: >-
+    Gli LT4 di serie erogano tra 649 e 691 CV con bielle in acciaio sinterizzato forgiato; per potenze superiori a quelle dell'LT5
+    di serie conviene rinforzare gli organi interni. Sulle versioni sovralimentate il componente critico in uso prolungato è la
+    gestione termica di compressore e intercooler.
+  curiosita:
+    - "L'LT5 è il primo motore GM con doppio sistema di iniezione: diretta principale e indiretta supplementare."
+    - "Il carter secco dell'LT2 consente di montare il motore più in basso nel telaio della Corvette C8."
+
+- slug: gm-lt6
+  codice: LT6
+  nome: GM LT6 5.5 V8 ad albero piatto
+  costruttore: General Motors
+  paese: Stati Uniti
+  inizio: 2023
+  fine:
+  architettura: V8
+  angolo: 90
+  cilindri: 8
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 5463
+  alesaggio: 104.25
+  corsa: 80.0
+  compressione: "12.5:1"
+  distribuzione: DOHC a catena, punterie meccaniche a dito, fasatura variabile
+  valvole: 4
+  blocco: Alluminio A319-T7 fuso in sabbia, canne in ghisa
+  testa: Alluminio A356-T6
+  iniezione: Diretta a 350 bar
+  cv_min: 679
+  cv_max: 679
+  nm_max: 623
+  limitatore: 8600
+  in_breve:
+    - { valore: "8600 giri/min", testo: "regime di intervento del limitatore; potenza massima a 8400 giri/min" }
+    - { valore: "Albero piatto", testo: "albero motore forgiato a manovelle a 180°, senza alberi di equilibratura" }
+    - { valore: "Titanio", testo: "bielle forgiate e valvole di aspirazione da 42 mm" }
+  versioni:
+    - { nome: "Corvette Z06 (C8)", anni: "2023–oggi", cv: 679, nm: 623, nota: "Coppia massima a 6300 giri/min; cambio doppia frizione a 8 marce" }
+  modelli:
+    - { nome: "Chevrolet Corvette Z06 (C8)", anni: "2023–oggi" }
+  storia: >-
+    V8 aspirato a quattro alberi a camme in testa, sviluppato per la Corvette Z06 C8 (anno modello 2023) e assemblato a mano nel
+    Performance Build Center di Bowling Green. Nonostante la sigla LT non appartiene alla famiglia small-block ad aste, ma ne
+    conserva l'interasse tra i cilindri di 4,400 pollici. Corsa di 80 mm con rapporto alesaggio/corsa di circa 1,3, pistoni e
+    bielle forgiati, lubrificazione a carter secco con quattro punti di recupero nel basamento e due nelle testate. Le testate
+    sono in pratica comuni a quelle del motore della Corvette C8.R da competizione.
+  punti_deboli:
+    - "Ticchettio eccessivo della distribuzione su esemplari 2023, attribuito a cappelli degli alberi a camme non allineati; GM ha previsto una procedura di riallineamento"
+    - "Rotture isolate a basso chilometraggio sui primi esemplari, con sospetto cedimento delle bronzine di biella"
+  limiti: >-
+    Motore aspirato ad alto regime con organi interni forgiati; non esistono dati ufficiali su soglie di potenza con
+    sovralimentazione. In uso intensivo i punti critici sono lubrificazione e gestione termica; la versione biturbo derivata è
+    l'LT7 della Corvette ZR1, motore distinto.
+  curiosita:
+    - "Ogni perno di manovella ha un proprio vano nel basamento e ogni pistone è raffreddato da uno spruzzatore d'olio."
+    - "Le valvole di scarico, da 35 mm, sono riempite di sodio; quelle di aspirazione sono in titanio."

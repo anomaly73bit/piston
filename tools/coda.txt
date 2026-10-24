@@ -2,36 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Toyota 2GR-FE / 2GR-FSE | V6 3.5, Lotus Evora
-Toyota 1KD-FTV / 1GD-FTV | diesel Land Cruiser, Hilux
-Toyota 2UR-GSE | Lexus IS F, RC F, LC 500
-Toyota 7M-GTE | Supra MkIII
-Toyota 2AR / M20A Dynamic Force | M20A e A25A ibridi
-Nissan VQ35DE / VQ37VHR | 350Z, 370Z, Infiniti
-Nissan RB25DET | Skyline R33/R34 GTS-T
-Nissan VG30DETT | 300ZX Z32
-Nissan CA18DET | Silvia S12/S13
-Nissan VR30DDTT | Z RZ34, Infiniti Q50
-Honda H22A | Prelude, Accord Type R
-Honda B18C | Integra Type R DC2
-Honda D16 | Civic anni '90
-Honda J35 / J37 V6 | Accord, Acura
-Honda JNC1 (NSX ibrida) | NSX NC1
-Mazda B6 / BP (MX-5) | MX-5 NA/NB
-Mazda Skyactiv-G 2.0 / 2.5 | compressione 13:1
-Mazda Skyactiv-X | accensione a compressione controllata da candela
-Mazda 20B-REW | Eunos Cosmo triplo rotore
-Mazda 26B | 787B, Le Mans 1991
-Mitsubishi 4B11T | Lancer Evolution X
-Mitsubishi 6G72TT | 3000GT VR-4, GTO
-Mitsubishi 4G93 GDI | primo benzina a iniezione diretta moderno
-Subaru EZ30 / EZ36 | boxer sei cilindri
-Subaru FA20DIT / FA24 | WRX, Levorg, BRZ/GR86
-Hyundai Theta 2.0 turbo | Genesis Coupé, Veloster N (Theta II)
-Hyundai Smartstream G2.5T / N 2.0 T-GDi | i30 N, Elantra N
-Kia/Hyundai Lambda V6 | 3.3 / 3.8
-GM LT1 / LT2 / LT4 / LT5 Gen V | Corvette C7/C8, Camaro
-GM LT6 albero piatto | Corvette Z06 C8
 GM Northstar V8 | Cadillac
 GM Ecotec LSJ / LNF 2.0 turbo | Cobalt SS, Opel GT, Solstice
 Chrysler/Dodge 8.0 / 8.4 V10 Viper | Viper RT/10–ACR
@@ -280,3 +250,7 @@ Lotus Type 918 V8 3.5 biturbo | Esprit V8, Esprit GT
 TVR AJP8 V8 | Cerbera, Griffith Speed Eight
 Aston Martin V8 Tadek Marek 5.3 | V8 Vantage, Virage, Lagonda, Vantage V600
 Cosworth/Aston Martin 6.5 V12 aspirato | Valkyrie coupé e Spider
+Toyota 2AR / M20A Dynamic Force | M20A e A25A ibridi
+Mitsubishi 4G93 GDI | primo benzina a iniezione diretta moderno
+Hyundai Theta 2.0 turbo | Genesis Coupé, Veloster N (Theta II)
+Hyundai Smartstream G2.5T / N 2.0 T-GDi | i30 N, Elantra N
