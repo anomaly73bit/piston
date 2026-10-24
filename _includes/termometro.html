@@ -1,0 +1,42 @@
+{%- comment -%}
+  Termometro dell'indice di affidabilità (0–100).
+  Parametri: a (oggetto affidabilita: indice, motivo, provvisorio)
+{%- endcomment -%}
+{%- assign v = include.a.indice | plus: 0 -%}
+{%- if v >= 90 -%}{%- assign fascia = "Ottima" -%}{%- assign classe = "f5" -%}
+{%- elsif v >= 75 -%}{%- assign fascia = "Buona" -%}{%- assign classe = "f4" -%}
+{%- elsif v >= 60 -%}{%- assign fascia = "Discreta" -%}{%- assign classe = "f3" -%}
+{%- elsif v >= 40 -%}{%- assign fascia = "Problematica" -%}{%- assign classe = "f2" -%}
+{%- else -%}{%- assign fascia = "Critica" -%}{%- assign classe = "f1" -%}{%- endif -%}
+{%- assign h = v | times: 1.6 -%}
+{%- assign y = 170 | minus: h -%}
+<figure class="termometro {{ classe }}">
+  <svg viewBox="0 0 76 220" role="img" aria-label="Indice di affidabilità {{ v }} su 100, {{ fascia | downcase }}">
+    <defs>
+      <linearGradient id="scala-aff" x1="0" y1="170" x2="0" y2="10" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#C0392B"/>
+        <stop offset="0.4" stop-color="#E67E22"/>
+        <stop offset="0.6" stop-color="#E3B008"/>
+        <stop offset="0.75" stop-color="#7CB342"/>
+        <stop offset="1" stop-color="#2E8B57"/>
+      </linearGradient>
+    </defs>
+    <rect class="tubo" x="22" y="4" width="22" height="182" rx="11"/>
+    <rect x="27" y="{{ y }}" width="12" height="{{ h | plus: 12 }}" fill="url(#scala-aff)"/>
+    <circle class="bulbo" cx="33" cy="196" r="20"/>
+    <circle class="bulbo-vetro" cx="33" cy="196" r="20"/>
+    {%- for t in (0..4) -%}
+      {%- assign ty = t | times: 40 | minus: 170 | times: -1 -%}
+    <line class="tacca" x1="46" y1="{{ ty }}" x2="54" y2="{{ ty }}"/>
+    <text x="57" y="{{ ty | plus: 3.5 }}">{{ t | times: 25 }}</text>
+    {%- endfor %}
+  </svg>
+  <figcaption>
+    <span class="aff-titolo">Affidabilità</span>
+    <span class="aff-valore">{{ v }}<small>/100</small></span>
+    <span class="aff-fascia">{{ fascia }}</span>
+    <span class="aff-motivo">{{ include.a.motivo }}</span>
+    {% if include.a.provvisorio %}<span class="aff-nota">Valutazione provvisoria: dati di lungo periodo limitati.</span>{% endif %}
+    <a class="aff-metodo" href="{{ '/metodo/' | relative_url }}#affidabilita">Come si calcola</a>
+  </figcaption>
+</figure>

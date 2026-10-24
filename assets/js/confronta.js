@@ -34,7 +34,8 @@
     { k: 'cv_max', t: 'Potenza massima', u: 'CV' },
     { k: 'nm_max', t: 'Coppia massima', u: 'Nm' },
     { k: 'limitatore', t: 'Limitatore', u: 'giri/min' },
-    { k: 'cv_litro', t: 'Potenza specifica', u: 'CV/litro' }
+    { k: 'cv_litro', t: 'Potenza specifica', u: 'CV/litro' },
+    { k: 'aff', t: 'Affidabilità', u: '/100' }
   ];
   var testi = [
     { k: 'architettura', t: 'Architettura' },
@@ -55,6 +56,7 @@
     scelti.forEach(function (m) {
       m.cv_litro = Math.round(m.cv_max / (m.cilindrata / 1000));
       m.periodo = m.inizio + '–' + (m.fine || 'oggi');
+      m.aff = m.affidabilita ? m.affidabilita.indice : 0;
     });
     var col = 'style="--colonne:' + scelti.length + '"';
     var h = '<div class="confronto-teste" ' + col + '>';

@@ -8,7 +8,7 @@ import yaml
 RADICE = pathlib.Path(__file__).resolve().parent.parent
 OBBLIGATORI = ["slug", "codice", "nome", "costruttore", "paese", "inizio", "architettura", "cilindri",
                "alimentazione", "aspirazione", "cilindrata", "compressione", "distribuzione", "valvole",
-               "blocco", "testa", "iniezione", "cv_min", "cv_max", "nm_max", "limitatore", "in_breve",
+               "blocco", "testa", "iniezione", "cv_min", "cv_max", "nm_max", "limitatore", "affidabilita", "in_breve",
                "versioni", "modelli", "storia", "punti_deboli", "limiti", "curiosita"]
 ARCHITETTURE = {a["id"] for a in yaml.safe_load((RADICE / "_data/architetture.yml").read_text(encoding="utf-8"))}
 
@@ -47,6 +47,12 @@ def main() -> int:
             for x in m.get(k) or []:
                 if not isinstance(x, str):
                     errori.append(f"{nome}: voce di '{k}' letta come dizionario (mettere il testo tra virgolette): {x}")
+        af = m.get("affidabilita")
+        if af is not None:
+            if not isinstance(af, dict) or not isinstance(af.get("indice"), int) or not 0 <= af["indice"] <= 100:
+                errori.append(f"{nome}: 'affidabilita.indice' deve essere un intero da 0 a 100")
+            if not isinstance(af, dict) or not af.get("motivo"):
+                errori.append(f"{nome}: manca 'affidabilita.motivo'")
         f = m.get("foto")
         if f is not None:
             if not isinstance(f, dict) or not all(f.get(k) for k in ("url", "pagina", "autore", "licenza")):

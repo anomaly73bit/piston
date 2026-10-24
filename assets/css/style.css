@@ -309,3 +309,23 @@ h3 { font-size: 1rem; font-weight: 600; }
 
 
 .altra-marca { display: inline-block; margin-left: .4rem; padding: 0 .4rem; border-radius: var(--raggio); background: var(--giallo-tenue); color: var(--ghisa); font-size: .78rem; font-weight: 600; white-space: nowrap; }
+
+/* ---------- Termometro affidabilità ---------- */
+.termometro { --aff: #2E8B57; display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 1rem; align-items: center; }
+.termometro.f1 { --aff: #C0392B; } .termometro.f2 { --aff: #E67E22; } .termometro.f3 { --aff: #C99A06; }
+.termometro.f4 { --aff: #6A9F35; } .termometro.f5 { --aff: #2E8B57; }
+.termometro svg { width: 80px; height: auto; display: block; }
+.termometro .tubo { fill: var(--alluminio); stroke: var(--linea); stroke-width: 2; }
+.termometro .bulbo { fill: var(--aff); }
+.termometro .bulbo-vetro { fill: none; stroke: var(--linea); stroke-width: 2; }
+.termometro .tacca { stroke: var(--grafite); stroke-width: 1; }
+.termometro text { font-family: var(--testo); font-size: 9px; fill: var(--grafite); }
+.termometro figcaption { display: flex; flex-direction: column; gap: .2rem; margin: 0; font-size: .9rem; color: var(--ghisa); }
+.aff-titolo { font-size: .85rem; color: var(--grafite); }
+.aff-valore { font-stretch: 125%; font-weight: 800; font-size: 2.4rem; line-height: 1; color: var(--aff); }
+.aff-valore small { font-size: .45em; font-weight: 600; color: var(--grafite); }
+.aff-fascia { font-weight: 700; color: var(--aff); }
+.aff-motivo { line-height: 1.4; margin-top: .25rem; }
+.aff-nota { font-size: .8rem; color: var(--grafite); font-style: italic; }
+.aff-metodo { font-size: .8rem; margin-top: .25rem; }
+@media (max-width: 959px) { .termometro { grid-column: 1 / -1; } }

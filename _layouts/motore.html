@@ -38,6 +38,7 @@ layout: default
 
   <div class="motore-corpo">
     <aside class="tavola">
+      {% if m.affidabilita %}{% include termometro.html a=m.affidabilita %}{% endif %}
       {% if m.foto %}
       <figure class="foto">
         <img src="{{ m.foto.url }}" alt="{{ m.foto.descrizione | default: m.nome | escape }}" loading="lazy" decoding="async">

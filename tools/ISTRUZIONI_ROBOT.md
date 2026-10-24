@@ -24,6 +24,18 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    - In `modelli` ogni riga contiene **una sola marca** e inizia con il nome della marca (es. "Porsche Cayenne V6"):
      così la scheda segnala automaticamente le auto di altre marche. Se il motore equipaggia auto di marche diverse
      dal costruttore, elencale sempre in righe separate.
+3a. **Affidabilità.** Ogni voce ha il campo `affidabilita` subito dopo `limitatore:`:
+     ```
+       affidabilita:
+         indice: 72
+         motivo: "Una frase sul difetto principale che determina il punteggio."
+         provvisorio: true   # solo se il motore ha meno di 5 anni o è prodotto in pochissimi esemplari
+     ```
+   L'indice si assegna con i criteri della tabella in `metodo.md` (sezione "Indice di affidabilità"), basandosi solo su
+   difetti documentati (richiami, bollettini tecnici, fonti specializzate): 90–100 nessun difetto strutturale ricorrente;
+   75–89 solo difetti minori; 60–74 un difetto noto costoso ma prevenibile; 40–59 difetti ricorrenti che danneggiano il
+   motore; 0–39 difetti di progetto diffusi con rotture gravi. Confronta il valore con motori simili già presenti
+   per mantenere la scala coerente.
 3b. **Foto.** Per ogni motore aggiunto, e in più per **10 motori già presenti senza campo `foto`** (dal primo del file),
    cerca su Wikimedia Commons una foto che mostri **il motore stesso** (non l'auto intera), di quella famiglia.
    - Accetta solo licenze libere: CC0, pubblico dominio, CC BY, CC BY-SA. Leggi la licenza e l'autore sulla pagina del file.
