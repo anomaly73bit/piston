@@ -6,10 +6,10 @@ script: catalogo.js
 {%- assign motori = site.data.motori | sort: "inizio" -%}
 {%- assign costruttori = site.data.motori | map: "costruttore" | uniq | sort -%}
 {%- assign architetture = site.data.motori | map: "architettura" | uniq | sort -%}
-<section class="apertura">
+<section class="apertura apertura-foto">
   <div class="riga">
     <h1>Ogni motore, dal 1980 a oggi.</h1>
-    <p class="sottotitolo">Dati costruttivi, versioni, applicazioni, storia, difetti noti e limiti di elaborazione. Alesaggio e corsa sono disegnati in scala, in millimetri.</p>
+    <p class="sottotitolo">Dati costruttivi, versioni, applicazioni, storia, difetti noti e limiti di elaborazione. Alesaggio e corsa sono disegnati in scala, in millimetri.</p><p class="apertura-didascalia">L’ingegneria sotto il cofano · Archivio tecnico indipendente</p>
   </div>
 </section>
 
