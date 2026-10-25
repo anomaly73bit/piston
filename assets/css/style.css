@@ -329,3 +329,47 @@ h3 { font-size: 1rem; font-weight: 600; }
 .aff-nota { font-size: .8rem; color: var(--grafite); font-style: italic; }
 .aff-metodo { font-size: .8rem; margin-top: .25rem; }
 @media (max-width: 959px) { .termometro { grid-column: 1 / -1; } }
+
+/* Piston photographic editorial treatment — layered, readable, mobile-first. */
+.apertura-foto {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(340px, 44vw, 540px);
+  display: flex;
+  align-items: center;
+  background: #14202a;
+  color: #f6f8f9;
+}
+.apertura-foto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-image: url('https://images.unsplash.com/photo-1486496572940-2bb2341fdbdf?auto=format&fit=crop&w=1800&q=82');
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(.65) contrast(1.1);
+  opacity: .48;
+}
+.apertura-foto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(100deg, rgba(9,20,31,.95) 0%, rgba(9,20,31,.80) 49%, rgba(9,20,31,.34) 100%);
+}
+.apertura-foto .riga { width: 100%; }
+.apertura-foto h1 { color: #fff; max-width: 16ch; text-wrap: balance; }
+.apertura-foto .sottotitolo { color: #e5edf3; max-width: 52ch; }
+.apertura-didascalia { margin: 1.5rem 0 0; color: #f1c260; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; }
+.voce a { transition: background-color .18s ease, border-color .18s ease, transform .18s ease; }
+.voce a:hover { transform: translateX(3px); }
+.foto img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.foto figcaption { font-size: .75rem; line-height: 1.45; }
+@media(max-width:600px) {
+  .apertura-foto { min-height: 400px; }
+  .apertura-foto::after { background: linear-gradient(90deg,rgba(9,20,31,.94),rgba(9,20,31,.65)); }
+  .apertura-didascalia { letter-spacing: .07em; }
+}
+@media(prefers-reduced-motion:reduce) { .voce a { transition: none; } .voce a:hover { transform: none; } }
