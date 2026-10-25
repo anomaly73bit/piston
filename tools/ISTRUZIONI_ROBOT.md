@@ -1,6 +1,6 @@
 # Istruzioni per il robot che aggiunge motori
 
-Ogni esecuzione aggiunge **25 motori** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+Ogni esecuzione tenta di aggiungere **fino a 5 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
 L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte dal 1980 a oggi, di ogni costruttore.
 
 ## Procedura
@@ -8,7 +8,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
 1. Leggi `tools/coda.txt`. Prendi le prime righe non commentate.
    - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
      o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
-   - Continua finché hai 25 motori validi o la coda è vuota.
+   - Continua finché hai 5 motori validi o la coda è vuota.
 2. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
    riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
    delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
@@ -62,7 +62,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    Una riga = una famiglia di motore con scheda propria; raggruppa le varianti minime nella stessa riga.
    Niente doppioni con `_data/motori.yml` o con righe già in coda; niente motori solo da competizione o elettrici.
    Includi anche costruttori europei minori, asiatici (Hyundai, Kia, case cinesi e indiane con motori propri) e americani.
-7. Commit con messaggio "Aggiunti motori: <nomi>" e push sul ramo `main`.
+7. L'utente ha autorizzato gli aggiornamenti automatici sul ramo `main` (25 ottobre 2026). Esegui il commit solo dopo verifica delle fonti e della validazione. Commit con messaggio "Aggiunti motori: <nomi>" e push sul ramo `main`.
 
 ## Stile dei testi
 
