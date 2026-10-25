@@ -62,7 +62,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    Una riga = una famiglia di motore con scheda propria; raggruppa le varianti minime nella stessa riga.
    Niente doppioni con `_data/motori.yml` o con righe già in coda; niente motori solo da competizione o elettrici.
    Includi anche costruttori europei minori, asiatici (Hyundai, Kia, case cinesi e indiane con motori propri) e americani.
-7. Commit con messaggio "Aggiunti motori: <nomi>" e push sul ramo `main`.
+7. Lavora ESCLUSIVAMENTE sul ramo di sviluppo `feature/automatic-engine-catalog-preview`. Non fare mai push o merge su `main`. Proponi le nuove schede tramite pull request, da approvare manualmente.
 
 ## Stile dei testi
 

@@ -1,0 +1,45 @@
+name: Piston - catalogo motori (bozze)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2,8,14,20 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: piston-engine-catalog-drafts
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del branch di lavoro, mai main
+        uses: actions/checkout@v4
+        with:
+          ref: feature/automatic-engine-catalog-preview
+          persist-credentials: false
+      - name: Check Anthropic secret
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Add repository secret ANTHROPIC_API_KEY before enabling scheduled enrichment."
+            exit 1
+          fi
+      - name: Prepare candidate engine cards (review required)
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You are preparing an editorial draft for Piston, NOT publishing.
+            Read tools/ISTRUZIONI_ROBOT.md and tools/coda.txt.
+            Research up to 5 missing engine families using reliable public sources.
+            Do not invent specs, dates, reliability scores, photographs or licenses.
+            Add only adequately verified entries, with source URLs in a separate review report.
+            Verify YAML and run tools/valida.py and tools/genera_pagine.py.
+            NEVER edit or push to main. Work only in feature/automatic-engine-catalog-preview.
+            Do not merge any pull request. Leave changes for human review.
