@@ -29,10 +29,10 @@ script: catalogo.js
       <select id="f-architettura"><option value="">Toutes</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
     </label>
     <label><span>Carburant</span>
-      <select id="f-alimentazione"><option value="">Toutes</option><option>Essence</option><option>Diesel</option><option>Hybride</option></select>
+      <select id="f-alimentazione"><option value="">Toutes</option><option value="Benzina">Essence</option><option>Diesel</option><option value="Ibrido">Hybride</option></select>
     </label>
     <label><span>Suralimentation</span>
-      <select id="f-aspirazione"><option value="">Toutes</option><option>Atmosphérique</option><option>Turbo</option><option>Biturbo</option><option>Compresseur</option></select>
+      <select id="f-aspirazione"><option value="">Toutes</option><option value="Aspirato">Atmosphérique</option><option>Turbo</option><option>Biturbo</option><option value="Compressore">Compresseur</option></select>
     </label>
     <label><span>Décennie d’introduction</span>
       <select id="f-decennio"><option value="">Tous</option><option value="1970" >Années '70</option><option value="1980" >Années '80</option><option value="1990" >Années '90</option><option value="2000" >Années 2000</option><option value="2010" >Années 2010</option><option value="2020" >Années 2020</option></select>
