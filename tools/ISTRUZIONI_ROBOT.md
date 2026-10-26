@@ -80,3 +80,12 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
 
 Se la validazione o l'anteprima non passano dopo i tentativi di correzione, non fare push: annulla le modifiche
 e lascia la coda invariata.
+
+
+## Localizzazione obbligatoria (IT / EN / CZ / FR)
+
+- L'italiano in `_data/motori.yml` è il testo canonico; non alterarlo per tradurre.
+- Per ogni nuovo motore e per ogni testo aggiornato, generare e revisionare le traduzioni complete EN, CS (etichetta menu CZ) e FR, mantenendo i codici motore, le unità e i numeri invariati.
+- Lo strumento `tools/traduci.py` traduce incrementalmente i campi `storia`, `limiti`, `punti_deboli`, `curiosita`, `manutenzione`, `versioni[].nota`, `in_breve[].testo` e `affidabilita.motivo` e salva `_data/traduzioni/{en,cs,fr}.json`.
+- Le traduzioni automatiche devono essere controllate, in particolare nomi dei componenti, negazioni, intervalli e difetti. Se il servizio di traduzione è irraggiungibile, registrare esplicitamente il blocco; non dichiarare la localizzazione completa.
+- Non pubblicare nuove pagine editoriali soltanto in italiano: fornire tutte le lingue oppure dichiarare esplicitamente lo stato incompleto.
