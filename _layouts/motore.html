@@ -47,7 +47,7 @@ layout: default
 
   <div class="motore-corpo">
     <aside class="tavola">
-      {% if m.affidabilita %}{% include termometro.html a=m.affidabilita %}{% endif %}
+      {% if m.affidabilita %}{% include termometro.html a=m.affidabilita motivo=trad.affidabilita.motivo %}{% endif %}
       {% if m.foto %}
       <figure class="foto">
         <img src="{{ m.foto.url }}" alt="{{ m.foto.descrizione | default: m.nome | escape }}" loading="lazy" decoding="async">
@@ -78,18 +78,18 @@ layout: default
         <h2 id="t-tecnica">Scheda tecnica</h2>
         <table class="specifiche">
           <tbody>
-            <tr><th scope="row">Costruttore</th><td>{{ m.costruttore }} ({{ m.paese }})</td></tr>
+            <tr><th scope="row">Costruttore</th><td>{{ m.costruttore }} ({% if trad.paese %}{{ trad.paese }}{% else %}{{ m.paese }}{% endif %})</td></tr>
             <tr><th scope="row">Architettura</th><td>{{ m.architettura }}{% if m.angolo %} a {{ m.angolo }}°{% endif %}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}rotori{% else %}cilindri{% endif %}</td></tr>
-            <tr><th scope="row">Alimentazione</th><td>{{ m.alimentazione }}</td></tr>
-            <tr><th scope="row">Aspirazione</th><td>{{ m.aspirazione }}</td></tr>
+            <tr><th scope="row">Alimentazione</th><td>{% if trad.alimentazione %}{{ trad.alimentazione }}{% else %}{{ m.alimentazione }}{% endif %}</td></tr>
+            <tr><th scope="row">Aspirazione</th><td>{% if trad.aspirazione %}{{ trad.aspirazione }}{% else %}{{ m.aspirazione }}{% endif %}</td></tr>
             <tr><th scope="row">Cilindrata</th><td>{{ m.cilindrata }} cc</td></tr>
             {% if m.alesaggio %}<tr><th scope="row">Alesaggio × corsa</th><td>{{ m.alesaggio | replace: ".", "," }} × {{ m.corsa | replace: ".", "," }} mm</td></tr>{% endif %}
             <tr><th scope="row">Rapporto di compressione</th><td>{{ m.compressione }}</td></tr>
-            <tr><th scope="row">Distribuzione</th><td>{{ m.distribuzione }}</td></tr>
+            <tr><th scope="row">Distribuzione</th><td>{% if trad.distribuzione %}{{ trad.distribuzione }}{% else %}{{ m.distribuzione }}{% endif %}</td></tr>
             {% if m.valvole != 0 %}<tr><th scope="row">Valvole per cilindro</th><td>{{ m.valvole }}</td></tr>{% endif %}
-            <tr><th scope="row">Basamento</th><td>{{ m.blocco }}</td></tr>
-            <tr><th scope="row">Testata</th><td>{{ m.testa }}</td></tr>
-            <tr><th scope="row">Iniezione</th><td>{{ m.iniezione }}</td></tr>
+            <tr><th scope="row">Basamento</th><td>{% if trad.blocco %}{{ trad.blocco }}{% else %}{{ m.blocco }}{% endif %}</td></tr>
+            <tr><th scope="row">Testata</th><td>{% if trad.testa %}{{ trad.testa }}{% else %}{{ m.testa }}{% endif %}</td></tr>
+            <tr><th scope="row">Iniezione</th><td>{% if trad.iniezione %}{{ trad.iniezione }}{% else %}{{ m.iniezione }}{% endif %}</td></tr>
             <tr><th scope="row">Limitatore</th><td>{{ m.limitatore }} giri/min</td></tr>
             {% if altre != "" %}<tr><th scope="row">Montato anche da altre marche</th><td>{{ altre }}</td></tr>{% endif %}
           </tbody>
@@ -166,7 +166,7 @@ layout: default
         <h2 id="t-fonti">Fonti e verifica</h2>
         {% if m.fonti and m.fonti.size > 0 %}
         <p><strong>Fonti registrate · verifica dei singoli dati non necessariamente completata.</strong> Riferimenti documentali associati a questa scheda. La presenza di una fonte non garantisce automaticamente la verifica di ogni singola versione.</p>
-        <ul>{% for f in m.fonti %}<li><a href="{{ f.url | escape }}" rel="noopener noreferrer">{{ f.titolo | escape }}</a>{% if f.nota %} — {{ f.nota | escape }}{% endif %}</li>{% endfor %}</ul>
+        <ul>{% for f in m.fonti %}<li><a href="{{ f.url | escape }}" rel="noopener noreferrer">{{ f.titolo | escape }}</a>{% if f.nota %} — {% if trad.fonti[forloop.index0].nota %}{{ trad.fonti[forloop.index0].nota | escape }}{% else %}{{ f.nota | escape }}{% endif %}{% endif %}</li>{% endfor %}</ul>
         {% else %}
         <p><strong>Fonti puntuali non ancora registrate.</strong> Questa scheda è in attesa di verifica documentale. I dati tecnici e le valutazioni editoriali non devono essere considerati certificati.</p>
         {% endif %}
