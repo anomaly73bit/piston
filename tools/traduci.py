@@ -37,12 +37,12 @@ def main():
                     if not result:
                         raise ValueError("empty translation")
                     memory[value] = result
-                    time.sleep(0.15)
+                    time.sleep(1.5)
                     return result
                 except Exception:
                     if attempt == 3:
                         raise
-                    time.sleep(2 ** attempt)
+                    time.sleep(30 * (attempt + 1))
         result = {"_memory": memory}
         for m in engines:
             item = {}
