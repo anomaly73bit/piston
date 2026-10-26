@@ -449,3 +449,10 @@ h3 { font-size: 1rem; font-weight: 600; }
 /* English entry and responsive header language link */
 .lingua-en { display:inline-flex;align-items:center;justify-content:center;min-width:2.2rem;min-height:2.2rem;padding:.3rem .5rem;border:1px solid currentColor;border-radius:3px;text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.06em;flex-shrink:0; }
 @media(max-width:760px) { .lingua-en { margin-left:auto; } }
+
+/* Four-language navigation */
+.lingue { display:flex;gap:.22rem;align-items:center;flex-shrink:0; }
+.lingue a { display:inline-flex;justify-content:center;align-items:center;padding:.4rem .43rem;min-width:2rem;min-height:2rem;border:1px solid transparent;border-radius:3px;text-decoration:none;font-weight:750;font-size:.75rem;letter-spacing:.03em; }
+.lingue a[aria-current="page"] { border-color:currentColor; }
+.lingue a:hover,.lingue a:focus-visible { text-decoration:underline; }
+@media(max-width:760px){ .lingue{margin-left:auto;gap:.1rem}.lingue a{padding:.35rem;min-width:1.85rem} }
