@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: vw-19-tdi\ntitle: Volkswagen 1.9 TDI\npermalink: /en/motori/vw-19-tdi/\n---\n
+---
+layout: motore
+locale: en
+slug: vw-19-tdi
+title: Volkswagen 1.9 TDI
+permalink: /en/motori/vw-19-tdi/
+---

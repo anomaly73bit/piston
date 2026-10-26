@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: honda-b16\ntitle: Honda B16 VTEC\npermalink: /cs/motori/honda-b16/\n---\n
+---
+layout: motore
+locale: cs
+slug: honda-b16
+title: Honda B16 VTEC
+permalink: /cs/motori/honda-b16/
+---

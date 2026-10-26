@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: ford-voodoo-predator\ntitle: Ford 5.2 Voodoo / Predator V8\npermalink: /fr/motori/ford-voodoo-predator/\n---\n
+---
+layout: motore
+locale: fr
+slug: ford-voodoo-predator
+title: Ford 5.2 Voodoo / Predator V8
+permalink: /fr/motori/ford-voodoo-predator/
+---

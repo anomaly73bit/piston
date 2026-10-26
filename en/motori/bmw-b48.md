@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: bmw-b48\ntitle: BMW B48\npermalink: /en/motori/bmw-b48/\n---\n
+---
+layout: motore
+locale: en
+slug: bmw-b48
+title: BMW B48
+permalink: /en/motori/bmw-b48/
+---

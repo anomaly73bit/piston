@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: toyota-3s-gte\ntitle: Toyota 3S-GTE\npermalink: /en/motori/toyota-3s-gte/\n---\n
+---
+layout: motore
+locale: en
+slug: toyota-3s-gte
+title: Toyota 3S-GTE
+permalink: /en/motori/toyota-3s-gte/
+---

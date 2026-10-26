@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: audi-ea839\ntitle: Audi 2.9 / 3.0 TFSI V6\npermalink: /en/motori/audi-ea839/\n---\n
+---
+layout: motore
+locale: en
+slug: audi-ea839
+title: Audi 2.9 / 3.0 TFSI V6
+permalink: /en/motori/audi-ea839/
+---

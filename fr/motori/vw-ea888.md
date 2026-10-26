@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: vw-ea888\ntitle: Volkswagen EA888 TSI/TFSI\npermalink: /fr/motori/vw-ea888/\n---\n
+---
+layout: motore
+locale: fr
+slug: vw-ea888
+title: Volkswagen EA888 TSI/TFSI
+permalink: /fr/motori/vw-ea888/
+---

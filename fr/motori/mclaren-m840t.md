@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mclaren-m840t\ntitle: McLaren M840T 4.0 V8\npermalink: /fr/motori/mclaren-m840t/\n---\n
+---
+layout: motore
+locale: fr
+slug: mclaren-m840t
+title: McLaren M840T 4.0 V8
+permalink: /fr/motori/mclaren-m840t/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: ferrari-f120\ntitle: Ferrari F120 V8 biturbo\npermalink: /cs/motori/ferrari-f120/\n---\n
+---
+layout: motore
+locale: cs
+slug: ferrari-f120
+title: Ferrari F120 V8 biturbo
+permalink: /cs/motori/ferrari-f120/
+---

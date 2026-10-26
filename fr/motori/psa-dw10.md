@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: psa-dw10\ntitle: PSA DW10 2.0 HDi / BlueHDi\npermalink: /fr/motori/psa-dw10/\n---\n
+---
+layout: motore
+locale: fr
+slug: psa-dw10
+title: PSA DW10 2.0 HDi / BlueHDi
+permalink: /fr/motori/psa-dw10/
+---

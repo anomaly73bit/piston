@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: honda-k20a\ntitle: Honda K20A i-VTEC\npermalink: /cs/motori/honda-k20a/\n---\n
+---
+layout: motore
+locale: cs
+slug: honda-k20a
+title: Honda K20A i-VTEC
+permalink: /cs/motori/honda-k20a/
+---

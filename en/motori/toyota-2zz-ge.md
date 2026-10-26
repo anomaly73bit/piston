@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: toyota-2zz-ge\ntitle: Toyota 2ZZ-GE 1.8 VVTL-i\npermalink: /en/motori/toyota-2zz-ge/\n---\n
+---
+layout: motore
+locale: en
+slug: toyota-2zz-ge
+title: Toyota 2ZZ-GE 1.8 VVTL-i
+permalink: /en/motori/toyota-2zz-ge/
+---

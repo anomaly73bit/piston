@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: mercedes-m256\ntitle: Mercedes-Benz M256 3.0 sei cilindri EQ Boost\npermalink: /cs/motori/mercedes-m256/\n---\n
+---
+layout: motore
+locale: cs
+slug: mercedes-m256
+title: Mercedes-Benz M256 3.0 sei cilindri EQ Boost
+permalink: /cs/motori/mercedes-m256/
+---

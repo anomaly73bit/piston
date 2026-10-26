@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-om651\ntitle: Mercedes-Benz OM651 2.1 diesel\npermalink: /fr/motori/mercedes-om651/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-om651
+title: Mercedes-Benz OM651 2.1 diesel
+permalink: /fr/motori/mercedes-om651/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: audi-25-tfsi\ntitle: Audi 2.5 TFSI cinque cilindri\npermalink: /fr/motori/audi-25-tfsi/\n---\n
+---
+layout: motore
+locale: fr
+slug: audi-25-tfsi
+title: Audi 2.5 TFSI cinque cilindri
+permalink: /fr/motori/audi-25-tfsi/
+---

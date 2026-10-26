@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: subaru-ez30-ez36\ntitle: Subaru EZ30 / EZ36 boxer sei cilindri\npermalink: /en/motori/subaru-ez30-ez36/\n---\n
+---
+layout: motore
+locale: en
+slug: subaru-ez30-ez36
+title: Subaru EZ30 / EZ36 boxer sei cilindri
+permalink: /en/motori/subaru-ez30-ez36/
+---

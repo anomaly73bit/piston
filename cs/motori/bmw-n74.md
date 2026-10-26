@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: bmw-n74\ntitle: BMW N74 V12 biturbo\npermalink: /cs/motori/bmw-n74/\n---\n
+---
+layout: motore
+locale: cs
+slug: bmw-n74
+title: BMW N74 V12 biturbo
+permalink: /cs/motori/bmw-n74/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: renault-m5p\ntitle: Renault M5Pt 1.8 TCe\npermalink: /cs/motori/renault-m5p/\n---\n
+---
+layout: motore
+locale: cs
+slug: renault-m5p
+title: Renault M5Pt 1.8 TCe
+permalink: /cs/motori/renault-m5p/
+---

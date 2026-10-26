@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: alfa-romeo-22-multijet\ntitle: Alfa Romeo 2.2 Multijet\npermalink: /cs/motori/alfa-romeo-22-multijet/\n---\n
+---
+layout: motore
+locale: cs
+slug: alfa-romeo-22-multijet
+title: Alfa Romeo 2.2 Multijet
+permalink: /cs/motori/alfa-romeo-22-multijet/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: gm-northstar\ntitle: GM Northstar V8\npermalink: /fr/motori/gm-northstar/\n---\n
+---
+layout: motore
+locale: fr
+slug: gm-northstar
+title: GM Northstar V8
+permalink: /fr/motori/gm-northstar/
+---

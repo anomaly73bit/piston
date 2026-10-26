@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: opel-x20xev\ntitle: Opel X20XEV Ecotec 2.0 16v\npermalink: /fr/motori/opel-x20xev/\n---\n
+---
+layout: motore
+locale: fr
+slug: opel-x20xev
+title: Opel X20XEV Ecotec 2.0 16v
+permalink: /fr/motori/opel-x20xev/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: maserati-nettuno\ntitle: Maserati Nettuno V6\npermalink: /fr/motori/maserati-nettuno/\n---\n
+---
+layout: motore
+locale: fr
+slug: maserati-nettuno
+title: Maserati Nettuno V6
+permalink: /fr/motori/maserati-nettuno/
+---

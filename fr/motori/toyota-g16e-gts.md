@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: toyota-g16e-gts\ntitle: Toyota G16E-GTS\npermalink: /fr/motori/toyota-g16e-gts/\n---\n
+---
+layout: motore
+locale: fr
+slug: toyota-g16e-gts
+title: Toyota G16E-GTS
+permalink: /fr/motori/toyota-g16e-gts/
+---

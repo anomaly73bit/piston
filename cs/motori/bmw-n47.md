@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: bmw-n47\ntitle: BMW N47 2.0 diesel\npermalink: /cs/motori/bmw-n47/\n---\n
+---
+layout: motore
+locale: cs
+slug: bmw-n47
+title: BMW N47 2.0 diesel
+permalink: /cs/motori/bmw-n47/
+---

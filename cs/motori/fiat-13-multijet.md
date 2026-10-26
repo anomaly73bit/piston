@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: fiat-13-multijet\ntitle: Fiat 1.3 Multijet\npermalink: /cs/motori/fiat-13-multijet/\n---\n
+---
+layout: motore
+locale: cs
+slug: fiat-13-multijet
+title: Fiat 1.3 Multijet
+permalink: /cs/motori/fiat-13-multijet/
+---

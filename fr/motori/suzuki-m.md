@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: suzuki-m\ntitle: Suzuki serie M\npermalink: /fr/motori/suzuki-m/\n---\n
+---
+layout: motore
+locale: fr
+slug: suzuki-m
+title: Suzuki serie M
+permalink: /fr/motori/suzuki-m/
+---

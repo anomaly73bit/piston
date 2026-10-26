@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-s38\ntitle: BMW S38\npermalink: /fr/motori/bmw-s38/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-s38
+title: BMW S38
+permalink: /fr/motori/bmw-s38/
+---

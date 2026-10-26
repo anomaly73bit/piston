@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: ferrari-f113\ntitle: Ferrari F113 12 cilindri boxer\npermalink: /en/motori/ferrari-f113/\n---\n
+---
+layout: motore
+locale: en
+slug: ferrari-f113
+title: Ferrari F113 12 cilindri boxer
+permalink: /en/motori/ferrari-f113/
+---

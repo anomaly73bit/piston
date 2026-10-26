@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bugatti-w16\ntitle: Bugatti W16 8.0\npermalink: /fr/motori/bugatti-w16/\n---\n
+---
+layout: motore
+locale: fr
+slug: bugatti-w16
+title: Bugatti W16 8.0
+permalink: /fr/motori/bugatti-w16/
+---

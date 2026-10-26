@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: bmw-n55\ntitle: BMW N55\npermalink: /en/motori/bmw-n55/\n---\n
+---
+layout: motore
+locale: en
+slug: bmw-n55
+title: BMW N55
+permalink: /en/motori/bmw-n55/
+---

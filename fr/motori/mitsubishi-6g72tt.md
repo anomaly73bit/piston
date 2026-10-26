@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mitsubishi-6g72tt\ntitle: Mitsubishi 6G72 V6 biturbo\npermalink: /fr/motori/mitsubishi-6g72tt/\n---\n
+---
+layout: motore
+locale: fr
+slug: mitsubishi-6g72tt
+title: Mitsubishi 6G72 V6 biturbo
+permalink: /fr/motori/mitsubishi-6g72tt/
+---

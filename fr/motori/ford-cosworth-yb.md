@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: ford-cosworth-yb\ntitle: Ford Cosworth YB\npermalink: /fr/motori/ford-cosworth-yb/\n---\n
+---
+layout: motore
+locale: fr
+slug: ford-cosworth-yb
+title: Ford Cosworth YB
+permalink: /fr/motori/ford-cosworth-yb/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: mazda-renesis\ntitle: Mazda Renesis\npermalink: /en/motori/mazda-renesis/\n---\n
+---
+layout: motore
+locale: en
+slug: mazda-renesis
+title: Mazda Renesis
+permalink: /en/motori/mazda-renesis/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: ford-ecoboost-35\ntitle: Ford 3.5 EcoBoost V6\npermalink: /fr/motori/ford-ecoboost-35/\n---\n
+---
+layout: motore
+locale: fr
+slug: ford-ecoboost-35
+title: Ford 3.5 EcoBoost V6
+permalink: /fr/motori/ford-ecoboost-35/
+---

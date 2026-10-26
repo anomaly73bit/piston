@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: toyota-4a-ge\ntitle: Toyota 4A-GE\npermalink: /en/motori/toyota-4a-ge/\n---\n
+---
+layout: motore
+locale: en
+slug: toyota-4a-ge
+title: Toyota 4A-GE
+permalink: /en/motori/toyota-4a-ge/
+---

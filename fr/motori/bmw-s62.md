@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-s62\ntitle: BMW S62 V8\npermalink: /fr/motori/bmw-s62/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-s62
+title: BMW S62 V8
+permalink: /fr/motori/bmw-s62/
+---

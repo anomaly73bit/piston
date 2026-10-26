@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: toyota-1kr-fe\ntitle: Toyota 1KR-FE 1.0 VVT-i\npermalink: /cs/motori/toyota-1kr-fe/\n---\n
+---
+layout: motore
+locale: cs
+slug: toyota-1kr-fe
+title: Toyota 1KR-FE 1.0 VVT-i
+permalink: /cs/motori/toyota-1kr-fe/
+---

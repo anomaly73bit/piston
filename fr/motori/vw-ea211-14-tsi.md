@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: vw-ea211-14-tsi\ntitle: Volkswagen EA211 1.4 TSI\npermalink: /fr/motori/vw-ea211-14-tsi/\n---\n
+---
+layout: motore
+locale: fr
+slug: vw-ea211-14-tsi
+title: Volkswagen EA211 1.4 TSI
+permalink: /fr/motori/vw-ea211-14-tsi/
+---

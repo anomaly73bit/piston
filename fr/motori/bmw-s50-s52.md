@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-s50-s52\ntitle: BMW S50 / S52\npermalink: /fr/motori/bmw-s50-s52/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-s50-s52
+title: BMW S50 / S52
+permalink: /fr/motori/bmw-s50-s52/
+---

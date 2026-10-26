@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: toyota-2gr\ntitle: Toyota 2GR V6 3.5\npermalink: /cs/motori/toyota-2gr/\n---\n
+---
+layout: motore
+locale: cs
+slug: toyota-2gr
+title: Toyota 2GR V6 3.5
+permalink: /cs/motori/toyota-2gr/
+---

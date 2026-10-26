@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-b58\ntitle: BMW B58\npermalink: /fr/motori/bmw-b58/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-b58
+title: BMW B58
+permalink: /fr/motori/bmw-b58/
+---

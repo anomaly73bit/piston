@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: ferrari-f105\ntitle: Ferrari F105 V8 quattrovalvole\npermalink: /cs/motori/ferrari-f105/\n---\n
+---
+layout: motore
+locale: cs
+slug: ferrari-f105
+title: Ferrari F105 V8 quattrovalvole
+permalink: /cs/motori/ferrari-f105/
+---

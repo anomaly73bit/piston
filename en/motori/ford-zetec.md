@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: ford-zetec\ntitle: Ford Zetec 1.6–2.0 16v\npermalink: /en/motori/ford-zetec/\n---\n
+---
+layout: motore
+locale: en
+slug: ford-zetec
+title: Ford Zetec 1.6–2.0 16v
+permalink: /en/motori/ford-zetec/
+---

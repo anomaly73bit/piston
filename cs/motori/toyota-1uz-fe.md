@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: toyota-1uz-fe\ntitle: Toyota 1UZ-FE\npermalink: /cs/motori/toyota-1uz-fe/\n---\n
+---
+layout: motore
+locale: cs
+slug: toyota-1uz-fe
+title: Toyota 1UZ-FE
+permalink: /cs/motori/toyota-1uz-fe/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: nissan-vr38dett\ntitle: Nissan VR38DETT\npermalink: /cs/motori/nissan-vr38dett/\n---\n
+---
+layout: motore
+locale: cs
+slug: nissan-vr38dett
+title: Nissan VR38DETT
+permalink: /cs/motori/nissan-vr38dett/
+---

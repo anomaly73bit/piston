@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-om642\ntitle: Mercedes-Benz OM642 3.0 V6 diesel\npermalink: /fr/motori/mercedes-om642/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-om642
+title: Mercedes-Benz OM642 3.0 V6 diesel
+permalink: /fr/motori/mercedes-om642/
+---

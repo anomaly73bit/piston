@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: hyundai-lambda-v6\ntitle: Hyundai Lambda V6\npermalink: /fr/motori/hyundai-lambda-v6/\n---\n
+---
+layout: motore
+locale: fr
+slug: hyundai-lambda-v6
+title: Hyundai Lambda V6
+permalink: /fr/motori/hyundai-lambda-v6/
+---

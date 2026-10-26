@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: alfa-romeo-1750-tbi\ntitle: Alfa Romeo 1750 TBi\npermalink: /fr/motori/alfa-romeo-1750-tbi/\n---\n
+---
+layout: motore
+locale: fr
+slug: alfa-romeo-1750-tbi
+title: Alfa Romeo 1750 TBi
+permalink: /fr/motori/alfa-romeo-1750-tbi/
+---

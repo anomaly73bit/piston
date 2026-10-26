@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: toyota-a25a\ntitle: Toyota A25A Dynamic Force\npermalink: /fr/motori/toyota-a25a/\n---\n
+---
+layout: motore
+locale: fr
+slug: toyota-a25a
+title: Toyota A25A Dynamic Force
+permalink: /fr/motori/toyota-a25a/
+---

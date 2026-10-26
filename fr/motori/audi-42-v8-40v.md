@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: audi-42-v8-40v\ntitle: Audi 4.2 V8 40v\npermalink: /fr/motori/audi-42-v8-40v/\n---\n
+---
+layout: motore
+locale: fr
+slug: audi-42-v8-40v
+title: Audi 4.2 V8 40v
+permalink: /fr/motori/audi-42-v8-40v/
+---

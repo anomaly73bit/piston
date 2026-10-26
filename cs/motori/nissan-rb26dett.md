@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: nissan-rb26dett\ntitle: Nissan RB26DETT\npermalink: /cs/motori/nissan-rb26dett/\n---\n
+---
+layout: motore
+locale: cs
+slug: nissan-rb26dett
+title: Nissan RB26DETT
+permalink: /cs/motori/nissan-rb26dett/
+---

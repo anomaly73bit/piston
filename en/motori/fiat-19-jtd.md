@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: fiat-19-jtd\ntitle: Fiat 1.9 JTD\npermalink: /en/motori/fiat-19-jtd/\n---\n
+---
+layout: motore
+locale: en
+slug: fiat-19-jtd
+title: Fiat 1.9 JTD
+permalink: /en/motori/fiat-19-jtd/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: fiat-14-multiair\ntitle: Fiat 1.4 MultiAir\npermalink: /en/motori/fiat-14-multiair/\n---\n
+---
+layout: motore
+locale: en
+slug: fiat-14-multiair
+title: Fiat 1.4 MultiAir
+permalink: /en/motori/fiat-14-multiair/
+---

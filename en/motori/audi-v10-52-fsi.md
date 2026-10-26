@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: audi-v10-52-fsi\ntitle: Audi/Lamborghini V10 5.2 FSI\npermalink: /en/motori/audi-v10-52-fsi/\n---\n
+---
+layout: motore
+locale: en
+slug: audi-v10-52-fsi
+title: Audi/Lamborghini V10 5.2 FSI
+permalink: /en/motori/audi-v10-52-fsi/
+---

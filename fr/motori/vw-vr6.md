@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: vw-vr6\ntitle: Volkswagen VR6\npermalink: /fr/motori/vw-vr6/\n---\n
+---
+layout: motore
+locale: fr
+slug: vw-vr6
+title: Volkswagen VR6
+permalink: /fr/motori/vw-vr6/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: bmw-m30\ntitle: BMW M30\npermalink: /en/motori/bmw-m30/\n---\n
+---
+layout: motore
+locale: en
+slug: bmw-m30
+title: BMW M30
+permalink: /en/motori/bmw-m30/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: psa-eb2\ntitle: PSA EB2 1.2 PureTech\npermalink: /cs/motori/psa-eb2/\n---\n
+---
+layout: motore
+locale: cs
+slug: psa-eb2
+title: PSA EB2 1.2 PureTech
+permalink: /cs/motori/psa-eb2/
+---

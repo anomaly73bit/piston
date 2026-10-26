@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: tvr-speed-six\ntitle: TVR Speed Six\npermalink: /fr/motori/tvr-speed-six/\n---\n
+---
+layout: motore
+locale: fr
+slug: tvr-speed-six
+title: TVR Speed Six
+permalink: /fr/motori/tvr-speed-six/
+---

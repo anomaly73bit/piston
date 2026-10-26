@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: nissan-ca18det\ntitle: Nissan CA18DET\npermalink: /en/motori/nissan-ca18det/\n---\n
+---
+layout: motore
+locale: en
+slug: nissan-ca18det
+title: Nissan CA18DET
+permalink: /en/motori/nissan-ca18det/
+---

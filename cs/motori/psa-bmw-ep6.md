@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: psa-bmw-ep6\ntitle: PSA/BMW EP6 1.6 THP\npermalink: /cs/motori/psa-bmw-ep6/\n---\n
+---
+layout: motore
+locale: cs
+slug: psa-bmw-ep6
+title: PSA/BMW EP6 1.6 THP
+permalink: /cs/motori/psa-bmw-ep6/
+---

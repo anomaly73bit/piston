@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-m20\ntitle: BMW M20\npermalink: /fr/motori/bmw-m20/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-m20
+title: BMW M20
+permalink: /fr/motori/bmw-m20/
+---

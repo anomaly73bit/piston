@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: honda-c30a\ntitle: Honda C30A NSX\npermalink: /fr/motori/honda-c30a/\n---\n
+---
+layout: motore
+locale: fr
+slug: honda-c30a
+title: Honda C30A NSX
+permalink: /fr/motori/honda-c30a/
+---

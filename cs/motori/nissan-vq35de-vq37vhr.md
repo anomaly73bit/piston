@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: nissan-vq35de-vq37vhr\ntitle: Nissan VQ35DE / VQ35HR / VQ37VHR\npermalink: /cs/motori/nissan-vq35de-vq37vhr/\n---\n
+---
+layout: motore
+locale: cs
+slug: nissan-vq35de-vq37vhr
+title: Nissan VQ35DE / VQ35HR / VQ37VHR
+permalink: /cs/motori/nissan-vq35de-vq37vhr/
+---

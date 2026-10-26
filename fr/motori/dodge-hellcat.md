@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: dodge-hellcat\ntitle: Dodge Hellcat 6.2 V8 compressore\npermalink: /fr/motori/dodge-hellcat/\n---\n
+---
+layout: motore
+locale: fr
+slug: dodge-hellcat
+title: Dodge Hellcat 6.2 V8 compressore
+permalink: /fr/motori/dodge-hellcat/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: bmw-s14\ntitle: BMW S14\npermalink: /cs/motori/bmw-s14/\n---\n
+---
+layout: motore
+locale: cs
+slug: bmw-s14
+title: BMW S14
+permalink: /cs/motori/bmw-s14/
+---

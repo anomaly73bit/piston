@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mitsubishi-4g63t\ntitle: Mitsubishi 4G63T\npermalink: /fr/motori/mitsubishi-4g63t/\n---\n
+---
+layout: motore
+locale: fr
+slug: mitsubishi-4g63t
+title: Mitsubishi 4G63T
+permalink: /fr/motori/mitsubishi-4g63t/
+---

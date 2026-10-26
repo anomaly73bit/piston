@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: psa-ew10\ntitle: PSA EW10 2.0 16v\npermalink: /fr/motori/psa-ew10/\n---\n
+---
+layout: motore
+locale: fr
+slug: psa-ew10
+title: PSA EW10 2.0 16v
+permalink: /fr/motori/psa-ew10/
+---

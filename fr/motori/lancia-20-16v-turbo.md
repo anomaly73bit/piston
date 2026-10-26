@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: lancia-20-16v-turbo\ntitle: Lancia 2.0 16v Turbo (Delta HF Integrale)\npermalink: /fr/motori/lancia-20-16v-turbo/\n---\n
+---
+layout: motore
+locale: fr
+slug: lancia-20-16v-turbo
+title: Lancia 2.0 16v Turbo (Delta HF Integrale)
+permalink: /fr/motori/lancia-20-16v-turbo/
+---

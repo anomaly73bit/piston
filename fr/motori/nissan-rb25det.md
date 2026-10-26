@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: nissan-rb25det\ntitle: Nissan RB25DET / RB25DET NEO\npermalink: /fr/motori/nissan-rb25det/\n---\n
+---
+layout: motore
+locale: fr
+slug: nissan-rb25det
+title: Nissan RB25DET / RB25DET NEO
+permalink: /fr/motori/nissan-rb25det/
+---

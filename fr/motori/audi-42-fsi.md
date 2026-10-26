@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: audi-42-fsi\ntitle: Audi 4.2 V8 FSI\npermalink: /fr/motori/audi-42-fsi/\n---\n
+---
+layout: motore
+locale: fr
+slug: audi-42-fsi
+title: Audi 4.2 V8 FSI
+permalink: /fr/motori/audi-42-fsi/
+---

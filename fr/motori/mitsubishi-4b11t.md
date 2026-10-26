@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mitsubishi-4b11t\ntitle: Mitsubishi 4B11T\npermalink: /fr/motori/mitsubishi-4b11t/\n---\n
+---
+layout: motore
+locale: fr
+slug: mitsubishi-4b11t
+title: Mitsubishi 4B11T
+permalink: /fr/motori/mitsubishi-4b11t/
+---

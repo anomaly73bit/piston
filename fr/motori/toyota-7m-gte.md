@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: toyota-7m-gte\ntitle: Toyota 7M-GTE\npermalink: /fr/motori/toyota-7m-gte/\n---\n
+---
+layout: motore
+locale: fr
+slug: toyota-7m-gte
+title: Toyota 7M-GTE
+permalink: /fr/motori/toyota-7m-gte/
+---

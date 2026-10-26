@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mitsubishi-3b2\ntitle: Mitsubishi 3B2 tre cilindri\npermalink: /fr/motori/mitsubishi-3b2/\n---\n
+---
+layout: motore
+locale: fr
+slug: mitsubishi-3b2
+title: Mitsubishi 3B2 tre cilindri
+permalink: /fr/motori/mitsubishi-3b2/
+---

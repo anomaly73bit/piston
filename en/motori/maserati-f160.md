@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: maserati-f160\ntitle: Maserati F160 V6 biturbo\npermalink: /en/motori/maserati-f160/\n---\n
+---
+layout: motore
+locale: en
+slug: maserati-f160
+title: Maserati F160 V6 biturbo
+permalink: /en/motori/maserati-f160/
+---

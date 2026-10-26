@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: bmw-m70-s70\ntitle: BMW M70 / S70 V12\npermalink: /en/motori/bmw-m70-s70/\n---\n
+---
+layout: motore
+locale: en
+slug: bmw-m70-s70
+title: BMW M70 / S70 V12
+permalink: /en/motori/bmw-m70-s70/
+---

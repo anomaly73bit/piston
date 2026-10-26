@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: porsche-mezger\ntitle: Porsche 'Mezger' (GT3/Turbo)\npermalink: /cs/motori/porsche-mezger/\n---\n
+---
+layout: motore
+locale: cs
+slug: porsche-mezger
+title: Porsche 'Mezger' (GT3/Turbo)
+permalink: /cs/motori/porsche-mezger/
+---

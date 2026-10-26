@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: mercedes-m120\ntitle: Mercedes-Benz M120 V12\npermalink: /en/motori/mercedes-m120/\n---\n
+---
+layout: motore
+locale: en
+slug: mercedes-m120
+title: Mercedes-Benz M120 V12
+permalink: /en/motori/mercedes-m120/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-om606\ntitle: Mercedes-Benz OM606\npermalink: /fr/motori/mercedes-om606/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-om606
+title: Mercedes-Benz OM606
+permalink: /fr/motori/mercedes-om606/
+---

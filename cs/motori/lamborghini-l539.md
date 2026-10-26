@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: lamborghini-l539\ntitle: Lamborghini L539 V12\npermalink: /cs/motori/lamborghini-l539/\n---\n
+---
+layout: motore
+locale: cs
+slug: lamborghini-l539
+title: Lamborghini L539 V12
+permalink: /cs/motori/lamborghini-l539/
+---

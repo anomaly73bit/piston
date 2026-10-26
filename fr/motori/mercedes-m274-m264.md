@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-m274-m264\ntitle: Mercedes-Benz M274 / M264 2.0 turbo\npermalink: /fr/motori/mercedes-m274-m264/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-m274-m264
+title: Mercedes-Benz M274 / M264 2.0 turbo
+permalink: /fr/motori/mercedes-m274-m264/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mazda-13b-rew\ntitle: Mazda 13B-REW\npermalink: /fr/motori/mazda-13b-rew/\n---\n
+---
+layout: motore
+locale: fr
+slug: mazda-13b-rew
+title: Mazda 13B-REW
+permalink: /fr/motori/mazda-13b-rew/
+---

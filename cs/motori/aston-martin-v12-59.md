@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: aston-martin-v12-59\ntitle: Aston Martin V12 5.9 aspirato\npermalink: /cs/motori/aston-martin-v12-59/\n---\n
+---
+layout: motore
+locale: cs
+slug: aston-martin-v12-59
+title: Aston Martin V12 5.9 aspirato
+permalink: /cs/motori/aston-martin-v12-59/
+---

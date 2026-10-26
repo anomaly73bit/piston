@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: daihatsu-kf\ntitle: Daihatsu KF tre cilindri\npermalink: /fr/motori/daihatsu-kf/\n---\n
+---
+layout: motore
+locale: fr
+slug: daihatsu-kf
+title: Daihatsu KF tre cilindri
+permalink: /fr/motori/daihatsu-kf/
+---

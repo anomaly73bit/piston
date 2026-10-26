@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: rover-v8\ntitle: Rover V8\npermalink: /en/motori/rover-v8/\n---\n
+---
+layout: motore
+locale: en
+slug: rover-v8
+title: Rover V8
+permalink: /en/motori/rover-v8/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: ferrari-f163\ntitle: Ferrari F163 V6 biturbo\npermalink: /cs/motori/ferrari-f163/\n---\n
+---
+layout: motore
+locale: cs
+slug: ferrari-f163
+title: Ferrari F163 V6 biturbo
+permalink: /cs/motori/ferrari-f163/
+---

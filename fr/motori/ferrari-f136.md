@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: ferrari-f136\ntitle: Ferrari F136 V8\npermalink: /fr/motori/ferrari-f136/\n---\n
+---
+layout: motore
+locale: fr
+slug: ferrari-f136
+title: Ferrari F136 V8
+permalink: /fr/motori/ferrari-f136/
+---

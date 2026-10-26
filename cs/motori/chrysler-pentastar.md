@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: chrysler-pentastar\ntitle: Chrysler Pentastar V6\npermalink: /cs/motori/chrysler-pentastar/\n---\n
+---
+layout: motore
+locale: cs
+slug: chrysler-pentastar
+title: Chrysler Pentastar V6
+permalink: /cs/motori/chrysler-pentastar/
+---

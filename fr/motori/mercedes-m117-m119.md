@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-m117-m119\ntitle: Mercedes-Benz M117 / M119 V8\npermalink: /fr/motori/mercedes-m117-m119/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-m117-m119
+title: Mercedes-Benz M117 / M119 V8
+permalink: /fr/motori/mercedes-m117-m119/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: ferrari-f154\ntitle: Ferrari F154 V8 biturbo\npermalink: /fr/motori/ferrari-f154/\n---\n
+---
+layout: motore
+locale: fr
+slug: ferrari-f154
+title: Ferrari F154 V8 biturbo
+permalink: /fr/motori/ferrari-f154/
+---

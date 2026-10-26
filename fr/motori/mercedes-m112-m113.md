@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-m112-m113\ntitle: Mercedes-Benz M112 / M113 V6 e V8\npermalink: /fr/motori/mercedes-m112-m113/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-m112-m113
+title: Mercedes-Benz M112 / M113 V6 e V8
+permalink: /fr/motori/mercedes-m112-m113/
+---

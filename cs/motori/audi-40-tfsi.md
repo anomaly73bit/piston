@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: audi-40-tfsi\ntitle: Audi 4.0 TFSI V8 biturbo\npermalink: /cs/motori/audi-40-tfsi/\n---\n
+---
+layout: motore
+locale: cs
+slug: audi-40-tfsi
+title: Audi 4.0 TFSI V8 biturbo
+permalink: /cs/motori/audi-40-tfsi/
+---

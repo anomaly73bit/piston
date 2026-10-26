@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: ferrari-f140\ntitle: Ferrari F140 V12\npermalink: /cs/motori/ferrari-f140/\n---\n
+---
+layout: motore
+locale: cs
+slug: ferrari-f140
+title: Ferrari F140 V12
+permalink: /cs/motori/ferrari-f140/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: vw-ea211-15-tsi-evo\ntitle: Volkswagen EA211 1.5 TSI evo\npermalink: /cs/motori/vw-ea211-15-tsi-evo/\n---\n
+---
+layout: motore
+locale: cs
+slug: vw-ea211-15-tsi-evo
+title: Volkswagen EA211 1.5 TSI evo
+permalink: /cs/motori/vw-ea211-15-tsi-evo/
+---

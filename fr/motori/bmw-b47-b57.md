@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-b47-b57\ntitle: BMW B47 / B57 diesel\npermalink: /fr/motori/bmw-b47-b57/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-b47-b57
+title: BMW B47 / B57 diesel
+permalink: /fr/motori/bmw-b47-b57/
+---

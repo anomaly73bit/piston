@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: toyota-1kd-1gd\ntitle: Toyota 1KD-FTV e 1GD-FTV turbodiesel\npermalink: /cs/motori/toyota-1kd-1gd/\n---\n
+---
+layout: motore
+locale: cs
+slug: toyota-1kd-1gd
+title: Toyota 1KD-FTV e 1GD-FTV turbodiesel
+permalink: /cs/motori/toyota-1kd-1gd/
+---

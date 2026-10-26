@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: porsche-m64\ntitle: Porsche M64 boxer raffreddato ad aria (964, 993)\npermalink: /cs/motori/porsche-m64/\n---\n
+---
+layout: motore
+locale: cs
+slug: porsche-m64
+title: Porsche M64 boxer raffreddato ad aria (964, 993)
+permalink: /cs/motori/porsche-m64/
+---

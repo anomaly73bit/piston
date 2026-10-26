@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-s54\ntitle: BMW S54\npermalink: /fr/motori/bmw-s54/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-s54
+title: BMW S54
+permalink: /fr/motori/bmw-s54/
+---

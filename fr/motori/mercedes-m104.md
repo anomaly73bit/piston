@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: mercedes-m104\ntitle: Mercedes-Benz M104 sei cilindri\npermalink: /fr/motori/mercedes-m104/\n---\n
+---
+layout: motore
+locale: fr
+slug: mercedes-m104
+title: Mercedes-Benz M104 sei cilindri
+permalink: /fr/motori/mercedes-m104/
+---

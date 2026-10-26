@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: honda-jnc1\ntitle: Honda JNC1 V6 biturbo\npermalink: /fr/motori/honda-jnc1/\n---\n
+---
+layout: motore
+locale: fr
+slug: honda-jnc1
+title: Honda JNC1 V6 biturbo
+permalink: /fr/motori/honda-jnc1/
+---

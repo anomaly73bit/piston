@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: subaru-ej\ntitle: Subaru EJ (turbo)\npermalink: /en/motori/subaru-ej/\n---\n
+---
+layout: motore
+locale: en
+slug: subaru-ej
+title: Subaru EJ (turbo)
+permalink: /en/motori/subaru-ej/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: porsche-m48\ntitle: Porsche M48 V8 4.5 / 4.8\npermalink: /en/motori/porsche-m48/\n---\n
+---
+layout: motore
+locale: en
+slug: porsche-m48
+title: Porsche M48 V8 4.5 / 4.8
+permalink: /en/motori/porsche-m48/
+---

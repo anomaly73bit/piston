@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bentley-l-series\ntitle: Bentley 6¾ L-series V8\npermalink: /fr/motori/bentley-l-series/\n---\n
+---
+layout: motore
+locale: fr
+slug: bentley-l-series
+title: Bentley 6¾ L-series V8
+permalink: /fr/motori/bentley-l-series/
+---

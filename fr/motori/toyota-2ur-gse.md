@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: toyota-2ur-gse\ntitle: Toyota 2UR-GSE V8 5.0\npermalink: /fr/motori/toyota-2ur-gse/\n---\n
+---
+layout: motore
+locale: fr
+slug: toyota-2ur-gse
+title: Toyota 2UR-GSE V8 5.0
+permalink: /fr/motori/toyota-2ur-gse/
+---

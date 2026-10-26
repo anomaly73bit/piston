@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: mercedes-m156\ntitle: Mercedes-AMG M156 6.2\npermalink: /en/motori/mercedes-m156/\n---\n
+---
+layout: motore
+locale: en
+slug: mercedes-m156
+title: Mercedes-AMG M156 6.2
+permalink: /en/motori/mercedes-m156/
+---

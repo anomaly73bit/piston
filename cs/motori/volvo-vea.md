@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: volvo-vea\ntitle: Volvo VEA Drive-E 2.0 benzina\npermalink: /cs/motori/volvo-vea/\n---\n
+---
+layout: motore
+locale: cs
+slug: volvo-vea
+title: Volvo VEA Drive-E 2.0 benzina
+permalink: /cs/motori/volvo-vea/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: ford-67-power-stroke\ntitle: Ford 6.7 Power Stroke V8 diesel\npermalink: /cs/motori/ford-67-power-stroke/\n---\n
+---
+layout: motore
+locale: cs
+slug: ford-67-power-stroke
+title: Ford 6.7 Power Stroke V8 diesel
+permalink: /cs/motori/ford-67-power-stroke/
+---

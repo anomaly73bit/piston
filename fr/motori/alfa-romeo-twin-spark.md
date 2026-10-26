@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: alfa-romeo-twin-spark\ntitle: Alfa Romeo Twin Spark\npermalink: /fr/motori/alfa-romeo-twin-spark/\n---\n
+---
+layout: motore
+locale: fr
+slug: alfa-romeo-twin-spark
+title: Alfa Romeo Twin Spark
+permalink: /fr/motori/alfa-romeo-twin-spark/
+---

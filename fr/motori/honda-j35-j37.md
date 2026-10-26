@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: honda-j35-j37\ntitle: Honda J35 / J37 V6\npermalink: /fr/motori/honda-j35-j37/\n---\n
+---
+layout: motore
+locale: fr
+slug: honda-j35-j37
+title: Honda J35 / J37 V6
+permalink: /fr/motori/honda-j35-j37/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: koenigsegg-v8-50\ntitle: Koenigsegg V8 5.0 biturbo\npermalink: /en/motori/koenigsegg-v8-50/\n---\n
+---
+layout: motore
+locale: en
+slug: koenigsegg-v8-50
+title: Koenigsegg V8 5.0 biturbo
+permalink: /en/motori/koenigsegg-v8-50/
+---

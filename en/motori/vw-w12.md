@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: vw-w12\ntitle: Volkswagen W12\npermalink: /en/motori/vw-w12/\n---\n
+---
+layout: motore
+locale: en
+slug: vw-w12
+title: Volkswagen W12
+permalink: /en/motori/vw-w12/
+---

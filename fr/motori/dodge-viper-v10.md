@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: dodge-viper-v10\ntitle: Dodge Viper V10\npermalink: /fr/motori/dodge-viper-v10/\n---\n
+---
+layout: motore
+locale: fr
+slug: dodge-viper-v10
+title: Dodge Viper V10
+permalink: /fr/motori/dodge-viper-v10/
+---

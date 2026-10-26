@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: subaru-fa20\ntitle: Subaru FA20 boxer\npermalink: /en/motori/subaru-fa20/\n---\n
+---
+layout: motore
+locale: en
+slug: subaru-fa20
+title: Subaru FA20 boxer
+permalink: /en/motori/subaru-fa20/
+---

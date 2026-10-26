@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: toyota-1sz-fe\ntitle: Toyota 1SZ-FE 1.0 VVT-i\npermalink: /en/motori/toyota-1sz-fe/\n---\n
+---
+layout: motore
+locale: en
+slug: toyota-1sz-fe
+title: Toyota 1SZ-FE 1.0 VVT-i
+permalink: /en/motori/toyota-1sz-fe/
+---

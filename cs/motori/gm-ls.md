@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: gm-ls\ntitle: GM small-block LS (Gen III/IV)\npermalink: /cs/motori/gm-ls/\n---\n
+---
+layout: motore
+locale: cs
+slug: gm-ls
+title: GM small-block LS (Gen III/IV)
+permalink: /cs/motori/gm-ls/
+---

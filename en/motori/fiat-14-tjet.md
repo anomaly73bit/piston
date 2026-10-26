@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: fiat-14-tjet\ntitle: Fiat 1.4 T-Jet\npermalink: /en/motori/fiat-14-tjet/\n---\n
+---
+layout: motore
+locale: en
+slug: fiat-14-tjet
+title: Fiat 1.4 T-Jet
+permalink: /en/motori/fiat-14-tjet/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: ferrari-f131\ntitle: Ferrari F129/F131 V8 5 valvole\npermalink: /en/motori/ferrari-f131/\n---\n
+---
+layout: motore
+locale: en
+slug: ferrari-f131
+title: Ferrari F129/F131 V8 5 valvole
+permalink: /en/motori/ferrari-f131/
+---

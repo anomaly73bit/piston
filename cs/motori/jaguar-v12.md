@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: jaguar-v12\ntitle: Jaguar V12 HE\npermalink: /cs/motori/jaguar-v12/\n---\n
+---
+layout: motore
+locale: cs
+slug: jaguar-v12
+title: Jaguar V12 HE
+permalink: /cs/motori/jaguar-v12/
+---

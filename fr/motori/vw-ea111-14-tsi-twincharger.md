@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: vw-ea111-14-tsi-twincharger\ntitle: Volkswagen EA111 1.4 TSI twincharger\npermalink: /fr/motori/vw-ea111-14-tsi-twincharger/\n---\n
+---
+layout: motore
+locale: fr
+slug: vw-ea111-14-tsi-twincharger
+title: Volkswagen EA111 1.4 TSI twincharger
+permalink: /fr/motori/vw-ea111-14-tsi-twincharger/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: jaguar-aj-v8\ntitle: Jaguar AJ-V8\npermalink: /fr/motori/jaguar-aj-v8/\n---\n
+---
+layout: motore
+locale: fr
+slug: jaguar-aj-v8
+title: Jaguar AJ-V8
+permalink: /fr/motori/jaguar-aj-v8/
+---

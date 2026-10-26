@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: lexus-1lr-gue\ntitle: Lexus 1LR-GUE V10\npermalink: /cs/motori/lexus-1lr-gue/\n---\n
+---
+layout: motore
+locale: cs
+slug: lexus-1lr-gue
+title: Lexus 1LR-GUE V10
+permalink: /cs/motori/lexus-1lr-gue/
+---

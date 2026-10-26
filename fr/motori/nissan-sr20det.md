@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: nissan-sr20det\ntitle: Nissan SR20DET\npermalink: /fr/motori/nissan-sr20det/\n---\n
+---
+layout: motore
+locale: fr
+slug: nissan-sr20det
+title: Nissan SR20DET
+permalink: /fr/motori/nissan-sr20det/
+---

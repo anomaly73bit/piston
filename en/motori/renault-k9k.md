@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: renault-k9k\ntitle: Renault K9K 1.5 dCi\npermalink: /en/motori/renault-k9k/\n---\n
+---
+layout: motore
+locale: en
+slug: renault-k9k
+title: Renault K9K 1.5 dCi
+permalink: /en/motori/renault-k9k/
+---

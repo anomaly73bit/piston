@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: bmw-m50-m52\ntitle: BMW M50 / M52\npermalink: /en/motori/bmw-m50-m52/\n---\n
+---
+layout: motore
+locale: en
+slug: bmw-m50-m52
+title: BMW M50 / M52
+permalink: /en/motori/bmw-m50-m52/
+---

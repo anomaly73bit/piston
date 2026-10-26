@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: opel-c20xe\ntitle: Opel C20XE 2.0 16v\npermalink: /en/motori/opel-c20xe/\n---\n
+---
+layout: motore
+locale: en
+slug: opel-c20xe
+title: Opel C20XE 2.0 16v
+permalink: /en/motori/opel-c20xe/
+---

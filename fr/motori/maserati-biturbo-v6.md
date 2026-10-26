@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: maserati-biturbo-v6\ntitle: Maserati V6 Biturbo\npermalink: /fr/motori/maserati-biturbo-v6/\n---\n
+---
+layout: motore
+locale: fr
+slug: maserati-biturbo-v6
+title: Maserati V6 Biturbo
+permalink: /fr/motori/maserati-biturbo-v6/
+---

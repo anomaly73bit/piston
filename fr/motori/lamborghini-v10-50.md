@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: lamborghini-v10-50\ntitle: Lamborghini V10 5.0\npermalink: /fr/motori/lamborghini-v10-50/\n---\n
+---
+layout: motore
+locale: fr
+slug: lamborghini-v10-50
+title: Lamborghini V10 5.0
+permalink: /fr/motori/lamborghini-v10-50/
+---

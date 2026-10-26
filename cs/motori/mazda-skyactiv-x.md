@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: mazda-skyactiv-x\ntitle: Mazda Skyactiv-X\npermalink: /cs/motori/mazda-skyactiv-x/\n---\n
+---
+layout: motore
+locale: cs
+slug: mazda-skyactiv-x
+title: Mazda Skyactiv-X
+permalink: /cs/motori/mazda-skyactiv-x/
+---

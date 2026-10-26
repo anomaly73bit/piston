@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: mclaren-m838t\ntitle: McLaren M838T 3.8 V8\npermalink: /cs/motori/mclaren-m838t/\n---\n
+---
+layout: motore
+locale: cs
+slug: mclaren-m838t
+title: McLaren M838T 3.8 V8
+permalink: /cs/motori/mclaren-m838t/
+---

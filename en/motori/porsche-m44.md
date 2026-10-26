@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: porsche-m44\ntitle: Porsche M44 quattro cilindri 944 / 968\npermalink: /en/motori/porsche-m44/\n---\n
+---
+layout: motore
+locale: en
+slug: porsche-m44
+title: Porsche M44 quattro cilindri 944 / 968
+permalink: /en/motori/porsche-m44/
+---

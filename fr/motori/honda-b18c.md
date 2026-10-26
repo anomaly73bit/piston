@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: honda-b18c\ntitle: Honda B18C VTEC\npermalink: /fr/motori/honda-b18c/\n---\n
+---
+layout: motore
+locale: fr
+slug: honda-b18c
+title: Honda B18C VTEC
+permalink: /fr/motori/honda-b18c/
+---

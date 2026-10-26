@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: bmw-s63\ntitle: BMW S63 V8 biturbo\npermalink: /fr/motori/bmw-s63/\n---\n
+---
+layout: motore
+locale: fr
+slug: bmw-s63
+title: BMW S63 V8 biturbo
+permalink: /fr/motori/bmw-s63/
+---

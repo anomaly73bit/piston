@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: porsche-40-gt3\ntitle: Porsche 4.0 boxer aspirato GT3 / GT4\npermalink: /cs/motori/porsche-40-gt3/\n---\n
+---
+layout: motore
+locale: cs
+slug: porsche-40-gt3
+title: Porsche 4.0 boxer aspirato GT3 / GT4
+permalink: /cs/motori/porsche-40-gt3/
+---

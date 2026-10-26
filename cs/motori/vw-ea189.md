@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: vw-ea189\ntitle: Volkswagen EA189 2.0 TDI\npermalink: /cs/motori/vw-ea189/\n---\n
+---
+layout: motore
+locale: cs
+slug: vw-ea189
+title: Volkswagen EA189 2.0 TDI
+permalink: /cs/motori/vw-ea189/
+---

@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: mazda-20b-rew\ntitle: Mazda 20B-REW\npermalink: /en/motori/mazda-20b-rew/\n---\n
+---
+layout: motore
+locale: en
+slug: mazda-20b-rew
+title: Mazda 20B-REW
+permalink: /en/motori/mazda-20b-rew/
+---

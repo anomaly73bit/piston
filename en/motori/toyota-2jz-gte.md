@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: toyota-2jz-gte\ntitle: Toyota 2JZ-GTE\npermalink: /en/motori/toyota-2jz-gte/\n---\n
+---
+layout: motore
+locale: en
+slug: toyota-2jz-gte
+title: Toyota 2JZ-GTE
+permalink: /en/motori/toyota-2jz-gte/
+---

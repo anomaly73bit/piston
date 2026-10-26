@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: honda-d16\ntitle: Honda D16\npermalink: /fr/motori/honda-d16/\n---\n
+---
+layout: motore
+locale: fr
+slug: honda-d16
+title: Honda D16
+permalink: /fr/motori/honda-d16/
+---

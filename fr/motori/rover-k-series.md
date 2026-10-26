@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: fr\nslug: rover-k-series\ntitle: Rover K-Series\npermalink: /fr/motori/rover-k-series/\n---\n
+---
+layout: motore
+locale: fr
+slug: rover-k-series
+title: Rover K-Series
+permalink: /fr/motori/rover-k-series/
+---

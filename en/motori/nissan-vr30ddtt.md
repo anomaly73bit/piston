@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: en\nslug: nissan-vr30ddtt\ntitle: Nissan VR30DDTT\npermalink: /en/motori/nissan-vr30ddtt/\n---\n
+---
+layout: motore
+locale: en
+slug: nissan-vr30ddtt
+title: Nissan VR30DDTT
+permalink: /en/motori/nissan-vr30ddtt/
+---

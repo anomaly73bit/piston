@@ -1,1 +1,7 @@
----\nlayout: motore\nlocale: cs\nslug: lamborghini-v12-bizzarrini\ntitle: Lamborghini V12 Bizzarrini\npermalink: /cs/motori/lamborghini-v12-bizzarrini/\n---\n
+---
+layout: motore
+locale: cs
+slug: lamborghini-v12-bizzarrini
+title: Lamborghini V12 Bizzarrini
+permalink: /cs/motori/lamborghini-v12-bizzarrini/
+---
