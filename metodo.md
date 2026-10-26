@@ -9,6 +9,10 @@ permalink: /metodo/
 
 Ogni scheda descrive una **famiglia di motore**, non una singola versione: per esempio l'EA888 Volkswagen raccoglie quattro generazioni e potenze da 160 a oltre 330 CV. Le versioni più significative sono elencate nella tabella dedicata.
 
+## Stato della verifica documentale
+
+Le schede senza una sezione di fonti puntuali sono contrassegnate come **in attesa di verifica documentale**. Questo non significa che siano false, ma che i singoli dati non sono ancora collegati a documenti controllabili. Un link generico o una fotografia non sono prova delle specifiche tecniche. Le fonti saranno aggiunte solo dopo confronto effettivo con le versioni e gli anni dichiarati.
+
 ## Fonti
 
 I valori sono compilati da documentazione pubblica dei costruttori, cartelle stampa e letteratura tecnica. Potenze e coppie sono indicate in CV (PS) e newton metro come dichiarate per il mercato indicato; tra Giappone, Europa e Stati Uniti possono cambiare.
