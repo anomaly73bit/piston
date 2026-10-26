@@ -1,78 +1,205 @@
 #!/usr/bin/env python3
-"""Translate every current and future engine from canonical Italian into EN, FR and CZ JSON.
-Run: pip install pyyaml deep-translator
-     python tools/traduci.py
-Uses an incremental cache, preserving all previously translated texts. Network access
-is required; errors are explicit. Never rewrites the Italian source of truth.
+"""Incremental offline translation of Piston's Italian engine catalogue.
+
+Uses open Argos Translate language models, avoiding anonymous web-translation
+rate limits. Italian YAML remains authoritative. Each run translates a bounded
+number of new strings per language and saves a resumable JSON catalogue.
+Never marks an untranslated field as translated.
 """
+import hashlib
 import json
-import pathlib
-import time
 import os
+import pathlib
+import re
+import sys
+
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-LANGUAGES = {"en": "en", "fr": "fr", "cs": "cs"}
-FIELDS = ("storia", "limiti")
-LISTS = ("punti_deboli", "curiosita", "manutenzione")
-NESTED = {"versioni": ("nota",), "in_breve": ("testo",), "affidabilita": ("motivo",)}
 CACHE = ROOT / "_data" / "traduzioni"
-CACHE.mkdir(parents=True, exist_ok=True)
+LANGUAGES = ("en", "fr", "cs")
+FIELDS = (
+    "storia", "limiti", "paese", "alimentazione", "aspirazione",
+    "distribuzione", "blocco", "testa", "iniezione",
+)
+LISTS = ("punti_deboli", "curiosita", "manutenzione")
+OBJECTS = {
+    "versioni": ("nota",),
+    "in_breve": ("testo",),
+    "fonti": ("nota",),
+}
+SINGLE_OBJECTS = {
+    "affidabilita": ("motivo",),
+    "foto": ("descrizione",),
+}
+MAX_NEW_PER_LANGUAGE = int(os.environ.get("PISTON_TRANSLATION_BATCH", "200"))
+
+
+def prepare_argos():
+    import argostranslate.package as package
+    import argostranslate.translate as translate
+
+    package.update_package_index()
+    available = package.get_available_packages()
+    installed = {(p.from_code, p.to_code) for p in package.get_installed_packages()}
+
+    # English is the bridge when a direct Italian -> French/Czech model
+    # is unavailable. Argos automatically supports installed pivot routes.
+    needed = [("it", "en"), ("en", "fr"), ("en", "cs")]
+    for source, target in needed:
+        if (source, target) in installed:
+            continue
+        candidate = next(
+            (p for p in available if p.from_code == source and p.to_code == target),
+            None,
+        )
+        if candidate is None:
+            raise RuntimeError(f"No Argos model for {source}->{target}; not publishing incomplete translations")
+        print(f"Installing Argos model {source}->{target}", flush=True)
+        package.install_from_path(candidate.download())
+    return translate
+
+
+def source_data(engine):
+    """Fields which must be translated; a changed source invalidates old copies."""
+    result = {k: engine[k] for k in FIELDS if isinstance(engine.get(k), str) and engine[k].strip()}
+    for key in LISTS:
+        if engine.get(key):
+            result[key] = engine[key]
+    for key, fields in OBJECTS.items():
+        if isinstance(engine.get(key), list):
+            result[key] = [
+                {f: entry[f] for f in fields if isinstance(entry.get(f), str) and entry[f].strip()}
+                for entry in engine[key]
+            ]
+    for key, fields in SINGLE_OBJECTS.items():
+        if isinstance(engine.get(key), dict):
+            result[key] = {
+                f: engine[key][f] for f in fields
+                if isinstance(engine[key].get(f), str) and engine[key][f].strip()
+            }
+    return result
+
+
+def fingerprint(data):
+    payload = json.dumps(data, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def validate_numbers(source, translated):
+    """Reject translations that silently drop or change technical figures."""
+    digits = lambda s: re.findall(r"\d+", s)
+    return digits(source) == digits(translated)
+
 
 def main():
-    from deep_translator import GoogleTranslator
     engines = yaml.safe_load((ROOT / "_data" / "motori.yml").read_text(encoding="utf-8"))
-    for language, target in LANGUAGES.items():
-        file = CACHE / (language + ".json")
-        existing = json.loads(file.read_text(encoding="utf-8")) if file.exists() else {}
-        translator = GoogleTranslator(source="it", target=target)
-        memory = existing.get("_memory", {})
-        translated_count = 0
-        batch_limit = int(os.environ.get("PISTON_TRANSLATION_BATCH", "30"))
-        def translate(value):
-            nonlocal translated_count
+    CACHE.mkdir(parents=True, exist_ok=True)
+    translator = prepare_argos()
+    incomplete = 0
+    for language in LANGUAGES:
+        path = CACHE / (language + ".json")
+        previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        memory = previous.get("_memory", {})
+        new_count = 0
+        errors = 0
+
+        def translate_one(value):
+            nonlocal new_count, errors
             if not isinstance(value, str) or not value.strip():
                 return value
             if value in memory:
                 return memory[value]
-            if translated_count >= batch_limit:
+            if new_count >= MAX_NEW_PER_LANGUAGE:
                 return None
-            for attempt in range(3):
-                try:
-                    result = translator.translate(value)
-                    if not result:
-                        raise ValueError("empty translation")
-                    memory[value] = result
-                    translated_count += 1
-                    time.sleep(3)
-                    return result
-                except Exception:
-                    if attempt == 2:
-                        print(f"{language}: translation provider unavailable; saving progress")
-                        return None
-                    time.sleep(45 * (attempt + 1))
-        result = {"_memory": memory}
-        for m in engines:
-            item = {}
-            for field in FIELDS:
-                if m.get(field):
-                    item[field] = translate(m[field]) or (existing.get(m["slug"], {}).get(field))
-            for field in LISTS:
-                if m.get(field):
-                    old = existing.get(m["slug"], {}).get(field, [])
-                    item[field] = [translate(v) or (old[i] if i < len(old) else None) for i, v in enumerate(m[field])]
-            for field, keys in NESTED.items():
-                obj = m.get(field)
-                if isinstance(obj, dict):
-                    old = existing.get(m["slug"], {}).get(field, {})
-                    item[field] = {k: translate(obj[k]) or old.get(k) for k in keys if obj.get(k)}
-                elif isinstance(obj, list):
-                    old = existing.get(m["slug"], {}).get(field, [])
-                    item[field] = [{k: translate(x[k]) or (old[i].get(k) if i < len(old) else None) for k in keys if x.get(k)} for i, x in enumerate(obj)]
-            result[m["slug"]] = item
-        file.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(language, len(engines), "engine families processed;", translated_count, "new text translations")
+            try:
+                result = translator.translate(value, "it", language)
+                if not isinstance(result, str) or not result.strip():
+                    raise ValueError("Empty translation")
+                if not validate_numbers(value, result):
+                    raise ValueError("Numbers or engine codes changed in translation")
+                memory[value] = result
+                new_count += 1
+                return result
+            except Exception as exc:
+                errors += 1
+                if errors <= 5:
+                    print(f"{language}: translation requires review: {exc}", flush=True)
+                return None
+
+        output = {"_memory": memory}
+        for engine in engines:
+            slug = engine["slug"]
+            source = source_data(engine)
+            source_hash = fingerprint(source)
+            old = previous.get(slug, {})
+            # Never reuse a translation from a different Italian source.
+            if old.get("_source_hash") != source_hash:
+                old = {}
+            item = {"_source_hash": source_hash}
+            for key in FIELDS:
+                if key in source:
+                    item[key] = translate_one(source[key]) or old.get(key)
+            for key in LISTS:
+                if key in source:
+                    old_list = old.get(key, [])
+                    item[key] = [
+                        translate_one(v) or (old_list[i] if i < len(old_list) else None)
+                        for i, v in enumerate(source[key])
+                    ]
+            for key, fields in OBJECTS.items():
+                if key in source:
+                    old_list = old.get(key, [])
+                    item[key] = []
+                    for i, obj in enumerate(source[key]):
+                        old_obj = old_list[i] if i < len(old_list) else {}
+                        item[key].append({
+                            f: translate_one(value) or old_obj.get(f)
+                            for f, value in obj.items()
+                        })
+            for key, fields in SINGLE_OBJECTS.items():
+                if key in source:
+                    old_obj = old.get(key, {})
+                    item[key] = {
+                        f: translate_one(value) or old_obj.get(f)
+                        for f, value in source[key].items()
+                    }
+            output[slug] = item
+            if not is_complete(source, item):
+                incomplete += 1
+
+        path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"{language}: {new_count} new translations, {errors} failed; progress saved", flush=True)
+    print(f"Unfinished language/engine pairs: {incomplete} of {len(engines) * len(LANGUAGES)}", flush=True)
+
+
+def is_complete(source, translated):
+    for key, value in source.items():
+        out = translated.get(key)
+        if isinstance(value, str):
+            if not isinstance(out, str) or not out.strip():
+                return False
+        elif isinstance(value, list):
+            if not isinstance(out, list) or len(out) != len(value):
+                return False
+            for item, translated_item in zip(value, out):
+                if isinstance(item, str):
+                    if not isinstance(translated_item, str) or not translated_item.strip():
+                        return False
+                elif isinstance(item, dict):
+                    if not isinstance(translated_item, dict):
+                        return False
+                    if any(not isinstance(translated_item.get(k), str) or not translated_item[k].strip() for k in item):
+                        return False
+        elif isinstance(value, dict):
+            if not isinstance(out, dict) or any(not isinstance(out.get(k), str) or not out[k].strip() for k in value):
+                return False
+    return True
+
 
 if __name__ == "__main__":
-    main()
-
+    try:
+        main()
+    except Exception as exc:
+        print(f"Translation blocked: {exc}", file=sys.stderr)
+        sys.exit(1)
