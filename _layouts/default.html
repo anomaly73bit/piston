@@ -29,7 +29,7 @@
         <span class="marchio-testo"><strong>PISTON</strong><small>ENGINE ENCYCLOPEDIA</small></span>
       </a>
       <nav class="menu" aria-label="Sezioni">
-        {% assign voci = "Catalogo|/,Costruttori|/costruttori/,Architetture|/architetture/,Cronologia|/cronologia/,Confronta|/confronta/,Glossario|/glossario/" | split: "," %}
+        {% assign voci = "Catalogo|/,Costruttori|/costruttori/,Architetture|/architetture/,Cronologia|/cronologia/,Galleria|/galleria/,Confronta|/confronta/,Glossario|/glossario/" | split: "," %}
         {% for v in voci %}{% assign p = v | split: "|" %}
         <a href="{{ p[1] | relative_url }}"{% if page.url == p[1] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
         {% endfor %}
