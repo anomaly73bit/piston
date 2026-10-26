@@ -2,7 +2,8 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Lada VAZ-2106 / 21126 | Niva, Priora
+Lada VAZ-2106 1.6 8V | Lada 2106/2107; distinguere dal derivato Niva VAZ-2121
+Lada VAZ-21126 1.6 16V | Priora, Kalina, Granta; famiglia distinta dal VAZ-2106
 Škoda / VW 1.2 HTP | Fabia, Polo
 Hyundai Alpha 1.3 / 1.5 / 1.6 | Accent, Lantra, Kia Rio; primo motore progettato da Hyundai
 Hyundai Beta 1.8 / 2.0 (G4GC) | Elantra XD, Coupé, Tucson, Kia Cerato
