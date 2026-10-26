@@ -8,7 +8,7 @@ on:
       - 'tools/traduci.py'
       - 'tools/genera_pagine.py'
   schedule:
-    - cron: '25 3 * * *'
+    - cron: '25 */2 * * *'
 permissions:
   contents: write
 concurrency:
