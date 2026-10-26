@@ -40,7 +40,7 @@ layout: default
   {% if m.in_breve %}
   <section class="rilievo" aria-label="Dati chiave">
     <ul>
-      {% for r in m.in_breve %}<li><strong>{{ r.valore }}</strong><span>{% if trad.in_breve[forloop.index0].testo %}{{ trad.in_breve[forloop.index0].testo }}{% else %}{{ r.testo }}{% endif %}</span></li>{% endfor %}
+      {% for r in m.in_breve %}<li><strong>{% if trad.in_breve[forloop.index0].valore %}{{ trad.in_breve[forloop.index0].valore }}{% else %}{{ r.valore }}{% endif %}</strong><span>{% if trad.in_breve[forloop.index0].testo %}{{ trad.in_breve[forloop.index0].testo }}{% else %}{{ r.testo }}{% endif %}</span></li>{% endfor %}
     </ul>
   </section>
   {% endif %}
@@ -84,7 +84,7 @@ layout: default
             <tr><th scope="row">Aspirazione</th><td>{% if trad.aspirazione %}{{ trad.aspirazione }}{% else %}{{ m.aspirazione }}{% endif %}</td></tr>
             <tr><th scope="row">Cilindrata</th><td>{{ m.cilindrata }} cc</td></tr>
             {% if m.alesaggio %}<tr><th scope="row">Alesaggio × corsa</th><td>{{ m.alesaggio | replace: ".", "," }} × {{ m.corsa | replace: ".", "," }} mm</td></tr>{% endif %}
-            <tr><th scope="row">Rapporto di compressione</th><td>{{ m.compressione }}</td></tr>
+            <tr><th scope="row">Rapporto di compressione</th><td>{% if trad.compressione %}{{ trad.compressione }}{% else %}{{ m.compressione }}{% endif %}</td></tr>
             <tr><th scope="row">Distribuzione</th><td>{% if trad.distribuzione %}{{ trad.distribuzione }}{% else %}{{ m.distribuzione }}{% endif %}</td></tr>
             {% if m.valvole != 0 %}<tr><th scope="row">Valvole per cilindro</th><td>{{ m.valvole }}</td></tr>{% endif %}
             <tr><th scope="row">Basamento</th><td>{% if trad.blocco %}{{ trad.blocco }}{% else %}{{ m.blocco }}{% endif %}</td></tr>
