@@ -149,7 +149,9 @@ def main():
             if re.fullmatch(r"[0-9.,:/ –-]+", value):
                 return value
             if value in memory:
-                return memory[value]
+                if validate_numbers(value, memory[value]):
+                    return memory[value]
+                del memory[value]
             if new_count >= MAX_NEW_PER_LANGUAGE:
                 return None
             try:
