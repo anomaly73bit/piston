@@ -33,7 +33,7 @@
     if (campi.aspirazione.value) {
       var asp = parti(d.aspirazione), scelto = campi.aspirazione.value.toLowerCase();
       if (scelto === 'biturbo' && asp.indexOf('quadriturbo') !== -1) asp.push('biturbo');
-      if (asp.indexOf(scelto) === -1) return false;
+      if (!asp.some(function (s) { return s === scelto || s.indexOf(scelto + ' ') === 0 || s.indexOf(scelto + ' (') === 0; })) return false;
     }
     if (campi.decennio.value) {
       var dec = Math.floor(Number(d.inizio) / 10) * 10;
@@ -50,7 +50,10 @@
       r.hidden = !ok;
       if (ok) visibili++;
     });
-    conteggio.textContent = visibili === 1 ? '1 motore' : visibili + ' motori';
+    var lang = document.documentElement.lang || 'it';
+    var units = {it: ['motore', 'motori'], en: ['engine', 'engines'], fr: ['moteur', 'moteurs'], cs: ['motor', 'motory']};
+    var u = units[lang] || units.it;
+    conteggio.textContent = visibili + ' ' + (visibili === 1 ? u[0] : u[1]);
     vuoto.hidden = visibili !== 0;
     salvaURL();
   }
