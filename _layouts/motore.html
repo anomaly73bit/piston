@@ -24,6 +24,14 @@ layout: default
 {%- assign altre = altre | remove_first: "; " -%}
 {%- if m.fine -%}{%- assign periodo = m.inizio | append: "–" | append: m.fine -%}{%- else -%}{%- assign periodo = m.inizio | append: "–oggi" -%}{%- endif -%}
 <article class="motore">
+  {% if page.locale and trad._complete != true %}
+  <p class="avviso-traduzione" role="status">
+    {% if page.locale == 'en' %}Translation in progress: some technical descriptions are still in Italian. The Italian original remains authoritative.
+    {% elsif page.locale == 'fr' %}Traduction en cours : certaines descriptions techniques sont encore en italien. Le texte italien fait référence.
+    {% elsif page.locale == 'cs' %}Překlad probíhá: některé technické popisy jsou stále v italštině. Rozhodující je italský originál.
+    {% endif %}
+  </p>
+  {% endif %}
   <header class="targhetta">
     <div class="targhetta-testo">
       <p class="percorso"><a href="{{ '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{{ m.architettura }}</a></p>
