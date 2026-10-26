@@ -8,6 +8,7 @@ is required; errors are explicit. Never rewrites the Italian source of truth.
 import json
 import pathlib
 import time
+import os
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -26,41 +27,51 @@ def main():
         existing = json.loads(file.read_text(encoding="utf-8")) if file.exists() else {}
         translator = GoogleTranslator(source="it", target=target)
         memory = existing.get("_memory", {})
+        translated_count = 0
+        batch_limit = int(os.environ.get("PISTON_TRANSLATION_BATCH", "30"))
         def translate(value):
+            nonlocal translated_count
             if not isinstance(value, str) or not value.strip():
                 return value
             if value in memory:
                 return memory[value]
-            for attempt in range(4):
+            if translated_count >= batch_limit:
+                return None
+            for attempt in range(3):
                 try:
                     result = translator.translate(value)
                     if not result:
                         raise ValueError("empty translation")
                     memory[value] = result
-                    time.sleep(1.5)
+                    translated_count += 1
+                    time.sleep(3)
                     return result
                 except Exception:
-                    if attempt == 3:
-                        raise
-                    time.sleep(30 * (attempt + 1))
+                    if attempt == 2:
+                        print(f"{language}: translation provider unavailable; saving progress")
+                        return None
+                    time.sleep(45 * (attempt + 1))
         result = {"_memory": memory}
         for m in engines:
             item = {}
             for field in FIELDS:
                 if m.get(field):
-                    item[field] = translate(m[field])
+                    item[field] = translate(m[field]) or (existing.get(m["slug"], {}).get(field))
             for field in LISTS:
                 if m.get(field):
-                    item[field] = [translate(v) for v in m[field]]
+                    old = existing.get(m["slug"], {}).get(field, [])
+                    item[field] = [translate(v) or (old[i] if i < len(old) else None) for i, v in enumerate(m[field])]
             for field, keys in NESTED.items():
                 obj = m.get(field)
                 if isinstance(obj, dict):
-                    item[field] = {k: translate(obj[k]) for k in keys if obj.get(k)}
+                    old = existing.get(m["slug"], {}).get(field, {})
+                    item[field] = {k: translate(obj[k]) or old.get(k) for k in keys if obj.get(k)}
                 elif isinstance(obj, list):
-                    item[field] = [{k: translate(x[k]) for k in keys if x.get(k)} for x in obj]
+                    old = existing.get(m["slug"], {}).get(field, [])
+                    item[field] = [{k: translate(x[k]) or (old[i].get(k) if i < len(old) else None) for k in keys if x.get(k)} for i, x in enumerate(obj)]
             result[m["slug"]] = item
         file.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(language, len(engines), "engine families translated")
+        print(language, len(engines), "engine families processed;", translated_count, "new text translations")
 
 if __name__ == "__main__":
     main()
