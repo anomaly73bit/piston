@@ -35,6 +35,42 @@ SINGLE_OBJECTS = {
 MAX_NEW_PER_LANGUAGE = int(os.environ.get("PISTON_TRANSLATION_BATCH", "200"))
 
 
+
+# Fixed automotive terminology takes precedence over generic machine translation.
+# This prevents mistranslations such as "Benzina" -> "Petroleum" and "Ghisa" -> "Ghisa".
+GLOSSARY = {
+    "en": {
+        "Benzina": "Petrol", "Gasolio": "Diesel fuel", "Diesel": "Diesel",
+        "Ghisa": "Cast iron", "Alluminio": "Aluminium", "Aspirato": "Naturally aspirated",
+        "Atmosferico": "Naturally aspirated", "Biturbo": "Twin-turbo",
+        "Turbo": "Turbocharged", "Indiretta multipoint": "Multipoint port fuel injection",
+        "Diretta": "Direct injection", "DOHC a catena": "Chain-driven DOHC",
+        "DOHC a cinghia": "Belt-driven DOHC", "SOHC a catena": "Chain-driven SOHC",
+        "SOHC a cinghia": "Belt-driven SOHC",
+    },
+    "fr": {
+        "Benzina": "Essence", "Gasolio": "Gazole", "Diesel": "Diesel",
+        "Ghisa": "Fonte", "Alluminio": "Aluminium", "Aspirato": "Atmosphérique",
+        "Atmosferico": "Atmosphérique", "Biturbo": "Biturbo",
+        "Turbo": "Turbocompressé", "Indiretta multipoint": "Injection indirecte multipoint",
+        "Diretta": "Injection directe", "DOHC a catena": "Double arbre à cames entraîné par chaîne",
+        "DOHC a cinghia": "Double arbre à cames entraîné par courroie",
+        "SOHC a catena": "Simple arbre à cames entraîné par chaîne",
+        "SOHC a cinghia": "Simple arbre à cames entraîné par courroie",
+    },
+    "cs": {
+        "Benzina": "Benzín", "Gasolio": "Motorová nafta", "Diesel": "Nafta",
+        "Ghisa": "Litina", "Alluminio": "Hliník", "Aspirato": "Atmosférický",
+        "Atmosferico": "Atmosférický", "Biturbo": "Dvě turbodmychadla",
+        "Turbo": "Přeplňovaný turbodmychadlem",
+        "Indiretta multipoint": "Nepřímé vícebodové vstřikování",
+        "Diretta": "Přímé vstřikování", "DOHC a catena": "DOHC s řetězovým rozvodem",
+        "DOHC a cinghia": "DOHC s řemenovým rozvodem",
+        "SOHC a catena": "SOHC s řetězovým rozvodem",
+        "SOHC a cinghia": "SOHC s řemenovým rozvodem",
+    },
+}
+
 def prepare_argos():
     import argostranslate.package as package
     import argostranslate.translate as translate
@@ -102,12 +138,15 @@ def main():
         path = CACHE / (language + ".json")
         previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
         memory = previous.get("_memory", {})
+        memory.update(GLOSSARY[language])
         new_count = 0
         errors = 0
 
         def translate_one(value):
             nonlocal new_count, errors
             if not isinstance(value, str) or not value.strip():
+                return value
+            if re.fullmatch(r"[0-9.,:/ –-]+", value):
                 return value
             if value in memory:
                 return memory[value]
