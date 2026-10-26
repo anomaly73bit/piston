@@ -24,7 +24,7 @@ jobs:
       - name: Check generated pages
         run: |
           python tools/genera_pagine.py
-          git diff --exit-code -- _motori
+          git diff --exit-code -- _motori en/motori fr/motori cs/motori
       - name: Validate engine catalog
         run: python tools/valida.py
       - name: Reject newly added engines without complete EN FR CS translations
