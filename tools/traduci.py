@@ -20,12 +20,12 @@ CACHE = ROOT / "_data" / "traduzioni"
 LANGUAGES = ("en", "fr", "cs")
 FIELDS = (
     "storia", "limiti", "paese", "alimentazione", "aspirazione",
-    "distribuzione", "blocco", "testa", "iniezione",
+    "distribuzione", "blocco", "testa", "iniezione", "compressione",
 )
 LISTS = ("punti_deboli", "curiosita", "manutenzione")
 OBJECTS = {
     "versioni": ("nota",),
-    "in_breve": ("testo",),
+    "in_breve": ("testo", "valore"),
     "fonti": ("nota",),
 }
 SINGLE_OBJECTS = {
@@ -89,7 +89,8 @@ def fingerprint(data):
 def validate_numbers(source, translated):
     """Reject translations that silently drop or change technical figures."""
     digits = lambda s: re.findall(r"\d+", s)
-    return digits(source) == digits(translated)
+    units = ("CV", "Nm", "mm", "cc", "kW")
+    return digits(source) == digits(translated) and all(unit not in source or unit in translated for unit in units)
 
 
 def main():
