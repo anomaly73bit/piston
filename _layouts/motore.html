@@ -152,10 +152,18 @@ layout: default
       </section>
       {% endif %}
 
+      <section aria-labelledby="t-manutenzione" class="manutenzione-scheda">
+        <h2 id="t-manutenzione">Manutenzione e controlli</h2>
+        {% if m.manutenzione and m.manutenzione.size > 0 %}
+        <ul>{% for voce in m.manutenzione %}<li>{{ voce }}</li>{% endfor %}</ul>
+        {% else %}
+        <p>Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione, refrigerante e interventi programmati consultare il manuale della versione e dell'anno esatti.</p>
+        {% endif %}
+      </section>
       <section aria-labelledby="t-fonti" class="fonti-scheda">
         <h2 id="t-fonti">Fonti e verifica</h2>
         {% if m.fonti and m.fonti.size > 0 %}
-        <p>Riferimenti documentali associati a questa scheda. La presenza di una fonte non garantisce automaticamente la verifica di ogni singola versione.</p>
+        <p><strong>Fonti registrate · verifica dei singoli dati non necessariamente completata.</strong> Riferimenti documentali associati a questa scheda. La presenza di una fonte non garantisce automaticamente la verifica di ogni singola versione.</p>
         <ul>{% for f in m.fonti %}<li><a href="{{ f.url | escape }}" rel="noopener noreferrer">{{ f.titolo | escape }}</a>{% if f.nota %} — {{ f.nota | escape }}{% endif %}</li>{% endfor %}</ul>
         {% else %}
         <p><strong>Fonti puntuali non ancora registrate.</strong> Questa scheda è in attesa di verifica documentale. I dati tecnici e le valutazioni editoriali non devono essere considerati certificati.</p>
