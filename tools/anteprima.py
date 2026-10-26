@@ -74,6 +74,12 @@ def costruisci():
             p += "index.html"
         return "../" * stato["profondita"] + p + q
 
+    def absolute_url(percorso):
+        base = str(site.get("url", "")).rstrip("/") + str(site.get("baseurl", "")).rstrip("/")
+        return base + "/" + str(percorso).lstrip("/")
+
+    env.filters["absolute_url"] = absolute_url
+    env.filters["xml_escape"] = lambda v: (str(v).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("\u0027", "&apos;"))
     env.filters["relative_url"] = relative_url
     env.filters["slugify"] = slugify
     env.filters["jsonify"] = lambda v: json.dumps(v, ensure_ascii=False, default=str)
