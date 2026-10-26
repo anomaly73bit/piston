@@ -36,9 +36,17 @@
         <span class="marchio-testo"><strong>PISTON</strong><small>ENGINE ENCYCLOPEDIA</small></span>
       </a>
       <nav class="menu" aria-label="Sezioni">
+        {% if page.locale == 'en' %}
+        {% assign voci = "Catalog|/,Manufacturers|/costruttori/,Layouts|/architetture/,Timeline|/cronologia/,Gallery|/galleria/,Compare|/confronta/,Glossary|/glossario/" | split: "," %}
+        {% elsif page.locale == 'fr' %}
+        {% assign voci = "Catalogue|/,Constructeurs|/costruttori/,Architectures|/architetture/,Chronologie|/cronologia/,Galerie|/galleria/,Comparer|/confronta/,Glossaire|/glossario/" | split: "," %}
+        {% elsif page.locale == 'cs' %}
+        {% assign voci = "Katalog|/,Výrobci|/costruttori/,Konstrukce|/architetture/,Časová osa|/cronologia/,Galerie|/galleria/,Porovnání|/confronta/,Slovník|/glossario/" | split: "," %}
+        {% else %}
         {% assign voci = "Catalogo|/,Costruttori|/costruttori/,Architetture|/architetture/,Cronologia|/cronologia/,Galleria|/galleria/,Confronta|/confronta/,Glossario|/glossario/" | split: "," %}
+        {% endif %}
         {% for v in voci %}{% assign p = v | split: "|" %}
-        <a href="{{ p[1] | relative_url }}"{% if page.url == p[1] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
+        <a href="{% if page.locale and p[1] == '/' %}{{ '/' | append: page.locale | append: '/' | relative_url }}{% else %}{{ p[1] | relative_url }}{% endif %}"{% if page.url == p[1] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
         {% endfor %}
       </nav>
       <nav class="lingue" aria-label="Lingua / Language / Jazyk / Langue">
