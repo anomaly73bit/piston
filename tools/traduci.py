@@ -206,8 +206,9 @@ def main():
                         f: translate_one(value) or old_obj.get(f)
                         for f, value in source[key].items()
                     }
+            item["_complete"] = is_complete(source, item)
             output[slug] = item
-            if not is_complete(source, item):
+            if not item["_complete"]:
                 incomplete += 1
 
         path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
