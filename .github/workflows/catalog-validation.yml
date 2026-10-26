@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -25,5 +27,7 @@ jobs:
           git diff --exit-code -- _motori
       - name: Validate engine catalog
         run: python tools/valida.py
+      - name: Reject newly added engines without complete EN FR CS translations
+        run: python tools/verifica_traduzioni.py --new-only
       - name: Render complete preview
         run: python tools/anteprima.py
