@@ -52,7 +52,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
          descrizione: "Toyota 2JZ-GTE nel vano della Supra A80"
      ```
      Il campo va subito dopo `limitatore:`.
-4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa.
+4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa. Per ogni nuova scheda, il CI esegue anche `tools/verifica_traduzioni.py --new-only` e rifiuta il commit se manca una traduzione completa in EN/FR/CS.
 5. Controlla i template: `pip install python-liquid pyyaml markdown --break-system-packages -q` e
    `python3 tools/anteprima.py` deve terminare senza errori. Poi cancella la cartella `_anteprima/`.
 6. Cancella da `tools/coda.txt` le righe elaborate (aggiunte o saltate).
