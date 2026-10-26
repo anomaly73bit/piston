@@ -19,7 +19,6 @@ Hyundai S 3.0 V6 CRDi (D6EA) | Veracruz, Kia Sorento, Mohave
 Kia J 2.9 CRDi (J3) | Kia Sorento, Carnival, Hyundai Terracan
 SsangYong e-XDi 2.0 / 2.2 (D20DT, D22DTR) | Rexton, Korando, Tivoli
 Daewoo S-TEC tre cilindri 0.8 | Matiz, Tico; base Suzuki F8C
-Toyota 1ZZ-FE | Corolla E12, Celica, MR2 Roadster
 Toyota 1NZ-FE / 2NZ-FE / 1NZ-FXE | Yaris, Corolla, Prius prima serie (ciclo Atkinson)
 Toyota 1SZ-FE / 2SZ-FE | Yaris P1, Daihatsu Sirion; progettazione Daihatsu
 Toyota 1KR-FE tre cilindri | Aygo, Citroën C1, Peugeot 107; progetto Daihatsu

@@ -10998,3 +10998,74 @@
   curiosita:
     - "Il turbo IHI RHF25 della versione KF-DET ammette fino a 310.000 giri/min."
     - "L'interasse dei cilindri è di 78 mm."
+
+# Fonti: https://en.wikipedia.org/wiki/Toyota_ZZ_engine
+# https://www.engine-specs.net/toyota/1zz-fe.html
+# https://mymotorlist.com/engines/toyota/1zz/
+# Foto e licenza: https://commons.wikimedia.org/wiki/File:Toyota_1ZZ-FE_engine.jpg
+- slug: toyota-1zz-fe
+  codice: 1ZZ-FE
+  nome: Toyota 1ZZ-FE 1.8 VVT-i
+  costruttore: Toyota
+  paese: Giappone
+  inizio: 1997
+  fine: 2009
+  architettura: L4
+  cilindri: 4
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 1794
+  alesaggio: 79.0
+  corsa: 91.5
+  compressione: "10.0:1"
+  distribuzione: DOHC a catena, VVT-i in aspirazione sulle versioni successive
+  valvole: 4
+  blocco: Alluminio con canne in ghisa
+  testa: Alluminio
+  iniezione: Indiretta multipoint sequenziale
+  cv_min: 122
+  cv_max: 145
+  nm_max: 171
+  limitatore: 6700
+  foto:
+    url: "https://upload.wikimedia.org/wikipedia/commons/8/83/Toyota_1ZZ-FE_engine.jpg"
+    pagina: "https://commons.wikimedia.org/wiki/File:Toyota_1ZZ-FE_engine.jpg"
+    autore: "Carolla"
+    licenza: "CC BY-SA 3.0"
+    descrizione: "Toyota 1ZZ-FE montato su Toyota Opa"
+  affidabilita:
+    indice: 66
+    motivo: "Consumo di olio elevato su alcune prime serie per problemi al gruppo pistoni e fasce elastiche."
+  in_breve:
+    - { valore: "1794 cc", testo: "quattro cilindri a corsa lunga da 91,5 mm" }
+    - { valore: "VVT-i", testo: "fasatura variabile lato aspirazione nelle versioni successive" }
+    - { valore: "Catena", testo: "distribuzione senza cinghia dentata" }
+  versioni:
+    - { nome: "Corolla / Matrix USA", anni: "2002–2005", cv: 132, nm: 170, nota: "130 hp SAE convertiti in CV metrici" }
+    - { nome: "Celica GT Europa", anni: "1999–2005", cv: 143, nm: 170, nota: "105 kW a 6400 giri/min" }
+    - { nome: "Corolla Europa", anni: "1998–2008", cv: 129, nm: 170, nota: "Taratura secondo mercato e anno" }
+  modelli:
+    - { nome: "Toyota Corolla (E110, E120, E130)", anni: "1997–2008" }
+    - { nome: "Toyota Celica GT (T230)", anni: "1999–2005" }
+    - { nome: "Toyota Matrix", anni: "2002–2008" }
+    - { nome: "Toyota Avensis (T220, T250)", anni: "1998–2008" }
+    - { nome: "Toyota RAV4 (XA20)", anni: "2000–2005" }
+    - { nome: "Pontiac Vibe", anni: "2002–2008" }
+  storia: >-
+    Il 1ZZ-FE è un quattro cilindri della famiglia Toyota ZZ con basamento in alluminio,
+    canne in ghisa e corsa lunga di 91,5 mm. La distribuzione a catena impiega due
+    alberi a camme e, nelle versioni successive, la fasatura variabile VVT-i in aspirazione.
+    Il motore è stato usato su Corolla, Celica GT, Matrix e altre Toyota,
+    oltre che sulla Pontiac Vibe. La produzione si è svolta anche in Nord America.
+  punti_deboli:
+    - "Fasce raschiaolio: consumo elevato di olio su alcune prime serie."
+    - "Tenditore catena e guarnizioni: possibili trafilamenti e rumori con l'età."
+    - "Catalizzatore: verificare in presenza di consumo d'olio persistente."
+  limiti: >-
+    Il basamento leggero e la compressione di serie non consentono di attribuire
+    una soglia di potenza sicura a tutte le preparazioni turbo. Prima di modificare
+    il motore è necessario verificare consumo d'olio, compressione e lubrificazione;
+    ogni aumento importante di potenza richiede una taratura dedicata.
+  curiosita:
+    - "Le prime applicazioni precedono l'arrivo del VVT-i sulla famiglia."
+    - "Toyota Racing Development propose un compressore per alcune Corolla e Matrix."
