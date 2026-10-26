@@ -7,6 +7,7 @@ on:
       - '_data/motori.yml'
       - 'tools/traduci.py'
       - 'tools/genera_pagine.py'
+      - '.github/workflows/translations.yml'
   schedule:
     - cron: '25 */2 * * *'
 permissions:
