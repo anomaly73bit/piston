@@ -436,3 +436,12 @@ h3 { font-size: 1rem; font-weight: 600; }
   .apertura-foto::before { background-position: 58% center; }
   .apertura-foto h1 { font-size: clamp(2.35rem, 10vw, 3.6rem); }
 }
+
+/* Photo gallery */
+.galleria-motori { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:1.25rem; }
+.galleria-item { border:1px solid var(--linea); background:var(--carta); padding:.75rem; min-width:0; }
+.galleria-item a { text-decoration:none; }
+.galleria-item img { width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--alluminio);margin-bottom:.7rem; }
+.galleria-item strong { display:block;line-height:1.35; }
+.galleria-item p { color:var(--grafite);font-size:.8rem;line-height:1.4;overflow-wrap:anywhere; }
+.manutenzione-scheda { border-top:1px solid var(--linea);padding-top:1rem; }
