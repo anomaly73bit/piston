@@ -26,13 +26,26 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install translation dependencies
-        run: pip install pyyaml deep-translator python-liquid markdown
+        run: pip install pyyaml argostranslate python-liquid markdown
+      - name: Restore offline translation models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/argos-translate
+            ~/.local/cache/argos-translate
+          key: argos-models-it-en-fr-cs-v1
+      - name: Configure bounded offline translation
+        run: |
+          echo "PISTON_TRANSLATION_BATCH=150" >> "$GITHUB_ENV"
+          echo "ARGOS_DEVICE_TYPE=cpu" >> "$GITHUB_ENV"
+          echo "OMP_NUM_THREADS=2" >> "$GITHUB_ENV"
       - name: Translate every engine and generate localized pages
         run: |
           python tools/traduci.py
           python tools/genera_pagine.py
           python tools/valida.py
           python tools/anteprima.py
+          python tools/verifica_traduzioni.py
       - name: Commit generated translations and pages
         run: |
           git config user.name "piston-translation-bot"
