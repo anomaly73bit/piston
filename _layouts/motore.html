@@ -152,14 +152,7 @@ layout: default
       </section>
       {% endif %}
 
-      <section aria-labelledby="t-manutenzione" class="manutenzione-scheda">
-        <h2 id="t-manutenzione">Manutenzione e controlli</h2>
-        {% if m.manutenzione and m.manutenzione.size > 0 %}
-        <ul>{% for voce in m.manutenzione %}<li>{{ voce }}</li>{% endfor %}</ul>
-        {% else %}
-        <p>Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione, refrigerante e interventi programmati consultare il manuale della versione e dell'anno esatti.</p>
-        {% endif %}
-      </section>
+
       <section aria-labelledby="t-fonti" class="fonti-scheda">
         <h2 id="t-fonti">Fonti e verifica</h2>
         {% if m.fonti and m.fonti.size > 0 %}
