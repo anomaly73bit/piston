@@ -16,8 +16,8 @@
   <header class="testata">
     <div class="riga">
       <a class="marchio" href="{{ '/' | relative_url }}" aria-label="Piston, pagina iniziale">
-        <svg class="marchio-icona" viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="3" width="18" height="26" rx="1"/><rect class="pistone" x="9" y="13" width="14" height="7"/><line x1="16" y1="20" x2="16" y2="29"/></svg>
-        <span>Piston</span>
+        <img class="marchio-icona" src="{{ '/assets/favicon.svg' | relative_url }}" width="42" height="42" alt="" aria-hidden="true">
+        <span class="marchio-testo"><strong>PISTON</strong><small>ENGINE ENCYCLOPEDIA</small></span>
       </a>
       <nav class="menu" aria-label="Sezioni">
         {% assign voci = "Catalogo|/,Costruttori|/costruttori/,Architetture|/architetture/,Cronologia|/cronologia/,Confronta|/confronta/,Glossario|/glossario/" | split: "," %}
