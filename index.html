@@ -19,6 +19,7 @@ script: catalogo.js
       <span>Cerca</span>
       <input type="search" id="f-testo" placeholder="Codice, nome o costruttore: 2JZ, EA888, Ferrari…" autocomplete="off">
     </label>
+    <label><span>Modello automobile</span><input type="search" id="f-modello" placeholder="Golf, Clio, 911, Corolla…" autocomplete="off"></label>
     <label><span>Costruttore</span>
       <select id="f-costruttore"><option value="">Tutti</option>{% for c in costruttori %}<option>{{ c }}</option>{% endfor %}</select>
     </label>
@@ -53,6 +54,7 @@ script: catalogo.js
       <li class="voce"
           data-nome="{{ m.nome | downcase | escape }}"
           data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}"
+          data-modelli="{% for a in m.modelli %}{{ a.nome | downcase | escape }} {% endfor %}"
           data-costruttore="{{ m.costruttore | escape }}"
           data-architettura="{{ m.architettura | escape }}"
           data-alimentazione="{{ m.alimentazione | escape }}"
