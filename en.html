@@ -1,16 +1,81 @@
 ---
 layout: default
-title: Engine encyclopedia in English
-description: Browse Piston's independent technical catalog of automotive engine families.
 permalink: /en/
+locale: en
+title: Engine catalog
+script: catalogo.js
 ---
-<section class="pagina riga stretta testo-lungo" lang="en">
-  <h1>Piston — Automotive Engine Encyclopedia</h1>
-  <p class="sottotitolo">Explore engine families from every era: specifications, applications, variants, engineering history and documented weaknesses.</p>
-  <p>Piston is an independent technical reference. The full engine catalog and detailed articles are currently published in Italian. An English-language interface and translated articles are being developed; we do not present automatic translations as verified technical content.</p>
-  <h2>Explore the catalog</h2>
-  <p><a class="bottone" href="{{ '/' | relative_url }}">Browse all engines</a> <a href="{{ '/confronta/' | relative_url }}">Compare engines</a> · <a href="{{ '/galleria/' | relative_url }}">Engine photo gallery</a></p>
-  <h2>Understanding the data</h2>
-  <p>Engine-family specifications may span several versions and markets. Reliability scores are editorial estimates, not measured failure rates. Where individual references are missing, the article is explicitly marked as awaiting documentary verification. For service intervals and safety-critical decisions, always consult the official documentation for the exact engine code and model year.</p>
-  <p><a href="{{ '/metodo/' | relative_url }}">Editorial methodology (Italian)</a></p>
+{%- assign motori = site.data.motori | sort: "inizio" -%}
+{%- assign costruttori = site.data.motori | map: "costruttore" | uniq | sort -%}
+{%- assign architetture = site.data.motori | map: "architettura" | uniq | sort -%}
+<section class="apertura apertura-foto">
+  <div class="riga">
+    <h1>Every engine has a story.</h1>
+    <p class="sottotitolo">Engineering specifications, variants, applications, history, known issues and tuning limits. Bore and stroke are drawn to scale in millimetres.</p><p class="apertura-didascalia">Engineering under the bonnet · Independent technical archive</p>
+  </div>
+</section>
+
+<section class="catalogo riga" aria-label="Catalogo">
+  <form class="filtri" id="filtri" role="search" onsubmit="return false">
+    <label class="cerca">
+      <span>Search</span>
+      <input type="search" id="f-testo" placeholder="Code, name or manufacturer: 2JZ, EA888, Ferrari…" autocomplete="off">
+    </label>
+    <label><span>Car model</span><input type="search" id="f-modello" placeholder="Golf, Clio, 911, Corolla…" autocomplete="off"></label>
+    <label><span>Manufacturer</span>
+      <select id="f-costruttore"><option value="">All</option>{% for c in costruttori %}<option>{{ c }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Engine layout</span>
+      <select id="f-architettura"><option value="">All</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Fuel</span>
+      <select id="f-alimentazione"><option value="">All</option><option>Petrol</option><option>Diesel</option><option>Hybrid</option></select>
+    </label>
+    <label><span>Induction</span>
+      <select id="f-aspirazione"><option value="">All</option><option>Naturally aspirated</option><option>Turbo</option><option>Biturbo</option><option>Supercharged</option></select>
+    </label>
+    <label><span>Introduction decade</span>
+      <select id="f-decennio"><option value="">All</option><option value="1970" >Years '70</option><option value="1980" >Years '80</option><option value="1990" >Years '90</option><option value="2000" >Years 2000</option><option value="2010" >Years 2010</option><option value="2020" >Years 2020</option></select>
+    </label>
+    <label class="spunta"><input type="checkbox" id="f-produzione"> Currently in production only</label>
+  </form>
+
+  <p class="conteggio" id="conteggio" aria-live="polite">{{ motori | size }} engines</p>
+
+  <div class="elenco" id="elenco">
+    <div class="elenco-testa" role="presentation">
+      <span></span>
+      <button type="button" data-ordina="nome">Engine</button>
+      <button type="button" data-ordina="inizio" aria-pressed="true">Years</button>
+      <span class="nasconde-piccolo">Engine layout</span>
+      <button type="button" data-ordina="cc" class="num">Displacement</button>
+      <button type="button" data-ordina="cv" class="num">CV max</button>
+    </div>
+    <ol class="elenco-righe" id="righe">
+      {% for m in motori %}
+      <li class="voce"
+          data-nome="{{ m.nome | downcase | escape }}"
+          data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}"
+          data-modelli="{% for a in m.modelli %}{{ a.nome | downcase | escape }} {% endfor %}"
+          data-costruttore="{{ m.costruttore | escape }}"
+          data-architettura="{{ m.architettura | escape }}"
+          data-alimentazione="{{ m.alimentazione | escape }}"
+          data-aspirazione="{{ m.aspirazione | escape }}"
+          data-inizio="{{ m.inizio }}"
+          data-produzione="{% if m.fine %}0{% else %}1{% endif %}"
+          data-cc="{{ m.cilindrata }}"
+          data-cv="{{ m.cv_max }}">
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          <span class="voce-disegno">{% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}</span>
+          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span></span>
+          <span class="voce-anni">{{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}<em>present</em>{% endif %}</span>
+          <span class="voce-arch nasconde-piccolo">{{ m.architettura }}, {{ m.aspirazione | downcase }}</span>
+          <span class="num">{{ m.cilindrata }} cc</span>
+          <span class="num voce-cv">{{ m.cv_max }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="vuoto" id="vuoto" hidden>No engines match these filters. Remove a filter or search by engine code.</p>
+  </div>
 </section>
