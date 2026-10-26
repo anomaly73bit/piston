@@ -6,6 +6,7 @@
   var vuoto = document.getElementById('vuoto');
   var campi = {
     testo: document.getElementById('f-testo'),
+    modello: document.getElementById('f-modello'),
     costruttore: document.getElementById('f-costruttore'),
     architettura: document.getElementById('f-architettura'),
     alimentazione: document.getElementById('f-alimentazione'),
@@ -24,6 +25,8 @@
     var d = r.dataset;
     var q = campi.testo.value.trim().toLowerCase();
     if (q && q.split(/\s+/).some(function (p) { return d.testo.indexOf(p) === -1; })) return false;
+    var modello = campi.modello.value.trim().toLowerCase();
+    if (modello && modello.split(/\s+/).some(function (p) { return d.modelli.indexOf(p) === -1; })) return false;
     if (campi.costruttore.value && d.costruttore !== campi.costruttore.value) return false;
     if (campi.architettura.value && d.architettura !== campi.architettura.value) return false;
     if (campi.alimentazione.value && parti(d.alimentazione).indexOf(campi.alimentazione.value.toLowerCase()) === -1) return false;
@@ -95,7 +98,7 @@
     });
   });
   Object.keys(campi).forEach(function (k) {
-    campi[k].addEventListener(k === 'testo' ? 'input' : 'change', aggiorna);
+    campi[k].addEventListener((k === 'testo' || k === 'modello') ? 'input' : 'change', aggiorna);
   });
 
   leggiURL();
