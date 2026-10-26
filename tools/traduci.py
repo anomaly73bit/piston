@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Translate editorial content from the canonical Italian YAML into per-language JSON.
+"""Translate every current and future engine from canonical Italian into EN, FR and CZ JSON.
 Run: pip install pyyaml deep-translator
      python tools/traduci.py
 Uses an incremental cache, preserving all previously translated texts. Network access
