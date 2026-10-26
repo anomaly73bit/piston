@@ -11069,3 +11069,118 @@
   curiosita:
     - "Le prime applicazioni precedono l'arrivo del VVT-i sulla famiglia."
     - "Toyota Racing Development propose un compressore per alcune Corolla e Matrix."
+
+# Fonti: https://media.toyota.co.uk/geneva-motorshow-2005/ | https://media.toyota.co.uk/the-all-new-toyota-aygo-x-a-new-generation-of-accessible-style-and-fun/ | https://www.toyota.it/mondo-toyota/news-eventi/2025/nuova-aygo-x-ancora-piu-efficiente-e-divertente-da-guidare | https://en.wikipedia.org/wiki/Toyota_KR_engine | https://commons.wikimedia.org/wiki/File:Toyota_1KR-FE_engine_001.JPG
+- slug: toyota-1kr-fe
+  codice: "1KR-FE"
+  nome: "Toyota 1KR-FE 1.0 VVT-i"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 2004
+  fine:
+  architettura: "L3"
+  cilindri: 3
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 998
+  alesaggio: 71
+  corsa: 84
+  compressione: "10.5–11.8:1 secondo evoluzione"
+  distribuzione: "DOHC a catena, VVT-i in aspirazione"
+  valvole: 4
+  blocco: "Alluminio"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint elettronica"
+  cv_min: 68
+  cv_max: 72
+  nm_max: 95
+  limitatore: 6500
+  foto:
+    url: "https://upload.wikimedia.org/wikipedia/commons/7/70/Toyota_1KR-FE_engine_001.JPG"
+    pagina: "https://commons.wikimedia.org/wiki/File:Toyota_1KR-FE_engine_001.JPG"
+    autore: "Tennen-Gas"
+    licenza: "CC BY-SA 3.0"
+    descrizione: "Motore Toyota 1KR-FE nel vano motore"
+  affidabilita:
+    indice: 82
+    motivo: "Pompa acqua soggetta a trafilamenti; su esemplari molto chilometrati verificare tenditore e catena."
+  in_breve:
+    - {"valore":"998 cc","testo":"tre cilindri con alesaggio 71 mm e corsa 84 mm"}
+    - {"valore":"VVT-i","testo":"fasatura variabile lato aspirazione"}
+    - {"valore":"72 CV","testo":"evoluzione Aygo X a benzina del 2022"}
+  versioni:
+    - {"nome":"Aygo / C1 / 107 1.0","anni":"2005–2014","cv":68,"nm":93,"nota":"Versione Euro 4, rapporto 10,5:1"}
+    - {"nome":"Aygo seconda serie 1.0","anni":"2014–2021","cv":69,"nm":95,"nota":"Aggiornamento con compressione 11,5:1"}
+    - {"nome":"Aygo X 1.0","anni":"2022–2025","cv":72,"nm":93,"nota":"Rapporto 11,8:1; sostituito dall'ibrido 1.5 a fine 2025"}
+  modelli:
+    - {"nome":"Toyota Aygo (AB10, AB40)","anni":"2005–2021"}
+    - {"nome":"Toyota Aygo X 1.0","anni":"2022–2025"}
+    - {"nome":"Toyota Yaris / Vitz 1.0","anni":"2005–oggi, secondo mercato"}
+    - {"nome":"Toyota iQ 1.0","anni":"2008–2015"}
+    - {"nome":"Citroën C1 1.0","anni":"2005–2021"}
+    - {"nome":"Peugeot 107 1.0","anni":"2005–2014"}
+    - {"nome":"Peugeot 108 1.0","anni":"2014–2021"}
+    - {"nome":"Daihatsu Sirion 1.0","anni":"2005–2010"}
+  storia: "Tre cilindri aspirato della famiglia KR sviluppata nell'orbita Toyota-Daihatsu per vetture compatte. Il basamento in alluminio, la distribuzione bialbero a catena e la fasatura VVT-i riducono peso e ingombri. Dal 2005 ha equipaggiato le citycar prodotte a Kolín, tra cui Aygo, Citroën C1 e Peugeot 107. Le versioni successive hanno aumentato il rapporto di compressione fino a 11,8:1 sulla Aygo X; il modello europeo è passato al motore ibrido 1.5 alla fine del 2025."
+  punti_deboli:
+    - "Pompa dell'acqua: perdite dal paraolio e conseguente calo del liquido refrigerante."
+    - "Distribuzione: su motori usurati o con manutenzione irregolare, rumore del tenditore a catena all'avviamento."
+    - "Guarnizione coperchio punterie: possibili trafilamenti d'olio con l'età."
+  limiti: "Il 1KR-FE è un aspirato progettato per consumi e massa ridotti. Non risultano soglie di potenza affidabili e generalizzabili per i componenti originali: prima di qualunque preparazione verificare lubrificazione, raffreddamento e stato della distribuzione. Gli incrementi da sola rimappatura sono contenuti."
+  curiosita:
+    - "La versione Aygo X 2022 adotta 11,8:1 di compressione, contro 10,5:1 delle prime Aygo."
+    - "Il motore è stato montato anche su modelli Citroën e Peugeot prodotti nello stabilimento condiviso di Kolín."
+
+# Fonti: https://en.wikipedia.org/wiki/Toyota_SZ_engine | https://mymotorlist.com/engines/toyota/1sz-fe/ | https://www.meyermotoren.de/en/fahrzeuge/2000003996/toyota/yaris_p1_ | https://commons.wikimedia.org/wiki/File:Toyota_1SZ-FE_engine.jpg
+- slug: toyota-1sz-fe
+  codice: "1SZ-FE"
+  nome: "Toyota 1SZ-FE 1.0 VVT-i"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 1999
+  fine: 2005
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 997
+  alesaggio: 69
+  corsa: 66.7
+  compressione: "10.0:1"
+  distribuzione: "DOHC a catena Morse, VVT-i in aspirazione"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint"
+  cv_min: 65
+  cv_max: 70
+  nm_max: 95
+  limitatore: 6500
+  foto:
+    url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Toyota_1SZ-FE_engine.jpg"
+    pagina: "https://commons.wikimedia.org/wiki/File:Toyota_1SZ-FE_engine.jpg"
+    autore: "Carolla"
+    licenza: "CC BY-SA 3.0"
+    descrizione: "Toyota 1SZ-FE installato su Toyota Platz"
+  affidabilita:
+    indice: 69
+    motivo: "La distribuzione a catena richiede lubrificazione corretta; segnalati guasti del tenditore con rischio di sfasamento."
+  in_breve:
+    - {"valore":"997 cc","testo":"quattro cilindri a corsa corta da 66,7 mm"}
+    - {"valore":"Ghisa","testo":"basamento compatto con testata in alluminio"}
+    - {"valore":"Catena","testo":"distribuzione Morse con VVT-i in aspirazione"}
+  versioni:
+    - {"nome":"Yaris / Vitz 1.0 VVT-i","anni":"1999–2005","cv":70,"nm":95,"nota":"Taratura di lancio; valori variabili secondo mercato"}
+    - {"nome":"Yaris 1.0 restyling","anni":"2003–2005","cv":65,"nm":95,"nota":"Versione da 48 kW documentata nei cataloghi ricambi; coppia di riferimento della famiglia"}
+  modelli:
+    - {"nome":"Toyota Yaris / Vitz (XP10)","anni":"1999–2005"}
+    - {"nome":"Toyota Platz (XP10)","anni":"1999–2005"}
+  storia: "Il 1SZ-FE è il quattro cilindri da un litro impiegato nella prima generazione della Yaris. Il basamento in ghisa e la testata bialbero a sedici valvole adottano una catena Morse e fasatura VVT-i in aspirazione. Alesaggio di 69 mm e corsa di 66,7 mm lo rendono leggermente superquadro. Dal 2005 il successivo 1KR-FE a tre cilindri ha assunto il ruolo del motore di accesso nelle Yaris europee."
+  punti_deboli:
+    - "Tenditore della catena di distribuzione: possibili rumori e sfasamento se trascurato."
+    - "Lubrificazione: la regolarità dei cambi olio è importante per catena e variatore VVT-i."
+    - "Gioco valvole: la regolazione richiede interventi meccanici specifici, non compensatori idraulici."
+  limiti: "Il 1SZ-FE nasce per un impiego aspirato a bassa cilindrata; non esistono dati comparabili che consentano di fissare una soglia di potenza sicura con componenti di serie. Prima di elaborazioni verificare usura della catena, gioco valvole e pressione olio."
+  curiosita:
+    - "La cilindrata di 997 cc è ottenuta con quattro cilindri, diversamente dal successivo 1KR-FE a tre cilindri."
+    - "Il 1SZ-FE è distinto dal 2SZ-FE da 1,3 litri, che usa alesaggio e corsa differenti."
