@@ -1,0 +1,45 @@
+name: Translate Piston into EN FR CZ
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '_data/motori.yml'
+      - 'tools/traduci.py'
+      - 'tools/genera_pagine.py'
+  schedule:
+    - cron: '25 3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: piston-translations
+  cancel-in-progress: false
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install translation dependencies
+        run: pip install pyyaml deep-translator python-liquid markdown
+      - name: Translate every engine and generate localized pages
+        run: |
+          python tools/traduci.py
+          python tools/genera_pagine.py
+          python tools/valida.py
+          python tools/anteprima.py
+      - name: Commit generated translations and pages
+        run: |
+          git config user.name "piston-translation-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/traduzioni en/motori fr/motori cs/motori
+          if ! git diff --cached --quiet; then
+            git commit -m "Update English French Czech translations and engine pages"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
