@@ -50,8 +50,8 @@ layout: default
       {% if m.affidabilita %}{% include termometro.html a=m.affidabilita motivo=trad.affidabilita.motivo %}{% endif %}
       {% if m.foto %}
       <figure class="foto">
-        <img src="{{ m.foto.url }}" alt="{{ m.foto.descrizione | default: m.nome | escape }}" loading="lazy" decoding="async">
-        <figcaption>{{ m.foto.descrizione | default: m.nome }}. Foto di {{ m.foto.autore }}, <a href="{{ m.foto.pagina }}" rel="noopener">{{ m.foto.licenza }}</a>, da Wikimedia Commons.</figcaption>
+        <img src="{{ m.foto.url }}" alt="{% if trad.foto.descrizione %}{{ trad.foto.descrizione | escape }}{% else %}{{ m.foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async">
+        <figcaption>{% if trad.foto.descrizione %}{{ trad.foto.descrizione }}{% else %}{{ m.foto.descrizione | default: m.nome }}{% endif %}. Foto di {{ m.foto.autore }}, <a href="{{ m.foto.pagina }}" rel="noopener">{{ m.foto.licenza }}</a>, da Wikimedia Commons.</figcaption>
       </figure>
       {% endif %}
       <figure>
