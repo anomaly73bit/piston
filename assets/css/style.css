@@ -373,3 +373,34 @@ h3 { font-size: 1rem; font-weight: 600; }
   .apertura-didascalia { letter-spacing: .07em; }
 }
 @media(prefers-reduced-motion:reduce) { .voce a { transition: none; } .voce a:hover { transform: none; } }
+
+/* Cronologia: etichette, asse e barre in colonne allineate senza sovrapposizioni. */
+.cronologia-pagina { --crono-nome: clamp(12rem, 25vw, 20rem); --crono-periodo: 8.5rem; --crono-gap: 1rem; }
+.cronologia-pagina .cronologia-scala,
+.cronologia-pagina .cronologia-motore {
+  display: grid;
+  grid-template-columns: var(--crono-nome) minmax(0, 1fr) var(--crono-periodo);
+  gap: var(--crono-gap);
+  align-items: center;
+}
+.cronologia-pagina .cronologia-scala { margin-left: 6rem; padding: .65rem 0; font-size: .8rem; color: var(--grafite); border-bottom: 1px solid var(--linea); }
+.cronologia-asse { display: flex; justify-content: space-between; }
+.cronologia-pagina .cronologia .anno { grid-template-columns: 5rem minmax(0, 1fr); gap: 1rem; }
+.cronologia-pagina .cronologia-motore { padding: .65rem 0; min-height: 3.2rem; }
+.cronologia-pagina .cronologia-motore > a { display: block; min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
+.cronologia-traccia { position: relative; height: 12px; min-width: 0; background: var(--carta); border-radius: 999px; overflow: hidden; }
+.cronologia-barra { position: absolute; top: 0; bottom: 0; background: var(--blu); border-radius: 999px; }
+.cronologia-barra.aperta { background: linear-gradient(90deg, var(--blu), var(--giallo)); }
+.cronologia-periodo { font-size: .85rem; color: var(--grafite); white-space: nowrap; }
+.cronologia-legenda { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; color: var(--grafite); font-size: .85rem; margin: 0 0 1.5rem; }
+.legenda-barra, .legenda-attivo { display: inline-block; width: 1.8rem; height: .5rem; border-radius: 999px; background: var(--blu); }
+.legenda-attivo { background: linear-gradient(90deg, var(--blu), var(--giallo)); }
+.cronologia-nota { color: var(--grafite); font-size: .85rem; margin-top: 1.5rem; }
+@media (max-width: 800px) {
+  .cronologia-pagina .cronologia-scala { display: none; }
+  .cronologia-pagina .cronologia .anno { grid-template-columns: 1fr; gap: .25rem; }
+  .cronologia-pagina .cronologia-motore { grid-template-columns: minmax(0, 1fr) 7rem; gap: .4rem .8rem; }
+  .cronologia-pagina .cronologia-motore > a { grid-column: 1 / -1; }
+  .cronologia-pagina .cronologia-traccia { grid-column: 1; }
+  .cronologia-pagina .cronologia-periodo { grid-column: 2; text-align: right; }
+}
