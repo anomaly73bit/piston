@@ -37,6 +37,34 @@ generazione delle quattro pagine e superamento dei test.
 5. Vinkodex, guasto catena (fonte secondaria, non bollettino ufficiale):
    https://vinkodex.com/fault/12-htp-3henger-timing-chain
 
+## Verifiche aggiuntive del 26 ottobre 2026
+
+- Comunicato ufficiale Škoda del 2 maggio 2014: produzione del 1.2 HTP EA111
+  iniziata nel **2001** a Mladá Boleslav; tre milioni di esemplari raggiunti
+  nel maggio 2014; applicazioni Fabia, Roomster, Rapid e veicoli SEAT/VW.
+  Fonte primaria: https://www.skoda-media.de/press/detail/1601/
+- Comunicato ufficiale Škoda del 23 marzo 2003: la variante 40 kW fu
+  commercializzata nell'agosto **2002**, la 47 kW/64 CV arrivò nel 2003.
+  La data di inizio produzione non coincide con la prima vendita.
+  Fonte: https://prportal.skoda.pl/informacje-prasowe/nowy-silnik-1-2-12v-htp-juz-w-ofercie-362
+- Manuale Škoda Fabia II: BBM 44 kW/108 Nm/10,3:1 e 6 valvole;
+  BME 47 kW/112 Nm/10,5:1 e 12 valvole;
+  BZG e CGPA 51 kW/112 Nm/10,5:1 e 12 valvole;
+  CGPB 44 kW/108 Nm/10,4:1 e 12 valvole.
+  NON assumere che tutte le versioni da 44 kW abbiano 6 valvole.
+  Fonte: https://workshop-manuals.com/skoda/fabia-mk2/power_unit/1.2/44%3B_47%3B_51%3B_55_kw_mpi_engine/technical_data/technical_data/
+- La rivista ceca Garáž documenta rumorosità e rischio di salto della catena
+  in alcune serie: https://www.garaz.cz/clanek/skoda-fabia-junior-1-2-mpi-diogenes-z-boleslavi-21000513
+- La produzione globale **non ha ancora una data finale verificata**;
+  nel 2014 il motore era ancora in produzione. Non inserire 2014 come fine
+  globale per sola deduzione dai periodi della Fabia.
+- **Dato bloccante ancora mancante:** regime esatto del limitatore di serie
+  documentato per un codice preciso. I 5.200/5.400 giri/min citati nei
+  manuali sono i regimi di potenza massima, NON il limitatore.
+  Non inventare 6.000/6.500 giri/min per soddisfare lo schema.
+- Soglie numeriche di tuning non sufficientemente documentate: usare
+  un testo prudente, non una cifra ipotetica.
+
 ## Prima della pubblicazione
 
 Confermare anno finale di produzione, intervalli di manutenzione per
