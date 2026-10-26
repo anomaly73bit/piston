@@ -1,0 +1,81 @@
+---
+layout: default
+permalink: /fr/
+locale: fr
+title: Catalogue des moteurs
+script: catalogo.js
+---
+{%- assign motori = site.data.motori | sort: "inizio" -%}
+{%- assign costruttori = site.data.motori | map: "costruttore" | uniq | sort -%}
+{%- assign architetture = site.data.motori | map: "architettura" | uniq | sort -%}
+<section class="apertura apertura-foto">
+  <div class="riga">
+    <h1>Chaque moteur a une histoire.</h1>
+    <p class="sottotitolo">Caractéristiques techniques, versions, applications, histoire, défauts connus et limites de préparation. Alésage et course sont représentés à l’échelle en millimètres.</p><p class="apertura-didascalia">L’ingénierie sous le capot · Archives techniques indépendantes</p>
+  </div>
+</section>
+
+<section class="catalogo riga" aria-label="Catalogo">
+  <form class="filtri" id="filtri" role="search" onsubmit="return false">
+    <label class="cerca">
+      <span>Rechercher</span>
+      <input type="search" id="f-testo" placeholder="Code, nom ou constructeur : 2JZ, EA888, Ferrari…" autocomplete="off">
+    </label>
+    <label><span>Modèle de voiture</span><input type="search" id="f-modello" placeholder="Golf, Clio, 911, Corolla…" autocomplete="off"></label>
+    <label><span>Constructeur</span>
+      <select id="f-costruttore"><option value="">Tous</option>{% for c in costruttori %}<option>{{ c }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Architecture</span>
+      <select id="f-architettura"><option value="">Toutes</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Carburant</span>
+      <select id="f-alimentazione"><option value="">Toutes</option><option>Essence</option><option>Diesel</option><option>Hybride</option></select>
+    </label>
+    <label><span>Suralimentation</span>
+      <select id="f-aspirazione"><option value="">Toutes</option><option>Atmosphérique</option><option>Turbo</option><option>Biturbo</option><option>Compresseur</option></select>
+    </label>
+    <label><span>Décennie d’introduction</span>
+      <select id="f-decennio"><option value="">Tous</option><option value="1970" >Années '70</option><option value="1980" >Années '80</option><option value="1990" >Années '90</option><option value="2000" >Années 2000</option><option value="2010" >Années 2010</option><option value="2020" >Années 2020</option></select>
+    </label>
+    <label class="spunta"><input type="checkbox" id="f-produzione"> Uniquement en production</label>
+  </form>
+
+  <p class="conteggio" id="conteggio" aria-live="polite">{{ motori | size }} moteurs</p>
+
+  <div class="elenco" id="elenco">
+    <div class="elenco-testa" role="presentation">
+      <span></span>
+      <button type="button" data-ordina="nome">Moteur</button>
+      <button type="button" data-ordina="inizio" aria-pressed="true">Années</button>
+      <span class="nasconde-piccolo">Architecture</span>
+      <button type="button" data-ordina="cc" class="num">Cylindrée</button>
+      <button type="button" data-ordina="cv" class="num">CV max</button>
+    </div>
+    <ol class="elenco-righe" id="righe">
+      {% for m in motori %}
+      <li class="voce"
+          data-nome="{{ m.nome | downcase | escape }}"
+          data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}"
+          data-modelli="{% for a in m.modelli %}{{ a.nome | downcase | escape }} {% endfor %}"
+          data-costruttore="{{ m.costruttore | escape }}"
+          data-architettura="{{ m.architettura | escape }}"
+          data-alimentazione="{{ m.alimentazione | escape }}"
+          data-aspirazione="{{ m.aspirazione | escape }}"
+          data-inizio="{{ m.inizio }}"
+          data-produzione="{% if m.fine %}0{% else %}1{% endif %}"
+          data-cc="{{ m.cilindrata }}"
+          data-cv="{{ m.cv_max }}">
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          <span class="voce-disegno">{% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}</span>
+          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span></span>
+          <span class="voce-anni">{{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}<em>aujourd’hui</em>{% endif %}</span>
+          <span class="voce-arch nasconde-piccolo">{{ m.architettura }}, {{ m.aspirazione | downcase }}</span>
+          <span class="num">{{ m.cilindrata }} cc</span>
+          <span class="num voce-cv">{{ m.cv_max }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="vuoto" id="vuoto" hidden>Aucun moteur ne correspond aux filtres. Modifiez les filtres ou recherchez un code moteur.</p>
+  </div>
+</section>
