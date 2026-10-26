@@ -22,7 +22,7 @@ jobs:
         run: |
           python tools/genera_pagine.py
           python tools/valida.py
-          git diff --exit-code -- _motori/
+          git diff --exit-code -- _motori/ en/motori/ fr/motori/ cs/motori/
       - name: Reject newly added engines without complete EN FR CS translations
         run: python tools/verifica_traduzioni.py --new-only
       - name: Render preview
