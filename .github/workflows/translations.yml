@@ -37,7 +37,7 @@ jobs:
           key: argos-models-it-en-fr-cs-v1
       - name: Configure bounded offline translation
         run: |
-          echo "PISTON_TRANSLATION_BATCH=150" >> "$GITHUB_ENV"
+          echo "PISTON_TRANSLATION_BATCH=1000" >> "$GITHUB_ENV"
           echo "ARGOS_DEVICE_TYPE=cpu" >> "$GITHUB_ENV"
           echo "OMP_NUM_THREADS=2" >> "$GITHUB_ENV"
       - name: Translate every engine and generate localized pages
