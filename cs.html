@@ -1,0 +1,81 @@
+---
+layout: default
+permalink: /cs/
+locale: cs
+title: Katalog motorů
+script: catalogo.js
+---
+{%- assign motori = site.data.motori | sort: "inizio" -%}
+{%- assign costruttori = site.data.motori | map: "costruttore" | uniq | sort -%}
+{%- assign architetture = site.data.motori | map: "architettura" | uniq | sort -%}
+<section class="apertura apertura-foto">
+  <div class="riga">
+    <h1>Každý motor má svůj příběh.</h1>
+    <p class="sottotitolo">Technické údaje, varianty, použití, historie, známé závady a možnosti úprav. Vrtání a zdvih jsou zakresleny v měřítku v milimetrech.</p><p class="apertura-didascalia">Technika pod kapotou · Nezávislý technický archiv</p>
+  </div>
+</section>
+
+<section class="catalogo riga" aria-label="Catalogo">
+  <form class="filtri" id="filtri" role="search" onsubmit="return false">
+    <label class="cerca">
+      <span>Hledat</span>
+      <input type="search" id="f-testo" placeholder="Kód, název nebo výrobce: 2JZ, EA888, Ferrari…" autocomplete="off">
+    </label>
+    <label><span>Model automobilu</span><input type="search" id="f-modello" placeholder="Golf, Clio, 911, Corolla…" autocomplete="off"></label>
+    <label><span>Výrobce</span>
+      <select id="f-costruttore"><option value="">Vše</option>{% for c in costruttori %}<option>{{ c }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Uspořádání</span>
+      <select id="f-architettura"><option value="">Vše</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
+    </label>
+    <label><span>Palivo</span>
+      <select id="f-alimentazione"><option value="">Vše</option><option>Benzín</option><option>Diesel</option><option>Hybrid</option></select>
+    </label>
+    <label><span>Plnění</span>
+      <select id="f-aspirazione"><option value="">Vše</option><option>Atmosférický</option><option>Turbo</option><option>Biturbo</option><option>Kompresor</option></select>
+    </label>
+    <label><span>Desetiletí uvedení</span>
+      <select id="f-decennio"><option value="">Vše</option><option value="1970" >Roky '70</option><option value="1980" >Roky '80</option><option value="1990" >Roky '90</option><option value="2000" >Roky 2000</option><option value="2010" >Roky 2010</option><option value="2020" >Roky 2020</option></select>
+    </label>
+    <label class="spunta"><input type="checkbox" id="f-produzione"> Pouze stále vyráběné</label>
+  </form>
+
+  <p class="conteggio" id="conteggio" aria-live="polite">{{ motori | size }} motorů</p>
+
+  <div class="elenco" id="elenco">
+    <div class="elenco-testa" role="presentation">
+      <span></span>
+      <button type="button" data-ordina="nome">Motor</button>
+      <button type="button" data-ordina="inizio" aria-pressed="true">Roky</button>
+      <span class="nasconde-piccolo">Uspořádání</span>
+      <button type="button" data-ordina="cc" class="num">Zdvihový objem</button>
+      <button type="button" data-ordina="cv" class="num">CV max</button>
+    </div>
+    <ol class="elenco-righe" id="righe">
+      {% for m in motori %}
+      <li class="voce"
+          data-nome="{{ m.nome | downcase | escape }}"
+          data-testo="{{ m.nome | append: ' ' | append: m.codice | append: ' ' | append: m.costruttore | downcase | escape }}"
+          data-modelli="{% for a in m.modelli %}{{ a.nome | downcase | escape }} {% endfor %}"
+          data-costruttore="{{ m.costruttore | escape }}"
+          data-architettura="{{ m.architettura | escape }}"
+          data-alimentazione="{{ m.alimentazione | escape }}"
+          data-aspirazione="{{ m.aspirazione | escape }}"
+          data-inizio="{{ m.inizio }}"
+          data-produzione="{% if m.fine %}0{% else %}1{% endif %}"
+          data-cc="{{ m.cilindrata }}"
+          data-cv="{{ m.cv_max }}">
+        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}">
+          <span class="voce-disegno">{% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}</span>
+          <span class="voce-nome"><strong>{{ m.nome }}</strong><span>{{ m.codice }}</span></span>
+          <span class="voce-anni">{{ m.inizio }}–{% if m.fine %}{{ m.fine }}{% else %}<em>dosud</em>{% endif %}</span>
+          <span class="voce-arch nasconde-piccolo">{{ m.architettura }}, {{ m.aspirazione | downcase }}</span>
+          <span class="num">{{ m.cilindrata }} cc</span>
+          <span class="num voce-cv">{{ m.cv_max }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="vuoto" id="vuoto" hidden>Žádné motory neodpovídají filtrům. Upravte filtry nebo hledejte podle kódu motoru.</p>
+  </div>
+</section>
