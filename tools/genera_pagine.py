@@ -40,6 +40,27 @@ def main() -> int:
             "---\n",
             encoding="utf-8",
         )
+    # Genera anche le schede nelle tre lingue, con lo stesso slug canonico.
+    # Il testo editoriale tradotto viene caricato dal layout Jekyll.
+    for lingua in ("en", "fr", "cs"):
+        cartella = RADICE / lingua / "motori"
+        cartella.mkdir(parents=True, exist_ok=True)
+        for m in motori:
+            nome = m["nome"]
+            (cartella / f"{m['slug']}.md").write_text(
+                "---\\n"
+                f"layout: motore\\n"
+                f"locale: {lingua}\\n"
+                f"slug: {m['slug']}\\n"
+                f"title: {yaml.safe_dump(nome, allow_unicode=True).strip().removesuffix('...').strip()}\\n"
+                f"permalink: /{lingua}/motori/{m['slug']}/\\n"
+                "---\\n",
+                encoding="utf-8",
+            )
+        for vecchio in cartella.glob("*.md"):
+            if vecchio.stem not in slugs:
+                vecchio.unlink()
+
     # Rimuove le pagine di motori tolti dal file di dati
     for vecchio in USCITA.glob("*.md"):
         if vecchio.name not in attesi:
