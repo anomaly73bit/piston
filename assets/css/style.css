@@ -456,3 +456,6 @@ h3 { font-size: 1rem; font-weight: 600; }
 .lingue a[aria-current="page"] { border-color:currentColor; }
 .lingue a:hover,.lingue a:focus-visible { text-decoration:underline; }
 @media(max-width:760px){ .lingue{margin-left:auto;gap:.1rem}.lingue a{padding:.35rem;min-width:1.85rem} }
+
+/* Clearly identify articles whose editorial translations are not yet complete. */
+.avviso-traduzione { margin: 1rem auto; max-width: 75rem; padding: .85rem 1.1rem; border: 1px solid #bca15c; border-radius: .45rem; background: #fff4d5; color: #493800; font-size: .94rem; }
