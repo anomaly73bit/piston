@@ -149,7 +149,157 @@
     "1": "1",
     "riporto delle canne al posto delle camicie": "Beru si tyčinky místo triček.",
     "Plasma": "Plazma",
-    "di produzione sulla stessa vettura": "výroba na stejném vozidle"
+    "di produzione sulla stessa vettura": "výroba na stejném vozidle",
+    "18 anni": "18 let",
+    "Difetti limitati a bobine e sensori; robusto con mappatura di serie.": "Defekty omezeny na cívky a senzory; robustní se standardním mapováním.",
+    "Birotore Wankel con due turbo in configurazione sequenziale, montato sulla RX-7 FD (1991). Ogni rotore ha camere da 654 cc: la cilindrata di 1308 cc è riferita a una camera per rotore. In questo sito il campo 'cilindri' indica il numero di rotori. Massa e ingombri sono nettamente inferiori a quelli di un motore alternativo di pari potenza.": "Birotor s dvěma turby v sekvenční konfiguraci, namontovaný na RX-7 FD (1991). Každý rotor má 654 ccm komor: kapacita 1308 cc se odkazuje na rotor komory. Na tomto místě pole 'cilindri' označuje počet rotorů. Hmotnost a zatížení jsou zřetelně nižší než u alternativního motoru se stejným výkonem.",
+    "Wankel a luci (nessuna valvola)": "Lehký ventil (bez ventilu)",
+    "Ghisa / alluminio (statori e alloggiamenti)": "Litina / hliník (statory a pouzdra)",
+    "—": "-",
+    "Tenute d'apice e laterali: la compressione va misurata prima dell'acquisto": "Apex a boční napětí: před nákupem se měří komprese",
+    "Surriscaldamento: radiatore e sensori vanno tenuti in perfetto stato": "Přehřívání: radiátor a senzory musí být udržovány v perfektním stavu",
+    "Un motore rotativo a quattro rotori, il 26B, ha vinto la 24 Ore di Le Mans nel 1991 con la Mazda 787B.": "Čtyřkolový pohon, 26B, vyhrál 24 hodin Le Mans v roce 1991 s Mazda 787B.",
+    "Il controllo del sistema sequenziale usa una rete di valvole e tubazioni del vuoto.": "Sekundární ovládání systému používá vakuovou trubkovou a potrubní síť.",
+    "Versione con cambio manuale": "Verze s manuální převodovkou",
+    "volume delle camere dei due rotori": "objem pokojů obou rotorů",
+    "2 × 654 cc": "2 × 654 cc",
+    "valvole: distribuzione a luci": "ventily: rozložení světla",
+    "0": "0",
+    "due turbo che entrano in funzione uno dopo l'altro": "dvě turba běžící jeden po druhém",
+    "Sequenziale": "Sekvenční",
+    "Tenute dei rotori e surriscaldamento: revisioni frequenti a chilometraggi medi.": "Záclony rotorů a přehřátí: časté revize středních kilometrů.",
+    "Evoluzione aspirata del 13B per la RX-8 (2003). Le luci di scarico sono spostate dalla periferia ai lati della camera: eliminano la sovrapposizione tra aspirazione e scarico e riducono consumi ed emissioni di idrocarburi incombusti. Motore Internazionale dell'Anno nel 2003. Ultimo rotativo di serie usato come unica propulsione di un'auto.": "Předpokládaná evoluce 13B pro RX-8 (2003). Výfuková světla se přesouvají z periferie do stran místnosti: odstraňují překrývání mezi saním a výfukem a snižují spotřebu a emise nespálených uhlovodíků. Mezinárodní motor roku 2003. Poslední standardní rotace použitá jako jediný pohon auta.",
+    "Poco adatto alla sovralimentazione senza rinforzi delle tenute; la maggior parte degli interventi riguarda l'affidabilità.": "Není vhodný pro naddodávky bez výztuží pečetí; většina zásahů se týká spolehlivosti.",
+    "Wankel con luci di scarico laterali": "Svítilna s bočními výfukovými světly",
+    "Ghisa / alluminio": "Litina / hliník",
+    "10.0:1": "10, 0: 1",
+    "Bassa compressione per usura delle tenute, specie se usato poco ai regimi alti": "Nízká komprese pro opotřebení těsnění, zvláště pokud se používá málo při vysokých režimech",
+    "Bobine e candele: si allagano facilmente se spento a freddo": "Cibule a svíčky: Snadno algan, pokud mimo studenou",
+    "Consumo d'olio per progetto (l'olio lubrifica le tenute)": "Spotřeba ropy na projekt (olejové maziva těsnění)",
+    "Mazda è tornata al rotativo nel 2023 come generatore di autonomia sulla MX-30 R-EV.": "Mazda se vrátila do kola v roce 2023 jako generátor energie na MX-30 R-EV.",
+    "L'olio è iniettato nella camera per lubrificare le tenute: un consumo d'olio regolare è previsto dal progetto.": "Olej se vstříkne do místnosti k mazání těsnění: projekt zajišťuje pravidelnou spotřebu oleje.",
+    "Limitatore 9000 giri": "Omezovač 9000 závitů",
+    "scarico spostato sui fianchi della camera": "vyložit přesunuto po stranách místnosti",
+    "Luci laterali": "Boční světla",
+    "giri/min al limitatore sulla versione da 231 CV": "RPM na limitor 231 CV verze",
+    "Motore Internazionale dell'Anno": "Mezinárodní motor roku",
+    "2003": "2003",
+    "Perdita di compressione frequente per usura delle tenute.": "Časté kompresní ztráty při opotřebení těsnění.",
+    "Il basamento open-deck è il punto debole: oltre 350–400 CV conviene un basamento closed-deck o canne rinforzate.": "Základna otevřeného podlaží je slabým bodem: přes 350-400 CV je uzavřený podklad nebo vyztužené tyče.",
+    "SOHC/DOHC a cinghia (AVCS dalle versioni 2000+)": "SOHC / DOHC pás (AVCS od 2000 + verzí)",
+    "8.0–8.5:1": "8.0- 8.5: 1",
+    "Rottura dei 'ring land' dei pistoni (EJ255/EJ257) per detonazione": "Rozbití \"prstencové země\" pístů (EJ255 / EJ257) pro detonaci",
+    "Guarnizioni della testata, soprattutto sugli EJ25 aspirati": "Těsnění hlavy, zejména na vakuových EJ25s",
+    "Bronzine di biella e pescante olio in caso di uso in pista prolungato": "Bronzin z bielly a rybářského oleje v případě použití na prodloužené trati",
+    "Il suono irregolare tipico deriva dai collettori di scarico di lunghezza diversa; dal 2008 alcuni modelli adottano collettori a lunghezza uguale.": "Typický nepravidelný zvuk pochází z různých sběračů výfukových plynů délky, od roku 2008 některé modely přijímají stejné sběrače délky.",
+    "Il turbo 2.0 più spinto della famiglia": "Nejvíce poháněné turbo 2.0 rodiny",
+    "2457 cc, alesaggio 99,5 mm": "2457 cc, vyvrtávání 99,5 mm",
+    "Serie speciale USA": "USA Speciální série",
+    "cilindri contrapposti, baricentro basso": "přetlakové válce, nízko uprostřed",
+    "Boxer": "Boxer",
+    "titoli costruttori consecutivi nel Mondiale Rally (1995–1997)": "po sobě jdoucí Světová rally (1995- 1997)",
+    "3": "3",
+    "basamento a canne aperte sulle versioni turbo più recenti": "open trubka základny na nejnovější turbo verze",
+    "Open-deck": "Open- paluba",
+    "Guarnizioni della testata (EJ25) e cedimenti dei pistoni (EJ257).": "Těsnění hlavy (EJ25) a výnosy pístu (EJ257).",
+    "Ultimo sei cilindri in linea aspirato della divisione BMW M (2000). Basamento in ghisa, doppio VANOS ad alta pressione, sei corpi farfallati singoli a comando elettronico. Raggiunge 105 CV/litro. La M3 CSL adotta un airbox in carbonio che porta la potenza a 360 CV.": "Posledních šest in- line válců divize BMW M (2000). Litinová základna, dvoutlaký VANOS, šest elektronicky řízených jednoduchých motýlů. Dosáhnout 105 CV / litr. CSL M3 přijímá uhlíkovou schránku, která přivádí energii na 360 CV.",
+    "Margini limitati da aspirato. Con compressore volumetrico si raggiungono 450–500 CV mantenendo gli interni di serie.": "Mříže omezené odsáváním. S odměrným kompresorem dosáhnete 450-500 CV při zachování interiéru řady.",
+    "Germania": "Německo",
+    "DOHC a catena, doppio VANOS": "Chain DOHC, double VANOS",
+    "11.5:1": "11, 5: 1",
+    "Bronzine di biella: sostituzione preventiva consigliata": "Bronzin di biella: doporučená preventivní náhrada",
+    "VANOS: bulloni della pompa e guarnizioni": "VANOS: šrouby a těsnění čerpadla",
+    "Supporti del differenziale posteriore (carrozzeria E46, non motore)": "Zadní diferenciální podpěry (carrozzeria E46, non-motor)",
+    "Il limitatore a 8000 giri/min corrisponde a una velocità media del pistone di circa 24 m/s, valore molto alto per un motore di serie.": "Omezovač výkonu 8000 ot. / min odpovídá průměrné rychlosti pístu cca 24 m / s, což je velmi vysoká hodnota pro standardní motor.",
+    "USA 333 CV": "USA 333 CV",
+    "Airbox in carbonio": "Uhlíková schránka",
+    "Versione USA": "USA verze",
+    "da aspirato con basamento in ghisa": "z odsávání s litinovou základnou",
+    "105 CV/l": "105 CV / l",
+    "8000": "8000",
+    "velocità media del pistone al limitatore": "průměrná rychlost pístu do omezovače",
+    "24 m/s": "24 m / s",
+    "Bronzine di biella e VANOS richiedono interventi preventivi.": "Bronzine di biella e VANOS vyžaduje preventivní intervence.",
+    "Con turbo di serie si arriva a circa 400–450 CV. Con turbo maggiorati il limite sono bielle e pompa carburante, intorno ai 600 CV.": "Se sérií turbo dosáhnete cca 400- 450 CV. S turbo zvýšil limit jsou biella a palivové čerpadlo, kolem 600 CV.",
+    "Diretta a iniettori piezo": "Režie piezo vstřikovačů",
+    "10.2:1": "10, 2: 1",
+    "Pompa carburante ad alta pressione (HPFP), soggetta a richiamo": "Vysokotlaké palivové čerpadlo (HPFP), podléhající volání",
+    "Valvole wastegate rumorose e iniettori piezo": "Vrtule a vstřikovače piezo",
+    "Depositi carboniosi sulle valvole di aspirazione (tipico dell'iniezione diretta)": "Zásoby uhlíku na sací ventily (mezní hodnota přímého vstřikování)",
+    "Le misure al banco di esemplari di serie risultano spesso superiori alla potenza dichiarata.": "Měření na standardním počitadle vzorků jsou často vyšší než deklarovaný výkon.",
+    "Overboost fino a 500 Nm": "Nadbytek až 500 Nm",
+    "uno ogni tre cilindri": "jeden každé tři válce",
+    "2 turbo": "2 turbo",
+    "iniettori al centro della camera di combustione": "vstřikovače uprostřed spalovací komory",
+    "Piezo": "Koláč",
+    "primo sei cilindri BMW turbo a iniezione diretta": "prvních šest válců BMW turbo přímé vstřikování",
+    "2006": "2006",
+    "Pompa ad alta pressione, wastegate e iniettori soggetti a guasti costosi.": "Vysokotlaké čerpadlo, plýtvání a vstřikovače podléhají drahým chybám.",
+    "Sei cilindri della famiglia modulare BMW (2015), con 500 cc per cilindro come il tre cilindri B38 e il quattro cilindri B48. Basamento closed-deck in alluminio, turbo twin-scroll unico con collettore integrato, intercooler aria-acqua nel collettore di aspirazione. Dal 2019 la versione TU aggiorna iniezione, turbo e raffreddamento.": "Šest válců BMW modulární rodiny (2015), s 500 cc na válec, jako tři válce B38 a čtyři válce B48. Hliníková základna v uzavřeném podlaží, jedno turbo s dvojitým posuvem s integrovaným potrubím, vzduchochladiče v sacím potrubí. Od roku 2019 aktualizuje verze TU vstřikování, turbo a chlazení.",
+    "Sulle versioni TU il basamento di serie sopporta 550–650 CV con turbo maggiorato.": "Na provedení TU je standardní základna 550-650 CV se zvýšeným turbem.",
+    "DOHC a catena, doppio VANOS e Valvetronic": "Chain DOHC, double VANOS a Valvetronic",
+    "Alluminio, closed-deck": "Hliník, uzavřená paluba",
+    "Diretta": "Přímé",
+    "10.2–11.0:1": "10, 2- 11, 0: 1",
+    "Perdite dalla vaschetta di espansione e dal radiatore olio": "Ztráta z expanzní nádrže a olejového radiátoru",
+    "Prime unità con guarnizione del coperchio filtro olio": "První jednotka s olejovým filtrem těsnění",
+    "Fornito a Toyota per la GR Supra A90 dal 2019.": "Poskytuje Toyota pro GR Supra A90 od roku2019.",
+    "Mild hybrid dal 2020": "Mírný hybrid od roku 2020",
+    "per cilindro, come i B38 e B48 della stessa famiglia": "pro válec, jako B38 a B48 stejné rodiny",
+    "500 cc": "500 cc",
+    "basamento in alluminio": "Hliníková základna",
+    "Closed-deck": "Uzavřená paluba",
+    "fornito a Toyota per la GR Supra A90": "dodáván Toyota pro GR Supra A90",
+    "Supra": "Supra",
+    "Pochi difetti, limitati a perdite del circuito di raffreddamento.": "Málo závad, omezené na ztráty chladicího okruhu.",
+    "Con interni di serie la Gen3 sopporta circa 400–450 CV con turbo maggiorato; oltre servono bielle e pistoni forgiati.": "Se standardními interiéry nese Gen3 asi 400- 450 CV se zvýšeným turbem; kromě toho slouží biella a kované písty.",
+    "DOHC a catena, fasatura variabile (AVS su alcune versioni)": "Řetězec DOHC, variabilní frézování (AVS na některých verzích)",
+    "Diretta (diretta + indiretta dalla Gen3)": "Přímé (přímé + nepřímé od Gen3)",
+    "9.3–10.5:1": "9, 3- 10, 5: 1",
+    "Gen1/Gen2: consumo d'olio dovuto ai segmenti pistone (sostituiti in garanzia in molti mercati)": "Gen1 / Gen2: spotřeba ropy v důsledku pístových segmentů (nahrazena zárukou na mnoha trzích)",
+    "Tenditore della catena di distribuzione sulle prime versioni: rischio di salto di catena": "Napínač distribučního řetězce na první verzi: riziko skoku řetězu",
+    "Pompa acqua in plastica e termostato (Gen3) con perdite": "Plastové a termostatové vodní čerpadlo (Gen3) s úniky",
+    "Prodotto in Europa, Cina, Messico e Sudamerica.": "Vyrobeno v Evropě, Číně, Mexiku a Jižní Americe.",
+    "Collettore di scarico integrato nella testa": "Výfukový potrubí integrovaný do hlavy",
+    "Golf R '20 Years'": "Golf R '20 years'",
+    "con lo stesso basamento in ghisa": "se stejnou litinovou základnou",
+    "160–333 CV": "160- 333 CV",
+    "generazioni dal 2007": "generace od roku 2007",
+    "collettore di scarico nella testata dalla Gen3": "rozvody výfukových plynů v hlavě Gen3",
+    "Integrato": "Integrované",
+    "Consumo d'olio (Gen1/Gen2) e tenditore della catena sulle prime versioni.": "Spotřeba oleje (Gen1 / Gen2) a napínač řetězu v první verzi.",
+    "Diesel a iniezione diretta con turbo e intercooler, introdotto sull'Audi 80 nel 1991. Prima versione con pompa rotativa a controllo elettronico; dal 1996 turbo a geometria variabile; dal 2000 iniettore-pompa (Pumpe-Düse) con pressioni fino a 2050 bar. È stato tra i motori più prodotti del gruppo e ha contribuito alla diffusione del diesel sulle auto europee negli anni '90 e 2000.": "Přímá vstřikovací nafta s turbem a mezichladičem, zavedená na Audi 80 v roce 1991. První verze s elektronickým ovládacím rotačním čerpadlem, od roku 1996 turbo po proměnnou geometrii, od 2000 vstřikovačů-pompa (Pumpe-Düse) s tlaky až do 2050 bar. Byl jedním z nejvíce vyráběných motorů skupiny a přispěl k difúzi nafty na evropských automobilech v 90. a 2000s.",
+    "Le versioni Pumpe-Düse arrivano a circa 200 CV con iniettori maggiorati e frizione rinforzata.": "Pumpe- Düse verze dosahují asi 200 CV se zvýšenou vstřikovačů a zesílené spojky.",
+    "Diesel": "Diesel",
+    "SOHC a cinghia": "SOHC pás",
+    "Diretta, pompa rotativa (VE) poi iniettore-pompa (PD)": "Přímé, rotační čerpadlo (VE) pak vstřikovací - pompa (PD)",
+    "18.0–19.5:1": "18, 0- 19, 5: 1",
+    "Valvola EGR e sensore flusso aria": "Senzor ventilu a průtoku vzduchu EGR",
+    "Debutto su Audi 80 B4": "Debut na Audi 80 B4",
+    "Turbo a geometria variabile": "Proměnná geometrie Turbo",
+    "Valore massimo su Seat Ibiza Cupra": "Maximální hodnota na sedadle Ibiza Cupra",
+    "pressione di iniezione delle versioni iniettore-pompa": "injekční tlak ve formě injekčního roztoku",
+    "2050 bar": "bar 2050",
+    "debutto sull'Audi 80": "Audi 80 debut",
+    "1991": "1991",
+    "raggiunti da unità documentate su taxi e furgoni": "Dosažen jednotkami dokumentovanými taxíky a dodávkami",
+    "1.000.000 km": "1 000 000 mil",
+    "Le versioni da 140 CV superano i 170–180 CV con mappatura; il limite sono frizione e turbo.": "140 CV verzí je vyšší než 170-180 CV s mapováním; limit je tření a turbo.",
+    "16.5:1": "16, 5: 1",
+    "Valvola EGR e filtro antiparticolato con uso cittadino": "EGR ventil a částicový filtr s občanským použitím",
+    "Pompa olio a esagono (azionamento) su alcune versioni": "Šestihranné olejové čerpadlo (pohon) na některých verzích",
+    "Aggiornamento software post-Dieselgate con effetti su EGR e DPF segnalati da molti utenti": "Aktualizace softwaru Post- Dieselgate s účinky na EGR a DPF hlášené mnoha uživateli",
+    "Sostituito dall'EA288, sviluppato per le normative Euro 6.": "Nahrazen EA288, vyvinutý pro regulaci Euro6.",
+    "scoperta del software di riconoscimento del ciclo di prova": "objev softwaru pro rozpoznávání zkušebního cyklu",
+    "2015": "2015",
+    "veicoli coinvolti nel Dieselgate": "vozidla zapojená do Dieselgate",
+    "11 milioni": "11 milionů",
+    "primo 2.0 TDI del gruppo con questo sistema": "první 2.0 TDI skupiny s tímto systémem",
+    "Basamento robusto; EGR, filtro antiparticolato e pompa olio su alcune versioni.": "Robustní báze; EGR, filtr částic a olejové čerpadlo na některých verzích.",
+    "DOHC a catena": "Řetězec DOHC",
+    "Ghisa, poi alluminio (evo 2016)": "Ghisa, pak hliník (evo 2016)",
+    "Diretta (diretta + indiretta dal 2016)": "Přímé (přímé + nepřímé od roku 2016)",
+    "Valvola di ricircolo PCV e bobine": "Recirkulační ventil PCV a cívky"
   },
   "toyota-2jz-gte": {
     "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
@@ -621,274 +771,274 @@
       },
       {
         "testo": "výroba na stejném vozidle",
-        "valore": null
+        "valore": "18 let"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Defekty omezeny na cívky a senzory; robustní se standardním mapováním."
     }
   },
   "mazda-13b-rew": {
     "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
-    "storia": null,
+    "storia": "Birotor s dvěma turby v sekvenční konfiguraci, namontovaný na RX-7 FD (1991). Každý rotor má 654 ccm komor: kapacita 1308 cc se odkazuje na rotor komory. Na tomto místě pole 'cilindri' označuje počet rotorů. Hmotnost a zatížení jsou zřetelně nižší než u alternativního motoru se stejným výkonem.",
     "limiti": null,
     "paese": "Japonsko",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Lehký ventil (bez ventilu)",
+    "blocco": "Litina / hliník (statory a pouzdra)",
+    "testa": "-",
     "iniezione": "Nepřímý multipoint",
     "compressione": "9, 0: 1",
     "punti_deboli": [
+      "Apex a boční napětí: před nákupem se měří komprese",
       null,
-      null,
-      null
+      "Přehřívání: radiátor a senzory musí být udržovány v perfektním stavu"
     ],
     "curiosita": [
-      null,
-      null
+      "Čtyřkolový pohon, 26B, vyhrál 24 hodin Le Mans v roce 1991 s Mazda 787B.",
+      "Sekundární ovládání systému používá vakuovou trubkovou a potrubní síť."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Verze s manuální převodovkou"
       },
       {}
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "objem pokojů obou rotorů",
+        "valore": "2 × 654 cc"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "ventily: rozložení světla",
+        "valore": "0"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "dvě turba běžící jeden po druhém",
+        "valore": "Sekvenční"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Záclony rotorů a přehřátí: časté revize středních kilometrů."
     }
   },
   "mazda-renesis": {
     "_source_hash": "61726637cb46e6e6b34aa2ebd67849bc9498e476c4136c53f9417aad3dd1eb70",
-    "storia": null,
-    "limiti": null,
+    "storia": "Předpokládaná evoluce 13B pro RX-8 (2003). Výfuková světla se přesouvají z periferie do stran místnosti: odstraňují překrývání mezi saním a výfukem a snižují spotřebu a emise nespálených uhlovodíků. Mezinárodní motor roku 2003. Poslední standardní rotace použitá jako jediný pohon auta.",
+    "limiti": "Není vhodný pro naddodávky bez výztuží pečetí; většina zásahů se týká spolehlivosti.",
     "paese": "Japonsko",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Svítilna s bočními výfukovými světly",
+    "blocco": "Litina / hliník",
+    "testa": "-",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Nízká komprese pro opotřebení těsnění, zvláště pokud se používá málo při vysokých režimech",
+      "Cibule a svíčky: Snadno algan, pokud mimo studenou",
+      "Spotřeba ropy na projekt (olejové maziva těsnění)"
     ],
     "curiosita": [
-      null,
-      null
+      "Mazda se vrátila do kola v roce 2023 jako generátor energie na MX-30 R-EV.",
+      "Olej se vstříkne do místnosti k mazání těsnění: projekt zajišťuje pravidelnou spotřebu oleje."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Omezovač 9000 závitů"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "vyložit přesunuto po stranách místnosti",
+        "valore": "Boční světla"
       },
       {
-        "testo": null,
+        "testo": "RPM na limitor 231 CV verze",
         "valore": "9000"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "Mezinárodní motor roku",
+        "valore": "2003"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Časté kompresní ztráty při opotřebení těsnění."
     }
   },
   "subaru-ej": {
     "_source_hash": "1dae024d5be136ccd8ad7a0bcdbbdc241cb3c0d8b848331fea65896aa7a135ef",
     "storia": null,
-    "limiti": null,
+    "limiti": "Základna otevřeného podlaží je slabým bodem: přes 350-400 CV je uzavřený podklad nebo vyztužené tyče.",
     "paese": "Japonsko",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "SOHC / DOHC pás (AVCS od 2000 + verzí)",
     "blocco": "Hliník",
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "8.0- 8.5: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Rozbití \"prstencové země\" pístů (EJ255 / EJ257) pro detonaci",
+      "Těsnění hlavy, zejména na vakuových EJ25s",
+      "Bronzin z bielly a rybářského oleje v případě použití na prodloužené trati"
     ],
     "curiosita": [
-      null
+      "Typický nepravidelný zvuk pochází z různých sběračů výfukových plynů délky, od roku 2008 některé modely přijímají stejné sběrače délky."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Nejvíce poháněné turbo 2.0 rodiny"
       },
       {
-        "nota": null
+        "nota": "2457 cc, vyvrtávání 99,5 mm"
       },
       {
-        "nota": null
+        "nota": "USA Speciální série"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "přetlakové válce, nízko uprostřed",
+        "valore": "Boxer"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "po sobě jdoucí Světová rally (1995- 1997)",
+        "valore": "3"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "open trubka základny na nejnovější turbo verze",
+        "valore": "Open- paluba"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Těsnění hlavy (EJ25) a výnosy pístu (EJ257)."
     }
   },
   "bmw-s54": {
     "_source_hash": "a0d4c21dcfb25d9f124d775bb8731ada1b4c3295c33ffceb04681426789aca87",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
+    "storia": "Posledních šest in- line válců divize BMW M (2000). Litinová základna, dvoutlaký VANOS, šest elektronicky řízených jednoduchých motýlů. Dosáhnout 105 CV / litr. CSL M3 přijímá uhlíkovou schránku, která přivádí energii na 360 CV.",
+    "limiti": "Mříže omezené odsáváním. S odměrným kompresorem dosáhnete 450-500 CV při zachování interiéru řady.",
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": "Nepřímé, šest jednoduchých motýlích těl",
-    "compressione": null,
+    "compressione": "11, 5: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Bronzin di biella: doporučená preventivní náhrada",
+      "VANOS: šrouby a těsnění čerpadla",
+      "Zadní diferenciální podpěry (carrozzeria E46, non-motor)"
     ],
     "curiosita": [
-      null
+      "Omezovač výkonu 8000 ot. / min odpovídá průměrné rychlosti pístu cca 24 m / s, což je velmi vysoká hodnota pro standardní motor."
     ],
     "versioni": [
       {
-        "nota": null
+        "nota": "USA 333 CV"
       },
       {
-        "nota": null
+        "nota": "Uhlíková schránka"
       },
       {},
       {
-        "nota": null
+        "nota": "USA verze"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "z odsávání s litinovou základnou",
+        "valore": "105 CV / l"
       },
       {
         "testo": "otáčky motoru do omezovače",
-        "valore": null
+        "valore": "8000"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "průměrná rychlost pístu do omezovače",
+        "valore": "24 m / s"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Bronzine di biella e VANOS vyžaduje preventivní intervence."
     }
   },
   "bmw-n54": {
     "_source_hash": "a534ef1287d234375ee496a858dc1d545a142f404c1143ee57c59115756ad702",
     "storia": null,
-    "limiti": null,
-    "paese": null,
+    "limiti": "Se sérií turbo dosáhnete cca 400- 450 CV. S turbo zvýšil limit jsou biella a palivové čerpadlo, kolem 600 CV.",
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Režie piezo vstřikovačů",
+    "compressione": "10, 2: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Vysokotlaké palivové čerpadlo (HPFP), podléhající volání",
+      "Vrtule a vstřikovače piezo",
+      "Zásoby uhlíku na sací ventily (mezní hodnota přímého vstřikování)"
     ],
     "curiosita": [
-      null
+      "Měření na standardním počitadle vzorků jsou často vyšší než deklarovaný výkon."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Nadbytek až 500 Nm"
       },
       {
-        "nota": null
+        "nota": "Nadbytek až 500 Nm"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "jeden každé tři válce",
+        "valore": "2 turbo"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "vstřikovače uprostřed spalovací komory",
+        "valore": "Koláč"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "prvních šest válců BMW turbo přímé vstřikování",
+        "valore": "2006"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Vysokotlaké čerpadlo, plýtvání a vstřikovače podléhají drahým chybám."
     }
   },
   "bmw-b58": {
     "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
+    "storia": "Šest válců BMW modulární rodiny (2015), s 500 cc na válec, jako tři válce B38 a čtyři válce B48. Hliníková základna v uzavřeném podlaží, jedno turbo s dvojitým posuvem s integrovaným potrubím, vzduchochladiče v sacím potrubí. Od roku 2019 aktualizuje verze TU vstřikování, turbo a chlazení.",
+    "limiti": "Na provedení TU je standardní základna 550-650 CV se zvýšeným turbem.",
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS a Valvetronic",
+    "blocco": "Hliník, uzavřená paluba",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé",
+    "compressione": "10, 2- 11, 0: 1",
     "punti_deboli": [
-      null,
-      null
+      "Ztráta z expanzní nádrže a olejového radiátoru",
+      "První jednotka s olejovým filtrem těsnění"
     ],
     "curiosita": [
-      null
+      "Poskytuje Toyota pro GR Supra A90 od roku2019."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Mírný hybrid od roku 2020"
       },
       {
         "nota": null
@@ -896,114 +1046,114 @@
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "pro válec, jako B38 a B48 stejné rodiny",
+        "valore": "500 cc"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "Hliníková základna",
+        "valore": "Uzavřená paluba"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "dodáván Toyota pro GR Supra A90",
+        "valore": "Supra"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Málo závad, omezené na ztráty chladicího okruhu."
     }
   },
   "vw-ea888": {
     "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
     "storia": null,
-    "limiti": null,
-    "paese": null,
+    "limiti": "Se standardními interiéry nese Gen3 asi 400- 450 CV se zvýšeným turbem; kromě toho slouží biella a kované písty.",
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC, variabilní frézování (AVS na některých verzích)",
     "blocco": "Ghisa",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé (přímé + nepřímé od Gen3)",
+    "compressione": "9, 3- 10, 5: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Gen1 / Gen2: spotřeba ropy v důsledku pístových segmentů (nahrazena zárukou na mnoha trzích)",
+      "Napínač distribučního řetězce na první verzi: riziko skoku řetězu",
+      "Plastové a termostatové vodní čerpadlo (Gen3) s úniky"
     ],
     "curiosita": [
-      null
+      "Vyrobeno v Evropě, Číně, Mexiku a Jižní Americe."
     ],
     "versioni": [
       {},
       {},
       {
-        "nota": null
+        "nota": "Výfukový potrubí integrovaný do hlavy"
       },
       {
-        "nota": null
+        "nota": "Golf R '20 years'"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "se stejnou litinovou základnou",
+        "valore": "160- 333 CV"
       },
       {
-        "testo": null,
+        "testo": "generace od roku 2007",
         "valore": "4"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "rozvody výfukových plynů v hlavě Gen3",
+        "valore": "Integrované"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Spotřeba oleje (Gen1 / Gen2) a napínač řetězu v první verzi."
     }
   },
   "vw-19-tdi": {
     "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "storia": "Přímá vstřikovací nafta s turbem a mezichladičem, zavedená na Audi 80 v roce 1991. První verze s elektronickým ovládacím rotačním čerpadlem, od roku 1996 turbo po proměnnou geometrii, od 2000 vstřikovačů-pompa (Pumpe-Düse) s tlaky až do 2050 bar. Byl jedním z nejvíce vyráběných motorů skupiny a přispěl k difúzi nafty na evropských automobilech v 90. a 2000s.",
+    "limiti": "Pumpe- Düse verze dosahují asi 200 CV se zvýšenou vstřikovačů a zesílené spojky.",
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "SOHC pás",
     "blocco": "Ghisa",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé, rotační čerpadlo (VE) pak vstřikovací - pompa (PD)",
+    "compressione": "18, 0- 19, 5: 1",
     "punti_deboli": [
       null,
       null,
-      null
+      "Senzor ventilu a průtoku vzduchu EGR"
     ],
     "curiosita": [
       null
     ],
     "versioni": [
       {
-        "nota": null
+        "nota": "Debut na Audi 80 B4"
       },
       {
-        "nota": null
+        "nota": "Proměnná geometrie Turbo"
       },
       {},
       {
-        "nota": null
+        "nota": "Maximální hodnota na sedadle Ibiza Cupra"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "injekční tlak ve formě injekčního roztoku",
+        "valore": "bar 2050"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "Audi 80 debut",
+        "valore": "1991"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "Dosažen jednotkami dokumentovanými taxíky a dodávkami",
+        "valore": "1 000 000 mil"
       }
     ],
     "affidabilita": {
@@ -1013,22 +1163,22 @@
   "vw-ea189": {
     "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
     "storia": null,
-    "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "limiti": "140 CV verzí je vyšší než 170-180 CV s mapováním; limit je tření a turbo.",
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": "Pás DOHC",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "16, 5: 1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "EGR ventil a částicový filtr s občanským použitím",
+      "Šestihranné olejové čerpadlo (pohon) na některých verzích",
+      "Aktualizace softwaru Post- Dieselgate s účinky na EGR a DPF hlášené mnoha uživateli"
     ],
     "curiosita": [
-      null
+      "Nahrazen EA288, vyvinutý pro regulaci Euro6."
     ],
     "versioni": [
       {},
@@ -1036,36 +1186,36 @@
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "objev softwaru pro rozpoznávání zkušebního cyklu",
+        "valore": "2015"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "vozidla zapojená do Dieselgate",
+        "valore": "11 milionů"
       },
       {
-        "testo": null,
+        "testo": "první 2.0 TDI skupiny s tímto systémem",
         "valore": null
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Robustní báze; EGR, filtr částic a olejové čerpadlo na některých verzích."
     }
   },
   "audi-25-tfsi": {
     "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Řetězec DOHC",
+    "blocco": "Ghisa, pak hliník (evo 2016)",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé (přímé + nepřímé od roku 2016)",
+    "compressione": "10, 0: 1",
     "punti_deboli": [
-      null,
+      "Recirkulační ventil PCV a cívky",
       null
     ],
     "curiosita": [
@@ -1100,7 +1250,7 @@
     "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -1146,7 +1296,7 @@
     "_source_hash": "eca40ca568ccfc4904403d915335bcfba6b9c69d538f043930957fab6b63cc0a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -1196,13 +1346,13 @@
     "_source_hash": "8af44c039de42aef35069617141a606f27727b20981816cbef21724a8edb4f61",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Benzín / hybrid",
     "aspirazione": "Bitustrace",
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -1248,10 +1398,10 @@
     "_source_hash": "392f1f39bbcf542aa95af7bfe9ed301ea8945d81d188131ec2a6e455664dd240",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": null,
@@ -1282,7 +1432,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "1 000 000 mil"
       }
     ],
     "affidabilita": {
@@ -1299,8 +1449,8 @@
     "distribuzione": null,
     "blocco": "Ghisa",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé",
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,
@@ -1444,7 +1594,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -1484,7 +1634,7 @@
     "_source_hash": "05e8c230760b45f0613c4eb9b30d9f7309cbd6ec5edf082a933a0dfd137a6a36",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -1537,7 +1687,7 @@
     "_source_hash": "d467dc4ff9c45fb77812a43387bb16aa17607be72cb8fec7c7b84536bcd92dd1",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -1927,7 +2077,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -2027,7 +2177,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -2168,7 +2318,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null
@@ -2205,10 +2355,10 @@
     "_source_hash": "7ffdd54a91091b092e14b96caf84065fdffc576b9876bf68428ca41ef269f823",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": null,
@@ -2254,10 +2404,10 @@
     "_source_hash": "31283b9afc9011e97469d5434fa0a7ecc6e99749579de8cb00e7ca1d77c85147",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
@@ -2297,10 +2447,10 @@
     "_source_hash": "512c0f0cfb1c51da058702fd0748b8a08e48db2b8495d936056d4c3e5cc46092",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
@@ -2338,11 +2488,11 @@
     "_source_hash": "692a9c3890ed5dc4276a9f1dfdfbe5532c79f26692ba5e1f42032af06cbb51f1",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS",
+    "blocco": "Hliník, uzavřená paluba",
     "testa": null,
     "iniezione": null,
     "compressione": null,
@@ -2368,7 +2518,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Uzavřená paluba"
       },
       {
         "testo": null,
@@ -2383,10 +2533,10 @@
     "_source_hash": "3978396333878520ee68fe3a3edf97b879f61571c712e952ce8238a1176b822b",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
@@ -2432,13 +2582,13 @@
     "_source_hash": "01395db28890c73fcbb0a238cf97c52c56e7b8ea173aefcd20ed9fce931c339f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
     "blocco": null,
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -2476,7 +2626,7 @@
     "_source_hash": "624635391c285feb521321e32b5dce5ad93c779a615ce0d17a2c67c1e7e0e0cb",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -2524,7 +2674,7 @@
     "_source_hash": "62a938d389d6e7ad5ccf6c77eab72d9f91805c5040897fed093e876627c03dae",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -2574,13 +2724,13 @@
     "_source_hash": "ad4f2adc97c9ac21f2cb10445df2365693a4a47155370bdb899db8e3351fa01c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": "10, 0- 10, 5: 1",
     "punti_deboli": [
       null,
@@ -2666,7 +2816,7 @@
     "_source_hash": "754e9e3f98eb6e244ae0888759b14fbc5f7c3b8e8eb6d03acb72478daf814876",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": "Pás DOHC",
@@ -2875,7 +3025,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "3"
       },
       {
         "testo": null,
@@ -2897,7 +3047,7 @@
     "blocco": "Hliník",
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "10, 2: 1",
     "punti_deboli": [
       null,
       null
@@ -3072,7 +3222,7 @@
     "_source_hash": "6f199fd6ed78bfd3685c34c9a83fb2a1bbe2ff1df397d4f9e00988dcbedbd5f9",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -3287,9 +3437,9 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
@@ -3314,7 +3464,7 @@
         "nota": null
       },
       {
-        "nota": null
+        "nota": "Proměnná geometrie Turbo"
       },
       {
         "nota": null
@@ -3394,7 +3544,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": null,
@@ -3860,7 +4010,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "2 turbo"
       },
       {
         "testo": null,
@@ -3922,7 +4072,7 @@
     "_source_hash": "d90edb1f44f1563f68dd3bb210ed836156556dc0dfc06e63ab6103b6a39aaded",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -3982,7 +4132,7 @@
     "_source_hash": "55ff9ff9ce64d3b1b70e268516cbf2fe6e297cbd69ff7268250c6454c27797ce",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -4048,7 +4198,7 @@
     "_source_hash": "6120a05a5f38e05a94aa0a43dbd76cf22f509e7989bb7f26998e5965cebddd9f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4108,7 +4258,7 @@
     "_source_hash": "b25b6c9d6e1ce3aff8a0d8672e87368d0ad022574f686ea0eb5a207b32512365",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4165,7 +4315,7 @@
     "_source_hash": "793ac9dad17fab447100a09298037c93dfbc5f6b70667d4b43ec9c86ccd4c4cf",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4215,8 +4365,8 @@
     "_source_hash": "09fc6cf117f14f40bde4288d3683afee1225c155a9a3546e250620b647b0fd16",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -4271,14 +4421,14 @@
     "_source_hash": "9fc1f56b45f359ab0cae3d4840e2874e4639121795fa6430e10656914635d1ea",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 2: 1",
     "punti_deboli": [
       null,
       null,
@@ -4325,7 +4475,7 @@
     "_source_hash": "d13edc38174af3f52b7221b3e38699b3d04264fe0f18e10351b46dc51692b155",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -4379,7 +4529,7 @@
     "_source_hash": "33a936faae7cb86a781e8e2e3ea60867bc7f3a41ab41202f8f443d5d78af99b5",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4423,7 +4573,7 @@
     "_source_hash": "c12133c69937c69b72a8c98222ccb916591a7d0b8615c7c706a70314863c595f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4472,11 +4622,11 @@
     "_source_hash": "be25f57be10159462c2594db731c4d30190ffa81db648784ace0c34bd8a8cd6a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Benzín / hybrid",
     "aspirazione": "Turbo",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS a Valvetronic",
+    "blocco": "Hliník, uzavřená paluba",
     "testa": "Hliník",
     "iniezione": null,
     "compressione": null,
@@ -4507,7 +4657,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "500 cc"
       },
       {
         "testo": null,
@@ -4526,10 +4676,10 @@
     "_source_hash": "e65f553aaac566bed8ae0c5581bdf376679a478d84a1809697117b9899e9e28d",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": null,
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": "Hliník",
     "testa": "Hliník",
     "iniezione": null,
@@ -4586,7 +4736,7 @@
     "_source_hash": "dc92d9f9b8c433a37deafaa6f0c49bd98c584e7248f778f870eb35983e7e0468",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4643,7 +4793,7 @@
     "_source_hash": "ce388e535e73200e52cdcd21d20827f95551f9db1db721b1f700f0f85ea61253",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -4699,7 +4849,7 @@
     "_source_hash": "23cf7a3efc749dfb60b413dbf4f4cc56aa942e6391303bc03ccea40ede63e55d",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -4757,7 +4907,7 @@
     "_source_hash": "af799a92682f0256ca026c63add0e49ef59f569a9df954226971698e4754bc6a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
     "distribuzione": null,
@@ -4815,14 +4965,14 @@
     "_source_hash": "e3dc7d561c9030e94a985db531ab18a66b3352a7b68147ff113e12a10ed03752",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null
     ],
@@ -4875,8 +5025,8 @@
     "_source_hash": "16648790d4c7fb1284c635cbaae8295f57e8152c78a67d2550f314fe14d415ea",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Hliník",
@@ -4927,8 +5077,8 @@
     "_source_hash": "3c567af0b6fba11132723928d6781b33bd92aaf107c84bb8c6de400d95c3eab3",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -4984,7 +5134,7 @@
     "_source_hash": "024823ecb140f29b42d5e80c9e689db578440b46e7a468b64ea3c770b99c8dee",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Benzín / hybrid",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5026,7 +5176,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Koláč"
       },
       {
         "testo": null,
@@ -5041,13 +5191,13 @@
     "_source_hash": "619a87c66697d9cb55546b8e1837b8fc4a9f0d5b8283327af7592a56e9879f9f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5084,7 +5234,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "500 cc"
       }
     ],
     "affidabilita": {
@@ -5095,7 +5245,7 @@
     "_source_hash": "69b00111efdf2f96d47e909746bcdbeeb6746abe8297bc71727dc4a8e83be7cc",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -5155,7 +5305,7 @@
     "_source_hash": "e2b359b417f277e6dfa29018bc34981b61204e67784bbaec1f07a2711cc88a4c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -5209,13 +5359,13 @@
     "_source_hash": "5bb7998c8b747799020b9fb2080aa02a9bcb18e1547cd5753f24fef8e1761d0b",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5274,13 +5424,13 @@
     "_source_hash": "894d9a1090d89661e6efb9bee51697010a441c94489eb63d528082ab56271fbd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5326,8 +5476,8 @@
     "_source_hash": "11510bc7cb3c3f10735f063fa699bf7216a8f2312c8e7ce708b06b328268d040",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -5363,7 +5513,7 @@
       },
       {},
       {
-        "nota": null
+        "nota": "Proměnná geometrie Turbo"
       },
       {
         "nota": null
@@ -5391,14 +5541,14 @@
     "_source_hash": "8aed5788935aeeef3512ff66c182465dd8c71dae88076a863c7fa35c184eca5c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": "Chain DOHC, variabilní příjem",
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,
@@ -5444,8 +5594,8 @@
     "_source_hash": "5c4300946cd1449482dc88bcf64dca00b06b17b12d5fa92ef6924f0b69ffaf0c",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Německo",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": "Pás DOHC",
     "blocco": "Ghisa",
@@ -5498,7 +5648,7 @@
     "_source_hash": "fee40f02e4b38129685acb88b7ccbab5ca3a994c8fd4a9151147a485f1cff866",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -5555,7 +5705,7 @@
     "_source_hash": "ad18b7de82015b19ff7f580f1718b7f20d9f149894039165dd06ff0b042f27fc",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Benzín / hybrid",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5608,7 +5758,7 @@
     "_source_hash": "50bdb843a4a5a287da0fbddb255985262ab3cbcdceb51aebbb83b6b72c26fafb",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -5662,7 +5812,7 @@
     "_source_hash": "3eeb6593a308ac96fa94338379fd33281f3da106fbdd735a4355087fbcbe560b",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -5731,7 +5881,7 @@
     "_source_hash": "09a7cdeb77ce5d9f8405e28533e654acef8c1b6560a28fc097e619b2be3c1bf8",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -5802,7 +5952,7 @@
     "_source_hash": "7c487c81b491c281199a00797081955719913f419236299e565b22be3866f0d6",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
     "distribuzione": null,
@@ -5846,7 +5996,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "2015"
       },
       {
         "testo": null,
@@ -5865,7 +6015,7 @@
     "_source_hash": "06cef22d49acb1256c177e2c0ccda10b6200392897e826c63175fc7313bb732e",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -5932,7 +6082,7 @@
     "_source_hash": "581fb4e5380a69ccccc47af1b9b9c0959094a8d4db3b0cef8932d38fef517202",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5986,7 +6136,7 @@
     "_source_hash": "4d93aba50474334e0c14c048e7fa7425a956b5fd1caa0ced01d444afaffd5523",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -6053,7 +6203,7 @@
     "_source_hash": "8514e3709427aad2b19d515f23ed3e77f3b336eca489c834810cb38a49773bc8",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": null,
     "distribuzione": null,
@@ -6116,7 +6266,7 @@
     "_source_hash": "bc51023fd39083896e382d496a82604a89acd8b8a9724d5bdd39744d68bc5736",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -6164,7 +6314,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "18 let"
       }
     ],
     "affidabilita": {
@@ -6175,7 +6325,7 @@
     "_source_hash": "556b5a050c202a64eada1ee15ab33e8af245afc37fc623c666127f6048e15d19",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Turbo",
     "distribuzione": "Pás DOHC",
@@ -6232,7 +6382,7 @@
     "_source_hash": "0efb29367c3994cb98f8e0f0ae26fb6571875d14f8fded6150b11414b30ef2cd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
     "distribuzione": null,
@@ -6282,7 +6432,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -6600,7 +6750,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -6657,7 +6807,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": null,
@@ -6717,7 +6867,7 @@
     "blocco": "Hliník",
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,
@@ -6884,9 +7034,9 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "SOHC pás",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": null,
@@ -6912,7 +7062,7 @@
         "nota": null
       },
       {
-        "nota": null
+        "nota": "Proměnná geometrie Turbo"
       },
       {
         "nota": null
@@ -6946,7 +7096,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": "9, 0: 1",
     "punti_deboli": [
       null,
@@ -7123,7 +7273,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -7181,7 +7331,7 @@
     "paese": null,
     "alimentazione": "Ropa",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
@@ -7293,7 +7443,7 @@
     "blocco": null,
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "11, 5: 1",
     "punti_deboli": [
       null,
       null,
@@ -7451,7 +7601,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "2015"
       },
       {
         "testo": null,
@@ -7759,7 +7909,7 @@
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -8033,7 +8183,7 @@
     "blocco": null,
     "testa": null,
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null
@@ -8143,7 +8293,7 @@
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
+    "iniezione": "Přímé",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -8243,9 +8393,9 @@
     "paese": "Japonsko",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Lehký ventil (bez ventilu)",
+    "blocco": "Litina / hliník (statory a pouzdra)",
+    "testa": "-",
     "iniezione": "Nepřímý multipoint",
     "compressione": "9, 0: 1",
     "punti_deboli": [
@@ -8269,7 +8419,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Sekvenční"
       },
       {
         "testo": null,
@@ -8369,7 +8519,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "2 turbo"
       },
       {
         "testo": null,
@@ -8998,7 +9148,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -9053,7 +9203,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -9522,7 +9672,7 @@
     "paese": null,
     "alimentazione": "Ropa",
     "aspirazione": "Skrytá",
-    "distribuzione": null,
+    "distribuzione": "Řetězec DOHC",
     "blocco": null,
     "testa": null,
     "iniezione": null,
@@ -9739,14 +9889,14 @@
     "_source_hash": "667fff5d1d7123983e543f721c34e45f1493a8ed271cc6cf5394f1cd11d217cd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": "Ropa",
     "aspirazione": "Bitustrace",
     "distribuzione": null,
     "blocco": "Hliník",
     "testa": "Hliník",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Přímé",
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,
@@ -9776,7 +9926,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "3"
       },
       {
         "testo": null,
@@ -9857,7 +10007,7 @@
     "_source_hash": "8791e0807bcf257dd469a8d7f61d7165c4386a408685511250e187408f8782ba",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Německo",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": "Pás DOHC",
@@ -9921,7 +10071,7 @@
     "blocco": null,
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null
@@ -10090,7 +10240,7 @@
     "blocco": null,
     "testa": "Hliník",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,
@@ -10196,7 +10346,7 @@
     "blocco": "Ghisa",
     "testa": "Hliník",
     "iniezione": "Nepřímý multipoint",
-    "compressione": null,
+    "compressione": "10, 0: 1",
     "punti_deboli": [
       null,
       null,

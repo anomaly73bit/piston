@@ -149,7 +149,157 @@
     "Consumo d'olio e usura delle canne in caso di detonazione su mappe aggressive": "Oil consumption and pipe wear in case of detonation on aggressive maps",
     "Il rivestimento al plasma delle canne riduce peso e attrito rispetto alle camicie in ghisa.": "Plasma coating reduces weight and friction with cast iron shirts.",
     "Aggiornamenti progressivi": "Progressive updates",
-    "Turbine derivate dalla GT3": "Turbine derived from GT3"
+    "Turbine derivate dalla GT3": "Turbine derived from GT3",
+    "tecnico assembla ogni motore a mano": "technical assemblies every hand motor",
+    "1": "1",
+    "riporto delle canne al posto delle camicie": "I'm taking the rods instead of the shirts.",
+    "Plasma": "Plasma",
+    "di produzione sulla stessa vettura": "production on the same car",
+    "18 anni": "18 years",
+    "Difetti limitati a bobine e sensori; robusto con mappatura di serie.": "Defects limited to coils and sensors; robust with standard mapping.",
+    "Birotore Wankel con due turbo in configurazione sequenziale, montato sulla RX-7 FD (1991). Ogni rotore ha camere da 654 cc: la cilindrata di 1308 cc è riferita a una camera per rotore. In questo sito il campo 'cilindri' indica il numero di rotori. Massa e ingombri sono nettamente inferiori a quelli di un motore alternativo di pari potenza.": "Wankel birotor with two turbos in sequential configuration, mounted on the RX-7 FD (1991). Each rotor has 654 cc chambers: the capacity of 1308 cc is referred to a rotor chamber. In this site the 'cilindri' field indicates the number of rotors. Mass and encumbrance are clearly lower than those of an alternative engine of equal power.",
+    "Con turbo singolo e gestione adeguata raggiunge circa 400 CV con affidabilità accettabile. Oltre servono tenute d'apice rinforzate e luci di aspirazione modificate.": "With single turbo and proper management it reaches about 400 CVs with acceptable reliability. Besides they serve reinforced apex seals and modified suction lights.",
+    "Wankel a luci (nessuna valvola)": "Light Wankel (no valve)",
+    "Ghisa / alluminio (statori e alloggiamenti)": "Cast iron / aluminium (stators and housings)",
+    "—": "—",
+    "Tenute d'apice e laterali: la compressione va misurata prima dell'acquisto": "Apex and side tensions: compression should be measured before purchase",
+    "Surriscaldamento: radiatore e sensori vanno tenuti in perfetto stato": "Overheating: radiator and sensors must be kept in perfect condition",
+    "Un motore rotativo a quattro rotori, il 26B, ha vinto la 24 Ore di Le Mans nel 1991 con la Mazda 787B.": "A four-wheel drive, 26B, won the 24 Hours of Le Mans in 1991 with the Mazda 787B.",
+    "Il controllo del sistema sequenziale usa una rete di valvole e tubazioni del vuoto.": "Sequential system control uses a vacuum tube and pipe network.",
+    "Versione con cambio manuale": "Version with manual gearbox",
+    "volume delle camere dei due rotori": "volume of the rooms of the two rotors",
+    "2 × 654 cc": "2 × 654 cc",
+    "valvole: distribuzione a luci": "valves: light distribution",
+    "0": "0",
+    "due turbo che entrano in funzione uno dopo l'altro": "two turbos running one after another",
+    "Sequenziale": "Sequential",
+    "Tenute dei rotori e surriscaldamento: revisioni frequenti a chilometraggi medi.": "Curtains of rotors and overheating: frequent revisions to medium mileage.",
+    "Evoluzione aspirata del 13B per la RX-8 (2003). Le luci di scarico sono spostate dalla periferia ai lati della camera: eliminano la sovrapposizione tra aspirazione e scarico e riducono consumi ed emissioni di idrocarburi incombusti. Motore Internazionale dell'Anno nel 2003. Ultimo rotativo di serie usato come unica propulsione di un'auto.": "Aspired evolution of 13B for RX-8 (2003). The exhaust lights are moved from the periphery to the sides of the room: they eliminate the overlap between suction and exhaust and reduce consumption and emissions of unburned hydrocarbons. International Motor of the Year in 2003. Last standard rotation used as the only propulsion of a car.",
+    "Poco adatto alla sovralimentazione senza rinforzi delle tenute; la maggior parte degli interventi riguarda l'affidabilità.": "Not suitable for oversupply without reinforcements of the seals; most interventions concern reliability.",
+    "Wankel con luci di scarico laterali": "Wankel with side exhaust lights",
+    "Ghisa / alluminio": "Cast iron / aluminium",
+    "10.0:1": "10.0:1",
+    "Bassa compressione per usura delle tenute, specie se usato poco ai regimi alti": "Low compression for wear of seals, especially if used little at high regimes",
+    "Bobine e candele: si allagano facilmente se spento a freddo": "Spools and Candles: Easily Algan If Off Cold",
+    "Consumo d'olio per progetto (l'olio lubrifica le tenute)": "Oil consumption per project (oil lubricates seals)",
+    "Mazda è tornata al rotativo nel 2023 come generatore di autonomia sulla MX-30 R-EV.": "Mazda returned to the wheel in 2023 as a power generator on the MX-30 R-EV.",
+    "L'olio è iniettato nella camera per lubrificare le tenute: un consumo d'olio regolare è previsto dal progetto.": "The oil is injected into the room to lubricate the seals: a regular oil consumption is provided by the project.",
+    "Limitatore 9000 giri": "Limiter 9000 turns",
+    "scarico spostato sui fianchi della camera": "unload moved on the sides of the room",
+    "Luci laterali": "Side lights",
+    "giri/min al limitatore sulla versione da 231 CV": "RPM to the 231 CV version limiter",
+    "Motore Internazionale dell'Anno": "International Motor of the Year",
+    "2003": "2003",
+    "Perdita di compressione frequente per usura delle tenute.": "Frequent compression loss for wear of seals.",
+    "Il basamento open-deck è il punto debole: oltre 350–400 CV conviene un basamento closed-deck o canne rinforzate.": "The open-deck base is the weak point: over 350–400 CV is a closed-deck base or reinforced rods.",
+    "SOHC/DOHC a cinghia (AVCS dalle versioni 2000+)": "SOHC/DOHC belt (AVCS from 2000+ versions)",
+    "8.0–8.5:1": "8.0–8.5:1",
+    "Rottura dei 'ring land' dei pistoni (EJ255/EJ257) per detonazione": "Breaking of the 'ring land' of the pistons (EJ255/EJ257) for detonation",
+    "Guarnizioni della testata, soprattutto sugli EJ25 aspirati": "Head gaskets, especially on vacuum EJ25s",
+    "Bronzine di biella e pescante olio in caso di uso in pista prolungato": "Bronzine of biella and fisherman oil in case of use on prolonged track",
+    "Il suono irregolare tipico deriva dai collettori di scarico di lunghezza diversa; dal 2008 alcuni modelli adottano collettori a lunghezza uguale.": "The typical irregular sound comes from different length exhaust collectors; since 2008 some models adopt same length collectors.",
+    "Il turbo 2.0 più spinto della famiglia": "The most driven turbo 2.0 of the family",
+    "2457 cc, alesaggio 99,5 mm": "2457 cc, boring 99,5 mm",
+    "Serie speciale USA": "USA Special Series",
+    "cilindri contrapposti, baricentro basso": "countertop cylinders, low centre",
+    "Boxer": "Boxer",
+    "titoli costruttori consecutivi nel Mondiale Rally (1995–1997)": "consecutive World Rally (1995–1997)",
+    "3": "3",
+    "basamento a canne aperte sulle versioni turbo più recenti": "open pipe base on the latest turbo versions",
+    "Open-deck": "Open-deck",
+    "Guarnizioni della testata (EJ25) e cedimenti dei pistoni (EJ257).": "Head gaskets (EJ25) and piston yields (EJ257).",
+    "Ultimo sei cilindri in linea aspirato della divisione BMW M (2000). Basamento in ghisa, doppio VANOS ad alta pressione, sei corpi farfallati singoli a comando elettronico. Raggiunge 105 CV/litro. La M3 CSL adotta un airbox in carbonio che porta la potenza a 360 CV.": "The last six in-line cylinders of the BMW M (2000) division. Cast iron base, double high pressure VANOS, six electronically controlled single butterfly bodies. Reach 105 CV/liter. The M3 CSL adopts a carbon airbox that brings the power to 360 CV.",
+    "Margini limitati da aspirato. Con compressore volumetrico si raggiungono 450–500 CV mantenendo gli interni di serie.": "Margins limited by suction. With volumetric compressor you can reach 450–500 CVs while maintaining the series interior.",
+    "Germania": "Germany",
+    "DOHC a catena, doppio VANOS": "Chain DOHC, double VANOS",
+    "11.5:1": "11.5:1",
+    "Bronzine di biella: sostituzione preventiva consigliata": "Bronzine di biella: recommended preventive replacement",
+    "VANOS: bulloni della pompa e guarnizioni": "VANOS: pump bolts and seals",
+    "Supporti del differenziale posteriore (carrozzeria E46, non motore)": "Rear differential supports (carrozzeria E46, non-motor)",
+    "Il limitatore a 8000 giri/min corrisponde a una velocità media del pistone di circa 24 m/s, valore molto alto per un motore di serie.": "The 8000 rpm limiter corresponds to an average piston speed of about 24 m/s, a very high value for a standard motor.",
+    "USA 333 CV": "USA 333 CV",
+    "Airbox in carbonio": "Carbon Airbox",
+    "Versione USA": "USA version",
+    "da aspirato con basamento in ghisa": "from suction with cast iron base",
+    "105 CV/l": "105 CV/l",
+    "8000": "8000",
+    "velocità media del pistone al limitatore": "average piston speed to the limiter",
+    "24 m/s": "24 m/s",
+    "Bronzine di biella e VANOS richiedono interventi preventivi.": "Bronzine di biella e VANOS require preventive interventions.",
+    "Con turbo di serie si arriva a circa 400–450 CV. Con turbo maggiorati il limite sono bielle e pompa carburante, intorno ai 600 CV.": "With turbo series you will reach about 400–450 CV. With turbo increased the limit are biella and fuel pump, around 600 CVs.",
+    "Diretta a iniettori piezo": "Directed by piezo injectors",
+    "10.2:1": "10.2:1",
+    "Pompa carburante ad alta pressione (HPFP), soggetta a richiamo": "High pressure fuel pump (HPFP), subject to call",
+    "Valvole wastegate rumorose e iniettori piezo": "Noise wastegate valves and piezo injectors",
+    "Depositi carboniosi sulle valvole di aspirazione (tipico dell'iniezione diretta)": "Carbon deposits on intake valves (direct injection limit)",
+    "Le misure al banco di esemplari di serie risultano spesso superiori alla potenza dichiarata.": "The measurements at the standard specimen counter are often higher than the declared power.",
+    "Overboost fino a 500 Nm": "Overboost up to 500 Nm",
+    "uno ogni tre cilindri": "one every three cylinders",
+    "2 turbo": "2 turbo",
+    "iniettori al centro della camera di combustione": "injectors in the middle of the combustion chamber",
+    "Piezo": "Pie",
+    "primo sei cilindri BMW turbo a iniezione diretta": "first six cylinders BMW turbo direct injection",
+    "2006": "2006",
+    "Pompa ad alta pressione, wastegate e iniettori soggetti a guasti costosi.": "High pressure pump, wastegate and injectors subject to expensive faults.",
+    "Sei cilindri della famiglia modulare BMW (2015), con 500 cc per cilindro come il tre cilindri B38 e il quattro cilindri B48. Basamento closed-deck in alluminio, turbo twin-scroll unico con collettore integrato, intercooler aria-acqua nel collettore di aspirazione. Dal 2019 la versione TU aggiorna iniezione, turbo e raffreddamento.": "Six cylinders of the BMW modular family (2015), with 500 cc per cylinder like the three cylinders B38 and the four cylinders B48. Close-deck aluminium base, single twin-scroll turbo with integrated manifold, air-water intercoolers in the intake manifold. Since 2019 the TU version updates injection, turbo and cooling.",
+    "Sulle versioni TU il basamento di serie sopporta 550–650 CV con turbo maggiorato.": "On the TU versions the standard base bears 550–650 CVs with increased turbo.",
+    "DOHC a catena, doppio VANOS e Valvetronic": "Chain DOHC, double VANOS and Valvetronic",
+    "Alluminio, closed-deck": "Aluminium, closed-deck",
+    "Diretta": "Direct",
+    "10.2–11.0:1": "10.2–11.0:1",
+    "Perdite dalla vaschetta di espansione e dal radiatore olio": "Lost from expansion tank and oil radiator",
+    "Prime unità con guarnizione del coperchio filtro olio": "First unit with oil filter cover seal",
+    "Fornito a Toyota per la GR Supra A90 dal 2019.": "Provided to Toyota for GR Supra A90 from 2019.",
+    "Mild hybrid dal 2020": "Mild hybrid from 2020",
+    "Europa; negli USA 387 CV dal 2021": "Europe; in the USA 387 CVs from 2021",
+    "per cilindro, come i B38 e B48 della stessa famiglia": "for cylinder, like the B38 and B48 of the same family",
+    "500 cc": "500 cc",
+    "basamento in alluminio": "aluminium base",
+    "Closed-deck": "Closed-deck",
+    "fornito a Toyota per la GR Supra A90": "supplied to Toyota for GR Supra A90",
+    "Supra": "Supra",
+    "Pochi difetti, limitati a perdite del circuito di raffreddamento.": "Few defects, limited to cooling circuit losses.",
+    "Quattro cilindri turbo a iniezione diretta del gruppo Volkswagen (2007), basamento in ghisa con alberi di equilibratura. Nelle generazioni successive la potenza passa da 160 a 333 CV. La Gen3 (2012) integra il collettore di scarico nella testata, adotta iniezione doppia diretta e indiretta e modulo termico per la gestione del liquido di raffreddamento.": "Four direct injection turbo cylinders from the Volkswagen group (2007), cast iron base with balancing trees. In successive generations the power passes from 160 to 333 CV. The Gen3 (2012) integrates the exhaust manifold into the headboard, adopts direct and indirect double injection and thermal module for the management of the cooling liquid.",
+    "Con interni di serie la Gen3 sopporta circa 400–450 CV con turbo maggiorato; oltre servono bielle e pistoni forgiati.": "With standard interiors the Gen3 bears about 400–450 CVs with increased turbo; besides they serve biella and forged pistons.",
+    "DOHC a catena, fasatura variabile (AVS su alcune versioni)": "Chain DOHC, variable milling (AVS on some versions)",
+    "Diretta (diretta + indiretta dalla Gen3)": "Direct (direct + indirect from Gen3)",
+    "9.3–10.5:1": "9.3–10.5:1",
+    "Gen1/Gen2: consumo d'olio dovuto ai segmenti pistone (sostituiti in garanzia in molti mercati)": "Gen1/Gen2: oil consumption due to piston segments (replaced in guarantee in many markets)",
+    "Tenditore della catena di distribuzione sulle prime versioni: rischio di salto di catena": "Distribution chain tensioner on first versions: chain jump risk",
+    "Pompa acqua in plastica e termostato (Gen3) con perdite": "Plastic and thermostat water pump (Gen3) with leaks",
+    "Prodotto in Europa, Cina, Messico e Sudamerica.": "Produced in Europe, China, Mexico and South America.",
+    "Collettore di scarico integrato nella testa": "Exhaust manifold integrated into the head",
+    "Golf R '20 Years'": "Golf R '20 Years'",
+    "con lo stesso basamento in ghisa": "with the same cast iron base",
+    "160–333 CV": "160–333 CV",
+    "generazioni dal 2007": "generations since 2007",
+    "collettore di scarico nella testata dalla Gen3": "exhaust manifold in the head of the Gen3",
+    "Integrato": "Integrated",
+    "Consumo d'olio (Gen1/Gen2) e tenditore della catena sulle prime versioni.": "Oil consumption (Gen1/Gen2) and chain tensioner on the first versions.",
+    "Le versioni Pumpe-Düse arrivano a circa 200 CV con iniettori maggiorati e frizione rinforzata.": "Pumpe-Düse versions reach about 200 CVs with increased injectors and reinforced clutch.",
+    "Diesel": "Diesel",
+    "SOHC a cinghia": "SOHC belt",
+    "Diretta, pompa rotativa (VE) poi iniettore-pompa (PD)": "Direct, rotary pump (VE) then injector-pompa (PD)",
+    "18.0–19.5:1": "18.0–19.5:1",
+    "Usura dell'albero a camme sui PD (lobi che comandano gli iniettori-pompa)": "camshaft wear on the PDs (lobes that command injectors-pumps)",
+    "Valvola EGR e sensore flusso aria": "EGR valve and air flow sensor",
+    "Sono documentate unità oltre il milione di chilometri, soprattutto su taxi e veicoli commerciali.": "Over a million kilometres are documented, especially by taxis and commercial vehicles.",
+    "Debutto su Audi 80 B4": "Debut on Audi 80 B4",
+    "Turbo a geometria variabile": "Variable geometry Turbo",
+    "Valore massimo su Seat Ibiza Cupra": "Maximum value on Seat Ibiza Cupra",
+    "pressione di iniezione delle versioni iniettore-pompa": "injection pressure of injector-pompa versions",
+    "2050 bar": "2050 bar",
+    "debutto sull'Audi 80": "Audi 80 debut",
+    "1991": "1991",
+    "raggiunti da unità documentate su taxi e furgoni": "reached by units documented by taxis and vans",
+    "1.000.000 km": "1,000,000 miles",
+    "Le versioni da 140 CV superano i 170–180 CV con mappatura; il limite sono frizione e turbo.": "140 CV versions exceed 170–180 CVs with mapping; the limit is friction and turbo.",
+    "Diretta common rail": "Direct common rail",
+    "16.5:1": "16.5:1",
+    "Valvola EGR e filtro antiparticolato con uso cittadino": "EGR valve and particle filter with citizen use",
+    "Pompa olio a esagono (azionamento) su alcune versioni": "Hexagon oil pump (drive) on some versions",
+    "Aggiornamento software post-Dieselgate con effetti su EGR e DPF segnalati da molti utenti": "Post-Dieselgate software update with effects on EGR and DPF reported by many users",
+    "Sostituito dall'EA288, sviluppato per le normative Euro 6.": "Replaced by EA288, developed for Euro 6 regulations."
   },
   "toyota-2jz-gte": {
     "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
@@ -612,398 +762,398 @@
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "technical assemblies every hand motor",
+        "valore": "1"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "I'm taking the rods instead of the shirts.",
+        "valore": "Plasma"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "production on the same car",
+        "valore": "18 years"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Defects limited to coils and sensors; robust with standard mapping."
     }
   },
   "mazda-13b-rew": {
     "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
-    "storia": null,
-    "limiti": null,
+    "storia": "Wankel birotor with two turbos in sequential configuration, mounted on the RX-7 FD (1991). Each rotor has 654 cc chambers: the capacity of 1308 cc is referred to a rotor chamber. In this site the 'cilindri' field indicates the number of rotors. Mass and encumbrance are clearly lower than those of an alternative engine of equal power.",
+    "limiti": "With single turbo and proper management it reaches about 400 CVs with acceptable reliability. Besides they serve reinforced apex seals and modified suction lights.",
     "paese": "Japan",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Light Wankel (no valve)",
+    "blocco": "Cast iron / aluminium (stators and housings)",
+    "testa": "—",
     "iniezione": "Indirect multipoint",
     "compressione": "9.0:1",
     "punti_deboli": [
+      "Apex and side tensions: compression should be measured before purchase",
       null,
-      null,
-      null
+      "Overheating: radiator and sensors must be kept in perfect condition"
     ],
     "curiosita": [
-      null,
-      null
+      "A four-wheel drive, 26B, won the 24 Hours of Le Mans in 1991 with the Mazda 787B.",
+      "Sequential system control uses a vacuum tube and pipe network."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Version with manual gearbox"
       },
       {}
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "volume of the rooms of the two rotors",
+        "valore": "2 × 654 cc"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "valves: light distribution",
+        "valore": "0"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "two turbos running one after another",
+        "valore": "Sequential"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Curtains of rotors and overheating: frequent revisions to medium mileage."
     }
   },
   "mazda-renesis": {
     "_source_hash": "61726637cb46e6e6b34aa2ebd67849bc9498e476c4136c53f9417aad3dd1eb70",
-    "storia": null,
-    "limiti": null,
+    "storia": "Aspired evolution of 13B for RX-8 (2003). The exhaust lights are moved from the periphery to the sides of the room: they eliminate the overlap between suction and exhaust and reduce consumption and emissions of unburned hydrocarbons. International Motor of the Year in 2003. Last standard rotation used as the only propulsion of a car.",
+    "limiti": "Not suitable for oversupply without reinforcements of the seals; most interventions concern reliability.",
     "paese": "Japan",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Wankel with side exhaust lights",
+    "blocco": "Cast iron / aluminium",
+    "testa": "—",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Low compression for wear of seals, especially if used little at high regimes",
+      "Spools and Candles: Easily Algan If Off Cold",
+      "Oil consumption per project (oil lubricates seals)"
     ],
     "curiosita": [
-      null,
-      null
+      "Mazda returned to the wheel in 2023 as a power generator on the MX-30 R-EV.",
+      "The oil is injected into the room to lubricate the seals: a regular oil consumption is provided by the project."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Limiter 9000 turns"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "unload moved on the sides of the room",
+        "valore": "Side lights"
       },
       {
-        "testo": null,
+        "testo": "RPM to the 231 CV version limiter",
         "valore": "9000"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "International Motor of the Year",
+        "valore": "2003"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Frequent compression loss for wear of seals."
     }
   },
   "subaru-ej": {
     "_source_hash": "1dae024d5be136ccd8ad7a0bcdbbdc241cb3c0d8b848331fea65896aa7a135ef",
     "storia": null,
-    "limiti": null,
+    "limiti": "The open-deck base is the weak point: over 350–400 CV is a closed-deck base or reinforced rods.",
     "paese": "Japan",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "SOHC/DOHC belt (AVCS from 2000+ versions)",
     "blocco": "Aluminium",
     "testa": "Aluminium",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "8.0–8.5:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Breaking of the 'ring land' of the pistons (EJ255/EJ257) for detonation",
+      "Head gaskets, especially on vacuum EJ25s",
+      "Bronzine of biella and fisherman oil in case of use on prolonged track"
     ],
     "curiosita": [
-      null
+      "The typical irregular sound comes from different length exhaust collectors; since 2008 some models adopt same length collectors."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "The most driven turbo 2.0 of the family"
       },
       {
-        "nota": null
+        "nota": "2457 cc, boring 99,5 mm"
       },
       {
-        "nota": null
+        "nota": "USA Special Series"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "countertop cylinders, low centre",
+        "valore": "Boxer"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "consecutive World Rally (1995–1997)",
+        "valore": "3"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "open pipe base on the latest turbo versions",
+        "valore": "Open-deck"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Head gaskets (EJ25) and piston yields (EJ257)."
     }
   },
   "bmw-s54": {
     "_source_hash": "a0d4c21dcfb25d9f124d775bb8731ada1b4c3295c33ffceb04681426789aca87",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
+    "storia": "The last six in-line cylinders of the BMW M (2000) division. Cast iron base, double high pressure VANOS, six electronically controlled single butterfly bodies. Reach 105 CV/liter. The M3 CSL adopts a carbon airbox that brings the power to 360 CV.",
+    "limiti": "Margins limited by suction. With volumetric compressor you can reach 450–500 CVs while maintaining the series interior.",
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": "Ghisa",
     "testa": "Aluminium",
     "iniezione": "Indirect, six single butterfly bodies",
-    "compressione": null,
+    "compressione": "11.5:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Bronzine di biella: recommended preventive replacement",
+      "VANOS: pump bolts and seals",
+      "Rear differential supports (carrozzeria E46, non-motor)"
     ],
     "curiosita": [
-      null
+      "The 8000 rpm limiter corresponds to an average piston speed of about 24 m/s, a very high value for a standard motor."
     ],
     "versioni": [
       {
-        "nota": null
+        "nota": "USA 333 CV"
       },
       {
-        "nota": null
+        "nota": "Carbon Airbox"
       },
       {},
       {
-        "nota": null
+        "nota": "USA version"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "from suction with cast iron base",
+        "valore": "105 CV/l"
       },
       {
         "testo": "rpm to limiter",
-        "valore": null
+        "valore": "8000"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "average piston speed to the limiter",
+        "valore": "24 m/s"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Bronzine di biella e VANOS require preventive interventions."
     }
   },
   "bmw-n54": {
     "_source_hash": "a534ef1287d234375ee496a858dc1d545a142f404c1143ee57c59115756ad702",
     "storia": null,
-    "limiti": null,
-    "paese": null,
+    "limiti": "With turbo series you will reach about 400–450 CV. With turbo increased the limit are biella and fuel pump, around 600 CVs.",
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Directed by piezo injectors",
+    "compressione": "10.2:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "High pressure fuel pump (HPFP), subject to call",
+      "Noise wastegate valves and piezo injectors",
+      "Carbon deposits on intake valves (direct injection limit)"
     ],
     "curiosita": [
-      null
+      "The measurements at the standard specimen counter are often higher than the declared power."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Overboost up to 500 Nm"
       },
       {
-        "nota": null
+        "nota": "Overboost up to 500 Nm"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "one every three cylinders",
+        "valore": "2 turbo"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "injectors in the middle of the combustion chamber",
+        "valore": "Pie"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "first six cylinders BMW turbo direct injection",
+        "valore": "2006"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "High pressure pump, wastegate and injectors subject to expensive faults."
     }
   },
   "bmw-b58": {
     "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
+    "storia": "Six cylinders of the BMW modular family (2015), with 500 cc per cylinder like the three cylinders B38 and the four cylinders B48. Close-deck aluminium base, single twin-scroll turbo with integrated manifold, air-water intercoolers in the intake manifold. Since 2019 the TU version updates injection, turbo and cooling.",
+    "limiti": "On the TU versions the standard base bears 550–650 CVs with increased turbo.",
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS and Valvetronic",
+    "blocco": "Aluminium, closed-deck",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct",
+    "compressione": "10.2–11.0:1",
     "punti_deboli": [
-      null,
-      null
+      "Lost from expansion tank and oil radiator",
+      "First unit with oil filter cover seal"
     ],
     "curiosita": [
-      null
+      "Provided to Toyota for GR Supra A90 from 2019."
     ],
     "versioni": [
       {},
       {
-        "nota": null
+        "nota": "Mild hybrid from 2020"
       },
       {
-        "nota": null
+        "nota": "Europe; in the USA 387 CVs from 2021"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "for cylinder, like the B38 and B48 of the same family",
+        "valore": "500 cc"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "aluminium base",
+        "valore": "Closed-deck"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "supplied to Toyota for GR Supra A90",
+        "valore": "Supra"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Few defects, limited to cooling circuit losses."
     }
   },
   "vw-ea888": {
     "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
-    "storia": null,
-    "limiti": null,
-    "paese": null,
+    "storia": "Four direct injection turbo cylinders from the Volkswagen group (2007), cast iron base with balancing trees. In successive generations the power passes from 160 to 333 CV. The Gen3 (2012) integrates the exhaust manifold into the headboard, adopts direct and indirect double injection and thermal module for the management of the cooling liquid.",
+    "limiti": "With standard interiors the Gen3 bears about 400–450 CVs with increased turbo; besides they serve biella and forged pistons.",
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, variable milling (AVS on some versions)",
     "blocco": "Ghisa",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct (direct + indirect from Gen3)",
+    "compressione": "9.3–10.5:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "Gen1/Gen2: oil consumption due to piston segments (replaced in guarantee in many markets)",
+      "Distribution chain tensioner on first versions: chain jump risk",
+      "Plastic and thermostat water pump (Gen3) with leaks"
     ],
     "curiosita": [
-      null
+      "Produced in Europe, China, Mexico and South America."
     ],
     "versioni": [
       {},
       {},
       {
-        "nota": null
+        "nota": "Exhaust manifold integrated into the head"
       },
       {
-        "nota": null
+        "nota": "Golf R '20 Years'"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "with the same cast iron base",
+        "valore": "160–333 CV"
       },
       {
-        "testo": null,
+        "testo": "generations since 2007",
         "valore": "4"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "exhaust manifold in the head of the Gen3",
+        "valore": "Integrated"
       }
     ],
     "affidabilita": {
-      "motivo": null
+      "motivo": "Oil consumption (Gen1/Gen2) and chain tensioner on the first versions."
     }
   },
   "vw-19-tdi": {
     "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
     "storia": null,
-    "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "limiti": "Pumpe-Düse versions reach about 200 CVs with increased injectors and reinforced clutch.",
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
-    "distribuzione": null,
+    "distribuzione": "SOHC belt",
     "blocco": "Ghisa",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct, rotary pump (VE) then injector-pompa (PD)",
+    "compressione": "18.0–19.5:1",
     "punti_deboli": [
+      "camshaft wear on the PDs (lobes that command injectors-pumps)",
       null,
-      null,
-      null
+      "EGR valve and air flow sensor"
     ],
     "curiosita": [
-      null
+      "Over a million kilometres are documented, especially by taxis and commercial vehicles."
     ],
     "versioni": [
       {
-        "nota": null
+        "nota": "Debut on Audi 80 B4"
       },
       {
-        "nota": null
+        "nota": "Variable geometry Turbo"
       },
       {},
       {
-        "nota": null
+        "nota": "Maximum value on Seat Ibiza Cupra"
       }
     ],
     "in_breve": [
       {
-        "testo": null,
-        "valore": null
+        "testo": "injection pressure of injector-pompa versions",
+        "valore": "2050 bar"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "Audi 80 debut",
+        "valore": "1991"
       },
       {
-        "testo": null,
-        "valore": null
+        "testo": "reached by units documented by taxis and vans",
+        "valore": "1,000,000 miles"
       }
     ],
     "affidabilita": {
@@ -1013,22 +1163,22 @@
   "vw-ea189": {
     "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
     "storia": null,
-    "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "limiti": "140 CV versions exceed 170–180 CVs with mapping; the limit is friction and turbo.",
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": "DOHC belt",
     "blocco": "Ghisa",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct common rail",
+    "compressione": "16.5:1",
     "punti_deboli": [
-      null,
-      null,
-      null
+      "EGR valve and particle filter with citizen use",
+      "Hexagon oil pump (drive) on some versions",
+      "Post-Dieselgate software update with effects on EGR and DPF reported by many users"
     ],
     "curiosita": [
-      null
+      "Replaced by EA288, developed for Euro 6 regulations."
     ],
     "versioni": [
       {},
@@ -1056,14 +1206,14 @@
     "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null
@@ -1100,7 +1250,7 @@
     "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -1146,7 +1296,7 @@
     "_source_hash": "eca40ca568ccfc4904403d915335bcfba6b9c69d538f043930957fab6b63cc0a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -1196,13 +1346,13 @@
     "_source_hash": "8af44c039de42aef35069617141a606f27727b20981816cbef21724a8edb4f61",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Gasoline / Hybrid",
     "aspirazione": "Biturbation",
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -1248,8 +1398,8 @@
     "_source_hash": "392f1f39bbcf542aa95af7bfe9ed301ea8945d81d188131ec2a6e455664dd240",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -1282,7 +1432,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "1,000,000 miles"
       }
     ],
     "affidabilita": {
@@ -1299,8 +1449,8 @@
     "distribuzione": null,
     "blocco": "Ghisa",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct",
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
@@ -1444,7 +1594,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -1484,7 +1634,7 @@
     "_source_hash": "05e8c230760b45f0613c4eb9b30d9f7309cbd6ec5edf082a933a0dfd137a6a36",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -1537,7 +1687,7 @@
     "_source_hash": "d467dc4ff9c45fb77812a43387bb16aa17607be72cb8fec7c7b84536bcd92dd1",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -1927,7 +2077,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -2027,7 +2177,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -2168,7 +2318,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null
@@ -2205,7 +2355,7 @@
     "_source_hash": "7ffdd54a91091b092e14b96caf84065fdffc576b9876bf68428ca41ef269f823",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -2254,10 +2404,10 @@
     "_source_hash": "31283b9afc9011e97469d5434fa0a7ecc6e99749579de8cb00e7ca1d77c85147",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
@@ -2297,10 +2447,10 @@
     "_source_hash": "512c0f0cfb1c51da058702fd0748b8a08e48db2b8495d936056d4c3e5cc46092",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
-    "distribuzione": null,
+    "distribuzione": "Chain DOHC, double VANOS",
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
@@ -2338,11 +2488,11 @@
     "_source_hash": "692a9c3890ed5dc4276a9f1dfdfbe5532c79f26692ba5e1f42032af06cbb51f1",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS",
+    "blocco": "Aluminium, closed-deck",
     "testa": null,
     "iniezione": null,
     "compressione": null,
@@ -2368,7 +2518,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Closed-deck"
       },
       {
         "testo": null,
@@ -2383,13 +2533,13 @@
     "_source_hash": "3978396333878520ee68fe3a3edf97b879f61571c712e952ce8238a1176b822b",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct common rail",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -2432,13 +2582,13 @@
     "_source_hash": "01395db28890c73fcbb0a238cf97c52c56e7b8ea173aefcd20ed9fce931c339f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
     "blocco": null,
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -2476,7 +2626,7 @@
     "_source_hash": "624635391c285feb521321e32b5dce5ad93c779a615ce0d17a2c67c1e7e0e0cb",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -2524,7 +2674,7 @@
     "_source_hash": "62a938d389d6e7ad5ccf6c77eab72d9f91805c5040897fed093e876627c03dae",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -2574,13 +2724,13 @@
     "_source_hash": "ad4f2adc97c9ac21f2cb10445df2365693a4a47155370bdb899db8e3351fa01c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": "10.0–10.5:1",
     "punti_deboli": [
       null,
@@ -2666,7 +2816,7 @@
     "_source_hash": "754e9e3f98eb6e244ae0888759b14fbc5f7c3b8e8eb6d03acb72478daf814876",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": "DOHC belt",
@@ -2875,7 +3025,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "3"
       },
       {
         "testo": null,
@@ -2897,7 +3047,7 @@
     "blocco": "Aluminium",
     "testa": "Aluminium",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "10.2:1",
     "punti_deboli": [
       null,
       null
@@ -3072,7 +3222,7 @@
     "_source_hash": "6f199fd6ed78bfd3685c34c9a83fb2a1bbe2ff1df397d4f9e00988dcbedbd5f9",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -3287,7 +3437,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -3314,7 +3464,7 @@
         "nota": null
       },
       {
-        "nota": null
+        "nota": "Variable geometry Turbo"
       },
       {
         "nota": null
@@ -3394,7 +3544,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": null,
@@ -3860,7 +4010,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "2 turbo"
       },
       {
         "testo": null,
@@ -3922,7 +4072,7 @@
     "_source_hash": "d90edb1f44f1563f68dd3bb210ed836156556dc0dfc06e63ab6103b6a39aaded",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -3982,7 +4132,7 @@
     "_source_hash": "55ff9ff9ce64d3b1b70e268516cbf2fe6e297cbd69ff7268250c6454c27797ce",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -4048,7 +4198,7 @@
     "_source_hash": "6120a05a5f38e05a94aa0a43dbd76cf22f509e7989bb7f26998e5965cebddd9f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4108,7 +4258,7 @@
     "_source_hash": "b25b6c9d6e1ce3aff8a0d8672e87368d0ad022574f686ea0eb5a207b32512365",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4165,7 +4315,7 @@
     "_source_hash": "793ac9dad17fab447100a09298037c93dfbc5f6b70667d4b43ec9c86ccd4c4cf",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4215,8 +4365,8 @@
     "_source_hash": "09fc6cf117f14f40bde4288d3683afee1225c155a9a3546e250620b647b0fd16",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -4271,14 +4421,14 @@
     "_source_hash": "9fc1f56b45f359ab0cae3d4840e2874e4639121795fa6430e10656914635d1ea",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.2:1",
     "punti_deboli": [
       null,
       null,
@@ -4325,7 +4475,7 @@
     "_source_hash": "d13edc38174af3f52b7221b3e38699b3d04264fe0f18e10351b46dc51692b155",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -4379,7 +4529,7 @@
     "_source_hash": "33a936faae7cb86a781e8e2e3ea60867bc7f3a41ab41202f8f443d5d78af99b5",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4423,7 +4573,7 @@
     "_source_hash": "c12133c69937c69b72a8c98222ccb916591a7d0b8615c7c706a70314863c595f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4472,11 +4622,11 @@
     "_source_hash": "be25f57be10159462c2594db731c4d30190ffa81db648784ace0c34bd8a8cd6a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Gasoline / Hybrid",
     "aspirazione": "Turbo",
-    "distribuzione": null,
-    "blocco": null,
+    "distribuzione": "Chain DOHC, double VANOS and Valvetronic",
+    "blocco": "Aluminium, closed-deck",
     "testa": "Aluminium",
     "iniezione": null,
     "compressione": null,
@@ -4507,7 +4657,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "500 cc"
       },
       {
         "testo": null,
@@ -4526,7 +4676,7 @@
     "_source_hash": "e65f553aaac566bed8ae0c5581bdf376679a478d84a1809697117b9899e9e28d",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
@@ -4586,7 +4736,7 @@
     "_source_hash": "dc92d9f9b8c433a37deafaa6f0c49bd98c584e7248f778f870eb35983e7e0468",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4643,7 +4793,7 @@
     "_source_hash": "ce388e535e73200e52cdcd21d20827f95551f9db1db721b1f700f0f85ea61253",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -4699,7 +4849,7 @@
     "_source_hash": "23cf7a3efc749dfb60b413dbf4f4cc56aa942e6391303bc03ccea40ede63e55d",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -4757,7 +4907,7 @@
     "_source_hash": "af799a92682f0256ca026c63add0e49ef59f569a9df954226971698e4754bc6a",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
     "distribuzione": null,
@@ -4815,14 +4965,14 @@
     "_source_hash": "e3dc7d561c9030e94a985db531ab18a66b3352a7b68147ff113e12a10ed03752",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null
     ],
@@ -4875,8 +5025,8 @@
     "_source_hash": "16648790d4c7fb1284c635cbaae8295f57e8152c78a67d2550f314fe14d415ea",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": "Aluminium",
@@ -4927,8 +5077,8 @@
     "_source_hash": "3c567af0b6fba11132723928d6781b33bd92aaf107c84bb8c6de400d95c3eab3",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -4984,7 +5134,7 @@
     "_source_hash": "024823ecb140f29b42d5e80c9e689db578440b46e7a468b64ea3c770b99c8dee",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Gasoline / Hybrid",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5026,7 +5176,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Pie"
       },
       {
         "testo": null,
@@ -5041,13 +5191,13 @@
     "_source_hash": "619a87c66697d9cb55546b8e1837b8fc4a9f0d5b8283327af7592a56e9879f9f",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5084,7 +5234,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "500 cc"
       }
     ],
     "affidabilita": {
@@ -5095,7 +5245,7 @@
     "_source_hash": "69b00111efdf2f96d47e909746bcdbeeb6746abe8297bc71727dc4a8e83be7cc",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -5155,7 +5305,7 @@
     "_source_hash": "e2b359b417f277e6dfa29018bc34981b61204e67784bbaec1f07a2711cc88a4c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -5209,13 +5359,13 @@
     "_source_hash": "5bb7998c8b747799020b9fb2080aa02a9bcb18e1547cd5753f24fef8e1761d0b",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5274,13 +5424,13 @@
     "_source_hash": "894d9a1090d89661e6efb9bee51697010a441c94489eb63d528082ab56271fbd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -5326,8 +5476,8 @@
     "_source_hash": "11510bc7cb3c3f10735f063fa699bf7216a8f2312c8e7ce708b06b328268d040",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -5363,7 +5513,7 @@
       },
       {},
       {
-        "nota": null
+        "nota": "Variable geometry Turbo"
       },
       {
         "nota": null
@@ -5391,14 +5541,14 @@
     "_source_hash": "8aed5788935aeeef3512ff66c182465dd8c71dae88076a863c7fa35c184eca5c",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": "Chain DOHC, variable intake",
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
@@ -5444,8 +5594,8 @@
     "_source_hash": "5c4300946cd1449482dc88bcf64dca00b06b17b12d5fa92ef6924f0b69ffaf0c",
     "storia": null,
     "limiti": null,
-    "paese": null,
-    "alimentazione": null,
+    "paese": "Germany",
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": "DOHC belt",
     "blocco": "Ghisa",
@@ -5498,7 +5648,7 @@
     "_source_hash": "fee40f02e4b38129685acb88b7ccbab5ca3a994c8fd4a9151147a485f1cff866",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -5555,7 +5705,7 @@
     "_source_hash": "ad18b7de82015b19ff7f580f1718b7f20d9f149894039165dd06ff0b042f27fc",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Gasoline / Hybrid",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5608,7 +5758,7 @@
     "_source_hash": "50bdb843a4a5a287da0fbddb255985262ab3cbcdceb51aebbb83b6b72c26fafb",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -5662,7 +5812,7 @@
     "_source_hash": "3eeb6593a308ac96fa94338379fd33281f3da106fbdd735a4355087fbcbe560b",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -5731,7 +5881,7 @@
     "_source_hash": "09a7cdeb77ce5d9f8405e28533e654acef8c1b6560a28fc097e619b2be3c1bf8",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -5802,7 +5952,7 @@
     "_source_hash": "7c487c81b491c281199a00797081955719913f419236299e565b22be3866f0d6",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
     "distribuzione": null,
@@ -5865,7 +6015,7 @@
     "_source_hash": "06cef22d49acb1256c177e2c0ccda10b6200392897e826c63175fc7313bb732e",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -5932,7 +6082,7 @@
     "_source_hash": "581fb4e5380a69ccccc47af1b9b9c0959094a8d4db3b0cef8932d38fef517202",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": null,
@@ -5986,7 +6136,7 @@
     "_source_hash": "4d93aba50474334e0c14c048e7fa7425a956b5fd1caa0ced01d444afaffd5523",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -6053,7 +6203,7 @@
     "_source_hash": "8514e3709427aad2b19d515f23ed3e77f3b336eca489c834810cb38a49773bc8",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": null,
     "distribuzione": null,
@@ -6116,7 +6266,7 @@
     "_source_hash": "bc51023fd39083896e382d496a82604a89acd8b8a9724d5bdd39744d68bc5736",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -6164,7 +6314,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "18 years"
       }
     ],
     "affidabilita": {
@@ -6175,7 +6325,7 @@
     "_source_hash": "556b5a050c202a64eada1ee15ab33e8af245afc37fc623c666127f6048e15d19",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Turbo",
     "distribuzione": "DOHC belt",
@@ -6232,7 +6382,7 @@
     "_source_hash": "0efb29367c3994cb98f8e0f0ae26fb6571875d14f8fded6150b11414b30ef2cd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Aspired",
     "distribuzione": null,
@@ -6282,7 +6432,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -6600,7 +6750,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": "Ghisa",
@@ -6657,7 +6807,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": "Turbo",
     "distribuzione": null,
     "blocco": null,
@@ -6717,7 +6867,7 @@
     "blocco": "Aluminium",
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
@@ -6884,12 +7034,12 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
-    "distribuzione": null,
+    "distribuzione": "SOHC belt",
     "blocco": "Ghisa",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct common rail",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -6912,7 +7062,7 @@
         "nota": null
       },
       {
-        "nota": null
+        "nota": "Variable geometry Turbo"
       },
       {
         "nota": null
@@ -6946,7 +7096,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": "9.0:1",
     "punti_deboli": [
       null,
@@ -7123,7 +7273,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -7293,7 +7443,7 @@
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "11.5:1",
     "punti_deboli": [
       null,
       null,
@@ -7759,7 +7909,7 @@
     "distribuzione": null,
     "blocco": null,
     "testa": null,
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -8033,7 +8183,7 @@
     "blocco": null,
     "testa": null,
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null
@@ -8143,7 +8293,7 @@
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
+    "iniezione": "Direct",
     "compressione": null,
     "punti_deboli": [
       null,
@@ -8243,9 +8393,9 @@
     "paese": "Japan",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
-    "distribuzione": null,
-    "blocco": null,
-    "testa": null,
+    "distribuzione": "Light Wankel (no valve)",
+    "blocco": "Cast iron / aluminium (stators and housings)",
+    "testa": "—",
     "iniezione": "Indirect multipoint",
     "compressione": "9.0:1",
     "punti_deboli": [
@@ -8269,7 +8419,7 @@
       },
       {
         "testo": null,
-        "valore": null
+        "valore": "Sequential"
       },
       {
         "testo": null,
@@ -8369,7 +8519,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "2 turbo"
       },
       {
         "testo": null,
@@ -8998,7 +9148,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -9053,7 +9203,7 @@
     "storia": null,
     "limiti": null,
     "paese": null,
-    "alimentazione": null,
+    "alimentazione": "Diesel",
     "aspirazione": null,
     "distribuzione": null,
     "blocco": null,
@@ -9739,14 +9889,14 @@
     "_source_hash": "667fff5d1d7123983e543f721c34e45f1493a8ed271cc6cf5394f1cd11d217cd",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": "Petroleum",
     "aspirazione": "Biturbation",
     "distribuzione": null,
     "blocco": "Aluminium",
     "testa": "Aluminium",
-    "iniezione": null,
-    "compressione": null,
+    "iniezione": "Direct",
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
@@ -9776,7 +9926,7 @@
     "in_breve": [
       {
         "testo": null,
-        "valore": null
+        "valore": "3"
       },
       {
         "testo": null,
@@ -9857,7 +10007,7 @@
     "_source_hash": "8791e0807bcf257dd469a8d7f61d7165c4386a408685511250e187408f8782ba",
     "storia": null,
     "limiti": null,
-    "paese": null,
+    "paese": "Germany",
     "alimentazione": null,
     "aspirazione": null,
     "distribuzione": "DOHC belt",
@@ -9921,7 +10071,7 @@
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null
@@ -10090,7 +10240,7 @@
     "blocco": null,
     "testa": "Aluminium",
     "iniezione": null,
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
@@ -10196,7 +10346,7 @@
     "blocco": "Ghisa",
     "testa": "Aluminium",
     "iniezione": "Indirect multipoint",
-    "compressione": null,
+    "compressione": "10.0:1",
     "punti_deboli": [
       null,
       null,
