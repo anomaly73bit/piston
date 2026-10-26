@@ -56,6 +56,6 @@ jobs:
             git commit -m "Update English French Czech translations and engine pages"
             git pull --rebase origin main
             git push origin HEAD:main
+          fi
       - name: Audit full multilingual coverage (incomplete batches remain red)
         run: python tools/verifica_traduzioni.py --strict
-          fi
