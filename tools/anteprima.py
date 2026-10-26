@@ -57,6 +57,12 @@ def costruisci():
     config = yaml.safe_load((RADICE / "_config.yml").read_text(encoding="utf-8"))
     site = dict(config)
     site["data"] = {p.stem: yaml.safe_load(p.read_text(encoding="utf-8")) for p in (RADICE / "_data").glob("*.yml")}
+    # Jekyll loads JSON files in nested _data directories as site.data.<dir>.<name>.
+    translations_dir = RADICE / "_data" / "traduzioni"
+    site["data"]["traduzioni"] = {
+        p.stem: json.loads(p.read_text(encoding="utf-8"))
+        for p in translations_dir.glob("*.json")
+    } if translations_dir.exists() else {}
     site["time"] = datetime.datetime.now()
 
     includes = {p.name: converti_include(p.read_text(encoding="utf-8")).replace("include.", "inc_")
@@ -131,6 +137,13 @@ def costruisci():
         fm, corpo = separa(p.read_text(encoding="utf-8"))
         fm.setdefault("layout", "motore")
         pubblica(fm, corpo, f"/motori/{p.stem}/")
+
+    # Render all generated localized engine pages too, not just Italian.
+    for language in ("en", "fr", "cs"):
+        for p in sorted((RADICE / language / "motori").glob("*.md")):
+            fm, corpo = separa(p.read_text(encoding="utf-8"))
+            fm.setdefault("layout", "motore")
+            pubblica(fm, corpo, f"/{language}/motori/{p.stem}/")
 
     # Asset
     for p in (RADICE / "assets").rglob("*"):
