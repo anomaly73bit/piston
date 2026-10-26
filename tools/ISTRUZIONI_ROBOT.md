@@ -9,7 +9,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
      o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
    - Continua finché hai 5 motori validi o la coda è vuota.
-2. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
+2. Se esiste una scheda di ricerca in `tools/ricerche/`, consultala come punto di partenza, ma ricontrolla sempre le fonti prima di pubblicare. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
    riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
    delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
    versione, oppure scrivi un valore prudente nel testo. Mai inventare.
