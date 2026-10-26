@@ -445,3 +445,7 @@ h3 { font-size: 1rem; font-weight: 600; }
 .galleria-item strong { display:block;line-height:1.35; }
 .galleria-item p { color:var(--grafite);font-size:.8rem;line-height:1.4;overflow-wrap:anywhere; }
 .manutenzione-scheda { border-top:1px solid var(--linea);padding-top:1rem; }
+
+/* English entry and responsive header language link */
+.lingua-en { display:inline-flex;align-items:center;justify-content:center;min-width:2.2rem;min-height:2.2rem;padding:.3rem .5rem;border:1px solid currentColor;border-radius:3px;text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.06em;flex-shrink:0; }
+@media(max-width:760px) { .lingua-en { margin-left:auto; } }
