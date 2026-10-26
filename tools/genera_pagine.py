@@ -48,13 +48,13 @@ def main() -> int:
         for m in motori:
             nome = m["nome"]
             (cartella / f"{m['slug']}.md").write_text(
-                "---\\n"
-                f"layout: motore\\n"
-                f"locale: {lingua}\\n"
-                f"slug: {m['slug']}\\n"
-                f"title: {yaml.safe_dump(nome, allow_unicode=True).strip().removesuffix('...').strip()}\\n"
-                f"permalink: /{lingua}/motori/{m['slug']}/\\n"
-                "---\\n",
+                "---\n"
+                f"layout: motore\n"
+                f"locale: {lingua}\n"
+                f"slug: {m['slug']}\n"
+                f"title: {yaml.safe_dump(nome, allow_unicode=True).strip().removesuffix('...').strip()}\n"
+                f"permalink: /{lingua}/motori/{m['slug']}/\n"
+                "---\n",
                 encoding="utf-8",
             )
         for vecchio in cartella.glob("*.md"):
