@@ -32,6 +32,7 @@
   var metriche = [
     { k: 'cilindrata', t: 'Cilindrata', u: 'cc' },
     { k: 'cv_max', t: 'Potenza massima', u: 'CV' },
+    { k: 'cv_min', t: 'Potenza minima', u: 'CV' },
     { k: 'nm_max', t: 'Coppia massima', u: 'Nm' },
     { k: 'limitatore', t: 'Limitatore', u: 'giri/min' },
     { k: 'cv_litro', t: 'Potenza specifica', u: 'CV/litro' },
@@ -42,6 +43,9 @@
     { k: 'aspirazione', t: 'Aspirazione' },
     { k: 'alimentazione', t: 'Alimentazione' },
     { k: 'compressione', t: 'Compressione' },
+    { k: 'iniezione', t: 'Iniezione' },
+    { k: 'blocco', t: 'Materiale basamento' },
+    { k: 'testa', t: 'Materiale testata' },
     { k: 'distribuzione', t: 'Distribuzione' },
     { k: 'periodo', t: 'Produzione' }
   ];
@@ -66,7 +70,7 @@
     h += '</div>';
     metriche.forEach(function (x) {
       var max = Math.max.apply(null, scelti.map(function (m) { return m[x.k] || 0; }));
-      h += '<div class="confronto-riga" ' + col + '><h3>' + x.t + '</h3>';
+      h += '<div class="confronto-riga" ' + col + '><h3>' + (x.k === 'aff' ? 'Affidabilità (stima editoriale)' : x.t) + '</h3>';
       scelti.forEach(function (m) {
         var v = m[x.k] || 0, pct = max ? (v / max * 100) : 0;
         h += '<div class="barra' + (v === max ? ' prima' : '') + '"><span style="width:' + pct.toFixed(1) + '%"></span><b>' + (v ? v.toLocaleString('it-IT') : 'n.d.') + ' <small>' + x.u + '</small></b></div>';
@@ -75,7 +79,7 @@
     });
     testi.forEach(function (x) {
       h += '<div class="confronto-riga testo" ' + col + '><h3>' + x.t + '</h3>';
-      scelti.forEach(function (m) { h += '<p>' + esc(m[x.k]) + '</p>'; });
+      scelti.forEach(function (m) { h += '<p>' + esc(m[x.k] == null ? 'n.d.' : m[x.k]) + '</p>'; });
       h += '</div>';
     });
     out.innerHTML = h;
