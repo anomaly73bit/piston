@@ -35,7 +35,7 @@
     <span class="aff-titolo">Affidabilità · stima editoriale</span>
     <span class="aff-valore">{{ v }}<small>/100</small></span>
     <span class="aff-fascia">{{ fascia }}</span>
-    <span class="aff-motivo">{{ include.a.motivo }}</span>
+    <span class="aff-motivo">{{ include.motivo | default: include.a.motivo }}</span>
     <span class="aff-nota">Punteggio indicativo: non è una percentuale di motori senza guasti né una statistica certificata.</span>
     {% if include.a.provvisorio %}<span class="aff-nota">Valutazione provvisoria: dati di lungo periodo limitati.</span>{% endif %}
     <a class="aff-metodo" href="{{ '/metodo/' | relative_url }}#affidabilita">Come si calcola</a>
