@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-{%- assign m = site.data.motori | where: "slug", page.slug | first -%}
+{%- assign m_originale = site.data.motori | where: "slug", page.slug | first -%}
+{%- assign m = m_originale -%}
+{%- assign lingua = page.locale | default: 'it' -%}
+{%- if lingua == 'en' -%}{%- assign traduzioni = site.data.traduzioni.en -%}
+{%- elsif lingua == 'fr' -%}{%- assign traduzioni = site.data.traduzioni.fr -%}
+{%- elsif lingua == 'cs' -%}{%- assign traduzioni = site.data.traduzioni.cs -%}
+{%- endif -%}
+{%- if traduzioni and traduzioni[page.slug] -%}
+  {%- assign trad = traduzioni[page.slug] -%}
+{%- endif -%}
 {%- assign marca = m.costruttore | split: " " | first | split: "-" | first | strip -%}
 {%- assign proprie = "|" | append: marca | append: "|" | append: m.costruttore | append: "|" -%}
 {%- assign gruppo = site.data.gruppi_marca[m.costruttore] -%}
@@ -31,7 +40,7 @@ layout: default
   {% if m.in_breve %}
   <section class="rilievo" aria-label="Dati chiave">
     <ul>
-      {% for r in m.in_breve %}<li><strong>{{ r.valore }}</strong><span>{{ r.testo }}</span></li>{% endfor %}
+      {% for r in m.in_breve %}<li><strong>{{ r.valore }}</strong><span>{% if trad.in_breve[forloop.index0].testo %}{{ trad.in_breve[forloop.index0].testo }}{% else %}{{ r.testo }}{% endif %}</span></li>{% endfor %}
     </ul>
   </section>
   {% endif %}
@@ -94,7 +103,7 @@ layout: default
             <thead><tr><th scope="col">Versione</th><th scope="col">Anni</th><th scope="col" class="num">CV</th><th scope="col" class="num">Nm</th><th scope="col">Note</th></tr></thead>
             <tbody>
               {% for v in m.versioni %}
-              <tr><td>{{ v.nome }}</td><td class="anni">{{ v.anni }}</td><td class="num">{{ v.cv }}</td><td class="num">{{ v.nm }}</td><td class="nota">{{ v.nota }}</td></tr>
+              <tr><td>{{ v.nome }}</td><td class="anni">{{ v.anni }}</td><td class="num">{{ v.cv }}</td><td class="num">{{ v.nm }}</td><td class="nota">{% if trad.versioni[forloop.index0].nota %}{{ trad.versioni[forloop.index0].nota }}{% else %}{{ v.nota }}{% endif %}</td></tr>
               {% endfor %}
             </tbody>
           </table>
@@ -111,7 +120,7 @@ layout: default
       <section aria-labelledby="t-manutenzione">
         <h2 id="t-manutenzione">Manutenzione</h2>
         {% if m.manutenzione and m.manutenzione.size > 0 %}
-        <ul class="curiosita">{% for voce in m.manutenzione %}<li>{{ voce }}</li>{% endfor %}</ul>
+        <ul class="curiosita">{% for voce in m.manutenzione %}<li>{% if trad.manutenzione[forloop.index0] %}{{ trad.manutenzione[forloop.index0] }}{% else %}{{ voce }}{% endif %}</li>{% endfor %}</ul>
         {% else %}
         <p>Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione e controlli fa fede il piano ufficiale previsto per codice motore, anno e mercato.</p>
         {% endif %}
@@ -119,24 +128,24 @@ layout: default
 
       <section aria-labelledby="t-storia" class="storia">
         <h2 id="t-storia">Storia</h2>
-        <p>{{ m.storia }}</p>
+        <p>{% if trad.storia %}{{ trad.storia }}{% else %}{{ m.storia }}{% endif %}</p>
       </section>
 
       <div class="doppia">
         <section aria-labelledby="t-deboli" class="avviso">
           <h2 id="t-deboli">Punti deboli</h2>
-          <ul>{% for p in m.punti_deboli %}<li>{{ p }}</li>{% endfor %}</ul>
+          <ul>{% for p in m.punti_deboli %}<li>{% if trad.punti_deboli[forloop.index0] %}{{ trad.punti_deboli[forloop.index0] }}{% else %}{{ p }}{% endif %}</li>{% endfor %}</ul>
         </section>
         <section aria-labelledby="t-limiti">
           <h2 id="t-limiti">Limiti ed elaborazioni</h2>
-          <p>{{ m.limiti }}</p>
+          <p>{% if trad.limiti %}{{ trad.limiti }}{% else %}{{ m.limiti }}{% endif %}</p>
         </section>
       </div>
 
       {% if m.curiosita.size > 0 %}
       <section aria-labelledby="t-curiosita">
         <h2 id="t-curiosita">Curiosità</h2>
-        <ul class="curiosita">{% for c in m.curiosita %}<li>{{ c }}</li>{% endfor %}</ul>
+        <ul class="curiosita">{% for c in m.curiosita %}<li>{% if trad.curiosita[forloop.index0] %}{{ trad.curiosita[forloop.index0] }}{% else %}{{ c }}{% endif %}</li>{% endfor %}</ul>
       </section>
       {% endif %}
 
