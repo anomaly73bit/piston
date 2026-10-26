@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: toyota-1jz-gte\ntitle: Toyota 1JZ-GTE 2.5 turbo\npermalink: /cs/motori/toyota-1jz-gte/\n---\n

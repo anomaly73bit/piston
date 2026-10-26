@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: alfa-romeo-busso-v6\ntitle: Alfa Romeo V6 'Busso'\npermalink: /fr/motori/alfa-romeo-busso-v6/\n---\n

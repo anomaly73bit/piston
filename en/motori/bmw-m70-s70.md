@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: bmw-m70-s70\ntitle: BMW M70 / S70 V12\npermalink: /en/motori/bmw-m70-s70/\n---\n

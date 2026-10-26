@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: toyota-2zz-ge\ntitle: Toyota 2ZZ-GE 1.8 VVTL-i\npermalink: /cs/motori/toyota-2zz-ge/\n---\n

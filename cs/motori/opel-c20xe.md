@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: opel-c20xe\ntitle: Opel C20XE 2.0 16v\npermalink: /cs/motori/opel-c20xe/\n---\n

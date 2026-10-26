@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: prv-v6\ntitle: PRV V6 Peugeot-Renault-Volvo\npermalink: /fr/motori/prv-v6/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: honda-jnc1\ntitle: Honda JNC1 V6 biturbo\npermalink: /cs/motori/honda-jnc1/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: ford-67-power-stroke\ntitle: Ford 6.7 Power Stroke V8 diesel\npermalink: /fr/motori/ford-67-power-stroke/\n---\n

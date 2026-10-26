@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: honda-h22a\ntitle: Honda H22A VTEC\npermalink: /fr/motori/honda-h22a/\n---\n

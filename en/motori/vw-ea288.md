@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: vw-ea288\ntitle: Volkswagen EA288 1.6 / 2.0 TDI\npermalink: /en/motori/vw-ea288/\n---\n

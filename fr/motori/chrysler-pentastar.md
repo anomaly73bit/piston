@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: chrysler-pentastar\ntitle: Chrysler Pentastar V6\npermalink: /fr/motori/chrysler-pentastar/\n---\n

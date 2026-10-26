@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: ferrari-f120\ntitle: Ferrari F120 V8 biturbo\npermalink: /fr/motori/ferrari-f120/\n---\n

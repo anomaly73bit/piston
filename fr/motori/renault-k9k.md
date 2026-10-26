@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: renault-k9k\ntitle: Renault K9K 1.5 dCi\npermalink: /fr/motori/renault-k9k/\n---\n

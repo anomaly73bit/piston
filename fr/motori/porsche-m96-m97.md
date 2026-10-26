@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: porsche-m96-m97\ntitle: Porsche M96/M97 boxer raffreddato ad acqua\npermalink: /fr/motori/porsche-m96-m97/\n---\n

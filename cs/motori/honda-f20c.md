@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: honda-f20c\ntitle: Honda F20C\npermalink: /cs/motori/honda-f20c/\n---\n

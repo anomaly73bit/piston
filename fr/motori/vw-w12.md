@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: vw-w12\ntitle: Volkswagen W12\npermalink: /fr/motori/vw-w12/\n---\n

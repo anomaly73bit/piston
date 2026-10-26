@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: opel-z20let\ntitle: Opel 2.0 16v Turbo Z20LET / Z20LEH\npermalink: /fr/motori/opel-z20let/\n---\n

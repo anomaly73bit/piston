@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: bmw-m50-m52\ntitle: BMW M50 / M52\npermalink: /fr/motori/bmw-m50-m52/\n---\n

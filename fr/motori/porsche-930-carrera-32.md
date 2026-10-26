@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: porsche-930-carrera-32\ntitle: Porsche 3.2 Carrera boxer raffreddato ad aria\npermalink: /fr/motori/porsche-930-carrera-32/\n---\n

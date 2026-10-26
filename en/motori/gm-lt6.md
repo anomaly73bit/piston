@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: gm-lt6\ntitle: GM LT6 5.5 V8 ad albero piatto\npermalink: /en/motori/gm-lt6/\n---\n

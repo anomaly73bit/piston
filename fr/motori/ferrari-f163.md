@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: ferrari-f163\ntitle: Ferrari F163 V6 biturbo\npermalink: /fr/motori/ferrari-f163/\n---\n

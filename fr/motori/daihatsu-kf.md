@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: daihatsu-kf\ntitle: Daihatsu KF tre cilindri\npermalink: /fr/motori/daihatsu-kf/\n---\n

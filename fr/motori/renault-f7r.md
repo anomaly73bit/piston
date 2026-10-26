@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: renault-f7r\ntitle: Renault F7R 2.0 16v\npermalink: /fr/motori/renault-f7r/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: vw-ea211-10-tsi\ntitle: Volkswagen EA211 1.0 tre cilindri\npermalink: /fr/motori/vw-ea211-10-tsi/\n---\n

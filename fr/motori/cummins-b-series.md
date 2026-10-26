@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: cummins-b-series\ntitle: Cummins B-series 5.9 / 6.7 (Ram)\npermalink: /fr/motori/cummins-b-series/\n---\n

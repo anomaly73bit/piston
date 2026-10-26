@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: bmw-b47-b57\ntitle: BMW B47 / B57 diesel\npermalink: /cs/motori/bmw-b47-b57/\n---\n

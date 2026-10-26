@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: gm-ecotec-lsj-lnf\ntitle: GM Ecotec LSJ / LNF 2.0 sovralimentato\npermalink: /fr/motori/gm-ecotec-lsj-lnf/\n---\n

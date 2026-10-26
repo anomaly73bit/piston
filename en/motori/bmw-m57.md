@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: bmw-m57\ntitle: BMW M57 3.0 diesel\npermalink: /en/motori/bmw-m57/\n---\n

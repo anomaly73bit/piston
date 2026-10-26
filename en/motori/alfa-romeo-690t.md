@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: alfa-romeo-690t\ntitle: Alfa Romeo 690T 2.9 V6\npermalink: /en/motori/alfa-romeo-690t/\n---\n

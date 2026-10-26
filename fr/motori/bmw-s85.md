@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: bmw-s85\ntitle: BMW S85 V10\npermalink: /fr/motori/bmw-s85/\n---\n

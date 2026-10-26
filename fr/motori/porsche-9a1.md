@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: porsche-9a1\ntitle: Porsche 9A1 boxer a iniezione diretta\npermalink: /fr/motori/porsche-9a1/\n---\n

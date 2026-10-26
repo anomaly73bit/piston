@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: honda-c30a\ntitle: Honda C30A NSX\npermalink: /cs/motori/honda-c30a/\n---\n

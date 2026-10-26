@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: opel-x20xev\ntitle: Opel X20XEV Ecotec 2.0 16v\npermalink: /cs/motori/opel-x20xev/\n---\n

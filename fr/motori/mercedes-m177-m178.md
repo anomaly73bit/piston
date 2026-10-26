@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: mercedes-m177-m178\ntitle: Mercedes-AMG M177/M178 4.0 biturbo\npermalink: /fr/motori/mercedes-m177-m178/\n---\n

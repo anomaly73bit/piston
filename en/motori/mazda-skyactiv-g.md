@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: mazda-skyactiv-g\ntitle: Mazda Skyactiv-G 2.0 / 2.5\npermalink: /en/motori/mazda-skyactiv-g/\n---\n

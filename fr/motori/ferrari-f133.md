@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: ferrari-f133\ntitle: Ferrari F133 V12 65°\npermalink: /fr/motori/ferrari-f133/\n---\n

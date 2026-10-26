@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: mazda-renesis\ntitle: Mazda Renesis\npermalink: /cs/motori/mazda-renesis/\n---\n

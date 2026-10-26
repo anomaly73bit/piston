@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: volvo-modulare-l5\ntitle: Volvo Modular cinque cilindri turbo\npermalink: /fr/motori/volvo-modulare-l5/\n---\n

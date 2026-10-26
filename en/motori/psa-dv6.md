@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: psa-dv6\ntitle: PSA/Ford DV6 1.6 HDi / BlueHDi\npermalink: /en/motori/psa-dv6/\n---\n

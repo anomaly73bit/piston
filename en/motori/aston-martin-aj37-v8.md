@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: aston-martin-aj37-v8\ntitle: Aston Martin V8 4.3 / 4.7\npermalink: /en/motori/aston-martin-aj37-v8/\n---\n

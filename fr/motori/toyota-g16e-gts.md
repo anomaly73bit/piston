@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: toyota-g16e-gts\ntitle: Toyota G16E-GTS\npermalink: /fr/motori/toyota-g16e-gts/\n---\n

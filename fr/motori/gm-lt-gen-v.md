@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: gm-lt-gen-v\ntitle: GM small-block LT (Gen V)\npermalink: /fr/motori/gm-lt-gen-v/\n---\n

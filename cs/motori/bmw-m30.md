@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: bmw-m30\ntitle: BMW M30\npermalink: /cs/motori/bmw-m30/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: renault-f4r\ntitle: Renault F4R 2.0 16v\npermalink: /fr/motori/renault-f4r/\n---\n

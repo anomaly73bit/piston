@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: ford-ecoboost-20-23\ntitle: Ford 2.0 / 2.3 EcoBoost\npermalink: /en/motori/ford-ecoboost-20-23/\n---\n

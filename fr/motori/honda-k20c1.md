@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: honda-k20c1\ntitle: Honda K20C1 Type R\npermalink: /fr/motori/honda-k20c1/\n---\n

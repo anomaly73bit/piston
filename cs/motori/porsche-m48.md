@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: porsche-m48\ntitle: Porsche M48 V8 4.5 / 4.8\npermalink: /cs/motori/porsche-m48/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: psa-bmw-ep6\ntitle: PSA/BMW EP6 1.6 THP\npermalink: /cs/motori/psa-bmw-ep6/\n---\n

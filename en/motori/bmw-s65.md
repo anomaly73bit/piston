@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: bmw-s65\ntitle: BMW S65 V8\npermalink: /en/motori/bmw-s65/\n---\n

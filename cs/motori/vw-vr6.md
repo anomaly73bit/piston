@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: vw-vr6\ntitle: Volkswagen VR6\npermalink: /cs/motori/vw-vr6/\n---\n

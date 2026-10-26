@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: koenigsegg-v8-50\ntitle: Koenigsegg V8 5.0 biturbo\npermalink: /fr/motori/koenigsegg-v8-50/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: vw-ea189\ntitle: Volkswagen EA189 2.0 TDI\npermalink: /fr/motori/vw-ea189/\n---\n

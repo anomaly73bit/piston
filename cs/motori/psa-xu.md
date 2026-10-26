@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: psa-xu\ntitle: PSA XU 1.9–2.0 benzina (versioni sportive)\npermalink: /cs/motori/psa-xu/\n---\n

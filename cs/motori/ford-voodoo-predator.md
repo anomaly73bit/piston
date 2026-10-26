@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: ford-voodoo-predator\ntitle: Ford 5.2 Voodoo / Predator V8\npermalink: /cs/motori/ford-voodoo-predator/\n---\n

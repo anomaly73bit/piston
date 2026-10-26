@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: porsche-718-boxer-4\ntitle: Porsche 718 quattro cilindri boxer turbo\npermalink: /en/motori/porsche-718-boxer-4/\n---\n

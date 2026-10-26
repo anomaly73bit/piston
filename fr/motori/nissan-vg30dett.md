@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: nissan-vg30dett\ntitle: Nissan VG30DETT\npermalink: /fr/motori/nissan-vg30dett/\n---\n

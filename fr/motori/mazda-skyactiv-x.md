@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: mazda-skyactiv-x\ntitle: Mazda Skyactiv-X\npermalink: /fr/motori/mazda-skyactiv-x/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: mazda-b6-bp\ntitle: Mazda B6 / BP DOHC\npermalink: /fr/motori/mazda-b6-bp/\n---\n

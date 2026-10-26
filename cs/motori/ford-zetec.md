@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: ford-zetec\ntitle: Ford Zetec 1.6–2.0 16v\npermalink: /cs/motori/ford-zetec/\n---\n

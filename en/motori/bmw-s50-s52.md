@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: bmw-s50-s52\ntitle: BMW S50 / S52\npermalink: /en/motori/bmw-s50-s52/\n---\n

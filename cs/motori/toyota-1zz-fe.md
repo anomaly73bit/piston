@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: toyota-1zz-fe\ntitle: Toyota 1ZZ-FE 1.8 VVT-i\npermalink: /cs/motori/toyota-1zz-fe/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: toyota-7m-gte\ntitle: Toyota 7M-GTE\npermalink: /cs/motori/toyota-7m-gte/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: honda-d16\ntitle: Honda D16\npermalink: /fr/motori/honda-d16/\n---\n

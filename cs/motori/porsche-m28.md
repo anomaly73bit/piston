@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: porsche-m28\ntitle: Porsche M28 V8 928\npermalink: /cs/motori/porsche-m28/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: en\nslug: ford-coyote\ntitle: Ford Coyote 5.0 V8\npermalink: /en/motori/ford-coyote/\n---\n

@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: mitsubishi-3b2\ntitle: Mitsubishi 3B2 tre cilindri\npermalink: /cs/motori/mitsubishi-3b2/\n---\n

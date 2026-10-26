@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: chrysler-hemi-57-64\ntitle: Chrysler HEMI 5.7 / 6.4 V8\npermalink: /cs/motori/chrysler-hemi-57-64/\n---\n

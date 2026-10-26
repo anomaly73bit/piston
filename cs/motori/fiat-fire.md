@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: cs\nslug: fiat-fire\ntitle: Fiat FIRE 1.2 8v e famiglia aspirata\npermalink: /cs/motori/fiat-fire/\n---\n

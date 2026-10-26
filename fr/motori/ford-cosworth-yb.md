@@ -1,0 +1,1 @@
+---\nlayout: motore\nlocale: fr\nslug: ford-cosworth-yb\ntitle: Ford Cosworth YB\npermalink: /fr/motori/ford-cosworth-yb/\n---\n
