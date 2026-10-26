@@ -346,7 +346,7 @@ h3 { font-size: 1rem; font-weight: 600; }
   position: absolute;
   inset: 0;
   z-index: -2;
-  background-image: url('https://images.unsplash.com/photo-1486496572940-2bb2341fdbdf?auto=format&fit=crop&w=1800&q=82');
+  background-image: url('https://commons.wikimedia.org/wiki/Special:FilePath/Engine%20%28Unsplash%29.jpg?width=1800');
   background-position: center;
   background-size: cover;
   filter: grayscale(.65) contrast(1.1);
@@ -423,4 +423,16 @@ h3 { font-size: 1rem; font-weight: 600; }
 }
 @media (max-width: 360px) {
   .marchio-testo small { letter-spacing: .06em; }
+}
+
+/* Homepage editorial refinement: stronger wordmark, actual engine photograph. */
+@media (min-width: 761px) {
+  .marchio .marchio-icona { width: 49px; height: 49px; }
+  .marchio-testo strong { font-size: 1.95rem; }
+  .marchio-testo small { font-size: .57rem; }
+}
+.apertura-foto::before { background-position: center 48%; filter: grayscale(.3) contrast(1.1); opacity: .62; }
+@media (max-width: 760px) {
+  .apertura-foto::before { background-position: 58% center; }
+  .apertura-foto h1 { font-size: clamp(2.35rem, 10vw, 3.6rem); }
 }
