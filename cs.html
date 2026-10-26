@@ -29,10 +29,10 @@ script: catalogo.js
       <select id="f-architettura"><option value="">Vše</option>{% for a in architetture %}<option>{{ a }}</option>{% endfor %}</select>
     </label>
     <label><span>Palivo</span>
-      <select id="f-alimentazione"><option value="">Vše</option><option>Benzín</option><option>Diesel</option><option>Hybrid</option></select>
+      <select id="f-alimentazione"><option value="">Vše</option><option value="Benzina">Benzín</option><option>Diesel</option><option value="Ibrido">Hybrid</option></select>
     </label>
     <label><span>Plnění</span>
-      <select id="f-aspirazione"><option value="">Vše</option><option>Atmosférický</option><option>Turbo</option><option>Biturbo</option><option>Kompresor</option></select>
+      <select id="f-aspirazione"><option value="">Vše</option><option value="Aspirato">Atmosférický</option><option>Turbo</option><option>Biturbo</option><option value="Compressore">Kompresor</option></select>
     </label>
     <label><span>Desetiletí uvedení</span>
       <select id="f-decennio"><option value="">Vše</option><option value="1970" >Roky '70</option><option value="1980" >Roky '80</option><option value="1990" >Roky '90</option><option value="2000" >Roky 2000</option><option value="2010" >Roky 2010</option><option value="2020" >Roky 2020</option></select>
