@@ -108,6 +108,15 @@ layout: default
         </ul>
       </section>
 
+      <section aria-labelledby="t-manutenzione">
+        <h2 id="t-manutenzione">Manutenzione</h2>
+        {% if m.manutenzione and m.manutenzione.size > 0 %}
+        <ul class="curiosita">{% for voce in m.manutenzione %}<li>{{ voce }}</li>{% endfor %}</ul>
+        {% else %}
+        <p>Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione e controlli fa fede il piano ufficiale previsto per codice motore, anno e mercato.</p>
+        {% endif %}
+      </section>
+
       <section aria-labelledby="t-storia" class="storia">
         <h2 id="t-storia">Storia</h2>
         <p>{{ m.storia }}</p>
