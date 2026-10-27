@@ -11306,3 +11306,314 @@
   manutenzione: ["Controllare regolarmente cinghia di distribuzione, rulli e pompa dell'acqua, soprattutto sui motori precedenti alla revisione del 2018.","I compensatori idraulici eliminano la regolazione periodica del gioco valvole; seguire gli intervalli di olio e filtro del manuale della specifica vettura."]
   fonti: [{"titolo":"Lada Priora, manuale del proprietario: tabella tecnica VAZ-21126","url":"https://mcgrp.ru/files/viewer/251498/126"},{"titolo":"Otoba.ru, VAZ-21126: dati tecnici, versioni e difetti","url":"https://otoba.ru/dvigatel/vaz/21126.html"},{"titolo":"Otoba.ru, motorizzazioni Lada Granta","url":"https://otoba.ru/auto/lada/granta-dvigateli.html"}]
   traduzioni_obbligatorie: true
+
+- slug: hyundai-alpha
+  codice: "G4EA / G4EH / G4EB / G4EK / G4EC / G4EE / G4ED"
+  nome: "Hyundai Alpha 1.3 / 1.4 / 1.5 / 1.6"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 1992
+  fine: 2011
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato / Turbo"
+  cilindrata: 1599
+  alesaggio: 76.5
+  corsa: 87
+  compressione: "10,0:1"
+  distribuzione: "SOHC 12V o DOHC 16V, cinghia dentata (sui DOHC catena corta tra gli alberi a camme)"
+  valvole: "3 / 4"
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Carburatore (prime 1.3) o iniezione indiretta multipoint"
+  cv_min: 72
+  cv_max: 115
+  nm_max: 167
+  in_breve:
+    - {"valore": "1992", "testo": "primo motore progettato interamente da Hyundai, debutto sulla Scoupe"}
+    - {"valore": "1.599 cc", "testo": "cilindrata del G4ED 1.6 DOHC, versione di riferimento della scheda"}
+    - {"valore": "12V / 16V", "testo": "testate SOHC a tre valvole o DOHC a quattro valvole per cilindro"}
+  versioni:
+    - {"nome": "G4EA 1.3 SOHC 12V carburatore", "anni": "1994–2000", "cv": 72, "nm": 110, "nota": "71,5 x 83,5 mm; Accent X3, non venduto in Nord America"}
+    - {"nome": "G4EH 1.3 SOHC 12V iniezione", "anni": "1994–2005", "cv": 85, "nm": 118, "nota": "71,5 x 83,5 mm; Accent X3/LC e Getz"}
+    - {"nome": "G4EB / G4EK 1.5 SOHC 12V", "anni": "1992–2005", "cv": 88, "nm": 132, "nota": "Valore europeo; 93 CV in Nord America. Scoupe, Accent, Elantra J2"}
+    - {"nome": "1.5 SOHC turbo", "anni": "1992–1996", "cv": 115, "nm": 167, "nota": "Solo Scoupe; le fonti indicano 115–129 CV e 167–179 Nm secondo mercato, qui il valore inferiore"}
+    - {"nome": "G4EC 1.5 DOHC 16V", "anni": "1996–2006", "cv": 102, "nm": 133, "nota": "Debutto sulla Accent GT; versioni successive fino a 107 CV e 135 Nm"}
+    - {"nome": "G4EE 1.4 DOHC 16V", "anni": "2005–2011", "cv": 95, "nm": 125, "nota": "1.399 cc, 75,5 x 78,1 mm; Accent MC, Getz, Kia Rio JB"}
+    - {"nome": "G4ED 1.6 DOHC 16V (Alpha II)", "anni": "2000–2011", "cv": 112, "nm": 146, "nota": "105–112 CV secondo anno e mercato; dal 2005 con variatore CVVT in aspirazione"}
+  modelli:
+    - {"nome": "Hyundai Scoupe", "anni": "1992–1996"}
+    - {"nome": "Hyundai Accent (X3)", "anni": "1994–2000"}
+    - {"nome": "Hyundai Elantra / Lantra (J2)", "anni": "1995–1998"}
+    - {"nome": "Hyundai Accent (LC, MC)", "anni": "1999–2010"}
+    - {"nome": "Hyundai Elantra (XD)", "anni": "2000–2006"}
+    - {"nome": "Hyundai Coupé (RD, GK)", "anni": "2000–2008"}
+    - {"nome": "Hyundai Getz", "anni": "2002–2011"}
+    - {"nome": "Hyundai Matrix", "anni": "2002–2010"}
+    - {"nome": "Kia Cerato (LD)", "anni": "2003–2006"}
+    - {"nome": "Kia Rio (JB)", "anni": "2005–2011"}
+  storia: "L'Alpha è il primo motore progettato internamente da Hyundai: debuttò nel 1992 sulla Scoupe come 1.5 SOHC a 12 valvole, aspirato e turbo, seguito dal 1.3 sulla Accent. Nel 1996 arrivò la testata DOHC a 16 valvole sulla Accent GT. Dal 2000 il basamento in ghisa fu irrigidito e l'albero motore portato a otto contrappesi; con l'Alpha II 1.6 del 2001 arrivarono bobine singole sulle candele, corpo farfallato da 52 mm e impianto carburante senza ritorno. Il 1.4 del 2005 e il variatore CVVT sul 1.6 chiusero l'evoluzione prima della sostituzione con la famiglia Gamma."
+  punti_deboli:
+    - "Cinghia di distribuzione: intervallo previsto di 90.000 km, ma sono segnalate rotture anticipate con danni alle valvole; sui DOHC va controllata anche la catena corta tra gli alberi."
+    - "Punterie idrauliche: possibile rumorosità precoce, talvolta prima dei 100.000 km."
+    - "Consumo d'olio oltre i 150.000 km, di solito dovuto ai paraolio delle valvole; consumi molto elevati indicano usura delle fasce elastiche."
+    - "Minimo irregolare per iniettori sporchi, corpo farfallato o regolatore del minimo sporchi e bobine usurate."
+  limiti: "Motore aspirato da utilitaria, con l'unica versione sovralimentata limitata alla Scoupe dei primi anni Novanta. Non esistono dati comparabili per indicare una soglia di potenza sicura per gli organi interni di serie; prima di qualsiasi intervento verificare stato della cinghia, compressione e consumo d'olio."
+  curiosita:
+    - "Wikipedia lo descrive come il primo motore di progettazione interamente sudcoreana."
+    - "Dal 2000 il 1.6 ottenne la certificazione ULEV in tutti i 50 stati degli Stati Uniti."
+  fonti:
+    - {"titolo": "Wikipedia EN, Hyundai Alpha engine", "url": "https://en.wikipedia.org/wiki/Hyundai_Alpha_engine"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4ED", "url": "https://mymotorlist.com/engines/hyundai/g4ed/"}
+
+- slug: hyundai-beta
+  codice: "G4GR / G4GM / G4GF / G4GB / G4GC"
+  nome: "Hyundai Beta 1.6 / 1.8 / 2.0"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 1995
+  fine: 2012
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1975
+  alesaggio: 82
+  corsa: 93.5
+  compressione: "10,1:1"
+  distribuzione: "DOHC; nel Beta II cinghia dentata sull'albero di scarico e catena corta verso l'aspirazione; CVVT sul 2.0 dal 2003"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint (Siemens)"
+  cv_min: 90
+  cv_max: 143
+  nm_max: 186
+  in_breve:
+    - {"valore": "1.975 cc", "testo": "cilindrata del G4GC 2.0 Beta II, versione di riferimento della scheda"}
+    - {"valore": "82 x 93,5", "testo": "alesaggio e corsa in mm del 2.0, a corsa lunga"}
+    - {"valore": "CVVT", "testo": "fasatura variabile in aspirazione sul 2.0 dal 2003"}
+  versioni:
+    - {"nome": "G4GR 1.6 Beta I", "anni": "1995–2001", "cv": 114, "nm": 143, "nota": "1.599 cc, 77,4 x 85 mm, 9,85:1; versione depotenziata da 90 CV e 126 Nm in alcuni mercati"}
+    - {"nome": "G4GF 2.0 Beta I", "anni": "1996–2001", "cv": 139, "nm": 180, "nota": "102 kW; 1.975 cc, 10,3:1; Coupé RD ed Elantra J2"}
+    - {"nome": "G4GC 2.0 Beta II", "anni": "2001–2003", "cv": 139, "nm": 184, "nota": "102 kW; prima versione senza variatore, Elantra XD e Coupé GK"}
+    - {"nome": "G4GC 2.0 CVVT", "anni": "2003–2012", "cv": 143, "nm": 186, "nota": "105 kW su i30 FD; potenza variabile secondo modello e mercato"}
+  modelli:
+    - {"nome": "Hyundai Elantra / Lantra (J2)", "anni": "1995–2000"}
+    - {"nome": "Hyundai Coupé / Tiburon (RD)", "anni": "1996–2001"}
+    - {"nome": "Hyundai Elantra (XD)", "anni": "2000–2006"}
+    - {"nome": "Hyundai Matrix (1.8)", "anni": "2001–2007"}
+    - {"nome": "Hyundai Coupé / Tiburon (GK)", "anni": "2001–2008"}
+    - {"nome": "Hyundai Tucson (JM)", "anni": "2004–2009"}
+    - {"nome": "Hyundai Trajet", "anni": "2004–2008"}
+    - {"nome": "Hyundai i30 (FD)", "anni": "2007–2012"}
+    - {"nome": "Kia Cerato (LD)", "anni": "2003–2008"}
+    - {"nome": "Kia Sportage (KM)", "anni": "2004–2010"}
+    - {"nome": "Kia Ceed (ED)", "anni": "2006–2012"}
+    - {"nome": "Kia Soul (AM)", "anni": "2008–2011"}
+  storia: "Il Beta è il quattro cilindri bialbero con basamento in ghisa che dal 1995 sostituì i motori di derivazione Mitsubishi Sirius nelle Hyundai di fascia media. La prima serie comprendeva il 1.6 G4GR, il 1.8 G4GM e il 2.0 G4GF; il Beta II del 2000–2001 ricevette un basamento ridisegnato con nervature aggiuntive e una distribuzione con cinghia sull'albero di scarico e catena interna verso l'aspirazione. Dal 2003 il 2.0 G4GC adottò il variatore CVVT in aspirazione e, nelle versioni successive, punterie meccaniche al posto di quelle idrauliche. È uscito di produzione nel 2012, sostituito dalle famiglie Nu e Theta."
+  punti_deboli:
+    - "Cinghia di distribuzione: intervallo ufficiale di circa 90.000 km; una rottura può piegare le valvole."
+    - "Punterie meccaniche sui Beta II recenti: gioco valvole da registrare circa ogni 90.000 km con sostituzione delle pastiglie."
+    - "Variatore CVVT sensibile a qualità e intervalli dell'olio: segnalati guasti prima dei 100.000 km con manutenzione trascurata."
+    - "Accensione: instabilità di funzionamento legata a bobine e cavi candele."
+  limiti: "Motore aspirato a corsa lunga senza versioni sovralimentate di serie. Non esistono dati comparabili per fissare una soglia di potenza sicura per gli organi interni originali; prima di elaborazioni verificare distribuzione, gioco valvole e funzionamento del variatore."
+  curiosita:
+    - "Il 1.6 G4GR non ebbe una seconda serie: fu sostituito dal 1.6 Alpha II."
+    - "La revisione del 2008 del Beta II introdusse supporti motore idraulici, un nuovo coperchio punterie e uno schermo termico per ridurre rumorosità e vibrazioni."
+  fonti:
+    - {"titolo": "Wikipedia EN, Hyundai Beta engine", "url": "https://en.wikipedia.org/wiki/Hyundai_Beta_engine"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4GC", "url": "https://mymotorlist.com/engines/hyundai/g4gc/"}
+    - {"titolo": "Cars-Data, Hyundai i30 FD 2.0i CVVT", "url": "https://cars-data.com/en/hyundai/i30/fd/2-0i-cvvt-i-catcher-46078--46078"}
+
+- slug: hyundai-gamma
+  codice: "G4FA / G4FC / G4FG / G4FD / G4FJ"
+  nome: "Hyundai Gamma 1.4 / 1.6 (MPi, GDi, T-GDi)"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2006
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato / Turbo"
+  cilindrata: 1591
+  alesaggio: 77
+  corsa: 85.4
+  compressione: "10,5:1"
+  distribuzione: "DOHC a catena, CVVT in aspirazione; Dual CVVT dal Gamma II (2010)"
+  valvole: 4
+  blocco: "Alluminio con canne riportate"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint (MPi); diretta su GDi e T-GDi"
+  cv_min: 100
+  cv_max: 204
+  nm_max: 265
+  affidabilita:
+    indice: 58
+    motivo: "Richiami per usura dei cuscinetti di biella sul 1.6 GDi della Veloster 2015–2016 e per surriscaldamento del catalizzatore con danni ai pistoni sulla Kia Soul 1.6 GDi; sul G4FC segnalate rigature dei cilindri da detriti del catalizzatore."
+  in_breve:
+    - {"valore": "1.591 cc", "testo": "cilindrata comune dei 1.6 MPi, GDi e T-GDi, 77 x 85,4 mm"}
+    - {"valore": "Alluminio", "testo": "basamento circa 15 kg più leggero dell'Alpha in ghisa"}
+    - {"valore": "204 CV", "testo": "nel 1.6 T-GDi con turbo twin-scroll della Veloster Turbo"}
+  versioni:
+    - {"nome": "G4FA 1.4 MPi", "anni": "2006–2019", "cv": 109, "nm": 137, "nota": "1.396 cc, 77 x 75 mm; 100 CV sulla i20"}
+    - {"nome": "G4FC 1.6 MPi", "anni": "2006–2010", "cv": 124, "nm": 156, "nota": "CVVT solo in aspirazione; le fonti riportano 120–130 CV secondo mercato"}
+    - {"nome": "G4FG 1.6 MPi Dual CVVT (Gamma II)", "anni": "dal 2010", "cv": 123, "nm": 151, "nota": "Sostituisce il G4FC; 123–134 CV e 151–157 Nm secondo mercato, qui i valori inferiori"}
+    - {"nome": "G4FD 1.6 GDi", "anni": "dal 2010", "cv": 140, "nm": 167, "nota": "Iniezione diretta, rapporto di compressione 11,0:1; debutto su ix35 e Sportage"}
+    - {"nome": "G4FJ 1.6 T-GDi", "anni": "dal 2011", "cv": 204, "nm": 265, "nota": "Turbo twin-scroll con intercooler, 9,5:1; versioni da 177 CV con la stessa coppia su Tucson, Kona e Sonata"}
+  modelli:
+    - {"nome": "Hyundai i30 (FD, GD, PD)", "anni": "dal 2007"}
+    - {"nome": "Hyundai Elantra (HD, MD, AD)", "anni": "2006–2020"}
+    - {"nome": "Hyundai i20 (PB)", "anni": "2008–2014"}
+    - {"nome": "Hyundai ix20", "anni": "2010–2019"}
+    - {"nome": "Hyundai Accent / Solaris (RB)", "anni": "2010–2017"}
+    - {"nome": "Hyundai Veloster (FS, JS)", "anni": "dal 2011"}
+    - {"nome": "Hyundai ix35 / Tucson (LM, TL)", "anni": "dal 2010"}
+    - {"nome": "Hyundai Kona (OS)", "anni": "2017–2020"}
+    - {"nome": "Kia Ceed (ED, JD, CD)", "anni": "dal 2006"}
+    - {"nome": "Kia Venga", "anni": "2009–2019"}
+    - {"nome": "Kia Soul (AM, PS, SK3)", "anni": "dal 2008"}
+    - {"nome": "Kia Sportage (SL, QL)", "anni": "dal 2010"}
+    - {"nome": "Kia Cerato / Forte (TD, YD, BD)", "anni": "dal 2008"}
+  storia: "Il Gamma è stato introdotto nel 2006 per sostituire l'Alpha: deriva dall'Alpha II ma adotta basamento e testata in alluminio, con un risparmio di circa 15 kg, distribuzione a catena e, per la prima volta su un motore Hyundai, l'albero motore disassato rispetto all'asse dei cilindri. Nel 2010 il Gamma II ha introdotto il Dual CVVT (G4FG) e la versione a iniezione diretta G4FD. Il 1.6 T-GDi G4FJ, annunciato nel 2011 e montato sulla Veloster Turbo, aggiunge turbo twin-scroll e intercooler. Il motore è prodotto in Corea, Cina, Slovacchia e India; dal 2019 il T-GDi è affiancato dallo Smartstream G1.6T con fasatura CVVD."
+  punti_deboli:
+    - "1.6 GDi: richiamo NHTSA 20V-746 per usura prematura dei cuscinetti di biella sulle Veloster 2015–2016, con aggiornamento software KSDS e sostituzione dei motori danneggiati."
+    - "1.6 GDi della Kia Soul 2012–2016: richiamo per surriscaldamento del catalizzatore, che può provocare combustione anomala e danni a pistoni e bielle."
+    - "G4FC Euro 5: detriti del catalizzatore ravvicinato possono entrare nei cilindri e rigarne le pareti."
+    - "Canne sottili nel basamento in alluminio: possibile ovalizzazione con consumo d'olio progressivo dopo surriscaldamenti o uso gravoso."
+    - "Punterie meccaniche: il gioco valvole va controllato periodicamente."
+  limiti: "Le versioni aspirate non hanno dati comparabili per una soglia di potenza sicura. Sul 1.6 T-GDi la potenza di serie arriva a 204 CV; oltre questo valore i componenti critici sono pistoni e canne sottili del basamento, già interessati da danni per detonazione nelle prime serie. Mancano prove documentate per indicare un limite affidabile."
+  curiosita:
+    - "Il peso a secco dei 1.6 MPi e GDi è indicato tra 101,7 e 106,1 kg, quello del T-GDi in 130,4 kg."
+    - "Esiste una versione a GPL con ciclo Atkinson e rapporto 13,0:1 per la Avante LPI Hybrid del 2009."
+  fonti:
+    - {"titolo": "Wikipedia EN, Hyundai Gamma engine", "url": "https://en.wikipedia.org/wiki/Hyundai_Gamma_engine"}
+    - {"titolo": "NHTSA, rapporto di richiamo 20V-746", "url": "https://static.nhtsa.gov/odi/rcl/2020/RCLRPT-20V746-3838.PDF"}
+    - {"titolo": "CarPro, richiamo Kia Soul 1.6 GDi per rischio incendio", "url": "https://www.carpro.com/blog/hyundai-kia-recall-more-vehicles-to-address-engine-fire-concerns"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4FC", "url": "https://mymotorlist.com/engines/hyundai/g4fc/"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4FJ", "url": "https://mymotorlist.com/engines/hyundai/g4fj/"}
+
+- slug: hyundai-kappa
+  codice: "G3LA / G4LA / G4LC / G3LC"
+  nome: "Hyundai Kappa 1.0 / 1.2 / 1.4 (MPi e T-GDi)"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2008
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato / Turbo"
+  cilindrata: 1248
+  alesaggio: 71
+  corsa: 78.8
+  compressione: "10,5:1"
+  distribuzione: "DOHC a catena silenziosa, bilancieri a rullo e punterie idrauliche; Dual CVVT dal 2011"
+  valvole: 4
+  blocco: "Alluminio pressofuso con canne in ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint; diretta sui T-GDi"
+  cv_min: 69
+  cv_max: 140
+  nm_max: 242
+  in_breve:
+    - {"valore": "1.248 cc", "testo": "cilindrata del 1.25 G4LA, versione di riferimento della scheda"}
+    - {"valore": "3 / 4 cil.", "testo": "famiglia modulare con 1.0 a tre cilindri e 1.2–1.4 a quattro"}
+    - {"valore": "48 mesi", "testo": "durata dello sviluppo, con un investimento di circa 421 milioni di dollari"}
+  versioni:
+    - {"nome": "1.25 MPi (G4LA) prima serie", "anni": "2008–2011", "cv": 78, "nm": 119, "nota": "Senza variatore di fase; i10 PA, i20 PB, Kia Picanto SA"}
+    - {"nome": "1.25 MPi Dual CVVT (G4LA)", "anni": "dal 2011", "cv": 87, "nm": 121, "nota": "85–87 CV secondo modello; i10, i20, Kia Picanto, Rio e Stonic"}
+    - {"nome": "1.2 MPi (G4LA, India)", "anni": "dal 2010", "cv": 83, "nm": 114, "nota": "1.197 cc a corsa ridotta per restare sotto la soglia fiscale indiana dei 1.200 cc"}
+    - {"nome": "1.0 MPi tre cilindri (G3LA)", "anni": "dal 2011", "cv": 69, "nm": 95, "nota": "998 cc; i10, Kia Picanto e Ray"}
+    - {"nome": "1.0 TCi tre cilindri turbo", "anni": "2012–2017", "cv": 106, "nm": 137, "nota": "Turbo con iniezione indiretta; Kia Ray e Picanto/Morning per il mercato coreano"}
+    - {"nome": "1.0 T-GDi tre cilindri (G3LC)", "anni": "dal 2015", "cv": 120, "nm": 172, "nota": "71 x 84 mm, 10,0:1; versione da 100 CV con la stessa coppia"}
+    - {"nome": "1.4 MPi Dual CVVT (G4LC)", "anni": "dal 2014", "cv": 100, "nm": 133, "nota": "1.368 cc, 72 x 84 mm, con aspirazione a geometria variabile"}
+    - {"nome": "1.4 T-GDi", "anni": "dal 2015", "cv": 140, "nm": 242, "nota": "1.353 cc; versione da 130 CV e 212 Nm su Elantra AD"}
+  modelli:
+    - {"nome": "Hyundai i10 (PA, IA, AC3)", "anni": "dal 2008"}
+    - {"nome": "Hyundai i20 (PB, GB, BC3)", "anni": "dal 2008"}
+    - {"nome": "Hyundai Grand i10 / Aura / Exter", "anni": "dal 2013"}
+    - {"nome": "Hyundai Accent / Solaris (RB, HC)", "anni": "2011–2023"}
+    - {"nome": "Hyundai i30 (PD)", "anni": "dal 2016"}
+    - {"nome": "Hyundai Kona (OS)", "anni": "2017–2020"}
+    - {"nome": "Hyundai Venue", "anni": "dal 2019"}
+    - {"nome": "Kia Picanto / Morning (SA, TA, JA)", "anni": "dal 2008"}
+    - {"nome": "Kia Rio (UB, YB)", "anni": "2011–2023"}
+    - {"nome": "Kia Ceed (JD, CD)", "anni": "dal 2015"}
+    - {"nome": "Kia Stonic", "anni": "dal 2017"}
+  storia: "Il Kappa è stato presentato nel 2008 su i10 e Kia Picanto per sostituire il vecchio Epsilon SOHC a 12 valvole; lo sviluppo è durato 48 mesi per rispettare le norme Euro 4 con consumi ridotti. Basamento in alluminio pressofuso con struttura a telaio inferiore, cilindri leggermente disassati rispetto all'albero motore, bilancieri a rullo con punterie idrauliche e catena di distribuzione silenziosa sono le principali soluzioni costruttive. Dal 2011 la famiglia comprende il tre cilindri da un litro, poi sovralimentato nelle versioni TCi e T-GDi, e il 1.4 aspirato e turbo. Le evoluzioni più recenti sono commercializzate con la denominazione Smartstream."
+  punti_deboli:
+    - "Catena di distribuzione sottile: tende ad allungarsi, con sostituzione talvolta necessaria intorno ai 100.000 km in caso di uso gravoso."
+    - "Consumo d'olio ad alta percorrenza, legato a usura delle fasce elastiche o deformazione delle canne nel basamento in alluminio."
+    - "Sensibilità al surriscaldamento: radiatori intasati possono portare a guarnizioni indurite e perdite."
+    - "Valvola del canister e supporti motore di durata limitata; rumorosità e vibrazioni frequenti sui tre cilindri."
+  limiti: "Le versioni aspirate non hanno dati comparabili per una soglia di potenza sicura. I T-GDi erogano di serie fino a 120 CV (1.0) e 140 CV (1.4); mancano prove documentate sulla tenuta di pistoni, bielle e catena oltre questi valori."
+  curiosita:
+    - "La cinghia dei servizi è priva di tenditore automatico ed è dichiarata per 160.000 km con manutenzione corretta."
+    - "Della famiglia fa parte anche un 1.6 a ciclo Atkinson da 1.580 cc (72 x 97 mm, 13,0:1) per Ioniq e Kia Niro ibride."
+  fonti:
+    - {"titolo": "Wikipedia EN, Hyundai Kappa engine", "url": "https://en.wikipedia.org/wiki/Hyundai_Kappa_engine"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4LA", "url": "https://mymotorlist.com/engines/hyundai/g4la/"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4LC", "url": "https://mymotorlist.com/engines/hyundai/g4lc/"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G3LC", "url": "https://mymotorlist.com/engines/hyundai/g3lc/"}
+
+- slug: hyundai-epsilon
+  codice: "G4HA / G4HC / G4HE / G4HD / G4HG / G3HA"
+  nome: "Hyundai Epsilon 0.8 / 1.0 / 1.1"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 1997
+  fine: 2022
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1086
+  alesaggio: 67
+  corsa: 77
+  compressione: "10,1:1"
+  distribuzione: "SOHC a cinghia dentata, punterie meccaniche"
+  valvole: 3
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint"
+  cv_min: 54
+  cv_max: 70
+  nm_max: 99
+  in_breve:
+    - {"valore": "1.086 cc", "testo": "cilindrata del 1.1 G4HG, versione di riferimento della scheda"}
+    - {"valore": "12 valvole", "testo": "monoalbero a tre valvole per cilindro, a cinghia"}
+    - {"valore": "1997", "testo": "debutto sulla Hyundai Atos in Corea del Sud"}
+  versioni:
+    - {"nome": "G4HA 0.8", "anni": "dal 1997", "cv": 54, "nm": 73, "nota": "798 cc, 63 x 64 mm; motore iniziale della Atos per il mercato coreano"}
+    - {"nome": "G4HC 1.0", "anni": "1997–2003", "cv": 54, "nm": 84, "nota": "999 cc, 66 x 73 mm; 54–58 CV secondo accensione e normativa; Atos per l'esportazione"}
+    - {"nome": "G4HE 1.0", "anni": "2004–2011", "cv": 61, "nm": 86, "nota": "999 cc; Kia Picanto SA, valori variabili secondo mercato"}
+    - {"nome": "G4HD 1.1", "anni": "anni 2000", "cv": 60, "nm": 87, "nota": "1.086 cc; 60–64 CV secondo mercato; Atos Prime, Santro Xing, Picanto"}
+    - {"nome": "G4HG 1.1", "anni": "2003–2022", "cv": 69, "nm": 99, "nota": "64–70 CV; 69 CV e 99 Nm sulla Santro AH2 del 2018"}
+    - {"nome": "G3HA 0.8 tre cilindri", "anni": "2011–2019", "cv": 56, "nm": 75, "nota": "814 cc, 67 x 77 mm, 9 valvole; Hyundai Eon"}
+  modelli:
+    - {"nome": "Hyundai Atos / Atos Prime / Santro (MX)", "anni": "1997–2014"}
+    - {"nome": "Hyundai Getz (1.1)", "anni": "fino al 2009"}
+    - {"nome": "Hyundai i10 (PA)", "anni": "2008–2013"}
+    - {"nome": "Hyundai Eon", "anni": "2011–2019"}
+    - {"nome": "Hyundai Santro (AH2)", "anni": "2018–2022"}
+    - {"nome": "Kia Visto", "anni": "dal 1999"}
+    - {"nome": "Kia Picanto (SA)", "anni": "2004–2011"}
+  storia: "L'Epsilon è la famiglia di piccoli motori a benzina con basamento in ghisa e testata monoalbero a 12 valvole presentata nel 1997 con la Hyundai Atos, prima come 0.8 per la Corea del Sud e 1.0 per l'esportazione. Dal 2003 la cilindrata salì a 1,1 litri con alesaggio di 67 mm e corsa di 77 mm, montato su Atos Prime, Getz, Kia Picanto e prima serie della i10. In India il 1.1 G4HG è rimasto in produzione fino al 2022 sulla nuova Santro, anche in versione bifuel a metano, mentre la Eon ha usato una variante a tre cilindri da 814 cc. Nelle utilitarie europee è stato sostituito dal Kappa a partire dal 2008."
+  punti_deboli:
+    - "Punterie meccaniche: il gioco valvole richiede controlli e registrazioni periodiche."
+    - "Minimo irregolare per corpo farfallato e regolatore del minimo sporchi."
+    - "Cablaggi con isolamento che si deteriora, con funzionamento irregolare su tre cilindri."
+    - "Surriscaldamento con possibili danni alla testata se il radiatore non viene mantenuto pulito."
+  limiti: "Motore aspirato da citycar di bassa potenza. Non esistono dati comparabili per indicare una soglia di potenza sicura per gli organi interni di serie; la priorità è verificare distribuzione, raffreddamento e gioco valvole."
+  curiosita:
+    - "Il 0.8 a tre cilindri G3HA della Eon condivide alesaggio e corsa (67 x 77 mm) con il 1.1 a quattro cilindri."
+    - "La Kia Visto, presentata al salone di Busan del 1999, era una Atos Prime con marchio Kia venduta in Corea del Sud e Indonesia."
+  fonti:
+    - {"titolo": "Wikipedia EN, Hyundai Epsilon engine", "url": "https://en.wikipedia.org/wiki/Hyundai_Epsilon_engine"}
+    - {"titolo": "Wikipedia EN, Hyundai Atos", "url": "https://en.wikipedia.org/wiki/Hyundai_Atos"}
+    - {"titolo": "Wikipedia EN, Hyundai Santro", "url": "https://en.wikipedia.org/wiki/Hyundai_Santro"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4HG", "url": "https://mymotorlist.com/engines/hyundai/g4hg/"}
+    - {"titolo": "MyMotorList, Hyundai-Kia G4HC", "url": "https://mymotorlist.com/engines/hyundai/g4hc/"}
