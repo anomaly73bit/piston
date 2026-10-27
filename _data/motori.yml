@@ -11238,3 +11238,37 @@
     - {"titolo":"Škoda Auto, comunicato del 23 marzo 2003","url":"https://prportal.skoda.pl/informacje-prasowe/nowy-silnik-1-2-12v-htp-juz-w-ofercie-362"}
     - {"titolo":"Manuale officina Škoda Fabia II, dati tecnici","url":"https://workshop-manuals.com/skoda/fabia-mk2/power_unit/1.2/44%3B_47%3B_51%3B_55_kw_mpi_engine/technical_data/technical_data/"}
     - {"titolo":"Auto.cz, analisi tecnica 1.2 HTP (2017)","url":"https://www.auto.cz/trivalec-1-2-htp-opravdu-jde-o-takovy-prusvih-jak-se-traduje-101010"}
+
+- slug: lada-vaz-2106
+  codice: "VAZ-2106"
+  nome: "Lada VAZ-2106 1.6"
+  costruttore: "Lada"
+  paese: "Russia"
+  inizio: 1975
+  fine: 2008
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1569
+  alesaggio: 79
+  corsa: 80
+  compressione: "8,5:1"
+  distribuzione: "SOHC a catena doppia"
+  valvole: 2
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Carburatore Weber o Ozon"
+  cv_min: 75
+  cv_max: 80
+  nm_max: 116
+  in_breve: [{"valore":"1.569 cc","testo":"cilindrata ottenuta con alesaggio di 79 mm e corsa di 80 mm"},{"valore":"8 valvole","testo":"testata SOHC con due valvole per cilindro"},{"valore":"1980","testo":"introduzione del carburatore Ozon in sostituzione del Weber"}]
+  versioni: [{"nome":"VAZ-2106 a carburatore","anni":"1975–2008","cv":75,"nm":116,"nota":"Configurazione di serie a carburatore; 75 CV a 5400 giri/min secondo la scheda della vettura."},{"nome":"VAZ-2106 speciale","anni":"Anni 1980","cv":80,"nota":"Taratura da 80 CV documentata per impieghi speciali; coppia non confermata."}]
+  modelli: [{"nome":"Lada 2103","anni":"1975–1976"},{"nome":"Lada 2106","anni":"1976–2006"},{"nome":"Lada 2107","anni":"1982–2008"}]
+  storia: "Il VAZ-2106 è un quattro cilindri benzina derivato dalla famiglia classica VAZ, apparso in piccola serie sulla 2103 nel 1975 e poi utilizzato sulla 2106 e sulla 2107. Rispetto ai precedenti propulsori, l'alesaggio è portato a 79 mm mantenendo la corsa di 80 mm. Il basamento è in ghisa, la testata in alluminio e l'albero a camme in testa è comandato da una catena doppia. Nel 1980 il carburatore Weber fu progressivamente sostituito dall'Ozon."
+  punti_deboli: ["L'assenza di compensatori idraulici richiede la regolazione del gioco valvole; una regolazione trascurata può accelerare l'usura dell'albero a camme.","Sono documentate perdite d'olio dalle guarnizioni del coperchio valvole e dai paraoli dell'albero motore.","Guasti a termostato, pompa o ventola di raffreddamento possono provocare surriscaldamento e danni alla guarnizione della testata."]
+  limiti: "Non esiste una soglia di potenza elaborata verificabile per gli organi interni originali. Prima di aumentare il regime o modificare l'alimentazione occorre controllare gioco valvole, distribuzione a catena, tenuta delle guarnizioni e circuito di raffreddamento."
+  curiosita: ["La cilindrata aumenta rispetto al VAZ-2103 grazie all'alesaggio di 79 mm, mantenendo la corsa di 80 mm.","Il motore VAZ-2121 destinato alla Niva è una variante distinta e non va confuso con il codice VAZ-2106."]
+  manutenzione: ["Il controllo e la regolazione del gioco valvole sono previsti ogni 10.000 km nelle tabelle di manutenzione riportate dalla fonte tecnica.","Controllare rumorosità e tensione della catena, eventuali trafilamenti d'olio e l'efficienza del raffreddamento."]
+  fonti: [{"titolo":"VAZbook, manuale VAZ-2106: caratteristiche tecniche","url":"https://www.vazbook.ru/ua/06/2106/main/service/tehnicheskie-harakteristiki"},{"titolo":"Otoba.ru, motore VAZ-2106: dati, applicazioni e guasti","url":"https://otoba.ru/dvigatel/vaz/2106.html"},{"titolo":"Auto-Data, Lada 2106 1.6: dati del veicolo","url":"https://www.auto-data.net/cz/lada-2106-generation-2794"}]
+  traduzioni_obbligatorie: true

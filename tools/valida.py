@@ -2,6 +2,9 @@
 """Controlla _data/motori.yml prima della pubblicazione. Esce con codice 1 se trova errori."""
 import pathlib
 import sys
+import json
+
+from traduci import source_data, fingerprint, is_complete, numeri_ok
 
 import yaml
 
@@ -67,6 +70,32 @@ def main() -> int:
         for k in ("storia", "limiti"):
             if not isinstance(m.get(k), str):
                 errori.append(f"{nome}: '{k}' deve essere testo")
+    # New or modified engine entries explicitly marked for multilingual publication
+    # must have reviewed, source-synchronised translations in all three languages.
+    for m in motori:
+        if not m.get("traduzioni_obbligatorie"):
+            continue
+        slug = m.get("slug", "?")
+        path = RADICE / "_data" / "traduzioni" / "manuali" / (slug + ".json")
+        if not path.exists():
+            errori.append(f"{slug}: mancano traduzioni EN/FR/CS obbligatorie")
+            continue
+        try:
+            traduzioni = json.loads(path.read_text(encoding="utf-8"))
+        except (ValueError, OSError) as exc:
+            errori.append(f"{slug}: JSON traduzioni non valido: {exc}")
+            continue
+        origine = source_data(m)
+        if traduzioni.get("_source_hash") != fingerprint(origine):
+            errori.append(f"{slug}: traduzioni non sincronizzate con il testo italiano")
+            continue
+        for lingua in ("en", "fr", "cs"):
+            testo = traduzioni.get(lingua, {})
+            if not is_complete(origine, testo):
+                errori.append(f"{slug}: traduzione {lingua} incompleta")
+            elif not numeri_ok(origine, testo):
+                errori.append(f"{slug}: traduzione {lingua} con numeri tecnici mancanti")
+
     pagine = {p.stem for p in (RADICE / "_motori").glob("*.md")}
     for s in visti - pagine:
         errori.append(f"{s}: manca la pagina in _motori/ (lanciare tools/genera_pagine.py)")
