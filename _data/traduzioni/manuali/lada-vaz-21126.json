@@ -1,0 +1,168 @@
+{
+  "_source_hash": "e827320aaa2c884f9f8c98124ce41ecfad3412900e757264b8d3f7e77f76adf2",
+  "en": {
+    "paese": "Russia",
+    "alimentazione": "Petrol",
+    "aspirazione": "Naturally aspirated",
+    "compressione": "10.45–11:1 (depending on version)",
+    "distribuzione": "Belt-driven DOHC, 16 valves",
+    "blocco": "Cast iron",
+    "testa": "Aluminium",
+    "iniezione": "Electronic multipoint port injection",
+    "in_breve": [
+      {
+        "valore": "1.596 cc",
+        "testo": "displacement stated in the Priora owner's manual"
+      },
+      {
+        "valore": "16 valves",
+        "testo": "DOHC cylinder head with hydraulic lash adjusters"
+      },
+      {
+        "valore": "2018",
+        "testo": "introduction of pistons with valve reliefs"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Priora and Granta version; maximum power at 5600 rpm, peak torque at 4000 rpm."
+      },
+      {
+        "nota": "Sport calibration; 114–118 CV depending on application and homologation."
+      },
+      {
+        "nota": "Kalina NFR version, with specific intake and valve-train modifications."
+      }
+    ],
+    "storia": "The VAZ-21126 debuted in 2007 in the Lada Priora and was subsequently fitted to the Kalina, Granta and some Samara 2 models. It is a four-cylinder engine with a cast-iron block, a 16-valve aluminium cylinder head, twin overhead camshafts and belt-driven valve timing with an automatic tensioner. Its design uses a lightweight Federal Mogul piston-and-connecting-rod assembly and Gates timing components. From 2018, some applications received pistons with valve reliefs to reduce the risk of piston-to-valve contact if the belt breaks.",
+    "punti_deboli": [
+      "On versions built before the 2018 piston revision, a broken timing belt or seized idler can cause piston-to-valve contact.",
+      "Thermostat failures can disturb operating temperature and lead to overheating.",
+      "Unstable idle can be caused by the mass-airflow sensor, a dirty throttle body or idle-speed regulator; ignition-coil failures are also documented."
+    ],
+    "limiti": "There is no verified safe tuning power threshold for the original internal components. Before modifying the intake, valve timing or engine speed, check the timing belt, idlers, water pump, cooling system and hydraulic lash adjusters.",
+    "curiosita": [
+      "The Sport 21126-77 and NFR 21126-81 versions share the same basic architecture but use specific calibrations and components.",
+      "A piston revision was introduced in 2018 to reduce the risk of valve damage after a timing-belt failure."
+    ],
+    "manutenzione": [
+      "Inspect the timing belt, idlers and water pump regularly, especially on engines built before the 2018 revision.",
+      "Hydraulic lash adjusters eliminate periodic valve-clearance adjustment; follow the oil and filter intervals specified for the particular vehicle."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  },
+  "fr": {
+    "paese": "Russie",
+    "alimentazione": "Essence",
+    "aspirazione": "Atmosphérique",
+    "compressione": "10,45–11:1 (selon la version)",
+    "distribuzione": "DOHC à courroie, 16 soupapes",
+    "blocco": "Fonte",
+    "testa": "Aluminium",
+    "iniezione": "Injection indirecte multipoint électronique",
+    "in_breve": [
+      {
+        "valore": "1.596 cc",
+        "testo": "cylindrée indiquée dans le manuel de la Priora"
+      },
+      {
+        "valore": "16 soupapes",
+        "testo": "culasse DOHC avec poussoirs hydrauliques"
+      },
+      {
+        "valore": "2018",
+        "testo": "introduction de pistons à évidements pour les soupapes"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Version Priora et Granta ; puissance maximale à 5600 tr/min, couple maximal à 4000 tr/min."
+      },
+      {
+        "nota": "Calibrage Sport ; 114–118 CV selon l'application et l'homologation."
+      },
+      {
+        "nota": "Version NFR de la Kalina, avec des modifications spécifiques de l'admission et de la distribution."
+      }
+    ],
+    "storia": "Le VAZ-21126 débute en 2007 sur la Lada Priora, puis équipe la Kalina, la Granta et certaines Samara 2. C'est un quatre-cylindres à bloc en fonte et culasse en aluminium à 16 soupapes, avec deux arbres à cames en tête et une distribution par courroie à tendeur automatique. Sa conception utilise un ensemble pistons-bielles allégé Federal Mogul et des composants de distribution Gates. À partir de 2018, certaines applications reçoivent des pistons à évidements afin de réduire le risque de contact entre pistons et soupapes en cas de rupture de la courroie.",
+    "punti_deboli": [
+      "Sur les versions antérieures à la modification des pistons de 2018, la rupture de la courroie ou le grippage d'un galet peut entraîner un contact entre pistons et soupapes.",
+      "Les défaillances du thermostat peuvent perturber la température de fonctionnement et provoquer une surchauffe.",
+      "Un ralenti instable peut provenir du débitmètre d'air, d'un boîtier papillon encrassé ou du régulateur de ralenti ; des défaillances des bobines d'allumage sont également documentées."
+    ],
+    "limiti": "Aucun seuil de puissance de préparation sûr et vérifié n'est disponible pour les pièces internes d'origine. Avant de modifier l'admission, la distribution ou le régime moteur, contrôler la courroie, les galets, la pompe à eau, le refroidissement et les poussoirs hydrauliques.",
+    "curiosita": [
+      "Les versions Sport 21126-77 et NFR 21126-81 partagent la même architecture de base mais utilisent des réglages et des composants spécifiques.",
+      "Une révision des pistons a été introduite en 2018 afin de réduire le risque de dégâts aux soupapes après une rupture de courroie."
+    ],
+    "manutenzione": [
+      "Contrôler régulièrement la courroie de distribution, les galets et la pompe à eau, surtout sur les moteurs antérieurs à la révision de 2018.",
+      "Les poussoirs hydrauliques suppriment le réglage périodique du jeu aux soupapes ; respecter les intervalles de vidange et de filtre propres au véhicule."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  },
+  "cs": {
+    "paese": "Rusko",
+    "alimentazione": "Benzín",
+    "aspirazione": "Atmosférický",
+    "compressione": "10,45–11:1 (podle verze)",
+    "distribuzione": "DOHC s řemenovým rozvodem, 16 ventilů",
+    "blocco": "Litina",
+    "testa": "Hliník",
+    "iniezione": "Elektronické nepřímé vícebodové vstřikování",
+    "in_breve": [
+      {
+        "valore": "1.596 cc",
+        "testo": "zdvihový objem uvedený v příručce k modelu Priora"
+      },
+      {
+        "valore": "16 ventilů",
+        "testo": "hlava DOHC s hydraulickým vymezováním vůle"
+      },
+      {
+        "valore": "2018",
+        "testo": "zavedení pístů s vybráním pro ventily"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Verze pro Priora a Granta; nejvyšší výkon při 5600 ot/min a točivý moment při 4000 ot/min."
+      },
+      {
+        "nota": "Úprava Sport; 114–118 CV podle použití a homologace."
+      },
+      {
+        "nota": "Verze NFR pro Kalinu se specifickými úpravami sání a rozvodu."
+      }
+    ],
+    "storia": "VAZ-21126 se objevil v roce 2007 v modelu Lada Priora a později se montoval také do vozů Kalina, Granta a některých Samara 2. Jde o čtyřválcový motor s litinovým blokem, hliníkovou hlavou se 16 ventily, dvěma vačkovými hřídeli a řemenovým rozvodem s automatickým napínákem. Konstrukce používá odlehčenou skupinu pístů a ojnic Federal Mogul a rozvodové komponenty Gates. Od roku 2018 dostaly některé verze písty s vybráním, které snižuje riziko střetu pístů s ventily při přetržení řemene.",
+    "punti_deboli": [
+      "U verzí před úpravou pístů v roce 2018 může přetržení rozvodového řemene nebo zadření kladky způsobit střet pístů s ventily.",
+      "Poruchy termostatu mohou narušit provozní teplotu a způsobit přehřívání.",
+      "Kolísání volnoběhu může způsobovat snímač hmotnosti nasávaného vzduchu, znečištěná škrticí klapka nebo regulátor volnoběhu; doloženy jsou také poruchy zapalovacích cívek."
+    ],
+    "limiti": "Pro původní vnitřní součásti není doložena ověřená bezpečná hranice výkonu při úpravách. Před změnami sání, časování ventilů nebo otáček je nutné zkontrolovat rozvodový řemen, kladky, vodní čerpadlo, chlazení a hydraulická zdvihátka.",
+    "curiosita": [
+      "Verze Sport 21126-77 a NFR 21126-81 sdílejí základní konstrukci, ale mají specifická nastavení a součásti.",
+      "V roce 2018 byla zavedena úprava pístů ke snížení rizika poškození ventilů po přetržení řemene."
+    ],
+    "manutenzione": [
+      "Pravidelně kontrolovat rozvodový řemen, kladky a vodní čerpadlo, zejména u motorů vyrobených před úpravou v roce 2018.",
+      "Hydraulická zdvihátka nevyžadují pravidelné seřizování ventilové vůle; dodržovat intervaly výměny oleje a filtru podle příručky konkrétního vozidla."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  }
+}
