@@ -11,6 +11,10 @@ layout: default
 {%- if traduzioni and traduzioni[page.slug] -%}
   {%- assign trad = traduzioni[page.slug] -%}
 {%- endif -%}
+{%- assign manuale = site.data.traduzioni.manuali[page.slug] -%}
+{%- if manuale and manuale[lingua] and manuale._source_hash == trad._source_hash -%}
+  {%- assign trad = manuale[lingua] -%}
+{%- endif -%}
 {%- assign marca = m.costruttore | split: " " | first | split: "-" | first | strip -%}
 {%- assign proprie = "|" | append: marca | append: "|" | append: m.costruttore | append: "|" -%}
 {%- assign gruppo = site.data.gruppi_marca[m.costruttore] -%}

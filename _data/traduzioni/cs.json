@@ -1,5 +1,24 @@
 {
   "_memory": {
+    "0": "0",
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "6": "6",
+    "7": "7",
+    "9": "9",
+    "1991": "1991",
+    "1996": "1996",
+    "1997": "1997",
+    "2003": "2003",
+    "2006": "2006",
+    "2015": "2015",
+    "2024": "2024",
+    "7500": "7500",
+    "8000": "8000",
+    "8600": "8600",
+    "9000": "9000",
     "Basamento e albero motore di serie sopportano oltre 700 CV. Le bielle originali sono il primo componente critico, indicativamente tra 700 e 800 CV. Con bielle e pistoni forgiati il basamento di serie supera i 1000 CV.": "Základní a standardní nosič hřídele motoru přes 700 CV. Původní bielly jsou první kritickou složkou, která ukazuje na 700 až 800 CV. S kované tyče a písty je standardní podklad větší než 1000 CV.",
     "Giappone": "Japonsko",
     "Benzina": "Benzín",
@@ -17,11 +36,9 @@
     "Debutto del motore, turbo sequenziali": "Výstup motoru, postupné turbo",
     "Limitato dal 'gentlemen's agreement' giapponese; VVT-i dal 1997": "Omezeno japonskou \"gentlemanskou dohodou\"; VVT- i od roku 1997",
     "supporti di banco nel basamento in ghisa": "podpěry z litiny",
-    "7": "7",
     "ottenuti sul basamento di serie con interni forgiati": "získané na standardní základně s kovovými interiéry",
     "1000+ CV": "1000 + CV",
     "arrivo della fasatura variabile VVT-i": "VVT-i variabilní frézování",
-    "1997": "1997",
     "Progettato per l'omologazione Gruppo A: la cilindrata di 2568 cc, moltiplicata per il coefficiente turbo 1,7, colloca la vettura nella classe fino a 4,5 litri. Basamento in ghisa, testata in alluminio bialbero a 24 valvole, sei corpi farfallati singoli e due turbo in parallelo con giranti in ceramica. La R32 GT-R vinse tutte le 29 gare del campionato giapponese Gruppo A a cui partecipò tra il 1990 e il 1993.": "Navrženo pro homologaci skupiny A: kapacita2568 cc, násobená součinitelem turbo 1,7, umístí auto do třídy do 4,5 l. Litinová základna, testována ve24 ventilech, šesti jednoduchých motýlích tělech a dvou turbech paralelně s keramickými oběžnými koly. R32 GT-R vyhrál všech29 závodů mistrovství japonské skupiny A, které se konalo v letech1990 až1993.",
     "DOHC a cinghia": "DOHC s řemenovým rozvodem",
     "Indiretta, sei corpi farfallati singoli": "Nepřímé, šest jednoduchých motýlích těl",
@@ -34,7 +51,6 @@
     "gare vinte dalla R32 GT-R nel campionato giapponese Gruppo A": "závody vyhrál R32 GT-R v japonské šampionátu Group A",
     "29 su 29": "29 ze 29",
     "corpi farfallati singoli": "jednomotýlí těla",
-    "6": "6",
     "scelti per la classe fino a 4,5 litri con coefficiente turbo 1,7": "vybral pro třídu do 4,5 l s turbo koeficientem 1.7",
     "Collare della pompa olio e lubrificazione della testata critici ai regimi alti.": "Sloupec olejového čerpadla a mazání kritické hlavy do vysokých režimů.",
     "Aspirato": "Atmosférický",
@@ -60,7 +76,6 @@
     "nella Civic Type R FD2": "v občanském typu R FD2",
     "225 CV": "225 CV",
     "giri/min al limitatore sulle versioni Type R": "odbočit / min na omezovač verze typu R",
-    "8600": "8600",
     "Robusto; usura dei lobi di scarico su alcune versioni.": "Robustní; výfukové laloky nosí na některých verzích.",
     "Con compressore volumetrico si raggiungono 350–400 CV; il limite pratico sono le bielle di serie.": "S objemovým kompresorem dosáhnete 350-400 CV; praktickým limitem jsou série biellas.",
     "DOHC a catena, VTEC": "Chain DOHC, VTEC",
@@ -74,7 +89,6 @@
     "per anni il valore più alto tra gli aspirati di serie": "pro roky nejvyšší hodnota mezi aspirující série",
     "125 CV/l": "125 CV / l",
     "giri/min al limitatore sulle versioni 2.0": "otočení / min na omezovač 2.0 verzí",
-    "9000": "9000",
     "canne in fibre metalliche in matrice di alluminio": "kovové vláknové tyče v hliníkové matrici",
     "FRM": "FRM",
     "Robusto; consumo d'olio con uso intenso e rischio di fuorigiri sugli usati.": "Robustní; spotřeba oleje s intenzivním použitím a rizikem rozlití při použití.",
@@ -131,9 +145,7 @@
     "Motore ruotato di 180° dalla Evo IV": "Kolový motor 180 ° od Evo IV",
     "MIVEC; versioni UK FQ più potenti": "MIVEC; výkonnější verze FQ ve Velké Británii",
     "titoli piloti consecutivi nel Mondiale Rally (1996–1999)": "po sobě jdoucí jezdci World Rally (1996- 1999)",
-    "4": "4",
     "alberi di equilibratura": "vyvažování stromů",
-    "2": "2",
     "rotazione del motore nel vano dalla Evo IV": "rotace motoru v prostoru od Evo IV",
     "180°": "180 °",
     "Crankwalk su una serie di basamenti; rottura delle cinghie distruttiva.": "Crankwalk na sadě základen, lámání destruktivních popruhů.",
@@ -146,7 +158,6 @@
     "Aggiornamenti progressivi": "Progresivní aktualizace",
     "Turbine derivate dalla GT3": "Turbína získaná z GT3",
     "tecnico assembla ogni motore a mano": "technické sestavy každý ruční motor",
-    "1": "1",
     "riporto delle canne al posto delle camicie": "Beru si tyčinky místo triček.",
     "Plasma": "Plazma",
     "di produzione sulla stessa vettura": "výroba na stejném vozidle",
@@ -164,7 +175,6 @@
     "volume delle camere dei due rotori": "objem pokojů obou rotorů",
     "2 × 654 cc": "2 × 654 cc",
     "valvole: distribuzione a luci": "ventily: rozložení světla",
-    "0": "0",
     "due turbo che entrano in funzione uno dopo l'altro": "dvě turba běžící jeden po druhém",
     "Sequenziale": "Sekvenční",
     "Tenute dei rotori e surriscaldamento: revisioni frequenti a chilometraggi medi.": "Záclony rotorů a přehřátí: časté revize středních kilometrů.",
@@ -183,7 +193,6 @@
     "Luci laterali": "Boční světla",
     "giri/min al limitatore sulla versione da 231 CV": "RPM na limitor 231 CV verze",
     "Motore Internazionale dell'Anno": "Mezinárodní motor roku",
-    "2003": "2003",
     "Perdita di compressione frequente per usura delle tenute.": "Časté kompresní ztráty při opotřebení těsnění.",
     "Il basamento open-deck è il punto debole: oltre 350–400 CV conviene un basamento closed-deck o canne rinforzate.": "Základna otevřeného podlaží je slabým bodem: přes 350-400 CV je uzavřený podklad nebo vyztužené tyče.",
     "SOHC/DOHC a cinghia (AVCS dalle versioni 2000+)": "SOHC / DOHC pás (AVCS od 2000 + verzí)",
@@ -198,7 +207,6 @@
     "cilindri contrapposti, baricentro basso": "přetlakové válce, nízko uprostřed",
     "Boxer": "Boxer",
     "titoli costruttori consecutivi nel Mondiale Rally (1995–1997)": "po sobě jdoucí Světová rally (1995- 1997)",
-    "3": "3",
     "basamento a canne aperte sulle versioni turbo più recenti": "open trubka základny na nejnovější turbo verze",
     "Open-deck": "Open- paluba",
     "Guarnizioni della testata (EJ25) e cedimenti dei pistoni (EJ257).": "Těsnění hlavy (EJ25) a výnosy pístu (EJ257).",
@@ -216,7 +224,6 @@
     "Versione USA": "USA verze",
     "da aspirato con basamento in ghisa": "z odsávání s litinovou základnou",
     "105 CV/l": "105 CV / l",
-    "8000": "8000",
     "velocità media del pistone al limitatore": "průměrná rychlost pístu do omezovače",
     "24 m/s": "24 m / s",
     "Bronzine di biella e VANOS richiedono interventi preventivi.": "Bronzine di biella e VANOS vyžaduje preventivní intervence.",
@@ -233,7 +240,6 @@
     "iniettori al centro della camera di combustione": "vstřikovače uprostřed spalovací komory",
     "Piezo": "Koláč",
     "primo sei cilindri BMW turbo a iniezione diretta": "prvních šest válců BMW turbo přímé vstřikování",
-    "2006": "2006",
     "Pompa ad alta pressione, wastegate e iniettori soggetti a guasti costosi.": "Vysokotlaké čerpadlo, plýtvání a vstřikovače podléhají drahým chybám.",
     "Sei cilindri della famiglia modulare BMW (2015), con 500 cc per cilindro come il tre cilindri B38 e il quattro cilindri B48. Basamento closed-deck in alluminio, turbo twin-scroll unico con collettore integrato, intercooler aria-acqua nel collettore di aspirazione. Dal 2019 la versione TU aggiorna iniezione, turbo e raffreddamento.": "Šest válců BMW modulární rodiny (2015), s 500 cc na válec, jako tři válce B38 a čtyři válce B48. Hliníková základna v uzavřeném podlaží, jedno turbo s dvojitým posuvem s integrovaným potrubím, vzduchochladiče v sacím potrubí. Od roku 2019 aktualizuje verze TU vstřikování, turbo a chlazení.",
     "Sulle versioni TU il basamento di serie sopporta 550–650 CV con turbo maggiorato.": "Na provedení TU je standardní základna 550-650 CV se zvýšeným turbem.",
@@ -281,7 +287,6 @@
     "pressione di iniezione delle versioni iniettore-pompa": "injekční tlak ve formě injekčního roztoku",
     "2050 bar": "bar 2050",
     "debutto sull'Audi 80": "Audi 80 debut",
-    "1991": "1991",
     "raggiunti da unità documentate su taxi e furgoni": "Dosažen jednotkami dokumentovanými taxíky a dodávkami",
     "1.000.000 km": "1 000 000 mil",
     "Le versioni da 140 CV superano i 170–180 CV con mappatura; il limite sono frizione e turbo.": "140 CV verzí je vyšší než 170-180 CV s mapováním; limit je tření a turbo.",
@@ -291,7 +296,6 @@
     "Aggiornamento software post-Dieselgate con effetti su EGR e DPF segnalati da molti utenti": "Aktualizace softwaru Post- Dieselgate s účinky na EGR a DPF hlášené mnoha uživateli",
     "Sostituito dall'EA288, sviluppato per le normative Euro 6.": "Nahrazen EA288, vyvinutý pro regulaci Euro6.",
     "scoperta del software di riconoscimento del ciclo di prova": "objev softwaru pro rozpoznávání zkušebního cyklu",
-    "2015": "2015",
     "veicoli coinvolti nel Dieselgate": "vozidla zapojená do Dieselgate",
     "11 milioni": "11 milionů",
     "primo 2.0 TDI del gruppo con questo sistema": "první 2.0 TDI skupiny s tímto systémem",
@@ -305,7 +309,6 @@
     "Basamento in alluminio, -26 kg": "Hliníková základna, -26 kg",
     "1-2-4-5-3": "1-2-4-5-3",
     "anni consecutivi di vittorie di categoria all'International Engine of the Year": "po sobě jdoucí roky vítězství u Mezinárodního motoru roku",
-    "9": "9",
     "con il basamento in alluminio della versione evo": "s hliníkovou základnou evo verze",
     "−26 kg": "- 26 kg",
     "Difetti limitati a PCV, bobine e depositi carboniosi.": "Vady omezené na PCV, cívky a ložiska uhlíku.",
@@ -318,7 +321,6 @@
     "Iniezione doppia": "Dvojitá injekce",
     "90°": "90 °",
     "fine produzione, ultimo V10 aspirato di grande serie": "koncová výroba, poslední V10 velký sériový aspirátor",
-    "2024": "2024",
     "Margini limitati da aspirato. Con compressore si superano i 650 CV con interni di serie.": "Mříže omezené odsáváním. S kompresorem je překročeno 650 CV se sériovými interiéry.",
     "DOHC a catena, fasatura variabile su quattro alberi": "Řetězec DOHC, variabilní frézování na čtyřech stromech",
     "Alluminio-silicio": "Hliníkový-křemík",
@@ -380,7 +382,6 @@
     "Il nome deriva da un progetto da competizione Ford degli anni '60.": "Jméno pochází z projektu Ford Competition z 60. let.",
     "Dark Horse 500 hp": "Temný kůň 500 koní",
     "giri/min al limitatore dalla Gen3": "otočit / min na omezovač z Gen3",
-    "7500": "7500",
     "nella Mustang Dark Horse": "v Mustang Dark Horse",
     "507 CV": "507 CV",
     "Difetti minori su consumo d'olio e rumorosità di alcune Gen3.": "Menší závady na spotřebě oleje a hluk některých Gen3.",
@@ -430,7 +431,6 @@
     "VarioCam Plus": "VarioCam Plus",
     "Fino al Cayman S 3.4": "Dokud Cayman S 3.4",
     "primo boxer Porsche raffreddato ad acqua": "první Porsche voda chlazený boxer",
-    "1996": "1996",
     "cuscinetto dell'albero intermedio: il guasto più noto": "střední hřídelové ložisko: nejznámější porucha",
     "IMS": "IMS",
     "tra Boxster e 911 per ridurre i costi": "mezi Boxster a 911 ke snížení nákladů",
@@ -11728,5 +11728,68 @@
       "descrizione": null
     },
     "_complete": false
+  },
+  "skoda-ea111-12-htp": {
+    "paese": "Česká republika",
+    "alimentazione": "Benzín",
+    "aspirazione": "Atmosférický",
+    "compressione": "9,5–10,5:1 (podle kódu motoru)",
+    "distribuzione": "SOHC 6V nebo DOHC 12V, řetězový rozvod",
+    "blocco": "Hliník",
+    "testa": "Hliník",
+    "iniezione": "Nepřímé vícebodové vstřikování (Simos 9.1)",
+    "in_breve": [
+      {
+        "valore": "1.198 cc",
+        "testo": "zdvihový objem tříválce EA111"
+      },
+      {
+        "valore": "6/12 ventilů",
+        "testo": "hlavy SOHC a DOHC podle verze"
+      },
+      {
+        "valore": "3 miliony",
+        "testo": "motorů 1.2 HTP vyrobených do května 2014"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "První verze SOHC 6V; uvedení na trh v roce 2002."
+      },
+      {
+        "nota": "Hlava DOHC 12V; nejvyšší výkon při 5400 ot/min."
+      },
+      {
+        "nota": "Kód motoru BBM; kompresní poměr 10,3:1, 108 Nm."
+      },
+      {
+        "nota": "Kódy BZG a CGPA; kompresní poměr 10,5:1, 112 Nm."
+      },
+      {
+        "nota": "Dvanáctiventilová varianta pro vybrané trhy."
+      }
+    ],
+    "storia": "Řada EA111 1.2 HTP je zážehový tříválec vyvinutý v Mladé Boleslavi a vyráběný od roku 2001. První verze s výkonem 40 kW se objevila ve Fabii v roce 2002, v roce 2003 následovala dvanáctiventilová varianta. Motor má hliníkový blok a hlavu válců, vyvažovací hřídel a řetězový rozvod v provedení SOHC a DOHC. V roce 2014 Škoda oznámila výrobu tří milionů kusů.",
+    "punti_deboli": [
+      "Hydraulický napínák rozvodového řetězu může při vypnutém motoru ztratit napnutí; u některých verzí je določeno přeskočení řetězu a jeho chrastění.",
+      "U raných verzí může vysoká teplota v blízkosti katalyzátoru ovlivňovat mazání; pozdější úpravy zavedly tepelné štíty."
+    ],
+    "limiti": "Nejsou k dispozici dostatečné srovnatelné údaje pro stanovení bezpečného výkonového limitu při úpravách se sériovými vnitřními díly. Před úpravami výkonu je nutné zkontrolovat rozvody, chlazení a mazání.",
+    "curiosita": [
+      "V roce 2014 Škoda oznámila výrobu tří milionů motorů 1.2 HTP.",
+      "Šestiventilová verze SOHC předcházela dvanáctiventilové verzi DOHC."
+    ],
+    "manutenzione": [
+      "Při studeném startu kontrolovat hlučnost rozvodového řetězu; postup výměny závisí na kódu motoru.",
+      "Dodržovat intervaly výměny oleje a filtru podle servisní příručky konkrétního vozidla; nepoužívat jeden obecný interval pro všechny verze."
+    ],
+    "fonti": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "_source_hash": "97435c266b6b218f23642f43e38a1805a9633df6694b52547bdc206194fffe9f",
+    "_complete": true
   }
 }

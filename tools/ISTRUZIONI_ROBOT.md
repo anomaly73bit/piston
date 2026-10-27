@@ -1,6 +1,6 @@
 # Istruzioni per il robot che aggiunge motori
 
-Ogni esecuzione tenta di aggiungere **fino a 5 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+Ogni esecuzione tenta di aggiungere **fino a 20 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
 L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte dal 1980 a oggi, di ogni costruttore.
 
 ## Procedura
@@ -8,13 +8,13 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
 1. Leggi `tools/coda.txt`. Prendi le prime righe non commentate.
    - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
      o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
-   - Continua finché hai 5 motori validi o la coda è vuota.
+   - Continua finché hai 20 motori validi o la coda è vuota.
 2. Se esiste una scheda di ricerca in `tools/ricerche/`, consultala come punto di partenza, ma ricontrolla sempre le fonti prima di pubblicare. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
    riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
    delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
    versione, oppure scrivi un valore prudente nel testo. Mai inventare.
 3. Scrivi la voce in coda a `_data/motori.yml` seguendo esattamente lo schema delle voci esistenti (guarda ad esempio
-   `ferrari-f154` e `bmw-s58`). Tutti i campi elencati in `tools/valida.py` sono obbligatori.
+   `ferrari-f154` e `bmw-s58`). Tutti i campi elencati in `tools/valida.py` sono obbligatori. `limitatore` e `affidabilita` si omettono se non esistono prove sufficienti: mai inventare un regime di taglio o un indice di affidabilità.
    - `fine:` vuoto se il motore è ancora in produzione (verifica sul web).
    - `angolo:` obbligatorio per architetture V e W (gradi tra le bancate).
    - `architettura:` deve essere uno degli `id` di `_data/architetture.yml`. Se serve un'architettura nuova
@@ -24,7 +24,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    - In `modelli` ogni riga contiene **una sola marca** e inizia con il nome della marca (es. "Porsche Cayenne V6"):
      così la scheda segnala automaticamente le auto di altre marche. Se il motore equipaggia auto di marche diverse
      dal costruttore, elencale sempre in righe separate.
-3a. **Affidabilità.** Ogni voce ha il campo `affidabilita` subito dopo `limitatore:`:
+3a. **Affidabilità.** Se supportata da difetti documentati, la voce può avere il campo `affidabilita` (il limitatore resta facoltativo):
      ```
        affidabilita:
          indice: 72

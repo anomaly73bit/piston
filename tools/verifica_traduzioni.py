@@ -31,6 +31,13 @@ for language in ("en", "fr", "cs"):
     for m in motori:
         src = source_data(m)
         tr = data.get(m["slug"], {})
+        manual_path = ROOT / "_data" / "traduzioni" / "manuali" / (m["slug"] + ".json")
+        if manual_path.exists():
+            manual = json.loads(manual_path.read_text(encoding="utf-8"))
+            reviewed = manual.get(language, {})
+            if manual.get("_source_hash") == fingerprint(src) and is_complete(src, reviewed):
+                complete += 1
+                continue
         if tr.get("_source_hash") == fingerprint(src) and is_complete(src, tr):
             complete += 1
         else:

@@ -174,6 +174,14 @@ def main():
             slug = engine["slug"]
             source = source_data(engine)
             source_hash = fingerprint(source)
+            manual_path = CACHE / "manuali" / (slug + ".json")
+            if manual_path.exists():
+                manual = json.loads(manual_path.read_text(encoding="utf-8"))
+                reviewed = manual.get(language, {})
+                if manual.get("_source_hash") == source_hash and is_complete(source, reviewed):
+                    item = dict(reviewed, _source_hash=source_hash, _complete=True)
+                    output[slug] = item
+                    continue
             old = previous.get(slug, {})
             # Never reuse a translation from a different Italian source.
             if old.get("_source_hash") != source_hash:

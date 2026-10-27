@@ -1,0 +1,192 @@
+{
+  "_source_hash": "97435c266b6b218f23642f43e38a1805a9633df6694b52547bdc206194fffe9f",
+  "en": {
+    "paese": "Czech Republic",
+    "alimentazione": "Petrol",
+    "aspirazione": "Naturally aspirated",
+    "compressione": "9,5–10,5:1 (depending on engine code)",
+    "distribuzione": "SOHC 6V or DOHC 12V, chain drive",
+    "blocco": "Aluminium",
+    "testa": "Aluminium",
+    "iniezione": "Multipoint port injection (Simos 9.1)",
+    "in_breve": [
+      {
+        "valore": "1.198 cc",
+        "testo": "displacement of the EA111 three-cylinder engine"
+      },
+      {
+        "valore": "6/12 valves",
+        "testo": "SOHC and DOHC cylinder heads depending on variant"
+      },
+      {
+        "valore": "3 million",
+        "testo": "1.2 HTP units produced by May 2014"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Initial SOHC 6V version; market launch in 2002."
+      },
+      {
+        "nota": "DOHC 12V head; peak power at 5400 rpm."
+      },
+      {
+        "nota": "BBM engine code; 10,3:1 compression, 108 Nm."
+      },
+      {
+        "nota": "BZG and CGPA codes; 10,5:1 compression, 112 Nm."
+      },
+      {
+        "nota": "12-valve variant for selected markets."
+      }
+    ],
+    "storia": "The EA111 1.2 HTP family is a three-cylinder petrol engine developed in Mladá Boleslav and produced from 2001. The first 40 kW version reached the Fabia in 2002, followed by the 12-valve variant in 2003. It features an aluminium block and cylinder head, a balance shaft and chain-driven valve gear, in SOHC and DOHC configurations. In 2014 Škoda announced that three million units had been produced.",
+    "punti_deboli": [
+      "The hydraulic timing-chain tensioner may lose tension while the engine is stopped; chain jumping and rattling have been documented on some versions.",
+      "Early versions can experience high temperatures near the catalytic converter, affecting lubrication; later revisions introduced heat shielding."
+    ],
+    "limiti": "There is insufficient comparable evidence to establish a safe tuning power limit for standard internal components. Timing-chain condition, cooling and lubrication should be checked before performance modifications.",
+    "curiosita": [
+      "In 2014 Škoda reported production of three million 1.2 HTP engines.",
+      "The 6-valve SOHC version preceded the 12-valve DOHC version."
+    ],
+    "manutenzione": [
+      "Check for timing-chain noise during cold starts; replacement procedures depend on the engine code.",
+      "Follow the vehicle-specific service manual for oil and filter intervals; do not apply one generic interval to every variant."
+    ],
+    "fonti": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "_source_hash": "97435c266b6b218f23642f43e38a1805a9633df6694b52547bdc206194fffe9f",
+    "_complete": true
+  },
+  "fr": {
+    "paese": "République tchèque",
+    "alimentazione": "Essence",
+    "aspirazione": "Atmosphérique",
+    "compressione": "9,5–10,5:1 (selon le code moteur)",
+    "distribuzione": "SOHC 6V ou DOHC 12V, distribution par chaîne",
+    "blocco": "Aluminium",
+    "testa": "Aluminium",
+    "iniezione": "Injection indirecte multipoint (Simos 9.1)",
+    "in_breve": [
+      {
+        "valore": "1.198 cc",
+        "testo": "cylindrée du trois-cylindres EA111"
+      },
+      {
+        "valore": "6/12 soupapes",
+        "testo": "culasses SOHC et DOHC selon la version"
+      },
+      {
+        "valore": "3 millions",
+        "testo": "moteurs 1.2 HTP produits avant mai 2014"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Première version SOHC 6V ; lancement commercial en 2002."
+      },
+      {
+        "nota": "Culasse DOHC 12V ; puissance maximale à 5400 tr/min."
+      },
+      {
+        "nota": "Code moteur BBM ; compression 10,3:1, 108 Nm."
+      },
+      {
+        "nota": "Codes BZG et CGPA ; compression 10,5:1, 112 Nm."
+      },
+      {
+        "nota": "Variante à 12 soupapes destinée à certains marchés."
+      }
+    ],
+    "storia": "La famille EA111 1.2 HTP est un moteur essence à trois cylindres développé à Mladá Boleslav et produit à partir de 2001. La première version de 40 kW arrive sur la Fabia en 2002, suivie de la variante à 12 soupapes en 2003. Elle possède un bloc et une culasse en aluminium, un arbre d'équilibrage et une distribution par chaîne, avec des configurations SOHC et DOHC. En 2014, Škoda annonce trois millions d'unités produites.",
+    "punti_deboli": [
+      "Le tendeur hydraulique de chaîne peut perdre sa tension à l'arrêt ; des décalages de distribution et des bruits de chaîne sont documentés sur certaines versions.",
+      "Les premières versions peuvent subir des températures élevées près du catalyseur, affectant la lubrification ; les révisions suivantes adoptent des écrans thermiques."
+    ],
+    "limiti": "Les données comparables sont insuffisantes pour établir une limite de puissance sûre en préparation avec les composants internes d'origine. Il faut d'abord vérifier la distribution, le refroidissement et la lubrification avant toute modification des performances.",
+    "curiosita": [
+      "En 2014, Škoda annonce avoir produit trois millions de moteurs 1.2 HTP.",
+      "La version SOHC à 6 soupapes a précédé la version DOHC à 12 soupapes."
+    ],
+    "manutenzione": [
+      "Contrôler les bruits de chaîne au démarrage à froid ; la procédure de remplacement dépend du code moteur.",
+      "Respecter les intervalles de vidange et de filtre indiqués dans le manuel du véhicule ; ne pas appliquer un intervalle unique à toutes les versions."
+    ],
+    "fonti": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "_source_hash": "97435c266b6b218f23642f43e38a1805a9633df6694b52547bdc206194fffe9f",
+    "_complete": true
+  },
+  "cs": {
+    "paese": "Česká republika",
+    "alimentazione": "Benzín",
+    "aspirazione": "Atmosférický",
+    "compressione": "9,5–10,5:1 (podle kódu motoru)",
+    "distribuzione": "SOHC 6V nebo DOHC 12V, řetězový rozvod",
+    "blocco": "Hliník",
+    "testa": "Hliník",
+    "iniezione": "Nepřímé vícebodové vstřikování (Simos 9.1)",
+    "in_breve": [
+      {
+        "valore": "1.198 cc",
+        "testo": "zdvihový objem tříválce EA111"
+      },
+      {
+        "valore": "6/12 ventilů",
+        "testo": "hlavy SOHC a DOHC podle verze"
+      },
+      {
+        "valore": "3 miliony",
+        "testo": "motorů 1.2 HTP vyrobených do května 2014"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "První verze SOHC 6V; uvedení na trh v roce 2002."
+      },
+      {
+        "nota": "Hlava DOHC 12V; nejvyšší výkon při 5400 ot/min."
+      },
+      {
+        "nota": "Kód motoru BBM; kompresní poměr 10,3:1, 108 Nm."
+      },
+      {
+        "nota": "Kódy BZG a CGPA; kompresní poměr 10,5:1, 112 Nm."
+      },
+      {
+        "nota": "Dvanáctiventilová varianta pro vybrané trhy."
+      }
+    ],
+    "storia": "Řada EA111 1.2 HTP je zážehový tříválec vyvinutý v Mladé Boleslavi a vyráběný od roku 2001. První verze s výkonem 40 kW se objevila ve Fabii v roce 2002, v roce 2003 následovala dvanáctiventilová varianta. Motor má hliníkový blok a hlavu válců, vyvažovací hřídel a řetězový rozvod v provedení SOHC a DOHC. V roce 2014 Škoda oznámila výrobu tří milionů kusů.",
+    "punti_deboli": [
+      "Hydraulický napínák rozvodového řetězu může při vypnutém motoru ztratit napnutí; u některých verzí je določeno přeskočení řetězu a jeho chrastění.",
+      "U raných verzí může vysoká teplota v blízkosti katalyzátoru ovlivňovat mazání; pozdější úpravy zavedly tepelné štíty."
+    ],
+    "limiti": "Nejsou k dispozici dostatečné srovnatelné údaje pro stanovení bezpečného výkonového limitu při úpravách se sériovými vnitřními díly. Před úpravami výkonu je nutné zkontrolovat rozvody, chlazení a mazání.",
+    "curiosita": [
+      "V roce 2014 Škoda oznámila výrobu tří milionů motorů 1.2 HTP.",
+      "Šestiventilová verze SOHC předcházela dvanáctiventilové verzi DOHC."
+    ],
+    "manutenzione": [
+      "Při studeném startu kontrolovat hlučnost rozvodového řetězu; postup výměny závisí na kódu motoru.",
+      "Dodržovat intervaly výměny oleje a filtru podle servisní příručky konkrétního vozidla; nepoužívat jeden obecný interval pro všechny verze."
+    ],
+    "fonti": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "_source_hash": "97435c266b6b218f23642f43e38a1805a9633df6694b52547bdc206194fffe9f",
+    "_complete": true
+  }
+}
