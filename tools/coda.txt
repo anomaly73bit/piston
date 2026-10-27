@@ -2,11 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Hyundai D 2.0 / 2.2 CRDi (D4EA, D4EB) | Santa Fe SM, Trajet, Tucson; derivato VM Motori
-Hyundai S 3.0 V6 CRDi (D6EA) | Veracruz, Kia Sorento, Mohave
-Kia J 2.9 CRDi (J3) | Kia Sorento, Carnival, Hyundai Terracan
-SsangYong e-XDi 2.0 / 2.2 (D20DT, D22DTR) | Rexton, Korando, Tivoli
-Daewoo S-TEC tre cilindri 0.8 | Matiz, Tico; base Suzuki F8C
 Toyota 1NZ-FE / 2NZ-FE / 1NZ-FXE | Yaris, Corolla, Prius prima serie (ciclo Atkinson)
 Toyota 2SZ-FE | Yaris 1.3, Vitz, Ractis; distinto dal 1SZ-FE già catalogato
 Toyota 1NR-FE / 8NR-FTS | Yaris, Auris, C-HR 1.2 turbo

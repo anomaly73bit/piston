@@ -11939,3 +11939,306 @@
   fonti:
     - { titolo: "Wikipedia EN, Hyundai R engine", url: "https://en.wikipedia.org/wiki/Hyundai_R_engine" }
     - { titolo: "MyMotorList, motore Hyundai-Kia D4HB", url: "https://mymotorlist.com/engines/hyundai/d4hb/" }
+
+- slug: hyundai-d-crdi
+  codice: "D4EA / D4EB"
+  nome: "Hyundai D 2.0 / 2.2 CRDi"
+  costruttore: Hyundai
+  paese: Corea del Sud
+  inizio: 2001
+  fine: 2010
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 1991
+  alesaggio: 83.0
+  corsa: 92.0
+  compressione: "17,3–17,7:1"
+  distribuzione: "SOHC a cinghia dentata, punterie idrauliche"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Diretta common rail Bosch (1350 bar, poi 1600 bar)"
+  cv_min: 112
+  cv_max: 155
+  nm_max: 343
+  in_breve:
+    - { valore: "VM Motori", testo: "progetto derivato dal 2,0 litri RA 420 SOHC sviluppato da VM per Hyundai e GM Korea" }
+    - { valore: "1600 bar", testo: "pressione del common rail sulla seconda serie, contro i 1350 bar della prima" }
+    - { valore: "2188 cc", testo: "nel D4EB, con alesaggio portato a 87 mm a parità di corsa" }
+  versioni:
+    - { nome: "D4EA (Santa Fe SM, Trajet, Elantra XD)", anni: "2001–2005", cv: 112, nm: 245, nota: "Turbo a geometria fissa; dati della voce riferiti al D4EA 1991 cc" }
+    - { nome: "D4EA-V (Santa Fe SM, Trajet)", anni: "2004–2006", cv: 125, nm: 285, nota: "Turbo a geometria variabile" }
+    - { nome: "D4EA seconda serie (Tucson JM, Sportage, i30, cee'd)", anni: "2005–2010", cv: 140, nm: 305, nota: "Common rail a 1600 bar, turbo a geometria variabile, Euro 4" }
+    - { nome: "D4EB 2.2 CRDi (Santa Fe CM, Grandeur TG)", anni: "2005–2010", cv: 150, nm: 335, nota: "2188 cc, alesaggio 87 mm" }
+    - { nome: "D4EB-F 2.2 CRDi (Santa Fe CM)", anni: "2006–2010", cv: 155, nm: 343, nota: "2188 cc" }
+  modelli:
+    - { nome: "Hyundai Santa Fe (SM)", anni: "2001–2010" }
+    - { nome: "Hyundai Trajet", anni: "2001–2006" }
+    - { nome: "Hyundai Tucson (JM)", anni: "2004–2010" }
+    - { nome: "Hyundai Elantra (XD), i30 (FD), Sonata (NF)", anni: "2001–2010" }
+    - { nome: "Hyundai Santa Fe (CM), Grandeur (TG) 2.2", anni: "2005–2010" }
+    - { nome: "Kia Carens, Cerato, cee'd, Magentis, Sportage", anni: "2002–2010" }
+  storia: >-
+    Famiglia di diesel common rail a quattro cilindri costruita da Hyundai su licenza VM Motori, che nel 2000 aveva presentato
+    il 2,0 litri RA 420 monoalbero sviluppato per Hyundai e GM Korea. Ha basamento in ghisa, testata in alluminio a 16 valvole
+    con un solo albero a camme comandato da cinghia e iniezione Bosch a 1350 bar, portata a 1600 bar nella seconda serie Euro 4.
+    Il D4EB da 2,2 litri ottiene la cilindrata maggiore aumentando l'alesaggio da 83 a 87 mm. La famiglia è stata sostituita
+    dal motore R da 2,0 e 2,2 litri.
+  punti_deboli:
+    - "Usura di eccentrici dell'albero a camme e bilancieri con olio non conforme o intervalli di cambio lunghi"
+    - "Cinghia di distribuzione (sostituzione prevista a 90.000 km): la rottura, anche per grippaggio della pompa acqua, piega le valvole"
+    - "Iniettori sensibili alla qualità del gasolio; un iniettore difettoso può danneggiare il pistone"
+    - "Valvola EGR soggetta a intasamento e candelette di preriscaldamento"
+  limiti: >-
+    Non esistono dati documentati sui limiti strutturali. Sulle versioni da 112–125 CV il componente critico è il turbocompressore
+    di serie, sulle versioni più potenti iniettori e cinghia di distribuzione.
+  curiosita:
+    - "Presso GM Korea lo stesso progetto VM era identificato come Z20S."
+    - "Della famiglia faceva parte anche il tre cilindri D3EA da 1493 cc, con lo stesso alesaggio e la stessa corsa del D4EA."
+  fonti:
+    - {"titolo":"Wikipedia EN, Hyundai D engine","url":"https://en.wikipedia.org/wiki/Hyundai_D_engine"}
+    - {"titolo":"MyMotorList, motore Hyundai-Kia D4EA","url":"https://mymotorlist.com/engines/hyundai/d4ea/"}
+    - {"titolo":"MyMotorList, motore Hyundai D4EB","url":"https://mymotorlist.com/engines/hyundai/d4eb/"}
+
+- slug: hyundai-s-v6-crdi
+  codice: "D6EA / D6EB"
+  nome: "Hyundai S 3.0 V6 CRDi"
+  costruttore: Hyundai
+  paese: Corea del Sud
+  inizio: 2006
+  fine: 2024
+  architettura: V6
+  angolo: 60
+  cilindri: 6
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 2959
+  alesaggio: 84.0
+  corsa: 89.0
+  compressione: "17,3:1"
+  distribuzione: "Catena doppia, punterie idrauliche"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Diretta common rail con iniettori piezoelettrici"
+  cv_min: 240
+  cv_max: 260
+  nm_max: 560
+  in_breve:
+    - { valore: "60°", testo: "angolo tra le bancate del primo V6 diesel Hyundai" }
+    - { valore: "451 Nm", testo: "tra 1750 e 3500 giri/min nella prima versione D6EA" }
+    - { valore: "Europa", testo: "su Veracruz / ix55 offerto solo per il mercato europeo e asiatico" }
+  versioni:
+    - { nome: "D6EA (Veracruz / ix55)", anni: "2006–2011", cv: 240, nm: 451, nota: "176–177 kW a 3800 giri/min; Euro 4" }
+    - { nome: "D6EB (Kia Mohave HM2)", anni: "2019–2024", cv: 260, nm: 560, nota: "" }
+  modelli:
+    - { nome: "Hyundai Veracruz / ix55 (EN)", anni: "2006–2015" }
+    - { nome: "Kia Mohave / Borrego (HM)", anni: "2008–2024" }
+  storia: >-
+    Primo V6 diesel di Hyundai, con bancate a 60°, cilindrata di 2959 cc e alesaggio e corsa di 84 × 89 mm. Ha basamento in
+    ghisa, teste in alluminio a quattro valvole per cilindro, distribuzione a catena doppia, iniezione common rail con iniettori
+    piezoelettrici e turbocompressore a geometria variabile BorgWarner con intercooler. Esordisce sulla Veracruz destinata al
+    mercato europeo, venduta in seguito come ix55, dove sostituisce il V6 benzina 3,8 della versione americana. La seconda serie
+    S II (D6EB) ha equipaggiato la Kia Mohave fino alla fine della sua produzione.
+  punti_deboli:
+    - "Allungamento della catena di distribuzione doppia verso i 200.000 km, con rischio di salto dei denti"
+    - "Iniettori piezoelettrici sensibili alla qualità del gasolio"
+    - "Consumo d'olio legato alla valvola di ventilazione del basamento"
+    - "Depositi da EGR nel collettore di aspirazione e sui sensori; centralina delle candelette"
+  limiti: >-
+    Non esistono dati documentati sui limiti strutturali; i componenti critici sono il turbocompressore a geometria variabile e
+    il cambio automatico abbinato.
+  curiosita:
+    - "In Nuova Zelanda Hyundai annunciò nel 2007 che la Veracruz locale, di specifica nordamericana, non avrebbe ricevuto il V6 diesel."
+  fonti:
+    - {"titolo":"Auto-Data, Hyundai Veracruz 3.0 CRDi 240 CV","url":"https://www.auto-data.net/en/hyundai-veracruz-3.0-crdi-240hp-4wd-automatic-37414"}
+    - {"titolo":"Scoop.co.nz, Clever new diesel power from Hyundai (2007)","url":"https://m.scoop.co.nz/stories/BU0705/S00118.htm"}
+    - {"titolo":"Auto-Medienportal, prova Hyundai ix55","url":"https://www.auto-medienportal.net/artikel/detail/1522"}
+    - {"titolo":"Wikipedia EN, Hyundai Veracruz","url":"https://en.wikipedia.org/wiki/Hyundai_Veracruz"}
+    - {"titolo":"Wikipedia EN, Kia Mohave","url":"https://en.wikipedia.org/wiki/Kia_Mohave"}
+    - {"titolo":"MarkLines, nuova Kia Mohave (2019)","url":"https://www.marklines.com/en/news/229562"}
+    - {"titolo":"MyMotorList, motore Hyundai-Kia D6EA","url":"https://mymotorlist.com/engines/hyundai/d6ea/"}
+    - {"titolo":"MyMotorList, motore Hyundai-Kia D6EB","url":"https://mymotorlist.com/engines/hyundai/d6eb/"}
+
+- slug: kia-j3
+  codice: "J3"
+  nome: "Kia J3 2.9 CRDi"
+  costruttore: Kia
+  paese: Corea del Sud
+  inizio: 1999
+  fine: 2011
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 2902
+  alesaggio: 97.1
+  corsa: 98.0
+  compressione: "19,0–19,3:1"
+  distribuzione: "A cinghia dentata, punterie idrauliche"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Diretta: pompa rotativa Bosch VE, poi common rail Delphi"
+  cv_min: 126
+  cv_max: 185
+  nm_max: 345
+  in_breve:
+    - { valore: "2902 cc", testo: "alesaggio 97,1 mm e corsa 98 mm, quattro cilindri in linea" }
+    - { valore: "2001", testo: "passaggio dalla pompa rotativa Bosch VE al common rail Delphi" }
+    - { valore: "185 CV", testo: "nella Kia Carnival di seconda serie con common rail Delphi DFP3" }
+  versioni:
+    - { nome: "2.9 TD (Kia Carnival)", anni: "1999–2001", cv: 126, nm: 338, nota: "Pompa rotativa Bosch VE, compressione 19,0:1" }
+    - { nome: "2.9 CRDi (Kia Carnival)", anni: "2001–2005", cv: 144, nm: 310, nota: "Common rail Delphi" }
+    - { nome: "2.9 CRDi (Hyundai Terracan)", anni: "2001–2004", cv: 150, nm: 333, nota: "Common rail Delphi" }
+    - { nome: "2.9 CRDi (Hyundai Terracan)", anni: "2004–2007", cv: 163, nm: 345, nota: "Common rail Delphi DFP3, compressione 19,3:1" }
+    - { nome: "2.9 CRDi (Kia Carnival / Grand Carnival)", anni: "2005–2011", cv: 185, nm: 343, nota: "183 CV secondo i dati del mercato britannico" }
+  modelli:
+    - { nome: "Kia Carnival / Sedona (GQ, UP)", anni: "1999–2005" }
+    - { nome: "Kia Carnival / Grand Carnival (VQ)", anni: "2005–2011" }
+    - { nome: "Hyundai Terracan (HP)", anni: "2001–2007" }
+    - { nome: "Hawtai Terracan", anni: "2003–2011" }
+  storia: >-
+    Quattro cilindri diesel da 2902 cc della serie J, con basamento in ghisa, testata in alluminio e distribuzione a cinghia.
+    Nasce nel 1999 sulla Kia Carnival con pompa d'iniezione rotativa Bosch VE e dal 2001 adotta il common rail Delphi, prima
+    DFP1 e dal 2004 DFP3, con potenze salite da 126 a 185 CV. Oltre alla Carnival ha equipaggiato il fuoristrada Hyundai Terracan
+    e la sua versione costruita in Cina da Hawtai; in Australia è rimasto sulla Grand Carnival fino al 2011.
+  punti_deboli:
+    - "Pompa ad alta pressione Delphi: rilascio di particelle metalliche che intasano l'impianto di alimentazione"
+    - "Calo della pressione dell'olio con i chilometri, che riduce la durata di turbocompressore e punterie idrauliche"
+    - "Infiltrazioni d'aria da debimetro, valvola EGR e raccordi rapidi"
+    - "Guasti elettrici al cablaggio e alle uscite della centralina"
+  limiti: >-
+    Non esistono dati documentati sui limiti strutturali; sulle versioni common rail il componente critico è la pompa ad alta
+    pressione Delphi.
+  curiosita:
+    - "Un intervento diffuso su Terracan e Carnival consiste nel sostituire il common rail Delphi con la pompa meccanica Bosch VE della prima versione."
+  fonti:
+    - {"titolo":"MyMotorList, motore Hyundai J3","url":"https://mymotorlist.com/engines/hyundai/j3/"}
+    - {"titolo":"Ficha Completa, Hyundai Terracan 2.9 CRDi 2005","url":"https://www.fichacompleta.com.br/es/carros/hyundai/terracan-2-9-crdi-turbo-2005"}
+    - {"titolo":"Wikipedia EN, Kia Carnival","url":"https://en.wikipedia.org/wiki/Kia_Carnival"}
+    - {"titolo":"Wikipedia EN, Hyundai Terracan","url":"https://en.wikipedia.org/wiki/Hyundai_Terracan"}
+
+- slug: ssangyong-e-xdi
+  codice: "D20DTR / D22DTR / D16DTF"
+  nome: "SsangYong e-XDi 2.0 / 2.2"
+  costruttore: SsangYong
+  paese: Corea del Sud
+  inizio: 2011
+  fine:
+  architettura: L4
+  cilindri: 4
+  alimentazione: Diesel
+  aspirazione: Turbo
+  cilindrata: 1998
+  alesaggio: 86.2
+  corsa: 85.6
+  compressione: "16,5:1"
+  distribuzione: "DOHC a catena, punterie idrauliche"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Diretta common rail"
+  cv_min: 115
+  cv_max: 202
+  nm_max: 441
+  in_breve:
+    - { valore: "Ginevra 2011", testo: "presentazione della famiglia, sviluppata da SsangYong dopo i diesel di origine Mercedes-Benz" }
+    - { valore: "92,4 mm", testo: "corsa del D22DTR da 2157 cc, contro gli 85,6 mm del D20DTR" }
+    - { valore: "202 CV", testo: "nel D22DTR Euro 6d della Rexton 2021" }
+  versioni:
+    - { nome: "e-XDi200 D20DTR (Korando C)", anni: "2011–2013", cv: 175, nm: 360, nota: "Dati della voce riferiti al D20DTR 1998 cc; al lancio annunciate anche varianti da 115 kW e 111 kW (Green)" }
+    - { nome: "e-XDi200 D20DTR (Rexton, Actyon Sports, Rodius)", anni: "2012–2017", cv: 155, nm: 360, nota: "Euro 5" }
+    - { nome: "e-XDi160 D16DTF (Tivoli, XLV)", anni: "2015–", cv: 115, nm: 300, nota: "1597 cc, alesaggio 76 mm, corsa 88 mm" }
+    - { nome: "e-XDi220 D22DTR (Korando, Rexton, Rodius)", anni: "2015–2020", cv: 178, nm: 400, nota: "2157 cc, compressione 15,5:1, Euro 6" }
+    - { nome: "e-XDi220 D22DTR (Rexton, Musso)", anni: "2021–", cv: 202, nm: 441, nota: "2157 cc, Euro 6d" }
+  modelli:
+    - { nome: "SsangYong Korando (C)", anni: "2011–2019" }
+    - { nome: "SsangYong Rexton (RJ, Y400 / G4)", anni: "2012–" }
+    - { nome: "SsangYong Actyon Sports / Korando Sports, Musso", anni: "2012–" }
+    - { nome: "SsangYong Rodius / Korando Turismo", anni: "2012–2019" }
+    - { nome: "SsangYong Tivoli, XLV (1.6)", anni: "2015–" }
+  storia: >-
+    Famiglia di diesel common rail a quattro cilindri presentata al Salone di Ginevra del 2011, la prima sviluppata da SsangYong
+    dopo i motori derivati da progetti Mercedes-Benz. Ha basamento in ghisa, testata in alluminio a 16 valvole con distribuzione
+    a catena, pompa dell'olio a portata variabile ed è progettata per montaggio longitudinale o trasversale. Il D20DTR da 1998 cc
+    esordisce sulla Korando C; nel 2015 arrivano il D22DTR da 2157 cc, ottenuto allungando la corsa a 92,4 mm, e il D16DTF da
+    1,6 litri della Tivoli. Il 2,2 litri è aggiornato nel 2021 a 202 CV per Rexton e Musso.
+  punti_deboli:
+    - "Impianto d'iniezione Delphi del D20DTR sensibile alla qualità del gasolio; iniettori che si bloccano nella testata"
+    - "Smorzatore torsionale dell'albero motore e tenditore idraulico della catena"
+    - "Allungamento della catena di distribuzione e usura del turbocompressore ad alti chilometraggi"
+    - "Intasamento del filtro antiparticolato e del catalizzatore LNT sulle versioni Euro 6"
+  limiti: >-
+    Non esistono dati documentati sui limiti strutturali; i componenti critici indicati dalle fonti sono turbocompressore e
+    smorzatore dell'albero motore.
+  curiosita:
+    - "Al debutto del 2011 SsangYong mostrò anche un prototipo del 2,2 litri con sovralimentazione a due stadi da 168 kW e 500 Nm, diverso dal D22DTR di serie."
+  fonti:
+    - {"titolo":"Wikipedia EN, KGM e-XDi engine","url":"https://en.wikipedia.org/wiki/KGM_e-XDi_engine"}
+    - {"titolo":"Auto.cz, Ssangyong představil nové přeplňované motory (2011)","url":"https://www.auto.cz/ssangyong-predstavil-nove-preplnovane-motory-54973"}
+    - {"titolo":"Encycarpedia, SsangYong Korando 2.0 e-XDi 200 4WD","url":"https://www.encycarpedia.com/ssangyong/11-korando-2-0-e-xdi-200-4wd-suv"}
+    - {"titolo":"Auto-Data, SsangYong Rexton 2021 2.2 e-XDi 202 CV","url":"https://www.auto-data.net/en/ssangyong-rexton-ii-facelift-2021-2.2-e-xdi-202hp-4wd-e-tronic-7-seat-42660"}
+    - {"titolo":"MyMotorList, motore SsangYong D20DTR","url":"https://mymotorlist.com/engines/ssangyong/d20dtr/"}
+    - {"titolo":"MyMotorList, motore SsangYong D22DTR","url":"https://mymotorlist.com/engines/ssangyong/d22dtr/"}
+    - {"titolo":"MyMotorList, motore SsangYong D16DTF","url":"https://mymotorlist.com/engines/ssangyong/d16dtf/"}
+
+- slug: daewoo-s-tec
+  codice: "F8C / F8CV"
+  nome: "Daewoo S-TEC 0.8 tre cilindri"
+  costruttore: Daewoo
+  paese: Corea del Sud
+  inizio: 1991
+  fine: 2018
+  architettura: L3
+  cilindri: 3
+  alimentazione: Benzina
+  aspirazione: Aspirato
+  cilindrata: 796
+  alesaggio: 68.5
+  corsa: 72.0
+  compressione: "9,3:1"
+  distribuzione: "SOHC a cinghia dentata, punterie meccaniche"
+  valvole: 2
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Carburatore, poi iniezione multipoint"
+  cv_min: 48
+  cv_max: 52
+  nm_max: 72
+  in_breve:
+    - { valore: "Suzuki", testo: "costruito su licenza dal tre cilindri della Suzuki Alto" }
+    - { valore: "796 cc", testo: "alesaggio 68,5 mm e corsa 72 mm" }
+    - { valore: "1991–2018", testo: "dalla Tico coreana alla Matiz prodotta in Uzbekistan" }
+  versioni:
+    - { nome: "0.8 carburatore (Daewoo Tico)", anni: "1991–2000", cv: 48, nm: 72, nota: "71,5 Nm a 4000 giri/min; versioni a GPL per la Corea" }
+    - { nome: "F8CV 0.8 i (Daewoo Matiz M100)", anni: "1998–2005", cv: 52, nm: 69, nota: "Iniezione multipoint, 52 CV a 5900 giri/min, 69 Nm a 4600 giri/min" }
+    - { nome: "F8CV 0.8 (Chevrolet / Daewoo Matiz M150, M200)", anni: "2004–2018", cv: 52, nm: 69, nota: "Dal 2004 nuovi condotti di aspirazione e scarico e punterie a rullo, prestazioni invariate" }
+  modelli:
+    - { nome: "Daewoo Tico", anni: "1991–2002" }
+    - { nome: "Daewoo Matiz (M100, M150)", anni: "1998–2018" }
+    - { nome: "Chevrolet Matiz / Spark (M150, M200)", anni: "2000–2009" }
+  storia: >-
+    Tre cilindri a benzina da 796 cc sviluppato con Suzuki e costruito da Daewoo su licenza del motore della Suzuki Alto
+    (Wikipedia lo indica come F8B; il codice Daewoo della Matiz è F8CV). È un monoalbero a due valvole per cilindro, alimentato
+    a carburatore sulla prima Tico del 1991 e poi a iniezione multipoint, che ha permesso di rispettare la norma Euro 2. Sulla
+    Matiz eroga 52 CV; nel 2004 riceve nuovi collettori, alberi a camme e punterie a rullo. È il capostipite della famiglia
+    S-TEC, poi estesa da GM Korea ai quattro cilindri da 1,0 e 1,2 litri.
+  punti_deboli:
+    - "Cinghia di distribuzione a durata ridotta (circa 50.000 km): la rottura piega le valvole"
+    - "Spinterogeno delicato fino al 2008 e guasti al sensore di posizione della farfalla"
+    - "Gioco valvole da registrare periodicamente; perdite dalle guarnizioni"
+  limiti: >-
+    Non esistono dati documentati sui limiti strutturali; il motore non è oggetto di elaborazioni diffuse.
+  curiosita:
+    - "Per un periodo è stato tra i motori a benzina di cilindrata più piccola in vendita in Europa, superato solo dal 0,6 litri turbo della prima smart."
+    - "Nel 2008 il 0,8 litri della Matiz è stato rivisto per rientrare nella fascia di tassa di circolazione britannica da 35 sterline."
+  fonti:
+    - {"titolo":"Wikipedia EN, Daewoo S-TEC engine","url":"https://en.wikipedia.org/wiki/Daewoo_S-TEC_engine"}
+    - {"titolo":"Wikipedia EN, Daewoo Tico","url":"https://en.wikipedia.org/wiki/Daewoo_Tico"}
+    - {"titolo":"Wikipedia EN, Daewoo Matiz","url":"https://en.wikipedia.org/wiki/Daewoo_Matiz"}
+    - {"titolo":"Auto-Data, Daewoo Matiz I 0.8 i 52 CV","url":"https://www.auto-data.net/no/daewoo-matiz-i-0.8-i-52hp-16373"}
+    - {"titolo":"Motor1 Italia, i motori benzina della Daewoo Matiz","url":"https://it.motor1.com/news/677003/motori-daewoo-matiz-benzina-storia/"}
+    - {"titolo":"MyMotorList, motore Daewoo F8CV","url":"https://mymotorlist.com/engines/daewoo/f8cv/"}
