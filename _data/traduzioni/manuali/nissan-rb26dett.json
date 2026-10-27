@@ -1,0 +1,153 @@
+{
+ "_source_hash": "46318656c6b642af2a02502754e4647025708ecc6826e8f00144fe735373f0ea",
+ "en": {
+  "storia": "Designed for Group A homologation: the 2568 cc displacement, multiplied by the 1.7 turbo coefficient, places the car in the class up to 4.5 litres. Cast-iron block, aluminium twin-cam 24-valve cylinder head, six individual throttle bodies and two parallel turbochargers with ceramic turbine wheels. The R32 GT-R won all 29 races of the Japanese Group A championship it entered between 1990 and 1993.",
+  "limiti": "With stock internals the indicative limit is 450–500 CV. Beyond that, a reinforced oil pump drive, forged connecting rods and turbochargers with steel turbine wheels are needed. Racing units exceed 1000 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Port injection, six individual throttle bodies",
+  "compressione": "8.5:1",
+  "punti_deboli": [
+   "Oil pump drive collar, which breaks especially with a raised rev limiter",
+   "Lubrication of the rear valve train at very high engine speeds",
+   "Turbochargers with ceramic turbine wheels, fragile above stock boost pressure"
+  ],
+  "curiosita": [
+   "The declared output of 280 CV complied with the voluntary agreement among Japanese manufacturers; dyno measurements are often higher.",
+   "The oil pump is driven directly by the crankshaft through a collar: above 8000 rpm it is the most frequent point of failure."
+  ],
+  "versioni": [
+   {
+    "nota": "Created for Group A homologation"
+   },
+   {},
+   {
+    "nota": "Steel/ceramic turbine wheels depending on version"
+   },
+   {
+    "nota": "RB-X GT2 2.8 litres, very limited series"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "races won by the R32 GT-R in the Japanese Group A championship",
+    "valore": "29 of 29"
+   },
+   {
+    "testo": "individual throttle bodies",
+    "valore": "6"
+   },
+   {
+    "testo": "chosen for the class up to 4.5 litres with the 1.7 turbo coefficient",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Oil pump collar and cylinder head lubrication are critical at high engine speeds."
+  }
+ },
+ "fr": {
+  "storia": "Conçu pour l'homologation en Groupe A : la cylindrée de 2568 cc, multipliée par le coefficient turbo de 1,7, place la voiture dans la classe jusqu'à 4,5 litres. Bloc-moteur en fonte, culasse en aluminium à double arbre à cames et 24 soupapes, six papillons individuels et deux turbos en parallèle à roues de turbine en céramique. La R32 GT-R a remporté les 29 courses du championnat japonais Groupe A auxquelles elle a participé entre 1990 et 1993.",
+  "limiti": "Avec l'équipage mobile d'origine, la limite indicative est de 450–500 CV. Au-delà, il faut un entraînement de pompe à huile renforcé, des bielles forgées et des turbos à roues de turbine en acier. Les moteurs de course dépassent 1000 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Indirecte, six papillons individuels",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Collier d'entraînement de la pompe à huile, qui casse surtout avec un rupteur relevé",
+   "Lubrification de la distribution arrière à très haut régime",
+   "Turbos à roues de turbine en céramique, fragiles au-delà de la pression d'origine"
+  ],
+  "curiosita": [
+   "La puissance déclarée de 280 CV respectait l'accord volontaire entre constructeurs japonais ; les mesures au banc sont souvent supérieures.",
+   "La pompe à huile est entraînée directement par le vilebrequin au moyen d'un collier : au-delà de 8000 tr/min, c'est le point de rupture le plus fréquent."
+  ],
+  "versioni": [
+   {
+    "nota": "Né pour l'homologation en Groupe A"
+   },
+   {},
+   {
+    "nota": "Roues de turbine en acier/céramique selon la version"
+   },
+   {
+    "nota": "RB-X GT2 2,8 litres, série très limitée"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "courses gagnées par la R32 GT-R dans le championnat japonais Groupe A",
+    "valore": "29 sur 29"
+   },
+   {
+    "testo": "papillons individuels",
+    "valore": "6"
+   },
+   {
+    "testo": "choisis pour la classe jusqu'à 4,5 litres avec le coefficient turbo de 1,7",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Collier de pompe à huile et lubrification de la culasse critiques à haut régime."
+  }
+ },
+ "cs": {
+  "storia": "Navržen pro homologaci skupiny A: zdvihový objem 2568 cc vynásobený turbokoeficientem 1,7 řadí vůz do třídy do 4,5 litru. Litinový blok motoru, hliníková hlava válců DOHC se 24 ventily, šest samostatných škrticích klapek a dvě paralelní turbodmychadla s keramickými turbínovými koly. R32 GT-R vyhrála všech 29 závodů japonského šampionátu skupiny A, kterých se v letech 1990 až 1993 zúčastnila.",
+  "limiti": "Se sériovými vnitřními díly je orientační limit 450–500 CV. Nad tuto hranici je třeba zesílený pohon olejového čerpadla, kované ojnice a turbodmychadla s ocelovými turbínovými koly. Závodní motory překonávají 1000 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé, šest samostatných škrticích klapek",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Unášecí límec olejového čerpadla, který praská hlavně při zvýšeném omezovači otáček",
+   "Mazání zadní části ventilového rozvodu při velmi vysokých otáčkách",
+   "Turbodmychadla s keramickými turbínovými koly, křehká nad sériovým plnicím tlakem"
+  ],
+  "curiosita": [
+   "Deklarovaný výkon 280 CV odpovídal dobrovolné dohodě japonských výrobců; měření na válcové zkušebně často vycházejí vyšší.",
+   "Olejové čerpadlo je poháněno přímo klikovým hřídelem přes límec: nad 8000 ot/min je to nejčastější místo poruchy."
+  ],
+  "versioni": [
+   {
+    "nota": "Vznikl pro homologaci skupiny A"
+   },
+   {},
+   {
+    "nota": "Ocelová/keramická turbínová kola podle verze"
+   },
+   {
+    "nota": "RB-X GT2 2,8 litru, velmi omezená série"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "závodů vyhraných R32 GT-R v japonském šampionátu skupiny A",
+    "valore": "29 z 29"
+   },
+   {
+    "testo": "samostatných škrticích klapek",
+    "valore": "6"
+   },
+   {
+    "testo": "zvoleno pro třídu do 4,5 litru s turbokoeficientem 1,7",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Límec olejového čerpadla a mazání hlavy válců jsou kritické při vysokých otáčkách."
+  }
+ }
+}

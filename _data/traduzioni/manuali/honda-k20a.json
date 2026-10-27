@@ -1,0 +1,129 @@
+{
+ "_source_hash": "c4c5250243a9b4d32aee44d4e0e1dbfa43363d791df95d35afedf850dd0d5630",
+ "en": {
+  "storia": "The K family replaces the B series with a timing chain drive and i-VTEC: VTEC on the valves plus continuously variable valve timing (VTC) on the intake camshaft, with up to 50° of adjustment. Aluminium cylinder block with cast-iron cylinder liners, and no balance shafts on the 2.0. The Type R versions have an 11.5:1 compression ratio and a rev limiter above 8000 rpm.",
+  "limiti": "With stock internals and conservative mapping it withstands turbo builds of around 400 CV. Higher outputs require forged connecting rods and pistons.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, i-VTEC (VTEC + VTC)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "11.0–11.7:1",
+  "punti_deboli": [
+   "Wear of the exhaust camshaft lobes on some versions",
+   "Chain tensioner to be checked at high mileage",
+   "Valve cover gasket and VTC actuator"
+  ],
+  "curiosita": [
+   "The exhaust camshaft uses VTEC profiles only on the Type R versions; the economy versions have VTEC on the intake side only."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC plus continuously variable intake valve timing",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "in the Civic Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "rpm at the rev limiter on the Type R versions",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust; exhaust lobe wear on some versions."
+  }
+ },
+ "fr": {
+  "storia": "La famille K remplace la série B avec une distribution par chaîne et l'i-VTEC : VTEC sur les soupapes plus calage variable continu (VTC) sur l'arbre à cames d'admission, jusqu'à 50° de variation. Bloc-moteur en aluminium avec chemises en fonte, sans arbres d'équilibrage sur le 2.0. Les versions Type R ont un taux de compression de 11,5:1 et un rupteur au-delà de 8000 tr/min.",
+  "limiti": "Avec l'équipage mobile d'origine et une cartographie prudente, il supporte des préparations turbo autour de 400 CV. Au-delà, il faut des bielles et des pistons forgés.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, i-VTEC (VTEC + VTC)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Usure des cames de l'arbre d'échappement sur certaines versions",
+   "Tendeur de chaîne à contrôler à kilométrage élevé",
+   "Joint de couvre-culasse et actionneur VTC"
+  ],
+  "curiosita": [
+   "L'arbre à cames d'échappement n'utilise des profils VTEC que sur les versions Type R ; les versions économiques n'ont le VTEC qu'à l'admission."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC plus calage variable continu à l'admission",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "dans la Civic Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "tr/min au rupteur sur les versions Type R",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robuste ; usure des cames d'échappement sur certaines versions."
+  }
+ },
+ "cs": {
+  "storia": "Rodina K nahrazuje řadu B, má rozvod řetězem a i-VTEC: VTEC na ventilech a k tomu plynule proměnné časování ventilů (VTC) na sacím vačkovém hřídeli s rozsahem až 50°. Hliníkový blok motoru s litinovými vložkami válců, verze 2.0 nemá vyvažovací hřídele. Verze Type R mají kompresní poměr 11,5:1 a omezovač otáček nad 8000 ot/min.",
+  "limiti": "Se sériovými vnitřními díly a opatrným nastavením snese přeplňované úpravy kolem 400 CV. Pro vyšší výkony jsou nutné kované ojnice a písty.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, i-VTEC (VTEC + VTC)",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Opotřebení vaček výfukového vačkového hřídele u některých verzí",
+   "Napínák řetězu je třeba kontrolovat při vysokém nájezdu",
+   "Těsnění víka ventilů a akční člen VTC"
+  ],
+  "curiosita": [
+   "Výfukový vačkový hřídel má profily VTEC jen u verzí Type R; úsporné verze mají VTEC pouze na sání."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC a plynule proměnné časování sacích ventilů",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "v Civicu Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "ot/min na omezovači otáček u verzí Type R",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní; u některých verzí opotřebení výfukových vaček."
+  }
+ }
+}

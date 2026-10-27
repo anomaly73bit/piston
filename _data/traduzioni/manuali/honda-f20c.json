@@ -1,0 +1,141 @@
+{
+ "_source_hash": "5c7ee4e41dd7b51201ba32761306a85ec984b9a84bc939274a7f33b70e831593",
+ "en": {
+  "storia": "Developed for the Honda S2000 (1999). FRM cylinder liners (metal fibres in an aluminium matrix) integrated into the cylinder block, chromium-molybdenum steel connecting rods, forged pistons. With 125 CV/litre it was for several years the production naturally aspirated engine with the highest specific output. In 2004 the F22C1 version lengthens the stroke to 90.7 mm and lowers the rev limiter to 8000 rpm.",
+  "limiti": "With a positive-displacement supercharger 350–400 CV can be reached; the practical limit is the stock connecting rods.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, VTEC",
+  "blocco": "Aluminium with FRM liners",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "11.0–11.7:1",
+  "punti_deboli": [
+   "Oil consumption if often run at the rev limiter: check the level frequently",
+   "Chain tensioner and valve clearance",
+   "Over-revving from a missed downshift on used examples: check the over-rev log in the ECU"
+  ],
+  "curiosita": [
+   "The rev limiter of the 2.0-litre versions is at 9000 rpm; the 2.2-litre F22C1 lowers it to 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Rev limiter at 9000 rpm"
+   },
+   {},
+   {
+    "nota": "2157 cc, longer stroke, rev limiter at 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "for years the highest figure among production naturally aspirated engines",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter on the 2.0 versions",
+    "valore": "9000"
+   },
+   {
+    "testo": "liners made of metal fibres in an aluminium matrix",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust; oil consumption under hard use and risk of over-revving on used examples."
+  }
+ },
+ "fr": {
+  "storia": "Développé pour la Honda S2000 (1999). Chemises en FRM (fibres métalliques dans une matrice d'aluminium) intégrées au bloc-moteur, bielles en acier au chrome-molybdène, pistons forgés. Avec 125 CV/litre, il a été pendant plusieurs années le moteur atmosphérique de série à la puissance spécifique la plus élevée. En 2004, la version F22C1 allonge la course à 90,7 mm et abaisse le rupteur à 8000 tr/min.",
+  "limiti": "Avec un compresseur volumétrique, on atteint 350–400 CV ; la limite pratique est constituée par les bielles d'origine.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, VTEC",
+  "blocco": "Aluminium avec chemises FRM",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Consommation d'huile en cas d'usage fréquent au rupteur : contrôler souvent le niveau",
+   "Tendeur de chaîne et jeu aux soupapes",
+   "Surrégime dû à un mauvais rétrogradage sur les occasions : vérifier l'historique des surrégimes dans le calculateur"
+  ],
+  "curiosita": [
+   "Le rupteur des versions 2,0 litres est à 9000 tr/min ; le F22C1 de 2,2 litres l'abaisse à 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Rupteur à 9000 tr/min"
+   },
+   {},
+   {
+    "nota": "2157 cc, course allongée, rupteur à 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pendant des années la valeur la plus élevée parmi les atmosphériques de série",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur sur les versions 2.0",
+    "valore": "9000"
+   },
+   {
+    "testo": "chemises en fibres métalliques dans une matrice d'aluminium",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robuste ; consommation d'huile en usage intensif et risque de surrégime sur les occasions."
+  }
+ },
+ "cs": {
+  "storia": "Vyvinut pro Hondu S2000 (1999). Vložky válců z FRM (kovová vlákna v hliníkové matrici) integrované do bloku motoru, ojnice z chrom-molybdenové oceli, kované písty. Se 125 CV/litr byl několik let sériovým atmosférickým motorem s nejvyšším měrným výkonem. V roce 2004 verze F22C1 prodlužuje zdvih na 90,7 mm a snižuje omezovač otáček na 8000 ot/min.",
+  "limiti": "S objemovým kompresorem lze dosáhnout 350–400 CV; praktickým limitem jsou sériové ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, VTEC",
+  "blocco": "Hliník s vložkami FRM",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Spotřeba oleje při častém provozu na omezovači otáček: hladinu kontrolovat často",
+   "Napínák řetězu a ventilová vůle",
+   "Přetočení motoru při chybném podřazení u ojetých kusů: zkontrolovat záznam přetočení v řídicí jednotce"
+  ],
+  "curiosita": [
+   "Omezovač otáček verzí 2,0 litru je na 9000 ot/min; verze F22C1 s 2,2 litru jej snižuje na 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Omezovač otáček na 9000 ot/min"
+   },
+   {},
+   {
+    "nota": "2157 cc, prodloužený zdvih, omezovač otáček na 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "po léta nejvyšší hodnota mezi sériovými atmosférickými motory",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "ot/min na omezovači otáček u verzí 2.0",
+    "valore": "9000"
+   },
+   {
+    "testo": "vložky z kovových vláken v hliníkové matrici",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní; spotřeba oleje při intenzivním provozu a riziko přetočení u ojetých kusů."
+  }
+ }
+}

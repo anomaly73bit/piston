@@ -50,6 +50,252 @@
   "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
   "_complete": true
  },
+ "nissan-rb26dett": {
+  "storia": "Conçu pour l'homologation en Groupe A : la cylindrée de 2568 cc, multipliée par le coefficient turbo de 1,7, place la voiture dans la classe jusqu'à 4,5 litres. Bloc-moteur en fonte, culasse en aluminium à double arbre à cames et 24 soupapes, six papillons individuels et deux turbos en parallèle à roues de turbine en céramique. La R32 GT-R a remporté les 29 courses du championnat japonais Groupe A auxquelles elle a participé entre 1990 et 1993.",
+  "limiti": "Avec l'équipage mobile d'origine, la limite indicative est de 450–500 CV. Au-delà, il faut un entraînement de pompe à huile renforcé, des bielles forgées et des turbos à roues de turbine en acier. Les moteurs de course dépassent 1000 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Indirecte, six papillons individuels",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Collier d'entraînement de la pompe à huile, qui casse surtout avec un rupteur relevé",
+   "Lubrification de la distribution arrière à très haut régime",
+   "Turbos à roues de turbine en céramique, fragiles au-delà de la pression d'origine"
+  ],
+  "curiosita": [
+   "La puissance déclarée de 280 CV respectait l'accord volontaire entre constructeurs japonais ; les mesures au banc sont souvent supérieures.",
+   "La pompe à huile est entraînée directement par le vilebrequin au moyen d'un collier : au-delà de 8000 tr/min, c'est le point de rupture le plus fréquent."
+  ],
+  "versioni": [
+   {
+    "nota": "Né pour l'homologation en Groupe A"
+   },
+   {},
+   {
+    "nota": "Roues de turbine en acier/céramique selon la version"
+   },
+   {
+    "nota": "RB-X GT2 2,8 litres, série très limitée"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "courses gagnées par la R32 GT-R dans le championnat japonais Groupe A",
+    "valore": "29 sur 29"
+   },
+   {
+    "testo": "papillons individuels",
+    "valore": "6"
+   },
+   {
+    "testo": "choisis pour la classe jusqu'à 4,5 litres avec le coefficient turbo de 1,7",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Collier de pompe à huile et lubrification de la culasse critiques à haut régime."
+  },
+  "_source_hash": "46318656c6b642af2a02502754e4647025708ecc6826e8f00144fe735373f0ea",
+  "_complete": true
+ },
+ "honda-b16": {
+  "storia": "Premier moteur de série doté du VTEC (1989) : chaque paire de soupapes dispose de deux profils de came, pour les bas et les hauts régimes, sélectionnés par un pion hydraulique qui solidarise les culbuteurs entre 5000 et 6000 tr/min. Rapport course/alésage de 0,96 et rupteur au-delà de 8000 tr/min. La version B16B de la Civic Type R EK9 atteint 185 CV, soit 116 CV/litre.",
+  "limiti": "En préparation atmosphérique (arbres à cames, admission, échappement, gestion moteur), on dépasse 200 CV. En turbo, le bloc d'origine supporte en général 250–300 CV avec une cartographie adaptée ; au-delà, il faut des chemises et des bielles renforcées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie, VTEC",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,2–10,8:1",
+  "punti_deboli": [
+   "Réglage périodique du jeu aux soupapes (poussoirs mécaniques)",
+   "Consommation d'huile sur les exemplaires longtemps poussés à haut régime",
+   "Joints du solénoïde VTEC et capteur de pression d'huile"
+  ],
+  "curiosita": [
+   "Le passage au profil haut régime dépend du régime, de la charge, de la vitesse et de la température d'huile."
+  ],
+  "versioni": [
+   {
+    "nota": "Premier moteur VTEC de série"
+   },
+   {
+    "nota": "Version européenne"
+   },
+   {
+    "nota": "Plus de 115 CV/litre sans turbo"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "premier moteur de série à double profil de came (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "dans le B16B de la Civic Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel ; nécessite le réglage du jeu aux soupapes."
+  },
+  "_source_hash": "7938738d3bb20fdb07e22f4ff4762f433c1b0ff8374824143fc038974b8dd73f",
+  "_complete": true
+ },
+ "honda-k20a": {
+  "storia": "La famille K remplace la série B avec une distribution par chaîne et l'i-VTEC : VTEC sur les soupapes plus calage variable continu (VTC) sur l'arbre à cames d'admission, jusqu'à 50° de variation. Bloc-moteur en aluminium avec chemises en fonte, sans arbres d'équilibrage sur le 2.0. Les versions Type R ont un taux de compression de 11,5:1 et un rupteur au-delà de 8000 tr/min.",
+  "limiti": "Avec l'équipage mobile d'origine et une cartographie prudente, il supporte des préparations turbo autour de 400 CV. Au-delà, il faut des bielles et des pistons forgés.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, i-VTEC (VTEC + VTC)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Usure des cames de l'arbre d'échappement sur certaines versions",
+   "Tendeur de chaîne à contrôler à kilométrage élevé",
+   "Joint de couvre-culasse et actionneur VTC"
+  ],
+  "curiosita": [
+   "L'arbre à cames d'échappement n'utilise des profils VTEC que sur les versions Type R ; les versions économiques n'ont le VTEC qu'à l'admission."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC plus calage variable continu à l'admission",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "dans la Civic Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "tr/min au rupteur sur les versions Type R",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robuste ; usure des cames d'échappement sur certaines versions."
+  },
+  "_source_hash": "c4c5250243a9b4d32aee44d4e0e1dbfa43363d791df95d35afedf850dd0d5630",
+  "_complete": true
+ },
+ "honda-f20c": {
+  "storia": "Développé pour la Honda S2000 (1999). Chemises en FRM (fibres métalliques dans une matrice d'aluminium) intégrées au bloc-moteur, bielles en acier au chrome-molybdène, pistons forgés. Avec 125 CV/litre, il a été pendant plusieurs années le moteur atmosphérique de série à la puissance spécifique la plus élevée. En 2004, la version F22C1 allonge la course à 90,7 mm et abaisse le rupteur à 8000 tr/min.",
+  "limiti": "Avec un compresseur volumétrique, on atteint 350–400 CV ; la limite pratique est constituée par les bielles d'origine.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, VTEC",
+  "blocco": "Aluminium avec chemises FRM",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Consommation d'huile en cas d'usage fréquent au rupteur : contrôler souvent le niveau",
+   "Tendeur de chaîne et jeu aux soupapes",
+   "Surrégime dû à un mauvais rétrogradage sur les occasions : vérifier l'historique des surrégimes dans le calculateur"
+  ],
+  "curiosita": [
+   "Le rupteur des versions 2,0 litres est à 9000 tr/min ; le F22C1 de 2,2 litres l'abaisse à 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Rupteur à 9000 tr/min"
+   },
+   {},
+   {
+    "nota": "2157 cc, course allongée, rupteur à 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pendant des années la valeur la plus élevée parmi les atmosphériques de série",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur sur les versions 2.0",
+    "valore": "9000"
+   },
+   {
+    "testo": "chemises en fibres métalliques dans une matrice d'aluminium",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robuste ; consommation d'huile en usage intensif et risque de surrégime sur les occasions."
+  },
+  "_source_hash": "5c7ee4e41dd7b51201ba32761306a85ec984b9a84bc939274a7f33b70e831593",
+  "_complete": true
+ },
+ "toyota-4a-ge": {
+  "storia": "Double arbre à cames à 16 soupapes dont la culasse a été développée avec Yamaha, monté à partir de 1983 sur la Corolla AE86 et la MR2. En 1991, il passe à 5 soupapes par cylindre (trois à l'admission, deux à l'échappement) et en 1995 aux papillons individuels. Le bloc-moteur en fonte est commun au 4A-F de série.",
+  "limiti": "Adapté aux préparations atmosphériques. Au-delà de 8500 tr/min, les bielles d'origine deviennent la limite.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint (papillons individuels sur les 20v)",
+  "compressione": "9,4–11,0:1",
+  "punti_deboli": [
+   "Courroie de distribution (les 20v sont des moteurs à interférence)",
+   "Vilebrequin « à col fin » des premières versions à très haut régime"
+  ],
+  "curiosita": [
+   "Des versions de course ont été utilisées en Formule 3 et en Formule Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Valeurs brutes JDM"
+   },
+   {
+    "nota": "Compresseur volumétrique, MR2 et Corolla"
+   },
+   {
+    "nota": "Cinq soupapes par cylindre"
+   },
+   {
+    "nota": "Papillons individuels"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "par cylindre sur les versions 20v à partir de 1991",
+    "valore": "5 soupapes"
+   },
+   {
+    "testo": "développement de la culasse",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "application la plus connue",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; courroie sur moteur à interférence pour les 20v."
+  },
+  "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "République tchèque",
   "alimentazione": "Essence",

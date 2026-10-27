@@ -1,0 +1,153 @@
+{
+ "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
+ "en": {
+  "storia": "Twin-cam 16-valve engine whose cylinder head was developed with Yamaha, fitted from 1983 to the Corolla AE86 and MR2. In 1991 it moved to 5 valves per cylinder (three intake, two exhaust) and in 1995 to individual throttle bodies. The cast-iron cylinder block is shared with the production 4A-F.",
+  "limiti": "Suited to naturally aspirated tuning. Above 8500 rpm the stock connecting rods become the limit.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection (individual throttle bodies on the 20v)",
+  "compressione": "9.4–11.0:1",
+  "punti_deboli": [
+   "Timing belt (the 20v versions are interference engines)",
+   "'Thin-neck' crankshaft on early versions at very high engine speeds"
+  ],
+  "curiosita": [
+   "Racing versions were used in Formula 3 and Formula Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Gross JDM figures"
+   },
+   {
+    "nota": "Positive-displacement supercharger, MR2 and Corolla"
+   },
+   {
+    "nota": "Five valves per cylinder"
+   },
+   {
+    "nota": "Individual throttle bodies"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "per cylinder on the 20v versions from 1991",
+    "valore": "5 valves"
+   },
+   {
+    "testo": "cylinder head development",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "best-known application",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; interference timing belt on the 20v."
+  }
+ },
+ "fr": {
+  "storia": "Double arbre à cames à 16 soupapes dont la culasse a été développée avec Yamaha, monté à partir de 1983 sur la Corolla AE86 et la MR2. En 1991, il passe à 5 soupapes par cylindre (trois à l'admission, deux à l'échappement) et en 1995 aux papillons individuels. Le bloc-moteur en fonte est commun au 4A-F de série.",
+  "limiti": "Adapté aux préparations atmosphériques. Au-delà de 8500 tr/min, les bielles d'origine deviennent la limite.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint (papillons individuels sur les 20v)",
+  "compressione": "9,4–11,0:1",
+  "punti_deboli": [
+   "Courroie de distribution (les 20v sont des moteurs à interférence)",
+   "Vilebrequin « à col fin » des premières versions à très haut régime"
+  ],
+  "curiosita": [
+   "Des versions de course ont été utilisées en Formule 3 et en Formule Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Valeurs brutes JDM"
+   },
+   {
+    "nota": "Compresseur volumétrique, MR2 et Corolla"
+   },
+   {
+    "nota": "Cinq soupapes par cylindre"
+   },
+   {
+    "nota": "Papillons individuels"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "par cylindre sur les versions 20v à partir de 1991",
+    "valore": "5 soupapes"
+   },
+   {
+    "testo": "développement de la culasse",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "application la plus connue",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; courroie sur moteur à interférence pour les 20v."
+  }
+ },
+ "cs": {
+  "storia": "Šestnáctiventilový motor DOHC, jehož hlava válců vznikla ve spolupráci s Yamahou, montovaný od roku 1983 do Corolly AE86 a MR2. V roce 1991 přešel na 5 ventilů na válec (tři sací, dva výfukové) a v roce 1995 na samostatné škrticí klapky. Litinový blok motoru je společný se sériovým 4A-F.",
+  "limiti": "Vhodný pro úpravy atmosférického motoru. Nad 8500 ot/min se limitem stávají sériové ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování (samostatné škrticí klapky u verzí 20v)",
+  "compressione": "9,4–11,0:1",
+  "punti_deboli": [
+   "Rozvodový řemen (verze 20v jsou motory s kolizí ventilů a pístů)",
+   "Klikový hřídel s „tenkým krkem“ u prvních verzí při velmi vysokých otáčkách"
+  ],
+  "curiosita": [
+   "Závodní verze se používaly ve Formuli 3 a Formuli Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Hrubé hodnoty JDM"
+   },
+   {
+    "nota": "Objemový kompresor, MR2 a Corolla"
+   },
+   {
+    "nota": "Pět ventilů na válec"
+   },
+   {
+    "nota": "Samostatné škrticí klapky"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "na válec u verzí 20v od roku 1991",
+    "valore": "5 ventilů"
+   },
+   {
+    "testo": "vývoj hlavy válců",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "nejznámější použití",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; u verzí 20v řemen na motoru s kolizí ventilů a pístů."
+  }
+ }
+}

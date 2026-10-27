@@ -50,6 +50,252 @@
   "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
   "_complete": true
  },
+ "nissan-rb26dett": {
+  "storia": "Designed for Group A homologation: the 2568 cc displacement, multiplied by the 1.7 turbo coefficient, places the car in the class up to 4.5 litres. Cast-iron block, aluminium twin-cam 24-valve cylinder head, six individual throttle bodies and two parallel turbochargers with ceramic turbine wheels. The R32 GT-R won all 29 races of the Japanese Group A championship it entered between 1990 and 1993.",
+  "limiti": "With stock internals the indicative limit is 450–500 CV. Beyond that, a reinforced oil pump drive, forged connecting rods and turbochargers with steel turbine wheels are needed. Racing units exceed 1000 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Port injection, six individual throttle bodies",
+  "compressione": "8.5:1",
+  "punti_deboli": [
+   "Oil pump drive collar, which breaks especially with a raised rev limiter",
+   "Lubrication of the rear valve train at very high engine speeds",
+   "Turbochargers with ceramic turbine wheels, fragile above stock boost pressure"
+  ],
+  "curiosita": [
+   "The declared output of 280 CV complied with the voluntary agreement among Japanese manufacturers; dyno measurements are often higher.",
+   "The oil pump is driven directly by the crankshaft through a collar: above 8000 rpm it is the most frequent point of failure."
+  ],
+  "versioni": [
+   {
+    "nota": "Created for Group A homologation"
+   },
+   {},
+   {
+    "nota": "Steel/ceramic turbine wheels depending on version"
+   },
+   {
+    "nota": "RB-X GT2 2.8 litres, very limited series"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "races won by the R32 GT-R in the Japanese Group A championship",
+    "valore": "29 of 29"
+   },
+   {
+    "testo": "individual throttle bodies",
+    "valore": "6"
+   },
+   {
+    "testo": "chosen for the class up to 4.5 litres with the 1.7 turbo coefficient",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Oil pump collar and cylinder head lubrication are critical at high engine speeds."
+  },
+  "_source_hash": "46318656c6b642af2a02502754e4647025708ecc6826e8f00144fe735373f0ea",
+  "_complete": true
+ },
+ "honda-b16": {
+  "storia": "First production engine with VTEC (1989): each pair of valves has two cam profiles, for low and high engine speeds, selected by a hydraulic pin that locks the rocker arms together between 5000 and 6000 rpm. Stroke-to-bore ratio of 0.96 and rev limiter above 8000 rpm. The B16B version in the Civic Type R EK9 reaches 185 CV, 116 CV/litre.",
+  "limiti": "Naturally aspirated tuning (camshafts, intake, exhaust, engine management) exceeds 200 CV. With a turbo the stock block generally withstands 250–300 CV with suitable mapping; beyond that, reinforced cylinder liners and connecting rods are needed.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC, VTEC",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.2–10.8:1",
+  "punti_deboli": [
+   "Periodic valve clearance adjustment (mechanical tappets)",
+   "Oil consumption on examples driven hard at high engine speeds for long periods",
+   "VTEC solenoid gaskets and oil pressure sensor"
+  ],
+  "curiosita": [
+   "The switch to the high-speed profile depends on engine speed, load, vehicle speed and oil temperature."
+  ],
+  "versioni": [
+   {
+    "nota": "First production VTEC engine"
+   },
+   {
+    "nota": "European version"
+   },
+   {
+    "nota": "Over 115 CV/litre without a turbo"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "first production engine with a dual cam profile (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "in the B16B of the Civic Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No structural defects; requires valve clearance adjustment."
+  },
+  "_source_hash": "7938738d3bb20fdb07e22f4ff4762f433c1b0ff8374824143fc038974b8dd73f",
+  "_complete": true
+ },
+ "honda-k20a": {
+  "storia": "The K family replaces the B series with a timing chain drive and i-VTEC: VTEC on the valves plus continuously variable valve timing (VTC) on the intake camshaft, with up to 50° of adjustment. Aluminium cylinder block with cast-iron cylinder liners, and no balance shafts on the 2.0. The Type R versions have an 11.5:1 compression ratio and a rev limiter above 8000 rpm.",
+  "limiti": "With stock internals and conservative mapping it withstands turbo builds of around 400 CV. Higher outputs require forged connecting rods and pistons.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, i-VTEC (VTEC + VTC)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "11.0–11.7:1",
+  "punti_deboli": [
+   "Wear of the exhaust camshaft lobes on some versions",
+   "Chain tensioner to be checked at high mileage",
+   "Valve cover gasket and VTC actuator"
+  ],
+  "curiosita": [
+   "The exhaust camshaft uses VTEC profiles only on the Type R versions; the economy versions have VTEC on the intake side only."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC plus continuously variable intake valve timing",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "in the Civic Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "rpm at the rev limiter on the Type R versions",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust; exhaust lobe wear on some versions."
+  },
+  "_source_hash": "c4c5250243a9b4d32aee44d4e0e1dbfa43363d791df95d35afedf850dd0d5630",
+  "_complete": true
+ },
+ "honda-f20c": {
+  "storia": "Developed for the Honda S2000 (1999). FRM cylinder liners (metal fibres in an aluminium matrix) integrated into the cylinder block, chromium-molybdenum steel connecting rods, forged pistons. With 125 CV/litre it was for several years the production naturally aspirated engine with the highest specific output. In 2004 the F22C1 version lengthens the stroke to 90.7 mm and lowers the rev limiter to 8000 rpm.",
+  "limiti": "With a positive-displacement supercharger 350–400 CV can be reached; the practical limit is the stock connecting rods.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, VTEC",
+  "blocco": "Aluminium with FRM liners",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "11.0–11.7:1",
+  "punti_deboli": [
+   "Oil consumption if often run at the rev limiter: check the level frequently",
+   "Chain tensioner and valve clearance",
+   "Over-revving from a missed downshift on used examples: check the over-rev log in the ECU"
+  ],
+  "curiosita": [
+   "The rev limiter of the 2.0-litre versions is at 9000 rpm; the 2.2-litre F22C1 lowers it to 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Rev limiter at 9000 rpm"
+   },
+   {},
+   {
+    "nota": "2157 cc, longer stroke, rev limiter at 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "for years the highest figure among production naturally aspirated engines",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter on the 2.0 versions",
+    "valore": "9000"
+   },
+   {
+    "testo": "liners made of metal fibres in an aluminium matrix",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust; oil consumption under hard use and risk of over-revving on used examples."
+  },
+  "_source_hash": "5c7ee4e41dd7b51201ba32761306a85ec984b9a84bc939274a7f33b70e831593",
+  "_complete": true
+ },
+ "toyota-4a-ge": {
+  "storia": "Twin-cam 16-valve engine whose cylinder head was developed with Yamaha, fitted from 1983 to the Corolla AE86 and MR2. In 1991 it moved to 5 valves per cylinder (three intake, two exhaust) and in 1995 to individual throttle bodies. The cast-iron cylinder block is shared with the production 4A-F.",
+  "limiti": "Suited to naturally aspirated tuning. Above 8500 rpm the stock connecting rods become the limit.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection (individual throttle bodies on the 20v)",
+  "compressione": "9.4–11.0:1",
+  "punti_deboli": [
+   "Timing belt (the 20v versions are interference engines)",
+   "'Thin-neck' crankshaft on early versions at very high engine speeds"
+  ],
+  "curiosita": [
+   "Racing versions were used in Formula 3 and Formula Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Gross JDM figures"
+   },
+   {
+    "nota": "Positive-displacement supercharger, MR2 and Corolla"
+   },
+   {
+    "nota": "Five valves per cylinder"
+   },
+   {
+    "nota": "Individual throttle bodies"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "per cylinder on the 20v versions from 1991",
+    "valore": "5 valves"
+   },
+   {
+    "testo": "cylinder head development",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "best-known application",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; interference timing belt on the 20v."
+  },
+  "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Czech Republic",
   "alimentazione": "Petrol",

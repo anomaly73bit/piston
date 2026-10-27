@@ -1,0 +1,147 @@
+{
+ "_source_hash": "7938738d3bb20fdb07e22f4ff4762f433c1b0ff8374824143fc038974b8dd73f",
+ "en": {
+  "storia": "First production engine with VTEC (1989): each pair of valves has two cam profiles, for low and high engine speeds, selected by a hydraulic pin that locks the rocker arms together between 5000 and 6000 rpm. Stroke-to-bore ratio of 0.96 and rev limiter above 8000 rpm. The B16B version in the Civic Type R EK9 reaches 185 CV, 116 CV/litre.",
+  "limiti": "Naturally aspirated tuning (camshafts, intake, exhaust, engine management) exceeds 200 CV. With a turbo the stock block generally withstands 250–300 CV with suitable mapping; beyond that, reinforced cylinder liners and connecting rods are needed.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC, VTEC",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.2–10.8:1",
+  "punti_deboli": [
+   "Periodic valve clearance adjustment (mechanical tappets)",
+   "Oil consumption on examples driven hard at high engine speeds for long periods",
+   "VTEC solenoid gaskets and oil pressure sensor"
+  ],
+  "curiosita": [
+   "The switch to the high-speed profile depends on engine speed, load, vehicle speed and oil temperature."
+  ],
+  "versioni": [
+   {
+    "nota": "First production VTEC engine"
+   },
+   {
+    "nota": "European version"
+   },
+   {
+    "nota": "Over 115 CV/litre without a turbo"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "first production engine with a dual cam profile (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "in the B16B of the Civic Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No structural defects; requires valve clearance adjustment."
+  }
+ },
+ "fr": {
+  "storia": "Premier moteur de série doté du VTEC (1989) : chaque paire de soupapes dispose de deux profils de came, pour les bas et les hauts régimes, sélectionnés par un pion hydraulique qui solidarise les culbuteurs entre 5000 et 6000 tr/min. Rapport course/alésage de 0,96 et rupteur au-delà de 8000 tr/min. La version B16B de la Civic Type R EK9 atteint 185 CV, soit 116 CV/litre.",
+  "limiti": "En préparation atmosphérique (arbres à cames, admission, échappement, gestion moteur), on dépasse 200 CV. En turbo, le bloc d'origine supporte en général 250–300 CV avec une cartographie adaptée ; au-delà, il faut des chemises et des bielles renforcées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie, VTEC",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,2–10,8:1",
+  "punti_deboli": [
+   "Réglage périodique du jeu aux soupapes (poussoirs mécaniques)",
+   "Consommation d'huile sur les exemplaires longtemps poussés à haut régime",
+   "Joints du solénoïde VTEC et capteur de pression d'huile"
+  ],
+  "curiosita": [
+   "Le passage au profil haut régime dépend du régime, de la charge, de la vitesse et de la température d'huile."
+  ],
+  "versioni": [
+   {
+    "nota": "Premier moteur VTEC de série"
+   },
+   {
+    "nota": "Version européenne"
+   },
+   {
+    "nota": "Plus de 115 CV/litre sans turbo"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "premier moteur de série à double profil de came (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "dans le B16B de la Civic Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel ; nécessite le réglage du jeu aux soupapes."
+  }
+ },
+ "cs": {
+  "storia": "První sériový motor s VTEC (1989): každý pár ventilů má dva profily vaček, pro nízké a vysoké otáčky, volené hydraulickým čepem, který mezi 5000 a 6000 ot/min spojí vahadla. Poměr zdvihu a vrtání 0,96 a omezovač otáček nad 8000 ot/min. Verze B16B v Civicu Type R EK9 dosahuje 185 CV, tedy 116 CV/litr.",
+  "limiti": "Úpravami atmosférického motoru (vačkové hřídele, sání, výfuk, řídicí jednotka) lze překonat 200 CV. S turbodmychadlem sériový blok obvykle snese 250–300 CV při vhodném nastavení; nad tuto hranici jsou nutné zesílené vložky válců a ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem, VTEC",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "10,2–10,8:1",
+  "punti_deboli": [
+   "Pravidelné seřizování ventilové vůle (mechanická zdvihátka)",
+   "Spotřeba oleje u kusů dlouho provozovaných ve vysokých otáčkách",
+   "Těsnění solenoidu VTEC a snímač tlaku oleje"
+  ],
+  "curiosita": [
+   "Přepnutí na profil pro vysoké otáčky závisí na otáčkách, zatížení, rychlosti a teplotě oleje."
+  ],
+  "versioni": [
+   {
+    "nota": "První sériový motor VTEC"
+   },
+   {
+    "nota": "Evropská verze"
+   },
+   {
+    "nota": "Více než 115 CV/litr bez turbodmychadla"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "první sériový motor s dvojím profilem vaček (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "v motoru B16B Civicu Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "ot/min na omezovači otáček",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez konstrukčních vad; vyžaduje seřizování ventilové vůle."
+  }
+ }
+}

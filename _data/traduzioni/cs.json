@@ -50,6 +50,252 @@
   "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
   "_complete": true
  },
+ "nissan-rb26dett": {
+  "storia": "Navržen pro homologaci skupiny A: zdvihový objem 2568 cc vynásobený turbokoeficientem 1,7 řadí vůz do třídy do 4,5 litru. Litinový blok motoru, hliníková hlava válců DOHC se 24 ventily, šest samostatných škrticích klapek a dvě paralelní turbodmychadla s keramickými turbínovými koly. R32 GT-R vyhrála všech 29 závodů japonského šampionátu skupiny A, kterých se v letech 1990 až 1993 zúčastnila.",
+  "limiti": "Se sériovými vnitřními díly je orientační limit 450–500 CV. Nad tuto hranici je třeba zesílený pohon olejového čerpadla, kované ojnice a turbodmychadla s ocelovými turbínovými koly. Závodní motory překonávají 1000 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé, šest samostatných škrticích klapek",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Unášecí límec olejového čerpadla, který praská hlavně při zvýšeném omezovači otáček",
+   "Mazání zadní části ventilového rozvodu při velmi vysokých otáčkách",
+   "Turbodmychadla s keramickými turbínovými koly, křehká nad sériovým plnicím tlakem"
+  ],
+  "curiosita": [
+   "Deklarovaný výkon 280 CV odpovídal dobrovolné dohodě japonských výrobců; měření na válcové zkušebně často vycházejí vyšší.",
+   "Olejové čerpadlo je poháněno přímo klikovým hřídelem přes límec: nad 8000 ot/min je to nejčastější místo poruchy."
+  ],
+  "versioni": [
+   {
+    "nota": "Vznikl pro homologaci skupiny A"
+   },
+   {},
+   {
+    "nota": "Ocelová/keramická turbínová kola podle verze"
+   },
+   {
+    "nota": "RB-X GT2 2,8 litru, velmi omezená série"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "závodů vyhraných R32 GT-R v japonském šampionátu skupiny A",
+    "valore": "29 z 29"
+   },
+   {
+    "testo": "samostatných škrticích klapek",
+    "valore": "6"
+   },
+   {
+    "testo": "zvoleno pro třídu do 4,5 litru s turbokoeficientem 1,7",
+    "valore": "2568 cc"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Límec olejového čerpadla a mazání hlavy válců jsou kritické při vysokých otáčkách."
+  },
+  "_source_hash": "46318656c6b642af2a02502754e4647025708ecc6826e8f00144fe735373f0ea",
+  "_complete": true
+ },
+ "honda-b16": {
+  "storia": "První sériový motor s VTEC (1989): každý pár ventilů má dva profily vaček, pro nízké a vysoké otáčky, volené hydraulickým čepem, který mezi 5000 a 6000 ot/min spojí vahadla. Poměr zdvihu a vrtání 0,96 a omezovač otáček nad 8000 ot/min. Verze B16B v Civicu Type R EK9 dosahuje 185 CV, tedy 116 CV/litr.",
+  "limiti": "Úpravami atmosférického motoru (vačkové hřídele, sání, výfuk, řídicí jednotka) lze překonat 200 CV. S turbodmychadlem sériový blok obvykle snese 250–300 CV při vhodném nastavení; nad tuto hranici jsou nutné zesílené vložky válců a ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem, VTEC",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "10,2–10,8:1",
+  "punti_deboli": [
+   "Pravidelné seřizování ventilové vůle (mechanická zdvihátka)",
+   "Spotřeba oleje u kusů dlouho provozovaných ve vysokých otáčkách",
+   "Těsnění solenoidu VTEC a snímač tlaku oleje"
+  ],
+  "curiosita": [
+   "Přepnutí na profil pro vysoké otáčky závisí na otáčkách, zatížení, rychlosti a teplotě oleje."
+  ],
+  "versioni": [
+   {
+    "nota": "První sériový motor VTEC"
+   },
+   {
+    "nota": "Evropská verze"
+   },
+   {
+    "nota": "Více než 115 CV/litr bez turbodmychadla"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "první sériový motor s dvojím profilem vaček (1989)",
+    "valore": "VTEC"
+   },
+   {
+    "testo": "v motoru B16B Civicu Type R EK9",
+    "valore": "116 CV/l"
+   },
+   {
+    "testo": "ot/min na omezovači otáček",
+    "valore": "8400"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez konstrukčních vad; vyžaduje seřizování ventilové vůle."
+  },
+  "_source_hash": "7938738d3bb20fdb07e22f4ff4762f433c1b0ff8374824143fc038974b8dd73f",
+  "_complete": true
+ },
+ "honda-k20a": {
+  "storia": "Rodina K nahrazuje řadu B, má rozvod řetězem a i-VTEC: VTEC na ventilech a k tomu plynule proměnné časování ventilů (VTC) na sacím vačkovém hřídeli s rozsahem až 50°. Hliníkový blok motoru s litinovými vložkami válců, verze 2.0 nemá vyvažovací hřídele. Verze Type R mají kompresní poměr 11,5:1 a omezovač otáček nad 8000 ot/min.",
+  "limiti": "Se sériovými vnitřními díly a opatrným nastavením snese přeplňované úpravy kolem 400 CV. Pro vyšší výkony jsou nutné kované ojnice a písty.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, i-VTEC (VTEC + VTC)",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Opotřebení vaček výfukového vačkového hřídele u některých verzí",
+   "Napínák řetězu je třeba kontrolovat při vysokém nájezdu",
+   "Těsnění víka ventilů a akční člen VTC"
+  ],
+  "curiosita": [
+   "Výfukový vačkový hřídel má profily VTEC jen u verzí Type R; úsporné verze mají VTEC pouze na sání."
+  ],
+  "versioni": [
+   {},
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "VTEC a plynule proměnné časování sacích ventilů",
+    "valore": "i-VTEC"
+   },
+   {
+    "testo": "v Civicu Type R FD2",
+    "valore": "225 CV"
+   },
+   {
+    "testo": "ot/min na omezovači otáček u verzí Type R",
+    "valore": "8600"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní; u některých verzí opotřebení výfukových vaček."
+  },
+  "_source_hash": "c4c5250243a9b4d32aee44d4e0e1dbfa43363d791df95d35afedf850dd0d5630",
+  "_complete": true
+ },
+ "honda-f20c": {
+  "storia": "Vyvinut pro Hondu S2000 (1999). Vložky válců z FRM (kovová vlákna v hliníkové matrici) integrované do bloku motoru, ojnice z chrom-molybdenové oceli, kované písty. Se 125 CV/litr byl několik let sériovým atmosférickým motorem s nejvyšším měrným výkonem. V roce 2004 verze F22C1 prodlužuje zdvih na 90,7 mm a snižuje omezovač otáček na 8000 ot/min.",
+  "limiti": "S objemovým kompresorem lze dosáhnout 350–400 CV; praktickým limitem jsou sériové ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, VTEC",
+  "blocco": "Hliník s vložkami FRM",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "11,0–11,7:1",
+  "punti_deboli": [
+   "Spotřeba oleje při častém provozu na omezovači otáček: hladinu kontrolovat často",
+   "Napínák řetězu a ventilová vůle",
+   "Přetočení motoru při chybném podřazení u ojetých kusů: zkontrolovat záznam přetočení v řídicí jednotce"
+  ],
+  "curiosita": [
+   "Omezovač otáček verzí 2,0 litru je na 9000 ot/min; verze F22C1 s 2,2 litru jej snižuje na 8000."
+  ],
+  "versioni": [
+   {
+    "nota": "Omezovač otáček na 9000 ot/min"
+   },
+   {},
+   {
+    "nota": "2157 cc, prodloužený zdvih, omezovač otáček na 8000"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "po léta nejvyšší hodnota mezi sériovými atmosférickými motory",
+    "valore": "125 CV/l"
+   },
+   {
+    "testo": "ot/min na omezovači otáček u verzí 2.0",
+    "valore": "9000"
+   },
+   {
+    "testo": "vložky z kovových vláken v hliníkové matrici",
+    "valore": "FRM"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní; spotřeba oleje při intenzivním provozu a riziko přetočení u ojetých kusů."
+  },
+  "_source_hash": "5c7ee4e41dd7b51201ba32761306a85ec984b9a84bc939274a7f33b70e831593",
+  "_complete": true
+ },
+ "toyota-4a-ge": {
+  "storia": "Šestnáctiventilový motor DOHC, jehož hlava válců vznikla ve spolupráci s Yamahou, montovaný od roku 1983 do Corolly AE86 a MR2. V roce 1991 přešel na 5 ventilů na válec (tři sací, dva výfukové) a v roce 1995 na samostatné škrticí klapky. Litinový blok motoru je společný se sériovým 4A-F.",
+  "limiti": "Vhodný pro úpravy atmosférického motoru. Nad 8500 ot/min se limitem stávají sériové ojnice.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování (samostatné škrticí klapky u verzí 20v)",
+  "compressione": "9,4–11,0:1",
+  "punti_deboli": [
+   "Rozvodový řemen (verze 20v jsou motory s kolizí ventilů a pístů)",
+   "Klikový hřídel s „tenkým krkem“ u prvních verzí při velmi vysokých otáčkách"
+  ],
+  "curiosita": [
+   "Závodní verze se používaly ve Formuli 3 a Formuli Atlantic."
+  ],
+  "versioni": [
+   {
+    "nota": "Hrubé hodnoty JDM"
+   },
+   {
+    "nota": "Objemový kompresor, MR2 a Corolla"
+   },
+   {
+    "nota": "Pět ventilů na válec"
+   },
+   {
+    "nota": "Samostatné škrticí klapky"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "na válec u verzí 20v od roku 1991",
+    "valore": "5 ventilů"
+   },
+   {
+    "testo": "vývoj hlavy válců",
+    "valore": "Yamaha"
+   },
+   {
+    "testo": "nejznámější použití",
+    "valore": "AE86"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; u verzí 20v řemen na motoru s kolizí ventilů a pístů."
+  },
+  "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Česká republika",
   "alimentazione": "Benzín",
