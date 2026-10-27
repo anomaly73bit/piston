@@ -459,3 +459,18 @@ h3 { font-size: 1rem; font-weight: 600; }
 
 /* Clearly identify articles whose editorial translations are not yet complete. */
 .avviso-traduzione { margin: 1rem auto; max-width: 75rem; padding: .85rem 1.1rem; border: 1px solid #bca15c; border-radius: .45rem; background: #fff4d5; color: #493800; font-size: .94rem; }
+
+/* ---------- Testata su una riga: logo | menu | lingue ---------- */
+@media (min-width: 761px) {
+  .testata .riga { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; column-gap: 1.5rem; row-gap: .4rem; }
+  .testata .menu { flex-wrap: nowrap; justify-content: flex-end; gap: 1.1rem; min-width: 0; }
+  .testata .menu a { white-space: nowrap; }
+  .testata .lingue { justify-self: end; }
+}
+/* Schermi medi: il menu va sulla seconda riga, le lingue restano accanto al logo */
+@media (max-width: 1180px) {
+  .testata .riga { display: grid; grid-template-columns: auto auto; align-items: center; column-gap: 1rem; row-gap: .4rem; }
+  .testata .lingue { justify-self: end; margin-left: 0; }
+  .testata .menu { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; padding-bottom: .2rem; }
+  .testata .lingue { grid-column: 2; grid-row: 1; }
+}
