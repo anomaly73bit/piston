@@ -1,0 +1,159 @@
+{
+  "_source_hash": "def6beca9699bfd80243fef89413967f401ca04404968a1e8c11da6347f25b8e",
+  "en": {
+    "paese": "Russia",
+    "alimentazione": "Petrol",
+    "aspirazione": "Naturally aspirated",
+    "compressione": "8.5:1",
+    "distribuzione": "SOHC, duplex timing chain",
+    "blocco": "Cast iron",
+    "testa": "Aluminium",
+    "iniezione": "Weber or Ozon carburettor",
+    "in_breve": [
+      {
+        "valore": "1.569 cc",
+        "testo": "displacement obtained with a 79 mm bore and 80 mm stroke"
+      },
+      {
+        "valore": "8 valves",
+        "testo": "SOHC cylinder head with two valves per cylinder"
+      },
+      {
+        "valore": "1980",
+        "testo": "introduction of the Ozon carburettor in place of the Weber"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Standard carburetted configuration; 75 CV at 5400 rpm according to the vehicle specification."
+      },
+      {
+        "nota": "80 CV calibration documented for special applications; torque not confirmed."
+      }
+    ],
+    "storia": "The VAZ-2106 is a four-cylinder petrol engine derived from the classic VAZ family. It first appeared in limited numbers in the 2103 in 1975 and was subsequently fitted to the 2106 and 2107. Compared with earlier engines, the bore increased to 79 mm while the stroke remained 80 mm. It has a cast-iron block, an aluminium cylinder head and an overhead camshaft driven by a duplex chain. In 1980 the Weber carburettor was progressively replaced by the Ozon.",
+    "punti_deboli": [
+      "The lack of hydraulic lash adjusters requires valve-clearance adjustment; neglected adjustment can accelerate camshaft wear.",
+      "Oil leaks have been documented at the valve-cover gasket and crankshaft oil seals.",
+      "Failures of the thermostat, water pump or cooling fan can cause overheating and damage to the cylinder-head gasket."
+    ],
+    "limiti": "No verified tuning power threshold is available for the original internal components. Before increasing engine speed or modifying fuelling, check valve clearances, timing-chain condition, gasket sealing and the cooling system.",
+    "curiosita": [
+      "Displacement increased compared with the VAZ-2103 through a 79 mm bore while retaining the 80 mm stroke.",
+      "The VAZ-2121 engine fitted to the Niva is a separate variant and must not be confused with engine code VAZ-2106."
+    ],
+    "manutenzione": [
+      "Inspection and adjustment of valve clearances are specified every 10.000 km in the maintenance schedule reported by the technical source.",
+      "Check timing-chain noise and tension, possible oil leaks and cooling-system operation."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  },
+  "fr": {
+    "paese": "Russie",
+    "alimentazione": "Essence",
+    "aspirazione": "Atmosphérique",
+    "compressione": "8,5:1",
+    "distribuzione": "SOHC, chaîne de distribution double",
+    "blocco": "Fonte",
+    "testa": "Aluminium",
+    "iniezione": "Carburateur Weber ou Ozon",
+    "in_breve": [
+      {
+        "valore": "1.569 cc",
+        "testo": "cylindrée obtenue avec un alésage de 79 mm et une course de 80 mm"
+      },
+      {
+        "valore": "8 soupapes",
+        "testo": "culasse SOHC à deux soupapes par cylindre"
+      },
+      {
+        "valore": "1980",
+        "testo": "introduction du carburateur Ozon en remplacement du Weber"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Configuration de série à carburateur ; 75 CV à 5400 tr/min selon la fiche du véhicule."
+      },
+      {
+        "nota": "Réglage à 80 CV documenté pour des usages spéciaux ; couple non confirmé."
+      }
+    ],
+    "storia": "Le VAZ-2106 est un moteur essence à quatre cylindres dérivé de la famille classique VAZ. Il apparaît en petite série sur la 2103 en 1975, puis équipe les 2106 et 2107. Par rapport aux moteurs précédents, l'alésage passe à 79 mm tandis que la course reste de 80 mm. Le bloc est en fonte, la culasse en aluminium et l'arbre à cames en tête est entraîné par une chaîne double. En 1980, le carburateur Weber est progressivement remplacé par l'Ozon.",
+    "punti_deboli": [
+      "L'absence de rattrapage hydraulique du jeu impose un réglage du jeu aux soupapes ; son omission peut accélérer l'usure de l'arbre à cames.",
+      "Des fuites d'huile sont documentées au joint du couvre-culasse et aux joints d'étanchéité du vilebrequin.",
+      "Une défaillance du thermostat, de la pompe à eau ou du ventilateur peut entraîner une surchauffe et endommager le joint de culasse."
+    ],
+    "limiti": "Aucun seuil de puissance de préparation vérifié n'est disponible pour les pièces internes d'origine. Avant d'augmenter le régime ou de modifier l'alimentation, contrôler le jeu aux soupapes, la chaîne de distribution, l'étanchéité des joints et le circuit de refroidissement.",
+    "curiosita": [
+      "La cylindrée augmente par rapport au VAZ-2103 grâce à un alésage de 79 mm, tout en conservant la course de 80 mm.",
+      "Le moteur VAZ-2121 destiné à la Niva est une variante distincte et ne doit pas être confondu avec le code VAZ-2106."
+    ],
+    "manutenzione": [
+      "Le contrôle et le réglage du jeu aux soupapes sont indiqués tous les 10.000 km dans le tableau d'entretien cité par la source technique.",
+      "Contrôler le bruit et la tension de la chaîne, les éventuelles fuites d'huile et le fonctionnement du refroidissement."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  },
+  "cs": {
+    "paese": "Rusko",
+    "alimentazione": "Benzín",
+    "aspirazione": "Atmosférický",
+    "compressione": "8,5:1",
+    "distribuzione": "SOHC, dvouřadý rozvodový řetěz",
+    "blocco": "Litina",
+    "testa": "Hliník",
+    "iniezione": "Karburátor Weber nebo Ozon",
+    "in_breve": [
+      {
+        "valore": "1.569 cc",
+        "testo": "zdvihový objem při vrtání 79 mm a zdvihu 80 mm"
+      },
+      {
+        "valore": "8 ventilů",
+        "testo": "hlava SOHC se dvěma ventily na válec"
+      },
+      {
+        "valore": "1980",
+        "testo": "zavedení karburátoru Ozon místo typu Weber"
+      }
+    ],
+    "versioni": [
+      {
+        "nota": "Sériové provedení s karburátorem; 75 CV při 5400 ot/min podle technických údajů vozidla."
+      },
+      {
+        "nota": "Úprava na 80 CV doložená pro zvláštní použití; točivý moment nebyl potvrzen."
+      }
+    ],
+    "storia": "VAZ-2106 je čtyřválcový zážehový motor odvozený od klasické řady VAZ. V roce 1975 se v malém počtu objevil v modelu 2103 a později se montoval do vozů 2106 a 2107. Oproti starším motorům se vrtání zvětšilo na 79 mm při zachování zdvihu 80 mm. Motor má litinový blok, hliníkovou hlavu válců a vačkový hřídel v hlavě poháněný dvouřadým řetězem. V roce 1980 byl karburátor Weber postupně nahrazen typem Ozon.",
+    "punti_deboli": [
+      "Bez hydraulického vymezování vůle je nutné seřizovat ventilové vůle; zanedbání může urychlit opotřebení vačkového hřídele.",
+      "Jsou doloženy úniky oleje kolem těsnění víka ventilů a gufer klikového hřídele.",
+      "Poruchy termostatu, vodního čerpadla nebo ventilátoru chlazení mohou způsobit přehřátí a poškození těsnění hlavy válců."
+    ],
+    "limiti": "Pro původní vnitřní součásti není doložena ověřená hranice výkonu při úpravách. Před zvýšením otáček nebo změnou palivové soustavy je nutné zkontrolovat ventilové vůle, rozvodový řetěz, těsnost a chladicí systém.",
+    "curiosita": [
+      "Zdvihový objem se oproti VAZ-2103 zvětšil díky vrtání 79 mm při zachování zdvihu 80 mm.",
+      "Motor VAZ-2121 používaný v Nivě je samostatná varianta a nesmí se zaměňovat s kódem VAZ-2106."
+    ],
+    "manutenzione": [
+      "Kontrola a seřízení ventilových vůlí se podle servisní tabulky uvedené v technickém zdroji provádí každých 10.000 km.",
+      "Kontrolovat hluk a napnutí rozvodového řetězu, případné úniky oleje a funkci chlazení."
+    ],
+    "fonti": [
+      {},
+      {},
+      {}
+    ]
+  }
+}
