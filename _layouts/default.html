@@ -32,10 +32,12 @@
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
 </head>
 <body>
+  {%- if page.locale -%}{%- assign pref_lingua = '/' | append: page.locale -%}{%- assign url_base = page.url | remove_first: pref_lingua -%}{%- else -%}{%- assign pref_lingua = '' -%}{%- assign url_base = page.url -%}{%- endif -%}
+  {%- if url_base == '/404.html' -%}{%- assign url_base = '/' -%}{%- endif -%}
   <a class="salta" href="#contenuto">{% if page.locale == 'en' %}Skip to content{% elsif page.locale == 'fr' %}Aller au contenu{% elsif page.locale == 'cs' %}Přejít na obsah{% else %}Vai al contenuto{% endif %}</a>
   <header class="testata">
     <div class="riga">
-      <a class="marchio" href="{{ '/' | relative_url }}" aria-label="Piston, pagina iniziale">
+      <a class="marchio" href="{{ pref_lingua | append: '/' | relative_url }}" aria-label="Piston, pagina iniziale">
         <img class="marchio-icona" src="{{ '/assets/favicon.svg' | relative_url }}" width="42" height="42" alt="" aria-hidden="true">
         <span class="marchio-testo"><strong>PISTON</strong><small>ENGINE ENCYCLOPEDIA</small></span>
       </a>
@@ -50,14 +52,14 @@
         {% assign voci = "Catalogo|/,Costruttori|/costruttori/,Architetture|/architetture/,Cronologia|/cronologia/,Galleria|/galleria/,Confronta|/confronta/,Glossario|/glossario/" | split: "," %}
         {% endif %}
         {% for v in voci %}{% assign p = v | split: "|" %}
-        <a href="{% if page.locale and p[1] == '/' %}{{ '/' | append: page.locale | append: '/' | relative_url }}{% else %}{{ p[1] | relative_url }}{% endif %}"{% if page.url == p[1] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
+        <a href="{{ pref_lingua | append: p[1] | relative_url }}"{% if url_base == p[1] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
         {% endfor %}
       </nav>
       <nav class="lingue" aria-label="Lingua / Language / Jazyk / Langue">
-        <a href="{{ '/' | relative_url }}" lang="it"{% unless page.locale %} aria-current="page"{% endunless %}>IT</a>
-        <a href="{{ '/en/' | relative_url }}" lang="en"{% if page.locale == 'en' %} aria-current="page"{% endif %}>EN</a>
-        <a href="{{ '/cs/' | relative_url }}" lang="cs"{% if page.locale == 'cs' %} aria-current="page"{% endif %}>CZ</a>
-        <a href="{{ '/fr/' | relative_url }}" lang="fr"{% if page.locale == 'fr' %} aria-current="page"{% endif %}>FR</a>
+        <a href="{{ url_base | relative_url }}" lang="it"{% unless page.locale %} aria-current="page"{% endunless %}>IT</a>
+        <a href="{{ '/en' | append: url_base | relative_url }}" lang="en"{% if page.locale == 'en' %} aria-current="page"{% endif %}>EN</a>
+        <a href="{{ '/cs' | append: url_base | relative_url }}" lang="cs"{% if page.locale == 'cs' %} aria-current="page"{% endif %}>CZ</a>
+        <a href="{{ '/fr' | append: url_base | relative_url }}" lang="fr"{% if page.locale == 'fr' %} aria-current="page"{% endif %}>FR</a>
       </nav>
     </div>
   </header>
@@ -72,11 +74,10 @@
 {% elsif page.locale == 'fr' %}<strong>Piston</strong> présente {{ site.data.motori | size }} familles de moteurs de différentes époques. Les données publiques peuvent contenir des erreurs ; pour toute décision technique, consultez la documentation du constructeur.
 {% elsif page.locale == 'cs' %}<strong>Piston</strong> obsahuje {{ site.data.motori | size }} rodin motorů z různých období. Veřejně dostupné údaje mohou obsahovat nepřesnosti; pro technické účely se řiďte dokumentací výrobce.
 {% else %}<strong>Piston</strong> raccoglie {{ site.data.motori | size }} famiglie di motori, di epoche diverse. I dati sono compilati da fonti pubbliche e possono contenere imprecisioni: per usi tecnici fa fede la documentazione del costruttore.{% endif %}</p>
-      <p><a href="{{ '/metodo/' | relative_url }}">{% if page.locale == 'en' %}How the data is collected{% elsif page.locale == 'fr' %}Méthodologie de collecte{% elsif page.locale == 'cs' %}Metodika sběru dat{% else %}Come sono raccolti i dati{% endif %}</a></p>
+      <p><a href="{{ pref_lingua | append: '/metodo/' | relative_url }}">{% if page.locale == 'en' %}How the data is collected{% elsif page.locale == 'fr' %}Méthodologie de collecte{% elsif page.locale == 'cs' %}Metodika sběru dat{% else %}Come sono raccolti i dati{% endif %}</a></p>
       <p>© {{ site.time | date: '%Y' }} Pacific IT Solutions s.r.o. {% if page.locale == 'en' %}All rights reserved.{% elsif page.locale == 'fr' %}Tous droits réservés.{% elsif page.locale == 'cs' %}Všechna práva vyhrazena.{% else %}Tutti i diritti riservati.{% endif %}</p>
     </div>
   </footer>
   {% if page.script %}<script src="{{ page.script | prepend: '/assets/js/' | relative_url }}" defer></script>{% endif %}
-  <script src="{{ '/assets/js/lingue.js' | relative_url }}" defer></script>
 </body>
 </html>

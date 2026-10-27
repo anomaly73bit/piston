@@ -1,0 +1,19 @@
+{% include pagine/_intestazione.html %}
+{%- assign motori = site.data.motori | sort: "nome" -%}
+<section class="pagina riga">
+  <h1>{{ pt.confronta_titolo }}</h1>
+  <p class="sottotitolo">{{ pt.confronta_sotto }}</p>
+  <form class="scelte" id="scelte" data-json="{{ '/assets/motori.json' | relative_url }}" data-base="{{ pref | append: '/motori/' | relative_url }}" data-lingua="{{ lingua }}" onsubmit="return false">
+    {% for i in (1..3) %}
+    <label><span>{{ pt.motore }} {{ i }}</span>
+      <select name="m{{ i }}">
+        <option value="">{% if i == 3 %}{{ pt.nessuno }}{% else %}{{ pt.scegli }}{% endif %}</option>
+        {% for m in motori %}<option value="{{ m.slug }}">{{ m.nome }}</option>{% endfor %}
+      </select>
+    </label>
+    {% endfor %}
+  </form>
+  <div id="confronto" class="confronto" aria-live="polite">
+    <p class="vuoto">{{ pt.confronta_vuoto }}</p>
+  </div>
+</section>

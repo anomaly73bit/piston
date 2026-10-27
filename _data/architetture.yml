@@ -1,67 +1,171 @@
 - id: L3
   nome: Tre cilindri in linea
-  testo: >-
-    Compatto ed economico, tornato di moda con il downsizing turbo. Ha una vibrazione di primo ordine
-    che richiede contralberi o supporti dedicati, ma pochi attriti interni.
+  testo: Compatto ed economico, tornato di moda con il downsizing turbo. Ha una vibrazione di primo ordine che richiede contralberi o supporti
+    dedicati, ma pochi attriti interni.
+  nome_en: Inline three
+  testo_en: Compact and inexpensive, it returned with turbocharged downsizing. It has a first-order vibration that requires balance shafts or
+    dedicated mounts, but low internal friction.
+  nome_fr: Trois cylindres en ligne
+  testo_fr: Compact et économique, il est revenu avec le downsizing turbo. Il présente une vibration du premier ordre qui exige des arbres d'équilibrage
+    ou des supports dédiés, mais peu de frottements internes.
+  nome_cs: Řadový tříválec
+  testo_cs: Kompaktní a levný, vrátil se s přeplňovaným downsizingem. Má vibrace prvního řádu, které vyžadují vyvažovací hřídele nebo zvláštní
+    uložení, ale nízké vnitřní tření.
 - id: L4
   nome: Quattro cilindri in linea
-  testo: >-
-    L'architettura più diffusa al mondo: semplice, corta, economica da produrre. Le vibrazioni del secondo
-    ordine crescono con la cilindrata, per questo oltre i 2,0–2,5 litri si usano spesso alberi di equilibratura.
+  testo: 'L''architettura più diffusa al mondo: semplice, corta, economica da produrre. Le vibrazioni del secondo ordine crescono con la cilindrata,
+    per questo oltre i 2,0–2,5 litri si usano spesso alberi di equilibratura.'
+  nome_en: Inline four
+  testo_en: 'The most common layout in the world: simple, short and cheap to build. Second-order vibrations grow with displacement, which is why
+    balance shafts are often used above 2.0–2.5 litres.'
+  nome_fr: Quatre cylindres en ligne
+  testo_fr: 'L''architecture la plus répandue au monde : simple, courte et économique à produire. Les vibrations du second ordre augmentent avec
+    la cylindrée ; au-delà de 2,0–2,5 litres, on utilise souvent des arbres d''équilibrage.'
+  nome_cs: Řadový čtyřválec
+  testo_cs: 'Nejrozšířenější uspořádání na světě: jednoduché, krátké a levné na výrobu. Vibrace druhého řádu rostou se zdvihovým objemem, proto
+    se nad 2,0–2,5 litru často používají vyvažovací hřídele.'
 - id: L5
   nome: Cinque cilindri in linea
-  testo: >-
-    Soluzione intermedia tra quattro e sei cilindri, usata soprattutto da Audi e Volvo. Accensione ogni 144°
-    e coppia oscillante del primo ordine.
+  testo: Soluzione intermedia tra quattro e sei cilindri, usata soprattutto da Audi e Volvo. Accensione ogni 144° e coppia oscillante del primo
+    ordine.
+  nome_en: Inline five
+  testo_en: An intermediate solution between four and six cylinders, used mainly by Audi and Volvo. Firing every 144° and a first-order rocking
+    couple.
+  nome_fr: Cinq cylindres en ligne
+  testo_fr: Solution intermédiaire entre quatre et six cylindres, utilisée surtout par Audi et Volvo. Allumage tous les 144° et couple oscillant
+    du premier ordre.
+  nome_cs: Řadový pětiválec
+  testo_cs: Přechodné řešení mezi čtyřmi a šesti válci, používané hlavně Audi a Volvem. Zapalování každých 144° a klopný moment prvního řádu.
 - id: L6
   nome: Sei cilindri in linea
-  testo: >-
-    Perfettamente equilibrato per natura, silenzioso e regolare. È lungo e difficile da montare trasversale,
-    ma è tornato centrale con le piattaforme modulari BMW e Mercedes.
+  testo: Perfettamente equilibrato per natura, silenzioso e regolare. È lungo e difficile da montare trasversale, ma è tornato centrale con le
+    piattaforme modulari BMW e Mercedes.
+  nome_en: Inline six
+  testo_en: Inherently balanced, quiet and smooth. It is long and hard to mount transversely, but has returned to the forefront with the modular
+    BMW and Mercedes platforms.
+  nome_fr: Six cylindres en ligne
+  testo_fr: Naturellement équilibré, silencieux et régulier. Il est long et difficile à monter transversalement, mais il est revenu au premier
+    plan avec les plateformes modulaires de BMW et Mercedes.
+  nome_cs: Řadový šestiválec
+  testo_cs: Přirozeně vyvážený, tichý a klidný. Je dlouhý a obtížně se montuje napříč, ale díky modulárním platformám BMW a Mercedes se vrátil
+    do popředí.
 - id: V6
   nome: V6
-  testo: >-
-    Corto e adatto al montaggio trasversale. Gli angoli più comuni sono 60° e 90°; a seconda della configurazione
-    richiede perni di biella sfalsati o contralberi.
+  testo: Corto e adatto al montaggio trasversale. Gli angoli più comuni sono 60° e 90°; a seconda della configurazione richiede perni di biella
+    sfalsati o contralberi.
+  nome_en: V6
+  testo_en: Short and suited to transverse mounting. The most common bank angles are 60° and 90°; depending on the configuration it requires split
+    crankpins or balance shafts.
+  nome_fr: V6
+  testo_fr: Court et adapté au montage transversal. Les angles les plus courants sont 60° et 90° ; selon la configuration, il exige des manetons
+    décalés ou des arbres d'équilibrage.
+  nome_cs: V6
+  testo_cs: Krátký a vhodný pro příčnou montáž. Nejběžnější úhly rozevření jsou 60° a 90°; podle konfigurace vyžaduje přesazené ojniční čepy nebo
+    vyvažovací hřídele.
 - id: V8
   nome: V8
-  testo: >-
-    Con albero a croce (cross-plane) è equilibrato ma con accensione irregolare per bancata; con albero piatto
-    (flat-plane) è più leggero e favorisce i regimi alti, a scapito di vibrazioni del secondo ordine.
+  testo: Con albero a croce (cross-plane) è equilibrato ma con accensione irregolare per bancata; con albero piatto (flat-plane) è più leggero
+    e favorisce i regimi alti, a scapito di vibrazioni del secondo ordine.
+  nome_en: V8
+  testo_en: With a cross-plane crankshaft it is balanced but fires unevenly within each bank; with a flat-plane crankshaft it is lighter and favours
+    high revs, at the cost of second-order vibrations.
+  nome_fr: V8
+  testo_fr: Avec un vilebrequin croisé (cross-plane), il est équilibré mais l'allumage est irrégulier sur chaque banc ; avec un vilebrequin plat
+    (flat-plane), il est plus léger et favorise les hauts régimes, au prix de vibrations du second ordre.
+  nome_cs: V8
+  testo_cs: S křížovým klikovým hřídelem (cross-plane) je vyvážený, ale v každé řadě zapaluje nepravidelně; s plochým hřídelem (flat-plane) je
+    lehčí a svědčí mu vysoké otáčky, za cenu vibrací druhého řádu.
 - id: V10
   nome: V10
-  testo: >-
-    Diffuso in Formula 1 negli anni '90 e 2000 e su poche supercar di serie. Richiede perni di biella sfalsati
-    per un'accensione regolare a 90°.
+  testo: Diffuso in Formula 1 negli anni '90 e 2000 e su poche supercar di serie. Richiede perni di biella sfalsati per un'accensione regolare
+    a 90°.
+  nome_en: V10
+  testo_en: Common in Formula 1 in the 1990s and 2000s and in a few series-production supercars. It requires split crankpins for even firing at
+    90°.
+  nome_fr: V10
+  testo_fr: Répandu en Formule 1 dans les années 1990 et 2000 et sur quelques supercars de série. Il exige des manetons décalés pour un allumage
+    régulier à 90°.
+  nome_cs: V10
+  testo_cs: Rozšířený ve formuli 1 v 90. letech a po roce 2000 a u několika sériových supersportů. Pro pravidelné zapalování při 90° vyžaduje
+    přesazené ojniční čepy.
 - id: V12
   nome: V12
-  testo: >-
-    Equilibrato in modo naturale su tutti gli ordini di vibrazione, con fasi di scoppio ogni 60°. Usato su granturismo e supercar di grande cilindrata.
+  testo: Equilibrato in modo naturale su tutti gli ordini di vibrazione, con fasi di scoppio ogni 60°. Usato su granturismo e supercar di grande
+    cilindrata.
+  nome_en: V12
+  testo_en: Inherently balanced across all vibration orders, with a firing stroke every 60°. Used in large-displacement grand tourers and supercars.
+  nome_fr: V12
+  testo_fr: Naturellement équilibré sur tous les ordres de vibration, avec une combustion tous les 60°. Utilisé sur les grandes routières et les
+    supercars de forte cylindrée.
+  nome_cs: V12
+  testo_cs: Přirozeně vyvážený ve všech řádech vibrací, se zážehem každých 60°. Používá se u velkoobjemových cestovních vozů a supersportů.
 - id: W16
   nome: W16
-  testo: >-
-    Due gruppi VR8 a stretto angolo affiancati su un unico albero motore. Usato in serie solo da Bugatti.
+  testo: Due gruppi VR8 a stretto angolo affiancati su un unico albero motore. Usato in serie solo da Bugatti.
+  nome_en: W16
+  testo_en: Two narrow-angle VR8 groups side by side on a single crankshaft. Used in series production only by Bugatti.
+  nome_fr: W16
+  testo_fr: Deux groupes VR8 à angle étroit côte à côte sur un même vilebrequin. Utilisé en série uniquement par Bugatti.
+  nome_cs: W16
+  testo_cs: Dvě skupiny VR8 s úzkým úhlem vedle sebe na jednom klikovém hřídeli. Sériově ho používá pouze Bugatti.
 - id: Boxer 4
   nome: Boxer a quattro cilindri
-  testo: >-
-    Cilindri contrapposti, baricentro basso. Subaru lo usa da decenni; il suono caratteristico deriva dai
-    collettori di scarico di lunghezza diversa.
+  testo: Cilindri contrapposti, baricentro basso. Subaru lo usa da decenni; il suono caratteristico deriva dai collettori di scarico di lunghezza
+    diversa.
+  nome_en: Flat four
+  testo_en: Horizontally opposed cylinders and a low centre of gravity. Subaru has used it for decades; its characteristic sound comes from exhaust
+    manifolds of unequal length.
+  nome_fr: Quatre cylindres à plat
+  testo_fr: Cylindres opposés et centre de gravité bas. Subaru l'utilise depuis des décennies ; son bruit caractéristique vient de collecteurs
+    d'échappement de longueurs différentes.
+  nome_cs: Plochý čtyřválec (boxer)
+  testo_cs: Protilehlé válce a nízko položené těžiště. Subaru ho používá desítky let; charakteristický zvuk vychází z výfukových svodů různé délky.
 - id: Boxer 6
   nome: Boxer a sei cilindri
-  testo: >-
-    Cilindri contrapposti, equilibrato in modo naturale, baricentro basso. Usato da Porsche sulla 911, montato a sbalzo dietro l'asse posteriore.
+  testo: Cilindri contrapposti, equilibrato in modo naturale, baricentro basso. Usato da Porsche sulla 911, montato a sbalzo dietro l'asse posteriore.
+  nome_en: Flat six
+  testo_en: Horizontally opposed cylinders, inherently balanced, low centre of gravity. Used by Porsche in the 911, mounted behind the rear axle.
+  nome_fr: Six cylindres à plat
+  testo_fr: Cylindres opposés, naturellement équilibré, centre de gravité bas. Utilisé par Porsche sur la 911, monté en porte-à-faux derrière
+    l'essieu arrière.
+  nome_cs: Plochý šestiválec (boxer)
+  testo_cs: Protilehlé válce, přirozeně vyvážený, nízko položené těžiště. Porsche ho používá v modelu 911, uložený za zadní nápravou.
 - id: Rotativo
   nome: Rotativo Wankel
-  testo: >-
-    Niente pistoni né valvole: un rotore triangolare gira in una camera epitrocoidale. Leggerissimo e molto
-    compatto, ma con consumi e tenute difficili. In questo sito il numero di "cilindri" indica i rotori.
+  testo: 'Niente pistoni né valvole: un rotore triangolare gira in una camera epitrocoidale. Leggerissimo e molto compatto, ma con consumi e tenute
+    difficili. In questo sito il numero di "cilindri" indica i rotori.'
+  nome_en: Wankel rotary
+  testo_en: 'No pistons or valves: a triangular rotor turns inside an epitrochoidal chamber. Very light and compact, but with high fuel consumption
+    and difficult sealing. On this site the number of ''cylinders'' indicates the rotors.'
+  nome_fr: Rotatif Wankel
+  testo_fr: 'Ni pistons ni soupapes : un rotor triangulaire tourne dans une chambre épitrochoïdale. Très léger et compact, mais gourmand et délicat
+    en matière d''étanchéité. Sur ce site, le nombre de « cylindres » indique les rotors.'
+  nome_cs: Wankelův rotační motor
+  testo_cs: 'Žádné písty ani ventily: trojúhelníkový rotor se otáčí v epitrochoidní komoře. Velmi lehký a kompaktní, ale s vysokou spotřebou a
+    obtížným utěsněním. Na tomto webu udává počet „válců“ počet rotorů.'
 - id: Boxer 12
   nome: Dodici cilindri contrapposti
-  testo: >-
-    Due bancate di sei cilindri a 180° su un basamento molto basso, che abbassa il baricentro nelle vetture a motore centrale.
-    Nelle realizzazioni Ferrari le bielle contrapposte condividono lo stesso perno di manovella, per cui tecnicamente è un V a 180° più che un boxer puro.
+  testo: Due bancate di sei cilindri a 180° su un basamento molto basso, che abbassa il baricentro nelle vetture a motore centrale. Nelle realizzazioni
+    Ferrari le bielle contrapposte condividono lo stesso perno di manovella, per cui tecnicamente è un V a 180° più che un boxer puro.
+  nome_en: Flat twelve
+  testo_en: Two banks of six cylinders at 180° on a very low block, lowering the centre of gravity in mid-engined cars. In Ferrari designs opposing
+    connecting rods share the same crankpin, so technically it is a 180° V rather than a true boxer.
+  nome_fr: Douze cylindres à plat
+  testo_fr: 'Deux bancs de six cylindres à 180° sur un bloc très bas, qui abaisse le centre de gravité des voitures à moteur central. Chez Ferrari,
+    les bielles opposées partagent le même maneton : techniquement, c''est un V à 180° plutôt qu''un véritable boxer.'
+  nome_cs: Plochý dvanáctiválec
+  testo_cs: Dvě řady po šesti válcích pod úhlem 180° na velmi nízkém bloku, který snižuje těžiště vozů s motorem uprostřed. U Ferrari sdílejí
+    protilehlé ojnice stejný čep, takže technicky jde spíše o motor V s rozevřením 180° než o čistý boxer.
 - id: W12
   nome: W12
-  testo: >-
-    Due bancate a VR6, ciascuna con i cilindri sfalsati a stretto angolo, montate a V su un unico albero motore: quattro file di tre cilindri in un ingombro vicino a quello di un V8.
-    Realizzato in serie dal gruppo Volkswagen per Volkswagen, Audi e Bentley.
+  testo: 'Due bancate a VR6, ciascuna con i cilindri sfalsati a stretto angolo, montate a V su un unico albero motore: quattro file di tre cilindri
+    in un ingombro vicino a quello di un V8. Realizzato in serie dal gruppo Volkswagen per Volkswagen, Audi e Bentley.'
+  nome_en: W12
+  testo_en: 'Two VR6 banks, each with narrow-angle staggered cylinders, mounted in a V on a single crankshaft: four rows of three cylinders in
+    a package close to that of a V8. Built in series by the Volkswagen Group for Volkswagen, Audi and Bentley.'
+  nome_fr: W12
+  testo_fr: 'Deux bancs VR6, chacun avec des cylindres décalés à angle étroit, montés en V sur un même vilebrequin : quatre rangées de trois cylindres
+    dans un encombrement proche de celui d''un V8. Produit en série par le groupe Volkswagen pour Volkswagen, Audi et Bentley.'
+  nome_cs: W12
+  testo_cs: 'Dvě řady VR6, každá s válci přesazenými pod úzkým úhlem, uložené do V na jednom klikovém hřídeli: čtyři řady po třech válcích v rozměrech
+    blízkých motoru V8. Sériově ho vyráběl koncern Volkswagen pro značky Volkswagen, Audi a Bentley.'

@@ -3,18 +3,4 @@ layout: default
 title: Galleria dei motori
 permalink: /galleria/
 ---
-<section class="pagina riga">
-  <h1>Galleria dei motori</h1>
-  <p class="sottotitolo">Fotografie associate alle schede del catalogo. Ogni immagine rimanda alla scheda e alla pagina originale indicata per attribuzione e licenza. La presenza della foto non certifica le specifiche tecniche.</p>
-  <div class="galleria-motori">
-    {% assign ordinati = site.data.motori | sort: "nome" %}
-    {% for m in ordinati %}
-      {% if m.foto and m.foto.url and m.foto.pagina %}
-      <article class="galleria-item">
-        <a href="{{ '/motori/' | append: m.slug | append: '/' | relative_url }}"><img src="{{ m.foto.url | escape }}" alt="{{ m.foto.descrizione | default: m.nome | escape }}" loading="lazy" decoding="async"><strong>{{ m.nome }}</strong></a>
-        <p>{{ m.foto.autore | escape }} · <a href="{{ m.foto.pagina | escape }}" rel="noopener noreferrer">{{ m.foto.licenza | escape }}</a></p>
-      </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+{% include pagine/galleria.html %}

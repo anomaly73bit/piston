@@ -31,7 +31,7 @@ layout: default
   {% endif %}
   <header class="targhetta">
     <div class="targhetta-testo">
-      <p class="percorso"><a href="{{ '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{% if m.architettura == "Rotativo" %}{{ t.arch_rotativo }}{% else %}{{ m.architettura }}{% endif %}</a></p>
+      <p class="percorso"><a href="{{ pref | append: '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ pref | append: '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{% if m.architettura == "Rotativo" %}{{ t.arch_rotativo }}{% else %}{{ m.architettura }}{% endif %}</a></p>
       <h1>{{ m.nome }}</h1>
       <p class="codice">{{ t.codice }} <strong>{{ m.codice }}</strong>, {{ t.prodotto }} {{ periodo }}{% unless m.fine %} <span class="stato">{{ t.in_produzione }}</span>{% endunless %}</p>
     </div>
@@ -174,10 +174,10 @@ layout: default
         {% else %}
         <p><strong>{{ t.fonti_assenti }}</strong> {{ t.fonti_assenti_testo }}</p>
         {% endif %}
-        <p><a href="{{ '/metodo/' | relative_url }}">{{ t.metodo }}</a></p>
+        <p><a href="{{ pref | append: '/metodo/' | relative_url }}">{{ t.metodo }}</a></p>
       </section>
 
-      <p class="confronta-link"><a class="bottone" href="{{ '/confronta/' | relative_url }}?m={{ m.slug }}">{{ t.confronta }}</a></p>
+      <p class="confronta-link"><a class="bottone" href="{{ pref | append: '/confronta/' | relative_url }}?m={{ m.slug }}">{{ t.confronta }}</a></p>
     </div>
   </div>
 </article>

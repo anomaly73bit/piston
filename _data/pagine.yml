@@ -1,0 +1,101 @@
+# Testi delle pagine di sezione nelle quattro lingue.
+it:
+  costruttori_titolo: Costruttori
+  costruttori_sotto: "costruttori, ognuno con i suoi motori in ordine di debutto."
+  vai_costruttore: Vai al costruttore
+  architetture_titolo: Architetture
+  architetture_sotto: Come sono disposti i cilindri cambia suono, ingombro, equilibrio e carattere. Qui trovi ogni configurazione con i motori del catalogo che la usano.
+  cronologia_titolo: Cronologia
+  cronologia_sotto: "Quando sono comparsi i motori del catalogo e per quanto tempo sono rimasti in produzione. Scala condivisa dal"
+  al: al
+  dal: Dal
+  legenda_periodo: Periodo di produzione dichiarato
+  legenda_attivo: Produzione senza data di fine registrata
+  motore: Motore
+  periodo: Periodo
+  fine_non_registrata: fine non registrata
+  cronologia_nota: "* “Oggi” significa che nel catalogo non è registrata una data di fine: non costituisce una conferma indipendente della produzione attuale. Gli intervalli possono variare secondo versione e mercato."
+  galleria_titolo: Galleria dei motori
+  galleria_sotto: Fotografie associate alle schede del catalogo. Ogni immagine rimanda alla scheda e alla pagina originale indicata per attribuzione e licenza. La presenza della foto non certifica le specifiche tecniche.
+  confronta_titolo: Confronta motori
+  confronta_sotto: "Scegli fino a tre motori: i cilindri sono disegnati alla stessa scala e ogni valore è messo a confronto con gli altri."
+  scegli: Scegli…
+  nessuno: Nessuno
+  confronta_vuoto: Scegli almeno due motori per vedere il confronto.
+  glossario_titolo: Glossario
+  glossario_sotto: I termini usati nelle schede, spiegati in breve.
+en:
+  costruttori_titolo: Manufacturers
+  costruttori_sotto: "manufacturers, each with its engines in order of introduction."
+  vai_costruttore: Go to manufacturer
+  architetture_titolo: Engine layouts
+  architetture_sotto: How the cylinders are arranged affects sound, packaging, balance and character. Here you find every layout with the catalogue engines that use it.
+  cronologia_titolo: Timeline
+  cronologia_sotto: "When the catalogue engines appeared and how long they stayed in production. Shared scale from"
+  al: to
+  dal: From
+  legenda_periodo: Declared production period
+  legenda_attivo: Production with no recorded end date
+  motore: Engine
+  periodo: Period
+  fine_non_registrata: end not recorded
+  cronologia_nota: "* “Present” means that no end date is recorded in the catalogue: it is not independent confirmation of current production. Periods may vary by version and market."
+  galleria_titolo: Engine gallery
+  galleria_sotto: Photographs linked to the catalogue entries. Each image links to its entry and to the original page for attribution and licence. A photo does not certify the technical specifications.
+  confronta_titolo: Compare engines
+  confronta_sotto: "Choose up to three engines: the cylinders are drawn to the same scale and every value is compared with the others."
+  scegli: Choose…
+  nessuno: None
+  confronta_vuoto: Choose at least two engines to see the comparison.
+  glossario_titolo: Glossary
+  glossario_sotto: The terms used in the engine entries, briefly explained.
+fr:
+  costruttori_titolo: Constructeurs
+  costruttori_sotto: "constructeurs, chacun avec ses moteurs par ordre d'apparition."
+  vai_costruttore: Aller au constructeur
+  architetture_titolo: Architectures
+  architetture_sotto: La disposition des cylindres change le son, l'encombrement, l'équilibre et le caractère. Vous trouverez ici chaque architecture avec les moteurs du catalogue qui l'utilisent.
+  cronologia_titolo: Chronologie
+  cronologia_sotto: "Quand les moteurs du catalogue sont apparus et combien de temps ils sont restés en production. Échelle commune de"
+  al: à
+  dal: De
+  legenda_periodo: Période de production déclarée
+  legenda_attivo: Production sans date de fin enregistrée
+  motore: Moteur
+  periodo: Période
+  fine_non_registrata: fin non enregistrée
+  cronologia_nota: "* « Aujourd'hui » signifie qu'aucune date de fin n'est enregistrée dans le catalogue : ce n'est pas une confirmation indépendante de la production actuelle. Les périodes peuvent varier selon la version et le marché."
+  galleria_titolo: Galerie des moteurs
+  galleria_sotto: Photographies associées aux fiches du catalogue. Chaque image renvoie à sa fiche et à la page d'origine pour l'attribution et la licence. Une photo ne certifie pas les caractéristiques techniques.
+  confronta_titolo: Comparer des moteurs
+  confronta_sotto: "Choisissez jusqu'à trois moteurs : les cylindres sont dessinés à la même échelle et chaque valeur est comparée aux autres."
+  scegli: Choisir…
+  nessuno: Aucun
+  confronta_vuoto: Choisissez au moins deux moteurs pour voir la comparaison.
+  glossario_titolo: Glossaire
+  glossario_sotto: Les termes utilisés dans les fiches, expliqués brièvement.
+cs:
+  costruttori_titolo: Výrobci
+  costruttori_sotto: "výrobců, u každého motory v pořadí uvedení na trh."
+  vai_costruttore: Přejít na výrobce
+  architetture_titolo: Uspořádání motorů
+  architetture_sotto: Uspořádání válců ovlivňuje zvuk, rozměry, vyvážení i charakter motoru. Najdete zde každé uspořádání spolu s motory z katalogu, které ho používají.
+  cronologia_titolo: Časová osa
+  cronologia_sotto: "Kdy se motory z katalogu objevily a jak dlouho se vyráběly. Společná stupnice od roku"
+  al: do
+  dal: Od
+  legenda_periodo: Uvedené období výroby
+  legenda_attivo: Výroba bez zaznamenaného data ukončení
+  motore: Motor
+  periodo: Období
+  fine_non_registrata: konec nezaznamenán
+  cronologia_nota: "* „Dosud“ znamená, že v katalogu není zaznamenáno datum ukončení: nejde o nezávislé potvrzení současné výroby. Období se mohou lišit podle verze a trhu."
+  galleria_titolo: Galerie motorů
+  galleria_sotto: Fotografie přiřazené k záznamům katalogu. Každý obrázek odkazuje na svůj záznam a na původní stránku s autorem a licencí. Fotografie nepotvrzuje technické údaje.
+  confronta_titolo: Porovnání motorů
+  confronta_sotto: "Vyberte až tři motory: válce jsou nakresleny ve stejném měřítku a každá hodnota je porovnána s ostatními."
+  scegli: Vyberte…
+  nessuno: Žádný
+  confronta_vuoto: Pro porovnání vyberte alespoň dva motory.
+  glossario_titolo: Slovník pojmů
+  glossario_sotto: Pojmy používané v záznamech, stručně vysvětlené.

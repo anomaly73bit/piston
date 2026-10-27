@@ -1,0 +1,4 @@
+{%- assign lingua = page.locale | default: 'it' -%}
+{%- assign t = site.data.ui[lingua] -%}
+{%- assign pt = site.data.pagine[lingua] -%}
+{%- if page.locale -%}{%- assign pref = '/' | append: page.locale -%}{%- else -%}{%- assign pref = '' -%}{%- endif -%}

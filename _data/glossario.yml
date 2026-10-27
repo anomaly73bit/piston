@@ -1,30 +1,147 @@
 - termine: Alesaggio
   testo: Diametro interno del cilindro, in millimetri. Più è grande, più spazio c'è per valvole grandi.
+  termine_en: Bore
+  testo_en: The inner diameter of the cylinder, in millimetres. The larger it is, the more room there is for large valves.
+  termine_fr: Alésage
+  testo_fr: Diamètre intérieur du cylindre, en millimètres. Plus il est grand, plus il y a de place pour de grandes soupapes.
+  termine_cs: Vrtání
+  testo_cs: Vnitřní průměr válce v milimetrech. Čím je větší, tím víc místa je pro velké ventily.
 - termine: Corsa
   testo: Distanza percorsa dal pistone tra punto morto superiore e inferiore. Una corsa lunga favorisce la coppia, una corta i regimi alti.
+  termine_en: Stroke
+  testo_en: The distance travelled by the piston between top and bottom dead centre. A long stroke favours torque, a short one high revs.
+  termine_fr: Course
+  testo_fr: Distance parcourue par le piston entre le point mort haut et le point mort bas. Une course longue favorise le couple, une course courte
+    les hauts régimes.
+  termine_cs: Zdvih
+  testo_cs: Dráha pístu mezi horní a dolní úvratí. Dlouhý zdvih podporuje točivý moment, krátký vysoké otáčky.
 - termine: Motore quadro, superquadro, sottoquadro
-  testo: Quadro quando alesaggio e corsa sono uguali (es. Toyota 2JZ, 86 × 86 mm). Superquadro quando l'alesaggio supera la corsa, sottoquadro quando la corsa è più lunga.
+  testo: Quadro quando alesaggio e corsa sono uguali (es. Toyota 2JZ, 86 × 86 mm). Superquadro quando l'alesaggio supera la corsa, sottoquadro
+    quando la corsa è più lunga.
+  termine_en: Square, oversquare and undersquare engines
+  testo_en: Square when bore and stroke are equal (e.g. Toyota 2JZ, 86 × 86 mm). Oversquare when the bore exceeds the stroke, undersquare when
+    the stroke is longer.
+  termine_fr: Moteur carré, supercarré, longue course
+  testo_fr: Carré quand l'alésage et la course sont égaux (ex. Toyota 2JZ, 86 × 86 mm). Supercarré quand l'alésage dépasse la course, longue course
+    quand la course est plus longue.
+  termine_cs: Čtvercový, krátkozdvihový a dlouhozdvihový motor
+  testo_cs: Čtvercový, když jsou vrtání a zdvih stejné (např. Toyota 2JZ, 86 × 86 mm). Krátkozdvihový, když vrtání převyšuje zdvih, dlouhozdvihový,
+    když je zdvih delší.
 - termine: Cilindrata
   testo: Volume spazzato da tutti i pistoni, in centimetri cubi. Si calcola come area del pistone × corsa × numero di cilindri.
+  termine_en: Displacement
+  testo_en: The volume swept by all the pistons, in cubic centimetres. It is calculated as piston area × stroke × number of cylinders.
+  termine_fr: Cylindrée
+  testo_fr: 'Volume balayé par tous les pistons, en centimètres cubes. Elle se calcule ainsi : surface du piston × course × nombre de cylindres.'
+  termine_cs: Zdvihový objem
+  testo_cs: Objem, který opíší všechny písty, v kubických centimetrech. Vypočte se jako plocha pístu × zdvih × počet válců.
 - termine: Rapporto di compressione
-  testo: Rapporto tra il volume del cilindro con il pistone in basso e quello con il pistone in alto. Più è alto, migliore il rendimento, ma maggiore il rischio di detonazione.
+  testo: Rapporto tra il volume del cilindro con il pistone in basso e quello con il pistone in alto. Più è alto, migliore il rendimento, ma maggiore
+    il rischio di detonazione.
+  termine_en: Compression ratio
+  testo_en: The ratio between the cylinder volume with the piston at the bottom and with the piston at the top. The higher it is, the better the
+    efficiency, but the greater the risk of knock.
+  termine_fr: Taux de compression
+  testo_fr: Rapport entre le volume du cylindre avec le piston en bas et avec le piston en haut. Plus il est élevé, meilleur est le rendement,
+    mais plus le risque de cliquetis augmente.
+  termine_cs: Kompresní poměr
+  testo_cs: Poměr objemu válce s pístem v dolní a v horní poloze. Čím je vyšší, tím lepší účinnost, ale tím větší riziko klepání.
 - termine: DOHC / SOHC / OHV
-  testo: Due alberi a camme in testa per bancata (DOHC), uno solo (SOHC) oppure un albero nel basamento con aste e bilancieri (OHV), come nei V8 GM.
+  testo: Due alberi a camme in testa per bancata (DOHC), uno solo (SOHC) oppure un albero nel basamento con aste e bilancieri (OHV), come nei
+    V8 GM.
+  termine_en: DOHC / SOHC / OHV
+  testo_en: Two overhead camshafts per bank (DOHC), a single one (SOHC), or a camshaft in the block with pushrods and rockers (OHV), as in GM
+    V8s.
+  termine_fr: DOHC / SOHC / OHV
+  testo_fr: Deux arbres à cames en tête par banc (DOHC), un seul (SOHC) ou un arbre dans le bloc avec tiges et culbuteurs (OHV), comme sur les
+    V8 GM.
+  termine_cs: DOHC / SOHC / OHV
+  testo_cs: Dva vačkové hřídele v hlavě na řadu válců (DOHC), jeden (SOHC), nebo vačkový hřídel v bloku se zdvihátky a vahadly (OHV), jako u V8
+    GM.
 - termine: Fasatura variabile
   testo: Sistemi come VTEC, VANOS, VarioCam o VVT-i modificano il momento di apertura delle valvole per avere coppia in basso e potenza in alto.
+  termine_en: Variable valve timing
+  testo_en: Systems such as VTEC, VANOS, VarioCam or VVT-i change when the valves open, to deliver torque low down and power at the top end.
+  termine_fr: Calage variable
+  testo_fr: Des systèmes comme VTEC, VANOS, VarioCam ou VVT-i modifient le moment d'ouverture des soupapes pour obtenir du couple en bas et de
+    la puissance en haut.
+  termine_cs: Proměnné časování ventilů
+  testo_cs: Systémy jako VTEC, VANOS, VarioCam nebo VVT-i mění okamžik otevření ventilů, aby motor měl točivý moment v nízkých a výkon ve vysokých
+    otáčkách.
 - termine: Iniezione diretta
-  testo: Il carburante viene spruzzato direttamente nella camera di combustione. Aumenta il rendimento ma lascia depositi carboniosi sulle valvole di aspirazione.
+  testo: Il carburante viene spruzzato direttamente nella camera di combustione. Aumenta il rendimento ma lascia depositi carboniosi sulle valvole
+    di aspirazione.
+  termine_en: Direct injection
+  testo_en: Fuel is sprayed directly into the combustion chamber. It increases efficiency but leaves carbon deposits on the intake valves.
+  termine_fr: Injection directe
+  testo_fr: Le carburant est pulvérisé directement dans la chambre de combustion. Elle améliore le rendement mais laisse des dépôts de calamine
+    sur les soupapes d'admission.
+  termine_cs: Přímé vstřikování
+  testo_cs: Palivo se vstřikuje přímo do spalovacího prostoru. Zvyšuje účinnost, ale na sacích ventilech zanechává karbonové usazeniny.
 - termine: Common rail
-  testo: Sistema diesel con un condotto comune ad altissima pressione che alimenta tutti gli iniettori, comandati elettronicamente. Sviluppato dal gruppo Fiat e industrializzato da Bosch.
+  testo: Sistema diesel con un condotto comune ad altissima pressione che alimenta tutti gli iniettori, comandati elettronicamente. Sviluppato
+    dal gruppo Fiat e industrializzato da Bosch.
+  termine_en: Common rail
+  testo_en: A diesel system with a shared very-high-pressure rail feeding all the electronically controlled injectors. Developed by the Fiat group
+    and industrialised by Bosch.
+  termine_fr: Common rail
+  testo_fr: Système diesel avec une rampe commune à très haute pression qui alimente tous les injecteurs, commandés électroniquement. Développé
+    par le groupe Fiat et industrialisé par Bosch.
+  termine_cs: Common rail
+  testo_cs: Systém vznětových motorů se společným vysokotlakým zásobníkem, který napájí všechny elektronicky řízené vstřikovače. Vyvinut koncernem
+    Fiat a průmyslově zaveden firmou Bosch.
 - termine: Turbo twin-scroll
   testo: Turbina con due ingressi separati per gruppi di cilindri, per sfruttare meglio gli impulsi di scarico e ridurre il ritardo di risposta.
+  termine_en: Twin-scroll turbo
+  testo_en: A turbine with two separate inlets for groups of cylinders, to make better use of exhaust pulses and reduce lag.
+  termine_fr: Turbo twin-scroll
+  testo_fr: Turbine à deux entrées séparées par groupes de cylindres, pour mieux exploiter les impulsions d'échappement et réduire le temps de
+    réponse.
+  termine_cs: Turbodmychadlo twin-scroll
+  testo_cs: Turbína se dvěma oddělenými vstupy pro skupiny válců, které lépe využívají výfukové pulzy a zkracují prodlevu odezvy.
 - termine: Turbo sequenziali
   testo: Due turbine che entrano in funzione una dopo l'altra, la prima ai bassi regimi e la seconda agli alti.
+  termine_en: Sequential turbos
+  testo_en: Two turbochargers that come into play one after the other, the first at low revs and the second at high revs.
+  termine_fr: Turbos séquentiels
+  testo_fr: Deux turbocompresseurs qui entrent en action l'un après l'autre, le premier à bas régime et le second à haut régime.
+  termine_cs: Sekvenční turbodmychadla
+  testo_cs: Dvě turbodmychadla, která se zapojují jedno po druhém, první v nízkých a druhé ve vysokých otáčkách.
 - termine: Closed-deck / open-deck
-  testo: In un blocco closed-deck la parte superiore delle canne è collegata al basamento, più rigido e adatto a pressioni elevate. L'open-deck è più semplice da fondere ma meno robusto.
+  testo: In un blocco closed-deck la parte superiore delle canne è collegata al basamento, più rigido e adatto a pressioni elevate. L'open-deck
+    è più semplice da fondere ma meno robusto.
+  termine_en: Closed-deck / open-deck
+  testo_en: In a closed-deck block the top of the liners is joined to the block, making it stiffer and suited to high pressures. An open-deck
+    block is simpler to cast but less robust.
+  termine_fr: Closed-deck / open-deck
+  testo_fr: Dans un bloc closed-deck, le haut des fûts est relié au bloc, plus rigide et adapté aux fortes pressions. Le bloc open-deck est plus
+    simple à couler mais moins robuste.
+  termine_cs: Closed-deck / open-deck
+  testo_cs: U bloku closed-deck je horní část válců spojena s blokem, který je tužší a snese vysoké tlaky. Blok open-deck se snáze odlévá, ale
+    je méně odolný.
 - termine: Carter secco
-  testo: L'olio è raccolto in un serbatoio separato da una pompa di recupero. Permette di montare il motore più in basso ed evita cali di pressione in curva.
+  testo: L'olio è raccolto in un serbatoio separato da una pompa di recupero. Permette di montare il motore più in basso ed evita cali di pressione
+    in curva.
+  termine_en: Dry sump
+  testo_en: Oil is collected in a separate tank by a scavenge pump. It allows the engine to sit lower and prevents pressure drops in corners.
+  termine_fr: Carter sec
+  testo_fr: L'huile est recueillie dans un réservoir séparé par une pompe de récupération. Cela permet de monter le moteur plus bas et évite les
+    chutes de pression en virage.
+  termine_cs: Suchá kliková skříň
+  testo_cs: Olej se odsává do samostatné nádrže pomocí odsávacího čerpadla. Motor tak může být uložen níž a v zatáčkách nedochází k poklesu tlaku.
 - termine: Limitatore
   testo: Regime massimo ammesso dalla centralina. In questo sito indica il valore tipico di serie; può variare tra versioni.
+  termine_en: Rev limiter
+  testo_en: The maximum speed allowed by the engine control unit. On this site it is the typical stock value; it may vary between versions.
+  termine_fr: Rupteur
+  testo_fr: Régime maximal autorisé par le calculateur. Sur ce site, il s'agit de la valeur typique d'origine ; elle peut varier selon les versions.
+  termine_cs: Omezovač otáček
+  testo_cs: Nejvyšší otáčky povolené řídicí jednotkou. Na tomto webu jde o typickou sériovou hodnotu; mezi verzemi se může lišit.
 - termine: CV
   testo: Cavalli vapore metrici (PS). 1 CV = 0,7355 kW; 1 hp anglosassone = 1,014 CV.
+  termine_en: CV
+  testo_en: Metric horsepower (PS). 1 CV = 0.7355 kW; 1 imperial hp = 1.014 CV.
+  termine_fr: CV
+  testo_fr: Chevaux-vapeur métriques (PS). 1 CV = 0,7355 kW ; 1 hp anglo-saxon = 1,014 CV.
+  termine_cs: CV
+  testo_cs: Metrické koňské síly (PS). 1 CV = 0,7355 kW; 1 anglosaský hp = 1,014 CV.

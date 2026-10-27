@@ -39,6 +39,6 @@
     <span class="aff-motivo">{{ include.motivo | default: include.a.motivo }}</span>
     <span class="aff-nota">{{ t.aff_nota }}</span>
     {% if include.a.provvisorio %}<span class="aff-nota">{{ t.aff_provvisoria }}</span>{% endif %}
-    <a class="aff-metodo" href="{{ '/metodo/' | relative_url }}#affidabilita">{{ t.aff_come }}</a>
+    <a class="aff-metodo" href="{{ include.pref | append: '/metodo/' | relative_url }}#affidabilita">{{ t.aff_come }}</a>
   </figcaption>
 </figure>

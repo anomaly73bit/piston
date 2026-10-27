@@ -22,7 +22,7 @@ from liquid import DictLoader, Environment
 RADICE = pathlib.Path(__file__).resolve().parent.parent
 OUT = RADICE / "_anteprima"
 FM = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?", re.S)
-INCLUDE = re.compile(r"\{%-?\s*include\s+([\w.\-]+)((?:\s+\w+=[^\s%]+)*)\s*-?%\}")
+INCLUDE = re.compile(r"\{%-?\s*include\s+([\w.\-/]+)((?:\s+\w+=[^\s%]+)*)\s*-?%\}")
 
 
 def separa(testo):
@@ -65,8 +65,8 @@ def costruisci():
     } if translations_dir.exists() else {}
     site["time"] = datetime.datetime.now()
 
-    includes = {p.name: converti_include(p.read_text(encoding="utf-8")).replace("include.", "inc_")
-                for p in (RADICE / "_includes").glob("*")}
+    includes = {str(p.relative_to(RADICE / "_includes")): converti_include(p.read_text(encoding="utf-8")).replace("include.", "inc_")
+                for p in (RADICE / "_includes").rglob("*") if p.is_file()}
     env = Environment(loader=DictLoader(includes))
     stato = {"profondita": 0}
 
@@ -140,6 +140,10 @@ def costruisci():
 
     # Render all generated localized engine pages too, not just Italian.
     for language in ("en", "fr", "cs"):
+        for p in sorted((RADICE / language).glob("*")):
+            if p.suffix in (".html", ".md"):
+                fm, corpo = separa(p.read_text(encoding="utf-8"))
+                pubblica(fm, corpo, fm.get("permalink") or f"/{language}/{p.stem}/", p.suffix)
         for p in sorted((RADICE / language / "motori").glob("*.md")):
             fm, corpo = separa(p.read_text(encoding="utf-8"))
             fm.setdefault("layout", "motore")

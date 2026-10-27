@@ -29,25 +29,27 @@
       '<text x="' + (x2 + 12) + '" y="' + (c / 2 + 28) + '">' + virgola(c) + '</text></svg>';
   }
 
+  var T = {"it": {"cilindrata": "Cilindrata", "pmax": "Potenza massima", "pmin": "Potenza minima", "cmax": "Coppia massima", "lim": "Limitatore", "spec": "Potenza specifica", "aff": "Affidabilità", "arch": "Architettura", "asp": "Aspirazione", "alim": "Alimentazione", "comp": "Compressione", "inie": "Iniezione", "blocco": "Materiale basamento", "testa": "Materiale testata", "distr": "Distribuzione", "prod": "Produzione", "giri": "giri/min", "cvl": "CV/litro", "vuoto": "Scegli almeno due motori per vedere il confronto.", "oggi": "oggi", "nd": "n.d.", "errore": "Impossibile caricare i dati dei motori. Ricarica la pagina.", "locale": "it-IT"}, "en": {"cilindrata": "Displacement", "pmax": "Maximum power", "pmin": "Minimum power", "cmax": "Maximum torque", "lim": "Rev limiter", "spec": "Specific output", "aff": "Reliability", "arch": "Layout", "asp": "Induction", "alim": "Fuel", "comp": "Compression", "inie": "Injection", "blocco": "Block material", "testa": "Head material", "distr": "Valvetrain", "prod": "Production", "giri": "rpm", "cvl": "CV/litre", "vuoto": "Choose at least two engines to see the comparison.", "oggi": "present", "nd": "n/a", "errore": "Could not load the engine data. Reload the page.", "locale": "en-GB"}, "fr": {"cilindrata": "Cylindrée", "pmax": "Puissance maximale", "pmin": "Puissance minimale", "cmax": "Couple maximal", "lim": "Rupteur", "spec": "Puissance spécifique", "aff": "Fiabilité", "arch": "Architecture", "asp": "Alimentation en air", "alim": "Carburant", "comp": "Compression", "inie": "Injection", "blocco": "Matériau du bloc", "testa": "Matériau de la culasse", "distr": "Distribution", "prod": "Production", "giri": "tr/min", "cvl": "CV/litre", "vuoto": "Choisissez au moins deux moteurs pour voir la comparaison.", "oggi": "aujourd'hui", "nd": "n.c.", "errore": "Impossible de charger les données des moteurs. Rechargez la page.", "locale": "fr-FR"}, "cs": {"cilindrata": "Zdvihový objem", "pmax": "Nejvyšší výkon", "pmin": "Nejnižší výkon", "cmax": "Nejvyšší točivý moment", "lim": "Omezovač otáček", "spec": "Měrný výkon", "aff": "Spolehlivost", "arch": "Uspořádání", "asp": "Plnění", "alim": "Palivo", "comp": "Komprese", "inie": "Vstřikování", "blocco": "Materiál bloku", "testa": "Materiál hlavy", "distr": "Rozvod", "prod": "Výroba", "giri": "ot/min", "cvl": "CV/litr", "vuoto": "Pro porovnání vyberte alespoň dva motory.", "oggi": "dosud", "nd": "neuvedeno", "errore": "Data motorů se nepodařilo načíst. Obnovte stránku.", "locale": "cs-CZ"}};
+  var L = T[form.dataset.lingua] || T.it;
   var metriche = [
-    { k: 'cilindrata', t: 'Cilindrata', u: 'cc' },
-    { k: 'cv_max', t: 'Potenza massima', u: 'CV' },
-    { k: 'cv_min', t: 'Potenza minima', u: 'CV' },
-    { k: 'nm_max', t: 'Coppia massima', u: 'Nm' },
-    { k: 'limitatore', t: 'Limitatore', u: 'giri/min' },
-    { k: 'cv_litro', t: 'Potenza specifica', u: 'CV/litro' },
-    { k: 'aff', t: 'Affidabilità', u: '/100' }
+    { k: 'cilindrata', t: L.cilindrata, u: 'cc' },
+    { k: 'cv_max', t: L.pmax, u: 'CV' },
+    { k: 'cv_min', t: L.pmin, u: 'CV' },
+    { k: 'nm_max', t: L.cmax, u: 'Nm' },
+    { k: 'limitatore', t: L.lim, u: L.giri },
+    { k: 'cv_litro', t: L.spec, u: L.cvl },
+    { k: 'aff', t: L.aff, u: '/100' }
   ];
   var testi = [
-    { k: 'architettura', t: 'Architettura' },
-    { k: 'aspirazione', t: 'Aspirazione' },
-    { k: 'alimentazione', t: 'Alimentazione' },
-    { k: 'compressione', t: 'Compressione' },
-    { k: 'iniezione', t: 'Iniezione' },
-    { k: 'blocco', t: 'Materiale basamento' },
-    { k: 'testa', t: 'Materiale testata' },
-    { k: 'distribuzione', t: 'Distribuzione' },
-    { k: 'periodo', t: 'Produzione' }
+    { k: 'architettura', t: L.arch },
+    { k: 'aspirazione', t: L.asp },
+    { k: 'alimentazione', t: L.alim },
+    { k: 'compressione', t: L.comp },
+    { k: 'iniezione', t: L.inie },
+    { k: 'blocco', t: L.blocco },
+    { k: 'testa', t: L.testa },
+    { k: 'distribuzione', t: L.distr },
+    { k: 'periodo', t: L.prod }
   ];
 
   function disegna() {
@@ -55,11 +57,11 @@
     var p = new URLSearchParams();
     scelti.forEach(function (m) { p.append('m', m.slug); });
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
-    if (scelti.length < 2) { out.innerHTML = '<p class="vuoto">Scegli almeno due motori per vedere il confronto.</p>'; return; }
+    if (scelti.length < 2) { out.innerHTML = '<p class="vuoto">' + L.vuoto + '</p>'; return; }
 
     scelti.forEach(function (m) {
       m.cv_litro = Math.round(m.cv_max / (m.cilindrata / 1000));
-      m.periodo = m.inizio + '–' + (m.fine || 'oggi');
+      m.periodo = m.inizio + '–' + (m.fine || L.oggi);
       m.aff = m.affidabilita ? m.affidabilita.indice : 0;
     });
     var col = 'style="--colonne:' + scelti.length + '"';
@@ -73,13 +75,13 @@
       h += '<div class="confronto-riga" ' + col + '><h3>' + (x.k === 'aff' ? 'Affidabilità (stima editoriale)' : x.t) + '</h3>';
       scelti.forEach(function (m) {
         var v = m[x.k] || 0, pct = max ? (v / max * 100) : 0;
-        h += '<div class="barra' + (v === max ? ' prima' : '') + '"><span style="width:' + pct.toFixed(1) + '%"></span><b>' + (v ? v.toLocaleString('it-IT') : 'n.d.') + ' <small>' + x.u + '</small></b></div>';
+        h += '<div class="barra' + (v === max ? ' prima' : '') + '"><span style="width:' + pct.toFixed(1) + '%"></span><b>' + (v ? v.toLocaleString(L.locale) : L.nd) + ' <small>' + x.u + '</small></b></div>';
       });
       h += '</div>';
     });
     testi.forEach(function (x) {
       h += '<div class="confronto-riga testo" ' + col + '><h3>' + x.t + '</h3>';
-      scelti.forEach(function (m) { h += '<p>' + esc(m[x.k] == null ? 'n.d.' : m[x.k]) + '</p>'; });
+      scelti.forEach(function (m) { h += '<p>' + esc(m[x.k] == null ? L.nd : m[x.k]) + '</p>'; });
       h += '</div>';
     });
     out.innerHTML = h;
@@ -92,6 +94,6 @@
     form.addEventListener('change', disegna);
     disegna();
   }).catch(function () {
-    out.innerHTML = '<p class="vuoto">Impossibile caricare i dati dei motori. Ricarica la pagina.</p>';
+    out.innerHTML = '<p class="vuoto">' + L.errore + '</p>';
   });
 })();

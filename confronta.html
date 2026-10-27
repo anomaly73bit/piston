@@ -4,21 +4,4 @@ title: Confronta motori
 permalink: /confronta/
 script: confronta.js
 ---
-{%- assign motori = site.data.motori | sort: "nome" -%}
-<section class="pagina riga">
-  <h1>Confronta motori</h1>
-  <p class="sottotitolo">Scegli fino a tre motori: i cilindri sono disegnati alla stessa scala e ogni valore è messo a confronto con gli altri.</p>
-  <form class="scelte" id="scelte" data-json="{{ '/assets/motori.json' | relative_url }}" data-base="{{ '/motori/' | relative_url }}" onsubmit="return false">
-    {% for i in (1..3) %}
-    <label><span>Motore {{ i }}</span>
-      <select name="m{{ i }}">
-        <option value="">{% if i == 3 %}Nessuno{% else %}Scegli…{% endif %}</option>
-        {% for m in motori %}<option value="{{ m.slug }}">{{ m.nome }}</option>{% endfor %}
-      </select>
-    </label>
-    {% endfor %}
-  </form>
-  <div id="confronto" class="confronto" aria-live="polite">
-    <p class="vuoto">Scegli almeno due motori per vedere il confronto.</p>
-  </div>
-</section>
+{% include pagine/confronta.html %}

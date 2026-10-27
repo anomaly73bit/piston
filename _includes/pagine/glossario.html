@@ -1,0 +1,11 @@
+{% include pagine/_intestazione.html %}
+{%- assign kn = 'termine_' | append: lingua -%}{%- assign kt = 'testo_' | append: lingua -%}
+<section class="pagina riga stretta">
+  <h1>{{ pt.glossario_titolo }}</h1>
+  <p class="sottotitolo">{{ pt.glossario_sotto }}</p>
+  <dl class="glossario">
+    {% for g in site.data.glossario %}
+    <div id="{{ g.termine | slugify }}"><dt>{{ g[kn] | default: g.termine }}</dt><dd>{{ g[kt] | default: g.testo }}</dd></div>
+    {% endfor %}
+  </dl>
+</section>

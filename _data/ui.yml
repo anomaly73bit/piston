@@ -68,6 +68,7 @@ it:
   f1: Critica
   avviso_traduzione: ''
   arch_rotativo: Rotativo
+  asp: {}
 en:
   codice: Code
   prodotto: produced
@@ -138,6 +139,13 @@ en:
   f1: Critical
   avviso_traduzione: 'Translation in progress: some sections are still shown in Italian. The Italian text is the reference version.'
   arch_rotativo: Rotary
+  asp:
+    Aspirato: naturally aspirated
+    Turbo: turbo
+    Biturbo: twin-turbo
+    Compressore: supercharged
+    Quadriturbo: quad-turbo
+    Ibrido: hybrid
 fr:
   codice: Code
   prodotto: produit
@@ -208,6 +216,13 @@ fr:
   f1: Critique
   avviso_traduzione: 'Traduction en cours : certaines sections sont encore affichées en italien. Le texte italien fait référence.'
   arch_rotativo: Rotatif
+  asp:
+    Aspirato: atmosphérique
+    Turbo: turbo
+    Biturbo: biturbo
+    Compressore: compresseur
+    Quadriturbo: quadriturbo
+    Ibrido: hybride
 cs:
   codice: Kód
   prodotto: vyráběn
@@ -277,3 +292,10 @@ cs:
   f1: Kritická
   avviso_traduzione: 'Překlad probíhá: některé části jsou zatím zobrazeny v italštině. Rozhodující je italský text.'
   arch_rotativo: Rotační
+  asp:
+    Aspirato: atmosférický
+    Turbo: turbo
+    Biturbo: dvě turbodmychadla
+    Compressore: kompresor
+    Quadriturbo: čtyři turbodmychadla
+    Ibrido: hybrid

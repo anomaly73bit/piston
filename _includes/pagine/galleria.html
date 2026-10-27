@@ -1,0 +1,17 @@
+{% include pagine/_intestazione.html %}
+<section class="pagina riga">
+  <h1>{{ pt.galleria_titolo }}</h1>
+  <p class="sottotitolo">{{ pt.galleria_sotto }}</p>
+  <div class="galleria-motori">
+    {% assign ordinati = site.data.motori | sort: "nome" %}
+    {% for m in ordinati %}
+      {% if m.foto and m.foto.url and m.foto.pagina %}
+      {%- assign tr = site.data.traduzioni[lingua][m.slug] -%}
+      <article class="galleria-item">
+        <a href="{{ pref | append: '/motori/' | append: m.slug | append: '/' | relative_url }}"><img src="{{ m.foto.url | escape }}" alt="{% if tr.foto.descrizione %}{{ tr.foto.descrizione | escape }}{% else %}{{ m.foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async"><strong>{{ m.nome }}</strong></a>
+        <p>{{ m.foto.autore | escape }} · <a href="{{ m.foto.pagina | escape }}" rel="noopener noreferrer">{{ m.foto.licenza | escape }}</a></p>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

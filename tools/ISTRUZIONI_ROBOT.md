@@ -20,7 +20,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    - `fine:` vuoto se il motore è ancora in produzione (verifica sul web).
    - `angolo:` obbligatorio per architetture V e W (gradi tra le bancate).
    - `architettura:` deve essere uno degli `id` di `_data/architetture.yml`. Se serve un'architettura nuova
-     (es. "Boxer 12", "W12", "V16"), aggiungila a quel file con nome e testo tecnico di due frasi.
+     (es. "Boxer 12", "W12", "V16"), aggiungila a quel file con nome e testo tecnico di due frasi, più `nome_en`, `testo_en`, `nome_fr`, `testo_fr`, `nome_cs`, `testo_cs`.
    - Lo `slug` è minuscolo con trattini: costruttore-codice (es. `bmw-n55`).
    - Ogni testo in un elenco che contiene "due punti seguiti da spazio" va tra virgolette doppie.
    - In `modelli` ogni riga contiene **una sola marca** e inizia con il nome della marca (es. "Porsche Cayenne V6"):
