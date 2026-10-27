@@ -1,0 +1,150 @@
+{
+ "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
+ "en": {
+  "storia": "Direct-injection diesel with turbocharger and intercooler, introduced in the Audi 80 in 1991. The first version had an electronically controlled rotary pump; from 1996 a variable-geometry turbo; from 2000 unit injectors (Pumpe-Düse) with pressures up to 2050 bar. It was among the group's most produced engines and contributed to the spread of diesel in European cars in the 1990s and 2000s.",
+  "limiti": "The Pumpe-Düse versions reach about 200 CV with larger injectors and a reinforced clutch.",
+  "paese": "Germany",
+  "alimentazione": "Diesel",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven SOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Direct, rotary pump (VE) then unit injector (PD)",
+  "compressione": "18.0–19.5:1",
+  "punti_deboli": [
+   "Camshaft wear on PD engines (lobes that actuate the unit injectors)",
+   "Dual-mass flywheel and variable-geometry turbo seized by soot",
+   "EGR valve and air mass sensor"
+  ],
+  "curiosita": [
+   "Units exceeding one million kilometres are documented, especially in taxis and commercial vehicles."
+  ],
+  "versioni": [
+   {
+    "nota": "Debut in the Audi 80 B4"
+   },
+   {
+    "nota": "Variable-geometry turbo"
+   },
+   {},
+   {
+    "nota": "Maximum figure, in the Seat Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "injection pressure of the unit injector versions",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "debut in the Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "reached by documented units in taxis and vans",
+    "valore": "1,000,000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Very high mileages; faults in accessories and PD camshafts."
+  }
+ },
+ "fr": {
+  "storia": "Diesel à injection directe avec turbo et échangeur, introduit sur l'Audi 80 en 1991. Première version avec pompe rotative à commande électronique ; à partir de 1996, turbo à géométrie variable ; à partir de 2000, injecteurs-pompes (Pumpe-Düse) avec des pressions allant jusqu'à 2050 bar. Il a été l'un des moteurs les plus produits du groupe et a contribué à la diffusion du diesel sur les voitures européennes dans les années 1990 et 2000.",
+  "limiti": "Les versions Pumpe-Düse atteignent environ 200 CV avec des injecteurs plus gros et un embrayage renforcé.",
+  "paese": "Allemagne",
+  "alimentazione": "Gazole",
+  "aspirazione": "Turbo",
+  "distribuzione": "Simple arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe, pompe rotative (VE) puis injecteur-pompe (PD)",
+  "compressione": "18,0–19,5:1",
+  "punti_deboli": [
+   "Usure de l'arbre à cames sur les PD (cames qui actionnent les injecteurs-pompes)",
+   "Volant bimasse et turbo à géométrie variable grippé par la suie",
+   "Vanne EGR et débitmètre d'air"
+  ],
+  "curiosita": [
+   "Des moteurs ayant dépassé le million de kilomètres sont documentés, surtout sur des taxis et des véhicules utilitaires."
+  ],
+  "versioni": [
+   {
+    "nota": "Lancement sur l'Audi 80 B4"
+   },
+   {
+    "nota": "Turbo à géométrie variable"
+   },
+   {},
+   {
+    "nota": "Valeur maximale, sur la Seat Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pression d'injection des versions à injecteurs-pompes",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "lancement sur l'Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "atteints par des moteurs documentés sur des taxis et des fourgons",
+    "valore": "1 000 000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Kilométrages très élevés ; défauts sur les accessoires et les arbres à cames PD."
+  }
+ },
+ "cs": {
+  "storia": "Vznětový motor s přímým vstřikováním, turbodmychadlem a mezichladičem, představený v roce 1991 v Audi 80. První verze měla elektronicky řízené rotační čerpadlo; od roku 1996 turbodmychadlo s proměnnou geometrií; od roku 2000 jednotky čerpadlo-tryska (Pumpe-Düse) s tlaky až 2050 bar. Patřil k nejvyráběnějším motorům koncernu a přispěl k rozšíření nafty v evropských automobilech v 90. letech a po roce 2000.",
+  "limiti": "Verze Pumpe-Düse dosahují s většími vstřikovači a zesílenou spojkou přibližně 200 CV.",
+  "paese": "Německo",
+  "alimentazione": "Nafta",
+  "aspirazione": "Turbo",
+  "distribuzione": "SOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé, rotační čerpadlo (VE), později čerpadlo-tryska (PD)",
+  "compressione": "18,0–19,5:1",
+  "punti_deboli": [
+   "Opotřebení vačkového hřídele u PD (vačky ovládající jednotky čerpadlo-tryska)",
+   "Dvouhmotový setrvačník a turbodmychadlo s proměnnou geometrií zablokované sazemi",
+   "Ventil EGR a snímač hmotnosti vzduchu"
+  ],
+  "curiosita": [
+   "Jsou doloženy motory s nájezdem přes milion kilometrů, hlavně u taxi a užitkových vozidel."
+  ],
+  "versioni": [
+   {
+    "nota": "Debut v Audi 80 B4"
+   },
+   {
+    "nota": "Turbodmychadlo s proměnnou geometrií"
+   },
+   {},
+   {
+    "nota": "Nejvyšší hodnota, v Seatu Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "vstřikovací tlak verzí čerpadlo-tryska",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "debut v Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "dosaženo doloženými motory v taxi a dodávkách",
+    "valore": "1 000 000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Velmi vysoké nájezdy; závady příslušenství a vačkových hřídelů PD."
+  }
+ }
+}

@@ -776,6 +776,241 @@
   "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
   "_complete": true
  },
+ "vw-ea888": {
+  "storia": "Přeplňovaný čtyřválec s přímým vstřikováním koncernu Volkswagen (2007), litinový blok motoru s vyvažovacími hřídeli. V dalších generacích roste výkon ze 160 na 333 CV. Gen3 (2012) má výfukové svody integrované do hlavy válců, kombinované přímé a nepřímé vstřikování a tepelný modul pro řízení chladicí kapaliny.",
+  "limiti": "Se sériovými vnitřními díly snese Gen3 s větším turbodmychadlem přibližně 400–450 CV; nad tuto hranici jsou nutné kované ojnice a písty.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování ventilů (u některých verzí AVS)",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od Gen3 přímé + nepřímé)",
+  "compressione": "9,3–10,5:1",
+  "punti_deboli": [
+   "Gen1/Gen2: spotřeba oleje způsobená pístními kroužky (na mnoha trzích vyměňovány v záruce)",
+   "Napínák rozvodového řetězu u prvních verzí: riziko přeskočení řetězu",
+   "Plastové vodní čerpadlo a termostat (Gen3) s netěsnostmi"
+  ],
+  "curiosita": [
+   "Vyráběn v Evropě, Číně, Mexiku a Jižní Americe."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Výfukové svody integrované do hlavy válců"
+   },
+   {
+    "nota": "Golf R „20 Years“"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "se stejným litinovým blokem motoru",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "generace od roku 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "výfukové svody v hlavě válců od Gen3",
+    "valore": "Integrované"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Spotřeba oleje (Gen1/Gen2) a napínák řetězu u prvních verzí."
+  },
+  "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
+  "_complete": true
+ },
+ "vw-19-tdi": {
+  "storia": "Vznětový motor s přímým vstřikováním, turbodmychadlem a mezichladičem, představený v roce 1991 v Audi 80. První verze měla elektronicky řízené rotační čerpadlo; od roku 1996 turbodmychadlo s proměnnou geometrií; od roku 2000 jednotky čerpadlo-tryska (Pumpe-Düse) s tlaky až 2050 bar. Patřil k nejvyráběnějším motorům koncernu a přispěl k rozšíření nafty v evropských automobilech v 90. letech a po roce 2000.",
+  "limiti": "Verze Pumpe-Düse dosahují s většími vstřikovači a zesílenou spojkou přibližně 200 CV.",
+  "paese": "Německo",
+  "alimentazione": "Nafta",
+  "aspirazione": "Turbo",
+  "distribuzione": "SOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé, rotační čerpadlo (VE), později čerpadlo-tryska (PD)",
+  "compressione": "18,0–19,5:1",
+  "punti_deboli": [
+   "Opotřebení vačkového hřídele u PD (vačky ovládající jednotky čerpadlo-tryska)",
+   "Dvouhmotový setrvačník a turbodmychadlo s proměnnou geometrií zablokované sazemi",
+   "Ventil EGR a snímač hmotnosti vzduchu"
+  ],
+  "curiosita": [
+   "Jsou doloženy motory s nájezdem přes milion kilometrů, hlavně u taxi a užitkových vozidel."
+  ],
+  "versioni": [
+   {
+    "nota": "Debut v Audi 80 B4"
+   },
+   {
+    "nota": "Turbodmychadlo s proměnnou geometrií"
+   },
+   {},
+   {
+    "nota": "Nejvyšší hodnota, v Seatu Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "vstřikovací tlak verzí čerpadlo-tryska",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "debut v Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "dosaženo doloženými motory v taxi a dodávkách",
+    "valore": "1 000 000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Velmi vysoké nájezdy; závady příslušenství a vačkových hřídelů PD."
+  },
+  "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
+  "_complete": true
+ },
+ "vw-ea189": {
+  "storia": "První 2.0 TDI common rail koncernu Volkswagen (2007), podle verze s piezoelektrickými nebo elektromagnetickými vstřikovači, filtrem pevných částic a recirkulací výfukových plynů. V roce 2015 americká EPA zjistila, že řídicí jednotka rozpoznávala homologační cyklus a snižovala emise NOx jen během zkoušky. Kauza známá jako Dieselgate se týkala přibližně 11 milionů vozidel po celém světě.",
+  "limiti": "Verze se 140 CV překonávají úpravou řídicí jednotky 170–180 CV; limitem jsou spojka a turbodmychadlo.",
+  "paese": "Německo",
+  "alimentazione": "Nafta",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé common rail",
+  "compressione": "16,5:1",
+  "punti_deboli": [
+   "Ventil EGR a filtr pevných částic při městském provozu",
+   "Šestihranný pohon olejového čerpadla u některých verzí",
+   "Softwarová aktualizace po Dieselgate, jejíž dopady na EGR a DPF hlásí mnoho uživatelů"
+  ],
+  "curiosita": [
+   "Nahrazen motorem EA288, vyvinutým pro normy Euro 6."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "odhalení softwaru rozpoznávajícího zkušební cyklus",
+    "valore": "2015"
+   },
+   {
+    "testo": "vozidel zasažených kauzou Dieselgate",
+    "valore": "11 milionů"
+   },
+   {
+    "testo": "první 2.0 TDI koncernu s tímto systémem",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní blok motoru; EGR, filtr pevných částic a u některých verzí olejové čerpadlo."
+  },
+  "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
+  "_complete": true
+ },
+ "audi-25-tfsi": {
+  "storia": "Přeplňovaný řadový pětiválec s přímým vstřikováním (2009) s pořadím zapalování 1-2-4-5-3. Od roku 2016 má verze evo hliníkový blok motoru (o 26 kg lehčí) a kombinované přímé a nepřímé vstřikování. Ve své kategorii zvítězil v anketě International Engine of the Year devět let po sobě.",
+  "limiti": "Verze evo snese se sériovými vnitřními díly a větším turbodmychadlem 500–600 CV; nad tuto hranici jsou nutné kované ojnice.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řetězem",
+  "blocco": "Litina, později hliník (evo 2016)",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od roku 2016 přímé + nepřímé)",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Recirkulační ventil PCV a cívky",
+   "Karbonové usazeniny u verzí pouze s přímým vstřikováním (před rokem 2016)"
+  ],
+  "curiosita": [
+   "Patří k posledním vyráběným benzínovým pětiválcům."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Hliníkový blok motoru, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pořadí zapalování",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "let po sobě s vítězstvím v kategorii v anketě International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "s hliníkovým blokem motoru verze evo",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Závady omezené na PCV, cívky a karbonové usazeniny."
+  },
+  "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
+  "_complete": true
+ },
+ "audi-v10-52-fsi": {
+  "storia": "Vidlicový desetiválec V10 s úhlem 90° odvozený od motoru 5.0 první Lamborghini Gallardo, s přesazenými ojničními čepy pro pravidelné zapalování. Mazání se suchou klikovou skříní, přímé vstřikování a od roku 2014 kombinované přímé a nepřímé vstřikování. Pohání Audi R8 a Lamborghini Huracán v různém výkonovém nastavení. Výroba končí v roce 2024.",
+  "limiti": "Verze se dvěma turbodmychadly od tuningových firem překonávají s kovanými vnitřními díly 1500 CV.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování ventilů",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od roku 2014 přímé + nepřímé)",
+  "compressione": "12,5–12,7:1",
+  "punti_deboli": [
+   "Snímače a cívky; netěsnosti olejového potrubí u prvních verzí",
+   "Spojka a převodovka E-gear/R tronic (převodové ústrojí, nikoli motor) u prvních vozů"
+  ],
+  "curiosita": [
+   "Varianta s mokrou klikovou skříní a nižším výkonem se montovala do Audi S6 (C6) a S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Dvojí vstřikování"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "s přesazenými ojničními čepy pro pravidelné zapalování",
+    "valore": "90°"
+   },
+   {
+    "testo": "ot/min na omezovači otáček",
+    "valore": "8700"
+   },
+   {
+    "testo": "konec výroby, poslední velkosériový atmosférický V10",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; problémy omezené na příslušenství."
+  },
+  "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Česká republika",
   "alimentazione": "Benzín",

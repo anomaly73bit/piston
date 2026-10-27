@@ -776,6 +776,241 @@
   "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
   "_complete": true
  },
+ "vw-ea888": {
+  "storia": "Turbocharged direct-injection four-cylinder from the Volkswagen group (2007), with a cast-iron cylinder block and balance shafts. Over the successive generations output rises from 160 to 333 CV. The Gen3 (2012) integrates the exhaust manifold into the cylinder head, adopts dual direct and port injection and a thermal management module for the coolant.",
+  "limiti": "With stock internals the Gen3 withstands about 400–450 CV with a larger turbo; beyond that, forged connecting rods and pistons are needed.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC, variable valve timing (AVS on some versions)",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from Gen3)",
+  "compressione": "9.3–10.5:1",
+  "punti_deboli": [
+   "Gen1/Gen2: oil consumption caused by the piston rings (replaced under warranty in many markets)",
+   "Timing chain tensioner on early versions: risk of the chain jumping teeth",
+   "Plastic water pump and thermostat (Gen3) prone to leaks"
+  ],
+  "curiosita": [
+   "Produced in Europe, China, Mexico and South America."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Exhaust manifold integrated into the cylinder head"
+   },
+   {
+    "nota": "Golf R '20 Years'"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "with the same cast-iron cylinder block",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "generations since 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "exhaust manifold in the cylinder head from Gen3",
+    "valore": "Integrated"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Oil consumption (Gen1/Gen2) and chain tensioner on early versions."
+  },
+  "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
+  "_complete": true
+ },
+ "vw-19-tdi": {
+  "storia": "Direct-injection diesel with turbocharger and intercooler, introduced in the Audi 80 in 1991. The first version had an electronically controlled rotary pump; from 1996 a variable-geometry turbo; from 2000 unit injectors (Pumpe-Düse) with pressures up to 2050 bar. It was among the group's most produced engines and contributed to the spread of diesel in European cars in the 1990s and 2000s.",
+  "limiti": "The Pumpe-Düse versions reach about 200 CV with larger injectors and a reinforced clutch.",
+  "paese": "Germany",
+  "alimentazione": "Diesel",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven SOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Direct, rotary pump (VE) then unit injector (PD)",
+  "compressione": "18.0–19.5:1",
+  "punti_deboli": [
+   "Camshaft wear on PD engines (lobes that actuate the unit injectors)",
+   "Dual-mass flywheel and variable-geometry turbo seized by soot",
+   "EGR valve and air mass sensor"
+  ],
+  "curiosita": [
+   "Units exceeding one million kilometres are documented, especially in taxis and commercial vehicles."
+  ],
+  "versioni": [
+   {
+    "nota": "Debut in the Audi 80 B4"
+   },
+   {
+    "nota": "Variable-geometry turbo"
+   },
+   {},
+   {
+    "nota": "Maximum figure, in the Seat Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "injection pressure of the unit injector versions",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "debut in the Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "reached by documented units in taxis and vans",
+    "valore": "1,000,000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Very high mileages; faults in accessories and PD camshafts."
+  },
+  "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
+  "_complete": true
+ },
+ "vw-ea189": {
+  "storia": "The Volkswagen group's first common rail 2.0 TDI (2007), with piezoelectric or solenoid injectors depending on version, diesel particulate filter and exhaust gas recirculation. In 2015 the US EPA established that the ECU recognised the homologation cycle and reduced NOx emissions only during the test. The case, known as Dieselgate, involved about 11 million vehicles worldwide.",
+  "limiti": "The 140 CV versions exceed 170–180 CV with remapping; the limit is the clutch and turbo.",
+  "paese": "Germany",
+  "alimentazione": "Diesel",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Common rail direct injection",
+  "compressione": "16.5:1",
+  "punti_deboli": [
+   "EGR valve and particulate filter with urban use",
+   "Oil pump hexagonal drive on some versions",
+   "Post-Dieselgate software update, with effects on EGR and DPF reported by many owners"
+  ],
+  "curiosita": [
+   "Replaced by the EA288, developed for the Euro 6 standards."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "discovery of the test-cycle recognition software",
+    "valore": "2015"
+   },
+   {
+    "testo": "vehicles involved in Dieselgate",
+    "valore": "11 million"
+   },
+   {
+    "testo": "the group's first 2.0 TDI with this system",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust cylinder block; EGR, particulate filter and oil pump on some versions."
+  },
+  "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
+  "_complete": true
+ },
+ "audi-25-tfsi": {
+  "storia": "Turbocharged direct-injection inline five-cylinder (2009), with a 1-2-4-5-3 firing order. From 2016 the evo version adopts an aluminium cylinder block (26 kg lighter) and dual direct and port injection. It won its category at the International Engine of the Year for nine consecutive years.",
+  "limiti": "The evo version withstands 500–600 CV with stock internals and a larger turbo; beyond that, forged connecting rods are needed.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC",
+  "blocco": "Cast iron, then aluminium (evo 2016)",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from 2016)",
+  "compressione": "10.0:1",
+  "punti_deboli": [
+   "PCV recirculation valve and coils",
+   "Carbon deposits on direct-injection-only versions (pre-2016)"
+  ],
+  "curiosita": [
+   "It is one of the last petrol five-cylinder engines in production."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Aluminium cylinder block, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "firing order",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "consecutive years of category wins at the International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "with the aluminium cylinder block of the evo version",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Faults limited to PCV, coils and carbon deposits."
+  },
+  "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
+  "_complete": true
+ },
+ "audi-v10-52-fsi": {
+  "storia": "90° V10 derived from the 5.0 of the first Lamborghini Gallardo, with split crankpins for even firing. Dry-sump lubrication, direct injection and, from 2014, dual direct and port injection. It powers the Audi R8 and Lamborghini Huracán in different states of tune. Production ends in 2024.",
+  "limiti": "Twin-turbo versions built by tuners exceed 1500 CV with forged internals.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, variable valve timing",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from 2014)",
+  "compressione": "12.5–12.7:1",
+  "punti_deboli": [
+   "Sensors and coils; oil line leaks on early versions",
+   "Clutch and E-gear/R tronic gearbox (transmission, not engine) on early cars"
+  ],
+  "curiosita": [
+   "A wet-sump variant with a lower state of tune was fitted to the Audi S6 (C6) and S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Dual injection"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "with split crankpins for even firing",
+    "valore": "90°"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8700"
+   },
+   {
+    "testo": "end of production, the last high-volume naturally aspirated V10",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; problems limited to accessories."
+  },
+  "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Czech Republic",
   "alimentazione": "Petrol",

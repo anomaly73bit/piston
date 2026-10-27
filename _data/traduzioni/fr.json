@@ -776,6 +776,241 @@
   "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
   "_complete": true
  },
+ "vw-ea888": {
+  "storia": "Quatre-cylindres turbo à injection directe du groupe Volkswagen (2007), bloc-moteur en fonte avec arbres d'équilibrage. Au fil des générations, la puissance passe de 160 à 333 CV. La Gen3 (2012) intègre le collecteur d'échappement dans la culasse, adopte la double injection directe et indirecte et un module thermique pour la gestion du liquide de refroidissement.",
+  "limiti": "Avec l'équipage mobile d'origine, la Gen3 supporte environ 400–450 CV avec un turbo plus gros ; au-delà, il faut des bielles et des pistons forgés.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable (AVS sur certaines versions)",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de la Gen3)",
+  "compressione": "9,3–10,5:1",
+  "punti_deboli": [
+   "Gen1/Gen2 : consommation d'huile due aux segments de piston (remplacés sous garantie sur de nombreux marchés)",
+   "Tendeur de chaîne de distribution sur les premières versions : risque de saut de chaîne",
+   "Pompe à eau en plastique et thermostat (Gen3) sujets aux fuites"
+  ],
+  "curiosita": [
+   "Produit en Europe, en Chine, au Mexique et en Amérique du Sud."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Collecteur d'échappement intégré dans la culasse"
+   },
+   {
+    "nota": "Golf R « 20 Years »"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "avec le même bloc-moteur en fonte",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "générations depuis 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "collecteur d'échappement dans la culasse à partir de la Gen3",
+    "valore": "Intégré"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Consommation d'huile (Gen1/Gen2) et tendeur de chaîne sur les premières versions."
+  },
+  "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
+  "_complete": true
+ },
+ "vw-19-tdi": {
+  "storia": "Diesel à injection directe avec turbo et échangeur, introduit sur l'Audi 80 en 1991. Première version avec pompe rotative à commande électronique ; à partir de 1996, turbo à géométrie variable ; à partir de 2000, injecteurs-pompes (Pumpe-Düse) avec des pressions allant jusqu'à 2050 bar. Il a été l'un des moteurs les plus produits du groupe et a contribué à la diffusion du diesel sur les voitures européennes dans les années 1990 et 2000.",
+  "limiti": "Les versions Pumpe-Düse atteignent environ 200 CV avec des injecteurs plus gros et un embrayage renforcé.",
+  "paese": "Allemagne",
+  "alimentazione": "Gazole",
+  "aspirazione": "Turbo",
+  "distribuzione": "Simple arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe, pompe rotative (VE) puis injecteur-pompe (PD)",
+  "compressione": "18,0–19,5:1",
+  "punti_deboli": [
+   "Usure de l'arbre à cames sur les PD (cames qui actionnent les injecteurs-pompes)",
+   "Volant bimasse et turbo à géométrie variable grippé par la suie",
+   "Vanne EGR et débitmètre d'air"
+  ],
+  "curiosita": [
+   "Des moteurs ayant dépassé le million de kilomètres sont documentés, surtout sur des taxis et des véhicules utilitaires."
+  ],
+  "versioni": [
+   {
+    "nota": "Lancement sur l'Audi 80 B4"
+   },
+   {
+    "nota": "Turbo à géométrie variable"
+   },
+   {},
+   {
+    "nota": "Valeur maximale, sur la Seat Ibiza Cupra"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pression d'injection des versions à injecteurs-pompes",
+    "valore": "2050 bar"
+   },
+   {
+    "testo": "lancement sur l'Audi 80",
+    "valore": "1991"
+   },
+   {
+    "testo": "atteints par des moteurs documentés sur des taxis et des fourgons",
+    "valore": "1 000 000 km"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Kilométrages très élevés ; défauts sur les accessoires et les arbres à cames PD."
+  },
+  "_source_hash": "1be8da2ba3ec79023d48508c0eb319860e81903d55dbee2ad74c990309097349",
+  "_complete": true
+ },
+ "vw-ea189": {
+  "storia": "Premier 2.0 TDI common rail du groupe Volkswagen (2007), injecteurs piézoélectriques ou électromagnétiques selon la version, filtre à particules et recirculation des gaz d'échappement. En 2015, l'EPA américaine a établi que le calculateur reconnaissait le cycle d'homologation et ne réduisait les émissions de NOx que pendant l'essai. L'affaire, connue sous le nom de Dieselgate, a concerné environ 11 millions de véhicules dans le monde.",
+  "limiti": "Les versions de 140 CV dépassent 170–180 CV avec une reprogrammation ; la limite est constituée par l'embrayage et le turbo.",
+  "paese": "Allemagne",
+  "alimentazione": "Gazole",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe common rail",
+  "compressione": "16,5:1",
+  "punti_deboli": [
+   "Vanne EGR et filtre à particules en usage urbain",
+   "Entraînement hexagonal de la pompe à huile sur certaines versions",
+   "Mise à jour logicielle post-Dieselgate, avec des effets sur l'EGR et le FAP signalés par de nombreux utilisateurs"
+  ],
+  "curiosita": [
+   "Remplacé par l'EA288, développé pour les normes Euro 6."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "découverte du logiciel de reconnaissance du cycle d'essai",
+    "valore": "2015"
+   },
+   {
+    "testo": "véhicules concernés par le Dieselgate",
+    "valore": "11 millions"
+   },
+   {
+    "testo": "premier 2.0 TDI du groupe avec ce système",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bloc-moteur robuste ; EGR, filtre à particules et pompe à huile sur certaines versions."
+  },
+  "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
+  "_complete": true
+ },
+ "audi-25-tfsi": {
+  "storia": "Cinq-cylindres en ligne turbo à injection directe (2009), avec un ordre d'allumage 1-2-4-5-3. À partir de 2016, la version evo adopte un bloc-moteur en aluminium (26 kg de moins) et la double injection directe et indirecte. Il a remporté sa catégorie à l'International Engine of the Year pendant neuf années consécutives.",
+  "limiti": "La version evo supporte 500–600 CV avec l'équipage mobile d'origine et un turbo plus gros ; au-delà, il faut des bielles forgées.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne",
+  "blocco": "Fonte, puis aluminium (evo 2016)",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de 2016)",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Soupape de recyclage PCV et bobines",
+   "Dépôts de calamine sur les versions à injection directe seule (avant 2016)"
+  ],
+  "curiosita": [
+   "C'est l'un des derniers cinq-cylindres essence en production."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Bloc-moteur en aluminium, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "ordre d'allumage",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "années consécutives de victoires de catégorie à l'International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "avec le bloc-moteur en aluminium de la version evo",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Défauts limités au PCV, aux bobines et aux dépôts de calamine."
+  },
+  "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
+  "_complete": true
+ },
+ "audi-v10-52-fsi": {
+  "storia": "V10 à 90° dérivé du 5.0 de la première Lamborghini Gallardo, avec manetons décalés pour un allumage régulier. Lubrification par carter sec, injection directe et, à partir de 2014, double injection directe et indirecte. Il équipe l'Audi R8 et la Lamborghini Huracán avec des réglages différents. La production s'achève en 2024.",
+  "limiti": "Des versions biturbo réalisées par des préparateurs dépassent 1500 CV avec un équipage mobile forgé.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de 2014)",
+  "compressione": "12,5–12,7:1",
+  "punti_deboli": [
+   "Capteurs et bobines ; fuites des conduites d'huile sur les premières versions",
+   "Embrayage et boîte E-gear/R tronic (transmission, pas le moteur) sur les premières voitures"
+  ],
+  "curiosita": [
+   "Une variante à carter humide et réglage moins poussé a été montée sur les Audi S6 (C6) et S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Double injection"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "avec manetons décalés pour un allumage régulier",
+    "valore": "90°"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8700"
+   },
+   {
+    "testo": "fin de production, dernier V10 atmosphérique de grande série",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; problèmes limités aux accessoires."
+  },
+  "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "République tchèque",
   "alimentazione": "Essence",

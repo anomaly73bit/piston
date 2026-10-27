@@ -1,0 +1,126 @@
+{
+ "_source_hash": "3f5e191229c9a6ef44024d4483deda31cbbcaee0111f517461d5e4dcfbb7ed8e",
+ "en": {
+  "storia": "The Volkswagen group's first common rail 2.0 TDI (2007), with piezoelectric or solenoid injectors depending on version, diesel particulate filter and exhaust gas recirculation. In 2015 the US EPA established that the ECU recognised the homologation cycle and reduced NOx emissions only during the test. The case, known as Dieselgate, involved about 11 million vehicles worldwide.",
+  "limiti": "The 140 CV versions exceed 170–180 CV with remapping; the limit is the clutch and turbo.",
+  "paese": "Germany",
+  "alimentazione": "Diesel",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven DOHC",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Common rail direct injection",
+  "compressione": "16.5:1",
+  "punti_deboli": [
+   "EGR valve and particulate filter with urban use",
+   "Oil pump hexagonal drive on some versions",
+   "Post-Dieselgate software update, with effects on EGR and DPF reported by many owners"
+  ],
+  "curiosita": [
+   "Replaced by the EA288, developed for the Euro 6 standards."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "discovery of the test-cycle recognition software",
+    "valore": "2015"
+   },
+   {
+    "testo": "vehicles involved in Dieselgate",
+    "valore": "11 million"
+   },
+   {
+    "testo": "the group's first 2.0 TDI with this system",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robust cylinder block; EGR, particulate filter and oil pump on some versions."
+  }
+ },
+ "fr": {
+  "storia": "Premier 2.0 TDI common rail du groupe Volkswagen (2007), injecteurs piézoélectriques ou électromagnétiques selon la version, filtre à particules et recirculation des gaz d'échappement. En 2015, l'EPA américaine a établi que le calculateur reconnaissait le cycle d'homologation et ne réduisait les émissions de NOx que pendant l'essai. L'affaire, connue sous le nom de Dieselgate, a concerné environ 11 millions de véhicules dans le monde.",
+  "limiti": "Les versions de 140 CV dépassent 170–180 CV avec une reprogrammation ; la limite est constituée par l'embrayage et le turbo.",
+  "paese": "Allemagne",
+  "alimentazione": "Gazole",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par courroie",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe common rail",
+  "compressione": "16,5:1",
+  "punti_deboli": [
+   "Vanne EGR et filtre à particules en usage urbain",
+   "Entraînement hexagonal de la pompe à huile sur certaines versions",
+   "Mise à jour logicielle post-Dieselgate, avec des effets sur l'EGR et le FAP signalés par de nombreux utilisateurs"
+  ],
+  "curiosita": [
+   "Remplacé par l'EA288, développé pour les normes Euro 6."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "découverte du logiciel de reconnaissance du cycle d'essai",
+    "valore": "2015"
+   },
+   {
+    "testo": "véhicules concernés par le Dieselgate",
+    "valore": "11 millions"
+   },
+   {
+    "testo": "premier 2.0 TDI du groupe avec ce système",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bloc-moteur robuste ; EGR, filtre à particules et pompe à huile sur certaines versions."
+  }
+ },
+ "cs": {
+  "storia": "První 2.0 TDI common rail koncernu Volkswagen (2007), podle verze s piezoelektrickými nebo elektromagnetickými vstřikovači, filtrem pevných částic a recirkulací výfukových plynů. V roce 2015 americká EPA zjistila, že řídicí jednotka rozpoznávala homologační cyklus a snižovala emise NOx jen během zkoušky. Kauza známá jako Dieselgate se týkala přibližně 11 milionů vozidel po celém světě.",
+  "limiti": "Verze se 140 CV překonávají úpravou řídicí jednotky 170–180 CV; limitem jsou spojka a turbodmychadlo.",
+  "paese": "Německo",
+  "alimentazione": "Nafta",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řemenem",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé common rail",
+  "compressione": "16,5:1",
+  "punti_deboli": [
+   "Ventil EGR a filtr pevných částic při městském provozu",
+   "Šestihranný pohon olejového čerpadla u některých verzí",
+   "Softwarová aktualizace po Dieselgate, jejíž dopady na EGR a DPF hlásí mnoho uživatelů"
+  ],
+  "curiosita": [
+   "Nahrazen motorem EA288, vyvinutým pro normy Euro 6."
+  ],
+  "versioni": [
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "odhalení softwaru rozpoznávajícího zkušební cyklus",
+    "valore": "2015"
+   },
+   {
+    "testo": "vozidel zasažených kauzou Dieselgate",
+    "valore": "11 milionů"
+   },
+   {
+    "testo": "první 2.0 TDI koncernu s tímto systémem",
+    "valore": "Common rail"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Robustní blok motoru; EGR, filtr pevných částic a u některých verzí olejové čerpadlo."
+  }
+ }
+}

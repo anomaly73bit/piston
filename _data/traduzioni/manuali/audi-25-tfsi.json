@@ -1,0 +1,132 @@
+{
+ "_source_hash": "7c478c9a68b8e7f7f7756d446ed1b464a15a8b0b06c5d022a4d991d4c44b8308",
+ "en": {
+  "storia": "Turbocharged direct-injection inline five-cylinder (2009), with a 1-2-4-5-3 firing order. From 2016 the evo version adopts an aluminium cylinder block (26 kg lighter) and dual direct and port injection. It won its category at the International Engine of the Year for nine consecutive years.",
+  "limiti": "The evo version withstands 500–600 CV with stock internals and a larger turbo; beyond that, forged connecting rods are needed.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC",
+  "blocco": "Cast iron, then aluminium (evo 2016)",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from 2016)",
+  "compressione": "10.0:1",
+  "punti_deboli": [
+   "PCV recirculation valve and coils",
+   "Carbon deposits on direct-injection-only versions (pre-2016)"
+  ],
+  "curiosita": [
+   "It is one of the last petrol five-cylinder engines in production."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Aluminium cylinder block, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "firing order",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "consecutive years of category wins at the International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "with the aluminium cylinder block of the evo version",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Faults limited to PCV, coils and carbon deposits."
+  }
+ },
+ "fr": {
+  "storia": "Cinq-cylindres en ligne turbo à injection directe (2009), avec un ordre d'allumage 1-2-4-5-3. À partir de 2016, la version evo adopte un bloc-moteur en aluminium (26 kg de moins) et la double injection directe et indirecte. Il a remporté sa catégorie à l'International Engine of the Year pendant neuf années consécutives.",
+  "limiti": "La version evo supporte 500–600 CV avec l'équipage mobile d'origine et un turbo plus gros ; au-delà, il faut des bielles forgées.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne",
+  "blocco": "Fonte, puis aluminium (evo 2016)",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de 2016)",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Soupape de recyclage PCV et bobines",
+   "Dépôts de calamine sur les versions à injection directe seule (avant 2016)"
+  ],
+  "curiosita": [
+   "C'est l'un des derniers cinq-cylindres essence en production."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Bloc-moteur en aluminium, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "ordre d'allumage",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "années consécutives de victoires de catégorie à l'International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "avec le bloc-moteur en aluminium de la version evo",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Défauts limités au PCV, aux bobines et aux dépôts de calamine."
+  }
+ },
+ "cs": {
+  "storia": "Přeplňovaný řadový pětiválec s přímým vstřikováním (2009) s pořadím zapalování 1-2-4-5-3. Od roku 2016 má verze evo hliníkový blok motoru (o 26 kg lehčí) a kombinované přímé a nepřímé vstřikování. Ve své kategorii zvítězil v anketě International Engine of the Year devět let po sobě.",
+  "limiti": "Verze evo snese se sériovými vnitřními díly a větším turbodmychadlem 500–600 CV; nad tuto hranici jsou nutné kované ojnice.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řetězem",
+  "blocco": "Litina, později hliník (evo 2016)",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od roku 2016 přímé + nepřímé)",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Recirkulační ventil PCV a cívky",
+   "Karbonové usazeniny u verzí pouze s přímým vstřikováním (před rokem 2016)"
+  ],
+  "curiosita": [
+   "Patří k posledním vyráběným benzínovým pětiválcům."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Hliníkový blok motoru, -26 kg"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "pořadí zapalování",
+    "valore": "1-2-4-5-3"
+   },
+   {
+    "testo": "let po sobě s vítězstvím v kategorii v anketě International Engine of the Year",
+    "valore": "9"
+   },
+   {
+    "testo": "s hliníkovým blokem motoru verze evo",
+    "valore": "−26 kg"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Závady omezené na PCV, cívky a karbonové usazeniny."
+  }
+ }
+}

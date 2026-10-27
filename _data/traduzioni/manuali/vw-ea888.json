@@ -1,0 +1,144 @@
+{
+ "_source_hash": "9c97e64e295bcd7bf4f7fe4c23c398c6db460181e0cd15c91f195f98cb9f88f2",
+ "en": {
+  "storia": "Turbocharged direct-injection four-cylinder from the Volkswagen group (2007), with a cast-iron cylinder block and balance shafts. Over the successive generations output rises from 160 to 333 CV. The Gen3 (2012) integrates the exhaust manifold into the cylinder head, adopts dual direct and port injection and a thermal management module for the coolant.",
+  "limiti": "With stock internals the Gen3 withstands about 400–450 CV with a larger turbo; beyond that, forged connecting rods and pistons are needed.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC, variable valve timing (AVS on some versions)",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from Gen3)",
+  "compressione": "9.3–10.5:1",
+  "punti_deboli": [
+   "Gen1/Gen2: oil consumption caused by the piston rings (replaced under warranty in many markets)",
+   "Timing chain tensioner on early versions: risk of the chain jumping teeth",
+   "Plastic water pump and thermostat (Gen3) prone to leaks"
+  ],
+  "curiosita": [
+   "Produced in Europe, China, Mexico and South America."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Exhaust manifold integrated into the cylinder head"
+   },
+   {
+    "nota": "Golf R '20 Years'"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "with the same cast-iron cylinder block",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "generations since 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "exhaust manifold in the cylinder head from Gen3",
+    "valore": "Integrated"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Oil consumption (Gen1/Gen2) and chain tensioner on early versions."
+  }
+ },
+ "fr": {
+  "storia": "Quatre-cylindres turbo à injection directe du groupe Volkswagen (2007), bloc-moteur en fonte avec arbres d'équilibrage. Au fil des générations, la puissance passe de 160 à 333 CV. La Gen3 (2012) intègre le collecteur d'échappement dans la culasse, adopte la double injection directe et indirecte et un module thermique pour la gestion du liquide de refroidissement.",
+  "limiti": "Avec l'équipage mobile d'origine, la Gen3 supporte environ 400–450 CV avec un turbo plus gros ; au-delà, il faut des bielles et des pistons forgés.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable (AVS sur certaines versions)",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de la Gen3)",
+  "compressione": "9,3–10,5:1",
+  "punti_deboli": [
+   "Gen1/Gen2 : consommation d'huile due aux segments de piston (remplacés sous garantie sur de nombreux marchés)",
+   "Tendeur de chaîne de distribution sur les premières versions : risque de saut de chaîne",
+   "Pompe à eau en plastique et thermostat (Gen3) sujets aux fuites"
+  ],
+  "curiosita": [
+   "Produit en Europe, en Chine, au Mexique et en Amérique du Sud."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Collecteur d'échappement intégré dans la culasse"
+   },
+   {
+    "nota": "Golf R « 20 Years »"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "avec le même bloc-moteur en fonte",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "générations depuis 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "collecteur d'échappement dans la culasse à partir de la Gen3",
+    "valore": "Intégré"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Consommation d'huile (Gen1/Gen2) et tendeur de chaîne sur les premières versions."
+  }
+ },
+ "cs": {
+  "storia": "Přeplňovaný čtyřválec s přímým vstřikováním koncernu Volkswagen (2007), litinový blok motoru s vyvažovacími hřídeli. V dalších generacích roste výkon ze 160 na 333 CV. Gen3 (2012) má výfukové svody integrované do hlavy válců, kombinované přímé a nepřímé vstřikování a tepelný modul pro řízení chladicí kapaliny.",
+  "limiti": "Se sériovými vnitřními díly snese Gen3 s větším turbodmychadlem přibližně 400–450 CV; nad tuto hranici jsou nutné kované ojnice a písty.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování ventilů (u některých verzí AVS)",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od Gen3 přímé + nepřímé)",
+  "compressione": "9,3–10,5:1",
+  "punti_deboli": [
+   "Gen1/Gen2: spotřeba oleje způsobená pístními kroužky (na mnoha trzích vyměňovány v záruce)",
+   "Napínák rozvodového řetězu u prvních verzí: riziko přeskočení řetězu",
+   "Plastové vodní čerpadlo a termostat (Gen3) s netěsnostmi"
+  ],
+  "curiosita": [
+   "Vyráběn v Evropě, Číně, Mexiku a Jižní Americe."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Výfukové svody integrované do hlavy válců"
+   },
+   {
+    "nota": "Golf R „20 Years“"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "se stejným litinovým blokem motoru",
+    "valore": "160–333 CV"
+   },
+   {
+    "testo": "generace od roku 2007",
+    "valore": "4"
+   },
+   {
+    "testo": "výfukové svody v hlavě válců od Gen3",
+    "valore": "Integrované"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Spotřeba oleje (Gen1/Gen2) a napínák řetězu u prvních verzí."
+  }
+ }
+}

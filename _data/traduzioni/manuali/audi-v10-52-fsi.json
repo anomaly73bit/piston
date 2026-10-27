@@ -1,0 +1,138 @@
+{
+ "_source_hash": "9e9a7116f094197a4a765f56db4c33be7608b0f357e75f8924aa1163033e110c",
+ "en": {
+  "storia": "90° V10 derived from the 5.0 of the first Lamborghini Gallardo, with split crankpins for even firing. Dry-sump lubrication, direct injection and, from 2014, dual direct and port injection. It powers the Audi R8 and Lamborghini Huracán in different states of tune. Production ends in 2024.",
+  "limiti": "Twin-turbo versions built by tuners exceed 1500 CV with forged internals.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, variable valve timing",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Direct (direct + port from 2014)",
+  "compressione": "12.5–12.7:1",
+  "punti_deboli": [
+   "Sensors and coils; oil line leaks on early versions",
+   "Clutch and E-gear/R tronic gearbox (transmission, not engine) on early cars"
+  ],
+  "curiosita": [
+   "A wet-sump variant with a lower state of tune was fitted to the Audi S6 (C6) and S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Dual injection"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "with split crankpins for even firing",
+    "valore": "90°"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8700"
+   },
+   {
+    "testo": "end of production, the last high-volume naturally aspirated V10",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; problems limited to accessories."
+  }
+ },
+ "fr": {
+  "storia": "V10 à 90° dérivé du 5.0 de la première Lamborghini Gallardo, avec manetons décalés pour un allumage régulier. Lubrification par carter sec, injection directe et, à partir de 2014, double injection directe et indirecte. Il équipe l'Audi R8 et la Lamborghini Huracán avec des réglages différents. La production s'achève en 2024.",
+  "limiti": "Des versions biturbo réalisées par des préparateurs dépassent 1500 CV avec un équipage mobile forgé.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Directe (directe + indirecte à partir de 2014)",
+  "compressione": "12,5–12,7:1",
+  "punti_deboli": [
+   "Capteurs et bobines ; fuites des conduites d'huile sur les premières versions",
+   "Embrayage et boîte E-gear/R tronic (transmission, pas le moteur) sur les premières voitures"
+  ],
+  "curiosita": [
+   "Une variante à carter humide et réglage moins poussé a été montée sur les Audi S6 (C6) et S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Double injection"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "avec manetons décalés pour un allumage régulier",
+    "valore": "90°"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8700"
+   },
+   {
+    "testo": "fin de production, dernier V10 atmosphérique de grande série",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; problèmes limités aux accessoires."
+  }
+ },
+ "cs": {
+  "storia": "Vidlicový desetiválec V10 s úhlem 90° odvozený od motoru 5.0 první Lamborghini Gallardo, s přesazenými ojničními čepy pro pravidelné zapalování. Mazání se suchou klikovou skříní, přímé vstřikování a od roku 2014 kombinované přímé a nepřímé vstřikování. Pohání Audi R8 a Lamborghini Huracán v různém výkonovém nastavení. Výroba končí v roce 2024.",
+  "limiti": "Verze se dvěma turbodmychadly od tuningových firem překonávají s kovanými vnitřními díly 1500 CV.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování ventilů",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Přímé (od roku 2014 přímé + nepřímé)",
+  "compressione": "12,5–12,7:1",
+  "punti_deboli": [
+   "Snímače a cívky; netěsnosti olejového potrubí u prvních verzí",
+   "Spojka a převodovka E-gear/R tronic (převodové ústrojí, nikoli motor) u prvních vozů"
+  ],
+  "curiosita": [
+   "Varianta s mokrou klikovou skříní a nižším výkonem se montovala do Audi S6 (C6) a S8 (D3)."
+  ],
+  "versioni": [
+   {},
+   {},
+   {
+    "nota": "Dvojí vstřikování"
+   },
+   {},
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "s přesazenými ojničními čepy pro pravidelné zapalování",
+    "valore": "90°"
+   },
+   {
+    "testo": "ot/min na omezovači otáček",
+    "valore": "8700"
+   },
+   {
+    "testo": "konec výroby, poslední velkosériový atmosférický V10",
+    "valore": "2024"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; problémy omezené na příslušenství."
+  }
+ }
+}
