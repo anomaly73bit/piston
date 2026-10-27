@@ -3,15 +3,16 @@
   Parametri: a (oggetto affidabilita: indice, motivo, provvisorio)
 {%- endcomment -%}
 {%- assign v = include.a.indice | plus: 0 -%}
-{%- if v >= 90 -%}{%- assign fascia = "Ottima" -%}{%- assign classe = "f5" -%}
-{%- elsif v >= 75 -%}{%- assign fascia = "Buona" -%}{%- assign classe = "f4" -%}
-{%- elsif v >= 60 -%}{%- assign fascia = "Discreta" -%}{%- assign classe = "f3" -%}
-{%- elsif v >= 40 -%}{%- assign fascia = "Problematica" -%}{%- assign classe = "f2" -%}
-{%- else -%}{%- assign fascia = "Critica" -%}{%- assign classe = "f1" -%}{%- endif -%}
+{%- assign t = include.t | default: site.data.ui.it -%}
+{%- if v >= 90 -%}{%- assign fascia = t.f5 -%}{%- assign classe = "f5" -%}
+{%- elsif v >= 75 -%}{%- assign fascia = t.f4 -%}{%- assign classe = "f4" -%}
+{%- elsif v >= 60 -%}{%- assign fascia = t.f3 -%}{%- assign classe = "f3" -%}
+{%- elsif v >= 40 -%}{%- assign fascia = t.f2 -%}{%- assign classe = "f2" -%}
+{%- else -%}{%- assign fascia = t.f1 -%}{%- assign classe = "f1" -%}{%- endif -%}
 {%- assign h = v | times: 1.6 -%}
 {%- assign y = 170 | minus: h -%}
 <figure class="termometro {{ classe }}">
-  <svg viewBox="0 0 76 220" role="img" aria-label="Indice di affidabilità {{ v }} su 100, {{ fascia | downcase }}">
+  <svg viewBox="0 0 76 220" role="img" aria-label="{{ t.aff_titolo }}: {{ v }}/100, {{ fascia | downcase }}">
     <defs>
       <linearGradient id="scala-aff" x1="0" y1="170" x2="0" y2="10" gradientUnits="userSpaceOnUse">
         <stop offset="0" stop-color="#C0392B"/>
@@ -32,12 +33,12 @@
     {%- endfor %}
   </svg>
   <figcaption>
-    <span class="aff-titolo">Affidabilità · stima editoriale</span>
+    <span class="aff-titolo">{{ t.aff_titolo }}</span>
     <span class="aff-valore">{{ v }}<small>/100</small></span>
     <span class="aff-fascia">{{ fascia }}</span>
     <span class="aff-motivo">{{ include.motivo | default: include.a.motivo }}</span>
-    <span class="aff-nota">Punteggio indicativo: non è una percentuale di motori senza guasti né una statistica certificata.</span>
-    {% if include.a.provvisorio %}<span class="aff-nota">Valutazione provvisoria: dati di lungo periodo limitati.</span>{% endif %}
-    <a class="aff-metodo" href="{{ '/metodo/' | relative_url }}#affidabilita">Come si calcola</a>
+    <span class="aff-nota">{{ t.aff_nota }}</span>
+    {% if include.a.provvisorio %}<span class="aff-nota">{{ t.aff_provvisoria }}</span>{% endif %}
+    <a class="aff-metodo" href="{{ '/metodo/' | relative_url }}#affidabilita">{{ t.aff_come }}</a>
   </figcaption>
 </figure>

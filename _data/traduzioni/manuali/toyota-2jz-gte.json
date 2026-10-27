@@ -1,0 +1,150 @@
+{
+ "_source_hash": "280308eda3d7e8b237c6221f77817b29d7302c9edb49afa803f79292051708f9",
+ "en": {
+  "storia": "Developed from the 1JZ with the stroke lengthened from 71.5 to 86 mm, it debuted in 1991 in the Toyota Aristo and powered the Supra A80 from 1993. Cast-iron block with seven main bearings, forged steel crankshaft, forged connecting rods and pistons cooled by oil jets under the crown. Two turbochargers in a sequential arrangement with an air-to-air intercooler. From 1997 it adopted VVT-i variable valve timing on the intake camshaft.",
+  "limiti": "The stock block and crankshaft withstand more than 700 CV. The original connecting rods are the first critical component, at roughly 700 to 800 CV. With forged rods and pistons, the stock block exceeds 1000 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Belt-driven DOHC (VVT-i from 1997)",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "8.5:1",
+  "punti_deboli": [
+   "Original sequential turbochargers with seals that become fragile after many years",
+   "Sequential system control valves (vacuum lines) prone to failure",
+   "Timing belt to be replaced at regular intervals (non-interference engine on early versions)"
+  ],
+  "curiosita": [
+   "The 1997 VVT-i version increases mid-range torque with the same declared power.",
+   "The sequential system runs the first turbo alone up to about 4000 rpm, then brings in the second."
+  ],
+  "versioni": [
+   {
+    "nota": "Engine debut, sequential turbos"
+   },
+   {
+    "nota": "Limited by the Japanese manufacturers' 'gentlemen's agreement'; VVT-i from 1997"
+   },
+   {
+    "nota": "Steel turbine wheels, US/European version"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "main bearings in the cast-iron block",
+    "valore": "7"
+   },
+   {
+    "testo": "achieved on the stock block with forged internals",
+    "valore": "1000+ CV"
+   },
+   {
+    "testo": "introduction of VVT-i variable valve timing",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Oversized block; known faults concern only the accessories of the sequential turbo system."
+  }
+ },
+ "fr": {
+  "storia": "Dérivé du 1JZ avec une course portée de 71,5 à 86 mm, il apparaît en 1991 sur la Toyota Aristo et équipe la Supra A80 à partir de 1993. Bloc en fonte à sept paliers, vilebrequin en acier forgé, bielles forgées et pistons refroidis par jets d'huile sous la calotte. Suralimentation par deux turbos montés en séquentiel avec échangeur air-air. À partir de 1997, il reçoit le calage variable VVT-i sur l'arbre à cames d'admission.",
+  "limiti": "Le bloc et le vilebrequin d'origine supportent plus de 700 CV. Les bielles d'origine sont le premier élément critique, entre 700 et 800 CV environ. Avec bielles et pistons forgés, le bloc d'origine dépasse 1000 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par courroie (VVT-i à partir de 1997)",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Turbos séquentiels d'origine dont les joints se fragilisent avec les années",
+   "Vannes de commande du système séquentiel (durites de dépression) sujettes aux pannes",
+   "Courroie de distribution à remplacer régulièrement (moteur sans interférence sur les premières versions)"
+  ],
+  "curiosita": [
+   "La version VVT-i de 1997 augmente le couple à mi-régime à puissance déclarée identique.",
+   "Le système séquentiel fait travailler le premier turbo seul jusqu'à environ 4000 tr/min, puis ouvre le second."
+  ],
+  "versioni": [
+   {
+    "nota": "Lancement du moteur, turbos séquentiels"
+   },
+   {
+    "nota": "Limité par le « gentlemen's agreement » des constructeurs japonais ; VVT-i à partir de 1997"
+   },
+   {
+    "nota": "Roues de turbine en acier, version États-Unis/Europe"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "paliers de vilebrequin dans le bloc en fonte",
+    "valore": "7"
+   },
+   {
+    "testo": "obtenus sur le bloc d'origine avec équipage mobile forgé",
+    "valore": "1000+ CV"
+   },
+   {
+    "testo": "arrivée du calage variable VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bloc surdimensionné ; les défauts connus concernent uniquement les accessoires du système séquentiel."
+  }
+ },
+ "cs": {
+  "storia": "Vychází z motoru 1JZ se zdvihem prodlouženým ze 71,5 na 86 mm; debutoval v roce 1991 v Toyotě Aristo a od roku 1993 poháněl Supru A80. Litinový blok se sedmi hlavními ložisky, kovaný ocelový klikový hřídel, kované ojnice a písty chlazené olejovými tryskami pod dnem. Přeplňování dvěma turbodmychadly v sekvenčním zapojení s mezichladičem vzduch-vzduch. Od roku 1997 má proměnné časování VVT-i na sacím vačkovém hřídeli.",
+  "limiti": "Sériový blok a klikový hřídel snesou více než 700 CV. Původní ojnice jsou první kritickou součástí, přibližně při 700 až 800 CV. S kovanými ojnicemi a písty překoná sériový blok 1000 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řemenem (VVT-i od roku 1997)",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "8,5:1",
+  "punti_deboli": [
+   "Původní sekvenční turbodmychadla, jejichž těsnění po letech křehnou",
+   "Řídicí ventily sekvenčního systému (podtlakové hadičky) náchylné k poruchám",
+   "Rozvodový řemen je nutné pravidelně měnit (u prvních verzí motor bez kolize ventilů s písty)"
+  ],
+  "curiosita": [
+   "Verze VVT-i z roku 1997 zvyšuje točivý moment ve středních otáčkách při stejném deklarovaném výkonu.",
+   "Sekvenční systém nechává první turbodmychadlo pracovat samostatně přibližně do 4000 ot/min, pak připojí druhé."
+  ],
+  "versioni": [
+   {
+    "nota": "Debut motoru, sekvenční turbodmychadla"
+   },
+   {
+    "nota": "Omezeno japonskou „gentlemanskou dohodou“ výrobců; VVT-i od roku 1997"
+   },
+   {
+    "nota": "Ocelová turbínová kola, verze pro USA/Evropu"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "hlavních ložisek v litinovém bloku",
+    "valore": "7"
+   },
+   {
+    "testo": "dosaženo na sériovém bloku s kovanými díly",
+    "valore": "1000+ CV"
+   },
+   {
+    "testo": "zavedení proměnného časování VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Předimenzovaný blok; známé závady se týkají jen příslušenství sekvenčního přeplňování."
+  }
+ }
+}

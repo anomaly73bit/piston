@@ -27,7 +27,10 @@ jobs:
           git diff --exit-code -- _motori en/motori fr/motori cs/motori
       - name: Validate engine catalog
         run: python tools/valida.py
-      - name: Reject newly added engines without complete EN FR CS translations
-        run: python tools/verifica_traduzioni.py --new-only
+      - name: Translations built from reviewed files (report only)
+        run: |
+          python tools/traduci.py
+          git diff --exit-code -- _data/traduzioni/en.json _data/traduzioni/fr.json _data/traduzioni/cs.json
+          python tools/verifica_traduzioni.py
       - name: Render complete preview
         run: python tools/anteprima.py

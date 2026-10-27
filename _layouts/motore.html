@@ -11,10 +11,8 @@ layout: default
 {%- if traduzioni and traduzioni[page.slug] -%}
   {%- assign trad = traduzioni[page.slug] -%}
 {%- endif -%}
-{%- assign manuale = site.data.traduzioni.manuali[page.slug] -%}
-{%- if manuale and manuale[lingua] and manuale._source_hash == trad._source_hash -%}
-  {%- assign trad = manuale[lingua] -%}
-{%- endif -%}
+{%- assign t = site.data.ui[lingua] -%}
+{%- if page.locale -%}{%- assign pref = '/' | append: page.locale -%}{%- else -%}{%- assign pref = '' -%}{%- endif -%}
 {%- assign marca = m.costruttore | split: " " | first | split: "-" | first | strip -%}
 {%- assign proprie = "|" | append: marca | append: "|" | append: m.costruttore | append: "|" -%}
 {%- assign gruppo = site.data.gruppi_marca[m.costruttore] -%}
@@ -26,31 +24,26 @@ layout: default
   {%- unless proprie contains cerca -%}{%- assign altre = altre | append: "; " | append: a.nome -%}{%- endunless -%}
 {%- endfor -%}
 {%- assign altre = altre | remove_first: "; " -%}
-{%- if m.fine -%}{%- assign periodo = m.inizio | append: "–" | append: m.fine -%}{%- else -%}{%- assign periodo = m.inizio | append: "–oggi" -%}{%- endif -%}
+{%- if m.fine -%}{%- assign periodo = m.inizio | append: "–" | append: m.fine -%}{%- else -%}{%- assign periodo = m.inizio | append: "–" | append: t.oggi -%}{%- endif -%}
 <article class="motore">
   {% if page.locale and trad._complete != true %}
-  <p class="avviso-traduzione" role="status">
-    {% if page.locale == 'en' %}Translation in progress: some technical descriptions are still in Italian. The Italian original remains authoritative.
-    {% elsif page.locale == 'fr' %}Traduction en cours : certaines descriptions techniques sont encore en italien. Le texte italien fait référence.
-    {% elsif page.locale == 'cs' %}Překlad probíhá: některé technické popisy jsou stále v italštině. Rozhodující je italský originál.
-    {% endif %}
-  </p>
+  <p class="avviso-traduzione" role="status">{{ t.avviso_traduzione }}</p>
   {% endif %}
   <header class="targhetta">
     <div class="targhetta-testo">
-      <p class="percorso"><a href="{{ '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{{ m.architettura }}</a></p>
+      <p class="percorso"><a href="{{ '/costruttori/' | relative_url }}#{{ m.costruttore | slugify }}">{{ m.costruttore }}</a> / <a href="{{ '/architetture/' | relative_url }}#{{ m.architettura | slugify }}">{% if m.architettura == "Rotativo" %}{{ t.arch_rotativo }}{% else %}{{ m.architettura }}{% endif %}</a></p>
       <h1>{{ m.nome }}</h1>
-      <p class="codice">Codice <strong>{{ m.codice }}</strong>, prodotto {{ periodo }}{% unless m.fine %} <span class="stato">in produzione</span>{% endunless %}</p>
+      <p class="codice">{{ t.codice }} <strong>{{ m.codice }}</strong>, {{ t.prodotto }} {{ periodo }}{% unless m.fine %} <span class="stato">{{ t.in_produzione }}</span>{% endunless %}</p>
     </div>
     <dl class="cifre">
-      <div><dt>Cilindrata</dt><dd>{{ m.cilindrata }}<small> cc</small></dd></div>
-      <div><dt>Potenza</dt><dd>{% if m.cv_min == m.cv_max %}{{ m.cv_max }}{% else %}{{ m.cv_min }}–{{ m.cv_max }}{% endif %}<small> CV</small></dd></div>
-      <div><dt>Coppia max</dt><dd>{{ m.nm_max }}<small> Nm</small></dd></div>
+      <div><dt>{{ t.cilindrata }}</dt><dd>{{ m.cilindrata }}<small> cc</small></dd></div>
+      <div><dt>{{ t.potenza }}</dt><dd>{% if m.cv_min == m.cv_max %}{{ m.cv_max }}{% else %}{{ m.cv_min }}–{{ m.cv_max }}{% endif %}<small> CV</small></dd></div>
+      <div><dt>{{ t.coppia_max }}</dt><dd>{{ m.nm_max }}<small> Nm</small></dd></div>
     </dl>
   </header>
 
   {% if m.in_breve %}
-  <section class="rilievo" aria-label="Dati chiave">
+  <section class="rilievo" aria-label="{{ t.dati_chiave }}">
     <ul>
       {% for r in m.in_breve %}<li><strong>{% if trad.in_breve[forloop.index0].valore %}{{ trad.in_breve[forloop.index0].valore }}{% else %}{{ r.valore }}{% endif %}</strong><span>{% if trad.in_breve[forloop.index0].testo %}{{ trad.in_breve[forloop.index0].testo }}{% else %}{{ r.testo }}{% endif %}</span></li>{% endfor %}
     </ul>
@@ -59,63 +52,63 @@ layout: default
 
   <div class="motore-corpo">
     <aside class="tavola">
-      {% if m.affidabilita %}{% include termometro.html a=m.affidabilita motivo=trad.affidabilita.motivo %}{% endif %}
+      {% if m.affidabilita %}{% include termometro.html a=m.affidabilita motivo=trad.affidabilita.motivo t=t pref=pref %}{% endif %}
       {% if m.foto %}
       <figure class="foto">
         <img src="{{ m.foto.url }}" alt="{% if trad.foto.descrizione %}{{ trad.foto.descrizione | escape }}{% else %}{{ m.foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async">
-        <figcaption>{% if trad.foto.descrizione %}{{ trad.foto.descrizione }}{% else %}{{ m.foto.descrizione | default: m.nome }}{% endif %}. Foto di {{ m.foto.autore }}, <a href="{{ m.foto.pagina }}" rel="noopener">{{ m.foto.licenza }}</a>, da Wikimedia Commons.</figcaption>
+        <figcaption>{% if trad.foto.descrizione %}{{ trad.foto.descrizione }}{% else %}{{ m.foto.descrizione | default: m.nome }}{% endif %}. {{ t.foto_di }} {{ m.foto.autore }}, <a href="{{ m.foto.pagina }}" rel="noopener">{{ m.foto.licenza }}</a>, {{ t.da_commons }}.</figcaption>
       </figure>
       {% endif %}
       <figure>
         {% include cilindro.html a=m.alesaggio c=m.corsa arch=m.architettura %}
-        <figcaption>{% if m.alesaggio %}Alesaggio × corsa in scala reale, in mm. {% if m.alesaggio > m.corsa %}Motore superquadro.{% elsif m.alesaggio < m.corsa %}Motore sottoquadro.{% else %}Motore quadro.{% endif %}{% else %}Motore rotativo: la cilindrata è riferita alle camere dei rotori.{% endif %}</figcaption>
+        <figcaption>{% if m.alesaggio %}{{ t.cil_didascalia }} {% if m.alesaggio > m.corsa %}{{ t.superquadro }}{% elsif m.alesaggio < m.corsa %}{{ t.sottoquadro }}{% else %}{{ t.quadro }}{% endif %}{% else %}{{ t.rotativo_didascalia }}{% endif %}</figcaption>
       </figure>
       {% unless m.architettura == "Rotativo" %}
       <figure>
         {% include schema.html arch=m.architettura n=m.cilindri angolo=m.angolo %}
-        <figcaption>{{ m.cilindri }} cilindri{% if m.angolo %}, bancate a {{ m.angolo }}°{% endif %}. Sezione trasversale e vista dall'alto.</figcaption>
+        <figcaption>{{ m.cilindri }} {{ t.cilindri }}{% if m.angolo %}, {{ t.bancate_a }} {{ m.angolo }}°{% endif %}. {{ t.schema_didascalia }}</figcaption>
       </figure>
       {% endunless %}
       {% if m.limitatore %}
       {%- assign pct = m.limitatore | times: 100 | divided_by: 10000 -%}
-      <div class="contagiri" role="img" aria-label="Limitatore a {{ m.limitatore }} giri al minuto">
+      <div class="contagiri" role="img" aria-label="{{ t.limitatore }} {{ m.limitatore }} {{ t.giri_min }}">
         <div class="contagiri-scala"><span class="contagiri-ago" style="width: {{ pct }}%"></span></div>
-        <p><strong>{{ m.limitatore }}</strong> giri/min al limitatore <span>scala 0–10.000</span></p>
+        <p><strong>{{ m.limitatore }}</strong> {{ t.al_limitatore }} <span>{{ t.scala }}</span></p>
       </div>
       {% endif %}
     </aside>
 
     <div class="schede">
       <section aria-labelledby="t-tecnica">
-        <h2 id="t-tecnica">Scheda tecnica</h2>
+        <h2 id="t-tecnica">{{ t.scheda_tecnica }}</h2>
         <table class="specifiche">
           <tbody>
-            <tr><th scope="row">Costruttore</th><td>{{ m.costruttore }} ({% if trad.paese %}{{ trad.paese }}{% else %}{{ m.paese }}{% endif %})</td></tr>
-            <tr><th scope="row">Architettura</th><td>{{ m.architettura }}{% if m.angolo %} a {{ m.angolo }}°{% endif %}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}rotori{% else %}cilindri{% endif %}</td></tr>
-            <tr><th scope="row">Alimentazione</th><td>{% if trad.alimentazione %}{{ trad.alimentazione }}{% else %}{{ m.alimentazione }}{% endif %}</td></tr>
-            <tr><th scope="row">Aspirazione</th><td>{% if trad.aspirazione %}{{ trad.aspirazione }}{% else %}{{ m.aspirazione }}{% endif %}</td></tr>
-            <tr><th scope="row">Cilindrata</th><td>{{ m.cilindrata }} cc</td></tr>
-            {% if m.alesaggio %}<tr><th scope="row">Alesaggio × corsa</th><td>{{ m.alesaggio | replace: ".", "," }} × {{ m.corsa | replace: ".", "," }} mm</td></tr>{% endif %}
-            <tr><th scope="row">Rapporto di compressione</th><td>{% if trad.compressione %}{{ trad.compressione }}{% else %}{{ m.compressione }}{% endif %}</td></tr>
-            <tr><th scope="row">Distribuzione</th><td>{% if trad.distribuzione %}{{ trad.distribuzione }}{% else %}{{ m.distribuzione }}{% endif %}</td></tr>
-            {% if m.valvole != 0 %}<tr><th scope="row">Valvole per cilindro</th><td>{{ m.valvole }}</td></tr>{% endif %}
-            <tr><th scope="row">Basamento</th><td>{% if trad.blocco %}{{ trad.blocco }}{% else %}{{ m.blocco }}{% endif %}</td></tr>
-            <tr><th scope="row">Testata</th><td>{% if trad.testa %}{{ trad.testa }}{% else %}{{ m.testa }}{% endif %}</td></tr>
-            <tr><th scope="row">Iniezione</th><td>{% if trad.iniezione %}{{ trad.iniezione }}{% else %}{{ m.iniezione }}{% endif %}</td></tr>
-            <tr><th scope="row">Limitatore</th><td>{{ m.limitatore }} giri/min</td></tr>
-            {% if altre != "" %}<tr><th scope="row">Montato anche da altre marche</th><td>{{ altre }}</td></tr>{% endif %}
+            <tr><th scope="row">{{ t.costruttore }}</th><td>{{ m.costruttore }} ({% if trad.paese %}{{ trad.paese }}{% else %}{{ m.paese }}{% endif %})</td></tr>
+            <tr><th scope="row">{{ t.architettura }}</th><td>{% if m.architettura == "Rotativo" %}{{ t.arch_rotativo }}{% else %}{{ m.architettura }}{% endif %}{% if m.angolo %} {{ t.a_gradi }} {{ m.angolo }}°{% endif %}, {{ m.cilindri }} {% if m.architettura == "Rotativo" %}{{ t.rotori }}{% else %}{{ t.cilindri }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.alimentazione }}</th><td>{% if trad.alimentazione %}{{ trad.alimentazione }}{% else %}{{ m.alimentazione }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.aspirazione }}</th><td>{% if trad.aspirazione %}{{ trad.aspirazione }}{% else %}{{ m.aspirazione }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.cilindrata }}</th><td>{{ m.cilindrata }} cc</td></tr>
+            {% if m.alesaggio %}<tr><th scope="row">{{ t.alesaggio_corsa }}</th><td>{% if lingua == 'en' %}{{ m.alesaggio }} × {{ m.corsa }}{% else %}{{ m.alesaggio | replace: ".", "," }} × {{ m.corsa | replace: ".", "," }}{% endif %} mm</td></tr>{% endif %}
+            <tr><th scope="row">{{ t.compressione }}</th><td>{% if trad.compressione %}{{ trad.compressione }}{% else %}{{ m.compressione }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.distribuzione }}</th><td>{% if trad.distribuzione %}{{ trad.distribuzione }}{% else %}{{ m.distribuzione }}{% endif %}</td></tr>
+            {% if m.valvole != 0 %}<tr><th scope="row">{{ t.valvole }}</th><td>{{ m.valvole }}</td></tr>{% endif %}
+            <tr><th scope="row">{{ t.basamento }}</th><td>{% if trad.blocco %}{{ trad.blocco }}{% else %}{{ m.blocco }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.testata }}</th><td>{% if trad.testa %}{{ trad.testa }}{% else %}{{ m.testa }}{% endif %}</td></tr>
+            <tr><th scope="row">{{ t.iniezione }}</th><td>{% if trad.iniezione %}{{ trad.iniezione }}{% else %}{{ m.iniezione }}{% endif %}</td></tr>
+            {% if m.limitatore %}<tr><th scope="row">{{ t.limitatore }}</th><td>{{ m.limitatore }} {{ t.giri_min }}</td></tr>{% endif %}
+            {% if altre != "" %}<tr><th scope="row">{{ t.altre_marche }}</th><td>{{ altre }}</td></tr>{% endif %}
           </tbody>
         </table>
       </section>
 
       <section aria-labelledby="t-versioni">
-        <h2 id="t-versioni">Versioni</h2>
+        <h2 id="t-versioni">{{ t.versioni }}</h2>
         <div class="tabella-scorre">
           <table class="versioni">
-            <thead><tr><th scope="col">Versione</th><th scope="col">Anni</th><th scope="col" class="num">CV</th><th scope="col" class="num">Nm</th><th scope="col">Note</th></tr></thead>
+            <thead><tr><th scope="col">{{ t.versione }}</th><th scope="col">{{ t.anni }}</th><th scope="col" class="num">CV</th><th scope="col" class="num">Nm</th><th scope="col">{{ t.note }}</th></tr></thead>
             <tbody>
               {% for v in m.versioni %}
-              <tr><td>{{ v.nome }}</td><td class="anni">{{ v.anni }}</td><td class="num">{{ v.cv }}</td><td class="num">{{ v.nm }}</td><td class="nota">{% if trad.versioni[forloop.index0].nota %}{{ trad.versioni[forloop.index0].nota }}{% else %}{{ v.nota }}{% endif %}</td></tr>
+              <tr><td>{{ v.nome }}</td><td class="anni">{{ v.anni | replace: "oggi", t.oggi }}</td><td class="num">{{ v.cv }}</td><td class="num">{{ v.nm }}</td><td class="nota">{% if trad.versioni[forloop.index0].nota %}{{ trad.versioni[forloop.index0].nota }}{% else %}{{ v.nota }}{% endif %}</td></tr>
               {% endfor %}
             </tbody>
           </table>
@@ -123,40 +116,40 @@ layout: default
       </section>
 
       <section aria-labelledby="t-modelli">
-        <h2 id="t-modelli">Auto che lo montano</h2>
+        <h2 id="t-modelli">{{ t.auto }}</h2>
         <ul class="modelli">
-          {% for a in m.modelli %}{%- assign prima = a.nome | split: " " | first | strip -%}{%- assign cerca = "|" | append: prima | append: "|" -%}<li><span>{{ a.nome }}{% unless proprie contains cerca %} <span class="altra-marca">altra marca</span>{% endunless %}</span> <span class="anni">{{ a.anni }}</span></li>{% endfor %}
+          {% for a in m.modelli %}{%- assign prima = a.nome | split: " " | first | strip -%}{%- assign cerca = "|" | append: prima | append: "|" -%}<li><span>{{ a.nome }}{% unless proprie contains cerca %} <span class="altra-marca">{{ t.altra_marca }}</span>{% endunless %}</span> <span class="anni">{{ a.anni | replace: "oggi", t.oggi }}</span></li>{% endfor %}
         </ul>
       </section>
 
       <section aria-labelledby="t-manutenzione">
-        <h2 id="t-manutenzione">Manutenzione</h2>
+        <h2 id="t-manutenzione">{{ t.manutenzione }}</h2>
         {% if m.manutenzione and m.manutenzione.size > 0 %}
         <ul class="curiosita">{% for voce in m.manutenzione %}<li>{% if trad.manutenzione[forloop.index0] %}{{ trad.manutenzione[forloop.index0] }}{% else %}{{ voce }}{% endif %}</li>{% endfor %}</ul>
         {% else %}
-        <p>Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione e controlli fa fede il piano ufficiale previsto per codice motore, anno e mercato.</p>
+        <p>{{ t.manutenzione_vuota }}</p>
         {% endif %}
       </section>
 
       <section aria-labelledby="t-storia" class="storia">
-        <h2 id="t-storia">Storia</h2>
+        <h2 id="t-storia">{{ t.storia }}</h2>
         <p>{% if trad.storia %}{{ trad.storia }}{% else %}{{ m.storia }}{% endif %}</p>
       </section>
 
       <div class="doppia">
         <section aria-labelledby="t-deboli" class="avviso">
-          <h2 id="t-deboli">Punti deboli</h2>
+          <h2 id="t-deboli">{{ t.punti_deboli }}</h2>
           <ul>{% for p in m.punti_deboli %}<li>{% if trad.punti_deboli[forloop.index0] %}{{ trad.punti_deboli[forloop.index0] }}{% else %}{{ p }}{% endif %}</li>{% endfor %}</ul>
         </section>
         <section aria-labelledby="t-limiti">
-          <h2 id="t-limiti">Limiti ed elaborazioni</h2>
+          <h2 id="t-limiti">{{ t.limiti }}</h2>
           <p>{% if trad.limiti %}{{ trad.limiti }}{% else %}{{ m.limiti }}{% endif %}</p>
         </section>
       </div>
 
       {% if m.curiosita.size > 0 %}
       <section aria-labelledby="t-curiosita">
-        <h2 id="t-curiosita">Curiosità</h2>
+        <h2 id="t-curiosita">{{ t.curiosita }}</h2>
         <ul class="curiosita">{% for c in m.curiosita %}<li>{% if trad.curiosita[forloop.index0] %}{{ trad.curiosita[forloop.index0] }}{% else %}{{ c }}{% endif %}</li>{% endfor %}</ul>
       </section>
       {% endif %}
@@ -164,28 +157,27 @@ layout: default
       {%- assign stessi = site.data.motori | where: "costruttore", m.costruttore -%}
       {% if stessi.size > 1 %}
       <section aria-labelledby="t-altri">
-        <h2 id="t-altri">Altri motori {{ m.costruttore }}</h2>
+        <h2 id="t-altri">{{ t.altri_motori }} {{ m.costruttore }}</h2>
         <ul class="altri">
           {% for o in stessi %}{% if o.slug != m.slug %}
-          <li><a href="{{ '/motori/' | append: o.slug | append: '/' | relative_url }}">{{ o.nome }}</a> <span class="anni">{{ o.inizio }}–{% if o.fine %}{{ o.fine }}{% else %}oggi{% endif %}</span></li>
+          <li><a href="{{ pref | append: '/motori/' | append: o.slug | append: '/' | relative_url }}">{{ o.nome }}</a> <span class="anni">{{ o.inizio }}–{% if o.fine %}{{ o.fine }}{% else %}{{ t.oggi }}{% endif %}</span></li>
           {% endif %}{% endfor %}
         </ul>
       </section>
       {% endif %}
 
-
       <section aria-labelledby="t-fonti" class="fonti-scheda">
-        <h2 id="t-fonti">Fonti e verifica</h2>
+        <h2 id="t-fonti">{{ t.fonti }}</h2>
         {% if m.fonti and m.fonti.size > 0 %}
-        <p><strong>Fonti registrate · verifica dei singoli dati non necessariamente completata.</strong> Riferimenti documentali associati a questa scheda. La presenza di una fonte non garantisce automaticamente la verifica di ogni singola versione.</p>
+        <p><strong>{{ t.fonti_presenti }}</strong> {{ t.fonti_presenti_testo }}</p>
         <ul>{% for f in m.fonti %}<li><a href="{{ f.url | escape }}" rel="noopener noreferrer">{{ f.titolo | escape }}</a>{% if f.nota %} — {% if trad.fonti[forloop.index0].nota %}{{ trad.fonti[forloop.index0].nota | escape }}{% else %}{{ f.nota | escape }}{% endif %}{% endif %}</li>{% endfor %}</ul>
         {% else %}
-        <p><strong>Fonti puntuali non ancora registrate.</strong> Questa scheda è in attesa di verifica documentale. I dati tecnici e le valutazioni editoriali non devono essere considerati certificati.</p>
+        <p><strong>{{ t.fonti_assenti }}</strong> {{ t.fonti_assenti_testo }}</p>
         {% endif %}
-        <p><a href="{{ '/metodo/' | relative_url }}">Metodo e criteri editoriali</a></p>
+        <p><a href="{{ '/metodo/' | relative_url }}">{{ t.metodo }}</a></p>
       </section>
 
-      <p class="confronta-link"><a class="bottone" href="{{ '/confronta/' | relative_url }}?m={{ m.slug }}">Confronta con un altro motore</a></p>
+      <p class="confronta-link"><a class="bottone" href="{{ '/confronta/' | relative_url }}?m={{ m.slug }}">{{ t.confronta }}</a></p>
     </div>
   </div>
 </article>

@@ -1,6 +1,8 @@
 # Istruzioni per il robot che aggiunge motori
 
-Ogni esecuzione tenta di aggiungere **fino a 20 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+Ogni esecuzione aggiunge **20 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+**Questo robot scrive solo l'italiano**: le traduzioni EN/FR/CS le fa un robot separato (`tools/ISTRUZIONI_TRADUZIONI.md`).
+Non aspettare le traduzioni e non bloccare la pubblicazione per mancanza di traduzioni.
 L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte dal 1980 a oggi, di ogni costruttore.
 
 ## Procedura
@@ -9,7 +11,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    - Salta (e cancella dalla coda) le righe che indicano "saltare", che riguardano motori solo da competizione o elettrici,
      o che corrispondono a un motore già presente in `_data/motori.yml` (confronta nome, codice e alias, non solo lo slug).
    - Continua finché hai 20 motori validi o la coda è vuota.
-2. Se esiste una scheda di ricerca in `tools/ricerche/`, consultala come punto di partenza, ma ricontrolla sempre le fonti prima di pubblicare. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
+2. Per ogni motore fai ricerche sul web (fonti preferite: costruttore e cartelle stampa, Wikipedia in inglese e tedesco,
    riviste tecniche). Verifica almeno: anni di produzione, cilindrata, alesaggio e corsa, compressione, potenze e coppie
    delle versioni principali, auto che lo montano. **Se un dato non è confermabile, non inserirlo**: ometti la riga o la
    versione, oppure scrivi un valore prudente nel testo. Mai inventare.
@@ -36,8 +38,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
    75–89 solo difetti minori; 60–74 un difetto noto costoso ma prevenibile; 40–59 difetti ricorrenti che danneggiano il
    motore; 0–39 difetti di progetto diffusi con rotture gravi. Confronta il valore con motori simili già presenti
    per mantenere la scala coerente.
-3b. **Foto.** Per ogni motore aggiunto, e in più per **10 motori già presenti senza campo `foto`** (dal primo del file),
-   cerca su Wikimedia Commons una foto che mostri **il motore stesso** (non l'auto intera), di quella famiglia.
+3b. **Foto (facoltativa).** Solo per i motori aggiunti in questa esecuzione, se la trovi rapidamente, cerca su Wikimedia Commons una foto che mostri **il motore stesso** (non l'auto intera), di quella famiglia.
    - Accetta solo licenze libere: CC0, pubblico dominio, CC BY, CC BY-SA. Leggi la licenza e l'autore sulla pagina del file.
    - Se non trovi una foto adatta e verificata, non aggiungere il campo: le schede funzionano anche senza.
    - Usa la miniatura a 800 px di larghezza (URL `https://upload.wikimedia.org/wikipedia/commons/thumb/.../800px-...`)
@@ -52,7 +53,7 @@ L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte 
          descrizione: "Toyota 2JZ-GTE nel vano della Supra A80"
      ```
      Il campo va subito dopo `limitatore:`.
-4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa. Per ogni nuova scheda, il CI esegue anche `tools/verifica_traduzioni.py --new-only` e rifiuta il commit se manca una traduzione completa in EN/FR/CS.
+4. Lancia `python3 tools/genera_pagine.py` e poi `python3 tools/valida.py`. Correggi finché la validazione passa.
 5. Controlla i template: `pip install python-liquid pyyaml markdown --break-system-packages -q` e
    `python3 tools/anteprima.py` deve terminare senza errori. Poi cancella la cartella `_anteprima/`.
 6. Cancella da `tools/coda.txt` le righe elaborate (aggiunte o saltate).
@@ -82,10 +83,13 @@ Se la validazione o l'anteprima non passano dopo i tentativi di correzione, non 
 e lascia la coda invariata.
 
 
-## Localizzazione obbligatoria (IT / EN / CZ / FR)
+## Traduzioni
 
-- L'italiano in `_data/motori.yml` è il testo canonico; non alterarlo per tradurre.
-- Per ogni nuovo motore e per ogni testo aggiornato, generare e revisionare le traduzioni complete EN, CS (etichetta menu CZ) e FR, mantenendo i codici motore, le unità e i numeri invariati.
-- Lo strumento `tools/traduci.py` traduce incrementalmente i campi `storia`, `limiti`, `punti_deboli`, `curiosita`, `manutenzione`, `versioni[].nota`, `in_breve[].testo` e `affidabilita.motivo` e salva `_data/traduzioni/{en,cs,fr}.json`.
-- Le traduzioni automatiche devono essere controllate, in particolare nomi dei componenti, negazioni, intervalli e difetti. Se il servizio di traduzione è irraggiungibile, registrare esplicitamente il blocco; non dichiarare la localizzazione completa.
-- Non pubblicare nuove pagine editoriali soltanto in italiano: fornire tutte le lingue oppure dichiarare esplicitamente lo stato incompleto.
+Non tradurre in questa esecuzione. Le pagine EN/FR/CS dei motori nuovi mostrano il testo italiano con un avviso
+finché il robot delle traduzioni non le completa. Non modificare `_data/traduzioni/`.
+
+## Efficienza
+
+- Lavora a blocchi di 5 motori: scrivi, `genera_pagine.py`, `valida.py`, commit e push. Così il lavoro fatto non va perso
+  se l'esecuzione si interrompe.
+- Due o tre ricerche mirate per motore sono di norma sufficienti (Wikipedia EN/DE e una fonte tecnica). Non aprire decine di pagine.

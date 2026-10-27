@@ -1,0 +1,279 @@
+# Etichette dell'interfaccia delle schede motore nelle quattro lingue.
+it:
+  codice: Codice
+  prodotto: prodotto
+  oggi: oggi
+  in_produzione: in produzione
+  cilindrata: Cilindrata
+  potenza: Potenza
+  coppia_max: Coppia max
+  dati_chiave: Dati chiave
+  scheda_tecnica: Scheda tecnica
+  costruttore: Costruttore
+  architettura: Architettura
+  a_gradi: a
+  cilindri: cilindri
+  rotori: rotori
+  alimentazione: Alimentazione
+  aspirazione: Aspirazione
+  alesaggio_corsa: Alesaggio × corsa
+  compressione: Rapporto di compressione
+  distribuzione: Distribuzione
+  valvole: Valvole per cilindro
+  basamento: Basamento
+  testata: Testata
+  iniezione: Iniezione
+  limitatore: Limitatore
+  giri_min: giri/min
+  altre_marche: Montato anche da altre marche
+  altra_marca: altra marca
+  versioni: Versioni
+  versione: Versione
+  anni: Anni
+  note: Note
+  auto: Auto che lo montano
+  manutenzione: Manutenzione
+  manutenzione_vuota: Intervalli di manutenzione specifici non ancora verificati per questa famiglia. Per olio, distribuzione e controlli fa fede il piano ufficiale previsto per codice motore, anno e mercato.
+  storia: Storia
+  punti_deboli: Punti deboli
+  limiti: Limiti ed elaborazioni
+  curiosita: Curiosità
+  altri_motori: Altri motori
+  fonti: Fonti e verifica
+  fonti_presenti: Fonti registrate · verifica dei singoli dati non necessariamente completata.
+  fonti_presenti_testo: Riferimenti documentali associati a questa scheda. La presenza di una fonte non garantisce automaticamente la verifica di ogni singola versione.
+  fonti_assenti: Fonti puntuali non ancora registrate.
+  fonti_assenti_testo: Questa scheda è in attesa di verifica documentale. I dati tecnici e le valutazioni editoriali non devono essere considerati certificati.
+  metodo: Metodo e criteri editoriali
+  confronta: Confronta con un altro motore
+  foto_di: Foto di
+  da_commons: da Wikimedia Commons
+  cil_didascalia: Alesaggio × corsa in scala reale, in mm.
+  superquadro: Motore superquadro.
+  sottoquadro: Motore sottoquadro.
+  quadro: Motore quadro.
+  rotativo_didascalia: 'Motore rotativo: la cilindrata è riferita alle camere dei rotori.'
+  bancate_a: bancate a
+  schema_didascalia: Sezione trasversale e vista dall'alto.
+  al_limitatore: giri/min al limitatore
+  scala: scala 0–10.000
+  aff_titolo: Affidabilità · stima editoriale
+  aff_nota: 'Punteggio indicativo: non è una percentuale di motori senza guasti né una statistica certificata.'
+  aff_provvisoria: 'Valutazione provvisoria: dati di lungo periodo limitati.'
+  aff_come: Come si calcola
+  f5: Ottima
+  f4: Buona
+  f3: Discreta
+  f2: Problematica
+  f1: Critica
+  avviso_traduzione: ''
+  arch_rotativo: Rotativo
+en:
+  codice: Code
+  prodotto: produced
+  oggi: present
+  in_produzione: in production
+  cilindrata: Displacement
+  potenza: Power
+  coppia_max: Max torque
+  dati_chiave: Key facts
+  scheda_tecnica: Specifications
+  costruttore: Manufacturer
+  architettura: Layout
+  a_gradi: at
+  cilindri: cylinders
+  rotori: rotors
+  alimentazione: Fuel
+  aspirazione: Induction
+  alesaggio_corsa: Bore × stroke
+  compressione: Compression ratio
+  distribuzione: Valvetrain
+  valvole: Valves per cylinder
+  basamento: Cylinder block
+  testata: Cylinder head
+  iniezione: Fuel injection
+  limitatore: Rev limiter
+  giri_min: rpm
+  altre_marche: Also fitted by other brands
+  altra_marca: other brand
+  versioni: Versions
+  versione: Version
+  anni: Years
+  note: Notes
+  auto: Cars fitted with this engine
+  manutenzione: Maintenance
+  manutenzione_vuota: Specific service intervals for this engine family have not been verified yet. For oil, timing drive and inspections, follow the manufacturer's official schedule for the engine code,
+    year and market.
+  storia: History
+  punti_deboli: Known weaknesses
+  limiti: Limits and tuning
+  curiosita: Notes of interest
+  altri_motori: Other engines by
+  fonti: Sources and verification
+  fonti_presenti: Recorded sources · not every figure has necessarily been verified.
+  fonti_presenti_testo: Documentary references linked to this entry. A listed source does not by itself guarantee that every version has been verified.
+  fonti_assenti: No specific sources recorded yet.
+  fonti_assenti_testo: This entry is awaiting documentary verification. Technical data and editorial ratings should not be treated as certified.
+  metodo: Method and editorial criteria
+  confronta: Compare with another engine
+  foto_di: Photo by
+  da_commons: via Wikimedia Commons
+  cil_didascalia: Bore × stroke drawn to scale, in mm.
+  superquadro: Oversquare engine.
+  sottoquadro: Undersquare engine.
+  quadro: Square engine.
+  rotativo_didascalia: 'Rotary engine: displacement refers to the rotor chambers.'
+  bancate_a: banks at
+  schema_didascalia: Cross-section and top view.
+  al_limitatore: rpm at the rev limiter
+  scala: scale 0–10,000
+  aff_titolo: Reliability · editorial estimate
+  aff_nota: 'Indicative score: not a percentage of engines without failures, nor a certified statistic.'
+  aff_provvisoria: 'Provisional rating: limited long-term data.'
+  aff_come: How it is calculated
+  f5: Excellent
+  f4: Good
+  f3: Fair
+  f2: Problematic
+  f1: Critical
+  avviso_traduzione: 'Translation in progress: some sections are still shown in Italian. The Italian text is the reference version.'
+  arch_rotativo: Rotary
+fr:
+  codice: Code
+  prodotto: produit
+  oggi: aujourd'hui
+  in_produzione: en production
+  cilindrata: Cylindrée
+  potenza: Puissance
+  coppia_max: Couple max
+  dati_chiave: Données clés
+  scheda_tecnica: Fiche technique
+  costruttore: Constructeur
+  architettura: Architecture
+  a_gradi: à
+  cilindri: cylindres
+  rotori: rotors
+  alimentazione: Carburant
+  aspirazione: Alimentation en air
+  alesaggio_corsa: Alésage × course
+  compressione: Taux de compression
+  distribuzione: Distribution
+  valvole: Soupapes par cylindre
+  basamento: Bloc-moteur
+  testata: Culasse
+  iniezione: Injection
+  limitatore: Rupteur
+  giri_min: tr/min
+  altre_marche: Également monté par d'autres marques
+  altra_marca: autre marque
+  versioni: Versions
+  versione: Version
+  anni: Années
+  note: Remarques
+  auto: Voitures équipées de ce moteur
+  manutenzione: Entretien
+  manutenzione_vuota: Les intervalles d'entretien propres à cette famille de moteurs n'ont pas encore été vérifiés. Pour l'huile, la distribution et les contrôles, suivez le plan officiel du constructeur
+    selon le code moteur, l'année et le marché.
+  storia: Historique
+  punti_deboli: Points faibles
+  limiti: Limites et préparation
+  curiosita: Le saviez-vous
+  altri_motori: Autres moteurs
+  fonti: Sources et vérification
+  fonti_presenti: Sources enregistrées · toutes les données n'ont pas nécessairement été vérifiées.
+  fonti_presenti_testo: Références documentaires associées à cette fiche. La présence d'une source ne garantit pas à elle seule la vérification de chaque version.
+  fonti_assenti: Aucune source précise enregistrée pour l'instant.
+  fonti_assenti_testo: Cette fiche est en attente de vérification documentaire. Les données techniques et les évaluations éditoriales ne doivent pas être considérées comme certifiées.
+  metodo: Méthode et critères éditoriaux
+  confronta: Comparer avec un autre moteur
+  foto_di: Photo de
+  da_commons: via Wikimedia Commons
+  cil_didascalia: Alésage × course à l'échelle, en mm.
+  superquadro: Moteur supercarré.
+  sottoquadro: Moteur longue course.
+  quadro: Moteur carré.
+  rotativo_didascalia: 'Moteur rotatif : la cylindrée se rapporte aux chambres des rotors.'
+  bancate_a: bancs à
+  schema_didascalia: Coupe transversale et vue de dessus.
+  al_limitatore: tr/min au rupteur
+  scala: échelle 0–10 000
+  aff_titolo: Fiabilité · estimation éditoriale
+  aff_nota: 'Note indicative : ni un pourcentage de moteurs sans panne, ni une statistique certifiée.'
+  aff_provvisoria: 'Évaluation provisoire : données à long terme limitées.'
+  aff_come: Mode de calcul
+  f5: Excellente
+  f4: Bonne
+  f3: Correcte
+  f2: Problématique
+  f1: Critique
+  avviso_traduzione: 'Traduction en cours : certaines sections sont encore affichées en italien. Le texte italien fait référence.'
+  arch_rotativo: Rotatif
+cs:
+  codice: Kód
+  prodotto: vyráběn
+  oggi: dosud
+  in_produzione: ve výrobě
+  cilindrata: Zdvihový objem
+  potenza: Výkon
+  coppia_max: Max. točivý moment
+  dati_chiave: Klíčové údaje
+  scheda_tecnica: Technické údaje
+  costruttore: Výrobce
+  architettura: Uspořádání
+  a_gradi: s rozevřením
+  cilindri: válců
+  rotori: rotorů
+  alimentazione: Palivo
+  aspirazione: Plnění
+  alesaggio_corsa: Vrtání × zdvih
+  compressione: Kompresní poměr
+  distribuzione: Rozvod
+  valvole: Ventilů na válec
+  basamento: Blok motoru
+  testata: Hlava válců
+  iniezione: Vstřikování
+  limitatore: Omezovač otáček
+  giri_min: ot/min
+  altre_marche: Montován i jinými značkami
+  altra_marca: jiná značka
+  versioni: Verze
+  versione: Verze
+  anni: Roky
+  note: Poznámky
+  auto: Vozy s tímto motorem
+  manutenzione: Údržba
+  manutenzione_vuota: Servisní intervaly pro tuto rodinu motorů zatím nebyly ověřeny. Pro olej, rozvod a kontroly platí oficiální plán výrobce podle kódu motoru, roku a trhu.
+  storia: Historie
+  punti_deboli: Slabá místa
+  limiti: Limity a úpravy
+  curiosita: Zajímavosti
+  altri_motori: Další motory
+  fonti: Zdroje a ověření
+  fonti_presenti: Zaznamenané zdroje · ne každý údaj byl nutně ověřen.
+  fonti_presenti_testo: Dokumentační odkazy k tomuto záznamu. Uvedený zdroj sám o sobě nezaručuje ověření každé verze.
+  fonti_assenti: Konkrétní zdroje zatím nebyly zaznamenány.
+  fonti_assenti_testo: Tento záznam čeká na ověření v dokumentaci. Technické údaje a redakční hodnocení nelze považovat za certifikované.
+  metodo: Metodika a redakční kritéria
+  confronta: Porovnat s jiným motorem
+  foto_di: Foto
+  da_commons: z Wikimedia Commons
+  cil_didascalia: Vrtání × zdvih ve skutečném měřítku, v mm.
+  superquadro: Krátkozdvihový motor.
+  sottoquadro: Dlouhozdvihový motor.
+  quadro: Čtvercový motor.
+  rotativo_didascalia: 'Rotační motor: zdvihový objem se vztahuje ke komorám rotorů.'
+  bancate_a: řady válců
+  schema_didascalia: Příčný řez a pohled shora.
+  al_limitatore: ot/min na omezovači
+  scala: stupnice 0–10 000
+  aff_titolo: Spolehlivost · redakční odhad
+  aff_nota: 'Orientační skóre: nejde o procento motorů bez poruch ani o certifikovanou statistiku.'
+  aff_provvisoria: 'Předběžné hodnocení: dlouhodobých údajů je málo.'
+  aff_come: Jak se počítá
+  f5: Výborná
+  f4: Dobrá
+  f3: Průměrná
+  f2: Problematická
+  f1: Kritická
+  avviso_traduzione: 'Překlad probíhá: některé části jsou zatím zobrazeny v italštině. Rozhodující je italský text.'
+  arch_rotativo: Rotační
