@@ -1,8 +1,7 @@
 # Istruzioni per il robot che aggiunge motori
 
-Ogni esecuzione aggiunge **20 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
-**Questo robot scrive solo l'italiano**: le traduzioni EN/FR/CS le fa un robot separato (`tools/ISTRUZIONI_TRADUZIONI.md`).
-Non aspettare le traduzioni e non bloccare la pubblicazione per mancanza di traduzioni.
+Ogni esecuzione tenta di aggiungere **fino a 20 motori verificati** a `_data/motori.yml`, presi dall'inizio di `tools/coda.txt`.
+**Obbligo di pubblicazione multilingue:** ogni motore nuovo o modificato deve avere traduzioni complete EN/FR/CS nello stesso aggiornamento, verificate con `tools/traduci.py` e `tools/verifica_traduzioni.py`. L'italiano rimane la fonte originale. Se una traduzione manca, non pubblicare il nuovo motore e non rimuoverlo dalla coda. Le traduzioni già presenti devono restare sincronizzate con l'hash della fonte.
 L'obiettivo finale è coprire tutte le famiglie di motori d'automobile prodotte dal 1980 a oggi, di ogni costruttore.
 
 ## Procedura
@@ -83,13 +82,11 @@ Se la validazione o l'anteprima non passano dopo i tentativi di correzione, non 
 e lascia la coda invariata.
 
 
-## Traduzioni
+## Traduzioni obbligatorie
 
-Non tradurre in questa esecuzione. Le pagine EN/FR/CS dei motori nuovi mostrano il testo italiano con un avviso
-finché il robot delle traduzioni non le completa. Non modificare `_data/traduzioni/`.
+Per ogni nuova scheda aggiungi `traduzioni_obbligatorie: true` e un file `_data/traduzioni/manuali/<slug>.json` con le tre traduzioni complete. Consulta `tools/ISTRUZIONI_TRADUZIONI.md`, genera l'hash da `tools/traduci.py --modello <slug>` e rigenera `_data/traduzioni/{en,fr,cs}.json`. Controlla anche i testi tecnici, le note delle versioni, le sintesi, le eventuali motivazioni di affidabilità e le pagine editoriali o voci di navigazione modificate. Esegui `tools/verifica_traduzioni.py` e `tools/anteprima.py` prima della pubblicazione. Non considerare completato il catalogo finché esistono schede pregresse non tradotte.
 
 ## Efficienza
 
-- Lavora a blocchi di 5 motori: scrivi, `genera_pagine.py`, `valida.py`, commit e push. Così il lavoro fatto non va perso
-  se l'esecuzione si interrompe.
+- Lavora a blocchi piccoli di motori verificati e tradotti nelle tre lingue: genera le pagine, valida, esegui l'anteprima e pubblica soltanto dopo che i controlli sono riusciti. Non creare commit di pubblicazione con nuove schede monolingui.
 - Due o tre ricerche mirate per motore sono di norma sufficienti (Wikipedia EN/DE e una fonte tecnica). Non aprire decine di pagine.
