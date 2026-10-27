@@ -1,0 +1,141 @@
+{
+ "_source_hash": "7792e4ad80ff11916c6fb065114495c648ba1f5bfabb3b3b1a930217542abe44",
+ "en": {
+  "storia": "60° twin-turbo V6 for the Nissan GT-R R35 (2007). Aluminium cylinder block with plasma-coated bores instead of inserted liners, one IHI turbocharger per bank. Each unit is assembled by hand by a single technician at the Yokohama plant. In production for 18 years in the same car.",
+  "limiti": "The stock internals are considered reliable up to 700–750 CV. With a prepared cylinder block, drag racing units exceed 1500 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Chain-driven DOHC, variable intake valve timing",
+  "blocco": "Aluminium, plasma-coated bores",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "9.0:1",
+  "punti_deboli": [
+   "Coils and knock sensors with age",
+   "Oil consumption and bore wear in case of detonation on aggressive maps"
+  ],
+  "curiosita": [
+   "The plasma coating of the bores reduces weight and friction compared with cast-iron liners."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Progressive updates"
+   },
+   {},
+   {
+    "nota": "Turbochargers derived from the GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technician assembles each engine by hand",
+    "valore": "1"
+   },
+   {
+    "testo": "bore coating instead of liners",
+    "valore": "Plasma"
+   },
+   {
+    "testo": "of production in the same car",
+    "valore": "18 years"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Faults limited to coils and sensors; robust with the stock map."
+  }
+ },
+ "fr": {
+  "storia": "V6 à 60° biturbo pour la Nissan GT-R R35 (2007). Bloc-moteur en aluminium avec fûts à revêtement plasma au lieu de chemises rapportées, un turbo IHI par rangée. Chaque moteur est assemblé à la main par un seul technicien dans l'usine de Yokohama. En production pendant 18 ans sur la même voiture.",
+  "limiti": "L'équipage mobile d'origine est considéré comme fiable jusqu'à 700–750 CV. Avec un bloc préparé, les moteurs de dragster dépassent 1500 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable à l'admission",
+  "blocco": "Aluminium, fûts à revêtement plasma",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Bobines et capteurs de cliquetis avec l'âge",
+   "Consommation d'huile et usure des fûts en cas de cliquetis avec des cartographies agressives"
+  ],
+  "curiosita": [
+   "Le revêtement plasma des fûts réduit le poids et les frottements par rapport aux chemises en fonte."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Évolutions progressives"
+   },
+   {},
+   {
+    "nota": "Turbos dérivés de la GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technicien assemble chaque moteur à la main",
+    "valore": "1"
+   },
+   {
+    "testo": "revêtement des fûts à la place des chemises",
+    "valore": "Plasma"
+   },
+   {
+    "testo": "de production sur la même voiture",
+    "valore": "18 ans"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Défauts limités aux bobines et aux capteurs ; robuste avec la cartographie d'origine."
+  }
+ },
+ "cs": {
+  "storia": "Vidlicový šestiválec V6 s úhlem 60° a dvěma turbodmychadly pro Nissan GT-R R35 (2007). Hliníkový blok motoru s plazmově nanášeným povrchem válců místo vsazených vložek, jedno turbodmychadlo IHI na každou řadu válců. Každý motor ručně sestavuje jediný technik v závodě v Jokohamě. Vyráběn 18 let pro stejný vůz.",
+  "limiti": "Sériové vnitřní díly jsou považovány za spolehlivé do 700–750 CV. S upraveným blokem motoru překonávají motory pro závody na čtvrt míle 1500 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování sacích ventilů",
+  "blocco": "Hliník, plazmově nanášený povrch válců",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Cívky a snímače klepání s přibývajícím stářím",
+   "Spotřeba oleje a opotřebení válců při detonačním spalování s agresivním nastavením"
+  ],
+  "curiosita": [
+   "Plazmově nanášený povrch válců snižuje hmotnost a tření oproti litinovým vložkám."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Postupné modernizace"
+   },
+   {},
+   {
+    "nota": "Turbodmychadla odvozená z GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technik sestavuje každý motor ručně",
+    "valore": "1"
+   },
+   {
+    "testo": "povrchová vrstva válců místo vložek",
+    "valore": "Plazma"
+   },
+   {
+    "testo": "výroby pro stejný vůz",
+    "valore": "18 let"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Závady omezené na cívky a snímače; se sériovým nastavením robustní."
+  }
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "_source_hash": "a34f15a791740e11affb2c13e29ee5c11e33ef316256bf317bc5cd8ea93970ee",
+ "en": {
+  "storia": "All-aluminium 90° V8, developed for the Lexus LS400 (1989). Four belt-driven camshafts, 32 valves, cast-iron cylinder liners inserted in the cylinder block. Designed with priority on quietness and absence of vibration. From 1997 it adopts VVT-i variable valve timing.",
+  "limiti": "With a positive-displacement supercharger it exceeds 400 CV on stock internals. Frequently used as a swap engine because of the strength of its cylinder block.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC (VVT-i from 1997)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.0–10.5:1",
+  "punti_deboli": [
+   "Timing belt and water pump to be replaced together",
+   "Ignition coils and sensors on very old examples"
+  ],
+  "curiosita": [
+   "Toyota launched the LS400 with a low-vibration demonstration: a pyramid of glasses on the bonnet with the engine running."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "JDM figures; export markets slightly lower"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "all-aluminium, four camshafts",
+    "valore": "90° V8"
+   },
+   {
+    "testo": "developed for the first Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "arrival of VVT-i variable valve timing",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; very high mileages documented."
+  }
+ },
+ "fr": {
+  "storia": "V8 à 90° tout aluminium, développé pour la Lexus LS400 (1989). Quatre arbres à cames entraînés par courroie, 32 soupapes, chemises en fonte rapportées dans le bloc-moteur. Conçu en donnant la priorité au silence de fonctionnement et à l'absence de vibrations. À partir de 1997, il adopte le calage variable VVT-i.",
+  "limiti": "Avec un compresseur volumétrique, il dépasse 400 CV avec l'équipage mobile d'origine. Souvent utilisé comme moteur de swap pour la robustesse de son bloc-moteur.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie (VVT-i à partir de 1997)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,0–10,5:1",
+  "punti_deboli": [
+   "Courroie de distribution et pompe à eau à remplacer ensemble",
+   "Bobines d'allumage et capteurs sur les exemplaires très anciens"
+  ],
+  "curiosita": [
+   "Toyota a présenté la LS400 avec une démonstration de faibles vibrations : une pyramide de verres posée sur le capot, moteur en marche."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Valeurs JDM ; marchés export légèrement inférieurs"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "tout aluminium, quatre arbres à cames",
+    "valore": "V8 à 90°"
+   },
+   {
+    "testo": "développé pour la première Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "arrivée du calage variable VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; kilométrages très élevés documentés."
+  }
+ },
+ "cs": {
+  "storia": "Celohliníkový vidlicový osmiválec V8 s úhlem 90°, vyvinutý pro Lexus LS400 (1989). Čtyři vačkové hřídele poháněné řemenem, 32 ventilů, litinové vložky válců vsazené do bloku motoru. Při konstrukci měly přednost tichý chod a absence vibrací. Od roku 1997 má proměnné časování ventilů VVT-i.",
+  "limiti": "S objemovým kompresorem překonává 400 CV se sériovými vnitřními díly. Díky pevnosti bloku motoru se často používá jako motor pro přestavby.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem (VVT-i od roku 1997)",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "10,0–10,5:1",
+  "punti_deboli": [
+   "Rozvodový řemen a vodní čerpadlo je třeba měnit společně",
+   "Zapalovací cívky a snímače u velmi starých kusů"
+  ],
+  "curiosita": [
+   "Toyota představila LS400 ukázkou nízkých vibrací: pyramida sklenic na kapotě při běžícím motoru."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Hodnoty JDM; exportní trhy o něco nižší"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "celohliníkový, čtyři vačkové hřídele",
+    "valore": "V8 90°"
+   },
+   {
+    "testo": "vyvinut pro první Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "zavedení proměnného časování ventilů VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; doloženy velmi vysoké nájezdy."
+  }
+ }
+}

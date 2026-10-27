@@ -1,0 +1,138 @@
+{
+ "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
+ "en": {
+  "storia": "Twin-rotor Wankel with two turbochargers in a sequential arrangement, fitted to the RX-7 FD (1991). Each rotor has 654 cc chambers: the 1308 cc displacement refers to one chamber per rotor. On this site the 'cylinders' field indicates the number of rotors. Weight and dimensions are markedly lower than those of a reciprocating engine of equal power.",
+  "limiti": "With a single turbo and suitable engine management it reaches about 400 CV with acceptable reliability. Beyond that, reinforced apex seals and modified intake ports are needed.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Ported Wankel (no valves)",
+  "blocco": "Cast iron / aluminium (side and rotor housings)",
+  "testa": "—",
+  "iniezione": "Multipoint port injection",
+  "compressione": "9.0:1",
+  "punti_deboli": [
+   "Apex and side seals: compression should be measured before purchase",
+   "Vacuum lines of the sequential system: they age and cause the second turbo to malfunction",
+   "Overheating: radiator and sensors must be kept in perfect condition"
+  ],
+  "curiosita": [
+   "A four-rotor rotary engine, the 26B, won the 24 Hours of Le Mans in 1991 with the Mazda 787B.",
+   "Control of the sequential system uses a network of valves and vacuum lines."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Manual gearbox version"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "chamber volume of the two rotors",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "valves: ported induction",
+    "valore": "0"
+   },
+   {
+    "testo": "two turbos that come into operation one after the other",
+    "valore": "Sequential"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Rotor seals and overheating: frequent rebuilds at medium mileages."
+  }
+ },
+ "fr": {
+  "storia": "Wankel birotor avec deux turbos en configuration séquentielle, monté sur la RX-7 FD (1991). Chaque rotor a des chambres de 654 cc : la cylindrée de 1308 cc correspond à une chambre par rotor. Sur ce site, le champ « cylindres » indique le nombre de rotors. Masse et encombrement sont nettement inférieurs à ceux d'un moteur alternatif de puissance égale.",
+  "limiti": "Avec un turbo unique et une gestion adaptée, il atteint environ 400 CV avec une fiabilité acceptable. Au-delà, il faut des segments d'apex renforcés et des lumières d'admission modifiées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Wankel à lumières (aucune soupape)",
+  "blocco": "Fonte / aluminium (stators et carters)",
+  "testa": "—",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Segments d'apex et latéraux : la compression doit être mesurée avant l'achat",
+   "Durites de dépression du système séquentiel : elles vieillissent et provoquent des dysfonctionnements du second turbo",
+   "Surchauffe : radiateur et capteurs doivent être maintenus en parfait état"
+  ],
+  "curiosita": [
+   "Un moteur rotatif à quatre rotors, le 26B, a remporté les 24 Heures du Mans en 1991 avec la Mazda 787B.",
+   "La commande du système séquentiel utilise un réseau de vannes et de durites de dépression."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Version à boîte manuelle"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "volume des chambres des deux rotors",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "soupapes : distribution par lumières",
+    "valore": "0"
+   },
+   {
+    "testo": "deux turbos qui entrent en action l'un après l'autre",
+    "valore": "Séquentiel"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Étanchéité des rotors et surchauffe : réfections fréquentes à kilométrage moyen."
+  }
+ },
+ "cs": {
+  "storia": "Dvourotorový Wankel se dvěma turbodmychadly v sekvenčním zapojení, montovaný do RX-7 FD (1991). Každý rotor má komory o objemu 654 cc: zdvihový objem 1308 cc se vztahuje k jedné komoře na rotor. Na tomto webu udává pole „válce“ počet rotorů. Hmotnost a rozměry jsou výrazně menší než u pístového motoru se stejným výkonem.",
+  "limiti": "S jedním turbodmychadlem a vhodným řízením motoru dosahuje přibližně 400 CV s přijatelnou spolehlivostí. Nad tuto hranici jsou nutná zesílená vrcholová těsnění a upravené sací kanály.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "Wankel s kanálovým rozvodem (bez ventilů)",
+  "blocco": "Litina / hliník (statory a skříně)",
+  "testa": "—",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Vrcholová a boční těsnění: před koupí je nutné změřit kompresi",
+   "Podtlakové hadičky sekvenčního systému: stárnou a způsobují poruchy druhého turbodmychadla",
+   "Přehřívání: chladič a snímače musí být v bezvadném stavu"
+  ],
+  "curiosita": [
+   "Čtyřrotorový motor 26B vyhrál v roce 1991 24 hodin Le Mans s vozem Mazda 787B.",
+   "Řízení sekvenčního systému využívá síť ventilů a podtlakových hadiček."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Verze s manuální převodovkou"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "objem komor obou rotorů",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "ventilů: kanálový rozvod",
+    "valore": "0"
+   },
+   {
+    "testo": "dvě turbodmychadla, která se zapojují jedno po druhém",
+    "valore": "Sekvenční"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Těsnění rotorů a přehřívání: časté generální opravy při středních nájezdech."
+  }
+ }
+}

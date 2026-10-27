@@ -1,0 +1,156 @@
+{
+ "_source_hash": "79647c4e13ccb5e59c25893c76a9dde2cd060d3ce4e99d9f5884e6c73ceddc04",
+ "en": {
+  "storia": "Cast-iron four-cylinder with two balance shafts, twin-cam 16-valve cylinder head and a single turbocharger with intercooler. Basis of the Galant VR-4 (1987) and of the Lancer Evolution up to the IX (2007). With this engine Mitsubishi won four consecutive drivers' titles in the World Rally Championship with Tommi Mäkinen (1996–1999) and the manufacturers' title in 1998.",
+  "limiti": "The cylinder block withstands over 500 CV with stock internals and correct engine management; with forged connecting rods and pistons it exceeds 1000 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven DOHC (MIVEC on Evo IX)",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "8.5–8.8:1",
+  "punti_deboli": [
+   "Crankwalk (crankshaft end play) on the 1995–1999 7-bolt blocks in the Eclipse",
+   "Timing belt and balance shaft belt: failure is destructive"
+  ],
+  "curiosita": [
+   "From the Evo IV the engine is rotated 180° in the engine bay to reduce torque steer.",
+   "Its successor, the 4B11 of the Evo X, has an aluminium cylinder block."
+  ],
+  "versioni": [
+   {
+    "nota": "Basis for Group A rallying"
+   },
+   {
+    "nota": "Evo III figures"
+   },
+   {
+    "nota": "Engine rotated 180° from the Evo IV"
+   },
+   {
+    "nota": "MIVEC; more powerful UK FQ versions"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "consecutive drivers' titles in the World Rally Championship (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "balance shafts",
+    "valore": "2"
+   },
+   {
+    "testo": "rotation of the engine in the bay from the Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk on one series of cylinder blocks; belt failure is destructive."
+  }
+ },
+ "fr": {
+  "storia": "Quatre-cylindres en fonte avec deux arbres d'équilibrage, culasse à double arbre à cames et 16 soupapes et turbo unique avec échangeur. Base de la Galant VR-4 (1987) et des Lancer Evolution jusqu'à la IX (2007). Avec ce moteur, Mitsubishi a remporté quatre titres pilotes consécutifs en championnat du monde des rallyes avec Tommi Mäkinen (1996–1999) et le titre constructeurs en 1998.",
+  "limiti": "Le bloc-moteur supporte plus de 500 CV avec l'équipage mobile d'origine et une gestion correcte ; avec bielles et pistons forgés, il dépasse 1000 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par courroie (MIVEC sur Evo IX)",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "8,5–8,8:1",
+  "punti_deboli": [
+   "Crankwalk (jeu axial du vilebrequin) sur les blocs à 7 boulons de 1995–1999 des Eclipse",
+   "Courroie de distribution et courroie des arbres d'équilibrage : la rupture est destructrice"
+  ],
+  "curiosita": [
+   "À partir de l'Evo IV, le moteur est tourné de 180° dans le compartiment pour réduire l'effet de couple dans la direction.",
+   "Son successeur 4B11 de l'Evo X a un bloc-moteur en aluminium."
+  ],
+  "versioni": [
+   {
+    "nota": "Base pour le rallye en Groupe A"
+   },
+   {
+    "nota": "Valeurs Evo III"
+   },
+   {
+    "nota": "Moteur tourné de 180° à partir de l'Evo IV"
+   },
+   {
+    "nota": "MIVEC ; versions britanniques FQ plus puissantes"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "titres pilotes consécutifs en championnat du monde des rallyes (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "arbres d'équilibrage",
+    "valore": "2"
+   },
+   {
+    "testo": "rotation du moteur dans le compartiment à partir de l'Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk sur une série de blocs ; rupture des courroies destructrice."
+  }
+ },
+ "cs": {
+  "storia": "Litinový čtyřválec se dvěma vyvažovacími hřídeli, hlavou válců DOHC se 16 ventily a jedním turbodmychadlem s mezichladičem. Základ Galantu VR-4 (1987) a Lancerů Evolution až po IX (2007). S tímto motorem získala Mitsubishi s Tommim Mäkinenem čtyři po sobě jdoucí jezdecké tituly v mistrovství světa v rallye (1996–1999) a v roce 1998 titul mezi výrobci.",
+  "limiti": "Blok motoru snese přes 500 CV se sériovými vnitřními díly a správným řízením motoru; s kovanými ojnicemi a písty překonává 1000 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řemenem (MIVEC u Evo IX)",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "8,5–8,8:1",
+  "punti_deboli": [
+   "Crankwalk (axiální vůle klikového hřídele) u bloků se 7 šrouby z let 1995–1999 v Eclipse",
+   "Rozvodový řemen a řemen vyvažovacích hřídelí: přetržení je destruktivní"
+  ],
+  "curiosita": [
+   "Od Evo IV je motor v motorovém prostoru otočen o 180°, aby se omezilo působení točivého momentu na řízení.",
+   "Nástupce 4B11 v Evo X má hliníkový blok motoru."
+  ],
+  "versioni": [
+   {
+    "nota": "Základ pro rallye skupiny A"
+   },
+   {
+    "nota": "Hodnoty Evo III"
+   },
+   {
+    "nota": "Motor otočen o 180° od Evo IV"
+   },
+   {
+    "nota": "MIVEC; výkonnější britské verze FQ"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "po sobě jdoucí jezdecké tituly v mistrovství světa v rallye (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "vyvažovací hřídele",
+    "valore": "2"
+   },
+   {
+    "testo": "otočení motoru v motorovém prostoru od Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk u jedné série bloků; přetržení řemenů je destruktivní."
+  }
+ }
+}

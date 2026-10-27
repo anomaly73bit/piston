@@ -296,6 +296,243 @@
   "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
   "_complete": true
  },
+ "toyota-1uz-fe": {
+  "storia": "V8 à 90° tout aluminium, développé pour la Lexus LS400 (1989). Quatre arbres à cames entraînés par courroie, 32 soupapes, chemises en fonte rapportées dans le bloc-moteur. Conçu en donnant la priorité au silence de fonctionnement et à l'absence de vibrations. À partir de 1997, il adopte le calage variable VVT-i.",
+  "limiti": "Avec un compresseur volumétrique, il dépasse 400 CV avec l'équipage mobile d'origine. Souvent utilisé comme moteur de swap pour la robustesse de son bloc-moteur.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par courroie (VVT-i à partir de 1997)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,0–10,5:1",
+  "punti_deboli": [
+   "Courroie de distribution et pompe à eau à remplacer ensemble",
+   "Bobines d'allumage et capteurs sur les exemplaires très anciens"
+  ],
+  "curiosita": [
+   "Toyota a présenté la LS400 avec une démonstration de faibles vibrations : une pyramide de verres posée sur le capot, moteur en marche."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Valeurs JDM ; marchés export légèrement inférieurs"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "tout aluminium, quatre arbres à cames",
+    "valore": "V8 à 90°"
+   },
+   {
+    "testo": "développé pour la première Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "arrivée du calage variable VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Aucun défaut structurel récurrent ; kilométrages très élevés documentés."
+  },
+  "_source_hash": "a34f15a791740e11affb2c13e29ee5c11e33ef316256bf317bc5cd8ea93970ee",
+  "_complete": true
+ },
+ "toyota-a25a": {
+  "storia": "Premier moteur de la famille Dynamic Force (2017). Longue course (rapport course/alésage de 1,18), compression de 13:1, ou 14:1 sur la version hybride, conduits d'admission à forte turbulence et calage de l'admission à commande électrique. Toyota annonce un rendement thermique maximal de 40 %, 41 % sur la version hybride.",
+  "limiti": "Ne se prête pas à la suralimentation : la compression très élevée augmente le risque de cliquetis.",
+  "paese": "Japon",
+  "alimentazione": "Essence / Hybride",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, VVT-iE électrique à l'admission",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "D-4S (directe + indirecte)",
+  "compressione": "13,0:1 (14,0:1 hybride)",
+  "punti_deboli": [
+   "Encore peu de défauts connus ; signalements isolés de consommation d'huile et de bruit de chaîne à froid"
+  ],
+  "curiosita": [
+   "L'injection D-4S combine injecteurs directs et indirects et répartit le carburant en fonction de la charge."
+  ],
+  "versioni": [
+   {
+    "nota": "Cycle Otto/Atkinson variable"
+   },
+   {
+    "nota": "Moteur thermique seul, cycle Atkinson"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "rendement thermique annoncé, 41 % sur la version hybride",
+    "valore": "40%"
+   },
+   {
+    "testo": "compression sur la version hybride",
+    "valore": "14:1"
+   },
+   {
+    "testo": "rapport course/alésage : longue course",
+    "valore": "1,18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Peu de défauts signalés ; données à long terme encore partielles."
+  },
+  "_source_hash": "819c41f15a9a2fbfb6a77f698a6aed5a0dce702b793081975fbff4c5d88d52e0",
+  "_complete": true
+ },
+ "mitsubishi-4g63t": {
+  "storia": "Quatre-cylindres en fonte avec deux arbres d'équilibrage, culasse à double arbre à cames et 16 soupapes et turbo unique avec échangeur. Base de la Galant VR-4 (1987) et des Lancer Evolution jusqu'à la IX (2007). Avec ce moteur, Mitsubishi a remporté quatre titres pilotes consécutifs en championnat du monde des rallyes avec Tommi Mäkinen (1996–1999) et le titre constructeurs en 1998.",
+  "limiti": "Le bloc-moteur supporte plus de 500 CV avec l'équipage mobile d'origine et une gestion correcte ; avec bielles et pistons forgés, il dépasse 1000 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par courroie (MIVEC sur Evo IX)",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "8,5–8,8:1",
+  "punti_deboli": [
+   "Crankwalk (jeu axial du vilebrequin) sur les blocs à 7 boulons de 1995–1999 des Eclipse",
+   "Courroie de distribution et courroie des arbres d'équilibrage : la rupture est destructrice"
+  ],
+  "curiosita": [
+   "À partir de l'Evo IV, le moteur est tourné de 180° dans le compartiment pour réduire l'effet de couple dans la direction.",
+   "Son successeur 4B11 de l'Evo X a un bloc-moteur en aluminium."
+  ],
+  "versioni": [
+   {
+    "nota": "Base pour le rallye en Groupe A"
+   },
+   {
+    "nota": "Valeurs Evo III"
+   },
+   {
+    "nota": "Moteur tourné de 180° à partir de l'Evo IV"
+   },
+   {
+    "nota": "MIVEC ; versions britanniques FQ plus puissantes"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "titres pilotes consécutifs en championnat du monde des rallyes (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "arbres d'équilibrage",
+    "valore": "2"
+   },
+   {
+    "testo": "rotation du moteur dans le compartiment à partir de l'Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk sur une série de blocs ; rupture des courroies destructrice."
+  },
+  "_source_hash": "79647c4e13ccb5e59c25893c76a9dde2cd060d3ce4e99d9f5884e6c73ceddc04",
+  "_complete": true
+ },
+ "nissan-vr38dett": {
+  "storia": "V6 à 60° biturbo pour la Nissan GT-R R35 (2007). Bloc-moteur en aluminium avec fûts à revêtement plasma au lieu de chemises rapportées, un turbo IHI par rangée. Chaque moteur est assemblé à la main par un seul technicien dans l'usine de Yokohama. En production pendant 18 ans sur la même voiture.",
+  "limiti": "L'équipage mobile d'origine est considéré comme fiable jusqu'à 700–750 CV. Avec un bloc préparé, les moteurs de dragster dépassent 1500 CV.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par chaîne, calage variable à l'admission",
+  "blocco": "Aluminium, fûts à revêtement plasma",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Bobines et capteurs de cliquetis avec l'âge",
+   "Consommation d'huile et usure des fûts en cas de cliquetis avec des cartographies agressives"
+  ],
+  "curiosita": [
+   "Le revêtement plasma des fûts réduit le poids et les frottements par rapport aux chemises en fonte."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Évolutions progressives"
+   },
+   {},
+   {
+    "nota": "Turbos dérivés de la GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technicien assemble chaque moteur à la main",
+    "valore": "1"
+   },
+   {
+    "testo": "revêtement des fûts à la place des chemises",
+    "valore": "Plasma"
+   },
+   {
+    "testo": "de production sur la même voiture",
+    "valore": "18 ans"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Défauts limités aux bobines et aux capteurs ; robuste avec la cartographie d'origine."
+  },
+  "_source_hash": "7792e4ad80ff11916c6fb065114495c648ba1f5bfabb3b3b1a930217542abe44",
+  "_complete": true
+ },
+ "mazda-13b-rew": {
+  "storia": "Wankel birotor avec deux turbos en configuration séquentielle, monté sur la RX-7 FD (1991). Chaque rotor a des chambres de 654 cc : la cylindrée de 1308 cc correspond à une chambre par rotor. Sur ce site, le champ « cylindres » indique le nombre de rotors. Masse et encombrement sont nettement inférieurs à ceux d'un moteur alternatif de puissance égale.",
+  "limiti": "Avec un turbo unique et une gestion adaptée, il atteint environ 400 CV avec une fiabilité acceptable. Au-delà, il faut des segments d'apex renforcés et des lumières d'admission modifiées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Wankel à lumières (aucune soupape)",
+  "blocco": "Fonte / aluminium (stators et carters)",
+  "testa": "—",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Segments d'apex et latéraux : la compression doit être mesurée avant l'achat",
+   "Durites de dépression du système séquentiel : elles vieillissent et provoquent des dysfonctionnements du second turbo",
+   "Surchauffe : radiateur et capteurs doivent être maintenus en parfait état"
+  ],
+  "curiosita": [
+   "Un moteur rotatif à quatre rotors, le 26B, a remporté les 24 Heures du Mans en 1991 avec la Mazda 787B.",
+   "La commande du système séquentiel utilise un réseau de vannes et de durites de dépression."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Version à boîte manuelle"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "volume des chambres des deux rotors",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "soupapes : distribution par lumières",
+    "valore": "0"
+   },
+   {
+    "testo": "deux turbos qui entrent en action l'un après l'autre",
+    "valore": "Séquentiel"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Étanchéité des rotors et surchauffe : réfections fréquentes à kilométrage moyen."
+  },
+  "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "République tchèque",
   "alimentazione": "Essence",

@@ -1,0 +1,132 @@
+{
+ "_source_hash": "819c41f15a9a2fbfb6a77f698a6aed5a0dce702b793081975fbff4c5d88d52e0",
+ "en": {
+  "storia": "First engine of the Dynamic Force family (2017). Long stroke (stroke-to-bore ratio 1.18), 13:1 compression, or 14:1 on the hybrid version, high-tumble intake ports and electrically actuated intake valve timing. Toyota claims a maximum thermal efficiency of 40%, 41% in the hybrid version.",
+  "limiti": "Not suited to forced induction: the very high compression increases the risk of detonation.",
+  "paese": "Japan",
+  "alimentazione": "Petrol / Hybrid",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, electric VVT-iE on the intake",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "D-4S (direct + port)",
+  "compressione": "13.0:1 (14.0:1 hybrid)",
+  "punti_deboli": [
+   "Few known faults so far; isolated reports of oil consumption and chain noise when cold"
+  ],
+  "curiosita": [
+   "D-4S injection combines direct and port injectors, splitting the fuel according to load."
+  ],
+  "versioni": [
+   {
+    "nota": "Variable Otto/Atkinson cycle"
+   },
+   {
+    "nota": "Combustion engine only, Atkinson cycle"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "declared thermal efficiency, 41% in the hybrid version",
+    "valore": "40%"
+   },
+   {
+    "testo": "compression in the hybrid version",
+    "valore": "14:1"
+   },
+   {
+    "testo": "stroke-to-bore ratio: long stroke",
+    "valore": "1.18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Few reported faults; long-term data still incomplete."
+  }
+ },
+ "fr": {
+  "storia": "Premier moteur de la famille Dynamic Force (2017). Longue course (rapport course/alésage de 1,18), compression de 13:1, ou 14:1 sur la version hybride, conduits d'admission à forte turbulence et calage de l'admission à commande électrique. Toyota annonce un rendement thermique maximal de 40 %, 41 % sur la version hybride.",
+  "limiti": "Ne se prête pas à la suralimentation : la compression très élevée augmente le risque de cliquetis.",
+  "paese": "Japon",
+  "alimentazione": "Essence / Hybride",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, VVT-iE électrique à l'admission",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "D-4S (directe + indirecte)",
+  "compressione": "13,0:1 (14,0:1 hybride)",
+  "punti_deboli": [
+   "Encore peu de défauts connus ; signalements isolés de consommation d'huile et de bruit de chaîne à froid"
+  ],
+  "curiosita": [
+   "L'injection D-4S combine injecteurs directs et indirects et répartit le carburant en fonction de la charge."
+  ],
+  "versioni": [
+   {
+    "nota": "Cycle Otto/Atkinson variable"
+   },
+   {
+    "nota": "Moteur thermique seul, cycle Atkinson"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "rendement thermique annoncé, 41 % sur la version hybride",
+    "valore": "40%"
+   },
+   {
+    "testo": "compression sur la version hybride",
+    "valore": "14:1"
+   },
+   {
+    "testo": "rapport course/alésage : longue course",
+    "valore": "1,18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Peu de défauts signalés ; données à long terme encore partielles."
+  }
+ },
+ "cs": {
+  "storia": "První motor rodiny Dynamic Force (2017). Dlouhý zdvih (poměr zdvihu a vrtání 1,18), kompresní poměr 13:1, u hybridní verze 14:1, sací kanály s vysokou turbulencí a elektricky ovládané časování sacích ventilů. Toyota uvádí maximální tepelnou účinnost 40 %, u hybridní verze 41 %.",
+  "limiti": "Není vhodný pro přeplňování: velmi vysoká komprese zvyšuje riziko detonačního spalování.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín / Hybrid",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, elektrické VVT-iE na sání",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "D-4S (přímé + nepřímé)",
+  "compressione": "13,0:1 (14,0:1 hybrid)",
+  "punti_deboli": [
+   "Zatím málo známých závad; ojedinělá hlášení o spotřebě oleje a hlučnosti řetězu za studena"
+  ],
+  "curiosita": [
+   "Vstřikování D-4S kombinuje přímé a nepřímé vstřikovače a rozděluje palivo podle zatížení."
+  ],
+  "versioni": [
+   {
+    "nota": "Proměnný Ottův/Atkinsonův cyklus"
+   },
+   {
+    "nota": "Pouze spalovací motor, Atkinsonův cyklus"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "deklarovaná tepelná účinnost, u hybridní verze 41 %",
+    "valore": "40%"
+   },
+   {
+    "testo": "kompresní poměr u hybridní verze",
+    "valore": "14:1"
+   },
+   {
+    "testo": "poměr zdvihu a vrtání: dlouhý zdvih",
+    "valore": "1,18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Málo hlášených závad; dlouhodobá data jsou zatím neúplná."
+  }
+ }
+}

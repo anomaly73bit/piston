@@ -296,6 +296,243 @@
   "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
   "_complete": true
  },
+ "toyota-1uz-fe": {
+  "storia": "All-aluminium 90° V8, developed for the Lexus LS400 (1989). Four belt-driven camshafts, 32 valves, cast-iron cylinder liners inserted in the cylinder block. Designed with priority on quietness and absence of vibration. From 1997 it adopts VVT-i variable valve timing.",
+  "limiti": "With a positive-displacement supercharger it exceeds 400 CV on stock internals. Frequently used as a swap engine because of the strength of its cylinder block.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Belt-driven DOHC (VVT-i from 1997)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.0–10.5:1",
+  "punti_deboli": [
+   "Timing belt and water pump to be replaced together",
+   "Ignition coils and sensors on very old examples"
+  ],
+  "curiosita": [
+   "Toyota launched the LS400 with a low-vibration demonstration: a pyramid of glasses on the bonnet with the engine running."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "JDM figures; export markets slightly lower"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "all-aluminium, four camshafts",
+    "valore": "90° V8"
+   },
+   {
+    "testo": "developed for the first Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "arrival of VVT-i variable valve timing",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "No recurring structural defects; very high mileages documented."
+  },
+  "_source_hash": "a34f15a791740e11affb2c13e29ee5c11e33ef316256bf317bc5cd8ea93970ee",
+  "_complete": true
+ },
+ "toyota-a25a": {
+  "storia": "First engine of the Dynamic Force family (2017). Long stroke (stroke-to-bore ratio 1.18), 13:1 compression, or 14:1 on the hybrid version, high-tumble intake ports and electrically actuated intake valve timing. Toyota claims a maximum thermal efficiency of 40%, 41% in the hybrid version.",
+  "limiti": "Not suited to forced induction: the very high compression increases the risk of detonation.",
+  "paese": "Japan",
+  "alimentazione": "Petrol / Hybrid",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, electric VVT-iE on the intake",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "D-4S (direct + port)",
+  "compressione": "13.0:1 (14.0:1 hybrid)",
+  "punti_deboli": [
+   "Few known faults so far; isolated reports of oil consumption and chain noise when cold"
+  ],
+  "curiosita": [
+   "D-4S injection combines direct and port injectors, splitting the fuel according to load."
+  ],
+  "versioni": [
+   {
+    "nota": "Variable Otto/Atkinson cycle"
+   },
+   {
+    "nota": "Combustion engine only, Atkinson cycle"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "declared thermal efficiency, 41% in the hybrid version",
+    "valore": "40%"
+   },
+   {
+    "testo": "compression in the hybrid version",
+    "valore": "14:1"
+   },
+   {
+    "testo": "stroke-to-bore ratio: long stroke",
+    "valore": "1.18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Few reported faults; long-term data still incomplete."
+  },
+  "_source_hash": "819c41f15a9a2fbfb6a77f698a6aed5a0dce702b793081975fbff4c5d88d52e0",
+  "_complete": true
+ },
+ "mitsubishi-4g63t": {
+  "storia": "Cast-iron four-cylinder with two balance shafts, twin-cam 16-valve cylinder head and a single turbocharger with intercooler. Basis of the Galant VR-4 (1987) and of the Lancer Evolution up to the IX (2007). With this engine Mitsubishi won four consecutive drivers' titles in the World Rally Championship with Tommi Mäkinen (1996–1999) and the manufacturers' title in 1998.",
+  "limiti": "The cylinder block withstands over 500 CV with stock internals and correct engine management; with forged connecting rods and pistons it exceeds 1000 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven DOHC (MIVEC on Evo IX)",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "8.5–8.8:1",
+  "punti_deboli": [
+   "Crankwalk (crankshaft end play) on the 1995–1999 7-bolt blocks in the Eclipse",
+   "Timing belt and balance shaft belt: failure is destructive"
+  ],
+  "curiosita": [
+   "From the Evo IV the engine is rotated 180° in the engine bay to reduce torque steer.",
+   "Its successor, the 4B11 of the Evo X, has an aluminium cylinder block."
+  ],
+  "versioni": [
+   {
+    "nota": "Basis for Group A rallying"
+   },
+   {
+    "nota": "Evo III figures"
+   },
+   {
+    "nota": "Engine rotated 180° from the Evo IV"
+   },
+   {
+    "nota": "MIVEC; more powerful UK FQ versions"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "consecutive drivers' titles in the World Rally Championship (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "balance shafts",
+    "valore": "2"
+   },
+   {
+    "testo": "rotation of the engine in the bay from the Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk on one series of cylinder blocks; belt failure is destructive."
+  },
+  "_source_hash": "79647c4e13ccb5e59c25893c76a9dde2cd060d3ce4e99d9f5884e6c73ceddc04",
+  "_complete": true
+ },
+ "nissan-vr38dett": {
+  "storia": "60° twin-turbo V6 for the Nissan GT-R R35 (2007). Aluminium cylinder block with plasma-coated bores instead of inserted liners, one IHI turbocharger per bank. Each unit is assembled by hand by a single technician at the Yokohama plant. In production for 18 years in the same car.",
+  "limiti": "The stock internals are considered reliable up to 700–750 CV. With a prepared cylinder block, drag racing units exceed 1500 CV.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Chain-driven DOHC, variable intake valve timing",
+  "blocco": "Aluminium, plasma-coated bores",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "9.0:1",
+  "punti_deboli": [
+   "Coils and knock sensors with age",
+   "Oil consumption and bore wear in case of detonation on aggressive maps"
+  ],
+  "curiosita": [
+   "The plasma coating of the bores reduces weight and friction compared with cast-iron liners."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Progressive updates"
+   },
+   {},
+   {
+    "nota": "Turbochargers derived from the GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technician assembles each engine by hand",
+    "valore": "1"
+   },
+   {
+    "testo": "bore coating instead of liners",
+    "valore": "Plasma"
+   },
+   {
+    "testo": "of production in the same car",
+    "valore": "18 years"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Faults limited to coils and sensors; robust with the stock map."
+  },
+  "_source_hash": "7792e4ad80ff11916c6fb065114495c648ba1f5bfabb3b3b1a930217542abe44",
+  "_complete": true
+ },
+ "mazda-13b-rew": {
+  "storia": "Twin-rotor Wankel with two turbochargers in a sequential arrangement, fitted to the RX-7 FD (1991). Each rotor has 654 cc chambers: the 1308 cc displacement refers to one chamber per rotor. On this site the 'cylinders' field indicates the number of rotors. Weight and dimensions are markedly lower than those of a reciprocating engine of equal power.",
+  "limiti": "With a single turbo and suitable engine management it reaches about 400 CV with acceptable reliability. Beyond that, reinforced apex seals and modified intake ports are needed.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Ported Wankel (no valves)",
+  "blocco": "Cast iron / aluminium (side and rotor housings)",
+  "testa": "—",
+  "iniezione": "Multipoint port injection",
+  "compressione": "9.0:1",
+  "punti_deboli": [
+   "Apex and side seals: compression should be measured before purchase",
+   "Vacuum lines of the sequential system: they age and cause the second turbo to malfunction",
+   "Overheating: radiator and sensors must be kept in perfect condition"
+  ],
+  "curiosita": [
+   "A four-rotor rotary engine, the 26B, won the 24 Hours of Le Mans in 1991 with the Mazda 787B.",
+   "Control of the sequential system uses a network of valves and vacuum lines."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Manual gearbox version"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "chamber volume of the two rotors",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "valves: ported induction",
+    "valore": "0"
+   },
+   {
+    "testo": "two turbos that come into operation one after the other",
+    "valore": "Sequential"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Rotor seals and overheating: frequent rebuilds at medium mileages."
+  },
+  "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Czech Republic",
   "alimentazione": "Petrol",

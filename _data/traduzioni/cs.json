@@ -245,7 +245,7 @@
   "_complete": true
  },
  "toyota-4a-ge": {
-  "storia": "Šestnáctiventilový motor DOHC, jehož hlava válců vznikla ve spolupráci s Yamahou, montovaný od roku 1983 do Corolly AE86 a MR2. V roce 1991 přešel na 5 ventilů na válec (tři sací, dva výfukové) a v roce 1995 na samostatné škrticí klapky. Litinový blok motoru je společný se sériovým 4A-F.",
+  "storia": "Motor DOHC se 16 ventily, jehož hlava válců vznikla ve spolupráci s Yamahou, montovaný od roku 1983 do Corolly AE86 a MR2. V roce 1991 přešel na 5 ventilů na válec (tři sací, dva výfukové) a v roce 1995 na samostatné škrticí klapky. Litinový blok motoru je společný se sériovým 4A-F.",
   "limiti": "Vhodný pro úpravy atmosférického motoru. Nad 8500 ot/min se limitem stávají sériové ojnice.",
   "paese": "Japonsko",
   "alimentazione": "Benzín",
@@ -294,6 +294,243 @@
    "motivo": "Bez opakujících se konstrukčních vad; u verzí 20v řemen na motoru s kolizí ventilů a pístů."
   },
   "_source_hash": "05c8d7fc7b80139998933f6f9903526ffff5d5a7d0d9cb5568230d0cbe557d4e",
+  "_complete": true
+ },
+ "toyota-1uz-fe": {
+  "storia": "Celohliníkový vidlicový osmiválec V8 s úhlem 90°, vyvinutý pro Lexus LS400 (1989). Čtyři vačkové hřídele poháněné řemenem, 32 ventilů, litinové vložky válců vsazené do bloku motoru. Při konstrukci měly přednost tichý chod a absence vibrací. Od roku 1997 má proměnné časování ventilů VVT-i.",
+  "limiti": "S objemovým kompresorem překonává 400 CV se sériovými vnitřními díly. Díky pevnosti bloku motoru se často používá jako motor pro přestavby.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řemenem (VVT-i od roku 1997)",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "10,0–10,5:1",
+  "punti_deboli": [
+   "Rozvodový řemen a vodní čerpadlo je třeba měnit společně",
+   "Zapalovací cívky a snímače u velmi starých kusů"
+  ],
+  "curiosita": [
+   "Toyota představila LS400 ukázkou nízkých vibrací: pyramida sklenic na kapotě při běžícím motoru."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Hodnoty JDM; exportní trhy o něco nižší"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "celohliníkový, čtyři vačkové hřídele",
+    "valore": "V8 90°"
+   },
+   {
+    "testo": "vyvinut pro první Lexus (1989)",
+    "valore": "LS400"
+   },
+   {
+    "testo": "zavedení proměnného časování ventilů VVT-i",
+    "valore": "1997"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Bez opakujících se konstrukčních vad; doloženy velmi vysoké nájezdy."
+  },
+  "_source_hash": "a34f15a791740e11affb2c13e29ee5c11e33ef316256bf317bc5cd8ea93970ee",
+  "_complete": true
+ },
+ "toyota-a25a": {
+  "storia": "První motor rodiny Dynamic Force (2017). Dlouhý zdvih (poměr zdvihu a vrtání 1,18), kompresní poměr 13:1, u hybridní verze 14:1, sací kanály s vysokou turbulencí a elektricky ovládané časování sacích ventilů. Toyota uvádí maximální tepelnou účinnost 40 %, u hybridní verze 41 %.",
+  "limiti": "Není vhodný pro přeplňování: velmi vysoká komprese zvyšuje riziko detonačního spalování.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín / Hybrid",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, elektrické VVT-iE na sání",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "D-4S (přímé + nepřímé)",
+  "compressione": "13,0:1 (14,0:1 hybrid)",
+  "punti_deboli": [
+   "Zatím málo známých závad; ojedinělá hlášení o spotřebě oleje a hlučnosti řetězu za studena"
+  ],
+  "curiosita": [
+   "Vstřikování D-4S kombinuje přímé a nepřímé vstřikovače a rozděluje palivo podle zatížení."
+  ],
+  "versioni": [
+   {
+    "nota": "Proměnný Ottův/Atkinsonův cyklus"
+   },
+   {
+    "nota": "Pouze spalovací motor, Atkinsonův cyklus"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "deklarovaná tepelná účinnost, u hybridní verze 41 %",
+    "valore": "40%"
+   },
+   {
+    "testo": "kompresní poměr u hybridní verze",
+    "valore": "14:1"
+   },
+   {
+    "testo": "poměr zdvihu a vrtání: dlouhý zdvih",
+    "valore": "1,18"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Málo hlášených závad; dlouhodobá data jsou zatím neúplná."
+  },
+  "_source_hash": "819c41f15a9a2fbfb6a77f698a6aed5a0dce702b793081975fbff4c5d88d52e0",
+  "_complete": true
+ },
+ "mitsubishi-4g63t": {
+  "storia": "Litinový čtyřválec se dvěma vyvažovacími hřídeli, hlavou válců DOHC se 16 ventily a jedním turbodmychadlem s mezichladičem. Základ Galantu VR-4 (1987) a Lancerů Evolution až po IX (2007). S tímto motorem získala Mitsubishi s Tommim Mäkinenem čtyři po sobě jdoucí jezdecké tituly v mistrovství světa v rallye (1996–1999) a v roce 1998 titul mezi výrobci.",
+  "limiti": "Blok motoru snese přes 500 CV se sériovými vnitřními díly a správným řízením motoru; s kovanými ojnicemi a písty překonává 1000 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řemenem (MIVEC u Evo IX)",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "8,5–8,8:1",
+  "punti_deboli": [
+   "Crankwalk (axiální vůle klikového hřídele) u bloků se 7 šrouby z let 1995–1999 v Eclipse",
+   "Rozvodový řemen a řemen vyvažovacích hřídelí: přetržení je destruktivní"
+  ],
+  "curiosita": [
+   "Od Evo IV je motor v motorovém prostoru otočen o 180°, aby se omezilo působení točivého momentu na řízení.",
+   "Nástupce 4B11 v Evo X má hliníkový blok motoru."
+  ],
+  "versioni": [
+   {
+    "nota": "Základ pro rallye skupiny A"
+   },
+   {
+    "nota": "Hodnoty Evo III"
+   },
+   {
+    "nota": "Motor otočen o 180° od Evo IV"
+   },
+   {
+    "nota": "MIVEC; výkonnější britské verze FQ"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "po sobě jdoucí jezdecké tituly v mistrovství světa v rallye (1996–1999)",
+    "valore": "4"
+   },
+   {
+    "testo": "vyvažovací hřídele",
+    "valore": "2"
+   },
+   {
+    "testo": "otočení motoru v motorovém prostoru od Evo IV",
+    "valore": "180°"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Crankwalk u jedné série bloků; přetržení řemenů je destruktivní."
+  },
+  "_source_hash": "79647c4e13ccb5e59c25893c76a9dde2cd060d3ce4e99d9f5884e6c73ceddc04",
+  "_complete": true
+ },
+ "nissan-vr38dett": {
+  "storia": "Vidlicový šestiválec V6 s úhlem 60° a dvěma turbodmychadly pro Nissan GT-R R35 (2007). Hliníkový blok motoru s plazmově nanášeným povrchem válců místo vsazených vložek, jedno turbodmychadlo IHI na každou řadu válců. Každý motor ručně sestavuje jediný technik v závodě v Jokohamě. Vyráběn 18 let pro stejný vůz.",
+  "limiti": "Sériové vnitřní díly jsou považovány za spolehlivé do 700–750 CV. S upraveným blokem motoru překonávají motory pro závody na čtvrt míle 1500 CV.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řetězem, proměnné časování sacích ventilů",
+  "blocco": "Hliník, plazmově nanášený povrch válců",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Cívky a snímače klepání s přibývajícím stářím",
+   "Spotřeba oleje a opotřebení válců při detonačním spalování s agresivním nastavením"
+  ],
+  "curiosita": [
+   "Plazmově nanášený povrch válců snižuje hmotnost a tření oproti litinovým vložkám."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Postupné modernizace"
+   },
+   {},
+   {
+    "nota": "Turbodmychadla odvozená z GT3"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "technik sestavuje každý motor ručně",
+    "valore": "1"
+   },
+   {
+    "testo": "povrchová vrstva válců místo vložek",
+    "valore": "Plazma"
+   },
+   {
+    "testo": "výroby pro stejný vůz",
+    "valore": "18 let"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Závady omezené na cívky a snímače; se sériovým nastavením robustní."
+  },
+  "_source_hash": "7792e4ad80ff11916c6fb065114495c648ba1f5bfabb3b3b1a930217542abe44",
+  "_complete": true
+ },
+ "mazda-13b-rew": {
+  "storia": "Dvourotorový Wankel se dvěma turbodmychadly v sekvenčním zapojení, montovaný do RX-7 FD (1991). Každý rotor má komory o objemu 654 cc: zdvihový objem 1308 cc se vztahuje k jedné komoře na rotor. Na tomto webu udává pole „válce“ počet rotorů. Hmotnost a rozměry jsou výrazně menší než u pístového motoru se stejným výkonem.",
+  "limiti": "S jedním turbodmychadlem a vhodným řízením motoru dosahuje přibližně 400 CV s přijatelnou spolehlivostí. Nad tuto hranici jsou nutná zesílená vrcholová těsnění a upravené sací kanály.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "Wankel s kanálovým rozvodem (bez ventilů)",
+  "blocco": "Litina / hliník (statory a skříně)",
+  "testa": "—",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "9,0:1",
+  "punti_deboli": [
+   "Vrcholová a boční těsnění: před koupí je nutné změřit kompresi",
+   "Podtlakové hadičky sekvenčního systému: stárnou a způsobují poruchy druhého turbodmychadla",
+   "Přehřívání: chladič a snímače musí být v bezvadném stavu"
+  ],
+  "curiosita": [
+   "Čtyřrotorový motor 26B vyhrál v roce 1991 24 hodin Le Mans s vozem Mazda 787B.",
+   "Řízení sekvenčního systému využívá síť ventilů a podtlakových hadiček."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Verze s manuální převodovkou"
+   },
+   {}
+  ],
+  "in_breve": [
+   {
+    "testo": "objem komor obou rotorů",
+    "valore": "2 × 654 cc"
+   },
+   {
+    "testo": "ventilů: kanálový rozvod",
+    "valore": "0"
+   },
+   {
+    "testo": "dvě turbodmychadla, která se zapojují jedno po druhém",
+    "valore": "Sekvenční"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Těsnění rotorů a přehřívání: časté generální opravy při středních nájezdech."
+  },
+  "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
   "_complete": true
  },
  "skoda-ea111-12-htp": {
