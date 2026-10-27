@@ -11617,3 +11617,325 @@
     - {"titolo": "Wikipedia EN, Hyundai Santro", "url": "https://en.wikipedia.org/wiki/Hyundai_Santro"}
     - {"titolo": "MyMotorList, Hyundai-Kia G4HG", "url": "https://mymotorlist.com/engines/hyundai/g4hg/"}
     - {"titolo": "MyMotorList, Hyundai-Kia G4HC", "url": "https://mymotorlist.com/engines/hyundai/g4hc/"}
+
+- slug: "hyundai-nu"
+  codice: "G4NA / G4NB / G4NC (Nu)"
+  nome: "Hyundai Nu 1.8 / 2.0"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2010
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina / GPL"
+  aspirazione: "Aspirato"
+  cilindrata: 1999
+  alesaggio: 81.0
+  corsa: 97.0
+  compressione: "10,3–12,7:1"
+  distribuzione: "DOHC a catena, doppio CVVT (CVVL su alcune versioni)"
+  valvole: 4
+  blocco: "Alluminio"
+  testa: "Alluminio"
+  iniezione: "Indiretta (MPi), diretta (GDi), GPL liquido (LPi)"
+  cv_min: 145
+  cv_max: 176
+  nm_max: 213
+  affidabilita:
+    indice: 55
+    motivo: "Anelli raschiaolio con trattamento termico difettoso (richiamo NHTSA 21V-301) che rigano i cilindri, oltre al bollettino Hyundai del 2014 sul rivestimento dei mantelli dei pistoni."
+  in_breve:
+    - { valore: "81 x 97 mm", testo: "alesaggio e corsa del 2.0; il 1.8 ha corsa di 87,12 mm" }
+    - { valore: "176 CV", testo: "nella versione 2.0 GDi a iniezione diretta" }
+    - { valore: "12,5:1", testo: "compressione del 2.0 a ciclo Atkinson introdotto nel 2015" }
+  versioni:
+    - { nome: "1.8 MPi", anni: "2010–2023", cv: 150, nm: 178, nota: "1797 cc, 81 x 87,12 mm; da 145 CV" }
+    - { nome: "2.0 MPi (G4NA)", anni: "2011–2021", cv: 166, nm: 201, nota: "Prima revisione; le successive erogano 152–156 CV e 192–195 Nm" }
+    - { nome: "2.0 CVVL", anni: "2012–2019", cv: 172, nm: 201, nota: "Alzata valvole variabile continua; Sonata LF e Kia Optima" }
+    - { nome: "2.0 GDi", anni: "2012–oggi", cv: 176, nm: 213, nota: "Iniezione diretta" }
+    - { nome: "2.0 MPi ciclo Atkinson", anni: "2015–oggi", cv: 149, nm: 179, nota: "Compressione 12,5:1" }
+    - { nome: "2.0 LPi", anni: "2011–2023", cv: 157, nm: 196, nota: "Alimentazione a GPL liquido; da 151 CV" }
+    - { nome: "2.0 GDi ibrido", anni: "2014–2019", cv: 156, nm: 189, nota: "Solo motore termico; 205 CV di sistema con il motore elettrico" }
+  modelli:
+    - { nome: "Hyundai Elantra (MD, AD), Elantra Coupé", anni: "2010–2020" }
+    - { nome: "Hyundai i30 (GD, PD), i40", anni: "2011–2019" }
+    - { nome: "Hyundai Sonata (YF Hybrid, LF), Tucson / ix35 (LM, TL)", anni: "2011–2020" }
+    - { nome: "Hyundai Kona, Veloster (JS), Creta", anni: "2014–2022" }
+    - { nome: "Kia Optima (TF, JF), Carens (RP)", anni: "2011–2021" }
+    - { nome: "Kia Forte / Cerato (YD, BD), Soul, Sportage (QL)", anni: "2012–2023" }
+    - { nome: "Kia Seltos", anni: "2019–oggi" }
+  storia: >-
+    Quattro cilindri in linea interamente in alluminio introdotto nel 2010 in sostituzione del Beta, con doppio variatore di
+    fase continuo e cilindrate di 1,8 e 2,0 litri ottenute con lo stesso alesaggio di 81 mm. Alle versioni a iniezione
+    indiretta si sono aggiunte dal 2011 le varianti ibrida e a GPL, dal 2012 quelle a iniezione diretta GDi e la CVVL ad alzata
+    variabile, dal 2015 una variante flex-fuel e una a ciclo Atkinson. I dati di cilindrata, alesaggio e corsa della scheda si
+    riferiscono al 2.0; il successore per il 2.0 è lo Smartstream G2.0.
+  punti_deboli:
+    - "Anelli raschiaolio con durezza eccessiva per trattamento termico irregolare: rigatura dei cilindri, consumo d'olio, battito e possibile grippaggio di bronzina (richiamo NHTSA 21V-301 su Elantra, Kona e Veloster 2.0 MPi 2019–2021)"
+    - "Rumorosità dei pistoni (piston slap) attribuita da Hyundai, in un bollettino tecnico del 2014, a difetti del rivestimento dei mantelli"
+    - "Versioni GDi: diluizione dell'olio con carburante segnalata con frequenza crescente"
+  limiti: >-
+    Motore aspirato con potenza specifica contenuta; non esistono soglie di elaborazione documentate. Il componente critico
+    è il gruppo pistoni e segmenti, già oggetto di richiamo sulle versioni di serie.
+  curiosita:
+    - "La variante 2.0 CVVL, con alzata delle valvole variabile in modo continuo, è stata montata su Hyundai Sonata LF e Kia Optima."
+    - "Una versione flex-fuel da 167 CV è stata prodotta per Hyundai Creta e Kia Sportage destinate al Brasile."
+  fonti:
+    - { titolo: "Wikipedia EN, Hyundai Nu engine", url: "https://en.wikipedia.org/wiki/Hyundai_Nu_engine" }
+    - { titolo: "NHTSA, richiamo 21V-301: anelli raschiaolio del 2.0 Nu MPi", url: "https://static.nhtsa.gov/odi/rcl/2021/RCONL-21V301-3165.pdf" }
+    - { titolo: "8020 Automotive, Ultimate Hyundai Nu engine guide", url: "https://8020automotive.com/ultimate-hyundai-nu-engine-guide/" }
+
+- slug: "hyundai-delta-mu"
+  codice: "G6BP / G6BV / G6BA (Delta), G6EA (Mu)"
+  nome: "Hyundai Delta / Mu V6 2.0–2.7"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 1998
+  fine: 2014
+  architettura: "V6"
+  angolo: 60
+  cilindri: 6
+  alimentazione: "Benzina / GPL"
+  aspirazione: "Aspirato"
+  cilindrata: 2656
+  alesaggio: 86.7
+  corsa: 75.0
+  compressione: "10,0–10,4:1"
+  distribuzione: "DOHC a cinghia con catene tra gli alberi a camme; CVVT sul Mu"
+  valvole: 4
+  blocco: "Alluminio secondo Wikipedia; per il Mu G6EA alcune fonti indicano ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint"
+  cv_min: 134
+  cv_max: 200
+  nm_max: 255
+  in_breve:
+    - { valore: "75 mm", testo: "corsa comune a tutte le cilindrate della famiglia Delta" }
+    - { valore: "60°", testo: "angolo tra le bancate del 2.7, blocco e testate in alluminio" }
+    - { valore: "200 CV", testo: "nel Mu 2.7 Dual CVVT della Kia Cadenza / K7" }
+  versioni:
+    - { nome: "Delta 2.0 (G6BP)", anni: "1998–2005", cv: 148, nm: 183, nota: "1998 cc; da 134 CV; Grandeur XG" }
+    - { nome: "Delta 2.5 (G6BV / G6BW)", anni: "1998–2005", cv: 180, nm: 230, nota: "2493 cc, alesaggio 84 mm; da 172 CV" }
+    - { nome: "Delta 2.7 (G6BA)", anni: "1999–2010", cv: 185, nm: 253, nota: "2656 cc, 86,7 x 75 mm; da 167 CV secondo il modello" }
+    - { nome: "Delta 2.7 GPL (L6BA)", anni: "1999–2007", cv: 160, nm: 232, nota: "Santa Fe e Trajet per la Corea; da 144 CV" }
+    - { nome: "Mu 2.7 CVVT (G6EA)", anni: "2005–2008", cv: 188, nm: 250, nota: "Variatore di fase all'aspirazione, compressione 10,4:1" }
+    - { nome: "Mu 2.7 Dual CVVT (G6EA)", anni: "2008–2014", cv: 194, nm: 250, nota: "Variatori su aspirazione e scarico; 200 CV sulla Kia Cadenza" }
+  modelli:
+    - { nome: "Hyundai Grandeur / XG", anni: "1998–2005" }
+    - { nome: "Hyundai Sonata (EF)", anni: "1998–2004" }
+    - { nome: "Hyundai Coupé / Tiburon (GK) V6", anni: "2001–2008" }
+    - { nome: "Hyundai Santa Fe (SM, CM), Trajet", anni: "1999–2010" }
+    - { nome: "Hyundai Tucson (JM) 2.7 V6", anni: "2004–2009" }
+    - { nome: "Hyundai Grandeur / Azera (TG)", anni: "2005–2011" }
+    - { nome: "Kia Magentis / Optima (MS, MG)", anni: "2000–2010" }
+    - { nome: "Kia Sportage (KM) 2.7 V6, Opirus", anni: "2003–2012" }
+    - { nome: "Kia Carnival / Sedona (VQ), Carens / Rondo (UN), Cadenza / K7", anni: "2005–2013" }
+  storia: >-
+    Il Delta è il primo V6 progettato da Hyundai, introdotto nel 1998 sulla Grandeur XG con blocco e testate in alluminio e
+    quattro valvole per cilindro; le cilindrate da 2,0, 2,5 e 2,7 litri condividono la corsa di 75 mm. La cinghia comanda
+    un albero a camme per bancata e una catena collega il secondo. Nel 2005 il 2.7 è stato sostituito dal Mu, con le stesse
+    misure di alesaggio e corsa, variatore di fase all'aspirazione e, dal 2008, anche allo scarico. I dati della scheda si
+    riferiscono al 2.7 da 2656 cc.
+  punti_deboli:
+    - "Viti delle farfalle nel collettore di aspirazione che possono allentarsi e cadere nella camera di combustione, con danni gravi al motore"
+    - "Cinghia di distribuzione: il cedimento del tenditore idraulico o le perdite d'olio possono farla saltare o rompere, con valvole piegate"
+    - "Consumo d'olio crescente con i chilometri per guarnizioni stelo valvola indurite o segmenti incollati"
+    - "Mu: variatori di fase e relative elettrovalvole soggetti a malfunzionamenti"
+  limiti: >-
+    Non esistono soglie di elaborazione documentate per gli organi interni di serie. I componenti critici sono la
+    distribuzione mista cinghia e catena e le farfalle nel collettore di aspirazione.
+  curiosita:
+    - "Oullim Motors ha sviluppato una versione turbocompressa del 2.7 per la sportiva Oullim Spirra, dichiarata fino a 600 CV."
+    - "Il Mu ha punterie meccaniche a bicchierino con gioco da regolare, mentre il Delta 2.7 usa punterie idrauliche."
+  fonti:
+    - { titolo: "Wikipedia EN, Hyundai Delta engine", url: "https://en.wikipedia.org/wiki/Hyundai_Delta_engine" }
+    - { titolo: "Wikipedia EN, Hyundai Mu engine", url: "https://en.wikipedia.org/wiki/Hyundai_Mu_engine" }
+    - { titolo: "MyMotorList, motore Hyundai-Kia G6BA", url: "https://mymotorlist.com/engines/hyundai/g6ba/" }
+    - { titolo: "MyMotorList, motore Hyundai-Kia G6EA", url: "https://mymotorlist.com/engines/hyundai/g6ea/" }
+
+- slug: "hyundai-tau-v8"
+  codice: "G8BA / G8BB / G8BE"
+  nome: "Hyundai Tau V8 4.6 / 5.0"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2008
+  fine: 2021
+  architettura: "V8"
+  angolo: 90
+  cilindri: 8
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 5038
+  alesaggio: 96.0
+  corsa: 87.0
+  compressione: "10,4–11,8:1"
+  distribuzione: "DOHC a catena, doppio CVVT"
+  valvole: 4
+  blocco: "Alluminio pressofuso"
+  testa: "Alluminio"
+  iniezione: "Indiretta (4.6), diretta (5.0 GDi)"
+  cv_min: 366
+  cv_max: 435
+  nm_max: 520
+  in_breve:
+    - { valore: "90°", testo: "angolo tra le bancate, blocco in alluminio pressofuso ad alta pressione" }
+    - { valore: "435 CV", testo: "nel 5.0 GDi della prima serie con benzina ad alto numero di ottano" }
+    - { valore: "Ward's", testo: "10 Best Engines nel 2009 e 2010 (4.6) e nel 2011 (5.0)" }
+  versioni:
+    - { nome: "4.6 MPi (G8BA)", anni: "2008–2012", cv: 366, nm: 439, nota: "92 x 87 mm, compressione 10,4:1" }
+    - { nome: "4.6 MPi (G8BA), aggiornato", anni: "2008–2012", cv: 390, nm: 451, nota: "Con benzina premium; 383 CV con benzina normale" }
+    - { nome: "5.0 GDi (G8BE)", anni: "2011–2015", cv: 435, nm: 510, nota: "Compressione 11,5:1; 430 CV con benzina normale" }
+    - { nome: "5.0 GDi (G8BE), aggiornato", anni: "2015–2021", cv: 425, nm: 520, nota: "Compressione 11,8:1; 413 CV con benzina normale" }
+  modelli:
+    - { nome: "Hyundai Genesis (BH, DH)", anni: "2008–2016" }
+    - { nome: "Hyundai Equus (VI)", anni: "2009–2015" }
+    - { nome: "Kia Mohave / Borrego 4.6 V8", anni: "2008–2011" }
+    - { nome: "Kia K9 / K900", anni: "2012–2021" }
+    - { nome: "Genesis G80 (DH)", anni: "2016–2020" }
+    - { nome: "Genesis G90 (HI)", anni: "2015–2021" }
+  storia: >-
+    Primo V8 progettato da Hyundai, presentato nel 2008 sulla Genesis berlina in sostituzione degli Omega di derivazione
+    Mitsubishi. Ha bancate a 90°, blocco in alluminio pressofuso, quattro valvole per cilindro e variatori di fase continui
+    su aspirazione e scarico. Nel 2011 il 4.6 a iniezione indiretta è stato affiancato e poi sostituito dal 5.0 a iniezione
+    diretta, ottenuto con alesaggio portato da 92 a 96 mm. I dati della scheda si riferiscono al 5.0; la produzione è
+    terminata nel 2021 con Genesis G90 e Kia K9.
+  punti_deboli:
+    - "Tenditore della catena che con l'avviamento a freddo può non andare in pressione, con rischio di salto della catena"
+    - "Catena di distribuzione da sostituire intorno ai 300.000 km, di solito insieme ai variatori di fase"
+    - "Catalizzatori sensibili al carburante di bassa qualità; ricambi costosi e poco diffusi"
+  limiti: >-
+    Non esistono soglie di elaborazione documentate per gli organi interni di serie. Hyundai ha esposto nel 2008 un
+    prototipo del 4.6 sovralimentato con compressore volumetrico, stimato in circa 460 CV, mai entrato in produzione.
+  curiosita:
+    - "Il 4.6 Tau è stato il primo motore Hyundai inserito nella classifica Ward's 10 Best Engines, nel 2009."
+    - "Al SEMA Show 2008 e al salone di Chicago 2009 è stato mostrato un Tau 4.6 con compressore e disattivazione dei cilindri."
+  fonti:
+    - { titolo: "Wikipedia EN, Hyundai Tau engine", url: "https://en.wikipedia.org/wiki/Hyundai_Tau_engine" }
+    - { titolo: "MyMotorList, motore Hyundai-Kia G8BA", url: "https://mymotorlist.com/engines/hyundai/g8ba/" }
+
+- slug: "hyundai-u-crdi"
+  codice: "D4FB / D4FC / D4FD (U, U2)"
+  nome: "Hyundai U 1.1–1.7 CRDi"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2004
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Diesel"
+  aspirazione: "Turbo"
+  cilindrata: 1582
+  alesaggio: 77.2
+  corsa: 84.5
+  compressione: "17,0–17,3:1"
+  distribuzione: "DOHC a catena"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Diretta common rail (Bosch o Delphi)"
+  cv_min: 71
+  cv_max: 141
+  nm_max: 340
+  in_breve:
+    - { valore: "Catena", testo: "distribuzione a catena e quattro valvole per cilindro su tutte le cilindrate" }
+    - { valore: "1.1 L3", testo: "versione a tre cilindri con albero di equilibratura per i10 e i20" }
+    - { valore: "141 CV", testo: "nel 1.7 CRDi (D4FD) di i40, Tucson / ix35 e Kia Sportage" }
+  versioni:
+    - { nome: "1.1 CRDi tre cilindri", anni: "2007–2020", cv: 75, nm: 179, nota: "1120 cc, 75 x 84,5 mm; turbo a geometria variabile; da 71 CV" }
+    - { nome: "1.4 CRDi", anni: "2008–2023", cv: 90, nm: 240, nota: "1396 cc, 75 x 79 mm; turbo a geometria fissa" }
+    - { nome: "1.5 CRDi", anni: "2005–2011", cv: 110, nm: 236, nota: "1493 cc, 75 x 84,5 mm; Getz, Accent, Kia Rio" }
+    - { nome: "1.6 CRDi (D4FB)", anni: "2005–2020", cv: 128, nm: 265, nota: "1582 cc, compressione 17,3:1; prodotto a Žilina; anche 90 e 115 CV" }
+    - { nome: "1.7 CRDi (D4FD)", anni: "2010–2019", cv: 141, nm: 340, nota: "1685 cc, 77,2 x 90 mm, compressione 17,0:1; anche 115 CV" }
+    - { nome: "1.5 U2 CRDi (India)", anni: "2019–oggi", cv: 116, nm: 250, nota: "1493 cc; Creta, Seltos, Venue, Alcazar" }
+  modelli:
+    - { nome: "Hyundai i10, i20, Getz, Accent", anni: "2005–2020" }
+    - { nome: "Hyundai i30 (FD, GD, PD), Elantra (HD, MD, AD), ix20", anni: "2006–2020" }
+    - { nome: "Hyundai i40, Tucson / ix35, Sonata (LF)", anni: "2010–2019" }
+    - { nome: "Hyundai Creta, Venue, Verna, Alcazar", anni: "2014–oggi" }
+    - { nome: "Kia Ceed (ED, JD), Cerato / Forte, Soul, Venga", anni: "2005–2019" }
+    - { nome: "Kia Picanto (SA), Rio, Carens, Stonic", anni: "2005–2023" }
+    - { nome: "Kia Optima, Sportage", anni: "2010–2018" }
+    - { nome: "Kia Seltos, Carens (KY)", anni: "2019–oggi" }
+  storia: >-
+    Famiglia di diesel common rail di piccola cilindrata con basamento in ghisa, testata in alluminio a quattro valvole per
+    cilindro e distribuzione a catena, introdotta nel 2004–2005 con il 1.5 di Getz, Accent e Kia Rio. Dallo stesso progetto
+    derivano il tre cilindri 1.1 con albero di equilibratura, il 1.4 a corsa ridotta, il 1.6 con alesaggio di 77,2 mm prodotto
+    nello stabilimento Kia di Žilina e, dal 2010, il 1.7 a corsa allungata presentato al salone di Parigi. Nel 2009 il 1.6 è
+    stato aggiornato nella serie U2; il 1.5 U2 resta in produzione in India. I dati della scheda si riferiscono al 1.6.
+  punti_deboli:
+    - "Prima serie del 1.6: turbocompressore soggetto a guasti precoci"
+    - "Collettore di aspirazione con farfalle di vorticosità e valvola EGR che si intasano di fuliggine"
+    - "Regolatore di pressione del gasolio, tubi di ritorno degli iniettori e candelette (prime U2) soggetti a guasti"
+    - "Catene di distribuzione che si allungano e diventano rumorose intorno ai 120.000–150.000 km"
+  limiti: >-
+    Non esistono soglie di elaborazione documentate per gli organi interni di serie. I componenti critici sono il
+    turbocompressore e l'impianto di iniezione.
+  curiosita:
+    - "Il tre cilindri 1.1 usa un albero di equilibratura sotto l'albero motore, comandato da ingranaggi elicoidali, per contenere le vibrazioni."
+    - "Il 1.1 della i20 dichiarava 4,2 l/100 km ed emissioni di 112 g/km di CO2."
+  fonti:
+    - { titolo: "Wikipedia EN, Hyundai U engine", url: "https://en.wikipedia.org/wiki/Hyundai_U_engine" }
+    - { titolo: "MyMotorList, motore Hyundai-Kia D4FB", url: "https://mymotorlist.com/engines/hyundai/d4fb/" }
+    - { titolo: "CarDekho, Hyundai Creta: specifiche del 1.5 U2 CRDi", url: "https://www.cardekho.com/hyundai/creta/specs?amp=1" }
+
+- slug: "hyundai-r-crdi"
+  codice: "D4HA / D4HB / D4HC"
+  nome: "Hyundai R 2.0 / 2.2 CRDi"
+  costruttore: "Hyundai"
+  paese: "Corea del Sud"
+  inizio: 2009
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Diesel"
+  aspirazione: "Turbo"
+  cilindrata: 2199
+  alesaggio: 85.4
+  corsa: 96.0
+  compressione: "16,0:1"
+  distribuzione: "DOHC a catena"
+  valvole: 4
+  blocco: "Ghisa a grafite compatta"
+  testa: "Alluminio"
+  iniezione: "Diretta common rail Bosch, iniettori piezoelettrici, 1800 bar"
+  cv_min: 150
+  cv_max: 202
+  nm_max: 441
+  in_breve:
+    - { valore: "1800 bar", testo: "pressione del common rail Bosch di terza generazione con iniettori piezo" }
+    - { valore: "CGI", testo: "basamento in ghisa a grafite compatta con albero di equilibratura" }
+    - { valore: "202 CV", testo: "nel 2.2 D4HC a montaggio longitudinale di Kia Stinger e Genesis" }
+  versioni:
+    - { nome: "2.0 CRDi (D4HA)", anni: "2009–2021", cv: 186, nm: 402, nota: "1995 cc, 84 x 90 mm; da 184 CV" }
+    - { nome: "2.2 CRDi (D4HB)", anni: "2009–oggi", cv: 200, nm: 441, nota: "2199 cc, 85,4 x 96 mm; da 193 CV" }
+    - { nome: "2.2 CRDi (D4HB) depotenziato", anni: "2021–oggi", cv: 177, nm: 436, nota: "Hyundai Staria; esiste anche una taratura da circa 150 CV per Kia Carnival" }
+    - { nome: "2.2 CRDi (D4HC)", anni: "2016–oggi", cv: 202, nm: 441, nota: "Montaggio longitudinale, trazione posteriore" }
+  modelli:
+    - { nome: "Hyundai Santa Fe (CM, DM, TM), Grand Santa Fe", anni: "2009–2020" }
+    - { nome: "Hyundai Tucson / ix35", anni: "2009–2020" }
+    - { nome: "Hyundai Grandeur (HG, IG)", anni: "2011–2019" }
+    - { nome: "Hyundai Palisade, Staria", anni: "2018–oggi" }
+    - { nome: "Kia Sorento (XM, UM), Sportage", anni: "2009–2021" }
+    - { nome: "Kia Carnival / Sedona (VQ, YP), Cadenza", anni: "2010–2021" }
+    - { nome: "Kia Stinger", anni: "2017–2020" }
+    - { nome: "Genesis G80 (DH), G70", anni: "2016–oggi" }
+  storia: >-
+    Quattro cilindri diesel presentato nel novembre 2008 in sostituzione del D di origine VM Motori, con basamento in ghisa a
+    grafite compatta, testata in alluminio a quattro valvole per cilindro, distribuzione a catena e albero di equilibratura nel
+    telaio inferiore irrigidito. L'iniezione common rail Bosch lavora a 1800 bar con iniettori piezoelettrici; il turbo è a
+    geometria variabile a comando elettronico. Il 2.2 D4HC a montaggio longitudinale equipaggia le berline a trazione
+    posteriore Kia Stinger e Genesis. I dati della scheda si riferiscono al 2.2.
+  punti_deboli:
+    - "Pompa di alta pressione Bosch CP4 sensibile al gasolio di cattiva qualità: in caso di cedimento i residui metallici raggiungono gli iniettori"
+    - "Valvola EGR che si intasa intorno ai 100.000 km; relè e cablaggi delle candelette soggetti a guasti"
+    - "Turbo a geometria variabile con bloccaggio dell'asta di regolazione e sensore di pressione di sovralimentazione"
+    - "Prime serie: alcuni casi di cedimento della guarnizione della testata e di tenditore della catena bloccato"
+  limiti: >-
+    Non esistono soglie di elaborazione documentate per gli organi interni di serie. I componenti critici sono la pompa
+    di alta pressione CP4 e il turbocompressore a geometria variabile.
+  curiosita:
+    - "Il motore è stato presentato all'Advanced Diesel Engine Technology Symposium organizzato da Hyundai nel novembre 2008."
+    - "Coperchio della testata, collettore di aspirazione e supporto del filtro olio sono in materiale plastico per ridurre il peso."
+  fonti:
+    - { titolo: "Wikipedia EN, Hyundai R engine", url: "https://en.wikipedia.org/wiki/Hyundai_R_engine" }
+    - { titolo: "MyMotorList, motore Hyundai-Kia D4HB", url: "https://mymotorlist.com/engines/hyundai/d4hb/" }

@@ -2,11 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Hyundai Nu 1.8 / 2.0 | Elantra MD, i40, Kia Optima, Tucson
-Hyundai Delta / Mu V6 2.0–2.7 | Sonata, Coupé V6, Tucson, Kia Magentis
-Hyundai Tau 4.6 / 5.0 V8 | Genesis, Equus, Kia K900
-Hyundai U 1.1–1.7 CRDi | i20, i30, Kia Ceed, Venga
-Hyundai R 2.0 / 2.2 CRDi | Santa Fe, Tucson, Kia Sorento, Sportage
 Hyundai D 2.0 / 2.2 CRDi (D4EA, D4EB) | Santa Fe SM, Trajet, Tucson; derivato VM Motori
 Hyundai S 3.0 V6 CRDi (D6EA) | Veracruz, Kia Sorento, Mohave
 Kia J 2.9 CRDi (J3) | Kia Sorento, Carnival, Hyundai Terracan
