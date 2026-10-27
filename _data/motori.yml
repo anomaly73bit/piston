@@ -11272,3 +11272,37 @@
   manutenzione: ["Il controllo e la regolazione del gioco valvole sono previsti ogni 10.000 km nelle tabelle di manutenzione riportate dalla fonte tecnica.","Controllare rumorosità e tensione della catena, eventuali trafilamenti d'olio e l'efficienza del raffreddamento."]
   fonti: [{"titolo":"VAZbook, manuale VAZ-2106: caratteristiche tecniche","url":"https://www.vazbook.ru/ua/06/2106/main/service/tehnicheskie-harakteristiki"},{"titolo":"Otoba.ru, motore VAZ-2106: dati, applicazioni e guasti","url":"https://otoba.ru/dvigatel/vaz/2106.html"},{"titolo":"Auto-Data, Lada 2106 1.6: dati del veicolo","url":"https://www.auto-data.net/cz/lada-2106-generation-2794"}]
   traduzioni_obbligatorie: true
+
+- slug: lada-vaz-21126
+  codice: "VAZ-21126 / 21126-77 / 21126-81"
+  nome: "Lada VAZ-21126 1.6 16V"
+  costruttore: "Lada"
+  paese: "Russia"
+  inizio: 2007
+  fine: null
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1596
+  alesaggio: 82
+  corsa: 75.6
+  compressione: "10,45–11:1 (secondo versione)"
+  distribuzione: "DOHC a cinghia, 16 valvole"
+  valvole: 4
+  blocco: "Ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint elettronica"
+  cv_min: 98
+  cv_max: 136
+  nm_max: 154
+  in_breve: [{"valore":"1.596 cc","testo":"cilindrata indicata nel manuale della Priora"},{"valore":"16 valvole","testo":"testata DOHC con compensatori idraulici"},{"valore":"2018","testo":"introduzione di pistoni con incavi per le valvole"}]
+  versioni: [{"nome":"VAZ-21126 standard","anni":"2007–","cv":98,"nm":145,"nota":"Versione Priora e Granta; potenza massima a 5600 giri/min, coppia a 4000 giri/min."},{"nome":"VAZ-21126-77 Sport","anni":"2013–2018","cv":118,"nm":154,"nota":"Taratura Sport; 114–118 CV secondo applicazione e omologazione."},{"nome":"VAZ-21126-81 NFR","anni":"2016–2017","cv":136,"nm":154,"nota":"Versione NFR della Kalina, con modifiche specifiche ad aspirazione e distribuzione."}]
+  modelli: [{"nome":"Lada Priora","anni":"2007–2015"},{"nome":"Lada Kalina / Kalina Sport / NFR","anni":"2008–2018"},{"nome":"Lada Granta / Granta Sport","anni":"2011–"},{"nome":"Lada Samara 2","anni":"2009–2013"}]
+  storia: "Il VAZ-21126 debutta nel 2007 sulla Lada Priora e viene successivamente adottato su Kalina, Granta e alcune Samara 2. È un quattro cilindri con basamento in ghisa, testata in alluminio a 16 valvole, due alberi a camme e distribuzione a cinghia con tenditore automatico. La progettazione impiega un gruppo pistone-biella alleggerito Federal Mogul e componenti della distribuzione Gates. Dal 2018 alcune applicazioni adottano pistoni con incavi per ridurre il rischio di contatto con le valvole in caso di rottura della cinghia."
+  punti_deboli: ["Nelle versioni precedenti alla modifica dei pistoni del 2018, la rottura della cinghia o il bloccaggio dei rulli può provocare il contatto fra pistoni e valvole.","Guasti del termostato possono alterare la temperatura di esercizio e causare surriscaldamento.","Il minimo irregolare può dipendere da sensore massa aria, corpo farfallato sporco o regolatore del minimo; sono documentati anche guasti alle bobine di accensione."]
+  limiti: "Non è disponibile una soglia di potenza sicura e verificata per gli organi interni originali. Prima di modificare aspirazione, distribuzione o regime di rotazione occorre verificare cinghia, rulli, pompa dell'acqua, raffreddamento e stato dei compensatori idraulici."
+  curiosita: ["Le versioni Sport 21126-77 e NFR 21126-81 derivano dalla stessa architettura di base, ma hanno tarature e componenti specifici.","Nel 2018 è stata introdotta una revisione dei pistoni per limitare il rischio di danni alle valvole dopo la rottura della cinghia."]
+  manutenzione: ["Controllare regolarmente cinghia di distribuzione, rulli e pompa dell'acqua, soprattutto sui motori precedenti alla revisione del 2018.","I compensatori idraulici eliminano la regolazione periodica del gioco valvole; seguire gli intervalli di olio e filtro del manuale della specifica vettura."]
+  fonti: [{"titolo":"Lada Priora, manuale del proprietario: tabella tecnica VAZ-21126","url":"https://mcgrp.ru/files/viewer/251498/126"},{"titolo":"Otoba.ru, VAZ-21126: dati tecnici, versioni e difetti","url":"https://otoba.ru/dvigatel/vaz/21126.html"},{"titolo":"Otoba.ru, motorizzazioni Lada Granta","url":"https://otoba.ru/auto/lada/granta-dvigateli.html"}]
+  traduzioni_obbligatorie: true
