@@ -1,0 +1,135 @@
+{
+ "_source_hash": "61726637cb46e6e6b34aa2ebd67849bc9498e476c4136c53f9417aad3dd1eb70",
+ "en": {
+  "storia": "Naturally aspirated evolution of the 13B for the RX-8 (2003). The exhaust ports are moved from the periphery to the sides of the chamber: this eliminates the overlap between intake and exhaust and reduces fuel consumption and unburnt hydrocarbon emissions. International Engine of the Year in 2003. The last production rotary used as the sole propulsion of a car.",
+  "limiti": "Poorly suited to forced induction without reinforced seals; most modifications concern reliability.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Wankel with side exhaust ports",
+  "blocco": "Cast iron / aluminium",
+  "testa": "—",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.0:1",
+  "punti_deboli": [
+   "Low compression due to seal wear, especially if rarely used at high engine speeds",
+   "Coils and spark plugs: they flood easily if the engine is switched off cold",
+   "Oil consumption by design (the oil lubricates the seals)"
+  ],
+  "curiosita": [
+   "Mazda returned to the rotary in 2023 as a range extender generator in the MX-30 R-EV.",
+   "Oil is injected into the chamber to lubricate the seals: regular oil consumption is part of the design."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Rev limiter at 9000 rpm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "exhaust moved to the sides of the chamber",
+    "valore": "Side ports"
+   },
+   {
+    "testo": "rpm at the rev limiter on the 231 CV version",
+    "valore": "9000"
+   },
+   {
+    "testo": "International Engine of the Year",
+    "valore": "2003"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Frequent loss of compression due to seal wear."
+  }
+ },
+ "fr": {
+  "storia": "Évolution atmosphérique du 13B pour la RX-8 (2003). Les lumières d'échappement sont déplacées de la périphérie vers les flancs de la chambre : elles suppriment le croisement entre admission et échappement et réduisent la consommation et les émissions d'hydrocarbures imbrûlés. Moteur international de l'année en 2003. Dernier moteur rotatif de série utilisé comme unique propulsion d'une voiture.",
+  "limiti": "Peu adapté à la suralimentation sans renforcement des segments d'étanchéité ; la plupart des interventions concernent la fiabilité.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Wankel à lumières d'échappement latérales",
+  "blocco": "Fonte / aluminium",
+  "testa": "—",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Compression faible due à l'usure des segments d'étanchéité, surtout s'il est rarement utilisé à haut régime",
+   "Bobines et bougies : elles se noient facilement si le moteur est coupé à froid",
+   "Consommation d'huile par conception (l'huile lubrifie les segments d'étanchéité)"
+  ],
+  "curiosita": [
+   "Mazda est revenu au moteur rotatif en 2023 comme générateur prolongateur d'autonomie sur le MX-30 R-EV.",
+   "L'huile est injectée dans la chambre pour lubrifier les segments d'étanchéité : une consommation d'huile régulière est prévue par la conception."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Rupteur à 9000 tr/min"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "échappement déplacé sur les flancs de la chambre",
+    "valore": "Lumières latérales"
+   },
+   {
+    "testo": "tr/min au rupteur sur la version de 231 CV",
+    "valore": "9000"
+   },
+   {
+    "testo": "Moteur international de l'année",
+    "valore": "2003"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Perte de compression fréquente due à l'usure des segments d'étanchéité."
+  }
+ },
+ "cs": {
+  "storia": "Atmosférický vývoj motoru 13B pro RX-8 (2003). Výfukové kanály jsou přesunuty z obvodu na boky komory: odstraňují překrytí sání a výfuku a snižují spotřebu i emise nespálených uhlovodíků. Mezinárodní motor roku 2003. Poslední sériový rotační motor použitý jako jediný pohon automobilu.",
+  "limiti": "Bez zesílení těsnění se pro přeplňování příliš nehodí; většina zásahů se týká spolehlivosti.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "Wankel s bočními výfukovými kanály",
+  "blocco": "Litina / hliník",
+  "testa": "—",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Nízká komprese kvůli opotřebení těsnění, zvlášť pokud motor zřídka pracuje ve vysokých otáčkách",
+   "Cívky a svíčky: při vypnutí studeného motoru se snadno zalijí",
+   "Spotřeba oleje daná konstrukcí (olej maže těsnění)"
+  ],
+  "curiosita": [
+   "Mazda se k rotačnímu motoru vrátila v roce 2023 jako ke generátoru pro prodloužení dojezdu v MX-30 R-EV.",
+   "Olej se vstřikuje do komory k mazání těsnění: pravidelná spotřeba oleje je dána konstrukcí."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Omezovač otáček na 9000 ot/min"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "výfuk přesunutý na boky komory",
+    "valore": "Boční kanály"
+   },
+   {
+    "testo": "ot/min na omezovači otáček u verze s 231 CV",
+    "valore": "9000"
+   },
+   {
+    "testo": "Mezinárodní motor roku",
+    "valore": "2003"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Častá ztráta komprese kvůli opotřebení těsnění."
+  }
+ }
+}

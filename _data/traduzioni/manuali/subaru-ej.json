@@ -1,0 +1,150 @@
+{
+ "_source_hash": "1dae024d5be136ccd8ad7a0bcdbbdc241cb3c0d8b848331fea65896aa7a135ef",
+ "en": {
+  "storia": "Four-cylinder boxer introduced in 1989 in the Legacy, with an aluminium cylinder block and twin-cam cylinder heads. The first EJ20 turbos have a semi-closed-deck block, later versions an open-deck block. The turbo versions powered the Impreza WRX and WRX STI until 2021. With this engine Subaru won the World Rally Championship manufacturers' titles from 1995 to 1997. There are naturally aspirated versions (EJ16, EJ18, EJ22, EJ25) not covered separately here.",
+  "limiti": "The open-deck block is the weak point: beyond 350–400 CV a closed-deck block or reinforced cylinder liners are advisable.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven SOHC/DOHC (AVCS from the 2000+ versions)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "8.0–8.5:1",
+  "punti_deboli": [
+   "Cracked piston ring lands (EJ255/EJ257) due to detonation",
+   "Head gaskets, especially on naturally aspirated EJ25s",
+   "Connecting rod bearing shells and oil pickup under prolonged track use"
+  ],
+  "curiosita": [
+   "The typical uneven sound comes from exhaust manifolds of unequal length; from 2008 some models adopt equal-length manifolds."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "The most highly tuned 2.0 turbo of the family"
+   },
+   {
+    "nota": "2457 cc, 99.5 mm bore"
+   },
+   {
+    "nota": "US special edition"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "horizontally opposed cylinders, low centre of gravity",
+    "valore": "Boxer"
+   },
+   {
+    "testo": "consecutive manufacturers' titles in the World Rally Championship (1995–1997)",
+    "valore": "3"
+   },
+   {
+    "testo": "open-bore block on the more recent turbo versions",
+    "valore": "Open-deck"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Head gaskets (EJ25) and piston failures (EJ257)."
+  }
+ },
+ "fr": {
+  "storia": "Quatre-cylindres boxer introduit en 1989 sur la Legacy, avec bloc-moteur en aluminium et culasses à double arbre à cames. Les premiers EJ20 turbo ont un bloc semi-fermé, les versions suivantes un bloc à fûts ouverts (open-deck). Les versions turbo ont équipé les Impreza WRX et WRX STI jusqu'en 2021. Avec ce moteur, Subaru a remporté les titres constructeurs du championnat du monde des rallyes de 1995 à 1997. Il existe des versions atmosphériques (EJ16, EJ18, EJ22, EJ25) qui ne sont pas traitées séparément ici.",
+  "limiti": "Le bloc open-deck est le point faible : au-delà de 350–400 CV, mieux vaut un bloc closed-deck ou des chemises renforcées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Simple/double arbre à cames par courroie (AVCS à partir des versions 2000+)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "8,0–8,5:1",
+  "punti_deboli": [
+   "Rupture des cordons (« ring lands ») des pistons (EJ255/EJ257) due au cliquetis",
+   "Joints de culasse, surtout sur les EJ25 atmosphériques",
+   "Coussinets de bielle et crépine d'huile en cas d'usage prolongé sur circuit"
+  ],
+  "curiosita": [
+   "La sonorité irrégulière caractéristique provient de collecteurs d'échappement de longueurs différentes ; depuis 2008, certains modèles adoptent des collecteurs de longueur égale."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Le 2.0 turbo le plus poussé de la famille"
+   },
+   {
+    "nota": "2457 cc, alésage 99,5 mm"
+   },
+   {
+    "nota": "Série spéciale États-Unis"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "cylindres opposés, centre de gravité bas",
+    "valore": "Boxer"
+   },
+   {
+    "testo": "titres constructeurs consécutifs en championnat du monde des rallyes (1995–1997)",
+    "valore": "3"
+   },
+   {
+    "testo": "bloc à fûts ouverts sur les versions turbo les plus récentes",
+    "valore": "Open-deck"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Joints de culasse (EJ25) et ruptures de pistons (EJ257)."
+  }
+ },
+ "cs": {
+  "storia": "Čtyřválcový boxer představený v roce 1989 v Legacy, s hliníkovým blokem motoru a hlavami válců DOHC. První EJ20 turbo mají polouzavřený blok, pozdější verze otevřený blok (open-deck). Přeplňované verze poháněly Imprezu WRX a WRX STI až do roku 2021. S tímto motorem získalo Subaru v letech 1995 až 1997 tituly mezi výrobci v mistrovství světa v rallye. Existují i atmosférické verze (EJ16, EJ18, EJ22, EJ25), které zde nejsou popsány samostatně.",
+  "limiti": "Slabým místem je blok open-deck: nad 350–400 CV se vyplatí blok closed-deck nebo zesílené vložky válců.",
+  "paese": "Japonsko",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "SOHC/DOHC poháněný řemenem (AVCS od verzí 2000+)",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé vícebodové vstřikování",
+  "compressione": "8,0–8,5:1",
+  "punti_deboli": [
+   "Praskání můstků mezi drážkami pístních kroužků („ring lands“) (EJ255/EJ257) kvůli detonačnímu spalování",
+   "Těsnění hlavy válců, hlavně u atmosférických EJ25",
+   "Ojniční ložiskové pánve a sací koš oleje při dlouhodobém provozu na okruhu"
+  ],
+  "curiosita": [
+   "Typický nepravidelný zvuk vychází z výfukových svodů různé délky; od roku 2008 mají některé modely svody stejné délky."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Nejvýkonnější 2.0 turbo z celé rodiny"
+   },
+   {
+    "nota": "2457 cc, vrtání 99,5 mm"
+   },
+   {
+    "nota": "Speciální série pro USA"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "protilehlé válce, nízké těžiště",
+    "valore": "Boxer"
+   },
+   {
+    "testo": "po sobě jdoucí tituly mezi výrobci v mistrovství světa v rallye (1995–1997)",
+    "valore": "3"
+   },
+   {
+    "testo": "otevřený blok u novějších přeplňovaných verzí",
+    "valore": "Open-deck"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Těsnění hlavy válců (EJ25) a poškození pístů (EJ257)."
+  }
+ }
+}

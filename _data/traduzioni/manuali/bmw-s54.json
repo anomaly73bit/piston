@@ -1,0 +1,150 @@
+{
+ "_source_hash": "a0d4c21dcfb25d9f124d775bb8731ada1b4c3295c33ffceb04681426789aca87",
+ "en": {
+  "storia": "The last naturally aspirated inline six from the BMW M division (2000). Cast-iron cylinder block, high-pressure double VANOS, six electronically controlled individual throttle bodies. It reaches 105 CV/litre. The M3 CSL adopts a carbon airbox that raises output to 360 CV.",
+  "limiti": "Limited margins as a naturally aspirated engine. With a positive-displacement supercharger 450–500 CV can be reached while keeping the stock internals.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, double VANOS",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Port injection, six individual throttle bodies",
+  "compressione": "11.5:1",
+  "punti_deboli": [
+   "Connecting rod bearing shells: preventive replacement recommended",
+   "VANOS: pump bolts and seals",
+   "Rear differential mounts (E46 body, not engine)"
+  ],
+  "curiosita": [
+   "The 8000 rpm rev limiter corresponds to a mean piston speed of about 24 m/s, a very high figure for a production engine."
+  ],
+  "versioni": [
+   {
+    "nota": "US 333 CV"
+   },
+   {
+    "nota": "Carbon airbox"
+   },
+   {},
+   {
+    "nota": "US version"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "naturally aspirated with a cast-iron block",
+    "valore": "105 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8000"
+   },
+   {
+    "testo": "mean piston speed at the rev limiter",
+    "valore": "24 m/s"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Connecting rod bearing shells and VANOS require preventive work."
+  }
+ },
+ "fr": {
+  "storia": "Dernier six-cylindres en ligne atmosphérique de la division BMW M (2000). Bloc-moteur en fonte, double VANOS haute pression, six papillons individuels à commande électronique. Il atteint 105 CV/litre. La M3 CSL adopte une boîte à air en carbone qui porte la puissance à 360 CV.",
+  "limiti": "Marges limitées en atmosphérique. Avec un compresseur volumétrique, on atteint 450–500 CV en conservant l'équipage mobile d'origine.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Indirecte, six papillons individuels",
+  "compressione": "11,5:1",
+  "punti_deboli": [
+   "Coussinets de bielle : remplacement préventif conseillé",
+   "VANOS : vis de la pompe et joints",
+   "Supports du différentiel arrière (caisse E46, pas le moteur)"
+  ],
+  "curiosita": [
+   "Le rupteur à 8000 tr/min correspond à une vitesse moyenne de piston d'environ 24 m/s, valeur très élevée pour un moteur de série."
+  ],
+  "versioni": [
+   {
+    "nota": "États-Unis 333 CV"
+   },
+   {
+    "nota": "Boîte à air en carbone"
+   },
+   {},
+   {
+    "nota": "Version États-Unis"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "en atmosphérique avec bloc en fonte",
+    "valore": "105 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8000"
+   },
+   {
+    "testo": "vitesse moyenne du piston au rupteur",
+    "valore": "24 m/s"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Coussinets de bielle et VANOS nécessitent des interventions préventives."
+  }
+ },
+ "cs": {
+  "storia": "Poslední atmosférický řadový šestiválec divize BMW M (2000). Litinový blok motoru, vysokotlaký dvojitý VANOS, šest samostatných elektronicky ovládaných škrticích klapek. Dosahuje 105 CV/litr. M3 CSL má karbonový sací box, který zvyšuje výkon na 360 CV.",
+  "limiti": "Jako atmosférický motor má omezené rezervy. S objemovým kompresorem lze při zachování sériových vnitřních dílů dosáhnout 450–500 CV.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Atmosférický",
+  "distribuzione": "DOHC poháněný řetězem, dvojitý VANOS",
+  "blocco": "Litina",
+  "testa": "Hliník",
+  "iniezione": "Nepřímé, šest samostatných škrticích klapek",
+  "compressione": "11,5:1",
+  "punti_deboli": [
+   "Ojniční ložiskové pánve: doporučuje se preventivní výměna",
+   "VANOS: šrouby čerpadla a těsnění",
+   "Uložení zadního diferenciálu (karoserie E46, nikoli motor)"
+  ],
+  "curiosita": [
+   "Omezovač otáček na 8000 ot/min odpovídá střední pístové rychlosti přibližně 24 m/s, což je u sériového motoru velmi vysoká hodnota."
+  ],
+  "versioni": [
+   {
+    "nota": "USA 333 CV"
+   },
+   {
+    "nota": "Karbonový sací box"
+   },
+   {},
+   {
+    "nota": "Verze pro USA"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "u atmosférického motoru s litinovým blokem",
+    "valore": "105 CV/l"
+   },
+   {
+    "testo": "ot/min na omezovači otáček",
+    "valore": "8000"
+   },
+   {
+    "testo": "střední pístová rychlost na omezovači otáček",
+    "valore": "24 m/s"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Ojniční ložiskové pánve a VANOS vyžadují preventivní zásahy."
+  }
+ }
+}

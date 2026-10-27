@@ -1,0 +1,141 @@
+{
+ "_source_hash": "a534ef1287d234375ee496a858dc1d545a142f404c1143ee57c59115756ad702",
+ "en": {
+  "storia": "BMW's first high-volume petrol six-cylinder with turbocharging and direct injection (2006). Two small turbochargers, each fed by three cylinders, and piezoelectric injectors placed at the centre of the chamber. Aluminium cylinder block, cylinder head with double VANOS. Awarded several times in its category at the International Engine of the Year.",
+  "limiti": "With the stock turbos about 400–450 CV is achievable. With larger turbos the limit is the connecting rods and fuel pump, at around 600 CV.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Chain-driven DOHC, double VANOS",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Direct with piezo injectors",
+  "compressione": "10.2:1",
+  "punti_deboli": [
+   "High-pressure fuel pump (HPFP), subject to a recall",
+   "Noisy wastegate valves and piezo injectors",
+   "Carbon deposits on the intake valves (typical of direct injection)"
+  ],
+  "curiosita": [
+   "Dyno measurements of stock examples are often higher than the declared output."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Overboost up to 500 Nm"
+   },
+   {
+    "nota": "Overboost up to 500 Nm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "one for every three cylinders",
+    "valore": "2 turbos"
+   },
+   {
+    "testo": "injectors at the centre of the combustion chamber",
+    "valore": "Piezo"
+   },
+   {
+    "testo": "first BMW turbocharged direct-injection six-cylinder",
+    "valore": "2006"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "High-pressure pump, wastegate and injectors subject to costly failures."
+  }
+ },
+ "fr": {
+  "storia": "Premier six-cylindres essence BMW de grande série avec turbo et injection directe (2006). Deux petits turbos, chacun alimenté par trois cylindres, et injecteurs piézoélectriques placés au centre de la chambre. Bloc-moteur en aluminium, culasse avec double VANOS. Récompensé à plusieurs reprises dans sa catégorie à l'International Engine of the Year.",
+  "limiti": "Avec les turbos d'origine, on atteint environ 400–450 CV. Avec des turbos plus gros, la limite est constituée par les bielles et la pompe à carburant, autour de 600 CV.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Directe à injecteurs piézo",
+  "compressione": "10,2:1",
+  "punti_deboli": [
+   "Pompe à carburant haute pression (HPFP), ayant fait l'objet d'un rappel",
+   "Soupapes de wastegate bruyantes et injecteurs piézo",
+   "Dépôts de calamine sur les soupapes d'admission (typique de l'injection directe)"
+  ],
+  "curiosita": [
+   "Les mesures au banc d'exemplaires de série sont souvent supérieures à la puissance déclarée."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Overboost jusqu'à 500 Nm"
+   },
+   {
+    "nota": "Overboost jusqu'à 500 Nm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "un pour trois cylindres",
+    "valore": "2 turbos"
+   },
+   {
+    "testo": "injecteurs au centre de la chambre de combustion",
+    "valore": "Piézo"
+   },
+   {
+    "testo": "premier six-cylindres BMW turbo à injection directe",
+    "valore": "2006"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Pompe haute pression, wastegate et injecteurs sujets à des pannes coûteuses."
+  }
+ },
+ "cs": {
+  "storia": "První velkosériový benzínový šestiválec BMW s přeplňováním a přímým vstřikováním (2006). Dvě malá turbodmychadla, každé napájené třemi válci, a piezoelektrické vstřikovače umístěné uprostřed komory. Hliníkový blok motoru, hlava válců s dvojitým VANOS. Několikrát oceněn ve své kategorii v anketě International Engine of the Year.",
+  "limiti": "Se sériovými turbodmychadly lze dosáhnout přibližně 400–450 CV. S většími turbodmychadly jsou limitem ojnice a palivové čerpadlo, kolem 600 CV.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Dvě turbodmychadla",
+  "distribuzione": "DOHC poháněný řetězem, dvojitý VANOS",
+  "blocco": "Hliník",
+  "testa": "Hliník",
+  "iniezione": "Přímé s piezovstřikovači",
+  "compressione": "10,2:1",
+  "punti_deboli": [
+   "Vysokotlaké palivové čerpadlo (HPFP), předmět svolávací akce",
+   "Hlučné ventily wastegate a piezovstřikovače",
+   "Karbonové usazeniny na sacích ventilech (typické pro přímé vstřikování)"
+  ],
+  "curiosita": [
+   "Měření sériových kusů na válcové zkušebně často vycházejí nad deklarovaný výkon."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Overboost až 500 Nm"
+   },
+   {
+    "nota": "Overboost až 500 Nm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "jedno na každé tři válce",
+    "valore": "2 turbodmychadla"
+   },
+   {
+    "testo": "vstřikovače uprostřed spalovacího prostoru",
+    "valore": "Piezo"
+   },
+   {
+    "testo": "první přeplňovaný šestiválec BMW s přímým vstřikováním",
+    "valore": "2006"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Vysokotlaké čerpadlo, wastegate a vstřikovače jsou náchylné k nákladným poruchám."
+  }
+ }
+}

@@ -533,6 +533,249 @@
   "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
   "_complete": true
  },
+ "mazda-renesis": {
+  "storia": "Naturally aspirated evolution of the 13B for the RX-8 (2003). The exhaust ports are moved from the periphery to the sides of the chamber: this eliminates the overlap between intake and exhaust and reduces fuel consumption and unburnt hydrocarbon emissions. International Engine of the Year in 2003. The last production rotary used as the sole propulsion of a car.",
+  "limiti": "Poorly suited to forced induction without reinforced seals; most modifications concern reliability.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Wankel with side exhaust ports",
+  "blocco": "Cast iron / aluminium",
+  "testa": "—",
+  "iniezione": "Multipoint port injection",
+  "compressione": "10.0:1",
+  "punti_deboli": [
+   "Low compression due to seal wear, especially if rarely used at high engine speeds",
+   "Coils and spark plugs: they flood easily if the engine is switched off cold",
+   "Oil consumption by design (the oil lubricates the seals)"
+  ],
+  "curiosita": [
+   "Mazda returned to the rotary in 2023 as a range extender generator in the MX-30 R-EV.",
+   "Oil is injected into the chamber to lubricate the seals: regular oil consumption is part of the design."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Rev limiter at 9000 rpm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "exhaust moved to the sides of the chamber",
+    "valore": "Side ports"
+   },
+   {
+    "testo": "rpm at the rev limiter on the 231 CV version",
+    "valore": "9000"
+   },
+   {
+    "testo": "International Engine of the Year",
+    "valore": "2003"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Frequent loss of compression due to seal wear."
+  },
+  "_source_hash": "61726637cb46e6e6b34aa2ebd67849bc9498e476c4136c53f9417aad3dd1eb70",
+  "_complete": true
+ },
+ "subaru-ej": {
+  "storia": "Four-cylinder boxer introduced in 1989 in the Legacy, with an aluminium cylinder block and twin-cam cylinder heads. The first EJ20 turbos have a semi-closed-deck block, later versions an open-deck block. The turbo versions powered the Impreza WRX and WRX STI until 2021. With this engine Subaru won the World Rally Championship manufacturers' titles from 1995 to 1997. There are naturally aspirated versions (EJ16, EJ18, EJ22, EJ25) not covered separately here.",
+  "limiti": "The open-deck block is the weak point: beyond 350–400 CV a closed-deck block or reinforced cylinder liners are advisable.",
+  "paese": "Japan",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Belt-driven SOHC/DOHC (AVCS from the 2000+ versions)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Multipoint port injection",
+  "compressione": "8.0–8.5:1",
+  "punti_deboli": [
+   "Cracked piston ring lands (EJ255/EJ257) due to detonation",
+   "Head gaskets, especially on naturally aspirated EJ25s",
+   "Connecting rod bearing shells and oil pickup under prolonged track use"
+  ],
+  "curiosita": [
+   "The typical uneven sound comes from exhaust manifolds of unequal length; from 2008 some models adopt equal-length manifolds."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "The most highly tuned 2.0 turbo of the family"
+   },
+   {
+    "nota": "2457 cc, 99.5 mm bore"
+   },
+   {
+    "nota": "US special edition"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "horizontally opposed cylinders, low centre of gravity",
+    "valore": "Boxer"
+   },
+   {
+    "testo": "consecutive manufacturers' titles in the World Rally Championship (1995–1997)",
+    "valore": "3"
+   },
+   {
+    "testo": "open-bore block on the more recent turbo versions",
+    "valore": "Open-deck"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Head gaskets (EJ25) and piston failures (EJ257)."
+  },
+  "_source_hash": "1dae024d5be136ccd8ad7a0bcdbbdc241cb3c0d8b848331fea65896aa7a135ef",
+  "_complete": true
+ },
+ "bmw-s54": {
+  "storia": "The last naturally aspirated inline six from the BMW M division (2000). Cast-iron cylinder block, high-pressure double VANOS, six electronically controlled individual throttle bodies. It reaches 105 CV/litre. The M3 CSL adopts a carbon airbox that raises output to 360 CV.",
+  "limiti": "Limited margins as a naturally aspirated engine. With a positive-displacement supercharger 450–500 CV can be reached while keeping the stock internals.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Naturally aspirated",
+  "distribuzione": "Chain-driven DOHC, double VANOS",
+  "blocco": "Cast iron",
+  "testa": "Aluminium",
+  "iniezione": "Port injection, six individual throttle bodies",
+  "compressione": "11.5:1",
+  "punti_deboli": [
+   "Connecting rod bearing shells: preventive replacement recommended",
+   "VANOS: pump bolts and seals",
+   "Rear differential mounts (E46 body, not engine)"
+  ],
+  "curiosita": [
+   "The 8000 rpm rev limiter corresponds to a mean piston speed of about 24 m/s, a very high figure for a production engine."
+  ],
+  "versioni": [
+   {
+    "nota": "US 333 CV"
+   },
+   {
+    "nota": "Carbon airbox"
+   },
+   {},
+   {
+    "nota": "US version"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "naturally aspirated with a cast-iron block",
+    "valore": "105 CV/l"
+   },
+   {
+    "testo": "rpm at the rev limiter",
+    "valore": "8000"
+   },
+   {
+    "testo": "mean piston speed at the rev limiter",
+    "valore": "24 m/s"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Connecting rod bearing shells and VANOS require preventive work."
+  },
+  "_source_hash": "a0d4c21dcfb25d9f124d775bb8731ada1b4c3295c33ffceb04681426789aca87",
+  "_complete": true
+ },
+ "bmw-n54": {
+  "storia": "BMW's first high-volume petrol six-cylinder with turbocharging and direct injection (2006). Two small turbochargers, each fed by three cylinders, and piezoelectric injectors placed at the centre of the chamber. Aluminium cylinder block, cylinder head with double VANOS. Awarded several times in its category at the International Engine of the Year.",
+  "limiti": "With the stock turbos about 400–450 CV is achievable. With larger turbos the limit is the connecting rods and fuel pump, at around 600 CV.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Twin-turbo",
+  "distribuzione": "Chain-driven DOHC, double VANOS",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Direct with piezo injectors",
+  "compressione": "10.2:1",
+  "punti_deboli": [
+   "High-pressure fuel pump (HPFP), subject to a recall",
+   "Noisy wastegate valves and piezo injectors",
+   "Carbon deposits on the intake valves (typical of direct injection)"
+  ],
+  "curiosita": [
+   "Dyno measurements of stock examples are often higher than the declared output."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Overboost up to 500 Nm"
+   },
+   {
+    "nota": "Overboost up to 500 Nm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "one for every three cylinders",
+    "valore": "2 turbos"
+   },
+   {
+    "testo": "injectors at the centre of the combustion chamber",
+    "valore": "Piezo"
+   },
+   {
+    "testo": "first BMW turbocharged direct-injection six-cylinder",
+    "valore": "2006"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "High-pressure pump, wastegate and injectors subject to costly failures."
+  },
+  "_source_hash": "a534ef1287d234375ee496a858dc1d545a142f404c1143ee57c59115756ad702",
+  "_complete": true
+ },
+ "bmw-b58": {
+  "storia": "Six-cylinder of the BMW modular family (2015), with 500 cc per cylinder like the B38 three-cylinder and the B48 four-cylinder. Closed-deck aluminium cylinder block, single twin-scroll turbocharger with integrated manifold, air-to-water intercooler in the intake manifold. From 2019 the TU version updates injection, turbo and cooling.",
+  "limiti": "On the TU versions the stock cylinder block withstands 550–650 CV with a larger turbo.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC, double VANOS and Valvetronic",
+  "blocco": "Aluminium, closed-deck",
+  "testa": "Aluminium",
+  "iniezione": "Direct",
+  "compressione": "10.2–11.0:1",
+  "punti_deboli": [
+   "Leaks from the expansion tank and the oil cooler",
+   "Early units with an oil filter housing cover gasket issue"
+  ],
+  "curiosita": [
+   "Supplied to Toyota for the GR Supra A90 from 2019."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Mild hybrid from 2020"
+   },
+   {
+    "nota": "Europe; 387 CV in the US from 2021"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "per cylinder, like the B38 and B48 of the same family",
+    "valore": "500 cc"
+   },
+   {
+    "testo": "aluminium cylinder block",
+    "valore": "Closed-deck"
+   },
+   {
+    "testo": "supplied to Toyota for the GR Supra A90",
+    "valore": "Supra"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Few faults, limited to cooling circuit leaks."
+  },
+  "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "Czech Republic",
   "alimentazione": "Petrol",

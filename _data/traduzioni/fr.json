@@ -533,6 +533,249 @@
   "_source_hash": "525468f5b295000ef91e7a9e0503b0c7b5bf0b84295b2fd8b332b0d2b5411f59",
   "_complete": true
  },
+ "mazda-renesis": {
+  "storia": "Évolution atmosphérique du 13B pour la RX-8 (2003). Les lumières d'échappement sont déplacées de la périphérie vers les flancs de la chambre : elles suppriment le croisement entre admission et échappement et réduisent la consommation et les émissions d'hydrocarbures imbrûlés. Moteur international de l'année en 2003. Dernier moteur rotatif de série utilisé comme unique propulsion d'une voiture.",
+  "limiti": "Peu adapté à la suralimentation sans renforcement des segments d'étanchéité ; la plupart des interventions concernent la fiabilité.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Wankel à lumières d'échappement latérales",
+  "blocco": "Fonte / aluminium",
+  "testa": "—",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "10,0:1",
+  "punti_deboli": [
+   "Compression faible due à l'usure des segments d'étanchéité, surtout s'il est rarement utilisé à haut régime",
+   "Bobines et bougies : elles se noient facilement si le moteur est coupé à froid",
+   "Consommation d'huile par conception (l'huile lubrifie les segments d'étanchéité)"
+  ],
+  "curiosita": [
+   "Mazda est revenu au moteur rotatif en 2023 comme générateur prolongateur d'autonomie sur le MX-30 R-EV.",
+   "L'huile est injectée dans la chambre pour lubrifier les segments d'étanchéité : une consommation d'huile régulière est prévue par la conception."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Rupteur à 9000 tr/min"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "échappement déplacé sur les flancs de la chambre",
+    "valore": "Lumières latérales"
+   },
+   {
+    "testo": "tr/min au rupteur sur la version de 231 CV",
+    "valore": "9000"
+   },
+   {
+    "testo": "Moteur international de l'année",
+    "valore": "2003"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Perte de compression fréquente due à l'usure des segments d'étanchéité."
+  },
+  "_source_hash": "61726637cb46e6e6b34aa2ebd67849bc9498e476c4136c53f9417aad3dd1eb70",
+  "_complete": true
+ },
+ "subaru-ej": {
+  "storia": "Quatre-cylindres boxer introduit en 1989 sur la Legacy, avec bloc-moteur en aluminium et culasses à double arbre à cames. Les premiers EJ20 turbo ont un bloc semi-fermé, les versions suivantes un bloc à fûts ouverts (open-deck). Les versions turbo ont équipé les Impreza WRX et WRX STI jusqu'en 2021. Avec ce moteur, Subaru a remporté les titres constructeurs du championnat du monde des rallyes de 1995 à 1997. Il existe des versions atmosphériques (EJ16, EJ18, EJ22, EJ25) qui ne sont pas traitées séparément ici.",
+  "limiti": "Le bloc open-deck est le point faible : au-delà de 350–400 CV, mieux vaut un bloc closed-deck ou des chemises renforcées.",
+  "paese": "Japon",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Simple/double arbre à cames par courroie (AVCS à partir des versions 2000+)",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint",
+  "compressione": "8,0–8,5:1",
+  "punti_deboli": [
+   "Rupture des cordons (« ring lands ») des pistons (EJ255/EJ257) due au cliquetis",
+   "Joints de culasse, surtout sur les EJ25 atmosphériques",
+   "Coussinets de bielle et crépine d'huile en cas d'usage prolongé sur circuit"
+  ],
+  "curiosita": [
+   "La sonorité irrégulière caractéristique provient de collecteurs d'échappement de longueurs différentes ; depuis 2008, certains modèles adoptent des collecteurs de longueur égale."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Le 2.0 turbo le plus poussé de la famille"
+   },
+   {
+    "nota": "2457 cc, alésage 99,5 mm"
+   },
+   {
+    "nota": "Série spéciale États-Unis"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "cylindres opposés, centre de gravité bas",
+    "valore": "Boxer"
+   },
+   {
+    "testo": "titres constructeurs consécutifs en championnat du monde des rallyes (1995–1997)",
+    "valore": "3"
+   },
+   {
+    "testo": "bloc à fûts ouverts sur les versions turbo les plus récentes",
+    "valore": "Open-deck"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Joints de culasse (EJ25) et ruptures de pistons (EJ257)."
+  },
+  "_source_hash": "1dae024d5be136ccd8ad7a0bcdbbdc241cb3c0d8b848331fea65896aa7a135ef",
+  "_complete": true
+ },
+ "bmw-s54": {
+  "storia": "Dernier six-cylindres en ligne atmosphérique de la division BMW M (2000). Bloc-moteur en fonte, double VANOS haute pression, six papillons individuels à commande électronique. Il atteint 105 CV/litre. La M3 CSL adopte une boîte à air en carbone qui porte la puissance à 360 CV.",
+  "limiti": "Marges limitées en atmosphérique. Avec un compresseur volumétrique, on atteint 450–500 CV en conservant l'équipage mobile d'origine.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Indirecte, six papillons individuels",
+  "compressione": "11,5:1",
+  "punti_deboli": [
+   "Coussinets de bielle : remplacement préventif conseillé",
+   "VANOS : vis de la pompe et joints",
+   "Supports du différentiel arrière (caisse E46, pas le moteur)"
+  ],
+  "curiosita": [
+   "Le rupteur à 8000 tr/min correspond à une vitesse moyenne de piston d'environ 24 m/s, valeur très élevée pour un moteur de série."
+  ],
+  "versioni": [
+   {
+    "nota": "États-Unis 333 CV"
+   },
+   {
+    "nota": "Boîte à air en carbone"
+   },
+   {},
+   {
+    "nota": "Version États-Unis"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "en atmosphérique avec bloc en fonte",
+    "valore": "105 CV/l"
+   },
+   {
+    "testo": "tr/min au rupteur",
+    "valore": "8000"
+   },
+   {
+    "testo": "vitesse moyenne du piston au rupteur",
+    "valore": "24 m/s"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Coussinets de bielle et VANOS nécessitent des interventions préventives."
+  },
+  "_source_hash": "a0d4c21dcfb25d9f124d775bb8731ada1b4c3295c33ffceb04681426789aca87",
+  "_complete": true
+ },
+ "bmw-n54": {
+  "storia": "Premier six-cylindres essence BMW de grande série avec turbo et injection directe (2006). Deux petits turbos, chacun alimenté par trois cylindres, et injecteurs piézoélectriques placés au centre de la chambre. Bloc-moteur en aluminium, culasse avec double VANOS. Récompensé à plusieurs reprises dans sa catégorie à l'International Engine of the Year.",
+  "limiti": "Avec les turbos d'origine, on atteint environ 400–450 CV. Avec des turbos plus gros, la limite est constituée par les bielles et la pompe à carburant, autour de 600 CV.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Biturbo",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS",
+  "blocco": "Aluminium",
+  "testa": "Aluminium",
+  "iniezione": "Directe à injecteurs piézo",
+  "compressione": "10,2:1",
+  "punti_deboli": [
+   "Pompe à carburant haute pression (HPFP), ayant fait l'objet d'un rappel",
+   "Soupapes de wastegate bruyantes et injecteurs piézo",
+   "Dépôts de calamine sur les soupapes d'admission (typique de l'injection directe)"
+  ],
+  "curiosita": [
+   "Les mesures au banc d'exemplaires de série sont souvent supérieures à la puissance déclarée."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Overboost jusqu'à 500 Nm"
+   },
+   {
+    "nota": "Overboost jusqu'à 500 Nm"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "un pour trois cylindres",
+    "valore": "2 turbos"
+   },
+   {
+    "testo": "injecteurs au centre de la chambre de combustion",
+    "valore": "Piézo"
+   },
+   {
+    "testo": "premier six-cylindres BMW turbo à injection directe",
+    "valore": "2006"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Pompe haute pression, wastegate et injecteurs sujets à des pannes coûteuses."
+  },
+  "_source_hash": "a534ef1287d234375ee496a858dc1d545a142f404c1143ee57c59115756ad702",
+  "_complete": true
+ },
+ "bmw-b58": {
+  "storia": "Six-cylindres de la famille modulaire BMW (2015), avec 500 cc par cylindre comme le trois-cylindres B38 et le quatre-cylindres B48. Bloc-moteur closed-deck en aluminium, turbo twin-scroll unique avec collecteur intégré, échangeur air-eau dans le collecteur d'admission. À partir de 2019, la version TU fait évoluer l'injection, le turbo et le refroidissement.",
+  "limiti": "Sur les versions TU, le bloc d'origine supporte 550–650 CV avec un turbo plus gros.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS et Valvetronic",
+  "blocco": "Aluminium, closed-deck",
+  "testa": "Aluminium",
+  "iniezione": "Directe",
+  "compressione": "10,2–11,0:1",
+  "punti_deboli": [
+   "Fuites du vase d'expansion et du radiateur d'huile",
+   "Premières unités : joint du couvercle de filtre à huile"
+  ],
+  "curiosita": [
+   "Fourni à Toyota pour la GR Supra A90 à partir de 2019."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Hybridation légère à partir de 2020"
+   },
+   {
+    "nota": "Europe ; 387 CV aux États-Unis à partir de 2021"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "par cylindre, comme les B38 et B48 de la même famille",
+    "valore": "500 cc"
+   },
+   {
+    "testo": "bloc-moteur en aluminium",
+    "valore": "Closed-deck"
+   },
+   {
+    "testo": "fourni à Toyota pour la GR Supra A90",
+    "valore": "Supra"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Peu de défauts, limités à des fuites du circuit de refroidissement."
+  },
+  "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
+  "_complete": true
+ },
  "skoda-ea111-12-htp": {
   "paese": "République tchèque",
   "alimentazione": "Essence",

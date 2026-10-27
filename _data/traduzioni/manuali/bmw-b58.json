@@ -1,0 +1,138 @@
+{
+ "_source_hash": "5f974681025feffa3879c66719942dab7c0165eed8f013d5fd84773a81e1ff82",
+ "en": {
+  "storia": "Six-cylinder of the BMW modular family (2015), with 500 cc per cylinder like the B38 three-cylinder and the B48 four-cylinder. Closed-deck aluminium cylinder block, single twin-scroll turbocharger with integrated manifold, air-to-water intercooler in the intake manifold. From 2019 the TU version updates injection, turbo and cooling.",
+  "limiti": "On the TU versions the stock cylinder block withstands 550–650 CV with a larger turbo.",
+  "paese": "Germany",
+  "alimentazione": "Petrol",
+  "aspirazione": "Turbo",
+  "distribuzione": "Chain-driven DOHC, double VANOS and Valvetronic",
+  "blocco": "Aluminium, closed-deck",
+  "testa": "Aluminium",
+  "iniezione": "Direct",
+  "compressione": "10.2–11.0:1",
+  "punti_deboli": [
+   "Leaks from the expansion tank and the oil cooler",
+   "Early units with an oil filter housing cover gasket issue"
+  ],
+  "curiosita": [
+   "Supplied to Toyota for the GR Supra A90 from 2019."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Mild hybrid from 2020"
+   },
+   {
+    "nota": "Europe; 387 CV in the US from 2021"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "per cylinder, like the B38 and B48 of the same family",
+    "valore": "500 cc"
+   },
+   {
+    "testo": "aluminium cylinder block",
+    "valore": "Closed-deck"
+   },
+   {
+    "testo": "supplied to Toyota for the GR Supra A90",
+    "valore": "Supra"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Few faults, limited to cooling circuit leaks."
+  }
+ },
+ "fr": {
+  "storia": "Six-cylindres de la famille modulaire BMW (2015), avec 500 cc par cylindre comme le trois-cylindres B38 et le quatre-cylindres B48. Bloc-moteur closed-deck en aluminium, turbo twin-scroll unique avec collecteur intégré, échangeur air-eau dans le collecteur d'admission. À partir de 2019, la version TU fait évoluer l'injection, le turbo et le refroidissement.",
+  "limiti": "Sur les versions TU, le bloc d'origine supporte 550–650 CV avec un turbo plus gros.",
+  "paese": "Allemagne",
+  "alimentazione": "Essence",
+  "aspirazione": "Turbo",
+  "distribuzione": "Double arbre à cames par chaîne, double VANOS et Valvetronic",
+  "blocco": "Aluminium, closed-deck",
+  "testa": "Aluminium",
+  "iniezione": "Directe",
+  "compressione": "10,2–11,0:1",
+  "punti_deboli": [
+   "Fuites du vase d'expansion et du radiateur d'huile",
+   "Premières unités : joint du couvercle de filtre à huile"
+  ],
+  "curiosita": [
+   "Fourni à Toyota pour la GR Supra A90 à partir de 2019."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Hybridation légère à partir de 2020"
+   },
+   {
+    "nota": "Europe ; 387 CV aux États-Unis à partir de 2021"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "par cylindre, comme les B38 et B48 de la même famille",
+    "valore": "500 cc"
+   },
+   {
+    "testo": "bloc-moteur en aluminium",
+    "valore": "Closed-deck"
+   },
+   {
+    "testo": "fourni à Toyota pour la GR Supra A90",
+    "valore": "Supra"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Peu de défauts, limités à des fuites du circuit de refroidissement."
+  }
+ },
+ "cs": {
+  "storia": "Šestiválec z modulární rodiny BMW (2015) s 500 cc na válec stejně jako tříválec B38 a čtyřválec B48. Hliníkový blok motoru closed-deck, jediné turbodmychadlo twin-scroll s integrovaným svodem, mezichladič vzduch-voda v sacím potrubí. Od roku 2019 verze TU modernizuje vstřikování, turbodmychadlo a chlazení.",
+  "limiti": "U verzí TU snese sériový blok motoru s větším turbodmychadlem 550–650 CV.",
+  "paese": "Německo",
+  "alimentazione": "Benzín",
+  "aspirazione": "Turbo",
+  "distribuzione": "DOHC poháněný řetězem, dvojitý VANOS a Valvetronic",
+  "blocco": "Hliník, closed-deck",
+  "testa": "Hliník",
+  "iniezione": "Přímé",
+  "compressione": "10,2–11,0:1",
+  "punti_deboli": [
+   "Netěsnosti expanzní nádobky a chladiče oleje",
+   "První kusy s vadou těsnění víka olejového filtru"
+  ],
+  "curiosita": [
+   "Od roku 2019 dodáván Toyotě pro GR Supra A90."
+  ],
+  "versioni": [
+   {},
+   {
+    "nota": "Mild hybrid od roku 2020"
+   },
+   {
+    "nota": "Evropa; v USA 387 CV od roku 2021"
+   }
+  ],
+  "in_breve": [
+   {
+    "testo": "na válec, stejně jako B38 a B48 ze stejné rodiny",
+    "valore": "500 cc"
+   },
+   {
+    "testo": "hliníkový blok motoru",
+    "valore": "Closed-deck"
+   },
+   {
+    "testo": "dodáván Toyotě pro GR Supra A90",
+    "valore": "Supra"
+   }
+  ],
+  "affidabilita": {
+   "motivo": "Málo závad, omezených na netěsnosti chladicího okruhu."
+  }
+ }
+}
