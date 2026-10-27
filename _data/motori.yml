@@ -12242,3 +12242,307 @@
     - {"titolo":"Auto-Data, Daewoo Matiz I 0.8 i 52 CV","url":"https://www.auto-data.net/no/daewoo-matiz-i-0.8-i-52hp-16373"}
     - {"titolo":"Motor1 Italia, i motori benzina della Daewoo Matiz","url":"https://it.motor1.com/news/677003/motori-daewoo-matiz-benzina-storia/"}
     - {"titolo":"MyMotorList, motore Daewoo F8CV","url":"https://mymotorlist.com/engines/daewoo/f8cv/"}
+
+- slug: toyota-1nz-fe
+  codice: "1NZ-FE / 1NZ-FXE / 2NZ-FE"
+  nome: "Toyota NZ 1.3-1.5 VVT-i (1NZ-FE, 1NZ-FXE, 2NZ-FE)"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 1997
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1496
+  alesaggio: 75.0
+  corsa: 84.7
+  compressione: "10,5:1 (11,0:1 dal 2012; 1NZ-FXE 13,0-13,4:1)"
+  distribuzione: "DOHC a catena, VVT-i in aspirazione"
+  valvole: 4
+  blocco: "Alluminio open-deck con canne in ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint sequenziale"
+  cv_min: 58
+  cv_max: 110
+  nm_max: 143
+  affidabilita:
+    indice: 82
+    motivo: "Nessun difetto strutturale documentato; con l'età compaiono consumo d'olio da usura delle fasce e trafilamenti dal coperchio distribuzione."
+  in_breve:
+    - {"valore":"1496 cc","testo":"1NZ-FE di riferimento, alesaggio 75 mm e corsa 84,7 mm"}
+    - {"valore":"Atkinson","testo":"variante 1NZ-FXE per Prius, Yaris Hybrid e Prius c"}
+    - {"valore":"1298 cc","testo":"2NZ-FE con corsa ridotta a 73,5 mm"}
+  versioni:
+    - {"nome":"1NZ-FXE Prius prima serie (Giappone)","anni":"1997–2000","cv":58,"nm":102,"nota":"Ciclo Atkinson, 43 kW a 4000 giri/min"}
+    - {"nome":"1NZ-FXE Prius (XW10) aggiornata","anni":"2000–2003","cv":72,"nm":115,"nota":"53 kW a 4500 giri/min"}
+    - {"nome":"1NZ-FXE Prius (XW20)","anni":"2003–2009","cv":77,"nm":115,"nota":"57 kW a 5000 giri/min"}
+    - {"nome":"1NZ-FXE Prius c / Yaris Hybrid / Probox Hybrid","anni":"2011–oggi","cv":74,"nm":111,"nota":"Compressione 13,4:1, EGR e pompa acqua elettrica"}
+    - {"nome":"1NZ-FE","anni":"1999–oggi","cv":110,"nm":143,"nota":"98–110 CV e 127–143 Nm secondo mercato e anno"}
+    - {"nome":"1NZ-FE Probox 2WD","anni":"attuale","cv":109,"nm":136,"nota":"Dati della scheda tecnica Toyota Giappone, 80 kW a 6000 giri/min"}
+    - {"nome":"2NZ-FE 1.3","anni":"1999–2020","cv":88,"nm":123,"nota":"1298 cc, 75 x 73,5 mm; 86–88 CV secondo mercato, 81 CV senza VVT-i nei mercati a benzina con piombo"}
+  modelli:
+    - {"nome":"Toyota Prius (NHW10, NHW11, XW20)","anni":"1997–2009"}
+    - {"nome":"Toyota Prius c / Aqua","anni":"2011–2021"}
+    - {"nome":"Toyota Yaris Hybrid (XP130)","anni":"2012–2020"}
+    - {"nome":"Toyota Yaris / Vitz / Echo (XP10, XP90)","anni":"1999–2020, secondo mercato"}
+    - {"nome":"Toyota Corolla / Corolla Axio / Fielder","anni":"2000–oggi, secondo mercato"}
+    - {"nome":"Toyota Vios","anni":"secondo mercato"}
+    - {"nome":"Toyota Probox / Succeed","anni":"2002–oggi"}
+    - {"nome":"Toyota Sienta, bB, ist, Porte, Ractis, Raum, Platz","anni":"Giappone, secondo modello"}
+    - {"nome":"Mazda Familia Van (derivata dalla Probox)","anni":"Giappone"}
+  storia: "La famiglia NZ è il quattro cilindri compatto introdotto da Toyota alla fine degli anni Novanta, con basamento open-deck in alluminio, canne in ghisa, distribuzione bialbero a catena e VVT-i in aspirazione. La prima applicazione è stata il 1NZ-FXE a ciclo Atkinson della Prius del dicembre 1997, con compressione geometrica di 13,0:1 e regime massimo limitato. Il 1NZ-FE a ciclo Otto è arrivato nel 1999 su Vitz/Yaris e poi su Corolla e numerosi modelli giapponesi, mentre il 2NZ-FE da 1,3 litri ne riduce la corsa a 73,5 mm. Il 1NZ-FXE è uscito dai mercati internazionali nel 2020, sostituito dal tre cilindri M15A-FXE, ma 1NZ-FE e 1NZ-FXE sono ancora montati sulla Probox giapponese."
+  punti_deboli:
+    - "Fasce elastiche: consumo d'olio su motori molto chilometrati per usura delle fasce."
+    - "Trafilamenti d'olio: coperchio distribuzione, tenditore catena, paraolio posteriore dell'albero motore."
+    - "Catena di distribuzione: allungamento su esemplari con manutenzione irregolare."
+    - "Minimo instabile: depositi su corpo farfallato, valvola PCV o sensore MAF."
+  limiti: "Il 1NZ-FE nasce come aspirato per vetture compatte. Toyota Racing Development ha venduto kit turbo con pressione di circa 0,6 bar e potenze di 143–152 CV, che rappresentano il riferimento documentato per il basamento di serie; oltre questi valori non esistono dati affidabili e servono verifiche su pistoni, bielle e raffreddamento."
+  curiosita:
+    - "Le versioni 1NZ-FE turbo (Yaris TS Turbo, Vitz RS Turbo, Corolla Axio GT) usavano kit TRD con turbocompressore IHI RHF4; l'ultima applicazione è stata la Vitz GRMN Turbo del 2013."
+    - "Nel 2003 la testata del 1NZ-FE è stata rivista con bilancieri a rullo, punterie idrauliche ed EGR."
+  fonti:
+    - {"titolo":"Wikipedia, Toyota NZ engine","url":"https://en.wikipedia.org/wiki/Toyota_NZ_engine"}
+    - {"titolo":"Toyota Giappone, scheda tecnica Probox (settembre 2026)","url":"https://toyota.jp/pages/contents/probox/001_b_003/4.0/pdf/spec/probox_spec_202609.pdf"}
+    - {"titolo":"Australian Car Reviews, motore Toyota 1NZ-FXE","url":"https://australiancar.reviews/1nz-fxe-toyota-engine/"}
+    - {"titolo":"8020 Automotive, guida al Toyota 1NZ-FE","url":"https://8020automotive.com/toyota-1nz-fe-guide/"}
+
+- slug: toyota-2sz-fe
+  codice: "2SZ-FE"
+  nome: "Toyota 2SZ-FE 1.3 VVT-i"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 2003
+  fine: 2012
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1298
+  alesaggio: 72.0
+  corsa: 79.7
+  compressione: "10,0:1 (versione giapponese 11,0:1)"
+  distribuzione: "DOHC a catena, VVT-i in aspirazione"
+  valvole: 4
+  blocco: "Ghisa a pareti sottili, closed-deck"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint"
+  cv_min: 87
+  cv_max: 87
+  nm_max: 122
+  in_breve:
+    - {"valore":"1298 cc","testo":"alesaggio 72 mm e corsa 79,7 mm nella versione di esportazione"}
+    - {"valore":"8 mm","testo":"disassamento dell'albero motore rispetto all'asse dei cilindri"}
+    - {"valore":"Ghisa","testo":"basamento closed-deck derivato dal Daihatsu K3-VE"}
+  versioni:
+    - {"nome":"2SZ-FE Europa (Yaris)","anni":"2003–2008","cv":87,"nm":122,"nota":"Compressione 10,0:1, catena silenziosa, punterie a bicchiere"}
+    - {"nome":"2SZ-FE Giappone (Vitz, Belta, Ractis)","anni":"2005–2012","cv":87,"nm":116,"nota":"1296 cc, compressione 11,0:1, catena a rulli, bilancieri ed EGR"}
+  modelli:
+    - {"nome":"Toyota Yaris (XP10) 1.3 VVT-i","anni":"2003–2005"}
+    - {"nome":"Toyota Yaris / Vitz (XP90) 1.3","anni":"2005–2010, secondo mercato"}
+    - {"nome":"Toyota Belta 1.3","anni":"2005–2012"}
+    - {"nome":"Toyota Ractis (XP100) 1.3","anni":"2005–2010"}
+  storia: "Il 2SZ-FE è il 1,3 litri della famiglia SZ, sviluppato da Daihatsu con il supporto Toyota a partire dal K3-VE e distinto dal 1SZ-FE da un litro per alesaggio e corsa. Il basamento in ghisa closed-deck adotta un albero motore disassato di 8 mm per ridurre la spinta laterale dei pistoni; la testata bialbero ha valvole a angolo stretto (18,6°) e VVT-i in aspirazione. La versione europea della Yaris ha 10,0:1 di compressione e catena silenziosa, quella giapponese 11,0:1, catena a rulli, bilancieri a rullo ed EGR. È stato prodotto anche in Cina (Tianjin FAW Toyota) e in Indonesia; nelle Toyota giapponesi ed europee è stato sostituito dal 1NR-FE."
+  punti_deboli:
+    - "Depositi carboniosi: tendenza alla formazione di incrostazioni su valvole e camere di combustione."
+    - "EGR (versione giapponese): contribuisce all'accumulo di depositi nel collettore e nella testata."
+    - "Chiavetta dell'albero motore: punto debole della famiglia SZ; può tranciarsi dopo un rimontaggio con rischio di contatto tra valvole e pistoni."
+  limiti: "Il 2SZ-FE è un aspirato da impiego economico; non esistono dati documentati su elaborazioni di serie o soglie di potenza sicure per pistoni e bielle originali. Prima di qualsiasi modifica verificare catena, compressione e stato dei depositi."
+  curiosita:
+    - "In Cina la versione di esportazione è nota con la sigla 4A13."
+    - "Il Daihatsu K3-VE condivide l'albero motore del 2SZ-FE ma ha un basamento per montaggio longitudinale e un angolo valvole di 29,7°."
+  fonti:
+    - {"titolo":"Wikipedia, Toyota SZ engine","url":"https://en.wikipedia.org/wiki/Toyota_SZ_engine"}
+    - {"titolo":"Toyota-club.net, FAQ motori SZ","url":"https://toyota-club.net/files/faq/21-07-01_faq_sz-engine_en.htm"}
+    - {"titolo":"Wikipedia, Toyota Belta","url":"https://en.wikipedia.org/wiki/Toyota_Belta"}
+    - {"titolo":"Toyota Owners Club, codici motore Yaris 2004–2009","url":"https://toyotaownersclub.com/tutorials/article/68-yaris-engine-codes-2004-2009"}
+
+- slug: toyota-1nr-fe
+  codice: "1NR-FE / 1NR-FKE / 8NR-FTS"
+  nome: "Toyota NR 1.2-1.33 (1NR-FE, 8NR-FTS)"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 2008
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato; turbo sull'8NR-FTS"
+  cilindrata: 1329
+  alesaggio: 72.5
+  corsa: 80.5
+  compressione: "11,5:1 (8NR-FTS 10,0:1)"
+  distribuzione: "DOHC a catena, Dual VVT-i (VVT-iW in aspirazione sull'8NR-FTS)"
+  valvole: 4
+  blocco: "Alluminio open-deck con canne in ghisa"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint (1NR-FE); diretta D-4T (8NR-FTS)"
+  cv_min: 99
+  cv_max: 116
+  nm_max: 185
+  affidabilita:
+    indice: 64
+    motivo: "Consumo d'olio da incollaggio delle fasce sui 1NR-FE prodotti fino all'inizio del 2013, oggetto di bollettini Toyota, con riparazione costosa (pistoni e bielle)."
+  in_breve:
+    - {"valore":"1329 cc","testo":"1NR-FE di riferimento, alesaggio 72,5 mm e corsa 80,5 mm"}
+    - {"valore":"Dual VVT-i","testo":"fasatura variabile su entrambi gli alberi a camme"}
+    - {"valore":"185 Nm","testo":"8NR-FTS 1.2 turbo da 1500 a 4000 giri/min"}
+  versioni:
+    - {"nome":"1NR-FE 1.33 Dual VVT-i (Europa)","anni":"2008–2018","cv":99,"nm":125,"nota":"Dato Toyota per la iQ 1.33 del 2009, coppia a 4400 giri/min; Stop & Start con cambio manuale"}
+    - {"nome":"1NR-FKE","anni":"2014–","cv":99,"nm":121,"nota":"Ciclo Atkinson con VVT-iE, rapporto di espansione 13,5:1"}
+    - {"nome":"8NR-FTS 1.2 D-4T","anni":"2015–","cv":116,"nm":185,"nota":"1197 cc, 71,5 x 74,5 mm, 85 kW a 5200–5600 giri/min"}
+  modelli:
+    - {"nome":"Toyota Yaris (XP90, XP130) 1.33","anni":"2008–2020, secondo mercato"}
+    - {"nome":"Toyota iQ 1.33","anni":"2009–2015"}
+    - {"nome":"Toyota Auris (E150, E180) 1.33","anni":"2009–2018"}
+    - {"nome":"Toyota Auris (E180) 1.2T","anni":"2015–2018"}
+    - {"nome":"Toyota C-HR 1.2T","anni":"2016–, secondo mercato"}
+    - {"nome":"Toyota Corolla / Levin (E180, E210) 1.2T","anni":"Cina e altri mercati"}
+    - {"nome":"Toyota Avanza / Yaris / Vios 1.3","anni":"2015–oggi, mercati asiatici"}
+    - {"nome":"Subaru Trezia 1.3","anni":"2014–"}
+    - {"nome":"Perodua Bezza","anni":"2016–oggi"}
+    - {"nome":"Perodua Myvi","anni":"2017–oggi"}
+    - {"nome":"Daihatsu Sirion / Xenia","anni":"2015–oggi"}
+  storia: "La famiglia NR è stata introdotta nel 2008 con il 1NR-FE da 1,33 litri, che in Europa ha sostituito il 4ZZ-FE e in Giappone i 2NZ-FE e 2SZ-FE. Il basamento in alluminio open-deck con canne in ghisa ha albero motore disassato di 8 mm, punterie idrauliche con bilancieri a rullo, catena di distribuzione a rulli e fasatura variabile su entrambi gli alberi a camme. Nel 2015 Toyota ha presentato sulla Auris l'8NR-FTS da 1197 cc, con iniezione diretta D-4T, turbocompressore single-scroll, collettore di scarico integrato nella testata raffreddata a liquido e VVT-iW che consente il funzionamento a ciclo Atkinson modificato. La voce riporta cilindrata, alesaggio e corsa del 1NR-FE; il 1NR-FE resta in produzione per i mercati asiatici tramite Toyota e Daihatsu/Perodua."
+  punti_deboli:
+    - "Fasce elastiche (1NR-FE fino al 2013): incollaggio e consumo d'olio, bollettino Toyota EG-0095T-1112; la correzione richiede pistoni e bielle aggiornati."
+    - "Depositi carboniosi su valvole e sedi (1NR-FE): perdita di compressione, avviamenti difficili e codici P1603–P1605."
+    - "Catena di distribuzione: rumorosità all'avviamento a freddo, trattata da Toyota con bollettino dedicato."
+    - "Pompa carburante ad alta pressione (8NR-FTS): richiamo del 2021 per possibili crepe nella saldatura e perdite di benzina su Corolla e C-HR 2019–2021."
+    - "Accensione (8NR-FTS): mancate accensioni risolte con sostituzione delle bobine ed eventuale pulizia delle valvole di aspirazione."
+  limiti: "Il basamento del 1NR-FE ha pareti tra i cilindri di soli 7 mm e non è prevista la rialesatura; non esistono soglie documentate per elaborazioni con componenti di serie. L'8NR-FTS ha basamento rinforzato e valvole al sodio, ma anche per questa versione non risultano dati affidabili oltre la taratura originale."
+  curiosita:
+    - "Toyota dichiarava per l'8NR-FTS un rendimento termico massimo del 36%."
+    - "Il 1NR-FKE della Yaris del 2014 adotta ciclo Atkinson e VVT-iE con rendimento termico dichiarato del 38%."
+  fonti:
+    - {"titolo":"Wikipedia, Toyota NR engine","url":"https://en.wikipedia.org/wiki/Toyota_NR_engine"}
+    - {"titolo":"Toyota Canada, Toyota Doubles Turbo Offerings in New Engine Lineup (2015)","url":"https://media.toyota.ca/en/releases/2015/toyota-doubles-turbo-offerings-in-new-engine-lineup.html"}
+    - {"titolo":"Toyota UK, Toyota iQ Gains New 1.33 Dual VVT-i Engine (2009)","url":"https://media.toyota.co.uk/?p=34694"}
+    - {"titolo":"Toyota-club.net, FAQ motori NR","url":"https://toyota-club.net/files/faq/13-01-01_faq_nr-engine_eng.htm"}
+
+- slug: toyota-zr
+  codice: "1ZR-FE / 1ZR-FAE / 2ZR-FE / 2ZR-FAE / 2ZR-FXE"
+  nome: "Toyota ZR 1.6-1.8 (1ZR, 2ZR, 2ZR-FXE)"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 2007
+  fine:
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 1798
+  alesaggio: 80.5
+  corsa: 88.3
+  compressione: "10,0:1 (2ZR-FAE 10,5:1; 2ZR-FXE 13,0:1)"
+  distribuzione: "DOHC a catena, Dual VVT-i; Valvematic sulle versioni FAE"
+  valvole: 4
+  blocco: "Alluminio"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint"
+  cv_min: 99
+  cv_max: 150
+  nm_max: 175
+  affidabilita:
+    indice: 76
+    motivo: "Consumo d'olio sui primi 2ZR-FE 2008–2010, corretto con aggiornamento centralina, e guasti della pompa acqua; nessun difetto strutturale ricorrente."
+  in_breve:
+    - {"valore":"1798 cc","testo":"2ZR-FE di riferimento, alesaggio 80,5 mm e corsa 88,3 mm"}
+    - {"valore":"Valvematic","testo":"alzata variabile in aspirazione da 1 a 11 mm sulle versioni FAE"}
+    - {"valore":"13,0:1","testo":"compressione del 2ZR-FXE a ciclo Atkinson per Prius e ibride"}
+  versioni:
+    - {"nome":"1ZR-FAE 1.6 Valvematic","anni":"2007–","cv":132,"nm":160,"nota":"1598 cc, 80,5 x 78,5 mm, 98 kW a 6400 giri/min"}
+    - {"nome":"2ZR-FE 1.8 Dual VVT-i","anni":"2007–","cv":133,"nm":173,"nota":"98 kW a 6000 giri/min su Corolla, Matrix e Vibe; fino a 103 kW secondo mercato"}
+    - {"nome":"2ZR-FAE 1.8 Valvematic","anni":"2009–","cv":150,"nm":175,"nota":"Da 104 a 110 kW e da 171 a 175 Nm secondo applicazione"}
+    - {"nome":"2ZR-FXE Prius (XW30)","anni":"2009–2015","cv":99,"nm":142,"nota":"Ciclo Atkinson, 73 kW a 5200 giri/min, solo motore termico"}
+  modelli:
+    - {"nome":"Toyota Corolla (E140, E150, E170, E210)","anni":"2007–oggi"}
+    - {"nome":"Toyota Auris (E150, E180, E210)","anni":"2007–2020"}
+    - {"nome":"Toyota Prius (XW30, XW50, XW60)","anni":"2009–oggi"}
+    - {"nome":"Toyota C-HR (AX10) Hybrid 1.8","anni":"2016–2023"}
+    - {"nome":"Toyota Corolla Cross","anni":"2020–oggi"}
+    - {"nome":"Toyota Avensis (T270), Verso","anni":"2009–2018"}
+    - {"nome":"Toyota Matrix","anni":"2009–2014"}
+    - {"nome":"Toyota Yaris T Sport (XP90)","anni":"Europa, secondo mercato"}
+    - {"nome":"Toyota Noah / Voxy (R80, R90) Hybrid","anni":"2014–oggi"}
+    - {"nome":"Lexus CT 200h","anni":"2011–2022"}
+    - {"nome":"Pontiac Vibe","anni":"2009–2010"}
+    - {"nome":"Scion xD","anni":"2008–2014"}
+    - {"nome":"Scion iM","anni":"2016"}
+    - {"nome":"Lotus Elise (1ZR-FAE e 2ZR-FE con compressore)","anni":"2010–2021"}
+    - {"nome":"Suzuki Swace","anni":"2020–oggi"}
+  storia: "La famiglia ZR, in produzione dal 2007, ha sostituito la serie ZZ nella maggior parte delle applicazioni con basamento e testata in alluminio, distribuzione bialbero a catena e fasatura variabile su entrambi gli alberi a camme. Le versioni FAE aggiungono il sistema Valvematic, che varia con continuità l'alzata delle valvole di aspirazione. Il 2ZR-FXE, con compressione 13,0:1 e chiusura ritardata delle valvole di aspirazione (ciclo Atkinson), equipaggia dal 2009 la Prius di terza serie e numerose ibride Toyota, Lexus e Suzuki. La voce riporta cilindrata, alesaggio e corsa del 2ZR-FE; 1ZR (1,6 litri) e 2ZR-FXE sono descritti nelle versioni."
+  punti_deboli:
+    - "Fasce elastiche (2ZR-FE 2008–2010): consumo d'olio, trattato da Toyota con bollettino e aggiornamento della centralina."
+    - "Pompa dell'acqua: perdite esterne o cedimento interno con rischio di surriscaldamento e danni alla testata."
+    - "Valvematic: anomalie di funzionamento (minimo irregolare, spia motore), talvolta collegate a perdite di liquido dalla pompa acqua."
+    - "Tenditore catena e guarnizione coperchio punterie: trafilamenti d'olio sui motori più chilometrati."
+  limiti: "La Lotus Elise S con 2ZR-FE sovralimentato da compressore volumetrico (circa 220 CV) è l'applicazione di serie più potente documentata per la famiglia. Per elaborazioni oltre questo valore non esistono dati affidabili sulla resistenza di pistoni e bielle originali."
+  curiosita:
+    - "Nella Prius XW50 del 2016 il 2ZR-FXE raggiunge un rendimento termico di circa il 40%."
+    - "Il 2ZR-FE con compressore della Yaris GRMN eroga 205 hp (circa 208 CV)."
+  fonti:
+    - {"titolo":"Wikipedia, Toyota ZR engine","url":"https://en.wikipedia.org/wiki/Toyota_ZR_engine"}
+    - {"titolo":"8020 Automotive, i tre problemi più comuni del Toyota 2ZR-FE","url":"https://8020automotive.com/the-3-most-common-toyota-2zr-fe-engine-problems/"}
+
+- slug: toyota-2az-fe
+  codice: "2AZ-FE / 2AZ-FXE"
+  nome: "Toyota 2AZ-FE 2.4 VVT-i"
+  costruttore: "Toyota"
+  paese: "Giappone"
+  inizio: 2000
+  fine: 2019
+  architettura: "L4"
+  cilindri: 4
+  alimentazione: "Benzina"
+  aspirazione: "Aspirato"
+  cilindrata: 2362
+  alesaggio: 88.5
+  corsa: 96.0
+  compressione: "9,6:1 (9,8:1 versioni successive; 2AZ-FXE 12,5:1)"
+  distribuzione: "DOHC a catena, VVT-i in aspirazione"
+  valvole: 4
+  blocco: "Alluminio open-deck con canne in ghisa, due contralberi di equilibratura"
+  testa: "Alluminio"
+  iniezione: "Indiretta multipoint sequenziale"
+  cv_min: 149
+  cv_max: 163
+  nm_max: 220
+  affidabilita:
+    indice: 60
+    motivo: "Consumo d'olio eccessivo dovuto al disegno delle fasce elastiche su motori dal 2006, oggetto della campagna di garanzia estesa ZE7 su circa 1,7 milioni di veicoli negli Stati Uniti."
+  in_breve:
+    - {"valore":"2362 cc","testo":"alesaggio 88,5 mm e corsa 96 mm"}
+    - {"valore":"2 contralberi","testo":"equilibratura nel basamento inferiore in alluminio"}
+    - {"valore":"ZE7","testo":"garanzia estesa Toyota 2015 per consumo d'olio"}
+  versioni:
+    - {"nome":"2AZ-FE prima serie","anni":"2000–2006","cv":162,"nm":220,"nota":"160 hp a 5600 giri/min, compressione 9,6:1"}
+    - {"nome":"2AZ-FE Camry (XV40)","anni":"2006–2011","cv":160,"nm":218,"nota":"158 hp a 6000 giri/min, 161 lb-ft a 4000 giri/min"}
+    - {"nome":"2AZ-FE Scion tC","anni":"2005–2010","cv":163,"nm":220,"nota":"161 hp a 6000 giri/min, 162 lb-ft a 4000 giri/min"}
+    - {"nome":"2AZ-FXE Camry Hybrid","anni":"2007–2011","cv":149,"nm":187,"nota":"Ciclo Atkinson, compressione 12,5:1; 147 hp del solo motore termico"}
+  modelli:
+    - {"nome":"Toyota Camry (XV30, XV40)","anni":"2002–2011"}
+    - {"nome":"Toyota Camry Solara","anni":"2002–2008"}
+    - {"nome":"Toyota RAV4 (XA20, XA30)","anni":"2004–2012"}
+    - {"nome":"Toyota Previa / Estima / Tarago","anni":"2000–2019"}
+    - {"nome":"Toyota Highlander / Kluger","anni":"2000–2007"}
+    - {"nome":"Toyota Alphard / Vellfire","anni":"2002–2015"}
+    - {"nome":"Toyota Avensis (T250) 2.4","anni":"2003–2009"}
+    - {"nome":"Toyota Harrier","anni":"2000–2013"}
+    - {"nome":"Toyota Matrix / Corolla XRS","anni":"2009–2011"}
+    - {"nome":"Toyota Sai (2AZ-FXE)","anni":"2009–2017"}
+    - {"nome":"Scion tC","anni":"2005–2010"}
+    - {"nome":"Scion xB","anni":"2008–2015"}
+    - {"nome":"Pontiac Vibe","anni":"2009–2010"}
+    - {"nome":"Lexus HS 250h (2AZ-FXE)","anni":"2010–2014"}
+  storia: "Il 2AZ-FE è il 2,4 litri della famiglia AZ, con basamento open-deck in alluminio pressofuso, canne in ghisa e basamento inferiore in alluminio che ospita due contralberi di equilibratura controrotanti. La distribuzione bialbero a catena usa punterie a bicchiere senza spessori e VVT-i in aspirazione con 50° di escursione. Le versioni successive hanno compressione 9,8:1, regime massimo di 6500 giri/min e spruzzatori d'olio sotto i pistoni; il 2AZ-FXE a ciclo Atkinson (12,5:1) è stato usato sulle ibride Camry, Estima, Alphard, Sai e Lexus HS 250h. Prodotto in Giappone, negli Stati Uniti (Kentucky), in Cina e in Australia, è rimasto in uso fino al 2019 sulla Previa/Estima."
+  punti_deboli:
+    - "Fasce elastiche: consumo d'olio eccessivo dai modelli 2006, di solito oltre 100.000–120.000 km; bollettino TSB 0094-11 e garanzia estesa ZE7 (2015–2016) negli Stati Uniti, campagna analoga in Giappone nel 2014."
+    - "Filettature dei bulloni testata nel basamento in alluminio: segnalato il cedimento dei filetti dei bulloni centrali posteriori, con perdite di liquido; il fenomeno non è documentato da comunicazioni ufficiali Toyota."
+  limiti: "Toyota Racing Development ha offerto un compressore volumetrico per Scion tC e xB fino al 2009, che rappresenta l'unico riferimento documentato di sovralimentazione con organi interni di serie. Prima di qualsiasi intervento verificare consumo d'olio e stato delle fasce."
+  curiosita:
+    - "La campagna di garanzia ZE7 copriva i motori che consumavano più di un quarto di gallone (circa 0,95 litri) ogni 1200 miglia, entro 10 anni e 150.000 miglia."
+    - "I contralberi sono comandati da un ingranaggio elicoidale ricavato sul contrappeso numero 3 dell'albero motore."
+  fonti:
+    - {"titolo":"Wikipedia, Toyota AZ engine","url":"https://en.wikipedia.org/wiki/Toyota_AZ_engine"}
+    - {"titolo":"TrueDelta, confronto Scion tC 2007 e Toyota Camry 2007–2008","url":"https://www.truedelta.com/Scion-tC-vs-Toyota-Camry-feature-comparison,250-264,2007--2008-2008"}

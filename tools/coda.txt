@@ -2,11 +2,6 @@
 # Il robot prende le prime righe non ancora presenti in _data/motori.yml,
 # le aggiunge e poi le cancella da questo file.
 # Formato: nome del motore | indicazioni (versioni, modelli o note)
-Toyota 1NZ-FE / 2NZ-FE / 1NZ-FXE | Yaris, Corolla, Prius prima serie (ciclo Atkinson)
-Toyota 2SZ-FE | Yaris 1.3, Vitz, Ractis; distinto dal 1SZ-FE già catalogato
-Toyota 1NR-FE / 8NR-FTS | Yaris, Auris, C-HR 1.2 turbo
-Toyota 1ZR / 2ZR / 2ZR-FXE | Corolla, Auris, Prius terza serie
-Toyota 2AZ-FE | Camry, RAV4, Previa, Scion tC
 Toyota 3S-GE | Celica, MR2 SW20, Caldina; cinque generazioni (escluso 3S-GTE)
 Toyota 1G-FE / 1G-GTE | Mark II, Supra 2.0 Twin Turbo, Crown
 Toyota 5M-GE / 6M-GE | Supra MkII, Celica XX, Cressida, Soarer
