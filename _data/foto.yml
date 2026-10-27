@@ -1,2 +1,818 @@
-# Foto trovate automaticamente su Wikimedia Commons da tools/foto.py.
-{}
+# Foto trovate automaticamente su Wikimedia Commons da tools/foto.py. Una voce si può correggere o cancellare a mano.
+_provati:
+  alfa-romeo-1750-tbi: 1793087185
+  alfa-romeo-22-multijet: 1793087185
+  alfa-romeo-690t: 1793087157
+  alfa-romeo-busso-v6: 1793087151
+  alfa-romeo-twin-spark: 1793087150
+  audi-22-cinque-cilindri-turbo: 1793087235
+  audi-25-tfsi: 1793087129
+  audi-30-tdi: 1793087239
+  audi-42-fsi: 1793087166
+  audi-42-v8-40v: 1793087235
+  audi-ea839: 1793087238
+  chrysler-hemi-57-64: 1793087325
+  chrysler-pentastar: 1793087325
+  daihatsu-kf: 1793087352
+  dodge-hellcat: 1793087180
+  ferrari-f163: 1793087155
+  fiat-13-multijet: 1793087184
+  fiat-14-multiair: 1793087183
+  fiat-14-tjet: 1793087181
+  fiat-19-jtd: 1793087151
+  fiat-fire: 1793087182
+  ford-10-ecoboost: 1793087135
+  ford-67-power-stroke: 1793087326
+  ford-cosworth-yb: 1793087171
+  ford-coyote: 1793087135
+  ford-ecoboost-20-23: 1793087261
+  ford-modular-46-54: 1793087326
+  ford-voodoo-predator: 1793087261
+  ford-zetec: 1793087264
+  gm-ecotec-lsj-lnf: 1793087323
+  honda-jnc1: 1793087306
+  hyundai-lambda-v6: 1793087319
+  koenigsegg-v8-50: 1793087341
+  lada-vaz-21126: 1793087354
+  lancia-20-16v-turbo: 1793087184
+  lotus-907-910: 1793087334
+  maserati-biturbo-v6: 1793087198
+  maserati-f160: 1793087199
+  maserati-nettuno: 1793087156
+  mazda-b6-bp: 1793087306
+  mazda-skyactiv-g: 1793087307
+  mazda-skyactiv-x: 1793087307
+  mclaren-m840t: 1793087341
+  mercedes-om606: 1793087134
+  mitsubishi-3b2: 1793087349
+  opel-x20xev: 1793087260
+  opel-z20let: 1793087259
+  porsche-930-carrera-32: 1793087244
+  porsche-9a1: 1793087247
+  porsche-9a2: 1793087248
+  porsche-m96-m97: 1793087140
+  prv-v6: 1793087279
+  psa-eb2: 1793087272
+  psa-xu: 1793087266
+  renault-f4r: 1793087275
+  renault-f7r: 1793087273
+  renault-m5p: 1793087278
+  rover-v8: 1793087332
+  saab-b234-b235: 1793087284
+  skoda-ea111-12-htp: 1793087352
+  tvr-speed-six: 1793087335
+  volvo-modulare-l5: 1793087281
+  volvo-vea: 1793087282
+  vw-19-tdi: 1793087127
+  vw-ea111-14-tsi-twincharger: 1793087240
+  vw-ea189: 1793087128
+aston-martin-aj37-v8:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Aston_Martin_AM14_4.7L_V8_in_Vantage_(2011).jpg
+  titolo: File:Aston Martin AM14 4.7L V8 in Vantage (2011).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Aston_Martin_AM14_4.7L_V8_in_Vantage_%282011%29.jpg/960px-Aston_Martin_AM14_4.7L_V8_in_Vantage_%282011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+aston-martin-v12-59:
+  autore: Unknown authorUnknown author
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:PNR-46-cr-am2.jpg
+  titolo: File:PNR-46-cr-am2.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/12/PNR-46-cr-am2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+audi-40-tfsi:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Bentayga_VW_V8_engine_(EA825).jpg
+  titolo: File:Bentayga VW V8 engine (EA825).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Bentayga_VW_V8_engine_%28EA825%29.jpg/960px-Bentayga_VW_V8_engine_%28EA825%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+audi-v10-52-fsi:
+  autore: TTTNIS
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Audi_R8_V10_engine_room.jpg
+  titolo: File:Audi R8 V10 engine room.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Audi_R8_V10_engine_room.jpg/960px-Audi_R8_V10_engine_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bentley-l-series:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:1989_Rolls-Royce_Silver_Spur_L410I_engine_(Hershey_2019).jpg
+  titolo: File:1989 Rolls-Royce Silver Spur L410I engine (Hershey 2019).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1989_Rolls-Royce_Silver_Spur_L410I_engine_%28Hershey_2019%29.jpg/960px-1989_Rolls-Royce_Silver_Spur_L410I_engine_%28Hershey_2019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-b47-b57:
+  autore: Adder3824
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_B47_engine.png
+  titolo: File:BMW B47 engine.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/BMW_B47_engine.png/960px-BMW_B47_engine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-b48:
+  autore: Wikisympathisant
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_B48_im_BMW-Museum_2018-06.jpg
+  titolo: File:BMW B48 im BMW-Museum 2018-06.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/BMW_B48_im_BMW-Museum_2018-06.jpg/960px-BMW_B48_im_BMW-Museum_2018-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-b58:
+  autore: Sam jehovan
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:B_58_engine_on_Bmw_340i.jpeg
+  titolo: File:B 58 engine on Bmw 340i.jpeg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/35/B_58_engine_on_Bmw_340i.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-m20:
+  autore: C.Bakker at Dutch Wikipedia
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_M20B25-motor.JPG
+  titolo: File:BMW M20B25-motor.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a7/BMW_M20B25-motor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-m30:
+  autore: Beemwej
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_M30_B30.JPG
+  titolo: File:BMW M30 B30.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/BMW_M30_B30.JPG/960px-BMW_M30_B30.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-m50-m52:
+  autore: Txemari. (Navarra). from Navarra, España
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_Serie_3_(E30)_con_un_motor_M52B28_preparado._(55021217020).jpg
+  titolo: File:BMW Serie 3 (E30) con un motor M52B28 preparado. (55021217020).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/BMW_Serie_3_%28E30%29_con_un_motor_M52B28_preparado._%2855021217020%29.jpg/960px-BMW_Serie_3_%28E30%29_con_un_motor_M52B28_preparado._%2855021217020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-m57:
+  autore: Dandle
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_M57D30TU.jpg
+  titolo: File:BMW M57D30TU.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6f/BMW_M57D30TU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-m70-s70:
+  autore: User:Ando1300
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Motore_M70B50_montato_su_una_BMW_850i_2014-06-18_14-46.jpg
+  titolo: File:Motore M70B50 montato su una BMW 850i 2014-06-18 14-46.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Motore_M70B50_montato_su_una_BMW_850i_2014-06-18_14-46.jpg/960px-Motore_M70B50_montato_su_una_BMW_850i_2014-06-18_14-46.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-n47:
+  autore: Calinex
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_N47D20.jpg
+  titolo: File:BMW N47D20.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/BMW_N47D20.jpg/960px-BMW_N47D20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-n54:
+  autore: Jk-bmw at en.wikipedia
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:JK_N54B30.jpg
+  titolo: File:JK N54B30.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f6/JK_N54B30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-n55:
+  autore: Avolutions
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_N55_engine_2013.jpg
+  titolo: File:BMW N55 engine 2013.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/4b/BMW_N55_engine_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-n74:
+  autore: Unknown authorUnknown author
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:PSM_V12_D154_The_cornish_pumping_engine_1877.jpg
+  titolo: File:PSM V12 D154 The cornish pumping engine 1877.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/PSM_V12_D154_The_cornish_pumping_engine_1877.jpg/960px-PSM_V12_D154_The_cornish_pumping_engine_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s14:
+  autore: Jiří Sedláček
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S14_B25_engine_in_BMW-Museum_in_Munich,_Bayern.JPG
+  titolo: File:BMW S14 B25 engine in BMW-Museum in Munich, Bayern.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/BMW_S14_B25_engine_in_BMW-Museum_in_Munich%2C_Bayern.JPG/960px-BMW_S14_B25_engine_in_BMW-Museum_in_Munich%2C_Bayern.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s38:
+  autore: Beemwej
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:M5_eng_S38B36_PL.JPG
+  titolo: File:M5 eng S38B36 PL.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/M5_eng_S38B36_PL.JPG/960px-M5_eng_S38B36_PL.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s50-s52:
+  autore: Avusm3
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S50B32.jpg
+  titolo: File:BMW S50B32.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/BMW_S50B32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+bmw-s54:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S54B32_Engine.JPG
+  titolo: File:BMW S54B32 Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/BMW_S54B32_Engine.JPG/960px-BMW_S54B32_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s58:
+  autore: Wikisympathisant
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:2023-04-08_BMW_S58_straight-6-engine.jpg
+  titolo: File:2023-04-08 BMW S58 straight-6-engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2023-04-08_BMW_S58_straight-6-engine.jpg/960px-2023-04-08_BMW_S58_straight-6-engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s62:
+  autore: Russell Mitt Tidwell II
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_Dinan_E39_M5_S62_engine_in_2008_team_SigalSport_Daytona_Prototype.jpg
+  titolo: File:BMW Dinan E39 M5 S62 engine in 2008 team SigalSport Daytona Prototype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/BMW_Dinan_E39_M5_S62_engine_in_2008_team_SigalSport_Daytona_Prototype.jpg/960px-BMW_Dinan_E39_M5_S62_engine_in_2008_team_SigalSport_Daytona_Prototype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s63:
+  autore: Matti Blume
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S63,_Techno-Classica_2018,_Essen_(IMG_0053).jpg
+  titolo: File:BMW S63, Techno-Classica 2018, Essen (IMG 0053).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/BMW_S63%2C_Techno-Classica_2018%2C_Essen_%28IMG_0053%29.jpg/960px-BMW_S63%2C_Techno-Classica_2018%2C_Essen_%28IMG_0053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s65:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S65_Engine.JPG
+  titolo: File:BMW S65 Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/BMW_S65_Engine.JPG/960px-BMW_S65_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bmw-s85:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:BMW_S85B50_Engine.JPG
+  titolo: File:BMW S85B50 Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/BMW_S85B50_Engine.JPG/960px-BMW_S85B50_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+bugatti-w16:
+  autore: Brian Snelson from Hockley, Essex, England
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Bugatti_Veyron_8.0-litre_W16-cylinder_engine_-_Flickr_-_exfordy.jpg
+  titolo: File:Bugatti Veyron 8.0-litre W16-cylinder engine - Flickr - exfordy.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Bugatti_Veyron_8.0-litre_W16-cylinder_engine_-_Flickr_-_exfordy.jpg/960px-Bugatti_Veyron_8.0-litre_W16-cylinder_engine_-_Flickr_-_exfordy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+cummins-b-series:
+  autore: Spudgun67
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Richard_Trevithick_-_UCL_Student_Centre_Gower_St_London_WC1E_6BT.jpg
+  titolo: File:Richard Trevithick - UCL Student Centre Gower St London WC1E 6BT.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Richard_Trevithick_-_UCL_Student_Centre_Gower_St_London_WC1E_6BT.jpg/960px-Richard_Trevithick_-_UCL_Student_Centre_Gower_St_London_WC1E_6BT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+dodge-viper-v10:
+  autore: Mike Roberts from London, United Kingdom
+  licenza: CC BY-SA 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Lexus_LF-A_concept_V10_engine_detail.jpg
+  titolo: File:Lexus LF-A concept V10 engine detail.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lexus_LF-A_concept_V10_engine_detail.jpg/960px-Lexus_LF-A_concept_V10_engine_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f105:
+  autore: Ryan Frost from Omaha, NE, USA
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:1965_F105-D_Thunderchief_(4283403336).jpg
+  titolo: File:1965 F105-D Thunderchief (4283403336).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/1965_F105-D_Thunderchief_%284283403336%29.jpg/960px-1965_F105-D_Thunderchief_%284283403336%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f113:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Ferrari_Tipo_F113_engine_from_a_512TR,_front_left.jpg
+  titolo: File:Ferrari Tipo F113 engine from a 512TR, front left.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ferrari_Tipo_F113_engine_from_a_512TR%2C_front_left.jpg/960px-Ferrari_Tipo_F113_engine_from_a_512TR%2C_front_left.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f120:
+  autore: pelican-actor
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:1987_Ferrari_F120_A.jpg
+  titolo: File:1987 Ferrari F120 A.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/1987_Ferrari_F120_A.jpg/960px-1987_Ferrari_F120_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f131:
+  autore: pelican-actor
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:1994_Ferrari_F129_B.jpg
+  titolo: File:1994 Ferrari F129 B.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/1994_Ferrari_F129_B.jpg/960px-1994_Ferrari_F129_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f133:
+  autore: Unknown authorUnknown author
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:PSM_V12_D154_The_cornish_pumping_engine_1877.jpg
+  titolo: File:PSM V12 D154 The cornish pumping engine 1877.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/PSM_V12_D154_The_cornish_pumping_engine_1877.jpg/960px-PSM_V12_D154_The_cornish_pumping_engine_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f136:
+  autore: Schuy at English Wikipedia
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Ferrari_Tipo_F136_E_engine.jpg
+  titolo: File:Ferrari Tipo F136 E engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ferrari_Tipo_F136_E_engine.jpg/960px-Ferrari_Tipo_F136_E_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f140:
+  autore: René Anderes
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Ferrari_Enzo_Ferrari_Engine_F140.jpg
+  titolo: File:Ferrari Enzo Ferrari Engine F140.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Ferrari_Enzo_Ferrari_Engine_F140.jpg/960px-Ferrari_Enzo_Ferrari_Engine_F140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ferrari-f154:
+  autore: pelican-actor
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:2016_Ferrari_F154_BD.jpg
+  titolo: File:2016 Ferrari F154 BD.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2016_Ferrari_F154_BD.jpg/960px-2016_Ferrari_F154_BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+ford-ecoboost-35:
+  autore: Alt_winmaerik
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Takaoka_DD352.jpg
+  titolo: File:Takaoka DD352.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/Takaoka_DD352.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+gm-ls:
+  autore: Autore indicato su Wikimedia Commons
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C5_LS1_engine.jpg
+  titolo: File:Chevrolet Corvette C5 LS1 engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Chevrolet_Corvette_C5_LS1_engine.jpg/960px-Chevrolet_Corvette_C5_LS1_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+gm-lt-gen-v:
+  autore: Dcmaradiaga
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Chevrolet-Camaro-LT1.jpg
+  titolo: File:Chevrolet-Camaro-LT1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Chevrolet-Camaro-LT1.jpg/960px-Chevrolet-Camaro-LT1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+gm-lt6:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:2023_Chevrolet_LT6_engine,_NYIAS_2022.jpg
+  titolo: File:2023 Chevrolet LT6 engine, NYIAS 2022.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/2023_Chevrolet_LT6_engine%2C_NYIAS_2022.jpg/960px-2023_Chevrolet_LT6_engine%2C_NYIAS_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+gm-northstar:
+  autore: Sicnag
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:1937_Oldsmobile_L37_8_cyl_Sedan_(10920269745).jpg
+  titolo: File:1937 Oldsmobile L37 8 cyl Sedan (10920269745).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/1937_Oldsmobile_L37_8_cyl_Sedan_%2810920269745%29.jpg/960px-1937_Oldsmobile_L37_8_cyl_Sedan_%2810920269745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-b16:
+  autore: Rodney78
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:B16A.jpg
+  titolo: File:B16A.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ec/B16A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+honda-b18c:
+  autore: Rodney78
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Honda_Integra_JDM_B18C.jpg
+  titolo: File:Honda Integra JDM B18C.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2b/Honda_Integra_JDM_B18C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+honda-c30a:
+  autore: Tennen-Gas
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Honda_C30A_engine_001.jpg
+  titolo: File:Honda C30A engine 001.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Honda_C30A_engine_001.jpg/960px-Honda_C30A_engine_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-d16:
+  autore: Roly Williams
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Wilesco_D16_steam_engine.jpg
+  titolo: File:Wilesco D16 steam engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Wilesco_D16_steam_engine.jpg/960px-Wilesco_D16_steam_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-f20c:
+  autore: Pws
+  licenza: CC BY 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Honda-S2000-JDM-F20C.JPG
+  titolo: File:Honda-S2000-JDM-F20C.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Honda-S2000-JDM-F20C.JPG/960px-Honda-S2000-JDM-F20C.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-h22a:
+  autore: Autore indicato su Wikimedia Commons
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:H22AVTEC.jpg
+  titolo: File:H22AVTEC.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/H22AVTEC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+honda-j35-j37:
+  autore: Tennen-Gas
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Honda_J35A_engine_001.JPG
+  titolo: File:Honda J35A engine 001.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Honda_J35A_engine_001.JPG/960px-Honda_J35A_engine_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-k20a:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Honda_K20A_Engine_01.JPG
+  titolo: File:Honda K20A Engine 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Honda_K20A_Engine_01.JPG/960px-Honda_K20A_Engine_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+honda-k20c1:
+  autore: Dinkun Chen
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:HONDA_K20C1_ENGINE.jpg
+  titolo: File:HONDA K20C1 ENGINE.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/HONDA_K20C1_ENGINE.jpg/960px-HONDA_K20C1_ENGINE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+jaguar-aj-v8:
+  autore: NASA
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Aerojet_AJ26_Rocket_Engine_Arrives_at_Stennis.jpg
+  titolo: File:Aerojet AJ26 Rocket Engine Arrives at Stennis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Aerojet_AJ26_Rocket_Engine_Arrives_at_Stennis.jpg/960px-Aerojet_AJ26_Rocket_Engine_Arrives_at_Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+jaguar-aj6-aj16:
+  autore: Magnus Bäck
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Jaguar_AJ6_engine_(1990_Daimler).jpg
+  titolo: File:Jaguar AJ6 engine (1990 Daimler).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Jaguar_AJ6_engine_%281990_Daimler%29.jpg/960px-Jaguar_AJ6_engine_%281990_Daimler%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+jaguar-v12:
+  autore: Morio
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Jaguar_XJ220_V12_engine_Heritage_Motor_Centre,_Gaydon.jpg
+  titolo: File:Jaguar XJ220 V12 engine Heritage Motor Centre, Gaydon.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jaguar_XJ220_V12_engine_Heritage_Motor_Centre%2C_Gaydon.jpg/960px-Jaguar_XJ220_V12_engine_Heritage_Motor_Centre%2C_Gaydon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+lada-vaz-2106:
+  autore: Meccano.Cat
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:VAZ-2106_anime_engine_oldtimergallery2023.jpg
+  titolo: File:VAZ-2106 anime engine oldtimergallery2023.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/VAZ-2106_anime_engine_oldtimergallery2023.jpg/960px-VAZ-2106_anime_engine_oldtimergallery2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+lamborghini-l539:
+  autore: Unknown authorUnknown author
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:PSM_V12_D154_The_cornish_pumping_engine_1877.jpg
+  titolo: File:PSM V12 D154 The cornish pumping engine 1877.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/PSM_V12_D154_The_cornish_pumping_engine_1877.jpg/960px-PSM_V12_D154_The_cornish_pumping_engine_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+lamborghini-v10-50:
+  autore: Mike Roberts from London, United Kingdom
+  licenza: CC BY-SA 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Lexus_LF-A_concept_V10_engine_detail.jpg
+  titolo: File:Lexus LF-A concept V10 engine detail.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lexus_LF-A_concept_V10_engine_detail.jpg/960px-Lexus_LF-A_concept_V10_engine_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+lamborghini-v12-bizzarrini:
+  autore: Unknown authorUnknown author
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:PSM_V12_D154_The_cornish_pumping_engine_1877.jpg
+  titolo: File:PSM V12 D154 The cornish pumping engine 1877.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/PSM_V12_D154_The_cornish_pumping_engine_1877.jpg/960px-PSM_V12_D154_The_cornish_pumping_engine_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+lexus-1lr-gue:
+  autore: 'V10_1LR-GUE_LFA_model.jpg: jackit derivative work: Altair78 (talk)'
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:V10_1LR-GUE_LFA_engine.jpg
+  titolo: File:V10 1LR-GUE LFA engine.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/19/V10_1LR-GUE_LFA_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+mazda-13b-rew:
+  autore: C0rbin99
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mazda_13B-REW_rotary_engine.jpg
+  titolo: File:Mazda 13B-REW rotary engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mazda_13B-REW_rotary_engine.jpg/960px-Mazda_13B-REW_rotary_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mazda-20b-rew:
+  autore: 160SX
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:20B-REW_002.JPG
+  titolo: File:20B-REW 002.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/20B-REW_002.JPG/960px-20B-REW_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mazda-renesis:
+  autore: C0rbin99
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mazda_13B-REW_rotary_engine.jpg
+  titolo: File:Mazda 13B-REW rotary engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mazda_13B-REW_rotary_engine.jpg/960px-Mazda_13B-REW_rotary_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mclaren-m838t:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:McLaren_M838T_(in_MP4-12C_chassis).jpg
+  titolo: File:McLaren M838T (in MP4-12C chassis).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/McLaren_M838T_%28in_MP4-12C_chassis%29.jpg/960px-McLaren_M838T_%28in_MP4-12C_chassis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-amg-m139:
+  autore: Johannes Maximilian
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_M_139_IAA_2019_JM_0274.jpg
+  titolo: File:Mercedes-Benz M 139 IAA 2019 JM 0274.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Mercedes-Benz_M_139_IAA_2019_JM_0274.jpg/960px-Mercedes-Benz_M_139_IAA_2019_JM_0274.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m104:
+  autore: MAD modify
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes_Benz_M104_engine_install_with_turbocharger_kit,_radiator,_Sturt_bar_by_MAD_Modify.jpg
+  titolo: File:Mercedes Benz M104 engine install with turbocharger kit, radiator, Sturt bar by MAD Modify.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/81/Mercedes_Benz_M104_engine_install_with_turbocharger_kit%2C_radiator%2C_Sturt_bar_by_MAD_Modify.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+mercedes-m112-m113:
+  autore: Isaclee
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-benz_M112_motor,_vE26.jpg
+  titolo: File:Mercedes-benz M112 motor, vE26.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Mercedes-benz_M112_motor%2C_vE26.jpg/960px-Mercedes-benz_M112_motor%2C_vE26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m117-m119:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:1989_Mercedes-Benz_560SL_(M117)_engine.jpg
+  titolo: File:1989 Mercedes-Benz 560SL (M117) engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/1989_Mercedes-Benz_560SL_%28M117%29_engine.jpg/960px-1989_Mercedes-Benz_560SL_%28M117%29_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m120:
+  autore: Flickr.d5e
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:MB_M120_E60_VA_1991_300kw_600SEL.jpg
+  titolo: File:MB M120 E60 VA 1991 300kw 600SEL.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/MB_M120_E60_VA_1991_300kw_600SEL.jpg/960px-MB_M120_E60_VA_1991_300kw_600SEL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m156:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_M156_Engine_01.JPG
+  titolo: File:Mercedes-Benz M156 Engine 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Mercedes-Benz_M156_Engine_01.JPG/960px-Mercedes-Benz_M156_Engine_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m177-m178:
+  autore: Alexander Migl
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_M177_engine_DSC_8983.jpg
+  titolo: File:Mercedes-Benz M177 engine DSC 8983.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Mercedes-Benz_M177_engine_DSC_8983.jpg/960px-Mercedes-Benz_M177_engine_DSC_8983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m256:
+  autore: Adder3824
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes_M256_engine.png
+  titolo: File:Mercedes M256 engine.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Mercedes_M256_engine.png/960px-Mercedes_M256_engine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m274-m264:
+  autore: ZeDestructor
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_M274_W205_C350e.jpg
+  titolo: File:Mercedes-Benz M274 W205 C350e.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Mercedes-Benz_M274_W205_C350e.jpg/960px-Mercedes-Benz_M274_W205_C350e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-m275-m279:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_M275_Engine.JPG
+  titolo: File:Mercedes-Benz M275 Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Mercedes-Benz_M275_Engine.JPG/960px-Mercedes-Benz_M275_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-om642:
+  autore: TatClarkson
+  licenza: CC BY-SA 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mercedes-Benz_OM642.jpg
+  titolo: File:Mercedes-Benz OM642.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mercedes-Benz_OM642.jpg/960px-Mercedes-Benz_OM642.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mercedes-om651:
+  autore: Chris1287
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:OM651Motor.jpg
+  titolo: File:OM651Motor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fe/OM651Motor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+mitsubishi-4b11t:
+  autore: TTTNIS
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Mitsubishi_4B11_engine.jpg
+  titolo: File:Mitsubishi 4B11 engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mitsubishi_4B11_engine.jpg/960px-Mitsubishi_4B11_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mitsubishi-4g63t:
+  autore: M.rJirapat
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Mitsubishi_4G-63_Non-Turbo_Engine.jpg
+  titolo: File:Mitsubishi 4G-63 Non-Turbo Engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mitsubishi_4G-63_Non-Turbo_Engine.jpg/960px-Mitsubishi_4G-63_Non-Turbo_Engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+mitsubishi-6g72tt:
+  autore: Original uploader was PistonPL (Norbert Nowocin) at pl.wikipedia
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Chrysler-Mitsubishi_3.0_V6_6G72_engine.jpg
+  titolo: File:Chrysler-Mitsubishi 3.0 V6 6G72 engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Chrysler-Mitsubishi_3.0_V6_6G72_engine.jpg/960px-Chrysler-Mitsubishi_3.0_V6_6G72_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+nissan-ca18det:
+  autore: Jibe
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:CA18DET_GT2876.JPG
+  titolo: File:CA18DET GT2876.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c2/CA18DET_GT2876.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+nissan-rb25det:
+  autore: X-Ray91270
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:RB25DET_R33.jpg
+  titolo: File:RB25DET R33.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c4/RB25DET_R33.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+nissan-rb26dett:
+  autore: Superautobacs at English Wikipedia
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Nissan_RB26DETT_engine_on_display_at_Prince_and_Skyline_Museum_in_Nagano_Japan.jpg
+  titolo: File:Nissan RB26DETT engine on display at Prince and Skyline Museum in Nagano Japan.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a0/Nissan_RB26DETT_engine_on_display_at_Prince_and_Skyline_Museum_in_Nagano_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+nissan-sr20det:
+  autore: TTTNIS
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:1993_Nissan_SR20DET_engine.jpg
+  titolo: File:1993 Nissan SR20DET engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/1993_Nissan_SR20DET_engine.jpg/960px-1993_Nissan_SR20DET_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+nissan-vg30dett:
+  autore: TTTNIS
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:1989_Nissan_VG30DETT_engine.jpg
+  titolo: File:1989 Nissan VG30DETT engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/1989_Nissan_VG30DETT_engine.jpg/960px-1989_Nissan_VG30DETT_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+nissan-vq35de-vq37vhr:
+  autore: Tennen-Gas
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Nissan_VQ35DE_engine_001.jpg
+  titolo: File:Nissan VQ35DE engine 001.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nissan_VQ35DE_engine_001.jpg/960px-Nissan_VQ35DE_engine_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+nissan-vr30ddtt:
+  autore: Kazyakuruma
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Nissan_FAIRLADY_Z_(Z34)_and_VR30DDTT_Engine,_2022.jpg
+  titolo: File:Nissan FAIRLADY Z (Z34) and VR30DDTT Engine, 2022.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Nissan_FAIRLADY_Z_%28Z34%29_and_VR30DDTT_Engine%2C_2022.jpg/960px-Nissan_FAIRLADY_Z_%28Z34%29_and_VR30DDTT_Engine%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+nissan-vr38dett:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Nissan_VR38DETT_Engine.JPG
+  titolo: File:Nissan VR38DETT Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Nissan_VR38DETT_Engine.JPG/960px-Nissan_VR38DETT_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+opel-c20xe:
+  autore: PlayBike at English Wikipedia
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:C20XE.jpg
+  titolo: File:C20XE.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/40/C20XE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+porsche-40-gt3:
+  autore: Matti Blume
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Audi_R8_LMS_GT3,_Paris_Motor_Show_2018,_Paris_(1Y7A1172).jpg
+  titolo: File:Audi R8 LMS GT3, Paris Motor Show 2018, Paris (1Y7A1172).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Audi_R8_LMS_GT3%2C_Paris_Motor_Show_2018%2C_Paris_%281Y7A1172%29.jpg/960px-Audi_R8_LMS_GT3%2C_Paris_Motor_Show_2018%2C_Paris_%281Y7A1172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-718-boxer-4:
+  autore: OSX
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:1991_Honda_Concerto_(MA2)_EX-i_hatchback_(2015-05-28)_01.jpg
+  titolo: File:1991 Honda Concerto (MA2) EX-i hatchback (2015-05-28) 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/1991_Honda_Concerto_%28MA2%29_EX-i_hatchback_%282015-05-28%29_01.jpg/960px-1991_Honda_Concerto_%28MA2%29_EX-i_hatchback_%282015-05-28%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-m28:
+  autore: Michael Barera
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Stuttgart_Jul_2012_41_(Porsche_Museum_-_1985_Porsche_Bootsmotor_Typ_928_M28-70).JPG
+  titolo: File:Stuttgart Jul 2012 41 (Porsche Museum - 1985 Porsche Bootsmotor Typ 928 M28-70).JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Stuttgart_Jul_2012_41_%28Porsche_Museum_-_1985_Porsche_Bootsmotor_Typ_928_M28-70%29.JPG/960px-Stuttgart_Jul_2012_41_%28Porsche_Museum_-_1985_Porsche_Bootsmotor_Typ_928_M28-70%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-m44:
+  autore: Antissimo
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:M44_locomotive_at_Szob_railway_station.JPG
+  titolo: File:M44 locomotive at Szob railway station.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/M44_locomotive_at_Szob_railway_station.JPG/960px-M44_locomotive_at_Szob_railway_station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-m48:
+  autore: Unterillertaler
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:M48_Motor_und_Getriebe.jpg
+  titolo: File:M48 Motor und Getriebe.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/M48_Motor_und_Getriebe.jpg/960px-M48_Motor_und_Getriebe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-m64:
+  autore: Platinummedia
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:B-29_Weapons_Bay_with_General-Purpose_AN-M64_TNT_500_LB_bombs.jpg
+  titolo: File:B-29 Weapons Bay with General-Purpose AN-M64 TNT 500 LB bombs.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B-29_Weapons_Bay_with_General-Purpose_AN-M64_TNT_500_LB_bombs.jpg/960px-B-29_Weapons_Bay_with_General-Purpose_AN-M64_TNT_500_LB_bombs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+porsche-mezger:
+  autore: Matti Blume
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Audi_R8_LMS_GT3,_Paris_Motor_Show_2018,_Paris_(1Y7A1172).jpg
+  titolo: File:Audi R8 LMS GT3, Paris Motor Show 2018, Paris (1Y7A1172).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Audi_R8_LMS_GT3%2C_Paris_Motor_Show_2018%2C_Paris_%281Y7A1172%29.jpg/960px-Audi_R8_LMS_GT3%2C_Paris_Motor_Show_2018%2C_Paris_%281Y7A1172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+psa-bmw-ep6:
+  autore: Jakub "flyz1" Maciejewski
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Peugeot_308_GTi_-_silnik_1,6_e-THP_(EP6_CDT)_270_KM_(MSP17).jpg
+  titolo: File:Peugeot 308 GTi - silnik 1,6 e-THP (EP6 CDT) 270 KM (MSP17).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Peugeot_308_GTi_-_silnik_1%2C6_e-THP_%28EP6_CDT%29_270_KM_%28MSP17%29.jpg/960px-Peugeot_308_GTi_-_silnik_1%2C6_e-THP_%28EP6_CDT%29_270_KM_%28MSP17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+psa-dv6:
+  autore: Thilo Parg
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Citroen_Berlingo_1,6_HDI_75_DV6B_Ford_DLD-416.jpg
+  titolo: File:Citroen Berlingo 1,6 HDI 75 DV6B Ford DLD-416.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Citroen_Berlingo_1%2C6_HDI_75_DV6B_Ford_DLD-416.jpg/960px-Citroen_Berlingo_1%2C6_HDI_75_DV6B_Ford_DLD-416.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+psa-dw10:
+  autore: Thilo Parg
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Citroen_Berlingo_2,0_HDi_DW10TD.JPG
+  titolo: File:Citroen Berlingo 2,0 HDi DW10TD.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Citroen_Berlingo_2%2C0_HDi_DW10TD.JPG/960px-Citroen_Berlingo_2%2C0_HDi_DW10TD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+psa-ew10:
+  autore: Kilyann Le Hen
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Moteur_EW10J4_(RFR)_Peugeot_406_Coup%C3%A9.jpg
+  titolo: File:Moteur EW10J4 (RFR) Peugeot 406 Coupé.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Moteur_EW10J4_%28RFR%29_Peugeot_406_Coup%C3%A9.jpg/960px-Moteur_EW10J4_%28RFR%29_Peugeot_406_Coup%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+renault-k9k:
+  autore: Turbojet
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Dacia_Duster_Ambiance_K9K.jpg
+  titolo: File:Dacia Duster Ambiance K9K.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Dacia_Duster_Ambiance_K9K.jpg/960px-Dacia_Duster_Ambiance_K9K.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+rover-k-series:
+  autore: RuthAS
+  licenza: CC BY 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Schleicher_AS-K16_Speyer-Edry_06.07R.jpg
+  titolo: File:Schleicher AS-K16 Speyer-Edry 06.07R.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/da/Schleicher_AS-K16_Speyer-Edry_06.07R.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+subaru-ej:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Subaru_EJ20_Twin_Scroll_Turbo_Engine.JPG
+  titolo: File:Subaru EJ20 Twin Scroll Turbo Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Subaru_EJ20_Twin_Scroll_Turbo_Engine.JPG/960px-Subaru_EJ20_Twin_Scroll_Turbo_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+subaru-ez30-ez36:
+  autore: Tennen-Gas
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Subaru_EZ30_engine_001.JPG
+  titolo: File:Subaru EZ30 engine 001.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Subaru_EZ30_engine_001.JPG/960px-Subaru_EZ30_engine_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+subaru-fa20:
+  autore: オーバードライブ83
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:2016_Toyota_86_2.0_ZN6_FA20D_engine_(20160409).jpg
+  titolo: File:2016 Toyota 86 2.0 ZN6 FA20D engine (20160409).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/2016_Toyota_86_2.0_ZN6_FA20D_engine_%2820160409%29.jpg/960px-2016_Toyota_86_2.0_ZN6_FA20D_engine_%2820160409%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+subaru-fa20dit-fa24:
+  autore: Mr.choppers
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:2019_Subaru_Ascent_FA24F_engine.jpg
+  titolo: File:2019 Subaru Ascent FA24F engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2019_Subaru_Ascent_FA24F_engine.jpg/960px-2019_Subaru_Ascent_FA24F_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+suzuki-m:
+  autore: カップメーン
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:Suzuki_Swift_Sport_M15A_engine.jpg
+  titolo: File:Suzuki Swift Sport M15A engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Suzuki_Swift_Sport_M15A_engine.jpg/960px-Suzuki_Swift_Sport_M15A_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-1jz-gte:
+  autore: Blueck (talk)
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:1JZ-GTE_VVT-i_engine_in_1989_Toyota_Cressida.jpg
+  titolo: File:1JZ-GTE VVT-i engine in 1989 Toyota Cressida.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/1JZ-GTE_VVT-i_engine_in_1989_Toyota_Cressida.jpg/960px-1JZ-GTE_VVT-i_engine_in_1989_Toyota_Cressida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-1kd-1gd:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_1KD-FTV_Engine_01.JPG
+  titolo: File:Toyota 1KD-FTV Engine 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Toyota_1KD-FTV_Engine_01.JPG/960px-Toyota_1KD-FTV_Engine_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-1uz-fe:
+  autore: Morio
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:1989_Toyota_1UZ-FE_Type_engine_rear.jpg
+  titolo: File:1989 Toyota 1UZ-FE Type engine rear.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1989_Toyota_1UZ-FE_Type_engine_rear.jpg/960px-1989_Toyota_1UZ-FE_Type_engine_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-2gr:
+  autore: Altair78
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:V6_2GR-FE_RX_350_engine.jpg
+  titolo: File:V6 2GR-FE RX 350 engine.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f7/V6_2GR-FE_RX_350_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+toyota-2jz-gte:
+  autore: chen chin from taipei~tokyo, taiwan~japan
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Tuned_2JZ-GTE_engine.jpg
+  titolo: File:Tuned 2JZ-GTE engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Tuned_2JZ-GTE_engine.jpg/960px-Tuned_2JZ-GTE_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-2ur-gse:
+  autore: Hatsukari715
+  licenza: Public domain
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_2UR-GSE_Engine.JPG
+  titolo: File:Toyota 2UR-GSE Engine.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Toyota_2UR-GSE_Engine.JPG/960px-Toyota_2UR-GSE_Engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-2zz-ge:
+  autore: Morio
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:1999_Toyota_2ZZ-GE_Type_engine_left.jpg
+  titolo: File:1999 Toyota 2ZZ-GE Type engine left.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/1999_Toyota_2ZZ-GE_Type_engine_left.jpg/960px-1999_Toyota_2ZZ-GE_Type_engine_left.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-3s-gte:
+  autore: User:GhostOfTiber
+  licenza: CC BY 2.5
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_3S-GTE_engine_after_cleaning.jpg
+  titolo: File:Toyota 3S-GTE engine after cleaning.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Toyota_3S-GTE_engine_after_cleaning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+toyota-4a-ge:
+  autore: dave_7 from Lethbridge, Canada
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_4AGE_Engine_Front_View_(3256252084).jpg
+  titolo: File:Toyota 4AGE Engine Front View (3256252084).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Toyota_4AGE_Engine_Front_View_%283256252084%29.jpg/960px-Toyota_4AGE_Engine_Front_View_%283256252084%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+toyota-7m-gte:
+  autore: Neodarkshadow
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:7M-GTE_oil_pump.jpg
+  titolo: File:7M-GTE oil pump.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/21/7M-GTE_oil_pump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+toyota-a25a:
+  autore: charlesbarkertoyota
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_A25A_engine.jpg
+  titolo: File:Toyota A25A engine.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Toyota_A25A_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+toyota-g16e-gts:
+  autore: Tokumeigakarinoaoshima
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:Toyota_G16E-GTS_engine.jpg
+  titolo: File:Toyota G16E-GTS engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Toyota_G16E-GTS_engine.jpg/960px-Toyota_G16E-GTS_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea113-18t:
+  autore: Curimedia
+  licenza: CC BY 2.0
+  pagina: https://commons.wikimedia.org/wiki/File:Seat_Ibiza_1.8T_-_Esc._Motor_Terrassa_(4960290843).jpg
+  titolo: File:Seat Ibiza 1.8T - Esc. Motor Terrassa (4960290843).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Seat_Ibiza_1.8T_-_Esc._Motor_Terrassa_%284960290843%29.jpg/960px-Seat_Ibiza_1.8T_-_Esc._Motor_Terrassa_%284960290843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea211-10-tsi:
+  autore: Wikisympathisant
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:VW_EA211-evo_Deutsches-Museum.jpg
+  titolo: File:VW EA211-evo Deutsches-Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/VW_EA211-evo_Deutsches-Museum.jpg/960px-VW_EA211-evo_Deutsches-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea211-14-tsi:
+  autore: Wikisympathisant
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:VW_EA211-evo_Deutsches-Museum.jpg
+  titolo: File:VW EA211-evo Deutsches-Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/VW_EA211-evo_Deutsches-Museum.jpg/960px-VW_EA211-evo_Deutsches-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea211-15-tsi-evo:
+  autore: Wikisympathisant
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:VW_EA211-evo_Deutsches-Museum.jpg
+  titolo: File:VW EA211-evo Deutsches-Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/VW_EA211-evo_Deutsches-Museum.jpg/960px-VW_EA211-evo_Deutsches-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea288:
+  autore: Alexander Noé
+  licenza: CC0
+  pagina: https://commons.wikimedia.org/wiki/File:Information_about_the_DEF_tank_and_DEF_in_a_car_with_VW_EA288_evo_engine.png
+  titolo: File:Information about the DEF tank and DEF in a car with VW EA288 evo engine.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Information_about_the_DEF_tank_and_DEF_in_a_car_with_VW_EA288_evo_engine.png/960px-Information_about_the_DEF_tank_and_DEF_in_a_car_with_VW_EA288_evo_engine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-ea888:
+  autore: Dinkun Chen
+  licenza: CC BY-SA 4.0
+  pagina: https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_EA888_EVO_5_ENGINE_DEMO.jpg
+  titolo: File:VOLKSWAGEN EA888 EVO 5 ENGINE DEMO.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/VOLKSWAGEN_EA888_EVO_5_ENGINE_DEMO.jpg/960px-VOLKSWAGEN_EA888_EVO_5_ENGINE_DEMO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+vw-vr6:
+  autore: 'Original uploader was Toffguy at nl.wikipedia (Original text : Toffguy)'
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:Kleppen_VR6-motor_12V.PNG
+  titolo: File:Kleppen VR6-motor 12V.PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/23/Kleppen_VR6-motor_12V.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+vw-w12:
+  autore: Saveferris888
+  licenza: CC BY-SA 3.0
+  pagina: https://commons.wikimedia.org/wiki/File:W12_Engine.jpg
+  titolo: File:W12 Engine.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/W12_Engine.jpg/960px-W12_Engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
