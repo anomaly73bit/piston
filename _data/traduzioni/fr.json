@@ -166,5 +166,62 @@
   ],
   "_source_hash": "def6beca9699bfd80243fef89413967f401ca04404968a1e8c11da6347f25b8e",
   "_complete": true
+ },
+ "lada-vaz-21126": {
+  "paese": "Russie",
+  "alimentazione": "Essence",
+  "aspirazione": "Atmosphérique",
+  "compressione": "10,45–11:1 (selon la version)",
+  "distribuzione": "DOHC à courroie, 16 soupapes",
+  "blocco": "Fonte",
+  "testa": "Aluminium",
+  "iniezione": "Injection indirecte multipoint électronique",
+  "in_breve": [
+   {
+    "valore": "1.596 cc",
+    "testo": "cylindrée indiquée dans le manuel de la Priora"
+   },
+   {
+    "valore": "16 soupapes",
+    "testo": "culasse DOHC avec poussoirs hydrauliques"
+   },
+   {
+    "valore": "2018",
+    "testo": "introduction de pistons à évidements pour les soupapes"
+   }
+  ],
+  "versioni": [
+   {
+    "nota": "Version Priora et Granta ; puissance maximale à 5600 tr/min, couple maximal à 4000 tr/min."
+   },
+   {
+    "nota": "Calibrage Sport ; 114–118 CV selon l'application et l'homologation."
+   },
+   {
+    "nota": "Version NFR de la Kalina, avec des modifications spécifiques de l'admission et de la distribution."
+   }
+  ],
+  "storia": "Le VAZ-21126 débute en 2007 sur la Lada Priora, puis équipe la Kalina, la Granta et certaines Samara 2. C'est un quatre-cylindres à bloc en fonte et culasse en aluminium à 16 soupapes, avec deux arbres à cames en tête et une distribution par courroie à tendeur automatique. Sa conception utilise un ensemble pistons-bielles allégé Federal Mogul et des composants de distribution Gates. À partir de 2018, certaines applications reçoivent des pistons à évidements afin de réduire le risque de contact entre pistons et soupapes en cas de rupture de la courroie.",
+  "punti_deboli": [
+   "Sur les versions antérieures à la modification des pistons de 2018, la rupture de la courroie ou le grippage d'un galet peut entraîner un contact entre pistons et soupapes.",
+   "Les défaillances du thermostat peuvent perturber la température de fonctionnement et provoquer une surchauffe.",
+   "Un ralenti instable peut provenir du débitmètre d'air, d'un boîtier papillon encrassé ou du régulateur de ralenti ; des défaillances des bobines d'allumage sont également documentées."
+  ],
+  "limiti": "Aucun seuil de puissance de préparation sûr et vérifié n'est disponible pour les pièces internes d'origine. Avant de modifier l'admission, la distribution ou le régime moteur, contrôler la courroie, les galets, la pompe à eau, le refroidissement et les poussoirs hydrauliques.",
+  "curiosita": [
+   "Les versions Sport 21126-77 et NFR 21126-81 partagent la même architecture de base mais utilisent des réglages et des composants spécifiques.",
+   "Une révision des pistons a été introduite en 2018 afin de réduire le risque de dégâts aux soupapes après une rupture de courroie."
+  ],
+  "manutenzione": [
+   "Contrôler régulièrement la courroie de distribution, les galets et la pompe à eau, surtout sur les moteurs antérieurs à la révision de 2018.",
+   "Les poussoirs hydrauliques suppriment le réglage périodique du jeu aux soupapes ; respecter les intervalles de vidange et de filtre propres au véhicule."
+  ],
+  "fonti": [
+   {},
+   {},
+   {}
+  ],
+  "_source_hash": "e827320aaa2c884f9f8c98124ce41ecfad3412900e757264b8d3f7e77f76adf2",
+  "_complete": true
  }
 }
