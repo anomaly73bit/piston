@@ -53,10 +53,11 @@ layout: default
   <div class="motore-corpo">
     <aside class="tavola">
       {% if m.affidabilita %}{% include termometro.html a=m.affidabilita motivo=trad.affidabilita.motivo t=t pref=pref %}{% endif %}
-      {% if m.foto %}
+      {%- assign foto = m.foto | default: site.data.foto[m.slug] -%}
+      {% if foto %}
       <figure class="foto">
-        <img src="{{ m.foto.url }}" alt="{% if trad.foto.descrizione %}{{ trad.foto.descrizione | escape }}{% else %}{{ m.foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async">
-        <figcaption>{% if trad.foto.descrizione %}{{ trad.foto.descrizione }}{% else %}{{ m.foto.descrizione | default: m.nome }}{% endif %}. {{ t.foto_di }} {{ m.foto.autore }}, <a href="{{ m.foto.pagina }}" rel="noopener">{{ m.foto.licenza }}</a>, {{ t.da_commons }}.</figcaption>
+        <img src="{{ foto.url }}" alt="{% if trad.foto.descrizione %}{{ trad.foto.descrizione | escape }}{% else %}{{ foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async">
+        <figcaption>{% if trad.foto.descrizione %}{{ trad.foto.descrizione }}{% else %}{{ foto.descrizione | default: m.nome }}{% endif %}. {{ t.foto_di }} {{ foto.autore }}, <a href="{{ foto.pagina }}" rel="noopener">{{ foto.licenza }}</a>, {{ t.da_commons }}.</figcaption>
       </figure>
       {% endif %}
       <figure>

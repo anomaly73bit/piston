@@ -5,11 +5,12 @@
   <div class="galleria-motori">
     {% assign ordinati = site.data.motori | sort: "nome" %}
     {% for m in ordinati %}
-      {% if m.foto and m.foto.url and m.foto.pagina %}
+      {%- assign foto = m.foto | default: site.data.foto[m.slug] -%}
+      {% if foto and foto.url and foto.pagina %}
       {%- assign tr = site.data.traduzioni[lingua][m.slug] -%}
       <article class="galleria-item">
-        <a href="{{ pref | append: '/motori/' | append: m.slug | append: '/' | relative_url }}"><img src="{{ m.foto.url | escape }}" alt="{% if tr.foto.descrizione %}{{ tr.foto.descrizione | escape }}{% else %}{{ m.foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async"><strong>{{ m.nome }}</strong></a>
-        <p>{{ m.foto.autore | escape }} · <a href="{{ m.foto.pagina | escape }}" rel="noopener noreferrer">{{ m.foto.licenza | escape }}</a></p>
+        <a href="{{ pref | append: '/motori/' | append: m.slug | append: '/' | relative_url }}"><img src="{{ foto.url | escape }}" alt="{% if tr.foto.descrizione %}{{ tr.foto.descrizione | escape }}{% else %}{{ foto.descrizione | default: m.nome | escape }}{% endif %}" loading="lazy" decoding="async"><strong>{{ m.nome }}</strong></a>
+        <p>{{ foto.autore | escape }} · <a href="{{ foto.pagina | escape }}" rel="noopener noreferrer">{{ foto.licenza | escape }}</a></p>
       </article>
       {% endif %}
     {% endfor %}

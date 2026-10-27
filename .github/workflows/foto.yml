@@ -1,0 +1,37 @@
+name: Foto dei motori da Wikimedia Commons
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/foto.py'
+      - '.github/workflows/foto.yml'
+permissions:
+  contents: write
+concurrency:
+  group: piston-foto
+  cancel-in-progress: false
+jobs:
+  foto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - name: Cerca le foto mancanti
+        run: python tools/foto.py --max 400
+      - name: Pubblica
+        run: |
+          git config user.name "piston-foto-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/foto.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Foto dei motori da Wikimedia Commons"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
